@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc-localedata-i18n
+RRECOMMENDS = 
+PKGSIZE = 39247
+FILES = /usr/share/i18n/locales/km_KH
+FILELIST = /usr/share/i18n/locales/km_KH

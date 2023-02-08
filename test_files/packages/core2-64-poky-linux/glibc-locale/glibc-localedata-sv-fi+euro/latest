@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc-localedata-fi-fi glibc-localedata-fi-fi+euro glibc-localedata-sv-fi glibc-localedata-sv-se
+RRECOMMENDS = 
+PKGSIZE = 1723
+FILES = /usr/share/i18n/locales/sv_FI@euro
+FILELIST = /usr/share/i18n/locales/sv_FI@euro

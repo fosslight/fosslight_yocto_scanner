@@ -1,0 +1,8 @@
+PV = 4.7.0
+PR = r0
+RPROVIDES = be-translation findutils-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-be
+PKGSIZE = 2343
+FILES = /usr/share/locale/be
+FILELIST = /usr/share/locale/be/LC_MESSAGES/findutils.mo

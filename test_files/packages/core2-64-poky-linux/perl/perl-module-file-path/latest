@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-cwd perl-module-exporter perl-module-file-basename perl-module-strict perl-module-vars
+RRECOMMENDS = 
+PKGSIZE = 43253
+FILES = /usr/lib/perl5/5.30.2/File/Path.pm
+FILELIST = /usr/lib/perl5/5.30.2/File/Path.pm

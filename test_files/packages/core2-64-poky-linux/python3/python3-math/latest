@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) python3-core python3-crypt
+RRECOMMENDS = 
+PKGSIZE = 145070
+FILES = /usr/lib/python3.8/lib-dynload/_random.*.so /usr/lib/python3.8/lib-dynload/cmath.*.so /usr/lib/python3.8/random.py /usr/lib/python3.8/__pycache__/random.*.pyc
+FILELIST = /usr/lib/python3.8/__pycache__/random.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/random.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/random.cpython-38.pyc /usr/lib/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/lib-dynload/cmath.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/random.py

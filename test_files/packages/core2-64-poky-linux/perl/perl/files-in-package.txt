@@ -1,0 +1,26 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            14288 ./usr/bin/perl
+drwxr-xr-x root       root             4096 ./usr/lib
+-r-xr-xr-x root       root          3351136 ./usr/lib/libperl.so.5.30.0
+lrwxrwxrwx root       root               17 ./usr/lib/libperl.so.5 -> libperl.so.5.30.0
+drwxr-xr-x root       root             4096 ./usr/lib/perl5
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2
+-rwxr-xr-x root       root             3305 ./usr/lib/perl5/5.30.2/Config.pm
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/ExtUtils
+-r--r--r-- root       root             1105 ./usr/lib/perl5/5.30.2/ExtUtils/MANIFEST.SKIP
+-rwxr-xr-x root       root            11315 ./usr/lib/perl5/5.30.2/ExtUtils/typemap
+-r--r--r-- root       root             5071 ./usr/lib/perl5/5.30.2/ExtUtils/xsubpp
+-r--r--r-- root       root             4738 ./usr/lib/perl5/5.30.2/strict.pm
+-r--r--r-- root       root             2458 ./usr/lib/perl5/5.30.2/vars.pm
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/warnings
+-r--r--r-- root       root            49989 ./usr/lib/perl5/5.30.2/warnings.pm
+-r--r--r-- root       root              759 ./usr/lib/perl5/5.30.2/warnings/register.pm
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux
+-r--r--r-- root       root              409 ./usr/lib/perl5/5.30.2/x86_64-linux/Config_git.pl
+lrwxrwxrwx root       root               15 ./usr/lib/perl5/5.30.2/x86_64-linux/Config_heavy-target.pl -> Config_heavy.pl
+-r--r--r-- root       root             3305 ./usr/lib/perl5/5.30.2/x86_64-linux/Config.pm
+-rwxr-xr-x root       root            36089 ./usr/lib/perl5/config.sh
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/site_perl
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/site_perl/5.30.2
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/site_perl/5.30.2/x86_64-linux

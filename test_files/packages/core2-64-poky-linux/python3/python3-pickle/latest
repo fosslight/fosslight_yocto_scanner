@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) python3-core
+RRECOMMENDS = 
+PKGSIZE = 654338
+FILES = /usr/lib/python3.8/_compat_pickle.py /usr/lib/python3.8/lib-dynload/_pickle.*.so /usr/lib/python3.8/pickle.py /usr/lib/python3.8/pickletools.py /usr/lib/python3.8/shelve.py /usr/lib/python3.8/__pycache__/_compat_pickle.*.pyc /usr/lib/python3.8/__pycache__/pickle.*.pyc /usr/lib/python3.8/__pycache__/pickletools.*.pyc /usr/lib/python3.8/__pycache__/shelve.*.pyc
+FILELIST = /usr/lib/python3.8/__pycache__/_compat_pickle.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/_compat_pickle.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/_compat_pickle.cpython-38.pyc /usr/lib/python3.8/__pycache__/pickle.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/pickle.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/pickle.cpython-38.pyc /usr/lib/python3.8/__pycache__/pickletools.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/pickletools.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/pickletools.cpython-38.pyc /usr/lib/python3.8/__pycache__/shelve.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/shelve.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/shelve.cpython-38.pyc /usr/lib/python3.8/_compat_pickle.py /usr/lib/python3.8/lib-dynload/_pickle.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/pickle.py /usr/lib/python3.8/pickletools.py /usr/lib/python3.8/shelve.py

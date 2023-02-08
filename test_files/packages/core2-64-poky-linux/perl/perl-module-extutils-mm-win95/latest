@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-extutils-makemaker-config perl-module-extutils-mm-win32 perl-module-strict
+RRECOMMENDS = 
+PKGSIZE = 1281
+FILES = /usr/lib/perl5/5.30.2/ExtUtils/MM_Win95.pm
+FILELIST = /usr/lib/perl5/5.30.2/ExtUtils/MM_Win95.pm

@@ -1,0 +1,8 @@
+PV = 2.35.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224)
+RRECOMMENDS = 
+PKGSIZE = 71720
+FILES = /usr/sbin/blkzone
+FILELIST = /usr/sbin/blkzone

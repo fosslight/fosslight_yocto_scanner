@@ -1,0 +1,9 @@
+PV = 2.10
+PR = r0
+PKG = liblzo2-ptest
+RPROVIDES = lzo-ptest (=2.10)
+RDEPENDS = glibc (>= 2.31+git0+1094741224) lzo (>= 2.10)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 126522
+FILES = /usr/lib/lzo/ptest
+FILELIST = /usr/lib/lzo/ptest/align /usr/lib/lzo/ptest/check.sh /usr/lib/lzo/ptest/chksum /usr/lib/lzo/ptest/lzotest /usr/lib/lzo/ptest/run-ptest /usr/lib/lzo/ptest/simple /usr/lib/lzo/ptest/testmini

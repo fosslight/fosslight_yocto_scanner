@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r155
+DEPENDS = update-rc.d-native
+PACKAGES = initscripts-src initscripts-dbg initscripts-functions initscripts-sushell initscripts-staticdev initscripts-dev initscripts-doc initscripts-locale initscripts
+LAYER = core

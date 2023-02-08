@@ -1,0 +1,10 @@
+PV = 2.31+gitAUTOINC+1094741224
+PR = r0
+PKG = libnss-db2
+PKGV = 2.31+git0+1094741224
+RPROVIDES = libnss-db (=2.31+git0+1094741224)
+RDEPENDS = glibc (>= 2.31+git0+1094741224) glibc-utils
+RRECOMMENDS = 
+PKGSIZE = 40573
+FILES = /lib/libnss_db.so.* /lib/libnss_db-*.so /var/db/Makefile /var/db/makedbs.sh
+FILELIST = /lib/libnss_db-2.31.so /lib/libnss_db.so.2 /var/db/Makefile /var/db/makedbs.sh

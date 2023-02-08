@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-strict perl-module-term-cap
+RRECOMMENDS = 
+PKGSIZE = 14036
+FILES = /usr/lib/perl5/5.30.2/Term/ReadLine.pm
+FILELIST = /usr/lib/perl5/5.30.2/Term/ReadLine.pm

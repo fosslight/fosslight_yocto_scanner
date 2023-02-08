@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x root       root             4096 ./usr/lib/locale/zh_SG.GBK
+-rw-r--r-- root       root              125 ./usr/lib/locale/zh_SG.GBK/LC_ADDRESS
+-rw-r--r-- root       root           893064 ./usr/lib/locale/zh_SG.GBK/LC_COLLATE
+-rw-r--r-- root       root           304232 ./usr/lib/locale/zh_SG.GBK/LC_CTYPE
+-rw-r--r-- root       root              462 ./usr/lib/locale/zh_SG.GBK/LC_IDENTIFICATION
+-rw-r--r-- root       root               21 ./usr/lib/locale/zh_SG.GBK/LC_MEASUREMENT
+drwxr-xr-x root       root             4096 ./usr/lib/locale/zh_SG.GBK/LC_MESSAGES
+-rw-r--r-- root       root               70 ./usr/lib/locale/zh_SG.GBK/LC_MESSAGES/SYS_LC_MESSAGES
+-rw-r--r-- root       root              284 ./usr/lib/locale/zh_SG.GBK/LC_MONETARY
+-rw-r--r-- root       root               71 ./usr/lib/locale/zh_SG.GBK/LC_NAME
+-rw-r--r-- root       root               52 ./usr/lib/locale/zh_SG.GBK/LC_NUMERIC
+-rw-r--r-- root       root               32 ./usr/lib/locale/zh_SG.GBK/LC_PAPER
+-rw-r--r-- root       root               52 ./usr/lib/locale/zh_SG.GBK/LC_TELEPHONE
+-rw-r--r-- root       root             2676 ./usr/lib/locale/zh_SG.GBK/LC_TIME

@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-overload perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 18985
+FILES = /usr/lib/perl5/5.30.2/NEXT.pm
+FILELIST = /usr/lib/perl5/5.30.2/NEXT.pm

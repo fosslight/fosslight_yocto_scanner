@@ -1,0 +1,5 @@
+PV = 2.4.0+gitAUTOINC+1e9a845859
+PR = r0
+DEPENDS = virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = ptest-runner-src ptest-runner-dbg ptest-runner-staticdev ptest-runner-dev ptest-runner-doc ptest-runner-locale ptest-runner
+LAYER = core

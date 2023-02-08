@@ -1,0 +1,14 @@
+drwxr-xr-x -          -                4096 ./bin
+-rwxrwxr-x -          -                3993 ./bin/ginstall-info
+-rwxrwxr-x -          -                3993 ./bin/install-info
+-rwxrwxr-x -          -                3993 ./bin/makeinfo
+-rwxrwxr-x -          -                3993 ./bin/pdftexi2dvi
+-rwxrwxr-x -          -                3993 ./bin/pod2texi
+-rwxrwxr-x -          -                3993 ./bin/texi2any
+-rwxrwxr-x -          -                3993 ./bin/texi2dvi
+-rwxrwxr-x -          -                3993 ./bin/texi2pdf
+-rwxrwxr-x -          -                3993 ./bin/texindex
+-rwxrwxr-x -          -                3993 ./bin/txixml2texi
+-rwxrwxr-x -          -                3993 ./bin/update-info-dir
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  20 ./sysroot-providers/texinfo-dummy-native

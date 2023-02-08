@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/perl5
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Math
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Math/BigInt
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Math/BigInt/FastCalc
+-r-xr-xr-x root       root            18232 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Math/BigInt/FastCalc/FastCalc.so
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/Math
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/Math/BigInt
+-r--r--r-- root       root             4111 ./usr/lib/perl5/5.30.2/x86_64-linux/Math/BigInt/FastCalc.pm

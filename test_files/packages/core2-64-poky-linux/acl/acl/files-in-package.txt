@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            14288 ./usr/bin/chacl
+-rwxr-xr-x root       root            31312 ./usr/bin/getfacl
+-rwxr-xr-x root       root            39568 ./usr/bin/setfacl

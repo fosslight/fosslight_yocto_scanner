@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-strict perl-module-threads-shared perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 17647
+FILES = /usr/lib/perl5/5.30.2/Thread/Queue.pm
+FILELIST = /usr/lib/perl5/5.30.2/Thread/Queue.pm

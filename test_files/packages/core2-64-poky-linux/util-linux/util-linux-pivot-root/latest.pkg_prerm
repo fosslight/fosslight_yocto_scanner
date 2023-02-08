@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  pivot_root /sbin/pivot_root.util-linux

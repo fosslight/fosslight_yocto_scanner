@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2889680
+FILES = /usr/lib/locale/mfe_MU
+FILELIST = /usr/lib/locale/mfe_MU/LC_ADDRESS /usr/lib/locale/mfe_MU/LC_COLLATE /usr/lib/locale/mfe_MU/LC_CTYPE /usr/lib/locale/mfe_MU/LC_IDENTIFICATION /usr/lib/locale/mfe_MU/LC_MEASUREMENT /usr/lib/locale/mfe_MU/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/mfe_MU/LC_MONETARY /usr/lib/locale/mfe_MU/LC_NAME /usr/lib/locale/mfe_MU/LC_NUMERIC /usr/lib/locale/mfe_MU/LC_PAPER /usr/lib/locale/mfe_MU/LC_TELEPHONE /usr/lib/locale/mfe_MU/LC_TIME

@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2939128
+FILES = /usr/lib/locale/shn_MM
+FILELIST = /usr/lib/locale/shn_MM/LC_ADDRESS /usr/lib/locale/shn_MM/LC_COLLATE /usr/lib/locale/shn_MM/LC_CTYPE /usr/lib/locale/shn_MM/LC_IDENTIFICATION /usr/lib/locale/shn_MM/LC_MEASUREMENT /usr/lib/locale/shn_MM/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/shn_MM/LC_MONETARY /usr/lib/locale/shn_MM/LC_NAME /usr/lib/locale/shn_MM/LC_NUMERIC /usr/lib/locale/shn_MM/LC_PAPER /usr/lib/locale/shn_MM/LC_TELEPHONE /usr/lib/locale/shn_MM/LC_TIME

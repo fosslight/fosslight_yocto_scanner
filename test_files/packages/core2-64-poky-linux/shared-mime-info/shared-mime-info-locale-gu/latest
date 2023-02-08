@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = gu-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-gu
+PKGSIZE = 499
+FILES = /usr/share/locale/gu
+FILELIST = /usr/share/locale/gu/LC_MESSAGES/shared-mime-info.mo

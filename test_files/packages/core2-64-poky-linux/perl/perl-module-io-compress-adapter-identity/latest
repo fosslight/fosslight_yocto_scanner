@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-bytes perl-module-io-compress-base-common perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 1438
+FILES = /usr/lib/perl5/5.30.2/IO/Compress/Adapter/Identity.pm
+FILELIST = /usr/lib/perl5/5.30.2/IO/Compress/Adapter/Identity.pm

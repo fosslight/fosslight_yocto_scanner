@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/bc bc /usr/bin/bc.bc 100
+	update-alternatives --install /usr/bin/dc dc /usr/bin/dc.bc 100

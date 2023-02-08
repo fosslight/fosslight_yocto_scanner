@@ -1,0 +1,8 @@
+PV = 2.4.101
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libdrm-etnaviv-dbg libdrm-kms-dbg libpciaccess-dbg
+PKGSIZE = 2104640
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/etnaviv_2d_test /usr/bin/.debug/etnaviv_bo_cache_test /usr/bin/.debug/etnaviv_cmd_stream_test /usr/bin/.debug/kms-steal-crtc /usr/bin/.debug/kms-universal-planes /usr/bin/.debug/kmstest /usr/bin/.debug/modeprint /usr/bin/.debug/modetest /usr/bin/.debug/proptest /usr/bin/.debug/vbltest /usr/lib/.debug/libdrm.so.2.4.0 /usr/lib/.debug/libdrm_amdgpu.so.1.0.0 /usr/lib/.debug/libdrm_etnaviv.so.1.0.0 /usr/lib/.debug/libdrm_freedreno.so.1.0.0 /usr/lib/.debug/libdrm_intel.so.1.0.0 /usr/lib/.debug/libdrm_nouveau.so.2.0.0 /usr/lib/.debug/libdrm_omap.so.1.0.0 /usr/lib/.debug/libdrm_radeon.so.1.0.1 /usr/lib/.debug/libkms.so.1.0.0

@@ -1,0 +1,8 @@
+PV = 5.5.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) iptables (>= 1.8.4) libcap (>= 2.33) libelf (>= 0.179) libmnl (>= 1.0.4) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 556335
+FILES = /sbin/tc* /usr/lib/tc/*.so
+FILELIST = /sbin/tc.iproute2 /usr/lib/tc/m_ipt.so /usr/lib/tc/m_xt.so

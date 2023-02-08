@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2932379
+FILES = /usr/lib/locale/ca_ES@valencia
+FILELIST = /usr/lib/locale/ca_ES@valencia/LC_ADDRESS /usr/lib/locale/ca_ES@valencia/LC_COLLATE /usr/lib/locale/ca_ES@valencia/LC_CTYPE /usr/lib/locale/ca_ES@valencia/LC_IDENTIFICATION /usr/lib/locale/ca_ES@valencia/LC_MEASUREMENT /usr/lib/locale/ca_ES@valencia/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/ca_ES@valencia/LC_MONETARY /usr/lib/locale/ca_ES@valencia/LC_NAME /usr/lib/locale/ca_ES@valencia/LC_NUMERIC /usr/lib/locale/ca_ES@valencia/LC_PAPER /usr/lib/locale/ca_ES@valencia/LC_TELEPHONE /usr/lib/locale/ca_ES@valencia/LC_TIME

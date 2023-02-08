@@ -1,0 +1,7 @@
+drwxr-xr-x -          -                4096 ./lib
+lrwxrwxrwx -          -                  30 ./lib/cpp -> /usr/bin/x86_64-poky-linux-cpp
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   3 ./sysroot-providers/gcc
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/share

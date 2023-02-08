@@ -1,0 +1,9 @@
+PV = 26
+PR = r0
+PKG = libkmod2
+RPROVIDES = libkmod (=26)
+RDEPENDS = glibc (>= 2.31+git0+1094741224) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 84008
+FILES = /lib/libkmod*.so.* /usr/lib/libkmod*.so.*
+FILELIST = /usr/lib/libkmod.so.2 /usr/lib/libkmod.so.2.3.4

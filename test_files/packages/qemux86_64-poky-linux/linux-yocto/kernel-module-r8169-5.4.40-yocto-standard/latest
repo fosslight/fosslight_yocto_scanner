@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-r8169
+RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-libphy-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 130296
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/ethernet/realtek/r8169.ko /etc/modules-load.d/r8169.conf /etc/modprobe.d/r8169.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/ethernet/realtek/r8169.ko

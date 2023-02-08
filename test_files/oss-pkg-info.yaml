@@ -1,0 +1,30 @@
+busybox:
+- name: glibc
+  version: 2.28
+  source: https://ftp.gnu.org/gnu/glibc
+  license:
+  - GPL-2.0
+  - LGPL-2.1
+  file :
+  - main.c
+  - main.h
+- name : dbus
+  version : 1.9.14
+  source : https://dbus.freedesktop.org/releases/dbus
+  homepage : https://www.freedesktop.org
+  license : GPL-2.0
+  file : src/*
+  copyright : |
+   Copyright (c) 1992-2014 Free Software Foundation, Inc.
+   Copyright (c) 2003 Philip Blundell
+- name : node-openssl
+  version : 1.0.1
+  source : https://github.com/131/node-openssl
+  license : ISC
+run-postinsts:
+- name : bazel
+  source : https://github.com/bazelbuild/bazel
+  license : Apache-2.0
+  file : build/
+  exclude : True
+  comment : Script for build

@@ -1,0 +1,8 @@
+PV = 0.19
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-dbusmock-dev (= 0.19-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/python3-dbusmock/*.a /usr/lib/python3.8/site-packages/*.a
+FILELIST = 

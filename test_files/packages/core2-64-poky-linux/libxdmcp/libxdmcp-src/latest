@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.1.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 56070
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/Array.c /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/Fill.c /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/Flush.c /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/Key.c /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/Read.c /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/Unwrap.c /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/Wrap.c /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/Wrap.h /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/Wraphelp.c /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/Write.c /usr/src/debug/libxdmcp/1_1.1.3-r0/libXdmcp-1.1.3/include/X11/Xdmcp.h

@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 321219
+FILES = /usr/lib/locale/ru_RU.KOI8-R
+FILELIST = /usr/lib/locale/ru_RU.KOI8-R/LC_ADDRESS /usr/lib/locale/ru_RU.KOI8-R/LC_COLLATE /usr/lib/locale/ru_RU.KOI8-R/LC_CTYPE /usr/lib/locale/ru_RU.KOI8-R/LC_IDENTIFICATION /usr/lib/locale/ru_RU.KOI8-R/LC_MEASUREMENT /usr/lib/locale/ru_RU.KOI8-R/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/ru_RU.KOI8-R/LC_MONETARY /usr/lib/locale/ru_RU.KOI8-R/LC_NAME /usr/lib/locale/ru_RU.KOI8-R/LC_NUMERIC /usr/lib/locale/ru_RU.KOI8-R/LC_PAPER /usr/lib/locale/ru_RU.KOI8-R/LC_TELEPHONE /usr/lib/locale/ru_RU.KOI8-R/LC_TIME

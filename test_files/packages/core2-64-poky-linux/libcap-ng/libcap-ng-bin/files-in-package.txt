@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            14288 ./usr/bin/captest
+-rwxr-xr-x root       root            14288 ./usr/bin/filecap
+-rwxr-xr-x root       root            18392 ./usr/bin/netcap
+-rwxr-xr-x root       root            14288 ./usr/bin/pscap

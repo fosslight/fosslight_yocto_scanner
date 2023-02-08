@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-ka virtual-locale-ka-ge.georgian-ps
+RDEPENDS = glibc-binary-localedata-ka-ge.georgian-ps
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

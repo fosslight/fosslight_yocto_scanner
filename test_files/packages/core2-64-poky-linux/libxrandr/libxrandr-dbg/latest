@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.5.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libx11-dbg libxext-dbg libxrender-dbg
+PKGSIZE = 386424
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/.debug/libXrandr.so.2.2.0

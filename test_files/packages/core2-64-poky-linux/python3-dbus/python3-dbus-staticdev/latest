@@ -1,0 +1,8 @@
+PV = 1.2.16
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-dbus-dev (= 1.2.16-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/python3-dbus/*.a /usr/lib/python3.8/site-packages/*.a
+FILELIST = 

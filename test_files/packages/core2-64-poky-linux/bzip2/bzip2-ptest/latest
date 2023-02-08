@@ -1,0 +1,8 @@
+PV = 1.0.8
+PR = r0
+RPROVIDES = 
+RDEPENDS = bzip2 make
+RRECOMMENDS = ptest-runner
+PKGSIZE = 538569
+FILES = /usr/lib/bzip2/ptest
+FILELIST = /usr/lib/bzip2/ptest/Makefile /usr/lib/bzip2/ptest/bzip2 /usr/lib/bzip2/ptest/run-ptest /usr/lib/bzip2/ptest/sample1.bz2 /usr/lib/bzip2/ptest/sample1.ref /usr/lib/bzip2/ptest/sample2.bz2 /usr/lib/bzip2/ptest/sample2.ref /usr/lib/bzip2/ptest/sample3.bz2 /usr/lib/bzip2/ptest/sample3.ref

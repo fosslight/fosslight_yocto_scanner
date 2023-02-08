@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-dsb virtual-locale-dsb-de
+RDEPENDS = glibc-binary-localedata-dsb-de
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

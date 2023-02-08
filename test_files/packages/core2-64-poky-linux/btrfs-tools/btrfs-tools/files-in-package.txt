@@ -1,0 +1,29 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/udev
+drwxr-xr-x root       root             4096 ./lib/udev/rules.d
+-rw-r--r-- root       root              387 ./lib/udev/rules.d/64-btrfs-dm.rules
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root           933632 ./usr/bin/btrfs
+lrwxrwxrwx root       root                5 ./usr/bin/btrfsck -> btrfs
+-rwxr-xr-x root       root           527560 ./usr/bin/btrfs-convert
+-rwxr-xr-x root       root           490760 ./usr/bin/btrfs-find-root
+-rwxr-xr-x root       root           519360 ./usr/bin/btrfs-image
+-rwxr-xr-x root       root           498888 ./usr/bin/btrfs-map-logical
+-rwxr-xr-x root       root           494792 ./usr/bin/btrfs-select-super
+-rwxr-xr-x root       root           494784 ./usr/bin/btrfstune
+-rwxr-xr-x root       root             1185 ./usr/bin/fsck.btrfs
+-rwxr-xr-x root       root           519360 ./usr/bin/mkfs.btrfs
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           383584 ./usr/lib/libbtrfs.so.0.1
+lrwxrwxrwx root       root               15 ./usr/lib/libbtrfs.so.0 -> libbtrfs.so.0.1
+-rwxr-xr-x root       root            34704 ./usr/lib/libbtrfsutil.so.1.1.1
+lrwxrwxrwx root       root               21 ./usr/lib/libbtrfsutil.so.1 -> libbtrfsutil.so.1.1.1
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/site-packages
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/site-packages/btrfsutil-1.1.1-py3.8.egg-info
+-rw-r--r-- root       root                1 ./usr/lib/python3.8/site-packages/btrfsutil-1.1.1-py3.8.egg-info/dependency_links.txt
+-rw-r--r-- root       root              242 ./usr/lib/python3.8/site-packages/btrfsutil-1.1.1-py3.8.egg-info/PKG-INFO
+-rw-r--r-- root       root              203 ./usr/lib/python3.8/site-packages/btrfsutil-1.1.1-py3.8.egg-info/SOURCES.txt
+-rw-r--r-- root       root               10 ./usr/lib/python3.8/site-packages/btrfsutil-1.1.1-py3.8.egg-info/top_level.txt
+-rwxr-xr-x root       root            45936 ./usr/lib/python3.8/site-packages/btrfsutil.cpython-38-x86_64-linux-gnu.so

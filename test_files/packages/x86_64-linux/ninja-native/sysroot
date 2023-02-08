@@ -1,0 +1,5 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  12 ./sysroot-providers/ninja-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -              221288 ./usr/bin/ninja

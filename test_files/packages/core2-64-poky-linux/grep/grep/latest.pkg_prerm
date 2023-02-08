@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  grep /bin/grep.grep
+	update-alternatives --remove  egrep /bin/egrep.grep
+	update-alternatives --remove  fgrep /bin/fgrep.grep

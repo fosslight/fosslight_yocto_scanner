@@ -1,0 +1,8 @@
+PV = 0.17029
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-carp perl-module-exporter perl-module-overload perl-module-scalar-util perl-module-strict perl-module-vars perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 34221
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/liberror-perl /usr/lib/liberror-perl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/perl5 /usr/share/perl5
+FILELIST = /usr/lib/perl5/vendor_perl/5.30.2/Error.pm /usr/lib/perl5/vendor_perl/5.30.2/Error/Simple.pm

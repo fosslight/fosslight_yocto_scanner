@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-bytes perl-module-compress-raw-zlib perl-module-constant perl-module-exporter perl-module-io-compress-base-common perl-module-io-compress-gzip perl-module-io-compress-gzip-constants perl-module-io-handle perl-module-io-uncompress-gunzip perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 43996
+FILES = /usr/lib/perl5/5.30.2/Compress/Zlib.pm
+FILELIST = /usr/lib/perl5/5.30.2/Compress/Zlib.pm

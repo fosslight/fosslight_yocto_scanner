@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-errno perl-module-exporter perl-module-io-handle perl-module-io-select perl-module-io-socket-inet perl-module-io-socket-unix perl-module-socket perl-module-strict
+RRECOMMENDS = 
+PKGSIZE = 16032
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/IO/Socket.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/IO/Socket.pm

@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-sky2
+RDEPENDS = kernel-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 87472
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/ethernet/marvell/sky2.ko /etc/modules-load.d/sky2.conf /etc/modprobe.d/sky2.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/ethernet/marvell/sky2.ko

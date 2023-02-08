@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x root       root             4096 ./usr/lib/locale/zh_TW.EUC-TW
+-rw-r--r-- root       root              151 ./usr/lib/locale/zh_TW.EUC-TW/LC_ADDRESS
+-rw-r--r-- root       root           843987 ./usr/lib/locale/zh_TW.EUC-TW/LC_COLLATE
+-rw-r--r-- root       root           373136 ./usr/lib/locale/zh_TW.EUC-TW/LC_CTYPE
+-rw-r--r-- root       root              296 ./usr/lib/locale/zh_TW.EUC-TW/LC_IDENTIFICATION
+-rw-r--r-- root       root               24 ./usr/lib/locale/zh_TW.EUC-TW/LC_MEASUREMENT
+drwxr-xr-x root       root             4096 ./usr/lib/locale/zh_TW.EUC-TW/LC_MESSAGES
+-rw-r--r-- root       root               73 ./usr/lib/locale/zh_TW.EUC-TW/LC_MESSAGES/SYS_LC_MESSAGES
+-rw-r--r-- root       root              291 ./usr/lib/locale/zh_TW.EUC-TW/LC_MONETARY
+-rw-r--r-- root       root               75 ./usr/lib/locale/zh_TW.EUC-TW/LC_NAME
+-rw-r--r-- root       root               55 ./usr/lib/locale/zh_TW.EUC-TW/LC_NUMERIC
+-rw-r--r-- root       root               35 ./usr/lib/locale/zh_TW.EUC-TW/LC_PAPER
+-rw-r--r-- root       root               58 ./usr/lib/locale/zh_TW.EUC-TW/LC_TELEPHONE
+-rw-r--r-- root       root             3216 ./usr/lib/locale/zh_TW.EUC-TW/LC_TIME

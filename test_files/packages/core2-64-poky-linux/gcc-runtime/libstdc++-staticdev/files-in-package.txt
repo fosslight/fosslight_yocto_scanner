@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root         36485912 ./usr/lib/libstdc++.a
+-rw-r--r-- root       root          8584268 ./usr/lib/libstdc++fs.a
+-rw-r--r-- root       root          1408260 ./usr/lib/libsupc++.a

@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  fdisk /sbin/fdisk.util-linux

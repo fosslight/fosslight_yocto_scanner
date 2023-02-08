@@ -1,0 +1,9 @@
+PV = 6.2.0
+PR = r0
+PKG = libgmp-dev
+RPROVIDES = gmp-dev (=6.2.0)
+RDEPENDS = gmp (= 6.2.0-r0) libgmpxx
+RRECOMMENDS = glibc-dev libgcc-dev libgmpxx-dev libstdc++-dev
+PKGSIZE = 214308
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gmp/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/gmp-64.h /usr/include/gmp.h /usr/include/gmpxx.h /usr/lib/libgmp.so /usr/lib/libgmpxx.so /usr/lib/pkgconfig/gmp.pc /usr/lib/pkgconfig/gmpxx.pc

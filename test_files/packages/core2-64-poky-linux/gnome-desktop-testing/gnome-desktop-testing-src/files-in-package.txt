@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/gnome-desktop-testing
+drwxr-xr-x root       root             4096 ./usr/src/debug/gnome-desktop-testing/2018.1-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/gnome-desktop-testing/2018.1-r0/git
+drwxr-xr-x root       root             4096 ./usr/src/debug/gnome-desktop-testing/2018.1-r0/git/src
+-rw-r--r-- root       root            30050 ./usr/src/debug/gnome-desktop-testing/2018.1-r0/git/src/gnome-desktop-testing-runner.c

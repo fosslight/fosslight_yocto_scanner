@@ -1,0 +1,9 @@
+PV = 4.0.2
+PR = r0
+PKG = libmpfr-dev
+RPROVIDES = mpfr-dev (=4.0.2)
+RDEPENDS = mpfr (= 4.0.2-r0)
+RRECOMMENDS = autoconf-archive-dev glibc-dev gmp-dev
+PKGSIZE = 58475
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mpfr/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/mpf2mpfr.h /usr/include/mpfr.h /usr/lib/libmpfr.so /usr/lib/pkgconfig/mpfr.pc

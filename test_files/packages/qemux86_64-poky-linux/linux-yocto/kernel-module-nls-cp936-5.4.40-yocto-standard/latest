@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-nls-cp936
+RDEPENDS = kernel-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 139616
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/fs/nls/nls_cp936.ko /etc/modules-load.d/nls_cp936.conf /etc/modprobe.d/nls_cp936.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/fs/nls/nls_cp936.ko

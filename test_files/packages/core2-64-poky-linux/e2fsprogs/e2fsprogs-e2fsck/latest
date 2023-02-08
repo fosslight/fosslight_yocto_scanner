@@ -1,0 +1,8 @@
+PV = 1.45.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libcomerr (>= 1.45.6) libe2p (>= 1.45.6) libext2fs (>= 1.45.6) util-linux-libblkid (>= 2.35.1) util-linux-libuuid (>= 2.35.1)
+RRECOMMENDS = 
+PKGSIZE = 330808
+FILES = /sbin/e2fsck /sbin/fsck.ext*
+FILELIST = /sbin/e2fsck /sbin/fsck.ext2 /sbin/fsck.ext3 /sbin/fsck.ext4

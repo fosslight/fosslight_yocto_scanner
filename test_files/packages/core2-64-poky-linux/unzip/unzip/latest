@@ -1,0 +1,9 @@
+PE = 1
+PV = 6.0
+PR = r5
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 304153
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/unzip /usr/lib/unzip/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/funzip /usr/bin/unzip.unzip /usr/bin/unzipsfx /usr/bin/zipgrep /usr/bin/zipinfo

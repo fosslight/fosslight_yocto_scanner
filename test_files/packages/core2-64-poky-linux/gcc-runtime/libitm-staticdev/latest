@@ -1,0 +1,8 @@
+PV = 10.1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2080916
+FILES = /usr/lib/libitm.a
+FILELIST = /usr/lib/libitm.a

@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-mime-base64 perl-module-strict perl-module-vars
+RRECOMMENDS = 
+PKGSIZE = 1804
+FILES = /usr/lib/perl5/5.30.2/Digest/base.pm
+FILELIST = /usr/lib/perl5/5.30.2/Digest/base.pm

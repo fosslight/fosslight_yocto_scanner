@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-bytes perl-module-constant perl-module-exporter perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 3903
+FILES = /usr/lib/perl5/5.30.2/IO/Compress/Gzip/Constants.pm
+FILELIST = /usr/lib/perl5/5.30.2/IO/Compress/Gzip/Constants.pm

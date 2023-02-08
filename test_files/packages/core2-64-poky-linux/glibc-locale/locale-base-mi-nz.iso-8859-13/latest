@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-mi virtual-locale-mi-nz.iso-8859-13
+RDEPENDS = glibc-binary-localedata-mi-nz.iso-8859-13
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

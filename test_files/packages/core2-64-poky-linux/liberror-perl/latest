@@ -1,0 +1,5 @@
+PV = 0.17029
+PR = r0
+DEPENDS = perl perl perl-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = liberror-perl-src liberror-perl-dbg liberror-perl-ptest liberror-perl-staticdev liberror-perl-dev liberror-perl-doc liberror-perl-locale liberror-perl
+LAYER = core

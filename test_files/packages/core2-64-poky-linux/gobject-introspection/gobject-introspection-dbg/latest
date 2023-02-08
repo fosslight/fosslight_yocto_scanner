@@ -1,0 +1,8 @@
+PV = 1.64.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libffi-dbg
+PKGSIZE = 2195384
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug /usr/lib/gobject-introspection/giscanner/.debug/
+FILELIST = /usr/bin/.debug/g-ir-compiler /usr/bin/.debug/g-ir-generate /usr/bin/.debug/g-ir-inspect /usr/lib/.debug/libgirepository-1.0.so.1.0.0 /usr/lib/gobject-introspection/giscanner/.debug/_giscanner.cpython-38-x86_64-linux-gnu.so

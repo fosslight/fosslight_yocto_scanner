@@ -1,0 +1,9 @@
+PV = 1.6.37
+PR = r0
+PKG = libpng16-src
+RPROVIDES = libpng-src (=1.6.37)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 1398217
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/contrib/tools/png-fix-itxt.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/contrib/tools/pngfix.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/png.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/png.h /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngconf.h /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngerror.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngget.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pnginfo.h /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngmem.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngpread.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngpriv.h /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngread.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngrio.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngrtran.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngrutil.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngset.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngstruct.h /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngtrans.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngwio.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngwrite.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngwtran.c /usr/src/debug/libpng/1.6.37-r0/libpng-1.6.37/pngwutil.c

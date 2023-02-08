@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-core python3-stringold
+RRECOMMENDS = 
+PKGSIZE = 514094
+FILES = /usr/lib/python3.8/logging
+FILELIST = /usr/lib/python3.8/logging/__init__.py /usr/lib/python3.8/logging/__pycache__/__init__.cpython-38.opt-1.pyc /usr/lib/python3.8/logging/__pycache__/__init__.cpython-38.opt-2.pyc /usr/lib/python3.8/logging/__pycache__/__init__.cpython-38.pyc /usr/lib/python3.8/logging/__pycache__/config.cpython-38.opt-1.pyc /usr/lib/python3.8/logging/__pycache__/config.cpython-38.opt-2.pyc /usr/lib/python3.8/logging/__pycache__/config.cpython-38.pyc /usr/lib/python3.8/logging/__pycache__/handlers.cpython-38.opt-1.pyc /usr/lib/python3.8/logging/__pycache__/handlers.cpython-38.opt-2.pyc /usr/lib/python3.8/logging/__pycache__/handlers.cpython-38.pyc /usr/lib/python3.8/logging/config.py /usr/lib/python3.8/logging/handlers.py

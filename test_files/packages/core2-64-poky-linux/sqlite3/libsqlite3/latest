@@ -1,0 +1,10 @@
+PE = 3
+PV = 3.31.1
+PR = r0
+PKG = libsqlite3-0
+RPROVIDES = libsqlite3 (=3.31.1)
+RDEPENDS = glibc (>= 2.31+git0+1094741224)
+RRECOMMENDS = 
+PKGSIZE = 1244755
+FILES = /usr/lib/*.so.*
+FILELIST = /usr/lib/libsqlite3.so.0 /usr/lib/libsqlite3.so.0.8.6

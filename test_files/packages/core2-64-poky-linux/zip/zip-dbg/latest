@@ -1,0 +1,8 @@
+PV = 3.0
+PR = r2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 1474384
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/zip /usr/bin/.debug/zipcloak /usr/bin/.debug/zipnote /usr/bin/.debug/zipsplit

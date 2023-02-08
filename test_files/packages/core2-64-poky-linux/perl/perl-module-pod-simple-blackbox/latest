@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-integer perl-module-pod-simple perl-module-pod-simple-transcode perl-module-strict perl-module-vars
+RRECOMMENDS = 
+PKGSIZE = 72598
+FILES = /usr/lib/perl5/5.30.2/Pod/Simple/BlackBox.pm
+FILELIST = /usr/lib/perl5/5.30.2/Pod/Simple/BlackBox.pm

@@ -1,0 +1,15 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  14 ./sysroot-providers/sqlite3-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -              200808 ./usr/bin/sqlite3
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -               34802 ./usr/include/sqlite3ext.h
+-rw-r--r-- -          -              576161 ./usr/include/sqlite3.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -             1160128 ./usr/lib/libsqlite3.so.0.8.6
+lrwxrwxrwx -          -                  19 ./usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6
+lrwxrwxrwx -          -                  19 ./usr/lib/libsqlite3.so -> libsqlite3.so.0.8.6
+drwxrwxr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 340 ./usr/lib/pkgconfig/sqlite3.pc
+drwxr-xr-x -          -                4096 ./usr/share

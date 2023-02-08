@@ -1,0 +1,17 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  17 ./sysroot-providers/opkg-utils-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -                4382 ./usr/bin/arfile.py
+-rwxr-xr-x -          -               10269 ./usr/bin/opkg-build
+-rwxr-xr-x -          -                5410 ./usr/bin/opkg-buildpackage
+-rwxr-xr-x -          -                1556 ./usr/bin/opkg-compare-indexes
+-rwxr-xr-x -          -                 260 ./usr/bin/opkg-diff
+-rwxr-xr-x -          -                1052 ./usr/bin/opkg-extract-file
+-rwxr-xr-x -          -                 337 ./usr/bin/opkg-list-fields
+-rwxr-xr-x -          -               10490 ./usr/bin/opkg-make-index
+-rwxr-xr-x -          -               21660 ./usr/bin/opkg.py
+-rwxr-xr-x -          -                2896 ./usr/bin/opkg-show-deps
+-rwxr-xr-x -          -                 839 ./usr/bin/opkg-unbuild
+-rwxr-xr-x -          -                4678 ./usr/bin/update-alternatives
+drwxr-xr-x -          -                4096 ./usr/share

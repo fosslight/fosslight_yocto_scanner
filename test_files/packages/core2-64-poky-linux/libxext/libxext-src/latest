@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.3.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 238866
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/XEVI.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/XShm.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/Xag.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/Xdbe.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/Xext.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/extutil.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/multibuf.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/security.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/shape.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/sync.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/include/X11/extensions/xtestext1.h /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/DPMS.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/MITMisc.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/XAppgroup.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/XEVI.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/XLbx.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/XMultibuf.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/XSecurity.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/XShape.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/XShm.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/XSync.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/XTestExt1.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/Xcup.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/Xdbe.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/Xge.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/extutil.c /usr/src/debug/libxext/1_1.3.4-r0/libXext-1.3.4/src/globals.c

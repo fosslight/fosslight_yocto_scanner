@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-b perl-module-b-concise perl-module-strict
+RRECOMMENDS = 
+PKGSIZE = 2905
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/B/Terse.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/B/Terse.pm

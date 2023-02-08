@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-encode perl-module-parent perl-module-strict perl-module-warnings perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 31256
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/Encode/Unicode/Unicode.so /usr/lib/perl5/5.30.2/x86_64-linux/Encode/Unicode.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Encode/Unicode.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/Encode/Unicode/Unicode.so

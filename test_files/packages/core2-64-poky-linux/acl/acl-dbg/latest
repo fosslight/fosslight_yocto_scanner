@@ -1,0 +1,8 @@
+PV = 2.2.53
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libacl-dbg libattr-dbg
+PKGSIZE = 389816
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/chacl /usr/bin/.debug/getfacl /usr/bin/.debug/setfacl /usr/lib/.debug/libacl.so.1.1.2253 /usr/lib/acl/ptest/.libs/.debug/libtestlookup.so.0.0.0

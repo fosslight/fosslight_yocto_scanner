@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libnsl2 (>= 1.2.0+git0+4a062cf418) libtirpc (>= 1.2.6) python3-core python3-io
+RRECOMMENDS = 
+PKGSIZE = 36087
+FILES = /usr/lib/python3.8/getpass.py /usr/lib/python3.8/lib-dynload/nis.*.so /usr/lib/python3.8/__pycache__/getpass.*.pyc
+FILELIST = /usr/lib/python3.8/__pycache__/getpass.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/getpass.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/getpass.cpython-38.pyc /usr/lib/python3.8/getpass.py /usr/lib/python3.8/lib-dynload/nis.cpython-38-x86_64-linux-gnu.so

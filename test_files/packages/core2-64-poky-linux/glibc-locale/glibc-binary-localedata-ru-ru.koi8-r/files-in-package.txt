@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x root       root             4096 ./usr/lib/locale/ru_RU.KOI8-R
+-rw-r--r-- root       root              151 ./usr/lib/locale/ru_RU.KOI8-R/LC_ADDRESS
+-rw-r--r-- root       root            24571 ./usr/lib/locale/ru_RU.KOI8-R/LC_COLLATE
+-rw-r--r-- root       root           292432 ./usr/lib/locale/ru_RU.KOI8-R/LC_CTYPE
+-rw-r--r-- root       root              342 ./usr/lib/locale/ru_RU.KOI8-R/LC_IDENTIFICATION
+-rw-r--r-- root       root               24 ./usr/lib/locale/ru_RU.KOI8-R/LC_MEASUREMENT
+drwxr-xr-x root       root             4096 ./usr/lib/locale/ru_RU.KOI8-R/LC_MESSAGES
+-rw-r--r-- root       root               62 ./usr/lib/locale/ru_RU.KOI8-R/LC_MESSAGES/SYS_LC_MESSAGES
+-rw-r--r-- root       root              295 ./usr/lib/locale/ru_RU.KOI8-R/LC_MONETARY
+-rw-r--r-- root       root               63 ./usr/lib/locale/ru_RU.KOI8-R/LC_NAME
+-rw-r--r-- root       root               55 ./usr/lib/locale/ru_RU.KOI8-R/LC_NUMERIC
+-rw-r--r-- root       root               35 ./usr/lib/locale/ru_RU.KOI8-R/LC_PAPER
+-rw-r--r-- root       root               53 ./usr/lib/locale/ru_RU.KOI8-R/LC_TELEPHONE
+-rw-r--r-- root       root             3136 ./usr/lib/locale/ru_RU.KOI8-R/LC_TIME

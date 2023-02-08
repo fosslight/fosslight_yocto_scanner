@@ -1,0 +1,9 @@
+PE = 1
+PV = 5.3.28
+PR = r1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg
+PKGSIZE = 22713216
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/db_archive /usr/bin/.debug/db_checkpoint /usr/bin/.debug/db_deadlock /usr/bin/.debug/db_dump /usr/bin/.debug/db_hotbackup /usr/bin/.debug/db_load /usr/bin/.debug/db_log_verify /usr/bin/.debug/db_printlog /usr/bin/.debug/db_recover /usr/bin/.debug/db_replicate /usr/bin/.debug/db_stat /usr/bin/.debug/db_tuner /usr/bin/.debug/db_upgrade /usr/bin/.debug/db_verify /usr/lib/.debug/libdb-5.3.so /usr/lib/.debug/libdb_cxx-5.3.so

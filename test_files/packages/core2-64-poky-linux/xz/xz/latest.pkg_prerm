@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  xz /usr/bin/xz.xz
+	update-alternatives --remove  xzcat /usr/bin/xzcat.xz
+	update-alternatives --remove  unxz /usr/bin/unxz.xz
+	update-alternatives --remove  lzma /usr/bin/lzma.xz
+	update-alternatives --remove  lzcat /usr/bin/lzcat.xz
+	update-alternatives --remove  unlzma /usr/bin/unlzma.xz

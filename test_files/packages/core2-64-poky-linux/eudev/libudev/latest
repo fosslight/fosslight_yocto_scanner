@@ -1,0 +1,9 @@
+PV = 3.2.9
+PR = r0
+PKG = libudev1
+RPROVIDES = libudev (=3.2.9)
+RDEPENDS = glibc (>= 2.31+git0+1094741224)
+RRECOMMENDS = 
+PKGSIZE = 157928
+FILES = /lib/libudev.so.*
+FILELIST = /lib/libudev.so.1 /lib/libudev.so.1.6.3

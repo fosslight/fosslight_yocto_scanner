@@ -1,0 +1,9 @@
+PV = 4.0.2
+PR = r0
+PKG = libmpfr-dbg
+RPROVIDES = mpfr-dbg (=4.0.2)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg gmp-dbg
+PKGSIZE = 3526912
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/.debug/libmpfr.so.6.0.2

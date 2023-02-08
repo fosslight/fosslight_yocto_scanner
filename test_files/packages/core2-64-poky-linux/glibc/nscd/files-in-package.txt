@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/default
+drwxr-xr-x root       root             4096 ./etc/default/volatiles
+-rw-r--r-- root       root               36 ./etc/default/volatiles/98_nscd
+drwxr-xr-x root       root             4096 ./etc/init.d
+-rwxr-xr-x root       root             2490 ./etc/init.d/nscd
+-rwxr-xr-x root       root             2716 ./etc/nscd.conf
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           139408 ./usr/sbin/nscd
+drwxr-xr-x root       root             4096 ./var
+drwxr-xr-x root       root             4096 ./var/db
+drwxr-xr-x root       root             4096 ./var/db/nscd

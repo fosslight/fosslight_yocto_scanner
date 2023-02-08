@@ -1,0 +1,8 @@
+PV = 0.7.10
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 23979
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/man/man3/capng_apply.3 /usr/share/man/man3/capng_capability_to_name.3 /usr/share/man/man3/capng_change_id.3 /usr/share/man/man3/capng_clear.3 /usr/share/man/man3/capng_fill.3 /usr/share/man/man3/capng_get_caps_fd.3 /usr/share/man/man3/capng_get_caps_process.3 /usr/share/man/man3/capng_have_capabilities.3 /usr/share/man/man3/capng_have_capability.3 /usr/share/man/man3/capng_lock.3 /usr/share/man/man3/capng_name_to_capability.3 /usr/share/man/man3/capng_print_caps_numeric.3 /usr/share/man/man3/capng_print_caps_text.3 /usr/share/man/man3/capng_restore_state.3 /usr/share/man/man3/capng_save_state.3 /usr/share/man/man3/capng_set_caps_fd.3 /usr/share/man/man3/capng_setpid.3 /usr/share/man/man3/capng_update.3 /usr/share/man/man3/capng_updatev.3 /usr/share/man/man8/captest.8 /usr/share/man/man8/filecap.8 /usr/share/man/man8/netcap.8 /usr/share/man/man8/pscap.8

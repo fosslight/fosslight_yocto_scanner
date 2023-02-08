@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc-localedata-ar-eg glibc-localedata-hi-in glibc-localedata-iso14651-t1
+RRECOMMENDS = 
+PKGSIZE = 4672
+FILES = /usr/share/i18n/locales/ar_IN
+FILELIST = /usr/share/i18n/locales/ar_IN

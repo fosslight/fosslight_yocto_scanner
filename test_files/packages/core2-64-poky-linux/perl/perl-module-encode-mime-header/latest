@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-encode perl-module-mime-base64 perl-module-parent perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 16663
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/Encode/MIME/Header.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Encode/MIME/Header.pm

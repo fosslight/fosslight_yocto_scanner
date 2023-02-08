@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-strict perl-module-warnings perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 34536
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/threads/shared/shared.so /usr/lib/perl5/5.30.2/x86_64-linux/threads/shared.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/auto/threads/shared/shared.so /usr/lib/perl5/5.30.2/x86_64-linux/threads/shared.pm

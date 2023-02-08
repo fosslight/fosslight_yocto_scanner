@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc-localedata-i18n glibc-localedata-translit-combining glibc-localedata-uz-uz
+RRECOMMENDS = 
+PKGSIZE = 8340
+FILES = /usr/share/i18n/locales/uz_UZ@cyrillic
+FILELIST = /usr/share/i18n/locales/uz_UZ@cyrillic

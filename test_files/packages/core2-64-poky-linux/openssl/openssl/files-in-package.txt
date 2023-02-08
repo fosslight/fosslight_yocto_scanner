@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/ssl
+drwxr-xr-x root       root             4096 ./etc/ssl/certs
+drwxr-xr-x root       root             4096 ./etc/ssl/private
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/ssl-1.1
+lrwxrwxrwx root       root               22 ./usr/lib/ssl-1.1/certs -> ../../../etc/ssl/certs
+-rw-r--r-- root       root              412 ./usr/lib/ssl-1.1/ct_log_list.cnf
+-rw-r--r-- root       root              412 ./usr/lib/ssl-1.1/ct_log_list.cnf.dist
+-rw-r--r-- root       root            10909 ./usr/lib/ssl-1.1/openssl.cnf.dist
+lrwxrwxrwx root       root               28 ./usr/lib/ssl-1.1/openssl.cnf -> ../../../etc/ssl/openssl.cnf
+lrwxrwxrwx root       root               24 ./usr/lib/ssl-1.1/private -> ../../../etc/ssl/private

@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           149416 ./usr/lib/libxcb-xinput.so.0.1.0
+lrwxrwxrwx root       root               22 ./usr/lib/libxcb-xinput.so.0 -> libxcb-xinput.so.0.1.0

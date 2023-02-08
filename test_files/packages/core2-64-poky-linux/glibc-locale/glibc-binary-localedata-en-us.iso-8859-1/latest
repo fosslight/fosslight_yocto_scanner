@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 317626
+FILES = /usr/lib/locale/en_US.ISO-8859-1
+FILELIST = /usr/lib/locale/en_US.ISO-8859-1/LC_ADDRESS /usr/lib/locale/en_US.ISO-8859-1/LC_COLLATE /usr/lib/locale/en_US.ISO-8859-1/LC_CTYPE /usr/lib/locale/en_US.ISO-8859-1/LC_IDENTIFICATION /usr/lib/locale/en_US.ISO-8859-1/LC_MEASUREMENT /usr/lib/locale/en_US.ISO-8859-1/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/en_US.ISO-8859-1/LC_MONETARY /usr/lib/locale/en_US.ISO-8859-1/LC_NAME /usr/lib/locale/en_US.ISO-8859-1/LC_NUMERIC /usr/lib/locale/en_US.ISO-8859-1/LC_PAPER /usr/lib/locale/en_US.ISO-8859-1/LC_TELEPHONE /usr/lib/locale/en_US.ISO-8859-1/LC_TIME

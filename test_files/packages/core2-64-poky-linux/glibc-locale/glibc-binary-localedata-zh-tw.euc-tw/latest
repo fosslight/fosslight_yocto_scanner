@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 1221397
+FILES = /usr/lib/locale/zh_TW.EUC-TW
+FILELIST = /usr/lib/locale/zh_TW.EUC-TW/LC_ADDRESS /usr/lib/locale/zh_TW.EUC-TW/LC_COLLATE /usr/lib/locale/zh_TW.EUC-TW/LC_CTYPE /usr/lib/locale/zh_TW.EUC-TW/LC_IDENTIFICATION /usr/lib/locale/zh_TW.EUC-TW/LC_MEASUREMENT /usr/lib/locale/zh_TW.EUC-TW/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/zh_TW.EUC-TW/LC_MONETARY /usr/lib/locale/zh_TW.EUC-TW/LC_NAME /usr/lib/locale/zh_TW.EUC-TW/LC_NUMERIC /usr/lib/locale/zh_TW.EUC-TW/LC_PAPER /usr/lib/locale/zh_TW.EUC-TW/LC_TELEPHONE /usr/lib/locale/zh_TW.EUC-TW/LC_TIME

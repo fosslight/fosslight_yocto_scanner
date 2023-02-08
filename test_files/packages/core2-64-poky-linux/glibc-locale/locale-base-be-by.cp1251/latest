@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-be virtual-locale-be-by.cp1251
+RDEPENDS = glibc-binary-localedata-be-by.cp1251
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

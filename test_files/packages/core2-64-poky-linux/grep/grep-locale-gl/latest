@@ -1,0 +1,8 @@
+PV = 3.4
+PR = r0
+RPROVIDES = gl-translation grep-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-gl
+PKGSIZE = 11745
+FILES = /usr/share/locale/gl
+FILELIST = /usr/share/locale/gl/LC_MESSAGES/grep.mo

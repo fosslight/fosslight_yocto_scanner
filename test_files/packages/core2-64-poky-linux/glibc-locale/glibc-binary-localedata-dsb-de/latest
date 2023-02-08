@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2890050
+FILES = /usr/lib/locale/dsb_DE
+FILELIST = /usr/lib/locale/dsb_DE/LC_ADDRESS /usr/lib/locale/dsb_DE/LC_COLLATE /usr/lib/locale/dsb_DE/LC_CTYPE /usr/lib/locale/dsb_DE/LC_IDENTIFICATION /usr/lib/locale/dsb_DE/LC_MEASUREMENT /usr/lib/locale/dsb_DE/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/dsb_DE/LC_MONETARY /usr/lib/locale/dsb_DE/LC_NAME /usr/lib/locale/dsb_DE/LC_NUMERIC /usr/lib/locale/dsb_DE/LC_PAPER /usr/lib/locale/dsb_DE/LC_TELEPHONE /usr/lib/locale/dsb_DE/LC_TIME

@@ -1,0 +1,8 @@
+PV = 3.5.4
+PR = r0
+RPROVIDES = bison-locale eo-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eo
+PKGSIZE = 29366
+FILES = /usr/share/locale/eo
+FILELIST = /usr/share/locale/eo/LC_MESSAGES/bison-gnulib.mo /usr/share/locale/eo/LC_MESSAGES/bison-runtime.mo /usr/share/locale/eo/LC_MESSAGES/bison.mo

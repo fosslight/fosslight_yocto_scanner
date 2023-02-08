@@ -1,0 +1,9 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  11 ./sysroot-providers/make-native
+-rw-r--r-- -          -                  11 ./sysroot-providers/virtual_make-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -              233576 ./usr/bin/make
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -                2912 ./usr/include/gnumake.h
+drwxr-xr-x -          -                4096 ./usr/share

@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-ax88179-178a
+RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-usbnet-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 32408
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/usb/ax88179_178a.ko /etc/modules-load.d/ax88179_178a.conf /etc/modprobe.d/ax88179_178a.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/usb/ax88179_178a.ko

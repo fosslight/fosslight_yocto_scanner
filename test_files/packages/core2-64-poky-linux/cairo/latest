@@ -1,0 +1,5 @@
+PV = 1.16.0
+PR = r0
+DEPENDS = autoconf-native automake-native fontconfig glib-2.0 gnu-config-native gtk-doc-native libpng libsm libtool-cross libtool-native libxcb libxext libxrender pixman pkgconfig-native python3-native virtual/libc virtual/libgl virtual/libx11 virtual/update-alternatives virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc zlib
+PACKAGES = cairo-src cairo-dbg cairo-gobject cairo-script-interpreter cairo-perf-utils cairo-staticdev cairo-dev cairo-doc cairo-locale cairo
+LAYER = core

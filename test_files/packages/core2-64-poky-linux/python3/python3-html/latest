@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-core
+RRECOMMENDS = 
+PKGSIZE = 356208
+FILES = /usr/lib/python3.8/formatter.py /usr/lib/python3.8/html /usr/lib/python3.8/__pycache__/formatter.*.pyc
+FILELIST = /usr/lib/python3.8/__pycache__/formatter.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/formatter.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/formatter.cpython-38.pyc /usr/lib/python3.8/formatter.py /usr/lib/python3.8/html/__init__.py /usr/lib/python3.8/html/__pycache__/__init__.cpython-38.opt-1.pyc /usr/lib/python3.8/html/__pycache__/__init__.cpython-38.opt-2.pyc /usr/lib/python3.8/html/__pycache__/__init__.cpython-38.pyc /usr/lib/python3.8/html/__pycache__/entities.cpython-38.opt-1.pyc /usr/lib/python3.8/html/__pycache__/entities.cpython-38.opt-2.pyc /usr/lib/python3.8/html/__pycache__/entities.cpython-38.pyc /usr/lib/python3.8/html/__pycache__/parser.cpython-38.opt-1.pyc /usr/lib/python3.8/html/__pycache__/parser.cpython-38.opt-2.pyc /usr/lib/python3.8/html/__pycache__/parser.cpython-38.pyc /usr/lib/python3.8/html/entities.py /usr/lib/python3.8/html/parser.py

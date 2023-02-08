@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-tpi virtual-locale-tpi-pg
+RDEPENDS = glibc-binary-localedata-tpi-pg
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

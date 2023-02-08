@@ -1,0 +1,5 @@
+PV = 1.12.16
+PR = r0
+DEPENDS = autoconf-native automake-native dbus gettext-native glib-2.0 gnu-config-native libsm libtool-cross libtool-native pkgconfig-native virtual/libc virtual/libx11 virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = dbus-test-src dbus-test-dbg dbus-test-ptest dbus-test-staticdev dbus-test-dev dbus-test-doc dbus-test-locale dbus-test
+LAYER = core

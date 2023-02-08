@@ -1,0 +1,25 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   6 ./sysroot-providers/procps
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/proc
+-rw-r--r-- -          -                 509 ./usr/include/proc/alloc.h
+-rw-r--r-- -          -                 457 ./usr/include/proc/devname.h
+-rw-r--r-- -          -                 913 ./usr/include/proc/escape.h
+-rw-r--r-- -          -                1068 ./usr/include/proc/numa.h
+-rw-r--r-- -          -                2936 ./usr/include/proc/procps.h
+-rw-r--r-- -          -                 305 ./usr/include/proc/pwcache.h
+-rw-r--r-- -          -               15204 ./usr/include/proc/readproc.h
+-rw-r--r-- -          -                1000 ./usr/include/proc/sig.h
+-rw-r--r-- -          -                1797 ./usr/include/proc/slab.h
+-rw-r--r-- -          -                4820 ./usr/include/proc/sysinfo.h
+-rw-r--r-- -          -                1480 ./usr/include/proc/version.h
+-rw-r--r-- -          -                 160 ./usr/include/proc/wchan.h
+-rw-r--r-- -          -                 202 ./usr/include/proc/whattime.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               79784 ./usr/lib/libprocps.so.8.0.2
+lrwxrwxrwx -          -                  18 ./usr/lib/libprocps.so.8 -> libprocps.so.8.0.2
+lrwxrwxrwx -          -                  18 ./usr/lib/libprocps.so -> libprocps.so.8.0.2
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 223 ./usr/lib/pkgconfig/libprocps.pc
+drwxr-xr-x -          -                4096 ./usr/share

@@ -1,0 +1,5 @@
+PV = 2.13.1
+PR = r0
+DEPENDS = autoconf-native automake-native expat freetype gettext-native gnu-config-native gperf-native libtool-cross libtool-native pkgconfig-native util-linux virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc zlib
+PACKAGES = fontconfig-src fontconfig-dbg fontconfig-utils fontconfig-staticdev fontconfig-dev fontconfig-doc fontconfig fontconfig-locale-zh-cn
+LAYER = core

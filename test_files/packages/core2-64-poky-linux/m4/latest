@@ -1,0 +1,5 @@
+PV = 1.4.18
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native texinfo-dummy-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = m4-src m4-dbg m4-ptest m4-staticdev m4-dev m4-doc m4-locale m4
+LAYER = core

@@ -1,0 +1,9 @@
+PV = 8.0
+PR = r0
+PKG = libreadline-dbg
+RPROVIDES = readline-dbg (=8.0)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg ncurses-libtinfo-dbg
+PKGSIZE = 1005200
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/.debug/libhistory.so.8.0 /usr/lib/.debug/libreadline.so.8.0

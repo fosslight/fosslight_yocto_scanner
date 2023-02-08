@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-config perl-module-cwd perl-module-exporter perl-module-file-basename perl-module-strict perl-module-warnings perl-module-warnings-register
+RRECOMMENDS = 
+PKGSIZE = 33091
+FILES = /usr/lib/perl5/5.30.2/File/Find.pm
+FILELIST = /usr/lib/perl5/5.30.2/File/Find.pm

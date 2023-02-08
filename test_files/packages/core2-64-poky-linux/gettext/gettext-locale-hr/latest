@@ -1,0 +1,8 @@
+PV = 0.20.1
+PR = r0
+RPROVIDES = gettext-locale hr-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hr
+PKGSIZE = 8145
+FILES = /usr/share/locale/hr
+FILELIST = /usr/share/locale/hr/LC_MESSAGES/gettext-runtime.mo

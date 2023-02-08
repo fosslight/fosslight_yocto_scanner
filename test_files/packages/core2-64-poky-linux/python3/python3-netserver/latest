@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-compression python3-core python3-crypt python3-datetime python3-email python3-html python3-io python3-math python3-mime python3-netclient python3-stringold
+RRECOMMENDS = 
+PKGSIZE = 191846
+FILES = /usr/lib/python3.8/cgi.py /usr/lib/python3.8/socketserver.py /usr/lib/python3.8/__pycache__/cgi.*.pyc /usr/lib/python3.8/__pycache__/socketserver.*.pyc
+FILELIST = /usr/lib/python3.8/__pycache__/cgi.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/cgi.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/cgi.cpython-38.pyc /usr/lib/python3.8/__pycache__/socketserver.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/socketserver.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/socketserver.cpython-38.pyc /usr/lib/python3.8/cgi.py /usr/lib/python3.8/socketserver.py

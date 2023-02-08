@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-exporter perl-module-fcntl perl-module-io-file perl-module-strict
+RRECOMMENDS = 
+PKGSIZE = 6784
+FILES = /usr/lib/perl5/5.30.2/FileHandle.pm
+FILELIST = /usr/lib/perl5/5.30.2/FileHandle.pm

@@ -1,0 +1,5 @@
+PV = 2019.01.06
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-native texinfo-dummy-native
+PACKAGES = autoconf-archive-src autoconf-archive autoconf-archive-doc
+LAYER = core

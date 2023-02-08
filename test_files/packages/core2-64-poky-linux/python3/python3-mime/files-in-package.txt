@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/__pycache__
+-rw-r--r-- root       root             5573 ./usr/lib/python3.8/__pycache__/quopri.cpython-38.opt-1.pyc
+-rw-r--r-- root       root             4537 ./usr/lib/python3.8/__pycache__/quopri.cpython-38.opt-2.pyc
+-rw-r--r-- root       root             5748 ./usr/lib/python3.8/__pycache__/quopri.cpython-38.pyc
+-rw-r--r-- root       root             3605 ./usr/lib/python3.8/__pycache__/uu.cpython-38.opt-1.pyc
+-rw-r--r-- root       root             3361 ./usr/lib/python3.8/__pycache__/uu.cpython-38.opt-2.pyc
+-rw-r--r-- root       root             3605 ./usr/lib/python3.8/__pycache__/uu.cpython-38.pyc
+-rwxr-xr-x root       root             7254 ./usr/lib/python3.8/quopri.py
+-rwxr-xr-x root       root             6959 ./usr/lib/python3.8/uu.py

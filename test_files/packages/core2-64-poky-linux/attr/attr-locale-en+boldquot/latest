@@ -1,0 +1,8 @@
+PV = 2.4.48
+PR = r0
+RPROVIDES = attr-locale en+boldquot-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-en+boldquot
+PKGSIZE = 6132
+FILES = /usr/share/locale/en@boldquot
+FILELIST = /usr/share/locale/en@boldquot/LC_MESSAGES/attr.mo

@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/lzo
+drwxr-xr-x root       root             4096 ./usr/lib/lzo/ptest
+-rwxr-xr-x root       root            14288 ./usr/lib/lzo/ptest/align
+-rw-r--r-- root       root             1203 ./usr/lib/lzo/ptest/check.sh
+-rwxr-xr-x root       root            14288 ./usr/lib/lzo/ptest/chksum
+-rwxr-xr-x root       root            63552 ./usr/lib/lzo/ptest/lzotest
+-rwxr-xr-x root       root              511 ./usr/lib/lzo/ptest/run-ptest
+-rwxr-xr-x root       root            14288 ./usr/lib/lzo/ptest/simple
+-rwxr-xr-x root       root            18392 ./usr/lib/lzo/ptest/testmini

@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/locale
+drwxr-xr-x root       root             4096 ./usr/share/locale/pl
+drwxr-xr-x root       root             4096 ./usr/share/locale/pl/LC_MESSAGES
+-rw-r--r-- root       root             8252 ./usr/share/locale/pl/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r-- root       root           118929 ./usr/share/locale/pl/LC_MESSAGES/gettext-tools.mo

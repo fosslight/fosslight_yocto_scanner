@@ -1,0 +1,8 @@
+drwxr-xr-x -          -                4096 ./etc
+-rw-r--r-- -          -                 370 ./etc/rsyncd.conf
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  12 ./sysroot-providers/rsync-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -              495720 ./usr/bin/rsync
+drwxr-xr-x -          -                4096 ./usr/share

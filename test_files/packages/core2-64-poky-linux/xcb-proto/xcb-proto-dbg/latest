@@ -1,0 +1,8 @@
+PV = 1.14
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = xcb-proto-dev (= 1.14-r0)
+PKGSIZE = 0
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = 

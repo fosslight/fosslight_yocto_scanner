@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/xz xz /usr/bin/xz.xz 100
+	update-alternatives --install /usr/bin/xzcat xzcat /usr/bin/xzcat.xz 100
+	update-alternatives --install /usr/bin/unxz unxz /usr/bin/unxz.xz 100
+	update-alternatives --install /usr/bin/lzma lzma /usr/bin/lzma.xz 100
+	update-alternatives --install /usr/bin/lzcat lzcat /usr/bin/lzcat.xz 100
+	update-alternatives --install /usr/bin/unlzma unlzma /usr/bin/unlzma.xz 100

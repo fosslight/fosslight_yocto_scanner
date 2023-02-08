@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /sbin/tune2fs tune2fs /sbin/tune2fs.e2fsprogs 100

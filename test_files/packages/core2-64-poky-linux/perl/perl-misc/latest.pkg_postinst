@@ -1,0 +1,27 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/corelist corelist /usr/bin/corelist.perl 40
+	update-alternatives --install /usr/bin/cpan cpan /usr/bin/cpan.perl 40
+	update-alternatives --install /usr/bin/enc2xs enc2xs /usr/bin/enc2xs.perl 40
+	update-alternatives --install /usr/bin/encguess encguess /usr/bin/encguess.perl 40
+	update-alternatives --install /usr/bin/h2ph h2ph /usr/bin/h2ph.perl 40
+	update-alternatives --install /usr/bin/h2xs h2xs /usr/bin/h2xs.perl 40
+	update-alternatives --install /usr/bin/instmodsh instmodsh /usr/bin/instmodsh.perl 40
+	update-alternatives --install /usr/bin/json_pp json_pp /usr/bin/json_pp.perl 40
+	update-alternatives --install /usr/bin/libnetcfg libnetcfg /usr/bin/libnetcfg.perl 40
+	update-alternatives --install /usr/bin/piconv piconv /usr/bin/piconv.perl 40
+	update-alternatives --install /usr/bin/pl2pm pl2pm /usr/bin/pl2pm.perl 40
+	update-alternatives --install /usr/bin/pod2html pod2html /usr/bin/pod2html.perl 40
+	update-alternatives --install /usr/bin/pod2man pod2man /usr/bin/pod2man.perl 40
+	update-alternatives --install /usr/bin/pod2text pod2text /usr/bin/pod2text.perl 40
+	update-alternatives --install /usr/bin/pod2usage pod2usage /usr/bin/pod2usage.perl 40
+	update-alternatives --install /usr/bin/podchecker podchecker /usr/bin/podchecker.perl 40
+	update-alternatives --install /usr/bin/podselect podselect /usr/bin/podselect.perl 40
+	update-alternatives --install /usr/bin/prove prove /usr/bin/prove.perl 40
+	update-alternatives --install /usr/bin/ptar ptar /usr/bin/ptar.perl 40
+	update-alternatives --install /usr/bin/ptardiff ptardiff /usr/bin/ptardiff.perl 40
+	update-alternatives --install /usr/bin/ptargrep ptargrep /usr/bin/ptargrep.perl 40
+	update-alternatives --install /usr/bin/shasum shasum /usr/bin/shasum.perl 40
+	update-alternatives --install /usr/bin/splain splain /usr/bin/splain.perl 40
+	update-alternatives --install /usr/bin/xsubpp xsubpp /usr/bin/xsubpp.perl 40
+	update-alternatives --install /usr/bin/zipdetails zipdetails /usr/bin/zipdetails.perl 40

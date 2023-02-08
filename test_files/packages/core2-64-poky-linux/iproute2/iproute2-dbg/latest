@@ -1,0 +1,8 @@
+PV = 5.5.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg iptables-dbg libcap-dbg libelf-dbg libmnl-dbg
+PKGSIZE = 8976640
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /sbin/.debug/bridge /sbin/.debug/devlink /sbin/.debug/genl /sbin/.debug/ifstat /sbin/.debug/ip.iproute2 /sbin/.debug/lnstat /sbin/.debug/nstat /sbin/.debug/rtacct /sbin/.debug/rtmon /sbin/.debug/ss /sbin/.debug/tc.iproute2 /sbin/.debug/tipc /usr/lib/tc/.debug/m_xt.so

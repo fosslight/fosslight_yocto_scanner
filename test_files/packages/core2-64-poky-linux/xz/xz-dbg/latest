@@ -1,0 +1,8 @@
+PV = 5.2.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg liblzma-dbg
+PKGSIZE = 1170384
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/lzmadec /usr/bin/.debug/lzmainfo /usr/bin/.debug/xz.xz /usr/bin/.debug/xzdec /usr/lib/.debug/liblzma.so.5.2.4

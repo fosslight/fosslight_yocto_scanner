@@ -1,0 +1,8 @@
+PV = 4.3
+PR = r0
+RPROVIDES = ja-translation make-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ja
+PKGSIZE = 48996
+FILES = /usr/share/locale/ja
+FILELIST = /usr/share/locale/ja/LC_MESSAGES/make.mo

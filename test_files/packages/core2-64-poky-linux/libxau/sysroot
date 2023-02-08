@@ -1,0 +1,14 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   6 ./sysroot-providers/libxau
+-rw-r--r-- -          -                   6 ./sysroot-providers/xau
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/X11
+-rw-r--r-- -          -                3817 ./usr/include/X11/Xauth.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               14040 ./usr/lib/libXau.so.6.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libXau.so.6 -> libXau.so.6.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libXau.so -> libXau.so.6.0.0
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 212 ./usr/lib/pkgconfig/xau.pc
+drwxr-xr-x -          -                4096 ./usr/share

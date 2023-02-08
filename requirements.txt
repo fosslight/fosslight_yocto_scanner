@@ -1,0 +1,16 @@
+binaryornot
+openpyxl
+pandas
+PyMySQL
+python-dateutil
+python-magic
+PyYAML
+xlrd
+XlsxWriter
+parmap
+ruamel.yaml
+py-tlsh
+scancode-toolkit
+fosslight_util>=1.4.13
+tqdm
+fosslight_binary>=4.1.8

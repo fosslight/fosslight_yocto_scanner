@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-el virtual-locale-el-gr.iso-8859-7
+RDEPENDS = glibc-binary-localedata-el-gr.iso-8859-7
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

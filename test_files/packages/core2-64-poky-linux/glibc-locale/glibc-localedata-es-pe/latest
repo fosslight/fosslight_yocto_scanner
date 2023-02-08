@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc-localedata-es-es glibc-localedata-i18n
+RRECOMMENDS = 
+PKGSIZE = 3110
+FILES = /usr/share/i18n/locales/es_PE
+FILELIST = /usr/share/i18n/locales/es_PE

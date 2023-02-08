@@ -1,0 +1,8 @@
+PV = 3.7
+PR = r0
+RPROVIDES = diffutils-locale hr-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hr
+PKGSIZE = 14678
+FILES = /usr/share/locale/hr
+FILELIST = /usr/share/locale/hr/LC_MESSAGES/diffutils.mo

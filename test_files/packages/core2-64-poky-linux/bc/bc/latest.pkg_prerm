@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  bc /usr/bin/bc.bc
+	update-alternatives --remove  dc /usr/bin/dc.bc

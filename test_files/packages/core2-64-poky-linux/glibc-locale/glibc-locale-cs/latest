@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = cs-translation glibc-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-cs
+PKGSIZE = 0
+FILES = /usr/share/locale/cs
+FILELIST = 

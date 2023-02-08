@@ -1,0 +1,544 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/busybox
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/bin
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/addgroup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/adduser -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/ash -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/awk -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/basename -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/[[ -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/blkid -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/bunzip2 -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/bzcat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/bzip2 -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/cat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/chattr -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/chgrp -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/chmod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/chown -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/chroot -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/chvt -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/clear -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/cmp -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/cp -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/cpio -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/cut -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/date -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/dc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/dd -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/deallocvt -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/delgroup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/deluser -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/depmod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/df -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/diff -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/dirname -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/dmesg -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/dnsdomainname -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/du -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/dumpkmap -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/dumpleases -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/echo -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/egrep -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/env -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/expr -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/false -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/fbset -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/fdisk -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/fgrep -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/find -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/flock -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/free -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/fsck -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/fstrim -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/fuser -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/getopt -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/getty -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/grep -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/groups -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/gunzip -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/gzip -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/head -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/hexdump -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/hostname -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/hwclock -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/id -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/ifconfig -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/ifdown -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/ifup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/insmod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/ip -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/killall -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/kill -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/klogd -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/lbracket -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/less -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/ln -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/loadfont -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/loadkmap -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/logger -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./usr/lib/busybox/ptest/bin/login -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/logname -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/logread -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/losetup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/ls -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/lsmod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/lzcat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/md5sum -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mesg -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/microcom -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mkdir -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mkfifo -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mknod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mkswap -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mktemp -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/modprobe -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/more -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mount -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mountpoint -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/mv -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/nc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/netstat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/nohup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/nproc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/nslookup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/od -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/openvt -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./usr/lib/busybox/ptest/bin/passwd -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/patch -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/pidof -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./usr/lib/busybox/ptest/bin/ping6 -> /bin/busybox.suid
+lrwxrwxrwx root       root               17 ./usr/lib/busybox/ptest/bin/ping -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/pivot_root -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/printf -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/ps -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/pwd -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/rdate -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/readlink -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/realpath -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/reboot -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/renice -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/reset -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/resize -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/rfkill -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/rm -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/rmdir -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/rmmod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/route -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/run-parts -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sed -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/seq -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/setconsole -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/setsid -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sha1sum -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sha256sum -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sh -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/shuf -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sleep -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sort -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/start-stop-daemon -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/stat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/strings -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/stty -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./usr/lib/busybox/ptest/bin/su -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sulogin -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/swapoff -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/swapon -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/switch_root -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sync -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/sysctl -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/syslogd -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/tail -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/tar -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/tee -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/telnet -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/test -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/tftp -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/time -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/top -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/touch -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./usr/lib/busybox/ptest/bin/traceroute -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/tr -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/true -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/ts -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/tty -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/udhcpc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/udhcpd -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/umount -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/uname -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/uniq -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/unlink -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/unzip -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/uptime -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/users -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/usleep -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/vi -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./usr/lib/busybox/ptest/bin/vlock -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/watch -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/wc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/wget -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/which -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/whoami -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/who -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/xargs -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/xzcat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/yes -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/lib/busybox/ptest/bin/zcat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               12 ./usr/lib/busybox/ptest/busybox -> /bin/busybox
+-rw-r--r-- root       root            33313 ./usr/lib/busybox/ptest/.config
+-rwxr-xr-x root       root              227 ./usr/lib/busybox/ptest/run-ptest
+drwxr-xr-x root       root            12288 ./usr/lib/busybox/ptest/testsuite
+-rwxr-xr-x root       root             2703 ./usr/lib/busybox/ptest/testsuite/all_sourcecode.tests
+-rwxr-xr-x root       root              747 ./usr/lib/busybox/ptest/testsuite/ar.tests
+-rwxr-xr-x root       root             3155 ./usr/lib/busybox/ptest/testsuite/ash.tests
+-rw-r--r-- root       root            15955 ./usr/lib/busybox/ptest/testsuite/awk_t1.tar.bz2
+-rwxr-xr-x root       root             8600 ./usr/lib/busybox/ptest/testsuite/awk.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/basename
+-rw-r--r-- root       root               40 ./usr/lib/busybox/ptest/testsuite/basename/basename-does-not-remove-identical-extension
+-rw-r--r-- root       root               55 ./usr/lib/busybox/ptest/testsuite/basename/basename-works
+-rw-r--r-- root       root             2131 ./usr/lib/busybox/ptest/testsuite/bc_add.bc
+-rw-r--r-- root       root             1317 ./usr/lib/busybox/ptest/testsuite/bc_add_results.txt
+-rw-r--r-- root       root              338 ./usr/lib/busybox/ptest/testsuite/bc_arctangent.bc
+-rw-r--r-- root       root              757 ./usr/lib/busybox/ptest/testsuite/bc_arctangent_results.txt
+-rw-r--r-- root       root              283 ./usr/lib/busybox/ptest/testsuite/bc_array.bc
+-rw-r--r-- root       root             1340 ./usr/lib/busybox/ptest/testsuite/bc_array_results.txt
+-rw-r--r-- root       root               66 ./usr/lib/busybox/ptest/testsuite/bc_arrays.bc
+-rw-r--r-- root       root                6 ./usr/lib/busybox/ptest/testsuite/bc_arrays_results.txt
+-rw-r--r-- root       root            10594 ./usr/lib/busybox/ptest/testsuite/bc_bessel.bc
+-rw-r--r-- root       root            16391 ./usr/lib/busybox/ptest/testsuite/bc_bessel_results.txt
+-rw-r--r-- root       root             2312 ./usr/lib/busybox/ptest/testsuite/bc_boolean.bc
+-rw-r--r-- root       root              362 ./usr/lib/busybox/ptest/testsuite/bc_boolean_results.txt
+-rw-r--r-- root       root              496 ./usr/lib/busybox/ptest/testsuite/bc_cosine.bc
+-rw-r--r-- root       root              845 ./usr/lib/busybox/ptest/testsuite/bc_cosine_results.txt
+-rw-r--r-- root       root             1862 ./usr/lib/busybox/ptest/testsuite/bc_decimal.bc
+-rw-r--r-- root       root             1783 ./usr/lib/busybox/ptest/testsuite/bc_decimal_results.txt
+-rw-r--r-- root       root             1339 ./usr/lib/busybox/ptest/testsuite/bc_divide.bc
+-rw-r--r-- root       root              809 ./usr/lib/busybox/ptest/testsuite/bc_divide_results.txt
+-rw-r--r-- root       root              206 ./usr/lib/busybox/ptest/testsuite/bc_exponent.bc
+-rw-r--r-- root       root              697 ./usr/lib/busybox/ptest/testsuite/bc_exponent_results.txt
+-rw-r--r-- root       root              212 ./usr/lib/busybox/ptest/testsuite/bc_log.bc
+-rw-r--r-- root       root              703 ./usr/lib/busybox/ptest/testsuite/bc_log_results.txt
+-rw-r--r-- root       root              604 ./usr/lib/busybox/ptest/testsuite/bc_misc1.bc
+-rw-r--r-- root       root              163 ./usr/lib/busybox/ptest/testsuite/bc_misc1_results.txt
+-rw-r--r-- root       root              497 ./usr/lib/busybox/ptest/testsuite/bc_misc2.bc
+-rw-r--r-- root       root               78 ./usr/lib/busybox/ptest/testsuite/bc_misc2_results.txt
+-rw-r--r-- root       root              206 ./usr/lib/busybox/ptest/testsuite/bc_misc.bc
+-rw-r--r-- root       root               70 ./usr/lib/busybox/ptest/testsuite/bc_misc_results.txt
+-rw-r--r-- root       root             1045 ./usr/lib/busybox/ptest/testsuite/bc_modulus.bc
+-rw-r--r-- root       root              568 ./usr/lib/busybox/ptest/testsuite/bc_modulus_results.txt
+-rw-r--r-- root       root             1522 ./usr/lib/busybox/ptest/testsuite/bc_multiply.bc
+-rw-r--r-- root       root             1077 ./usr/lib/busybox/ptest/testsuite/bc_multiply_results.txt
+-rw-r--r-- root       root             1969 ./usr/lib/busybox/ptest/testsuite/bc_numbers1.bc
+-rw-r--r-- root       root               66 ./usr/lib/busybox/ptest/testsuite/bc_numbers1_results.txt
+-rw-r--r-- root       root              161 ./usr/lib/busybox/ptest/testsuite/bc_numbers2.bc
+-rw-r--r-- root       root              174 ./usr/lib/busybox/ptest/testsuite/bc_numbers2_results.txt
+-rw-r--r-- root       root               52 ./usr/lib/busybox/ptest/testsuite/bc_pi.bc
+-rw-r--r-- root       root             5420 ./usr/lib/busybox/ptest/testsuite/bc_pi_results.txt
+-rw-r--r-- root       root              586 ./usr/lib/busybox/ptest/testsuite/bc_power.bc
+-rw-r--r-- root       root             2638 ./usr/lib/busybox/ptest/testsuite/bc_power_results.txt
+-rw-r--r-- root       root             1080 ./usr/lib/busybox/ptest/testsuite/bc_references.bc
+-rw-r--r-- root       root              568 ./usr/lib/busybox/ptest/testsuite/bc_references_results.txt
+-rw-r--r-- root       root             3701 ./usr/lib/busybox/ptest/testsuite/bc_sine.bc
+-rw-r--r-- root       root             4503 ./usr/lib/busybox/ptest/testsuite/bc_sine_results.txt
+-rw-r--r-- root       root              345 ./usr/lib/busybox/ptest/testsuite/bc_sqrt.bc
+-rw-r--r-- root       root              380 ./usr/lib/busybox/ptest/testsuite/bc_sqrt_results.txt
+-rw-r--r-- root       root              121 ./usr/lib/busybox/ptest/testsuite/bc_strings.bc
+-rw-r--r-- root       root               74 ./usr/lib/busybox/ptest/testsuite/bc_strings_results.txt
+-rw-r--r-- root       root             1486 ./usr/lib/busybox/ptest/testsuite/bc_subtract.bc
+-rw-r--r-- root       root              938 ./usr/lib/busybox/ptest/testsuite/bc_subtract_results.txt
+-rwxr-xr-x root       root             5005 ./usr/lib/busybox/ptest/testsuite/bc.tests
+-rw-r--r-- root       root              667 ./usr/lib/busybox/ptest/testsuite/bc_vars.bc
+-rw-r--r-- root       root              512 ./usr/lib/busybox/ptest/testsuite/bc_vars_results.txt
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/bunzip2
+-rw-r--r-- root       root               68 ./usr/lib/busybox/ptest/testsuite/bunzip2/bunzip2-reads-from-standard-input
+-rw-r--r-- root       root               68 ./usr/lib/busybox/ptest/testsuite/bunzip2/bunzip2-removes-compressed-file
+-rwxr-xr-x root       root            36938 ./usr/lib/busybox/ptest/testsuite/bunzip2.tests
+-rwxr-xr-x root       root             1245 ./usr/lib/busybox/ptest/testsuite/busybox.tests
+-rw-r--r-- root       root            12000 ./usr/lib/busybox/ptest/testsuite/bz2_issue_11.bz2
+-rw-r--r-- root       root            11000 ./usr/lib/busybox/ptest/testsuite/bz2_issue_12.bz2
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/bzcat
+-rw-r--r-- root       root               64 ./usr/lib/busybox/ptest/testsuite/bzcat/bzcat-does-not-remove-compressed-file
+-rwxr-xr-x root       root             2862 ./usr/lib/busybox/ptest/testsuite/bzcat.tests
+-rwxr-xr-x root       root              946 ./usr/lib/busybox/ptest/testsuite/cal.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/cat
+-rw-r--r-- root       root               51 ./usr/lib/busybox/ptest/testsuite/cat/cat-prints-a-file
+-rw-r--r-- root       root              106 ./usr/lib/busybox/ptest/testsuite/cat/cat-prints-a-file-and-standard-input
+-rwxr-xr-x root       root              401 ./usr/lib/busybox/ptest/testsuite/cat.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/cmp
+-rw-r--r-- root       root              101 ./usr/lib/busybox/ptest/testsuite/cmp/cmp-detects-difference
+-rwxr-xr-x root       root             1068 ./usr/lib/busybox/ptest/testsuite/comm.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/cp
+-rw-r--r-- root       root              405 ./usr/lib/busybox/ptest/testsuite/cp/cp-a-files-to-dir
+-rw-r--r-- root       root               86 ./usr/lib/busybox/ptest/testsuite/cp/cp-a-preserves-links
+-rw-r--r-- root       root               41 ./usr/lib/busybox/ptest/testsuite/cp/cp-copies-empty-file
+-rw-r--r-- root       root               83 ./usr/lib/busybox/ptest/testsuite/cp/cp-copies-large-file
+-rw-r--r-- root       root               49 ./usr/lib/busybox/ptest/testsuite/cp/cp-copies-small-file
+-rw-r--r-- root       root               37 ./usr/lib/busybox/ptest/testsuite/cp/cp-dev-file
+-rw-r--r-- root       root              264 ./usr/lib/busybox/ptest/testsuite/cp/cp-d-files-to-dir
+-rw-r--r-- root       root               62 ./usr/lib/busybox/ptest/testsuite/cp/cp-dir-create-dir
+-rw-r--r-- root       root               76 ./usr/lib/busybox/ptest/testsuite/cp/cp-dir-existing-dir
+-rw-r--r-- root       root              179 ./usr/lib/busybox/ptest/testsuite/cp/cp-does-not-copy-unreadable-file
+-rw-r--r-- root       root              251 ./usr/lib/busybox/ptest/testsuite/cp/cp-files-to-dir
+-rw-r--r-- root       root               55 ./usr/lib/busybox/ptest/testsuite/cp/cp-follows-links
+-rw-r--r-- root       root              167 ./usr/lib/busybox/ptest/testsuite/cp/cp-parents
+-rw-r--r-- root       root              127 ./usr/lib/busybox/ptest/testsuite/cp/cp-preserves-hard-links
+-rw-r--r-- root       root               86 ./usr/lib/busybox/ptest/testsuite/cp/cp-preserves-links
+-rw-r--r-- root       root               41 ./usr/lib/busybox/ptest/testsuite/cp/cp-preserves-source-file
+-rw-r--r-- root       root              100 ./usr/lib/busybox/ptest/testsuite/cp/cp-RHL-does_not_preserve-links
+-rwxr-xr-x root       root             4198 ./usr/lib/busybox/ptest/testsuite/cpio.tests
+-rwxr-xr-x root       root             9175 ./usr/lib/busybox/ptest/testsuite/cp.tests
+-rwxr-xr-x root       root             1091 ./usr/lib/busybox/ptest/testsuite/cryptpw.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/cut
+-rw-r--r-- root       root               41 ./usr/lib/busybox/ptest/testsuite/cut/cut-cuts-a-character
+-rw-r--r-- root       root               44 ./usr/lib/busybox/ptest/testsuite/cut/cut-cuts-a-closed-range
+-rw-r--r-- root       root               54 ./usr/lib/busybox/ptest/testsuite/cut/cut-cuts-a-field
+-rw-r--r-- root       root               44 ./usr/lib/busybox/ptest/testsuite/cut/cut-cuts-an-open-range
+-rw-r--r-- root       root               43 ./usr/lib/busybox/ptest/testsuite/cut/cut-cuts-an-unclosed-range
+-rwxr-xr-x root       root              507 ./usr/lib/busybox/ptest/testsuite/cut.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/date
+-rw-r--r-- root       root              259 ./usr/lib/busybox/ptest/testsuite/date/date-format-works
+-rw-r--r-- root       root              638 ./usr/lib/busybox/ptest/testsuite/date/date-R-works
+-rw-r--r-- root       root               98 ./usr/lib/busybox/ptest/testsuite/date/date-u-works
+-rw-r--r-- root       root              586 ./usr/lib/busybox/ptest/testsuite/date/date-@-works
+-rw-r--r-- root       root             1278 ./usr/lib/busybox/ptest/testsuite/date/date-works
+-rw-r--r-- root       root             2563 ./usr/lib/busybox/ptest/testsuite/date/date-works-1
+-rw-r--r-- root       root             2435 ./usr/lib/busybox/ptest/testsuite/dc_add.dc
+-rw-r--r-- root       root             1398 ./usr/lib/busybox/ptest/testsuite/dc_add_results.txt
+-rw-r--r-- root       root              210 ./usr/lib/busybox/ptest/testsuite/dc_boolean.dc
+-rw-r--r-- root       root               54 ./usr/lib/busybox/ptest/testsuite/dc_boolean_results.txt
+-rw-r--r-- root       root             1933 ./usr/lib/busybox/ptest/testsuite/dc_decimal.dc
+-rw-r--r-- root       root             1783 ./usr/lib/busybox/ptest/testsuite/dc_decimal_results.txt
+-rw-r--r-- root       root             1417 ./usr/lib/busybox/ptest/testsuite/dc_divide.dc
+-rw-r--r-- root       root              845 ./usr/lib/busybox/ptest/testsuite/dc_divide_results.txt
+-rw-r--r-- root       root             2871 ./usr/lib/busybox/ptest/testsuite/dc_divmod.dc
+-rw-r--r-- root       root             2723 ./usr/lib/busybox/ptest/testsuite/dc_divmod_results.txt
+-rw-r--r-- root       root               50 ./usr/lib/busybox/ptest/testsuite/dc_misc.dc
+-rw-r--r-- root       root              121 ./usr/lib/busybox/ptest/testsuite/dc_misc_results.txt
+-rw-r--r-- root       root             2147 ./usr/lib/busybox/ptest/testsuite/dc_modexp.dc
+-rw-r--r-- root       root              291 ./usr/lib/busybox/ptest/testsuite/dc_modexp_results.txt
+-rw-r--r-- root       root             1063 ./usr/lib/busybox/ptest/testsuite/dc_modulus.dc
+-rw-r--r-- root       root              530 ./usr/lib/busybox/ptest/testsuite/dc_modulus_results.txt
+-rw-r--r-- root       root             1574 ./usr/lib/busybox/ptest/testsuite/dc_multiply.dc
+-rw-r--r-- root       root             1075 ./usr/lib/busybox/ptest/testsuite/dc_multiply_results.txt
+-rw-r--r-- root       root              634 ./usr/lib/busybox/ptest/testsuite/dc_power.dc
+-rw-r--r-- root       root             2638 ./usr/lib/busybox/ptest/testsuite/dc_power_results.txt
+-rw-r--r-- root       root              183 ./usr/lib/busybox/ptest/testsuite/dc_sqrt.dc
+-rw-r--r-- root       root              309 ./usr/lib/busybox/ptest/testsuite/dc_sqrt_results.txt
+-rw-r--r-- root       root              336 ./usr/lib/busybox/ptest/testsuite/dc_strings.dc
+-rw-r--r-- root       root              180 ./usr/lib/busybox/ptest/testsuite/dc_strings_results.txt
+-rw-r--r-- root       root             1571 ./usr/lib/busybox/ptest/testsuite/dc_subtract.dc
+-rw-r--r-- root       root              961 ./usr/lib/busybox/ptest/testsuite/dc_subtract_results.txt
+-rwxr-xr-x root       root             2805 ./usr/lib/busybox/ptest/testsuite/dc.tests
+-rw-r--r-- root       root              135 ./usr/lib/busybox/ptest/testsuite/dcx_vars.dc
+-rw-r--r-- root       root               70 ./usr/lib/busybox/ptest/testsuite/dcx_vars_results.txt
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/dd
+-rw-r--r-- root       root               68 ./usr/lib/busybox/ptest/testsuite/dd/dd-accepts-if
+-rw-r--r-- root       root               68 ./usr/lib/busybox/ptest/testsuite/dd/dd-accepts-of
+-rw-r--r-- root       root               58 ./usr/lib/busybox/ptest/testsuite/dd/dd-copies-from-standard-input-to-standard-output
+-rw-r--r-- root       root               69 ./usr/lib/busybox/ptest/testsuite/dd/dd-prints-count-to-standard-error
+-rw-r--r-- root       root               74 ./usr/lib/busybox/ptest/testsuite/dd/dd-reports-write-errors
+-rwxr-xr-x root       root             4080 ./usr/lib/busybox/ptest/testsuite/diff.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/dirname
+-rw-r--r-- root       root               48 ./usr/lib/busybox/ptest/testsuite/dirname/dirname-handles-absolute-path
+-rw-r--r-- root       root               31 ./usr/lib/busybox/ptest/testsuite/dirname/dirname-handles-empty-path
+-rw-r--r-- root       root               48 ./usr/lib/busybox/ptest/testsuite/dirname/dirname-handles-multiple-slashes
+-rw-r--r-- root       root               46 ./usr/lib/busybox/ptest/testsuite/dirname/dirname-handles-relative-path
+-rw-r--r-- root       root               30 ./usr/lib/busybox/ptest/testsuite/dirname/dirname-handles-root
+-rw-r--r-- root       root               32 ./usr/lib/busybox/ptest/testsuite/dirname/dirname-handles-single-component
+-rw-r--r-- root       root               53 ./usr/lib/busybox/ptest/testsuite/dirname/dirname-works
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/du
+-rw-r--r-- root       root              136 ./usr/lib/busybox/ptest/testsuite/du/du-h-works
+-rw-r--r-- root       root              466 ./usr/lib/busybox/ptest/testsuite/du/du-k-works
+-rw-r--r-- root       root              396 ./usr/lib/busybox/ptest/testsuite/du/du-l-works
+-rw-r--r-- root       root              133 ./usr/lib/busybox/ptest/testsuite/du/du-m-works
+-rw-r--r-- root       root              190 ./usr/lib/busybox/ptest/testsuite/du/du-s-works
+-rw-r--r-- root       root              184 ./usr/lib/busybox/ptest/testsuite/du/du-works
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/echo
+-rw-r--r-- root       root               80 ./usr/lib/busybox/ptest/testsuite/echo/echo-does-not-print-newline
+-rw-r--r-- root       root               36 ./usr/lib/busybox/ptest/testsuite/echo/echo-prints-argument
+-rw-r--r-- root       root               42 ./usr/lib/busybox/ptest/testsuite/echo/echo-prints-arguments
+-rw-r--r-- root       root               91 ./usr/lib/busybox/ptest/testsuite/echo/echo-prints-dash
+-rw-r--r-- root       root               39 ./usr/lib/busybox/ptest/testsuite/echo/echo-prints-newline
+-rw-r--r-- root       root              107 ./usr/lib/busybox/ptest/testsuite/echo/echo-prints-non-opts
+-rw-r--r-- root       root              133 ./usr/lib/busybox/ptest/testsuite/echo/echo-prints-slash_00041
+-rw-r--r-- root       root              129 ./usr/lib/busybox/ptest/testsuite/echo/echo-prints-slash_0041
+-rw-r--r-- root       root              128 ./usr/lib/busybox/ptest/testsuite/echo/echo-prints-slash_041
+-rw-r--r-- root       root              127 ./usr/lib/busybox/ptest/testsuite/echo/echo-prints-slash_41
+-rw-r--r-- root       root              141 ./usr/lib/busybox/ptest/testsuite/echo/echo-prints-slash-zero
+-rwxr-xr-x root       root              601 ./usr/lib/busybox/ptest/testsuite/expand.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/expr
+-rw-r--r-- root       root              458 ./usr/lib/busybox/ptest/testsuite/expr/expr-big
+-rw-r--r-- root       root              775 ./usr/lib/busybox/ptest/testsuite/expr/expr-works
+-rwxr-xr-x root       root             1249 ./usr/lib/busybox/ptest/testsuite/factor.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/false
+-rw-r--r-- root       root               37 ./usr/lib/busybox/ptest/testsuite/false/false-is-silent
+-rw-r--r-- root       root               16 ./usr/lib/busybox/ptest/testsuite/false/false-returns-failure
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/find
+-rw-r--r-- root       root               74 ./usr/lib/busybox/ptest/testsuite/find/find-supports-minus-xdev
+-rwxr-xr-x root       root             1730 ./usr/lib/busybox/ptest/testsuite/find.tests
+-rwxr-xr-x root       root             2743 ./usr/lib/busybox/ptest/testsuite/fold.tests
+-rwxr-xr-x root       root             6456 ./usr/lib/busybox/ptest/testsuite/grep.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/gunzip
+-rw-r--r-- root       root               66 ./usr/lib/busybox/ptest/testsuite/gunzip/gunzip-reads-from-standard-input
+-rwxr-xr-x root       root               29 ./usr/lib/busybox/ptest/testsuite/gunzip.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/gzip
+-rw-r--r-- root       root               63 ./usr/lib/busybox/ptest/testsuite/gzip/gzip-accepts-multiple-files
+-rw-r--r-- root       root               37 ./usr/lib/busybox/ptest/testsuite/gzip/gzip-accepts-single-minus
+-rw-r--r-- root       root              172 ./usr/lib/busybox/ptest/testsuite/gzip/gzip-compression-levels
+-rw-r--r-- root       root               41 ./usr/lib/busybox/ptest/testsuite/gzip/gzip-removes-original-file
+-rwxr-xr-x root       root              772 ./usr/lib/busybox/ptest/testsuite/head.tests
+-rwxr-xr-x root       root              385 ./usr/lib/busybox/ptest/testsuite/hexdump.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/hostid
+-rw-r--r-- root       root              108 ./usr/lib/busybox/ptest/testsuite/hostid/hostid-works
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/hostname
+-rw-r--r-- root       root               82 ./usr/lib/busybox/ptest/testsuite/hostname/hostname-d-works
+-rw-r--r-- root       root              192 ./usr/lib/busybox/ptest/testsuite/hostname/hostname-i-works
+-rw-r--r-- root       root               47 ./usr/lib/busybox/ptest/testsuite/hostname/hostname-s-works
+-rw-r--r-- root       root               41 ./usr/lib/busybox/ptest/testsuite/hostname/hostname-works
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/id
+-rw-r--r-- root       root               35 ./usr/lib/busybox/ptest/testsuite/id/id-g-works
+-rw-r--r-- root       root               37 ./usr/lib/busybox/ptest/testsuite/id/id-un-works
+-rw-r--r-- root       root               37 ./usr/lib/busybox/ptest/testsuite/id/id-ur-works
+-rw-r--r-- root       root               35 ./usr/lib/busybox/ptest/testsuite/id/id-u-works
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/ln
+-rw-r--r-- root       root               80 ./usr/lib/busybox/ptest/testsuite/ln/ln-creates-hard-links
+-rw-r--r-- root       root              101 ./usr/lib/busybox/ptest/testsuite/ln/ln-creates-soft-links
+-rw-r--r-- root       root              112 ./usr/lib/busybox/ptest/testsuite/ln/ln-force-creates-hard-links
+-rw-r--r-- root       root              133 ./usr/lib/busybox/ptest/testsuite/ln/ln-force-creates-soft-links
+-rw-r--r-- root       root              130 ./usr/lib/busybox/ptest/testsuite/ln/ln-preserves-hard-links
+-rw-r--r-- root       root              133 ./usr/lib/busybox/ptest/testsuite/ln/ln-preserves-soft-links
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/ls
+-rw-r--r-- root       root              168 ./usr/lib/busybox/ptest/testsuite/ls/ls-1-works
+-rw-r--r-- root       root              198 ./usr/lib/busybox/ptest/testsuite/ls/ls-h-works
+-rw-r--r-- root       root              211 ./usr/lib/busybox/ptest/testsuite/ls/ls-l-works
+-rw-r--r-- root       root              213 ./usr/lib/busybox/ptest/testsuite/ls/ls-s-works
+-rw-r--r-- root       root             8926 ./usr/lib/busybox/ptest/testsuite/ls.mk_uni_tests
+-rwxr-xr-x root       root            18366 ./usr/lib/busybox/ptest/testsuite/ls.tests
+-rw-r--r-- root       root             5943 ./usr/lib/busybox/ptest/testsuite/makedevs.device_table.txt
+-rwxr-xr-x root       root             6412 ./usr/lib/busybox/ptest/testsuite/makedevs.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/md5sum
+-rw-r--r-- root       root               95 ./usr/lib/busybox/ptest/testsuite/md5sum/md5sum-verifies-non-binary-file
+-rwxr-xr-x root       root             1268 ./usr/lib/busybox/ptest/testsuite/md5sum.tests
+-rwxr-xr-x root       root             8433 ./usr/lib/busybox/ptest/testsuite/mdev.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/mkdir
+-rw-r--r-- root       root               30 ./usr/lib/busybox/ptest/testsuite/mkdir/mkdir-makes-a-directory
+-rw-r--r-- root       root               51 ./usr/lib/busybox/ptest/testsuite/mkdir/mkdir-makes-parent-directories
+-rwxr-xr-x root       root              697 ./usr/lib/busybox/ptest/testsuite/mkfs.minix.tests
+-rwxr-xr-x root       root             5319 ./usr/lib/busybox/ptest/testsuite/mount.testroot
+-rwxr-xr-x root       root             3301 ./usr/lib/busybox/ptest/testsuite/mount.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/mv
+-rw-r--r-- root       root              381 ./usr/lib/busybox/ptest/testsuite/mv/mv-files-to-dir
+-rw-r--r-- root       root               55 ./usr/lib/busybox/ptest/testsuite/mv/mv-follows-links
+-rw-r--r-- root       root               55 ./usr/lib/busybox/ptest/testsuite/mv/mv-moves-empty-file
+-rw-r--r-- root       root               53 ./usr/lib/busybox/ptest/testsuite/mv/mv-moves-file
+-rw-r--r-- root       root               64 ./usr/lib/busybox/ptest/testsuite/mv/mv-moves-hardlinks
+-rw-r--r-- root       root               97 ./usr/lib/busybox/ptest/testsuite/mv/mv-moves-large-file
+-rw-r--r-- root       root               63 ./usr/lib/busybox/ptest/testsuite/mv/mv-moves-small-file
+-rw-r--r-- root       root               81 ./usr/lib/busybox/ptest/testsuite/mv/mv-moves-symlinks
+-rw-r--r-- root       root               69 ./usr/lib/busybox/ptest/testsuite/mv/mv-moves-unreadable-files
+-rw-r--r-- root       root              124 ./usr/lib/busybox/ptest/testsuite/mv/mv-preserves-hard-links
+-rw-r--r-- root       root               83 ./usr/lib/busybox/ptest/testsuite/mv/mv-preserves-links
+-rw-r--r-- root       root              459 ./usr/lib/busybox/ptest/testsuite/mv/mv-refuses-mv-dir-to-subdir
+-rw-r--r-- root       root               55 ./usr/lib/busybox/ptest/testsuite/mv/mv-removes-source-file
+-rwxr-xr-x root       root              771 ./usr/lib/busybox/ptest/testsuite/od.tests
+-rwxr-xr-x root       root             4156 ./usr/lib/busybox/ptest/testsuite/parse.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/paste
+-rw-r--r-- root       root              167 ./usr/lib/busybox/ptest/testsuite/paste/paste
+-rw-r--r-- root       root              191 ./usr/lib/busybox/ptest/testsuite/paste/paste-back-cuted-lines
+-rw-r--r-- root       root              158 ./usr/lib/busybox/ptest/testsuite/paste/paste-multi-stdin
+-rw-r--r-- root       root              141 ./usr/lib/busybox/ptest/testsuite/paste/paste-pairs
+-rw-r--r-- root       root              166 ./usr/lib/busybox/ptest/testsuite/paste/paste-separate
+-rwxr-xr-x root       root             3354 ./usr/lib/busybox/ptest/testsuite/patch.tests
+-rwxr-xr-x root       root             1187 ./usr/lib/busybox/ptest/testsuite/pidof.tests
+-rwxr-xr-x root       root             3510 ./usr/lib/busybox/ptest/testsuite/printf.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/pwd
+-rw-r--r-- root       root              216 ./usr/lib/busybox/ptest/testsuite/pwd/pwd-prints-working-directory
+-rwxr-xr-x root       root             1179 ./usr/lib/busybox/ptest/testsuite/readlink.tests
+-rw-r--r-- root       root             2052 ./usr/lib/busybox/ptest/testsuite/README
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/rm
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/rmdir
+-rw-r--r-- root       root               56 ./usr/lib/busybox/ptest/testsuite/rmdir/rmdir-removes-parent-directories
+-rw-r--r-- root       root               39 ./usr/lib/busybox/ptest/testsuite/rm/rm-removes-file
+-rwxr-xr-x root       root             3995 ./usr/lib/busybox/ptest/testsuite/runtest
+-rwxr-xr-x root       root              852 ./usr/lib/busybox/ptest/testsuite/rx.tests
+-rwxr-xr-x root       root            12924 ./usr/lib/busybox/ptest/testsuite/sed.tests
+-rwxr-xr-x root       root             2205 ./usr/lib/busybox/ptest/testsuite/seq.tests
+-rwxr-xr-x root       root               77 ./usr/lib/busybox/ptest/testsuite/sha1sum.tests
+-rwxr-xr-x root       root              103 ./usr/lib/busybox/ptest/testsuite/sha256sum.tests
+-rwxr-xr-x root       root               93 ./usr/lib/busybox/ptest/testsuite/sha3sum.tests
+-rwxr-xr-x root       root              167 ./usr/lib/busybox/ptest/testsuite/sha512sum.tests
+-rwxr-xr-x root       root             3164 ./usr/lib/busybox/ptest/testsuite/sort.tests
+-rwxr-xr-x root       root              802 ./usr/lib/busybox/ptest/testsuite/start-stop-daemon.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/strings
+-rw-r--r-- root       root              166 ./usr/lib/busybox/ptest/testsuite/strings/strings-works-like-GNU
+-rwxr-xr-x root       root              849 ./usr/lib/busybox/ptest/testsuite/sum.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/tail
+-rw-r--r-- root       root              133 ./usr/lib/busybox/ptest/testsuite/tail/tail-n-works
+-rw-r--r-- root       root              164 ./usr/lib/busybox/ptest/testsuite/tail/tail-works
+-rwxr-xr-x root       root              652 ./usr/lib/busybox/ptest/testsuite/tail.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/tar
+-rw-r--r-- root       root              130 ./usr/lib/busybox/ptest/testsuite/tar/tar-archives-multiple-files
+-rw-r--r-- root       root               58 ./usr/lib/busybox/ptest/testsuite/tar/tar-complains-about-missing-file
+-rw-r--r-- root       root               16 ./usr/lib/busybox/ptest/testsuite/tar/tar-demands-at-least-one-ctx
+-rw-r--r-- root       root               17 ./usr/lib/busybox/ptest/testsuite/tar/tar-demands-at-most-one-ctx
+-rw-r--r-- root       root              317 ./usr/lib/busybox/ptest/testsuite/tar/tar-extracts-all-subdirs
+-rw-r--r-- root       root               71 ./usr/lib/busybox/ptest/testsuite/tar/tar-extracts-file
+-rw-r--r-- root       root               76 ./usr/lib/busybox/ptest/testsuite/tar/tar-extracts-from-standard-input
+-rw-r--r-- root       root               96 ./usr/lib/busybox/ptest/testsuite/tar/tar-extracts-multiple-files
+-rw-r--r-- root       root               75 ./usr/lib/busybox/ptest/testsuite/tar/tar-extracts-to-standard-output
+-rw-r--r-- root       root              135 ./usr/lib/busybox/ptest/testsuite/tar/tar-handles-cz-options
+-rw-r--r-- root       root              161 ./usr/lib/busybox/ptest/testsuite/tar/tar-handles-empty-include-and-non-empty-exclude-list
+-rw-r--r-- root       root              236 ./usr/lib/busybox/ptest/testsuite/tar/tar-handles-exclude-and-extract-lists
+-rw-r--r-- root       root              251 ./usr/lib/busybox/ptest/testsuite/tar/tar-handles-multiple-X-options
+-rw-r--r-- root       root              228 ./usr/lib/busybox/ptest/testsuite/tar/tar-handles-nested-exclude
+-rw-r--r-- root       root             1689 ./usr/lib/busybox/ptest/testsuite/tar/tar_with_link_with_size
+-rw-r--r-- root       root            19846 ./usr/lib/busybox/ptest/testsuite/tar/tar_with_prefix_fields
+-rwxr-xr-x root       root            10759 ./usr/lib/busybox/ptest/testsuite/tar.tests
+-rw-r--r-- root       root              519 ./usr/lib/busybox/ptest/testsuite/tar.utf8.tar.bz2
+-rwxr-xr-x root       root              570 ./usr/lib/busybox/ptest/testsuite/taskset.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/tee
+-rw-r--r-- root       root              144 ./usr/lib/busybox/ptest/testsuite/tee/tee-appends-input
+-rw-r--r-- root       root              107 ./usr/lib/busybox/ptest/testsuite/tee/tee-tees-input
+-rw-r--r-- root       root             3974 ./usr/lib/busybox/ptest/testsuite/testing.sh
+-rwxr-xr-x root       root             2099 ./usr/lib/busybox/ptest/testsuite/test.tests
+-rw-r--r-- root       root              983 ./usr/lib/busybox/ptest/testsuite/TODO
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/touch
+-rw-r--r-- root       root               30 ./usr/lib/busybox/ptest/testsuite/touch/touch-creates-file
+-rw-r--r-- root       root               35 ./usr/lib/busybox/ptest/testsuite/touch/touch-does-not-create-file
+-rw-r--r-- root       root               87 ./usr/lib/busybox/ptest/testsuite/touch/touch-touches-files-after-non-existent-file
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/tr
+-rwxr-xr-x root       root              868 ./usr/lib/busybox/ptest/testsuite/tr.tests
+-rw-r--r-- root       root              175 ./usr/lib/busybox/ptest/testsuite/tr/tr-d-alnum-works
+-rw-r--r-- root       root              121 ./usr/lib/busybox/ptest/testsuite/tr/tr-d-works
+-rw-r--r-- root       root               59 ./usr/lib/busybox/ptest/testsuite/tr/tr-non-gnu
+-rw-r--r-- root       root              925 ./usr/lib/busybox/ptest/testsuite/tr/tr-rejects-wrong-class
+-rw-r--r-- root       root              665 ./usr/lib/busybox/ptest/testsuite/tr/tr-works
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/true
+-rw-r--r-- root       root               36 ./usr/lib/busybox/ptest/testsuite/true/true-is-silent
+-rw-r--r-- root       root               13 ./usr/lib/busybox/ptest/testsuite/true/true-returns-success
+-rwxr-xr-x root       root              346 ./usr/lib/busybox/ptest/testsuite/umlwrapper.sh
+-rwxr-xr-x root       root              458 ./usr/lib/busybox/ptest/testsuite/uncompress.tests
+-rwxr-xr-x root       root             1101 ./usr/lib/busybox/ptest/testsuite/unexpand.tests
+-rwxr-xr-x root       root             2536 ./usr/lib/busybox/ptest/testsuite/uniq.tests
+-rw-r--r-- root       root              171 ./usr/lib/busybox/ptest/testsuite/unlzma_issue_1.lzma
+-rw-r--r-- root       root              261 ./usr/lib/busybox/ptest/testsuite/unlzma_issue_2.lzma
+-rwxr-xr-x root       root              482 ./usr/lib/busybox/ptest/testsuite/unlzma.tests
+-rw-r--r-- root       root              229 ./usr/lib/busybox/ptest/testsuite/unzip_bad_lzma_1.zip
+-rw-r--r-- root       root               96 ./usr/lib/busybox/ptest/testsuite/unzip_bad_lzma_2.zip
+-rwxr-xr-x root       root             2055 ./usr/lib/busybox/ptest/testsuite/unzip.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/uptime
+-rw-r--r-- root       root               15 ./usr/lib/busybox/ptest/testsuite/uptime/uptime-works
+-rwxr-xr-x root       root             3418 ./usr/lib/busybox/ptest/testsuite/uuencode.tests
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/wc
+-rw-r--r-- root       root              121 ./usr/lib/busybox/ptest/testsuite/wc/wc-counts-all
+-rw-r--r-- root       root               56 ./usr/lib/busybox/ptest/testsuite/wc/wc-counts-characters
+-rw-r--r-- root       root               55 ./usr/lib/busybox/ptest/testsuite/wc/wc-counts-lines
+-rw-r--r-- root       root               55 ./usr/lib/busybox/ptest/testsuite/wc/wc-counts-words
+-rw-r--r-- root       root               56 ./usr/lib/busybox/ptest/testsuite/wc/wc-prints-longest-line-length
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/which
+-rw-r--r-- root       root               76 ./usr/lib/busybox/ptest/testsuite/which/which-uses-default-path
+drwxr-xr-x root       root             4096 ./usr/lib/busybox/ptest/testsuite/xargs
+-rwxr-xr-x root       root             1017 ./usr/lib/busybox/ptest/testsuite/xargs.tests
+-rw-r--r-- root       root              253 ./usr/lib/busybox/ptest/testsuite/xargs/xargs-works

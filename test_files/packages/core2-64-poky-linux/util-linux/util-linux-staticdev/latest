@@ -1,0 +1,8 @@
+PV = 2.35.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = util-linux-dev (= 2.35.1-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/util-linux/*.a
+FILELIST = 

@@ -1,0 +1,8 @@
+PV = 2.35.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libxcrypt (>= 4.4.15) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 47152
+FILES = /sbin/sulogin.util-linux
+FILELIST = /sbin/sulogin.util-linux

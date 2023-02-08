@@ -1,0 +1,11 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  12 ./sysroot-providers/libpciaccess
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -               15456 ./usr/include/pciaccess.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               42792 ./usr/lib/libpciaccess.so.0.11.1
+lrwxrwxrwx -          -                  22 ./usr/lib/libpciaccess.so.0 -> libpciaccess.so.0.11.1
+lrwxrwxrwx -          -                  22 ./usr/lib/libpciaccess.so -> libpciaccess.so.0.11.1
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 228 ./usr/lib/pkgconfig/pciaccess.pc

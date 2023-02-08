@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-core
+RRECOMMENDS = 
+PKGSIZE = 65432
+FILES = /usr/lib/python3.8/compileall.py /usr/lib/python3.8/py_compile.py /usr/lib/python3.8/__pycache__/compileall.*.pyc /usr/lib/python3.8/__pycache__/py_compile.*.pyc
+FILELIST = /usr/lib/python3.8/__pycache__/compileall.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/compileall.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/compileall.cpython-38.pyc /usr/lib/python3.8/__pycache__/py_compile.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/py_compile.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/py_compile.cpython-38.pyc /usr/lib/python3.8/compileall.py /usr/lib/python3.8/py_compile.py

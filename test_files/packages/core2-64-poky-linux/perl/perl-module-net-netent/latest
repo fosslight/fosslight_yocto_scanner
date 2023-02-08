@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-class-struct perl-module-exporter perl-module-socket perl-module-strict
+RRECOMMENDS = 
+PKGSIZE = 4515
+FILES = /usr/lib/perl5/5.30.2/Net/netent.pm
+FILELIST = /usr/lib/perl5/5.30.2/Net/netent.pm

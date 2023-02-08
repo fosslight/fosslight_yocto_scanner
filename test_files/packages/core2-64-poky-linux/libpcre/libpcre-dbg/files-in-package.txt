@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root           103232 ./usr/bin/.debug/pcregrep
+-rwxr-xr-x root       root           255240 ./usr/bin/.debug/pcretest
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           357608 ./usr/lib/.debug/libpcrecpp.so.0.0.2
+-rwxr-xr-x root       root            16880 ./usr/lib/.debug/libpcreposix.so.0.0.7
+-rwxr-xr-x root       root          1873600 ./usr/lib/.debug/libpcre.so.1.2.12
+drwxr-xr-x root       root             4096 ./usr/lib/libpcre
+drwxr-xr-x root       root             4096 ./usr/lib/libpcre/ptest
+drwxr-xr-x root       root             4096 ./usr/lib/libpcre/ptest/.debug
+-rwxr-xr-x root       root           103232 ./usr/lib/libpcre/ptest/.debug/pcregrep
+-rwxr-xr-x root       root           215776 ./usr/lib/libpcre/ptest/.debug/pcre_stringpiece_unittest
+-rwxr-xr-x root       root           255240 ./usr/lib/libpcre/ptest/.debug/pcretest

@@ -1,0 +1,7 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  14 ./sysroot-providers/unifdef-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -               41064 ./usr/bin/unifdef
+-rwxr-xr-x -          -                2096 ./usr/bin/unifdefall
+drwxr-xr-x -          -                4096 ./usr/share

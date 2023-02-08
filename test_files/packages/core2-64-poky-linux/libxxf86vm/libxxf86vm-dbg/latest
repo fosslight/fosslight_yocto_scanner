@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.1.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libx11-dbg libxext-dbg
+PKGSIZE = 80872
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/.debug/libXxf86vm.so.1.0.0

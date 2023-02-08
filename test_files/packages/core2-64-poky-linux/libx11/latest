@@ -1,0 +1,6 @@
+PE = 1
+PV = 1.6.9
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libtool-cross libtool-native libxcb pkgconfig-native util-macros virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc xorgproto xorgproto-native xtrans
+PACKAGES = libx11-src libx11-dbg libx11-xcb libx11-staticdev libx11-dev libx11-doc libx11-locale libx11
+LAYER = core

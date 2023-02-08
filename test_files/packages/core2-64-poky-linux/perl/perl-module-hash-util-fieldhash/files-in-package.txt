@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/perl5
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Hash
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Hash/Util
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Hash/Util/FieldHash
+-r-xr-xr-x root       root            22336 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Hash/Util/FieldHash/FieldHash.so
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/Hash
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/Hash/Util
+-r--r--r-- root       root            29790 ./usr/lib/perl5/5.30.2/x86_64-linux/Hash/Util/FieldHash.pm

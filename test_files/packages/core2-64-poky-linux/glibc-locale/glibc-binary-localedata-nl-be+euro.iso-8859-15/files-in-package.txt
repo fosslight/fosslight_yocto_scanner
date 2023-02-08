@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x root       root             4096 ./usr/lib/locale/nl_BE@euro.ISO-8859-15
+-rw-r--r-- root       root              159 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_ADDRESS
+-rw-r--r-- root       root            22408 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_COLLATE
+-rw-r--r-- root       root           292156 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_CTYPE
+-rw-r--r-- root       root              366 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_IDENTIFICATION
+-rw-r--r-- root       root               29 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_MEASUREMENT
+drwxr-xr-x root       root             4096 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_MESSAGES
+-rw-r--r-- root       root               65 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_MESSAGES/SYS_LC_MESSAGES
+-rw-r--r-- root       root              292 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_MONETARY
+-rw-r--r-- root       root              108 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_NAME
+-rw-r--r-- root       root               60 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_NUMERIC
+-rw-r--r-- root       root               40 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_PAPER
+-rw-r--r-- root       root               57 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_TELEPHONE
+-rw-r--r-- root       root             3196 ./usr/lib/locale/nl_BE@euro.ISO-8859-15/LC_TIME

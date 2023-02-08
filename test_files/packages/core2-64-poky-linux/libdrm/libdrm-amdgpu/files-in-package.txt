@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            42824 ./usr/lib/libdrm_amdgpu.so.1.0.0
+lrwxrwxrwx root       root               22 ./usr/lib/libdrm_amdgpu.so.1 -> libdrm_amdgpu.so.1.0.0
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/libdrm
+-rw-r--r-- root       root             7547 ./usr/share/libdrm/amdgpu.ids

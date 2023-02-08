@@ -1,0 +1,8 @@
+PV = 1.07.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg readline-dbg
+PKGSIZE = 450944
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/bc.bc /usr/bin/.debug/dc.bc

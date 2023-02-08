@@ -1,0 +1,8 @@
+PV = 5.0.1
+PR = r0
+RPROVIDES = gawk-locale vi-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-vi
+PKGSIZE = 90510
+FILES = /usr/share/locale/vi
+FILELIST = /usr/share/locale/vi/LC_MESSAGES/gawk.mo

@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-b perl-module-bytes perl-module-constant perl-module-encode perl-module-exporter perl-module-json-pp-boolean perl-module-math-bigfloat perl-module-math-bigint perl-module-overload perl-module-strict perl-module-subs
+RRECOMMENDS = 
+PKGSIZE = 100557
+FILES = /usr/lib/perl5/5.30.2/JSON/PP.pm
+FILELIST = /usr/lib/perl5/5.30.2/JSON/PP.pm

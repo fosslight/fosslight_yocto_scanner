@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x root       root             4096 ./usr/lib/locale/lg_UG.ISO-8859-10
+-rw-r--r-- root       root              160 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_ADDRESS
+-rw-r--r-- root       root            23216 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_COLLATE
+-rw-r--r-- root       root           291860 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_CTYPE
+-rw-r--r-- root       root              359 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_IDENTIFICATION
+-rw-r--r-- root       root               29 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_MEASUREMENT
+drwxr-xr-x root       root             4096 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_MESSAGES
+-rw-r--r-- root       root               65 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_MESSAGES/SYS_LC_MESSAGES
+-rw-r--r-- root       root              300 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_MONETARY
+-rw-r--r-- root       root               79 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_NAME
+-rw-r--r-- root       root               60 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_NUMERIC
+-rw-r--r-- root       root               40 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_PAPER
+-rw-r--r-- root       root               64 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_TELEPHONE
+-rw-r--r-- root       root             3352 ./usr/lib/locale/lg_UG.ISO-8859-10/LC_TIME

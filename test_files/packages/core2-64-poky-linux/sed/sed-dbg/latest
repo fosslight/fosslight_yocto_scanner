@@ -1,0 +1,8 @@
+PV = 4.8
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 1001288
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /bin/.debug/sed.sed /usr/lib/sed/ptest/testsuite/.debug/get-mb-cur-max /usr/lib/sed/ptest/testsuite/.debug/test-mbrtowc

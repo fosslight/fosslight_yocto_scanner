@@ -1,0 +1,8 @@
+PV = 5.2.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = liblzma xz (= 5.2.4-r0)
+RRECOMMENDS = glibc-dev liblzma-dev update-alternatives-opkg-dev
+PKGSIZE = 170251
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xz/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/lzma.h /usr/include/lzma/base.h /usr/include/lzma/bcj.h /usr/include/lzma/block.h /usr/include/lzma/check.h /usr/include/lzma/container.h /usr/include/lzma/delta.h /usr/include/lzma/filter.h /usr/include/lzma/hardware.h /usr/include/lzma/index.h /usr/include/lzma/index_hash.h /usr/include/lzma/lzma12.h /usr/include/lzma/stream_flags.h /usr/include/lzma/version.h /usr/include/lzma/vli.h /usr/lib/liblzma.so /usr/lib/pkgconfig/liblzma.pc

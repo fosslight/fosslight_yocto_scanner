@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-config perl-module-cwd perl-module-exporter perl-module-extutils-parsexs-constants perl-module-extutils-parsexs-countlines perl-module-extutils-parsexs-eval perl-module-extutils-parsexs-utilities perl-module-file-basename perl-module-re perl-module-strict
+RRECOMMENDS = 
+PKGSIZE = 66867
+FILES = /usr/lib/perl5/5.30.2/ExtUtils/ParseXS.pm
+FILELIST = /usr/lib/perl5/5.30.2/ExtUtils/ParseXS.pm

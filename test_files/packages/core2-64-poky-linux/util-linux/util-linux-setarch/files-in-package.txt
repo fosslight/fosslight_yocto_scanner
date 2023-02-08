@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+lrwxrwxrwx root       root                7 ./usr/bin/i386 -> setarch
+lrwxrwxrwx root       root                7 ./usr/bin/linux32 -> setarch
+lrwxrwxrwx root       root                7 ./usr/bin/linux64 -> setarch
+-rwxr-xr-x root       root            26936 ./usr/bin/setarch
+lrwxrwxrwx root       root                7 ./usr/bin/uname26 -> setarch
+lrwxrwxrwx root       root                7 ./usr/bin/x86_64 -> setarch

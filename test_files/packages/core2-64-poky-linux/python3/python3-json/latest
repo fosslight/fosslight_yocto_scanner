@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) python3-core
+RRECOMMENDS = 
+PKGSIZE = 181983
+FILES = /usr/lib/python3.8/json /usr/lib/python3.8/lib-dynload/_json.*.so
+FILELIST = /usr/lib/python3.8/json/__init__.py /usr/lib/python3.8/json/__pycache__/__init__.cpython-38.opt-1.pyc /usr/lib/python3.8/json/__pycache__/__init__.cpython-38.opt-2.pyc /usr/lib/python3.8/json/__pycache__/__init__.cpython-38.pyc /usr/lib/python3.8/json/__pycache__/decoder.cpython-38.opt-1.pyc /usr/lib/python3.8/json/__pycache__/decoder.cpython-38.opt-2.pyc /usr/lib/python3.8/json/__pycache__/decoder.cpython-38.pyc /usr/lib/python3.8/json/__pycache__/encoder.cpython-38.opt-1.pyc /usr/lib/python3.8/json/__pycache__/encoder.cpython-38.opt-2.pyc /usr/lib/python3.8/json/__pycache__/encoder.cpython-38.pyc /usr/lib/python3.8/json/__pycache__/scanner.cpython-38.opt-1.pyc /usr/lib/python3.8/json/__pycache__/scanner.cpython-38.opt-2.pyc /usr/lib/python3.8/json/__pycache__/scanner.cpython-38.pyc /usr/lib/python3.8/json/__pycache__/tool.cpython-38.opt-1.pyc /usr/lib/python3.8/json/__pycache__/tool.cpython-38.opt-2.pyc /usr/lib/python3.8/json/__pycache__/tool.cpython-38.pyc /usr/lib/python3.8/json/decoder.py /usr/lib/python3.8/json/encoder.py /usr/lib/python3.8/json/scanner.py /usr/lib/python3.8/json/tool.py /usr/lib/python3.8/lib-dynload/_json.cpython-38-x86_64-linux-gnu.so

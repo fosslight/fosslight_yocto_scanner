@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-carp perl-module-mro perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 11722
+FILES = /usr/lib/perl5/5.30.2/Test2/Util/HashBase.pm
+FILELIST = /usr/lib/perl5/5.30.2/Test2/Util/HashBase.pm

@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = ast-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ast
+PKGSIZE = 12747
+FILES = /usr/share/locale/ast
+FILELIST = /usr/share/locale/ast/LC_MESSAGES/shared-mime-info.mo

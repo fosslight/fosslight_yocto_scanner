@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/acl
+-rw-r--r-- root       root             2611 ./usr/include/acl/libacl.h
+drwxr-xr-x root       root             4096 ./usr/include/sys
+-rw-r--r-- root       root             3700 ./usr/include/sys/acl.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               18 ./usr/lib/libacl.so -> libacl.so.1.1.2253
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              204 ./usr/lib/pkgconfig/libacl.pc

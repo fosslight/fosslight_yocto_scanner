@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/xrandr
+drwxr-xr-x root       root             4096 ./usr/src/debug/xrandr/1_1.5.1-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/xrandr/1_1.5.1-r0/xrandr-1.5.1
+-rw-r--r-- root       root           110389 ./usr/src/debug/xrandr/1_1.5.1-r0/xrandr-1.5.1/xrandr.c

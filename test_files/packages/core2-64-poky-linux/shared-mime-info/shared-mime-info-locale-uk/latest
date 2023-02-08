@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = shared-mime-info-locale uk-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-uk
+PKGSIZE = 54953
+FILES = /usr/share/locale/uk
+FILELIST = /usr/share/locale/uk/LC_MESSAGES/shared-mime-info.mo

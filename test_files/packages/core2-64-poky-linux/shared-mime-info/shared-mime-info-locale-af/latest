@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = af-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-af
+PKGSIZE = 36706
+FILES = /usr/share/locale/af
+FILELIST = /usr/share/locale/af/LC_MESSAGES/shared-mime-info.mo

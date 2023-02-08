@@ -1,0 +1,10 @@
+PV = 2.31+gitAUTOINC+1094741224
+PR = r0
+PKG = libc6-utils
+PKGV = 2.31+git0+1094741224
+RPROVIDES = eglibc-utils glibc-utils (=2.31+git0+1094741224)
+RDEPENDS = glibc (>= 2.31+git0+1094741224)
+RRECOMMENDS = 
+PKGSIZE = 333032
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/gencat /usr/bin/getconf /usr/bin/getent /usr/bin/iconv /usr/bin/locale /usr/bin/makedb /usr/bin/pcprofiledump /usr/bin/pldd /usr/bin/sprof /usr/sbin/iconvconfig

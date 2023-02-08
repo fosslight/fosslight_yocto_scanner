@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./etc
+-rw-r--r-- root       root              642 ./etc/xattr.conf
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            14288 ./usr/bin/attr
+-rwxr-xr-x root       root            23032 ./usr/bin/getfattr
+-rwxr-xr-x root       root            18696 ./usr/bin/setfattr.attr

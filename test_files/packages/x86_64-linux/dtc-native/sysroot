@@ -1,0 +1,20 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  10 ./sysroot-providers/dtc-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -               28776 ./usr/bin/convert-dtsv0
+-rwxr-xr-x -          -              118888 ./usr/bin/dtc
+-rwxr-xr-x -          -                 680 ./usr/bin/dtdiff
+-rwxr-xr-x -          -               20584 ./usr/bin/fdtdump
+-rwxr-xr-x -          -               20584 ./usr/bin/fdtget
+-rwxr-xr-x -          -               20584 ./usr/bin/fdtoverlay
+-rwxr-xr-x -          -               20584 ./usr/bin/fdtput
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -                1761 ./usr/include/fdt.h
+-rw-r--r-- -          -                2753 ./usr/include/libfdt_env.h
+-rw-r--r-- -          -               73754 ./usr/include/libfdt.h
+drwxr-xr-x -          -                4096 ./usr/lib
+lrwxrwxrwx -          -                  11 ./usr/lib/libfdt-1.6.0.so -> libfdt.so.1
+-rw-r--r-- -          -              265876 ./usr/lib/libfdt.a
+-rwxr-xr-x -          -               35248 ./usr/lib/libfdt.so.1
+lrwxrwxrwx -          -                  11 ./usr/lib/libfdt.so -> libfdt.so.1

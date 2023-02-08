@@ -1,0 +1,14 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  11 ./sysroot-providers/zlib-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -               16262 ./usr/include/zconf.h
+-rw-r--r-- -          -               96239 ./usr/include/zlib.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rw-r--r-- -          -              125146 ./usr/lib/libz.a
+-rwxr-xr-x -          -               92480 ./usr/lib/libz.so.1.2.11
+lrwxrwxrwx -          -                  14 ./usr/lib/libz.so.1 -> libz.so.1.2.11
+lrwxrwxrwx -          -                  14 ./usr/lib/libz.so -> libz.so.1.2.11
+drwxrwxr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 317 ./usr/lib/pkgconfig/zlib.pc
+drwxr-xr-x -          -                4096 ./usr/share

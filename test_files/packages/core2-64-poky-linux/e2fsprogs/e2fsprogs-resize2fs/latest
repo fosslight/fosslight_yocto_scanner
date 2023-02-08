@@ -1,0 +1,8 @@
+PV = 1.45.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libcomerr (>= 1.45.6) libe2p (>= 1.45.6) libext2fs (>= 1.45.6)
+RRECOMMENDS = 
+PKGSIZE = 63528
+FILES = /sbin/resize2fs*
+FILELIST = /sbin/resize2fs

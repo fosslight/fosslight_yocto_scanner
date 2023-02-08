@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-filter-util-call perl-module-text-balanced
+RRECOMMENDS = 
+PKGSIZE = 23838
+FILES = /usr/lib/perl5/5.30.2/Filter/Simple.pm
+FILELIST = /usr/lib/perl5/5.30.2/Filter/Simple.pm

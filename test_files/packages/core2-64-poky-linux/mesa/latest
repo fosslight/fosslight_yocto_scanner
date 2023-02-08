@@ -1,0 +1,6 @@
+PE = 2
+PV = 20.0.2
+PR = r0
+DEPENDS = bison-native chrpath-replacement-native expat flex-native gettext-native gettext-native libdrm libdrm libxdamage libxext libxfixes libxml2-native libxshmfence libxxf86vm makedepend-native meson-native ninja-native pkgconfig-native python3-mako-native python3-native virtual/libc virtual/libx11 virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc wayland wayland-native wayland-protocols xorgproto xorgproto xorgproto xrandr zlib
+PACKAGES = mesa-src mesa-dbg libegl-mesa libegl-mesa-dev libosmesa libosmesa-dev libgl-mesa libgl-mesa-dev libglapi libglapi-dev libgbm libgbm-dev libgles1-mesa libgles1-mesa-dev libgles2-mesa libgles2-mesa-dev libgles3-mesa libgles3-mesa-dev libxatracker libxatracker-dev mesa-megadriver mesa-vulkan-drivers mesa-vdpau-drivers mesa-staticdev mesa-dev mesa-doc mesa-locale mesa
+LAYER = core

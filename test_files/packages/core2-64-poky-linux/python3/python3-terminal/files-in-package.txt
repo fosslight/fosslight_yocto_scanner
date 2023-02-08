@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8
+-rw-r--r-- root       root             4807 ./usr/lib/python3.8/pty.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/__pycache__
+-rw-r--r-- root       root             3955 ./usr/lib/python3.8/__pycache__/pty.cpython-38.opt-1.pyc
+-rw-r--r-- root       root             3110 ./usr/lib/python3.8/__pycache__/pty.cpython-38.opt-2.pyc
+-rw-r--r-- root       root             3955 ./usr/lib/python3.8/__pycache__/pty.cpython-38.pyc
+-rw-r--r-- root       root             1076 ./usr/lib/python3.8/__pycache__/tty.cpython-38.opt-1.pyc
+-rw-r--r-- root       root              967 ./usr/lib/python3.8/__pycache__/tty.cpython-38.opt-2.pyc
+-rw-r--r-- root       root             1076 ./usr/lib/python3.8/__pycache__/tty.cpython-38.pyc
+-rw-r--r-- root       root              879 ./usr/lib/python3.8/tty.py

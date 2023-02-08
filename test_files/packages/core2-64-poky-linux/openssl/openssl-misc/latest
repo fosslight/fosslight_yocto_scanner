@@ -1,0 +1,8 @@
+PV = 1.1.1g
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 14203
+FILES = /usr/lib/ssl-1.1/misc
+FILELIST = /usr/lib/ssl-1.1/misc/CA.pl /usr/lib/ssl-1.1/misc/tsget /usr/lib/ssl-1.1/misc/tsget.pl

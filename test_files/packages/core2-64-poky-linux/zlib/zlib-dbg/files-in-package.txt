@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/.debug
+-rwxr-xr-x root       root           260544 ./lib/.debug/libz.so.1.2.11
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/zlib
+drwxr-xr-x root       root             4096 ./usr/lib/zlib/ptest
+drwxr-xr-x root       root             4096 ./usr/lib/zlib/ptest/.debug
+-rwxr-xr-x root       root            39080 ./usr/lib/zlib/ptest/.debug/examplesh

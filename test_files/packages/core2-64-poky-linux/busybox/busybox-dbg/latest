@@ -1,0 +1,8 @@
+PV = 1.31.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 4516608
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /bin/.debug/busybox.nosuid /bin/.debug/busybox.suid

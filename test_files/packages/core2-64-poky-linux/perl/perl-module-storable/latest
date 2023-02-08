@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-exporter perl-module-io-file perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 154196
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/Storable/Storable.so /usr/lib/perl5/5.30.2/Storable.pm
+FILELIST = /usr/lib/perl5/5.30.2/Storable.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/Storable/Storable.so

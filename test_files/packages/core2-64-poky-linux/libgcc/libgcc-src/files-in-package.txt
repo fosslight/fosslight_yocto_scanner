@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/libgcc
+drwxr-xr-x root       root             4096 ./usr/src/debug/libgcc/10.1.0-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0
+drwxr-xr-x root       root             4096 ./usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux
+drwxr-xr-x root       root             4096 ./usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc
+-rw-r--r-- root       root              236 ./usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/enable-execute-stack.c
+-rw-r--r-- root       root            24219 ./usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/gthr-default.h
+-rw-r--r-- root       root             7399 ./usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/md-unwind-support.h
+-rw-r--r-- root       root             2473 ./usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/sfp-machine.h
+-rw-r--r-- root       root            10905 ./usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/unwind.h

@@ -1,0 +1,8 @@
+PV = 2.6.4
+PR = r0
+RPROVIDES = es-translation flex-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-es
+PKGSIZE = 12775
+FILES = /usr/share/locale/es
+FILELIST = /usr/share/locale/es/LC_MESSAGES/flex.mo

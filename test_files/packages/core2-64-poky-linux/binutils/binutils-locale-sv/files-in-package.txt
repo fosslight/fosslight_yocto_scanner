@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/locale
+drwxr-xr-x root       root             4096 ./usr/share/locale/sv
+drwxr-xr-x root       root             4096 ./usr/share/locale/sv/LC_MESSAGES
+-rw-r--r-- root       root           155219 ./usr/share/locale/sv/LC_MESSAGES/bfd.mo
+-rw-r--r-- root       root           266925 ./usr/share/locale/sv/LC_MESSAGES/binutils.mo
+-rw-r--r-- root       root           507266 ./usr/share/locale/sv/LC_MESSAGES/gas.mo
+-rw-r--r-- root       root             5364 ./usr/share/locale/sv/LC_MESSAGES/gold.mo
+-rw-r--r-- root       root            10657 ./usr/share/locale/sv/LC_MESSAGES/gprof.mo
+-rw-r--r-- root       root            58013 ./usr/share/locale/sv/LC_MESSAGES/ld.mo
+-rw-r--r-- root       root            50094 ./usr/share/locale/sv/LC_MESSAGES/opcodes.mo

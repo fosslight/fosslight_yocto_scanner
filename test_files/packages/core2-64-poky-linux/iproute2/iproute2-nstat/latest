@@ -1,0 +1,8 @@
+PV = 5.5.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libcap (>= 2.33) libmnl (>= 1.0.4)
+RRECOMMENDS = 
+PKGSIZE = 79920
+FILES = /sbin/nstat
+FILELIST = /sbin/nstat

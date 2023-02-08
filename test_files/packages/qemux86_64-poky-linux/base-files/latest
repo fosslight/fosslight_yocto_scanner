@@ -1,0 +1,5 @@
+PV = 3.0.14
+PR = r89
+DEPENDS = 
+PACKAGES = base-files-src base-files-dbg base-files-doc base-files base-files-dev
+LAYER = core

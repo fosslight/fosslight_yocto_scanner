@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-encode perl-module-encode-cn-hz perl-module-strict perl-module-warnings perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 2101114
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/Encode/CN/CN.so /usr/lib/perl5/5.30.2/x86_64-linux/Encode/CN.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Encode/CN.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/Encode/CN/CN.so

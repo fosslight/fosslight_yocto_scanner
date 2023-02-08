@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-digest-base perl-module-exporter perl-module-strict perl-module-vars perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 29173
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/Digest/MD5/MD5.so /usr/lib/perl5/5.30.2/x86_64-linux/Digest/MD5.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Digest/MD5.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/Digest/MD5/MD5.so

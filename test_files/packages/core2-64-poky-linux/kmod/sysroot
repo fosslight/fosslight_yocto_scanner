@@ -1,0 +1,22 @@
+drwxr-xr-x -          -                4096 ./lib
+drwxr-xr-x -          -                4096 ./lib/depmod.d
+-rw-r--r-- -          -                  71 ./lib/depmod.d/search.conf
+drwxr-xr-x -          -                4096 ./lib/modprobe.d
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   4 ./sysroot-providers/kmod
+-rw-r--r-- -          -                   4 ./sysroot-providers/module-init-tools
+-rw-r--r-- -          -                   4 ./sysroot-providers/module-init-tools-depmod
+-rw-r--r-- -          -                   4 ./sysroot-providers/module-init-tools-insmod-static
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -                9433 ./usr/include/libkmod.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               83888 ./usr/lib/libkmod.so.2.3.4
+lrwxrwxrwx -          -                  16 ./usr/lib/libkmod.so.2 -> libkmod.so.2.3.4
+lrwxrwxrwx -          -                  16 ./usr/lib/libkmod.so -> libkmod.so.2.3.4
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 213 ./usr/lib/pkgconfig/libkmod.pc
+drwxr-xr-x -          -                4096 ./usr/share
+drwxr-xr-x -          -                4096 ./usr/share/bash-completion
+drwxr-xr-x -          -                4096 ./usr/share/bash-completion/completions
+-rw-r--r-- -          -                3235 ./usr/share/bash-completion/completions/kmod

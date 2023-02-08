@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-base perl-module-encode perl-module-encode-alias perl-module-i18n-langinfo perl-module-strict
+RRECOMMENDS = 
+PKGSIZE = 12535
+FILES = /usr/lib/perl5/5.30.2/ExtUtils/MakeMaker/Locale.pm
+FILELIST = /usr/lib/perl5/5.30.2/ExtUtils/MakeMaker/Locale.pm

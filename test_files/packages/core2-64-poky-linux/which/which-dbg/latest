@@ -1,0 +1,8 @@
+PV = 2.21
+PR = r3
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 82736
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/which.which

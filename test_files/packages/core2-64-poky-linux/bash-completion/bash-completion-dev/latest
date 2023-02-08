@@ -1,0 +1,8 @@
+PV = 2.10
+PR = r0
+RPROVIDES = 
+RDEPENDS = bash-completion (= 2.10-r0)
+RRECOMMENDS = bash-dev
+PKGSIZE = 973
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bash-completion/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/cmake
+FILELIST = /usr/share/cmake/bash-completion/bash-completion-config-version.cmake /usr/share/cmake/bash-completion/bash-completion-config.cmake /usr/share/pkgconfig/bash-completion.pc

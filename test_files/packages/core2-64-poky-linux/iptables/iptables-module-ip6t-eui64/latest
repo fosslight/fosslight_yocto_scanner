@@ -1,0 +1,8 @@
+PV = 1.8.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = iptables (>= 1.8.4)
+RRECOMMENDS = 
+PKGSIZE = 14208
+FILES = /usr/lib/xtables/libip6t_eui64.so
+FILELIST = /usr/lib/xtables/libip6t_eui64.so

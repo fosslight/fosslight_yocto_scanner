@@ -1,0 +1,26 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  13 ./sysroot-providers/json-c-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxrwxr-x -          -                4096 ./usr/include/json-c
+-rw-r--r-- -          -                1557 ./usr/include/json-c/arraylist.h
+-rw-r--r-- -          -                 755 ./usr/include/json-c/bits.h
+-rw-r--r-- -          -                1724 ./usr/include/json-c/debug.h
+-rw-r--r-- -          -                 163 ./usr/include/json-c/json_config.h
+-rw-r--r-- -          -                1184 ./usr/include/json-c/json_c_version.h
+-rw-r--r-- -          -                 810 ./usr/include/json-c/json.h
+-rw-r--r-- -          -                 350 ./usr/include/json-c/json_inttypes.h
+-rw-r--r-- -          -               37992 ./usr/include/json-c/json_object.h
+-rw-r--r-- -          -                8274 ./usr/include/json-c/json_object_iterator.h
+-rw-r--r-- -          -                4832 ./usr/include/json-c/json_pointer.h
+-rw-r--r-- -          -                7092 ./usr/include/json-c/json_tokener.h
+-rw-r--r-- -          -                2997 ./usr/include/json-c/json_util.h
+-rw-r--r-- -          -                3181 ./usr/include/json-c/json_visit.h
+-rw-r--r-- -          -               11151 ./usr/include/json-c/linkhash.h
+-rw-r--r-- -          -                3858 ./usr/include/json-c/printbuf.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               64016 ./usr/lib/libjson-c.so.4.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libjson-c.so.4 -> libjson-c.so.4.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libjson-c.so -> libjson-c.so.4.0.0
+drwxrwxr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 306 ./usr/lib/pkgconfig/json-c.pc

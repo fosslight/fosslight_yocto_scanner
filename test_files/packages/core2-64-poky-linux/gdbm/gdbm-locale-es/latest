@@ -1,0 +1,9 @@
+PV = 1.18.1
+PR = r0
+PKG = libgdbm-locale-es
+RPROVIDES = es-translation gdbm-locale gdbm-locale-es (=1.18.1)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-es
+PKGSIZE = 14847
+FILES = /usr/share/locale/es
+FILELIST = /usr/share/locale/es/LC_MESSAGES/gdbm.mo

@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 1161418
+FILES = /usr/lib/locale/ko_KR.EUC-KR
+FILELIST = /usr/lib/locale/ko_KR.EUC-KR/LC_ADDRESS /usr/lib/locale/ko_KR.EUC-KR/LC_COLLATE /usr/lib/locale/ko_KR.EUC-KR/LC_CTYPE /usr/lib/locale/ko_KR.EUC-KR/LC_IDENTIFICATION /usr/lib/locale/ko_KR.EUC-KR/LC_MEASUREMENT /usr/lib/locale/ko_KR.EUC-KR/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/ko_KR.EUC-KR/LC_MONETARY /usr/lib/locale/ko_KR.EUC-KR/LC_NAME /usr/lib/locale/ko_KR.EUC-KR/LC_NUMERIC /usr/lib/locale/ko_KR.EUC-KR/LC_PAPER /usr/lib/locale/ko_KR.EUC-KR/LC_TELEPHONE /usr/lib/locale/ko_KR.EUC-KR/LC_TIME

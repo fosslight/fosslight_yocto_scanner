@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/site-packages
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/site-packages/.debug
+-rwxr-xr-x root       root           527024 ./usr/lib/python3.8/site-packages/.debug/_dbus_bindings.so
+-rwxr-xr-x root       root            60968 ./usr/lib/python3.8/site-packages/.debug/_dbus_glib_bindings.so

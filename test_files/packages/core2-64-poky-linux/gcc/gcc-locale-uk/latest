@@ -1,0 +1,8 @@
+PV = 10.1.0
+PR = r0
+RPROVIDES = gcc-locale uk-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-uk
+PKGSIZE = 180538
+FILES = /usr/share/locale/uk
+FILELIST = /usr/share/locale/uk/LC_MESSAGES/cpplib.mo /usr/share/locale/uk/LC_MESSAGES/gcc.mo

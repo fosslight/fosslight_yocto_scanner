@@ -1,0 +1,11 @@
+PE = 2
+PV = 20.0.2
+PR = r0
+RPROVIDES = mesa-dri-dbg
+RDEPENDS = 
+RRECOMMENDS = expat-dbg glibc-dbg libdrm-dbg libdrm-intel-dbg libdrm-nouveau-dbg libdrm-radeon-dbg libgbm-dbg libgcc-dbg libglapi-dbg libstdc++-dbg libx11-dbg libx11-xcb-dbg libxcb-dbg libxcb-dri2-dbg libxcb-dri3-dbg libxcb-glx-dbg libxcb-present-dbg libxcb-randr-dbg libxcb-sync-dbg libxcb-xfixes-dbg libxdamage-dbg libxext-dbg libxfixes-dbg libxshmfence-dbg libxxf86vm-dbg wayland-dbg zlib-dbg
+RREPLACES = mesa-dri-dbg
+RCONFLICTS = mesa-dri-dbg
+PKGSIZE = 198810048
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/.debug/libEGL.so.1.0.0 /usr/lib/.debug/libGL.so.1.2.0 /usr/lib/.debug/libGLESv1_CM.so.1.1.0 /usr/lib/.debug/libGLESv2.so.2.0.0 /usr/lib/.debug/libgbm.so.1.0.0 /usr/lib/.debug/libglapi.so.0.0.0 /usr/lib/.debug/libvulkan_intel.so /usr/lib/dri/.debug/i915_dri.so /usr/lib/dri/.debug/kms_swrast_dri.so

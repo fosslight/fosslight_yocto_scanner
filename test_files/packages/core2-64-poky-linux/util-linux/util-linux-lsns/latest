@@ -1,0 +1,8 @@
+PV = 2.35.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) util-linux-libmount (>= 2.35.1) util-linux-libsmartcols (>= 2.35.1)
+RRECOMMENDS = 
+PKGSIZE = 51240
+FILES = /usr/bin/lsns
+FILELIST = /usr/bin/lsns

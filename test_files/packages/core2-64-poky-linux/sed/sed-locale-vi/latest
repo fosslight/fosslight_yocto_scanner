@@ -1,0 +1,8 @@
+PV = 4.8
+PR = r0
+RPROVIDES = sed-locale vi-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-vi
+PKGSIZE = 17573
+FILES = /usr/share/locale/vi
+FILELIST = /usr/share/locale/vi/LC_MESSAGES/sed.mo

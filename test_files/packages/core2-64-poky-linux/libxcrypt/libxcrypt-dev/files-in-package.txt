@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root            11160 ./usr/include/crypt.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               17 ./usr/lib/libcrypt.so -> libcrypt.so.2.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+lrwxrwxrwx root       root               12 ./usr/lib/pkgconfig/libcrypt.pc -> libxcrypt.pc
+-rw-r--r-- root       root              367 ./usr/lib/pkgconfig/libxcrypt.pc

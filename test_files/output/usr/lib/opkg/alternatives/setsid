@@ -1,0 +1,2 @@
+/usr/bin/setsid
+/bin/busybox.nosuid 50

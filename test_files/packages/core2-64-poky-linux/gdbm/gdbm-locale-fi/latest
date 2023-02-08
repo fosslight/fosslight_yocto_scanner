@@ -1,0 +1,9 @@
+PV = 1.18.1
+PR = r0
+PKG = libgdbm-locale-fi
+RPROVIDES = fi-translation gdbm-locale gdbm-locale-fi (=1.18.1)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fi
+PKGSIZE = 12299
+FILES = /usr/share/locale/fi
+FILELIST = /usr/share/locale/fi/LC_MESSAGES/gdbm.mo

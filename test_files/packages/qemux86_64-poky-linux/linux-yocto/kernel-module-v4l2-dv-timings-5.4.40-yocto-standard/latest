@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-v4l2-dv-timings
+RDEPENDS = kernel-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 31504
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/media/v4l2-core/v4l2-dv-timings.ko /etc/modules-load.d/v4l2-dv-timings.conf /etc/modprobe.d/v4l2-dv-timings.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/media/v4l2-core/v4l2-dv-timings.ko

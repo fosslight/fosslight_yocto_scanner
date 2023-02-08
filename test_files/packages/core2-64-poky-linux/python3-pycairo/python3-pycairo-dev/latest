@@ -1,0 +1,8 @@
+PV = 1.19.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-pycairo (= 1.19.0-r0)
+RRECOMMENDS = cairo-dev glibc-dev python3-dev
+PKGSIZE = 9335
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/python3-pycairo/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/pycairo/py3cairo.h /usr/lib/pkgconfig/py3cairo.pc

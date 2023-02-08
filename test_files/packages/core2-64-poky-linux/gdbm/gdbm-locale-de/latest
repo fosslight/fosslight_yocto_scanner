@@ -1,0 +1,9 @@
+PV = 1.18.1
+PR = r0
+PKG = libgdbm-locale-de
+RPROVIDES = de-translation gdbm-locale gdbm-locale-de (=1.18.1)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-de
+PKGSIZE = 12288
+FILES = /usr/share/locale/de
+FILELIST = /usr/share/locale/de/LC_MESSAGES/gdbm.mo

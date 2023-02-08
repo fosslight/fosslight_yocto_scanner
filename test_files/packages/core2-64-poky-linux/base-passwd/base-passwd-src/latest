@@ -1,0 +1,8 @@
+PV = 3.5.29
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 30073
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/base-passwd/3.5.29-r0/base-passwd-3.5.29/update-passwd.c

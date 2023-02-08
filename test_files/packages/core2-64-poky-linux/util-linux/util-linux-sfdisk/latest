@@ -1,0 +1,8 @@
+PV = 2.35.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) ncurses-libtinfo (>= 6.2) util-linux-libfdisk (>= 2.35.1) util-linux-libsmartcols (>= 2.35.1)
+RRECOMMENDS = 
+PKGSIZE = 141352
+FILES = /usr/sbin/sfdisk
+FILELIST = /usr/sbin/sfdisk

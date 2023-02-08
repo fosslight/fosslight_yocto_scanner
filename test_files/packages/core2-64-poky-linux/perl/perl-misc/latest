@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-modules update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 402355
+FILES = /usr/bin/*
+FILELIST = /usr/bin/corelist.perl /usr/bin/cpan.perl /usr/bin/enc2xs.perl /usr/bin/encguess.perl /usr/bin/h2ph.perl /usr/bin/h2xs.perl /usr/bin/instmodsh.perl /usr/bin/json_pp.perl /usr/bin/libnetcfg.perl /usr/bin/perlbug /usr/bin/perldoc /usr/bin/perlivp /usr/bin/perlthanks /usr/bin/piconv.perl /usr/bin/pl2pm.perl /usr/bin/pod2html.perl /usr/bin/pod2man.perl /usr/bin/pod2text.perl /usr/bin/pod2usage.perl /usr/bin/podchecker.perl /usr/bin/podselect.perl /usr/bin/prove.perl /usr/bin/ptar.perl /usr/bin/ptardiff.perl /usr/bin/ptargrep.perl /usr/bin/shasum.perl /usr/bin/splain.perl /usr/bin/xsubpp.perl /usr/bin/zipdetails.perl

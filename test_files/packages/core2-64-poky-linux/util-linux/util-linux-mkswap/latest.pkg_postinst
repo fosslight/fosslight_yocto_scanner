@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /sbin/mkswap mkswap /sbin/mkswap.util-linux 80

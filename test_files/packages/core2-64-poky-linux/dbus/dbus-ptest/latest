@@ -1,0 +1,8 @@
+PV = 1.12.16
+PR = r0
+RPROVIDES = 
+RDEPENDS = dbus-test-ptest
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

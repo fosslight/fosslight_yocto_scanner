@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) python3-core
+RRECOMMENDS = 
+PKGSIZE = 204235
+FILES = /usr/lib/python3.8/cProfile.py /usr/lib/python3.8/lib-dynload/_lsprof.*.so /usr/lib/python3.8/profile.py /usr/lib/python3.8/pstats.py /usr/lib/python3.8/__pycache__/cProfile.*.pyc /usr/lib/python3.8/__pycache__/profile.*.pyc /usr/lib/python3.8/__pycache__/pstats.*.pyc
+FILELIST = /usr/lib/python3.8/__pycache__/cProfile.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/cProfile.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/cProfile.cpython-38.pyc /usr/lib/python3.8/__pycache__/profile.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/profile.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/profile.cpython-38.pyc /usr/lib/python3.8/__pycache__/pstats.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/pstats.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/pstats.cpython-38.pyc /usr/lib/python3.8/cProfile.py /usr/lib/python3.8/lib-dynload/_lsprof.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/profile.py /usr/lib/python3.8/pstats.py

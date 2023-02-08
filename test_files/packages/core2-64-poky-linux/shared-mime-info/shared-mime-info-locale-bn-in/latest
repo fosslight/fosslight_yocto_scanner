@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = bn-in-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-bn-in
+PKGSIZE = 512
+FILES = /usr/share/locale/bn_IN
+FILELIST = /usr/share/locale/bn_IN/LC_MESSAGES/shared-mime-info.mo

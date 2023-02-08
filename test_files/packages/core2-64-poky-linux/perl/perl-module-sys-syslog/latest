@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-config perl-module-constant perl-module-dynaloader perl-module-exporter perl-module-fcntl perl-module-file-basename perl-module-posix perl-module-socket perl-module-strict perl-module-sys-hostname perl-module-vars perl-module-warnings perl-module-warnings-register perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 70305
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/Sys/Syslog/Syslog.so /usr/lib/perl5/5.30.2/x86_64-linux/Sys/Syslog.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Sys/Syslog.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/Sys/Syslog/Syslog.so

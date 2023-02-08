@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root            10327 ./usr/include/libudev.h
+-rw-r--r-- root       root             8998 ./usr/include/udev.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               26 ./usr/lib/libudev.so -> ../../lib/libudev.so.1.6.3
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              493 ./usr/lib/pkgconfig/libudev.pc
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rw-r--r-- root       root               90 ./usr/share/pkgconfig/udev.pc

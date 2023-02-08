@@ -1,0 +1,8 @@
+PV = 2.35.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 38984
+FILES = /usr/sbin/fsck.cramfs
+FILELIST = /usr/sbin/fsck.cramfs

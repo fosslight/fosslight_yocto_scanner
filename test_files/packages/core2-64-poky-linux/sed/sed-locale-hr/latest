@@ -1,0 +1,8 @@
+PV = 4.8
+PR = r0
+RPROVIDES = hr-translation sed-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hr
+PKGSIZE = 16117
+FILES = /usr/share/locale/hr
+FILELIST = /usr/share/locale/hr/LC_MESSAGES/sed.mo

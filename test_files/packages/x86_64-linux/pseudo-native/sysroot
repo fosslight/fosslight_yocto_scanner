@@ -1,0 +1,15 @@
+drwxr-xr-x -          -                4096 ./etc
+-r--r--r-- -          -                  33 ./etc/group
+-r--r--r-- -          -                 149 ./etc/passwd
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  13 ./sysroot-providers/pseudo-native
+-rw-r--r-- -          -                  13 ./sysroot-providers/virtual_fakeroot-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxrwxr-x -          -              139368 ./usr/bin/pseudo
+-rwxrwxr-x -          -               86120 ./usr/bin/pseudodb
+-rwxrwxr-x -          -              127080 ./usr/bin/pseudolog
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxrwxr-x -          -                4096 ./usr/lib/pseudo
+drwxrwxr-x -          -                4096 ./usr/lib/pseudo/lib64
+-rwxrwxr-x -          -              324640 ./usr/lib/pseudo/lib64/libpseudo.so

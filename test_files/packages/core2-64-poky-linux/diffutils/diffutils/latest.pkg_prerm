@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  diff /usr/bin/diff.diffutils
+	update-alternatives --remove  cmp /usr/bin/cmp.diffutils

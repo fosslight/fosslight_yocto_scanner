@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) glibc-gconv glibc-gconv-libgb (>= 2.31) glibc-gconv-libjis (>= 2.31) glibc-gconv-libksc (>= 2.31)
+RRECOMMENDS = 
+PKGSIZE = 51144
+FILES = /usr/lib/gconv/ISO-2022-JP.so
+FILELIST = /usr/lib/gconv/ISO-2022-JP.so

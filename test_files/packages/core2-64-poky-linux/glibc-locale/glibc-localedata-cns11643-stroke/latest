@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc-localedata-iso14651-t1-common
+RRECOMMENDS = 
+PKGSIZE = 4523368
+FILES = /usr/share/i18n/locales/cns11643_stroke
+FILELIST = /usr/share/i18n/locales/cns11643_stroke

@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc-localedata-fa-ir
+RRECOMMENDS = 
+PKGSIZE = 9873
+FILES = /usr/share/i18n/locales/az_IR
+FILELIST = /usr/share/i18n/locales/az_IR

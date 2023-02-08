@@ -1,0 +1,18 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   3 ./sysroot-providers/gmp
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -               84177 ./usr/include/gmp-64.h
+-rw-r--r-- -          -                 500 ./usr/include/gmp.h
+-rw-r--r-- -          -              129113 ./usr/include/gmpxx.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -              489336 ./usr/lib/libgmp.so.10.4.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libgmp.so.10 -> libgmp.so.10.4.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libgmp.so -> libgmp.so.10.4.0
+-rwxr-xr-x -          -               30592 ./usr/lib/libgmpxx.so.4.6.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libgmpxx.so.4 -> libgmpxx.so.4.6.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libgmpxx.so -> libgmpxx.so.4.6.0
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 225 ./usr/lib/pkgconfig/gmp.pc
+-rw-r--r-- -          -                 260 ./usr/lib/pkgconfig/gmpxx.pc
+drwxr-xr-x -          -                4096 ./usr/share

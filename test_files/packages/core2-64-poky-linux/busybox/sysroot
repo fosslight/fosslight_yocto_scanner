@@ -1,0 +1,8 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   7 ./sysroot-providers/busybox
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/busybox
+drwxr-xr-x -          -                4096 ./usr/share
+drwxr-xr-x -          -                4096 ./usr/share/udhcpc
+-rwxr-xr-x -          -                  49 ./usr/share/udhcpc/default.script

@@ -1,0 +1,12 @@
+PV = 2.31+gitAUTOINC+1094741224
+PR = r0
+PKG = libc6-dbg
+PKGV = 2.31+git0+1094741224
+RPROVIDES = eglibc-dbg glibc-dbg (=2.31+git0+1094741224) libc-dbg
+RDEPENDS = 
+RRECOMMENDS = 
+RREPLACES = libc-dbg
+RCONFLICTS = libc-dbg
+PKGSIZE = 28470960
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /lib/.debug/ld-2.31.so /lib/.debug/libBrokenLocale-2.31.so /lib/.debug/libSegFault.so /lib/.debug/libanl-2.31.so /lib/.debug/libc-2.31.so /lib/.debug/libdl-2.31.so /lib/.debug/libm-2.31.so /lib/.debug/libmemusage.so /lib/.debug/libmvec-2.31.so /lib/.debug/libnsl-2.31.so /lib/.debug/libnss_compat-2.31.so /lib/.debug/libnss_db-2.31.so /lib/.debug/libnss_dns-2.31.so /lib/.debug/libnss_files-2.31.so /lib/.debug/libnss_hesiod-2.31.so /lib/.debug/libpcprofile.so /lib/.debug/libpthread-2.31.so /lib/.debug/libresolv-2.31.so /lib/.debug/librt-2.31.so /lib/.debug/libthread_db-1.0.so /lib/.debug/libutil-2.31.so /sbin/.debug/ldconfig /sbin/.debug/sln /usr/bin/.debug/gencat /usr/bin/.debug/getconf /usr/bin/.debug/getent /usr/bin/.debug/iconv /usr/bin/.debug/locale /usr/bin/.debug/makedb /usr/bin/.debug/pcprofiledump /usr/bin/.debug/pldd /usr/bin/.debug/sprof /usr/lib/audit/.debug/sotruss-lib.so /usr/sbin/.debug/iconvconfig /usr/sbin/.debug/nscd /usr/sbin/.debug/zdump /usr/sbin/.debug/zic

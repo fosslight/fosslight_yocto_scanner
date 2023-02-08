@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x root       root             4096 ./usr/lib/locale/mfe_MU
+-rw-r--r-- root       root              162 ./usr/lib/locale/mfe_MU/LC_ADDRESS
+-rw-r--r-- root       root          2586930 ./usr/lib/locale/mfe_MU/LC_COLLATE
+-rw-r--r-- root       root           298580 ./usr/lib/locale/mfe_MU/LC_CTYPE
+-rw-r--r-- root       root              322 ./usr/lib/locale/mfe_MU/LC_IDENTIFICATION
+-rw-r--r-- root       root               23 ./usr/lib/locale/mfe_MU/LC_MEASUREMENT
+drwxr-xr-x root       root             4096 ./usr/lib/locale/mfe_MU/LC_MESSAGES
+-rw-r--r-- root       root               59 ./usr/lib/locale/mfe_MU/LC_MESSAGES/SYS_LC_MESSAGES
+-rw-r--r-- root       root              294 ./usr/lib/locale/mfe_MU/LC_MONETARY
+-rw-r--r-- root       root               77 ./usr/lib/locale/mfe_MU/LC_NAME
+-rw-r--r-- root       root               54 ./usr/lib/locale/mfe_MU/LC_NUMERIC
+-rw-r--r-- root       root               34 ./usr/lib/locale/mfe_MU/LC_PAPER
+-rw-r--r-- root       root               49 ./usr/lib/locale/mfe_MU/LC_TELEPHONE
+-rw-r--r-- root       root             3096 ./usr/lib/locale/mfe_MU/LC_TIME

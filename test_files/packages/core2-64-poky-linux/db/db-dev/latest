@@ -1,0 +1,9 @@
+PE = 1
+PV = 5.3.28
+PR = r1
+RPROVIDES = 
+RDEPENDS = db (= 1:5.3.28-r1)
+RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev
+PKGSIZE = 172196
+FILES = /usr/include /usr/lib/libdb.so /usr/lib/libdb_cxx.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/db/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/db.h /usr/include/db51/db.h /usr/include/db51/db_cxx.h /usr/include/db_cxx.h /usr/lib/libdb.so

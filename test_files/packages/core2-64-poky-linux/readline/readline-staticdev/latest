@@ -1,0 +1,9 @@
+PV = 8.0
+PR = r0
+PKG = libreadline-staticdev
+RPROVIDES = readline-staticdev (=8.0)
+RDEPENDS = readline-dev (= 8.0-r0)
+RRECOMMENDS = 
+PKGSIZE = 1639996
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/readline/*.a
+FILELIST = /usr/lib/libhistory.a /usr/lib/libreadline.a

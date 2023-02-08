@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /sbin/losetup losetup /sbin/losetup.util-linux 80

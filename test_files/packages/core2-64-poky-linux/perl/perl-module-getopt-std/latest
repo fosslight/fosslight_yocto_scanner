@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-exporter
+RRECOMMENDS = 
+PKGSIZE = 8786
+FILES = /usr/lib/perl5/5.30.2/Getopt/Std.pm
+FILELIST = /usr/lib/perl5/5.30.2/Getopt/Std.pm

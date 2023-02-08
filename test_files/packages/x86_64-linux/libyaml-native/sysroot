@@ -1,0 +1,11 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  14 ./sysroot-providers/libyaml-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -               54355 ./usr/include/yaml.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -              120904 ./usr/lib/libyaml-0.so.2.0.6
+lrwxrwxrwx -          -                  18 ./usr/lib/libyaml-0.so.2 -> libyaml-0.so.2.0.6
+lrwxrwxrwx -          -                  18 ./usr/lib/libyaml.so -> libyaml-0.so.2.0.6
+drwxrwxr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 276 ./usr/lib/pkgconfig/yaml-0.1.pc

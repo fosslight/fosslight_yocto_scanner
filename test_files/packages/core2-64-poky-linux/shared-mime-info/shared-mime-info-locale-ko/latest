@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = ko-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ko
+PKGSIZE = 47031
+FILES = /usr/share/locale/ko
+FILELIST = /usr/share/locale/ko/LC_MESSAGES/shared-mime-info.mo

@@ -1,0 +1,57 @@
+drwxr-xr-x -          -                4096 ./lib
+-rw-r--r-- -          -               60912 ./lib/libcom_err.a
+-rwxr-xr-x -          -               18216 ./lib/libcom_err.so.2.1
+lrwxrwxrwx -          -                  17 ./lib/libcom_err.so.2 -> libcom_err.so.2.1
+lrwxrwxrwx -          -                  15 ./lib/libcom_err.so -> libcom_err.so.2
+-rw-r--r-- -          -              262424 ./lib/libe2p.a
+-rwxr-xr-x -          -               44512 ./lib/libe2p.so.2.3
+lrwxrwxrwx -          -                  13 ./lib/libe2p.so.2 -> libe2p.so.2.3
+lrwxrwxrwx -          -                  11 ./lib/libe2p.so -> libe2p.so.2
+-rw-r--r-- -          -             2820544 ./lib/libext2fs.a
+-rwxr-xr-x -          -              426160 ./lib/libext2fs.so.2.4
+lrwxrwxrwx -          -                  16 ./lib/libext2fs.so.2 -> libext2fs.so.2.4
+lrwxrwxrwx -          -                  14 ./lib/libext2fs.so -> libext2fs.so.2
+-rw-r--r-- -          -              150016 ./lib/libss.a
+-rwxr-xr-x -          -               34608 ./lib/libss.so.2.0
+lrwxrwxrwx -          -                  12 ./lib/libss.so.2 -> libss.so.2.0
+lrwxrwxrwx -          -                  10 ./lib/libss.so -> libss.so.2
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/e2fsprogs
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -                2118 ./usr/include/com_err.h
+drwxr-xr-x -          -                4096 ./usr/include/e2p
+-rw-r--r-- -          -                3252 ./usr/include/e2p/e2p.h
+drwxr-xr-x -          -                4096 ./usr/include/et
+-rw-r--r-- -          -                2118 ./usr/include/et/com_err.h
+drwxr-xr-x -          -                4096 ./usr/include/ext2fs
+-rw-r--r-- -          -               22148 ./usr/include/ext2fs/bitops.h
+-rw-r--r-- -          -               11847 ./usr/include/ext2fs/ext2_err.h
+-rw-r--r-- -          -                2644 ./usr/include/ext2fs/ext2_ext_attr.h
+-rw-r--r-- -          -               42075 ./usr/include/ext2fs/ext2_fs.h
+-rw-r--r-- -          -               72208 ./usr/include/ext2fs/ext2fs.h
+-rw-r--r-- -          -                5391 ./usr/include/ext2fs/ext2_io.h
+-rw-r--r-- -          -                4212 ./usr/include/ext2fs/ext2_types-64.h
+-rw-r--r-- -          -                 556 ./usr/include/ext2fs/ext2_types.h
+-rw-r--r-- -          -                4558 ./usr/include/ext2fs/ext3_extents.h
+-rw-r--r-- -          -                1179 ./usr/include/ext2fs/hashmap.h
+-rw-r--r-- -          -                2588 ./usr/include/ext2fs/qcow2.h
+-rw-r--r-- -          -                8871 ./usr/include/ext2fs/tdb.h
+drwxr-xr-x -          -                4096 ./usr/include/ss
+-rw-r--r-- -          -                1193 ./usr/include/ss/ss_err.h
+-rw-r--r-- -          -                3166 ./usr/include/ss/ss.h
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/e2fsprogs
+-rwxr-xr-x -          -               14280 ./usr/lib/e2initrd_helper
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 247 ./usr/lib/pkgconfig/com_err.pc
+-rw-r--r-- -          -                 226 ./usr/lib/pkgconfig/e2p.pc
+-rw-r--r-- -          -                 223 ./usr/lib/pkgconfig/ext2fs.pc
+-rw-r--r-- -          -                 249 ./usr/lib/pkgconfig/ss.pc
+drwxr-xr-x -          -                4096 ./usr/share
+drwxr-xr-x -          -                4096 ./usr/share/et
+-rw-r--r-- -          -                6485 ./usr/share/et/et_c.awk
+-rw-r--r-- -          -                4539 ./usr/share/et/et_h.awk
+drwxr-xr-x -          -                4096 ./usr/share/ss
+-rw-r--r-- -          -                1551 ./usr/share/ss/ct_c.awk
+-rw-r--r-- -          -                2290 ./usr/share/ss/ct_c.sed

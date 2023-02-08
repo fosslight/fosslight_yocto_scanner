@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             6214 ./usr/bin/c_rehash
+-rwxr-xr-x root       root           736944 ./usr/bin/openssl

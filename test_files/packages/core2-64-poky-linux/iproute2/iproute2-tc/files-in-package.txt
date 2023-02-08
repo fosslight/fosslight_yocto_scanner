@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./sbin
+-rwxr-xr-x root       root           541968 ./sbin/tc.iproute2
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/tc
+lrwxrwxrwx root       root                7 ./usr/lib/tc/m_ipt.so -> m_xt.so
+-rwxr-xr-x root       root            14360 ./usr/lib/tc/m_xt.so

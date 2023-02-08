@@ -1,0 +1,9 @@
+PV = 0.29.2+gitAUTOINC+edf8e6f0ea
+PR = r0
+PKGV = 0.29.2+git0+edf8e6f0ea
+RPROVIDES = 
+RDEPENDS = pkgconfig-dev (= 0.29.2+git0+edf8e6f0ea-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/pkgconfig/*.a
+FILELIST = 

@@ -1,0 +1,9 @@
+PV = 0.179
+PR = r0
+PKG = libasm1
+RPROVIDES = libasm (=0.179)
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libdw (>= 0.179) libelf (>= 0.179)
+RRECOMMENDS = 
+PKGSIZE = 34871
+FILES = /usr/lib/libasm-0.179.so /usr/lib/libasm.so.*
+FILELIST = /usr/lib/libasm-0.179.so /usr/lib/libasm.so.1

@@ -1,0 +1,94 @@
+drwxr-xr-x -          -                4096 ./bin
+-rwxr-xr-x -          -               16488 ./bin/chattr.e2fsprogs
+drwxr-xr-x -          -                4096 ./etc
+-rw-r--r-- -          -                 685 ./etc/e2scrub.conf
+-rw-r--r-- -          -                 812 ./etc/mke2fs.conf
+drwxr-xr-x -          -                4096 ./sbin
+-rwxr-xr-x -          -               28776 ./sbin/badblocks
+-rwxr-xr-x -          -              225384 ./sbin/debugfs
+-rwxr-xr-x -          -               32904 ./sbin/dumpe2fs
+-rwxr-xr-x -          -               16488 ./sbin/e2freefrag
+-rwxr-xr-x -          -              334992 ./sbin/e2fsck
+-rwxr-xr-x -          -               36968 ./sbin/e2image
+-rwxr-xr-x -          -              106632 ./sbin/e2label
+-rwxr-xr-x -          -               32904 ./sbin/e2mmpstatus
+-rwxr-xr-x -          -                7391 ./sbin/e2scrub
+-rwxr-xr-x -          -                5433 ./sbin/e2scrub_all
+-rwxr-xr-x -          -               20584 ./sbin/e2undo
+-rwxr-xr-x -          -               24680 ./sbin/e4crypt
+-rwxr-xr-x -          -               28776 ./sbin/e4defrag
+-rwxr-xr-x -          -               16488 ./sbin/filefrag
+-rwxr-xr-x -          -              334992 ./sbin/fsck.ext2
+-rwxr-xr-x -          -              334992 ./sbin/fsck.ext3
+-rwxr-xr-x -          -              334992 ./sbin/fsck.ext4
+-rwxr-xr-x -          -               12392 ./sbin/logsave
+-rwxrwxr-x -          -                 155 ./sbin/mke2fs
+-rwxr-xr-x -          -              139576 ./sbin/mke2fs.real
+-rwxrwxr-x -          -                 158 ./sbin/mkfs.ext2
+-rwxr-xr-x -          -              139576 ./sbin/mkfs.ext2.real
+-rwxrwxr-x -          -                 158 ./sbin/mkfs.ext3
+-rwxr-xr-x -          -              139576 ./sbin/mkfs.ext3.real
+-rwxrwxr-x -          -                 158 ./sbin/mkfs.ext4
+-rwxr-xr-x -          -              139576 ./sbin/mkfs.ext4.real
+-rwxr-xr-x -          -               12392 ./sbin/mklost+found
+-rwxr-xr-x -          -                2460 ./sbin/populate-extfs.sh
+-rwxr-xr-x -          -               61544 ./sbin/resize2fs
+-rwxr-xr-x -          -              106632 ./sbin/tune2fs
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  16 ./sysroot-providers/e2fsprogs-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -                1361 ./usr/bin/compile_et
+-rwxr-xr-x -          -               12392 ./usr/bin/lsattr
+-rwxr-xr-x -          -                1121 ./usr/bin/mk_cmds
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -                2118 ./usr/include/com_err.h
+drwxrwxr-x -          -                4096 ./usr/include/e2p
+-rw-r--r-- -          -                3252 ./usr/include/e2p/e2p.h
+drwxrwxr-x -          -                4096 ./usr/include/et
+-rw-r--r-- -          -                2118 ./usr/include/et/com_err.h
+drwxrwxr-x -          -                4096 ./usr/include/ext2fs
+-rw-r--r-- -          -               22148 ./usr/include/ext2fs/bitops.h
+-rw-r--r-- -          -               11847 ./usr/include/ext2fs/ext2_err.h
+-rw-r--r-- -          -                2644 ./usr/include/ext2fs/ext2_ext_attr.h
+-rw-r--r-- -          -               42075 ./usr/include/ext2fs/ext2_fs.h
+-rw-r--r-- -          -               72208 ./usr/include/ext2fs/ext2fs.h
+-rw-r--r-- -          -                5391 ./usr/include/ext2fs/ext2_io.h
+-rw-r--r-- -          -                4212 ./usr/include/ext2fs/ext2_types.h
+-rw-r--r-- -          -                4558 ./usr/include/ext2fs/ext3_extents.h
+-rw-r--r-- -          -                1179 ./usr/include/ext2fs/hashmap.h
+-rw-r--r-- -          -                2588 ./usr/include/ext2fs/qcow2.h
+-rw-r--r-- -          -                8871 ./usr/include/ext2fs/tdb.h
+drwxrwxr-x -          -                4096 ./usr/include/ss
+-rw-r--r-- -          -                1193 ./usr/include/ss/ss_err.h
+-rw-r--r-- -          -                3166 ./usr/include/ss/ss.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               16488 ./usr/lib/e2initrd_helper
+-r--r--r-- -          -               19256 ./usr/lib/libcom_err.a
+-rwxr-xr-x -          -               14528 ./usr/lib/libcom_err.so.2.1
+lrwxrwxrwx -          -                  17 ./usr/lib/libcom_err.so.2 -> libcom_err.so.2.1
+lrwxrwxrwx -          -                  15 ./usr/lib/libcom_err.so -> libcom_err.so.2
+-r--r--r-- -          -               87232 ./usr/lib/libe2p.a
+-rwxr-xr-x -          -               36840 ./usr/lib/libe2p.so.2.3
+lrwxrwxrwx -          -                  13 ./usr/lib/libe2p.so.2 -> libe2p.so.2.3
+lrwxrwxrwx -          -                  11 ./usr/lib/libe2p.so -> libe2p.so.2
+-r--r--r-- -          -              659768 ./usr/lib/libext2fs.a
+-rwxr-xr-x -          -              417528 ./usr/lib/libext2fs.so.2.4
+lrwxrwxrwx -          -                  16 ./usr/lib/libext2fs.so.2 -> libext2fs.so.2.4
+lrwxrwxrwx -          -                  14 ./usr/lib/libext2fs.so -> libext2fs.so.2
+-r--r--r-- -          -               49864 ./usr/lib/libss.a
+-rwxr-xr-x -          -               27072 ./usr/lib/libss.so.2.0
+lrwxrwxrwx -          -                  12 ./usr/lib/libss.so.2 -> libss.so.2.0
+lrwxrwxrwx -          -                  10 ./usr/lib/libss.so -> libss.so.2
+drwxrwxr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 335 ./usr/lib/pkgconfig/com_err.pc
+-rw-r--r-- -          -                 314 ./usr/lib/pkgconfig/e2p.pc
+-rw-r--r-- -          -                 311 ./usr/lib/pkgconfig/ext2fs.pc
+-rw-r--r-- -          -                 337 ./usr/lib/pkgconfig/ss.pc
+drwxr-xr-x -          -                4096 ./usr/share
+drwxrwxr-x -          -                4096 ./usr/share/et
+-rw-r--r-- -          -                6485 ./usr/share/et/et_c.awk
+-rw-r--r-- -          -                4539 ./usr/share/et/et_h.awk
+drwxrwxr-x -          -                4096 ./usr/share/ss
+-rw-r--r-- -          -                1551 ./usr/share/ss/ct_c.awk
+-rw-r--r-- -          -                2290 ./usr/share/ss/ct_c.sed

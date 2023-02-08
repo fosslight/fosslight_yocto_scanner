@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = autoconf-dbg automake-dbg binutils-dbg binutils-symlinks-dbg cpp-dbg cpp-symlinks-dbg g++-dbg g++-symlinks-dbg gcc-dbg gcc-symlinks-dbg gettext-dbg libstdc++-dbg libtool-dbg make-dbg pkgconfig-dbg
+PKGSIZE = 0
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = 

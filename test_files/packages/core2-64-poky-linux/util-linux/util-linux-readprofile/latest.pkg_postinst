@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/readprofile readprofile /usr/sbin/readprofile.util-linux 80

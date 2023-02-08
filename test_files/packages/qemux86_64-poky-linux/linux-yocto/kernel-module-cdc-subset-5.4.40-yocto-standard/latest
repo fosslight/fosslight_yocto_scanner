@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-cdc-subset
+RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-usbnet-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9472
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/usb/cdc_subset.ko /etc/modules-load.d/cdc_subset.conf /etc/modprobe.d/cdc_subset.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/usb/cdc_subset.ko

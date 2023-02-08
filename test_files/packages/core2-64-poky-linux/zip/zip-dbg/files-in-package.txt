@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root           579392 ./usr/bin/.debug/zip
+-rwxr-xr-x root       root           307968 ./usr/bin/.debug/zipcloak
+-rwxr-xr-x root       root           287304 ./usr/bin/.debug/zipnote
+-rwxr-xr-x root       root           299720 ./usr/bin/.debug/zipsplit

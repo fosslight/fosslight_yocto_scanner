@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x root       root             4096 ./usr/lib/locale/bg_BG.CP1251
+-rw-r--r-- root       root              164 ./usr/lib/locale/bg_BG.CP1251/LC_ADDRESS
+-rw-r--r-- root       root            23619 ./usr/lib/locale/bg_BG.CP1251/LC_COLLATE
+-rw-r--r-- root       root           292420 ./usr/lib/locale/bg_BG.CP1251/LC_CTYPE
+-rw-r--r-- root       root              350 ./usr/lib/locale/bg_BG.CP1251/LC_IDENTIFICATION
+-rw-r--r-- root       root               24 ./usr/lib/locale/bg_BG.CP1251/LC_MEASUREMENT
+drwxr-xr-x root       root             4096 ./usr/lib/locale/bg_BG.CP1251/LC_MESSAGES
+-rw-r--r-- root       root               67 ./usr/lib/locale/bg_BG.CP1251/LC_MESSAGES/SYS_LC_MESSAGES
+-rw-r--r-- root       root              295 ./usr/lib/locale/bg_BG.CP1251/LC_MONETARY
+-rw-r--r-- root       root               82 ./usr/lib/locale/bg_BG.CP1251/LC_NAME
+-rw-r--r-- root       root               55 ./usr/lib/locale/bg_BG.CP1251/LC_NUMERIC
+-rw-r--r-- root       root               35 ./usr/lib/locale/bg_BG.CP1251/LC_PAPER
+-rw-r--r-- root       root               63 ./usr/lib/locale/bg_BG.CP1251/LC_TELEPHONE
+-rw-r--r-- root       root             3104 ./usr/lib/locale/bg_BG.CP1251/LC_TIME

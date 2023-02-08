@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  find /usr/bin/find.findutils
+	update-alternatives --remove  xargs /usr/bin/xargs.findutils

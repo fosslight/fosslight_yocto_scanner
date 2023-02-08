@@ -1,0 +1,8 @@
+PV = 3.7
+PR = r0
+RPROVIDES = 
+RDEPENDS = diffutils make perl
+RRECOMMENDS = ptest-runner
+PKGSIZE = 234047
+FILES = /usr/lib/diffutils/ptest
+FILELIST = /usr/lib/diffutils/ptest/build-aux/test-driver /usr/lib/diffutils/ptest/run-ptest /usr/lib/diffutils/ptest/tests/Makefile /usr/lib/diffutils/ptest/tests/Makefile.am /usr/lib/diffutils/ptest/tests/Makefile.in /usr/lib/diffutils/ptest/tests/basic /usr/lib/diffutils/ptest/tests/bignum /usr/lib/diffutils/ptest/tests/binary /usr/lib/diffutils/ptest/tests/brief-vs-stat-zero-kernel-lies /usr/lib/diffutils/ptest/tests/cmp /usr/lib/diffutils/ptest/tests/colliding-file-names /usr/lib/diffutils/ptest/tests/colors /usr/lib/diffutils/ptest/tests/diff3 /usr/lib/diffutils/ptest/tests/envvar-check /usr/lib/diffutils/ptest/tests/excess-slash /usr/lib/diffutils/ptest/tests/filename-quoting /usr/lib/diffutils/ptest/tests/function-line-vs-leading-space /usr/lib/diffutils/ptest/tests/help-version /usr/lib/diffutils/ptest/tests/ignore-matching-lines /usr/lib/diffutils/ptest/tests/init.cfg /usr/lib/diffutils/ptest/tests/init.sh /usr/lib/diffutils/ptest/tests/invalid-re /usr/lib/diffutils/ptest/tests/label-vs-func /usr/lib/diffutils/ptest/tests/large-subopt /usr/lib/diffutils/ptest/tests/large-subopt.in1 /usr/lib/diffutils/ptest/tests/large-subopt.in2 /usr/lib/diffutils/ptest/tests/new-file /usr/lib/diffutils/ptest/tests/no-dereference /usr/lib/diffutils/ptest/tests/no-newline-at-eof /usr/lib/diffutils/ptest/tests/stdin /usr/lib/diffutils/ptest/tests/strcoll-0-names /usr/lib/diffutils/ptest/tests/strip-trailing-cr /usr/lib/diffutils/ptest/tests/t-local.sh

@@ -1,0 +1,8 @@
+PV = 2020.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/doc /usr/lib/man /usr/lib/info /usr/lib/gtk-doc /usr/lib/gnome/help
+FILELIST = 

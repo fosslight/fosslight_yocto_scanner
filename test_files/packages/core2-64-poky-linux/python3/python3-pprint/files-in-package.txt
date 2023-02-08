@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8
+-rw-r--r-- root       root            21484 ./usr/lib/python3.8/pprint.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/__pycache__
+-rw-r--r-- root       root            16232 ./usr/lib/python3.8/__pycache__/pprint.cpython-38.opt-1.pyc
+-rw-r--r-- root       root            14077 ./usr/lib/python3.8/__pycache__/pprint.cpython-38.opt-2.pyc
+-rw-r--r-- root       root            16281 ./usr/lib/python3.8/__pycache__/pprint.cpython-38.pyc

@@ -1,0 +1,8 @@
+PV = 5.0.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg readline-dbg
+PKGSIZE = 3105016
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/gawk /usr/lib/gawk/.debug/filefuncs.so /usr/lib/gawk/.debug/fnmatch.so /usr/lib/gawk/.debug/fork.so /usr/lib/gawk/.debug/inplace.so /usr/lib/gawk/.debug/intdiv.so /usr/lib/gawk/.debug/ordchr.so /usr/lib/gawk/.debug/readdir.so /usr/lib/gawk/.debug/readfile.so /usr/lib/gawk/.debug/revoutput.so /usr/lib/gawk/.debug/revtwoway.so /usr/lib/gawk/.debug/rwarray.so /usr/lib/gawk/.debug/time.so /usr/libexec/awk/.debug/grcat /usr/libexec/awk/.debug/pwcat

@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-cy virtual-locale-cy-gb.iso-8859-14
+RDEPENDS = glibc-binary-localedata-cy-gb.iso-8859-14
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+if [ -z "$D" ]; then
+	depmod -a 5.4.40-yocto-standard
+else
+	# image.bbclass will call depmodwrapper after everything is installed,
+	# no need to do it here as well
+	:
+fi
+

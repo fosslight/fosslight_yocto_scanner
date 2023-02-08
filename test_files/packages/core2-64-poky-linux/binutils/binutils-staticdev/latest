@@ -1,0 +1,8 @@
+PV = 2.34
+PR = r0
+RPROVIDES = 
+RDEPENDS = binutils-dev (= 2.34-r0)
+RRECOMMENDS = 
+PKGSIZE = 1885246
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/binutils/*.a
+FILELIST = /usr/lib/libiberty.a

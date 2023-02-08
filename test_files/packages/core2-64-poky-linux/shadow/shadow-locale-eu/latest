@@ -1,0 +1,8 @@
+PV = 4.8.1
+PR = r0
+RPROVIDES = eu-translation shadow-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eu
+PKGSIZE = 47713
+FILES = /usr/share/locale/eu
+FILELIST = /usr/share/locale/eu/LC_MESSAGES/shadow.mo

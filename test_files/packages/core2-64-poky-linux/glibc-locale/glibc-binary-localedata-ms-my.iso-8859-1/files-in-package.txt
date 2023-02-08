@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x root       root             4096 ./usr/lib/locale/ms_MY.ISO-8859-1
+-rw-r--r-- root       root              130 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_ADDRESS
+-rw-r--r-- root       root            21267 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_COLLATE
+-rw-r--r-- root       root           291896 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_CTYPE
+-rw-r--r-- root       root              460 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_IDENTIFICATION
+-rw-r--r-- root       root               28 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_MEASUREMENT
+drwxr-xr-x root       root             4096 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_MESSAGES
+-rw-r--r-- root       root               66 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_MESSAGES/SYS_LC_MESSAGES
+-rw-r--r-- root       root              295 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_MONETARY
+-rw-r--r-- root       root               83 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_NAME
+-rw-r--r-- root       root               59 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_NUMERIC
+-rw-r--r-- root       root               39 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_PAPER
+-rw-r--r-- root       root               58 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_TELEPHONE
+-rw-r--r-- root       root             3340 ./usr/lib/locale/ms_MY.ISO-8859-1/LC_TIME

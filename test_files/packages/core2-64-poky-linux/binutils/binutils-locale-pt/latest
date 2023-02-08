@@ -1,0 +1,8 @@
+PV = 2.34
+PR = r0
+RPROVIDES = binutils-locale pt-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-pt
+PKGSIZE = 478291
+FILES = /usr/share/locale/pt
+FILELIST = /usr/share/locale/pt/LC_MESSAGES/bfd.mo /usr/share/locale/pt/LC_MESSAGES/binutils.mo

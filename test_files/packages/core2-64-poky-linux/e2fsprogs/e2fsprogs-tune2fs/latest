@@ -1,0 +1,8 @@
+PV = 1.45.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libcomerr (>= 1.45.6) libe2p (>= 1.45.6) libext2fs (>= 1.45.6) update-alternatives-opkg util-linux-libblkid (>= 2.35.1) util-linux-libuuid (>= 2.35.1)
+RRECOMMENDS = 
+PKGSIZE = 108760
+FILES = /sbin/tune2fs.e2fsprogs /sbin/e2label
+FILELIST = /sbin/e2label /sbin/tune2fs.e2fsprogs

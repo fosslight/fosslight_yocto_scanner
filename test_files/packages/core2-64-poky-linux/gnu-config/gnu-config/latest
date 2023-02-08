@@ -1,0 +1,9 @@
+PV = 20200117+gitAUTOINC+5256817ace
+PR = r0
+PKGV = 20200117+git0+5256817ace
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 86990
+FILES = /usr/bin /usr/share/gnu-config
+FILELIST = /usr/bin/gnu-configize /usr/share/gnu-config/config.guess /usr/share/gnu-config/config.sub

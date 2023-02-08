@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libsqlite3 (>= 3.31.1) python3-core python3-datetime
+RRECOMMENDS = 
+PKGSIZE = 110129
+FILES = /usr/lib/python3.8/lib-dynload/_sqlite3.*.so /usr/lib/python3.8/sqlite3
+FILELIST = /usr/lib/python3.8/lib-dynload/_sqlite3.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/sqlite3/__init__.py /usr/lib/python3.8/sqlite3/__pycache__/__init__.cpython-38.opt-1.pyc /usr/lib/python3.8/sqlite3/__pycache__/__init__.cpython-38.opt-2.pyc /usr/lib/python3.8/sqlite3/__pycache__/__init__.cpython-38.pyc /usr/lib/python3.8/sqlite3/__pycache__/dbapi2.cpython-38.opt-1.pyc /usr/lib/python3.8/sqlite3/__pycache__/dbapi2.cpython-38.opt-2.pyc /usr/lib/python3.8/sqlite3/__pycache__/dbapi2.cpython-38.pyc /usr/lib/python3.8/sqlite3/__pycache__/dump.cpython-38.opt-1.pyc /usr/lib/python3.8/sqlite3/__pycache__/dump.cpython-38.opt-2.pyc /usr/lib/python3.8/sqlite3/__pycache__/dump.cpython-38.pyc /usr/lib/python3.8/sqlite3/dbapi2.py /usr/lib/python3.8/sqlite3/dump.py

@@ -1,0 +1,8 @@
+PV = 4.8
+PR = r0
+RPROVIDES = 
+RDEPENDS = sed (= 4.8-r0)
+RRECOMMENDS = gawk-dev glibc-dev make-dev perl-dev perl-module-file-compare-dev perl-module-file-find-dev perl-module-file-stat-dev perl-module-file-temp-dev perl-module-filehandle-dev update-alternatives-opkg-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sed/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

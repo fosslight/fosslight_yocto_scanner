@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = hr-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hr
+PKGSIZE = 46463
+FILES = /usr/share/locale/hr
+FILELIST = /usr/share/locale/hr/LC_MESSAGES/shared-mime-info.mo

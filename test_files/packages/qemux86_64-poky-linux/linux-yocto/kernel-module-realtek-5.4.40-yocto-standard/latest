@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-realtek
+RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-libphy-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 20528
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/phy/realtek.ko /etc/modules-load.d/realtek.conf /etc/modprobe.d/realtek.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/phy/realtek.ko

@@ -1,0 +1,8 @@
+PV = 5.0.1
+PR = r0
+RPROVIDES = es-translation gawk-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-es
+PKGSIZE = 80963
+FILES = /usr/share/locale/es
+FILELIST = /usr/share/locale/es/LC_MESSAGES/gawk.mo

@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-base perl-module-constant perl-module-file-path perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 4183
+FILES = /usr/lib/perl5/5.30.2/TAP/Formatter/Console/ParallelSession.pm
+FILELIST = /usr/lib/perl5/5.30.2/TAP/Formatter/Console/ParallelSession.pm

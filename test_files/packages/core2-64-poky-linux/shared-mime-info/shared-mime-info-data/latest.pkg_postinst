@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+if [ "x$D" != "x" ]; then
+	$INTERCEPT_DIR/postinst_intercept update_mime_database ${PKG} \
+		mlprefix= \
+		mimedir=/usr/share/mime
+else
+	echo "Updating MIME database... this may take a while."
+	update-mime-database $D/usr/share/mime
+fi

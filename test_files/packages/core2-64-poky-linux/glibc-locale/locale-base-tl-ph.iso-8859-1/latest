@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-tl virtual-locale-tl-ph.iso-8859-1
+RDEPENDS = glibc-binary-localedata-tl-ph.iso-8859-1
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

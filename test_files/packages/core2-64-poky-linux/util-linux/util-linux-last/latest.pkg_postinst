@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/last last /usr/bin/last.util-linux 80
+	update-alternatives --install /usr/bin/lastb lastb /usr/bin/lastb.util-linux 80

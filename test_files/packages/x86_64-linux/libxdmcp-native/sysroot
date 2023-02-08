@@ -1,0 +1,14 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  15 ./sysroot-providers/libxdmcp-native
+-rw-r--r-- -          -                  15 ./sysroot-providers/xdmcp-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxrwxr-x -          -                4096 ./usr/include/X11
+-rw-r--r-- -          -                6371 ./usr/include/X11/Xdmcp.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               22552 ./usr/lib/libXdmcp.so.6.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libXdmcp.so.6 -> libXdmcp.so.6.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libXdmcp.so -> libXdmcp.so.6.0.0
+drwxrwxr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 304 ./usr/lib/pkgconfig/xdmcp.pc
+drwxr-xr-x -          -                4096 ./usr/share

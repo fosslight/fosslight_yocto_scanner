@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = eo-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eo
+PKGSIZE = 23165
+FILES = /usr/share/locale/eo
+FILELIST = /usr/share/locale/eo/LC_MESSAGES/shared-mime-info.mo

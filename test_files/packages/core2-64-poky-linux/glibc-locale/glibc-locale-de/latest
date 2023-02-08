@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = de-translation glibc-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-de
+PKGSIZE = 0
+FILES = /usr/share/locale/de
+FILELIST = 

@@ -1,0 +1,10 @@
+PV = 2.13.1
+PR = r0
+RPROVIDES = libfontconfig-utils
+RDEPENDS = fontconfig (>= 2.13.1) freetype (>= 2.10.2) glibc (>= 2.31+git0+1094741224)
+RRECOMMENDS = 
+RREPLACES = libfontconfig-utils
+RCONFLICTS = libfontconfig-utils
+PKGSIZE = 137552
+FILES = /usr/bin/* /usr/libexec/*
+FILELIST = /usr/bin/fc-cache /usr/bin/fc-cat /usr/bin/fc-conflist /usr/bin/fc-list /usr/bin/fc-match /usr/bin/fc-pattern /usr/bin/fc-query /usr/bin/fc-scan /usr/bin/fc-validate /usr/libexec/fc-cache

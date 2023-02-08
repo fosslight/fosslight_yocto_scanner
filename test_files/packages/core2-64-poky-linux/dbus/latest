@@ -1,0 +1,5 @@
+PV = 1.12.16
+PR = r0
+DEPENDS = autoconf-archive autoconf-native automake-native base-files base-passwd expat gettext-native gnu-config-native initscripts libsm libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot update-rc.d virtual/libc virtual/libintl virtual/libx11 virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = dbus-src dbus-dbg dbus-lib dbus-staticdev dbus-dev dbus-doc dbus-locale dbus dbus-ptest
+LAYER = core

@@ -1,0 +1,8 @@
+PV = 2.35.1
+PR = r0
+RPROVIDES = pl-translation util-linux-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-pl
+PKGSIZE = 474530
+FILES = /usr/share/locale/pl
+FILELIST = /usr/share/locale/pl/LC_MESSAGES/util-linux.mo

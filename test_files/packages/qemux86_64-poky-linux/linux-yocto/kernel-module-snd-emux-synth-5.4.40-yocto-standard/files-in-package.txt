@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/modules
+drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard
+drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard/kernel
+drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard/kernel/sound
+drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard/kernel/sound/synth
+drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard/kernel/sound/synth/emux
+-rw-r--r-- root       root            53768 ./lib/modules/5.4.40-yocto-standard/kernel/sound/synth/emux/snd-emux-synth.ko

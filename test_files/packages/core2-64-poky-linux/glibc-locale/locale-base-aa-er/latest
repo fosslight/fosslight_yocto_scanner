@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-aa virtual-locale-aa-er
+RDEPENDS = glibc-binary-localedata-aa-er
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

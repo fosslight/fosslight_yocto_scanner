@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = gl-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-gl
+PKGSIZE = 39040
+FILES = /usr/share/locale/gl
+FILELIST = /usr/share/locale/gl/LC_MESSAGES/shared-mime-info.mo

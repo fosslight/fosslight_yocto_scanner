@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  last /usr/bin/last.util-linux
+	update-alternatives --remove  lastb /usr/bin/lastb.util-linux

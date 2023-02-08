@@ -1,0 +1,10 @@
+PV = 1.2.0+gitAUTOINC+4a062cf418
+PR = r0
+PKG = libnsl-dbg
+PKGV = 1.2.0+git0+4a062cf418
+RPROVIDES = libnsl2-dbg (=1.2.0+git0+4a062cf418)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libtirpc-dbg
+PKGSIZE = 516344
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/.debug/libnsl.so.2.0.0

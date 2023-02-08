@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/bzip2
+drwxr-xr-x root       root             4096 ./usr/lib/bzip2/ptest
+lrwxrwxrwx root       root               14 ./usr/lib/bzip2/ptest/bzip2 -> /usr/bin/bzip2
+-rw-r--r-- root       root              934 ./usr/lib/bzip2/ptest/Makefile
+-rwxr-xr-x root       root               26 ./usr/lib/bzip2/ptest/run-ptest
+-rw-r--r-- root       root            32348 ./usr/lib/bzip2/ptest/sample1.bz2
+-rw-r--r-- root       root            98696 ./usr/lib/bzip2/ptest/sample1.ref
+-rw-r--r-- root       root            73732 ./usr/lib/bzip2/ptest/sample2.bz2
+-rw-r--r-- root       root           212340 ./usr/lib/bzip2/ptest/sample2.ref
+-rw-r--r-- root       root              235 ./usr/lib/bzip2/ptest/sample3.bz2
+-rw-r--r-- root       root           120244 ./usr/lib/bzip2/ptest/sample3.ref

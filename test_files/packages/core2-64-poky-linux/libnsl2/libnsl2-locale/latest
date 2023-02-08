@@ -1,0 +1,10 @@
+PV = 1.2.0+gitAUTOINC+4a062cf418
+PR = r0
+PKG = libnsl-locale
+PKGV = 1.2.0+git0+4a062cf418
+RPROVIDES = libnsl2-locale (=1.2.0+git0+4a062cf418)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

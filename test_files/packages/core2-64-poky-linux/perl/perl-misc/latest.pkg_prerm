@@ -1,0 +1,27 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  corelist /usr/bin/corelist.perl
+	update-alternatives --remove  cpan /usr/bin/cpan.perl
+	update-alternatives --remove  enc2xs /usr/bin/enc2xs.perl
+	update-alternatives --remove  encguess /usr/bin/encguess.perl
+	update-alternatives --remove  h2ph /usr/bin/h2ph.perl
+	update-alternatives --remove  h2xs /usr/bin/h2xs.perl
+	update-alternatives --remove  instmodsh /usr/bin/instmodsh.perl
+	update-alternatives --remove  json_pp /usr/bin/json_pp.perl
+	update-alternatives --remove  libnetcfg /usr/bin/libnetcfg.perl
+	update-alternatives --remove  piconv /usr/bin/piconv.perl
+	update-alternatives --remove  pl2pm /usr/bin/pl2pm.perl
+	update-alternatives --remove  pod2html /usr/bin/pod2html.perl
+	update-alternatives --remove  pod2man /usr/bin/pod2man.perl
+	update-alternatives --remove  pod2text /usr/bin/pod2text.perl
+	update-alternatives --remove  pod2usage /usr/bin/pod2usage.perl
+	update-alternatives --remove  podchecker /usr/bin/podchecker.perl
+	update-alternatives --remove  podselect /usr/bin/podselect.perl
+	update-alternatives --remove  prove /usr/bin/prove.perl
+	update-alternatives --remove  ptar /usr/bin/ptar.perl
+	update-alternatives --remove  ptardiff /usr/bin/ptardiff.perl
+	update-alternatives --remove  ptargrep /usr/bin/ptargrep.perl
+	update-alternatives --remove  shasum /usr/bin/shasum.perl
+	update-alternatives --remove  splain /usr/bin/splain.perl
+	update-alternatives --remove  xsubpp /usr/bin/xsubpp.perl
+	update-alternatives --remove  zipdetails /usr/bin/zipdetails.perl

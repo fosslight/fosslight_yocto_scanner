@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc-localedata-iso14651-t1 glibc-localedata-ru-ru
+RRECOMMENDS = 
+PKGSIZE = 10180
+FILES = /usr/share/i18n/locales/sah_RU
+FILELIST = /usr/share/i18n/locales/sah_RU

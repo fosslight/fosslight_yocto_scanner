@@ -1,0 +1,10 @@
+PE = 1
+PV = 2.64.2
+PR = r0
+PKG = libglib-2.0-0
+RPROVIDES = glib-2.0 (=2.64.2)
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libffi (>= 3.3) libpcre (>= 8.44) util-linux-libmount (>= 2.35.1) zlib (>= 1.2.11)
+RRECOMMENDS = shared-mime-info
+PKGSIZE = 3537155
+FILES = /usr/lib/lib*.so.* /usr/lib/gio /usr/libexec/*gio-querymodules /usr/share/glib-2.0/schemas
+FILELIST = /usr/lib/libgio-2.0.so.0 /usr/lib/libgio-2.0.so.0.6400.2 /usr/lib/libglib-2.0.so.0 /usr/lib/libglib-2.0.so.0.6400.2 /usr/lib/libgmodule-2.0.so.0 /usr/lib/libgmodule-2.0.so.0.6400.2 /usr/lib/libgobject-2.0.so.0 /usr/lib/libgobject-2.0.so.0.6400.2 /usr/lib/libgthread-2.0.so.0 /usr/lib/libgthread-2.0.so.0.6400.2 /usr/libexec/gio-querymodules

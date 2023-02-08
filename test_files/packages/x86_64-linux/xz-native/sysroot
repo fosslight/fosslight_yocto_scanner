@@ -1,0 +1,51 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/xz-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+lrwxrwxrwx -          -                   2 ./usr/bin/lzcat -> xz
+lrwxrwxrwx -          -                   6 ./usr/bin/lzcmp -> xzdiff
+lrwxrwxrwx -          -                   6 ./usr/bin/lzdiff -> xzdiff
+lrwxrwxrwx -          -                   6 ./usr/bin/lzegrep -> xzgrep
+lrwxrwxrwx -          -                   6 ./usr/bin/lzfgrep -> xzgrep
+lrwxrwxrwx -          -                   6 ./usr/bin/lzgrep -> xzgrep
+lrwxrwxrwx -          -                   6 ./usr/bin/lzless -> xzless
+-rwxr-xr-x -          -               16488 ./usr/bin/lzmadec
+-rwxr-xr-x -          -               12392 ./usr/bin/lzmainfo
+lrwxrwxrwx -          -                   2 ./usr/bin/lzma -> xz
+lrwxrwxrwx -          -                   6 ./usr/bin/lzmore -> xzmore
+lrwxrwxrwx -          -                   2 ./usr/bin/unlzma -> xz
+lrwxrwxrwx -          -                   2 ./usr/bin/unxz -> xz
+-rwxr-xr-x -          -               77928 ./usr/bin/xz
+lrwxrwxrwx -          -                   2 ./usr/bin/xzcat -> xz
+lrwxrwxrwx -          -                   6 ./usr/bin/xzcmp -> xzdiff
+-rwxr-xr-x -          -               16488 ./usr/bin/xzdec
+-rwxr-xr-x -          -                6632 ./usr/bin/xzdiff
+lrwxrwxrwx -          -                   6 ./usr/bin/xzegrep -> xzgrep
+lrwxrwxrwx -          -                   6 ./usr/bin/xzfgrep -> xzgrep
+-rwxr-xr-x -          -                5628 ./usr/bin/xzgrep
+-rwxr-xr-x -          -                1802 ./usr/bin/xzless
+-rwxr-xr-x -          -                2161 ./usr/bin/xzmore
+drwxr-xr-x -          -                4096 ./usr/include
+drwxrwxr-x -          -                4096 ./usr/include/lzma
+-rw-r--r-- -          -               24858 ./usr/include/lzma/base.h
+-rw-r--r-- -          -                2630 ./usr/include/lzma/bcj.h
+-rw-r--r-- -          -               22106 ./usr/include/lzma/block.h
+-rw-r--r-- -          -                4255 ./usr/include/lzma/check.h
+-rw-r--r-- -          -               24844 ./usr/include/lzma/container.h
+-rw-r--r-- -          -                1865 ./usr/include/lzma/delta.h
+-rw-r--r-- -          -               16429 ./usr/include/lzma/filter.h
+-rw-r--r-- -          -                9817 ./usr/include/lzma.h
+-rw-r--r-- -          -                2605 ./usr/include/lzma/hardware.h
+-rw-r--r-- -          -               23491 ./usr/include/lzma/index.h
+-rw-r--r-- -          -                3914 ./usr/include/lzma/index_hash.h
+-rw-r--r-- -          -               14743 ./usr/include/lzma/lzma12.h
+-rw-r--r-- -          -                8253 ./usr/include/lzma/stream_flags.h
+-rw-r--r-- -          -                3497 ./usr/include/lzma/version.h
+-rw-r--r-- -          -                6547 ./usr/include/lzma/vli.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -              154176 ./usr/lib/liblzma.so.5.2.4
+lrwxrwxrwx -          -                  16 ./usr/lib/liblzma.so.5 -> liblzma.so.5.2.4
+lrwxrwxrwx -          -                  16 ./usr/lib/liblzma.so -> liblzma.so.5.2.4
+drwxrwxr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 465 ./usr/lib/pkgconfig/liblzma.pc
+drwxr-xr-x -          -                4096 ./usr/share

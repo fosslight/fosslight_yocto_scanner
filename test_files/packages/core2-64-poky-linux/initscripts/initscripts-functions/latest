@@ -1,0 +1,9 @@
+PV = 1.0
+PR = r155
+RPROVIDES = initd-functions
+RDEPENDS = 
+RRECOMMENDS = 
+RCONFLICTS = lsbinitscripts
+PKGSIZE = 2141
+FILES = /etc/init.d/functions*
+FILELIST = /etc/init.d/functions

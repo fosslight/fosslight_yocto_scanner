@@ -1,0 +1,8 @@
+PV = 7.6
+PR = r10
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libwrap-dbg
+PKGSIZE = 279440
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /lib/.debug/libwrap.so.0.7.6 /usr/sbin/.debug/safe_finger /usr/sbin/.debug/tcpd /usr/sbin/.debug/tcpdchk /usr/sbin/.debug/tcpdmatch /usr/sbin/.debug/try-from

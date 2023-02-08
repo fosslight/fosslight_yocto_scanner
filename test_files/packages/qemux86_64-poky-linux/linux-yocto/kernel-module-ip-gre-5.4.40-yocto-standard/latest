@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-ip-gre
+RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-gre-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 36608
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/net/ipv4/ip_gre.ko /etc/modules-load.d/ip_gre.conf /etc/modprobe.d/ip_gre.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/net/ipv4/ip_gre.ko

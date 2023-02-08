@@ -1,0 +1,8 @@
+PV = 5.0.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = gawk (= 5.0.1-r0)
+RRECOMMENDS = glibc-dev make-dev readline-dev update-alternatives-opkg-dev
+PKGSIZE = 40486
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gawk/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/gawk/*.la
+FILELIST = /usr/include/gawkapi.h

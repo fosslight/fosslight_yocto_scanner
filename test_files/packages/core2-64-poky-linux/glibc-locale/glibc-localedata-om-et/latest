@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc-localedata-am-et glibc-localedata-om-ke glibc-localedata-ti-et
+RRECOMMENDS = 
+PKGSIZE = 5014
+FILES = /usr/share/i18n/locales/om_ET
+FILELIST = /usr/share/i18n/locales/om_ET

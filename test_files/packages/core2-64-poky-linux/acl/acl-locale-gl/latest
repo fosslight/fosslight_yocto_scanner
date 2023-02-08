@@ -1,0 +1,8 @@
+PV = 2.2.53
+PR = r0
+RPROVIDES = acl-locale gl-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-gl
+PKGSIZE = 7011
+FILES = /usr/share/locale/gl
+FILELIST = /usr/share/locale/gl/LC_MESSAGES/acl.mo

@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 321358
+FILES = /usr/lib/locale/ka_GE.GEORGIAN-PS
+FILELIST = /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_ADDRESS /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_COLLATE /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_CTYPE /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_IDENTIFICATION /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_MEASUREMENT /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_MONETARY /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_NAME /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_NUMERIC /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_PAPER /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_TELEPHONE /usr/lib/locale/ka_GE.GEORGIAN-PS/LC_TIME

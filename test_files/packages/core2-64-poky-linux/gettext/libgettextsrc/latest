@@ -1,0 +1,8 @@
+PV = 0.20.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = gettext (>= 0.20.1) glib-2.0 (>= 2.64.2) glibc (>= 2.31+git0+1094741224) libcroco (>= 0.6.13) libgettextlib (>= 0.20.1) libxml2 (>= 2.9.10)
+RRECOMMENDS = 
+PKGSIZE = 324976
+FILES = /usr/lib/libgettextsrc-*.so*
+FILELIST = /usr/lib/libgettextsrc-0.20.1.so

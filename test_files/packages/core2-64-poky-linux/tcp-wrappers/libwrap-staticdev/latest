@@ -1,0 +1,8 @@
+PV = 7.6
+PR = r10
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 228062
+FILES = /usr/lib/lib*.a
+FILELIST = /usr/lib/libwrap.a

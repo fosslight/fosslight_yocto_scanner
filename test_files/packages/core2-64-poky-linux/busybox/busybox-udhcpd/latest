@@ -1,0 +1,8 @@
+PV = 1.31.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = update-rc.d
+PKGSIZE = 767
+FILES = /etc/init.d/busybox-udhcpd
+FILELIST = /etc/init.d/busybox-udhcpd

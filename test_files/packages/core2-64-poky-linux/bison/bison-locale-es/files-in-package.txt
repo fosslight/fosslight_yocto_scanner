@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/locale
+drwxr-xr-x root       root             4096 ./usr/share/locale/es
+drwxr-xr-x root       root             4096 ./usr/share/locale/es/LC_MESSAGES
+-rw-r--r-- root       root             1630 ./usr/share/locale/es/LC_MESSAGES/bison-gnulib.mo
+-rw-r--r-- root       root            13559 ./usr/share/locale/es/LC_MESSAGES/bison.mo
+-rw-r--r-- root       root             1409 ./usr/share/locale/es/LC_MESSAGES/bison-runtime.mo

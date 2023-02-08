@@ -1,0 +1,51 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  15 ./sysroot-providers/elfutils-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -               24680 ./usr/bin/eu-addr2line
+-rwxr-xr-x -          -               41064 ./usr/bin/eu-ar
+-rwxr-xr-x -          -               24680 ./usr/bin/eu-elfclassify
+-rwxr-xr-x -          -              348264 ./usr/bin/eu-elfcmp
+-rwxr-xr-x -          -               28776 ./usr/bin/eu-elfcompress
+-rwxr-xr-x -          -              430184 ./usr/bin/eu-elflint
+-rwxr-xr-x -          -               20584 ./usr/bin/eu-findtextrel
+-rwxr-xr-x -          -                2968 ./usr/bin/eu-make-debug-archive
+-rwxr-xr-x -          -              360552 ./usr/bin/eu-nm
+-rwxr-xr-x -          -              348264 ./usr/bin/eu-objdump
+-rwxr-xr-x -          -               20584 ./usr/bin/eu-ranlib
+-rwxr-xr-x -          -              561256 ./usr/bin/eu-readelf
+-rwxr-xr-x -          -               20584 ./usr/bin/eu-size
+-rwxr-xr-x -          -               24680 ./usr/bin/eu-stack
+-rwxr-xr-x -          -               20584 ./usr/bin/eu-strings
+-rwxr-xr-x -          -              372840 ./usr/bin/eu-strip
+-rwxr-xr-x -          -               53352 ./usr/bin/eu-unstrip
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -               31014 ./usr/include/dwarf.h
+drwxrwxr-x -          -                4096 ./usr/include/elfutils
+-rw-r--r-- -          -                3947 ./usr/include/elfutils/elf-knowledge.h
+-rw-r--r-- -          -               41860 ./usr/include/elfutils/known-dwarf.h
+-rw-r--r-- -          -                7098 ./usr/include/elfutils/libasm.h
+-rw-r--r-- -          -                6452 ./usr/include/elfutils/libdwelf.h
+-rw-r--r-- -          -               37558 ./usr/include/elfutils/libdwfl.h
+-rw-r--r-- -          -               44920 ./usr/include/elfutils/libdw.h
+-rw-r--r-- -          -                1274 ./usr/include/elfutils/version.h
+-rw-r--r-- -          -               11312 ./usr/include/gelf.h
+-rw-r--r-- -          -               19573 ./usr/include/libelf.h
+-rw-r--r-- -          -                1601 ./usr/include/nlist.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               31208 ./usr/lib/libasm-0.179.so
+-rw-r--r-- -          -               82838 ./usr/lib/libasm.a
+lrwxrwxrwx -          -                  15 ./usr/lib/libasm.so.1 -> libasm-0.179.so
+lrwxrwxrwx -          -                  11 ./usr/lib/libasm.so -> libasm.so.1
+-rwxr-xr-x -          -              655672 ./usr/lib/libdw-0.179.so
+-rw-r--r-- -          -             1586632 ./usr/lib/libdw.a
+lrwxrwxrwx -          -                  14 ./usr/lib/libdw.so.1 -> libdw-0.179.so
+lrwxrwxrwx -          -                  10 ./usr/lib/libdw.so -> libdw.so.1
+-rwxr-xr-x -          -              100784 ./usr/lib/libelf-0.179.so
+-rw-r--r-- -          -              305854 ./usr/lib/libelf.a
+lrwxrwxrwx -          -                  15 ./usr/lib/libelf.so.1 -> libelf-0.179.so
+lrwxrwxrwx -          -                  11 ./usr/lib/libelf.so -> libelf.so.1
+drwxrwxr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 717 ./usr/lib/pkgconfig/libdw.pc
+-rw-r--r-- -          -                 346 ./usr/lib/pkgconfig/libelf.pc
+drwxr-xr-x -          -                4096 ./usr/share

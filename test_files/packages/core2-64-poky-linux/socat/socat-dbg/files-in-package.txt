@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root           277384 ./usr/bin/.debug/filan
+-rwxr-xr-x root       root           262192 ./usr/bin/.debug/procan
+-rwxr-xr-x root       root          1279272 ./usr/bin/.debug/socat

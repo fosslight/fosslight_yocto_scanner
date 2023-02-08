@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-pcnet32
+RDEPENDS = kernel-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 69416
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/ethernet/amd/pcnet32.ko /etc/modules-load.d/pcnet32.conf /etc/modprobe.d/pcnet32.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/ethernet/amd/pcnet32.ko

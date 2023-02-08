@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/GLES
+-rw-r--r-- root       root              922 ./usr/include/GLES/egl.h
+-rw-r--r-- root       root            53780 ./usr/include/GLES/glext.h
+-rw-r--r-- root       root            31669 ./usr/include/GLES/gl.h
+-rw-r--r-- root       root             1152 ./usr/include/GLES/glplatform.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               17 ./usr/lib/libGLESv1_CM.so -> libGLESv1_CM.so.1
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              234 ./usr/lib/pkgconfig/glesv1_cm.pc

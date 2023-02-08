@@ -1,0 +1,9 @@
+PV = 2.10
+PR = r0
+PKG = liblzo2-dbg
+RPROVIDES = lzo-dbg (=2.10)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 979984
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/.debug/liblzo2.so.2.0.0 /usr/lib/lzo/ptest/.debug/align /usr/lib/lzo/ptest/.debug/chksum /usr/lib/lzo/ptest/.debug/lzotest /usr/lib/lzo/ptest/.debug/simple /usr/lib/lzo/ptest/.debug/testmini

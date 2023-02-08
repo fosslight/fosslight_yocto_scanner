@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 199448
+FILES = /usr/lib/locale/tr_CY.ISO-8859-9
+FILELIST = /usr/lib/locale/tr_CY.ISO-8859-9/LC_ADDRESS /usr/lib/locale/tr_CY.ISO-8859-9/LC_COLLATE /usr/lib/locale/tr_CY.ISO-8859-9/LC_CTYPE /usr/lib/locale/tr_CY.ISO-8859-9/LC_IDENTIFICATION /usr/lib/locale/tr_CY.ISO-8859-9/LC_MEASUREMENT /usr/lib/locale/tr_CY.ISO-8859-9/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/tr_CY.ISO-8859-9/LC_MONETARY /usr/lib/locale/tr_CY.ISO-8859-9/LC_NAME /usr/lib/locale/tr_CY.ISO-8859-9/LC_NUMERIC /usr/lib/locale/tr_CY.ISO-8859-9/LC_PAPER /usr/lib/locale/tr_CY.ISO-8859-9/LC_TELEPHONE /usr/lib/locale/tr_CY.ISO-8859-9/LC_TIME

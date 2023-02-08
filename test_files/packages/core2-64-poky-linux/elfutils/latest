@@ -1,0 +1,5 @@
+PV = 0.179
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/libintl virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc zlib
+PACKAGES = elfutils-src elfutils-dbg elfutils-binutils libelf libasm libdw elfutils-ptest elfutils-staticdev elfutils-dev elfutils-doc elfutils elfutils-locale-de elfutils-locale-en+boldquot elfutils-locale-en+quot elfutils-locale-es elfutils-locale-ja elfutils-locale-pl elfutils-locale-uk
+LAYER = core

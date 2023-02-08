@@ -1,0 +1,10 @@
+PV = 1.2.0+gitAUTOINC+4a062cf418
+PR = r0
+PKG = libnsl-dev
+PKGV = 1.2.0+git0+4a062cf418
+RPROVIDES = libnsl2-dev (=1.2.0+git0+4a062cf418)
+RDEPENDS = libnsl2 (= 1.2.0+git0+4a062cf418-r0)
+RRECOMMENDS = glibc-dev libtirpc-dev
+PKGSIZE = 108168
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libnsl2/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/rpcsvc/nis.h /usr/include/rpcsvc/nis.x /usr/include/rpcsvc/nis_callback.h /usr/include/rpcsvc/nis_callback.x /usr/include/rpcsvc/nis_object.x /usr/include/rpcsvc/nis_tags.h /usr/include/rpcsvc/nislib.h /usr/include/rpcsvc/yp.h /usr/include/rpcsvc/yp.x /usr/include/rpcsvc/yp_prot.h /usr/include/rpcsvc/ypclnt.h /usr/include/rpcsvc/yppasswd.h /usr/include/rpcsvc/yppasswd.x /usr/include/rpcsvc/ypupd.h /usr/lib/libnsl.so /usr/lib/pkgconfig/libnsl.pc

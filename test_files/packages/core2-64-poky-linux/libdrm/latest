@@ -1,0 +1,5 @@
+PV = 2.4.101
+PR = r0
+DEPENDS = libpciaccess libpthread-stubs meson-native ninja-native pkgconfig-native python3-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = libdrm-src libdrm-dbg libdrm-tests libdrm-drivers libdrm-radeon libdrm-nouveau libdrm-omap libdrm-intel libdrm-exynos libdrm-kms libdrm-freedreno libdrm-amdgpu libdrm-etnaviv libdrm-staticdev libdrm-dev libdrm-doc libdrm-locale libdrm
+LAYER = core

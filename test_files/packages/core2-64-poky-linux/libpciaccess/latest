@@ -1,0 +1,5 @@
+PV = 0.16
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native util-macros virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = libpciaccess-src libpciaccess-dbg libpciaccess-staticdev libpciaccess-dev libpciaccess-doc libpciaccess-locale libpciaccess
+LAYER = core

@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-strict perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 15686
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/Tie/Hash/NamedCapture/NamedCapture.so /usr/lib/perl5/5.30.2/x86_64-linux/Tie/Hash/NamedCapture.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Tie/Hash/NamedCapture.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/Tie/Hash/NamedCapture/NamedCapture.so

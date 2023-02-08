@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 86563
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/shared-mime-info/1.15-r0/git/update-mime-database.c

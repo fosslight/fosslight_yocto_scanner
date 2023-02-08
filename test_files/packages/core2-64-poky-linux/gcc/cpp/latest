@@ -1,0 +1,8 @@
+PV = 10.1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) gmp (>= 6.2.0) libmpc (>= 1.1.0) mpfr (>= 4.0.2) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 29052702
+FILES = /usr/bin/x86_64-poky-linux-cpp* /lib/cpp /usr/libexec/gcc/x86_64-poky-linux/10.1.0/cc1
+FILELIST = /lib/cpp /usr/bin/x86_64-poky-linux-cpp /usr/libexec/gcc/x86_64-poky-linux/10.1.0/cc1

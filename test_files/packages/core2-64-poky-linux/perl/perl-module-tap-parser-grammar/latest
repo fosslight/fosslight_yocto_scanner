@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-base perl-module-strict perl-module-tap-object perl-module-tap-parser-resultfactory perl-module-tap-parser-yamlish-reader perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 15666
+FILES = /usr/lib/perl5/5.30.2/TAP/Parser/Grammar.pm
+FILELIST = /usr/lib/perl5/5.30.2/TAP/Parser/Grammar.pm

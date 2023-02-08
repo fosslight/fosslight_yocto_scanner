@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8
+-rw-r--r-- root       root             4064 ./usr/lib/python3.8/colorsys.py
+-rw-r--r-- root       root             3795 ./usr/lib/python3.8/imghdr.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/__pycache__
+-rw-r--r-- root       root             3240 ./usr/lib/python3.8/__pycache__/colorsys.cpython-38.opt-1.pyc
+-rw-r--r-- root       root             2634 ./usr/lib/python3.8/__pycache__/colorsys.cpython-38.opt-2.pyc
+-rw-r--r-- root       root             3240 ./usr/lib/python3.8/__pycache__/colorsys.cpython-38.pyc
+-rw-r--r-- root       root             4104 ./usr/lib/python3.8/__pycache__/imghdr.cpython-38.opt-1.pyc
+-rw-r--r-- root       root             3789 ./usr/lib/python3.8/__pycache__/imghdr.cpython-38.opt-2.pyc
+-rw-r--r-- root       root             4104 ./usr/lib/python3.8/__pycache__/imghdr.cpython-38.pyc

@@ -1,0 +1,19 @@
+drwxr-xr-x -          -                4096 ./lib
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  14 ./sysroot-providers/libgcc-initial
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/x86_64-poky-linux
+drwxr-xr-x -          -                4096 ./usr/lib/x86_64-poky-linux/10.1.0
+-rw-r--r-- -          -                2432 ./usr/lib/x86_64-poky-linux/10.1.0/crtbegin.o
+-rw-r--r-- -          -                2752 ./usr/lib/x86_64-poky-linux/10.1.0/crtbeginS.o
+-rw-r--r-- -          -                2944 ./usr/lib/x86_64-poky-linux/10.1.0/crtbeginT.o
+-rw-r--r-- -          -                1200 ./usr/lib/x86_64-poky-linux/10.1.0/crtend.o
+-rw-r--r-- -          -                1200 ./usr/lib/x86_64-poky-linux/10.1.0/crtendS.o
+-rw-r--r-- -          -                3856 ./usr/lib/x86_64-poky-linux/10.1.0/crtfastmath.o
+-rw-r--r-- -          -                3408 ./usr/lib/x86_64-poky-linux/10.1.0/crtprec32.o
+-rw-r--r-- -          -                3424 ./usr/lib/x86_64-poky-linux/10.1.0/crtprec64.o
+-rw-r--r-- -          -                3408 ./usr/lib/x86_64-poky-linux/10.1.0/crtprec80.o
+-rw-r--r-- -          -             1013362 ./usr/lib/x86_64-poky-linux/10.1.0/libgcc.a
+lrwxrwxrwx -          -                   8 ./usr/lib/x86_64-poky-linux/10.1.0/libgcc_eh.a -> libgcc.a
+-rw-r--r-- -          -               70450 ./usr/lib/x86_64-poky-linux/10.1.0/libgcov.a

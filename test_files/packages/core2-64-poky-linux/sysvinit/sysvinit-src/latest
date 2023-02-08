@@ -1,0 +1,8 @@
+PV = 2.96
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 266550
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/bootlogd.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/consoles.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/consoles.h /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/dowall.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/fstab-decode.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/halt.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/hddown.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/ifdown.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/init.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/init.h /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/initreq.h /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/killall5.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/last.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/mesg.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/mountpoint.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/oldutmp.h /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/readbootlog.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/runlevel.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/runlevellog.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/runlevellog.h /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/shutdown.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/sulogin.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/utmp.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/utmpdump.c /usr/src/debug/sysvinit/2.96-r0/sysvinit-2.96/src/wall.c

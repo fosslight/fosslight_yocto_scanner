@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-carp perl-module-scalar-util perl-module-strict perl-module-test2-util-facets2legacy perl-module-test2-util-hashbase perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 4810
+FILES = /usr/lib/perl5/5.30.2/Test2/Event/V2.pm
+FILELIST = /usr/lib/perl5/5.30.2/Test2/Event/V2.pm

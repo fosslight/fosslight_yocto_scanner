@@ -1,0 +1,5 @@
+PV = 2.33
+PR = r0
+DEPENDS = gperf-native hostperl-runtime-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = libcap-src libcap-dbg libcap-staticdev libcap-dev libcap-doc libcap-locale libcap-bin libcap
+LAYER = core

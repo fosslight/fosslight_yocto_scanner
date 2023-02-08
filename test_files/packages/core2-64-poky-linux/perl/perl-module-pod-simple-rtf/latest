@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-integer perl-module-pod-simple-pullparser perl-module-strict perl-module-vars
+RRECOMMENDS = 
+PKGSIZE = 22484
+FILES = /usr/lib/perl5/5.30.2/Pod/Simple/RTF.pm
+FILELIST = /usr/lib/perl5/5.30.2/Pod/Simple/RTF.pm

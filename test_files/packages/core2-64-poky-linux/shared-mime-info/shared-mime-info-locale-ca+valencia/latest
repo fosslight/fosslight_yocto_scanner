@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = ca+valencia-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ca+valencia
+PKGSIZE = 528
+FILES = /usr/share/locale/ca@valencia
+FILELIST = /usr/share/locale/ca@valencia/LC_MESSAGES/shared-mime-info.mo

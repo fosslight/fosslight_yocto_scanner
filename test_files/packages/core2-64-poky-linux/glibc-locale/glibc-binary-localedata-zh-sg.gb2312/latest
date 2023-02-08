@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 756083
+FILES = /usr/lib/locale/zh_SG.GB2312
+FILELIST = /usr/lib/locale/zh_SG.GB2312/LC_ADDRESS /usr/lib/locale/zh_SG.GB2312/LC_COLLATE /usr/lib/locale/zh_SG.GB2312/LC_CTYPE /usr/lib/locale/zh_SG.GB2312/LC_IDENTIFICATION /usr/lib/locale/zh_SG.GB2312/LC_MEASUREMENT /usr/lib/locale/zh_SG.GB2312/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/zh_SG.GB2312/LC_MONETARY /usr/lib/locale/zh_SG.GB2312/LC_NAME /usr/lib/locale/zh_SG.GB2312/LC_NUMERIC /usr/lib/locale/zh_SG.GB2312/LC_PAPER /usr/lib/locale/zh_SG.GB2312/LC_TELEPHONE /usr/lib/locale/zh_SG.GB2312/LC_TIME

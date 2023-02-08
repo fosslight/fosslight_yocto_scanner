@@ -1,0 +1,5 @@
+PV = 1.0.8
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/update-alternatives virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = bzip2-src bzip2-dbg bzip2-ptest libbz2 bzip2-staticdev bzip2-dev bzip2-doc bzip2-locale bzip2
+LAYER = core

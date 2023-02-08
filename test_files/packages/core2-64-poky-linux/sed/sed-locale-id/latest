@@ -1,0 +1,8 @@
+PV = 4.8
+PR = r0
+RPROVIDES = id-translation sed-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-id
+PKGSIZE = 8543
+FILES = /usr/share/locale/id
+FILELIST = /usr/share/locale/id/LC_MESSAGES/sed.mo

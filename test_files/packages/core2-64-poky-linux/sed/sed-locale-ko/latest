@@ -1,0 +1,8 @@
+PV = 4.8
+PR = r0
+RPROVIDES = ko-translation sed-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ko
+PKGSIZE = 15787
+FILES = /usr/share/locale/ko
+FILELIST = /usr/share/locale/ko/LC_MESSAGES/sed.mo

@@ -1,0 +1,8 @@
+PV = 2.35.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 30768
+FILES = /usr/bin/ionice.util-linux
+FILELIST = /usr/bin/ionice.util-linux

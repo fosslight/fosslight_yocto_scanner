@@ -1,0 +1,5 @@
+PV = 7.6
+PR = r10
+DEPENDS = libnsl2 virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = tcp-wrappers-src tcp-wrappers-dbg libwrap libwrap-doc libwrap-dev libwrap-staticdev tcp-wrappers tcp-wrappers-doc
+LAYER = core

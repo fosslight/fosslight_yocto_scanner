@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-strict perl-module-vars perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 571
+FILES = /usr/lib/perl5/5.30.2/Test/Tester/Delegate.pm
+FILELIST = /usr/lib/perl5/5.30.2/Test/Tester/Delegate.pm

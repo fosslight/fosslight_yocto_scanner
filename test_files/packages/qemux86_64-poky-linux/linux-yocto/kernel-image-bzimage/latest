@@ -1,0 +1,10 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKG = kernel-image-bzimage-5.4.40-yocto-standard
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-image-bzimage (=5.4.40+git0+4ed477131e_29f44c85c3)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 8729277
+FILES = /boot/bzImage-5.4.40-yocto-standard /boot/bzImage
+FILELIST = /boot/bzImage /boot/bzImage-5.4.40-yocto-standard

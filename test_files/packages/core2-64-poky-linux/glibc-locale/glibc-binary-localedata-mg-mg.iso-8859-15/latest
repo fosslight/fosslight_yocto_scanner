@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 319032
+FILES = /usr/lib/locale/mg_MG.ISO-8859-15
+FILELIST = /usr/lib/locale/mg_MG.ISO-8859-15/LC_ADDRESS /usr/lib/locale/mg_MG.ISO-8859-15/LC_COLLATE /usr/lib/locale/mg_MG.ISO-8859-15/LC_CTYPE /usr/lib/locale/mg_MG.ISO-8859-15/LC_IDENTIFICATION /usr/lib/locale/mg_MG.ISO-8859-15/LC_MEASUREMENT /usr/lib/locale/mg_MG.ISO-8859-15/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/mg_MG.ISO-8859-15/LC_MONETARY /usr/lib/locale/mg_MG.ISO-8859-15/LC_NAME /usr/lib/locale/mg_MG.ISO-8859-15/LC_NUMERIC /usr/lib/locale/mg_MG.ISO-8859-15/LC_PAPER /usr/lib/locale/mg_MG.ISO-8859-15/LC_TELEPHONE /usr/lib/locale/mg_MG.ISO-8859-15/LC_TIME

@@ -1,0 +1,9 @@
+PE = 1
+PV = 6.0
+PR = r5
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 1003360
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/funzip /usr/bin/.debug/unzip.unzip /usr/bin/.debug/unzipsfx

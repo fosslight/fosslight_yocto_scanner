@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-he virtual-locale-he-il.iso-8859-8
+RDEPENDS = glibc-binary-localedata-he-il.iso-8859-8
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

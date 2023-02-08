@@ -1,0 +1,9 @@
+PV = 0.7.10
+PR = r0
+PKG = libcap-ng0
+RPROVIDES = libcap-ng (=0.7.10)
+RDEPENDS = glibc (>= 2.31+git0+1094741224)
+RRECOMMENDS = 
+PKGSIZE = 26530
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libcap-ng /usr/lib/libcap-ng/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /lib/libcap-ng.so.0 /lib/libcap-ng.so.0.0.0

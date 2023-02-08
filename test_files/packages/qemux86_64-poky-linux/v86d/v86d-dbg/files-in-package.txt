@@ -1,0 +1,3 @@
+drwxr-xr-x root       root             4096 ./sbin
+drwxr-xr-x root       root             4096 ./sbin/.debug
+-rwxr-xr-x root       root           390688 ./sbin/.debug/v86d

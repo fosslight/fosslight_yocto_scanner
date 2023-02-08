@@ -1,0 +1,8 @@
+PV = 2.21
+PR = r3
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 53864
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/which/2.21-r3/which-2.21/bash.c /usr/src/debug/which/2.21-r3/which-2.21/bash.h /usr/src/debug/which/2.21-r3/which-2.21/getopt.h /usr/src/debug/which/2.21-r3/which-2.21/sys.h /usr/src/debug/which/2.21-r3/which-2.21/tilde/tilde.c /usr/src/debug/which/2.21-r3/which-2.21/tilde/tilde.h /usr/src/debug/which/2.21-r3/which-2.21/tilde/xmalloc.h /usr/src/debug/which/2.21-r3/which-2.21/which.c

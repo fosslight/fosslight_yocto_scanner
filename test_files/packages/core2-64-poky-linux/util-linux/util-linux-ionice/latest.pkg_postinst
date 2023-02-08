@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/ionice ionice /usr/bin/ionice.util-linux 80

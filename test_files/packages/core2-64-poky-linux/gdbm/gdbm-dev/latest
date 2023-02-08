@@ -1,0 +1,9 @@
+PV = 1.18.1
+PR = r0
+PKG = libgdbm-dev
+RPROVIDES = gdbm-dev (=1.18.1)
+RDEPENDS = gdbm (= 1.18.1-r0) gdbm-compat
+RRECOMMENDS = diffutils-dev gdbm-bin-dev gdbm-compat-dev glibc-dev
+PKGSIZE = 14270
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gdbm/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/dbm.h /usr/include/gdbm.h /usr/include/gdbm/gdbm.h /usr/include/gdbm/ndbm.h /usr/include/ndbm.h /usr/lib/libgdbm.so /usr/lib/libgdbm_compat.so

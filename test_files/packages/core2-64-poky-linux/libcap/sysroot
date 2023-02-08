@@ -1,0 +1,18 @@
+drwxr-xr-x -          -                4096 ./lib
+-rw-r--r-- -          -              144398 ./lib/libcap.a
+-rw-r--r-- -          -               39056 ./lib/libcap.so.2.33
+lrwxrwxrwx -          -                  14 ./lib/libcap.so.2 -> libcap.so.2.33
+lrwxrwxrwx -          -                  11 ./lib/libcap.so -> libcap.so.2
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   6 ./sysroot-providers/libcap
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/sys
+-rw-r--r-- -          -                6996 ./usr/include/sys/capability.h
+-rw-r--r-- -          -                4680 ./usr/include/sys/psx_syscall.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rw-r--r-- -          -               38340 ./usr/lib/libpsx.a
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 209 ./usr/lib/pkgconfig/libcap.pc
+-rw-r--r-- -          -                 254 ./usr/lib/pkgconfig/libpsx.pc
+drwxr-xr-x -          -                4096 ./usr/share

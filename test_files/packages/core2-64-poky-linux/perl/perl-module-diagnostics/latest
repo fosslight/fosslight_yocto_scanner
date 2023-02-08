@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-config perl-module-getopt-std perl-module-strict perl-module-text-tabs
+RRECOMMENDS = 
+PKGSIZE = 19038
+FILES = /usr/lib/perl5/5.30.2/diagnostics.pm
+FILELIST = /usr/lib/perl5/5.30.2/diagnostics.pm

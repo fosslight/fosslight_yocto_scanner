@@ -1,0 +1,8 @@
+PV = 1.45.6
+PR = r0
+RPROVIDES = e2fsprogs-locale eo-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eo
+PKGSIZE = 88073
+FILES = /usr/share/locale/eo
+FILELIST = /usr/share/locale/eo/LC_MESSAGES/e2fsprogs.mo

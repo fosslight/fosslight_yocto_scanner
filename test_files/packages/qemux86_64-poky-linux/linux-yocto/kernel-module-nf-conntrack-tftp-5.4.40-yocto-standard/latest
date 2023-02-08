@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-nf-conntrack-tftp
+RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-nf-conntrack-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 10624
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/net/netfilter/nf_conntrack_tftp.ko /etc/modules-load.d/nf_conntrack_tftp.conf /etc/modprobe.d/nf_conntrack_tftp.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/net/netfilter/nf_conntrack_tftp.ko

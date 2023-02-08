@@ -1,0 +1,9 @@
+PV = 1.45.6
+PR = r0
+PKG = libss2
+RPROVIDES = libss (=1.45.6)
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libcomerr (>= 1.45.6)
+RRECOMMENDS = 
+PKGSIZE = 34716
+FILES = /lib/libss.so.*
+FILELIST = /lib/libss.so.2 /lib/libss.so.2.0

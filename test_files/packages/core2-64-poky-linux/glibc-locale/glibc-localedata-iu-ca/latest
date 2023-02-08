@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc-localedata-en-ca
+RRECOMMENDS = 
+PKGSIZE = 3560
+FILES = /usr/share/i18n/locales/iu_CA
+FILELIST = /usr/share/i18n/locales/iu_CA

@@ -1,0 +1,5 @@
+PV = 2.2.53
+PR = r0
+DEPENDS = attr autoconf-native automake-native gettext-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = acl-src acl-dbg libacl acl-ptest acl-staticdev acl-dev acl-doc acl acl-locale-de acl-locale-en+boldquot acl-locale-en+quot acl-locale-es acl-locale-fr acl-locale-gl acl-locale-pl acl-locale-sv
+LAYER = core

@@ -1,0 +1,13 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   4 ./sysroot-providers/mpfr
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -                6645 ./usr/include/mpf2mpfr.h
+-rw-r--r-- -          -               51562 ./usr/include/mpfr.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -             2741864 ./usr/lib/libmpfr.so.6.0.2
+lrwxrwxrwx -          -                  16 ./usr/lib/libmpfr.so.6 -> libmpfr.so.6.0.2
+lrwxrwxrwx -          -                  16 ./usr/lib/libmpfr.so -> libmpfr.so.6.0.2
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 252 ./usr/lib/pkgconfig/mpfr.pc
+drwxr-xr-x -          -                4096 ./usr/share

@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-cwd perl-module-lib perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 916
+FILES = /usr/lib/perl5/5.30.2/ExtUtils/testlib.pm
+FILELIST = /usr/lib/perl5/5.30.2/ExtUtils/testlib.pm

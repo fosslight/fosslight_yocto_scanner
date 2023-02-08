@@ -1,0 +1,25 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root            15541 ./usr/include/gettext-po.h
+drwxr-xr-x root       root             4096 ./usr/include/textstyle
+-rw-r--r-- root       root            20574 ./usr/include/textstyle.h
+-rw-r--r-- root       root             4315 ./usr/include/textstyle/stdbool.h
+-rw-r--r-- root       root             1348 ./usr/include/textstyle/version.h
+-rw-r--r-- root       root             1155 ./usr/include/textstyle/woe32dll.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               23 ./usr/lib/libgettextlib.so -> libgettextlib-0.20.1.so
+lrwxrwxrwx root       root               21 ./usr/lib/libgettextpo.so -> libgettextpo.so.0.5.5
+lrwxrwxrwx root       root               23 ./usr/lib/libgettextsrc.so -> libgettextsrc-0.20.1.so
+lrwxrwxrwx root       root               21 ./usr/lib/libtextstyle.so -> libtextstyle.so.0.0.0
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/aclocal
+-rw-r--r-- root       root            14483 ./usr/share/aclocal/gettext.m4
+-rw-r--r-- root       root            21489 ./usr/share/aclocal/host-cpu-c-abi.m4
+-rw-r--r-- root       root             9731 ./usr/share/aclocal/iconv.m4
+-rw-r--r-- root       root             3321 ./usr/share/aclocal/intlmacosx.m4
+-rw-r--r-- root       root             5370 ./usr/share/aclocal/lib-ld.m4
+-rw-r--r-- root       root            32772 ./usr/share/aclocal/lib-link.m4
+-rw-r--r-- root       root             9680 ./usr/share/aclocal/lib-prefix.m4
+-rw-r--r-- root       root             1229 ./usr/share/aclocal/nls.m4
+-rw-r--r-- root       root            18831 ./usr/share/aclocal/po.m4
+-rw-r--r-- root       root             3092 ./usr/share/aclocal/progtest.m4

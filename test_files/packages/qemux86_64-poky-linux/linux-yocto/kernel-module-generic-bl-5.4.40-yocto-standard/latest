@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-generic-bl
+RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-backlight-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6680
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/video/backlight/generic_bl.ko /etc/modules-load.d/generic_bl.conf /etc/modprobe.d/generic_bl.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/video/backlight/generic_bl.ko

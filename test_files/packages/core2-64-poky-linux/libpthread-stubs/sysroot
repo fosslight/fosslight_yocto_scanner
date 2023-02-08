@@ -1,0 +1,6 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  16 ./sysroot-providers/libpthread-stubs
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 224 ./usr/lib/pkgconfig/pthread-stubs.pc

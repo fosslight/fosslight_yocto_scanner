@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./etc
+-rw-r--r-- root       root              812 ./etc/mke2fs.conf
+drwxr-xr-x root       root             4096 ./sbin
+-rwxr-xr-x root       root           137512 ./sbin/mke2fs.e2fsprogs
+-rwxr-xr-x root       root           137512 ./sbin/mkfs.ext2.e2fsprogs
+-rwxr-xr-x root       root           137512 ./sbin/mkfs.ext3
+-rwxr-xr-x root       root           137512 ./sbin/mkfs.ext4

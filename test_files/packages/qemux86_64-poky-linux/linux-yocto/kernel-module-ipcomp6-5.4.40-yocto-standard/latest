@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-ipcomp6
+RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-xfrm-ipcomp-5.4.40-yocto-standard kernel-module-xfrm6-tunnel-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8776
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/net/ipv6/ipcomp6.ko /etc/modules-load.d/ipcomp6.conf /etc/modprobe.d/ipcomp6.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/net/ipv6/ipcomp6.ko

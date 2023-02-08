@@ -1,0 +1,22 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root               78 ./usr/bin/pydoc3.8
+lrwxrwxrwx root       root                8 ./usr/bin/pydoc3 -> pydoc3.8
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/__pycache__
+-rw-r--r-- root       root            84034 ./usr/lib/python3.8/__pycache__/pydoc.cpython-38.opt-1.pyc
+-rw-r--r-- root       root            74443 ./usr/lib/python3.8/__pycache__/pydoc.cpython-38.opt-2.pyc
+-rw-r--r-- root       root            84087 ./usr/lib/python3.8/__pycache__/pydoc.cpython-38.pyc
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/pydoc_data
+-rw-r--r-- root       root                0 ./usr/lib/python3.8/pydoc_data/__init__.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/pydoc_data/__pycache__
+-rw-r--r-- root       root              121 ./usr/lib/python3.8/pydoc_data/__pycache__/__init__.cpython-38.opt-1.pyc
+-rw-r--r-- root       root              121 ./usr/lib/python3.8/pydoc_data/__pycache__/__init__.cpython-38.opt-2.pyc
+-rw-r--r-- root       root              121 ./usr/lib/python3.8/pydoc_data/__pycache__/__init__.cpython-38.pyc
+-rw-r--r-- root       root           419637 ./usr/lib/python3.8/pydoc_data/__pycache__/topics.cpython-38.opt-1.pyc
+-rw-r--r-- root       root           419637 ./usr/lib/python3.8/pydoc_data/__pycache__/topics.cpython-38.opt-2.pyc
+-rw-r--r-- root       root           419637 ./usr/lib/python3.8/pydoc_data/__pycache__/topics.cpython-38.pyc
+-rw-r--r-- root       root               96 ./usr/lib/python3.8/pydoc_data/_pydoc.css
+-rw-r--r-- root       root           674665 ./usr/lib/python3.8/pydoc_data/topics.py
+-rw-r--r-- root       root           107309 ./usr/lib/python3.8/pydoc.py

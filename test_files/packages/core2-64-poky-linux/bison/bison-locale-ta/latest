@@ -1,0 +1,8 @@
+PV = 3.5.4
+PR = r0
+RPROVIDES = bison-locale ta-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ta
+PKGSIZE = 1946
+FILES = /usr/share/locale/ta
+FILELIST = /usr/share/locale/ta/LC_MESSAGES/bison-runtime.mo

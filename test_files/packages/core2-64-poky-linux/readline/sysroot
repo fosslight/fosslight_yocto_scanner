@@ -1,0 +1,25 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   8 ./sysroot-providers/readline
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/readline
+-rw-r--r-- -          -                4697 ./usr/include/readline/chardefs.h
+-rw-r--r-- -          -               10779 ./usr/include/readline/history.h
+-rw-r--r-- -          -                3260 ./usr/include/readline/keymaps.h
+-rw-r--r-- -          -               39338 ./usr/include/readline/readline.h
+-rw-r--r-- -          -                2829 ./usr/include/readline/rlconf.h
+-rw-r--r-- -          -                1835 ./usr/include/readline/rlstdc.h
+-rw-r--r-- -          -                3193 ./usr/include/readline/rltypedefs.h
+-rw-r--r-- -          -                3046 ./usr/include/readline/tilde.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rw-r--r-- -          -              189026 ./usr/lib/libhistory.a
+-rwxr-xr-x -          -               46840 ./usr/lib/libhistory.so.8.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libhistory.so.8 -> libhistory.so.8.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libhistory.so -> libhistory.so.8.0
+-rw-r--r-- -          -             1450970 ./usr/lib/libreadline.a
+-rwxr-xr-x -          -              330592 ./usr/lib/libreadline.so.8.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libreadline.so.8 -> libreadline.so.8.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libreadline.so -> libreadline.so.8.0
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 302 ./usr/lib/pkgconfig/readline.pc
+drwxr-xr-x -          -                4096 ./usr/share

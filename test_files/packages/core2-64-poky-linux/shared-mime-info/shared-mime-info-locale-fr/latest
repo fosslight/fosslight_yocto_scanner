@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = fr-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fr
+PKGSIZE = 46140
+FILES = /usr/share/locale/fr
+FILELIST = /usr/share/locale/fr/LC_MESSAGES/shared-mime-info.mo

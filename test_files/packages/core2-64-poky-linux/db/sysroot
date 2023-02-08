@@ -1,0 +1,17 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   2 ./sysroot-providers/db
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/db51
+-rw-r--r-- -          -               49057 ./usr/include/db51/db_cxx.h
+-rw-r--r-- -          -              123105 ./usr/include/db51/db.h
+lrwxrwxrwx -          -                  13 ./usr/include/db_cxx.h -> db51/db_cxx.h
+lrwxrwxrwx -          -                   9 ./usr/include/db.h -> db51/db.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -             1267832 ./usr/lib/libdb-5.3.so
+lrwxrwxrwx -          -                  12 ./usr/lib/libdb-5.so -> libdb-5.3.so
+-rwxr-xr-x -          -             1431752 ./usr/lib/libdb_cxx-5.3.so
+lrwxrwxrwx -          -                  16 ./usr/lib/libdb_cxx-5.so -> libdb_cxx-5.3.so
+lrwxrwxrwx -          -                  16 ./usr/lib/libdb_cxx.so -> libdb_cxx-5.3.so
+lrwxrwxrwx -          -                  12 ./usr/lib/libdb.so -> libdb-5.3.so
+drwxr-xr-x -          -                4096 ./usr/share

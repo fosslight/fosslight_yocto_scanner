@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-pod-simple-transcodedumb perl-module-pod-simple-transcodesmart perl-module-strict perl-module-vars
+RRECOMMENDS = 
+PKGSIZE = 736
+FILES = /usr/lib/perl5/5.30.2/Pod/Simple/Transcode.pm
+FILELIST = /usr/lib/perl5/5.30.2/Pod/Simple/Transcode.pm

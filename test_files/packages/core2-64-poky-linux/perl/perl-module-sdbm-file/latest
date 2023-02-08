@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-exporter perl-module-strict perl-module-tie-hash perl-module-warnings perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 38433
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/SDBM_File/SDBM_File.so /usr/lib/perl5/5.30.2/x86_64-linux/SDBM_File.pm /usr/lib/perl5/5.30.2/x86_64-linux/SDBM_File.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/SDBM_File.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/SDBM_File/SDBM_File.so

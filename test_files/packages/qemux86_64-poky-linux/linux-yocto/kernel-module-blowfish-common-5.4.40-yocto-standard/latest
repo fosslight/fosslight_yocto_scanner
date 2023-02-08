@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-blowfish-common
+RDEPENDS = kernel-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9456
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/crypto/blowfish_common.ko /etc/modules-load.d/blowfish_common.conf /etc/modprobe.d/blowfish_common.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/crypto/blowfish_common.ko

@@ -1,0 +1,14 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/libxrandr
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/X11
+drwxr-xr-x -          -                4096 ./usr/include/X11/extensions
+-rw-r--r-- -          -               17120 ./usr/include/X11/extensions/Xrandr.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               46920 ./usr/lib/libXrandr.so.2.2.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libXrandr.so.2 -> libXrandr.so.2.2.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libXrandr.so -> libXrandr.so.2.2.0
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 248 ./usr/lib/pkgconfig/xrandr.pc
+drwxr-xr-x -          -                4096 ./usr/share

@@ -1,0 +1,8 @@
+PV = 1.15
+PR = r0
+RPROVIDES = cy-translation shared-mime-info-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-cy
+PKGSIZE = 8388
+FILES = /usr/share/locale/cy
+FILELIST = /usr/share/locale/cy/LC_MESSAGES/shared-mime-info.mo

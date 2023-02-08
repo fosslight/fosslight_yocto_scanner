@@ -1,0 +1,11 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   5 ./sysroot-providers/bzip2
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -                6240 ./usr/include/bzlib.h
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/bzip2
+-rwxr-xr-x -          -               74560 ./usr/lib/libbz2.so.1.0.6
+lrwxrwxrwx -          -                  15 ./usr/lib/libbz2.so.1 -> libbz2.so.1.0.6
+lrwxrwxrwx -          -                  15 ./usr/lib/libbz2.so -> libbz2.so.1.0.6
+drwxr-xr-x -          -                4096 ./usr/share

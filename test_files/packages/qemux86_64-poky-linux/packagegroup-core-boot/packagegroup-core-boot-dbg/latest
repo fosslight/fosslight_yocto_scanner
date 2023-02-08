@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r17
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = base-files-dbg base-passwd-dbg busybox-dbg busybox-hwclock-dbg init-ifupdown-dbg initscripts-dbg modutils-initscripts-dbg netbase-dbg sysvinit-dbg udev-dbg update-alternatives-opkg-dbg v86d-dbg
+PKGSIZE = 0
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = 

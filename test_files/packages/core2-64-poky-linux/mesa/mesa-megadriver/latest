@@ -1,0 +1,11 @@
+PE = 2
+PV = 20.0.2
+PR = r0
+RPROVIDES = mesa mesa-driver-i915 mesa-driver-i965 mesa-driver-kms-swrast mesa-driver-nouveau-vieux mesa-driver-r200 mesa-driver-radeon mesa-driver-swrast mesa-driver-virtio-gpu
+RDEPENDS = expat (>= 2.2.9) glibc (>= 2.31+git0+1094741224) libdrm (>= 2.4.101) libdrm-intel (>= 2.4.101) libdrm-nouveau (>= 2.4.101) libdrm-radeon (>= 2.4.101) libgcc (>= 10.1.0) libglapi (>= 20.0.2) libstdc++ (>= 10.1.0) zlib (>= 1.2.11)
+RRECOMMENDS = 
+RREPLACES = mesa mesa-driver-i915 mesa-driver-i965 mesa-driver-kms-swrast mesa-driver-nouveau-vieux mesa-driver-r200 mesa-driver-radeon mesa-driver-swrast mesa-driver-virtio-gpu
+RCONFLICTS = mesa mesa-driver-i915 mesa-driver-i965 mesa-driver-kms-swrast mesa-driver-nouveau-vieux mesa-driver-r200 mesa-driver-radeon mesa-driver-swrast mesa-driver-virtio-gpu
+PKGSIZE = 21430414
+FILES = /usr/lib/dri/* /usr/share/drirc.d/00-mesa-defaults.conf
+FILELIST = /usr/lib/dri/i915_dri.so /usr/lib/dri/i965_dri.so /usr/lib/dri/kms_swrast_dri.so /usr/lib/dri/nouveau_vieux_dri.so /usr/lib/dri/r200_dri.so /usr/lib/dri/radeon_dri.so /usr/lib/dri/swrast_dri.so /usr/lib/dri/virtio_gpu_dri.so /usr/share/drirc.d/00-mesa-defaults.conf

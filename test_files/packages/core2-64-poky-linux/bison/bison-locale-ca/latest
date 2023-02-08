@@ -1,0 +1,8 @@
+PV = 3.5.4
+PR = r0
+RPROVIDES = bison-locale ca-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ca
+PKGSIZE = 15762
+FILES = /usr/share/locale/ca
+FILELIST = /usr/share/locale/ca/LC_MESSAGES/bison-gnulib.mo /usr/share/locale/ca/LC_MESSAGES/bison-runtime.mo /usr/share/locale/ca/LC_MESSAGES/bison.mo

@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 4431112
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /sbin/.debug/mdadm /sbin/.debug/mdmon /usr/lib/mdadm/ptest/.debug/raid6check /usr/lib/mdadm/ptest/.debug/swap_super /usr/lib/mdadm/ptest/.debug/test_stripe

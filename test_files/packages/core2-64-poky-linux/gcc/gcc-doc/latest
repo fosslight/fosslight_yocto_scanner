@@ -1,0 +1,8 @@
+PV = 10.1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 104378
+FILES = /usr/share/info /usr/share/man /usr/lib/gcc/x86_64-poky-linux/10.1.0/include/README
+FILELIST = /usr/share/man/man1/x86_64-poky-linux-cpp.1 /usr/share/man/man1/x86_64-poky-linux-g++.1 /usr/share/man/man1/x86_64-poky-linux-gcc.1 /usr/share/man/man1/x86_64-poky-linux-gcov-dump.1 /usr/share/man/man1/x86_64-poky-linux-gcov-tool.1 /usr/share/man/man1/x86_64-poky-linux-gcov.1 /usr/share/man/man1/x86_64-poky-linux-lto-dump.1

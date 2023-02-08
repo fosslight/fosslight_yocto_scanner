@@ -1,0 +1,10 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  13 ./sysroot-providers/libmpc-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -               12898 ./usr/include/mpc.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -              101712 ./usr/lib/libmpc.so.3.1.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libmpc.so.3 -> libmpc.so.3.1.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libmpc.so -> libmpc.so.3.1.0
+drwxr-xr-x -          -                4096 ./usr/share

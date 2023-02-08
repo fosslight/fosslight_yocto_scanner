@@ -1,0 +1,8 @@
+PV = 2.34
+PR = r0
+RPROVIDES = bg-translation binutils-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-bg
+PKGSIZE = 234032
+FILES = /usr/share/locale/bg
+FILELIST = /usr/share/locale/bg/LC_MESSAGES/binutils.mo /usr/share/locale/bg/LC_MESSAGES/gprof.mo /usr/share/locale/bg/LC_MESSAGES/ld.mo

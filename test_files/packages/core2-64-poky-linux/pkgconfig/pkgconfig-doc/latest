@@ -1,0 +1,9 @@
+PV = 0.29.2+gitAUTOINC+edf8e6f0ea
+PR = r0
+PKGV = 0.29.2+git0+edf8e6f0ea
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 41443
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/doc/pkg-config/pkg-config-guide.html /usr/share/man/man1/pkg-config.1

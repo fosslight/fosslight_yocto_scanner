@@ -1,0 +1,9 @@
+PV = 1.6.37
+PR = r0
+PKG = libpng16-staticdev
+RPROVIDES = libpng-staticdev (=1.6.37)
+RDEPENDS = libpng-dev (= 1.6.37-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libpng/*.a
+FILELIST = 

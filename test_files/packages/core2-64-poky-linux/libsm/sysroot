@@ -1,0 +1,16 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   5 ./sysroot-providers/libsm
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/X11
+drwxr-xr-x -          -                4096 ./usr/include/X11/SM
+-rw-r--r-- -          -                2927 ./usr/include/X11/SM/SM.h
+-rw-r--r-- -          -               11268 ./usr/include/X11/SM/SMlib.h
+-rw-r--r-- -          -                4852 ./usr/include/X11/SM/SMproto.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               38632 ./usr/lib/libSM.so.6.0.1
+lrwxrwxrwx -          -                  14 ./usr/lib/libSM.so.6 -> libSM.so.6.0.1
+lrwxrwxrwx -          -                  14 ./usr/lib/libSM.so -> libSM.so.6.0.1
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 222 ./usr/lib/pkgconfig/sm.pc
+drwxr-xr-x -          -                4096 ./usr/share

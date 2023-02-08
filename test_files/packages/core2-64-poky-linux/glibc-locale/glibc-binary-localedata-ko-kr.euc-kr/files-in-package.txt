@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x root       root             4096 ./usr/lib/locale/ko_KR.EUC-KR
+-rw-r--r-- root       root              167 ./usr/lib/locale/ko_KR.EUC-KR/LC_ADDRESS
+-rw-r--r-- root       root           421563 ./usr/lib/locale/ko_KR.EUC-KR/LC_COLLATE
+-rw-r--r-- root       root           735992 ./usr/lib/locale/ko_KR.EUC-KR/LC_CTYPE
+-rw-r--r-- root       root              303 ./usr/lib/locale/ko_KR.EUC-KR/LC_IDENTIFICATION
+-rw-r--r-- root       root               24 ./usr/lib/locale/ko_KR.EUC-KR/LC_MEASUREMENT
+drwxr-xr-x root       root             4096 ./usr/lib/locale/ko_KR.EUC-KR/LC_MESSAGES
+-rw-r--r-- root       root               73 ./usr/lib/locale/ko_KR.EUC-KR/LC_MESSAGES/SYS_LC_MESSAGES
+-rw-r--r-- root       root              295 ./usr/lib/locale/ko_KR.EUC-KR/LC_MONETARY
+-rw-r--r-- root       root               63 ./usr/lib/locale/ko_KR.EUC-KR/LC_NAME
+-rw-r--r-- root       root               55 ./usr/lib/locale/ko_KR.EUC-KR/LC_NUMERIC
+-rw-r--r-- root       root               35 ./usr/lib/locale/ko_KR.EUC-KR/LC_PAPER
+-rw-r--r-- root       root               60 ./usr/lib/locale/ko_KR.EUC-KR/LC_TELEPHONE
+-rw-r--r-- root       root             2788 ./usr/lib/locale/ko_KR.EUC-KR/LC_TIME

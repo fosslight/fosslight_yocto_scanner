@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/perl5
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Compress
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Compress/Raw
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Compress/Raw/Zlib
+-r-xr-xr-x root       root           128896 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Compress/Raw/Zlib/Zlib.so
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/Compress
+drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/Compress/Raw
+-r--r--r-- root       root            47456 ./usr/lib/perl5/5.30.2/x86_64-linux/Compress/Raw/Zlib.pm

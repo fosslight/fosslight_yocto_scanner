@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/pkgconfig
+drwxr-xr-x root       root             4096 ./usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git
+-rw-r--r-- root       root            24615 ./usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/main.c
+-rw-r--r-- root       root            28168 ./usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/parse.c
+-rw-r--r-- root       root             1248 ./usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/parse.h
+-rw-r--r-- root       root            30963 ./usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/pkg.c
+-rw-r--r-- root       root             4475 ./usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/pkg.h
+-rw-r--r-- root       root             4037 ./usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/rpmvercmp.c
+-rw-r--r-- root       root              617 ./usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/rpmvercmp.h

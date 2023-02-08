@@ -1,0 +1,17 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  14 ./sysroot-providers/wayland-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -               45160 ./usr/bin/wayland-scanner
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -                1354 ./usr/include/wayland-version.h
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 291 ./usr/lib/pkgconfig/wayland-scanner.pc
+drwxr-xr-x -          -                4096 ./usr/share
+drwxr-xr-x -          -                4096 ./usr/share/aclocal
+-rw-r--r-- -          -                 375 ./usr/share/aclocal/wayland-scanner.m4
+drwxr-xr-x -          -                4096 ./usr/share/wayland
+-rw-r--r-- -          -                1266 ./usr/share/wayland/wayland.dtd
+-rw-r--r-- -          -                 292 ./usr/share/wayland/wayland-scanner.mk
+-rw-r--r-- -          -              131466 ./usr/share/wayland/wayland.xml

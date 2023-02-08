@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 319436
+FILES = /usr/lib/locale/tg_TJ.KOI8-T
+FILELIST = /usr/lib/locale/tg_TJ.KOI8-T/LC_ADDRESS /usr/lib/locale/tg_TJ.KOI8-T/LC_COLLATE /usr/lib/locale/tg_TJ.KOI8-T/LC_CTYPE /usr/lib/locale/tg_TJ.KOI8-T/LC_IDENTIFICATION /usr/lib/locale/tg_TJ.KOI8-T/LC_MEASUREMENT /usr/lib/locale/tg_TJ.KOI8-T/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/tg_TJ.KOI8-T/LC_MONETARY /usr/lib/locale/tg_TJ.KOI8-T/LC_NAME /usr/lib/locale/tg_TJ.KOI8-T/LC_NUMERIC /usr/lib/locale/tg_TJ.KOI8-T/LC_PAPER /usr/lib/locale/tg_TJ.KOI8-T/LC_TELEPHONE /usr/lib/locale/tg_TJ.KOI8-T/LC_TIME

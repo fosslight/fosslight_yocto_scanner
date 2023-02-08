@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/locale
+drwxr-xr-x root       root             4096 ./usr/lib/locale/hy_AM.ARMSCII-8
+-rw-r--r-- root       root              190 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_ADDRESS
+-rw-r--r-- root       root            21698 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_COLLATE
+-rw-r--r-- root       root           291968 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_CTYPE
+-rw-r--r-- root       root              337 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_IDENTIFICATION
+-rw-r--r-- root       root               27 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_MEASUREMENT
+drwxr-xr-x root       root             4096 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_MESSAGES
+-rw-r--r-- root       root               67 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_MESSAGES/SYS_LC_MESSAGES
+-rw-r--r-- root       root              298 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_MONETARY
+-rw-r--r-- root       root               78 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_NAME
+-rw-r--r-- root       root               58 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_NUMERIC
+-rw-r--r-- root       root               38 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_PAPER
+-rw-r--r-- root       root               56 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_TELEPHONE
+-rw-r--r-- root       root             3364 ./usr/lib/locale/hy_AM.ARMSCII-8/LC_TIME

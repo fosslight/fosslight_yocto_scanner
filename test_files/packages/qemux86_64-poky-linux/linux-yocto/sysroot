@@ -1,0 +1,3 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  11 ./sysroot-providers/linux-yocto
+-rw-r--r-- -          -                  11 ./sysroot-providers/virtual_kernel

@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-kset-example
+RDEPENDS = kernel-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8440
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/samples/kobject/kset-example.ko /etc/modules-load.d/kset-example.conf /etc/modprobe.d/kset-example.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/samples/kobject/kset-example.ko

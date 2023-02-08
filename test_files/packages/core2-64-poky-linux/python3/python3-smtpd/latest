@@ -1,0 +1,8 @@
+PV = 3.8.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-core python3-crypt python3-datetime python3-email python3-io python3-math python3-mime python3-netclient python3-stringold
+RRECOMMENDS = 
+PKGSIZE = 208960
+FILES = /usr/bin/smtpd.py /usr/lib/python3.8/asynchat.py /usr/lib/python3.8/asyncore.py /usr/lib/python3.8/smtpd.py /usr/lib/python3.8/__pycache__/asynchat.*.pyc /usr/lib/python3.8/__pycache__/asyncore.*.pyc /usr/lib/python3.8/__pycache__/smtpd.*.pyc
+FILELIST = /usr/lib/python3.8/__pycache__/asynchat.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/asynchat.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/asynchat.cpython-38.pyc /usr/lib/python3.8/__pycache__/asyncore.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/asyncore.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/asyncore.cpython-38.pyc /usr/lib/python3.8/__pycache__/smtpd.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/smtpd.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/smtpd.cpython-38.pyc /usr/lib/python3.8/asynchat.py /usr/lib/python3.8/asyncore.py /usr/lib/python3.8/smtpd.py

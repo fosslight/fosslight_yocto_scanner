@@ -1,0 +1,9 @@
+PV = 1.2.0+gitAUTOINC+4a062cf418
+PR = r0
+PKGV = 1.2.0+git0+4a062cf418
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libtirpc (>= 1.2.6)
+RRECOMMENDS = 
+PKGSIZE = 96303
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libnsl2 /usr/lib/libnsl2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libnsl.so.2 /usr/lib/libnsl.so.2.0.0

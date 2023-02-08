@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8
+drwxr-xr-x root       root             4096 ./usr/lib/python3.8/lib-dynload
+-rwxr-xr-x root       root            32008 ./usr/lib/python3.8/lib-dynload/mmap.cpython-38-x86_64-linux-gnu.so

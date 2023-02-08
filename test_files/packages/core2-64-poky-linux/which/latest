@@ -1,0 +1,5 @@
+PV = 2.21
+PR = r3
+DEPENDS = autoconf-native automake-native cwautomacros-native gnu-config-native libtool-cross libtool-native texinfo-dummy-native virtual/libc virtual/update-alternatives virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = which-src which-dbg which-staticdev which-dev which-doc which-locale which
+LAYER = core

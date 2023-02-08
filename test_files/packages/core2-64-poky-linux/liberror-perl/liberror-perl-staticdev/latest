@@ -1,0 +1,8 @@
+PV = 0.17029
+PR = r0
+RPROVIDES = 
+RDEPENDS = liberror-perl-dev (= 0.17029-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/liberror-perl/*.a
+FILELIST = 

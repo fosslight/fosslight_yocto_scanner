@@ -1,0 +1,8 @@
+PV = 2.35.1
+PR = r0
+RPROVIDES = nl-translation util-linux-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-nl
+PKGSIZE = 343943
+FILES = /usr/share/locale/nl
+FILELIST = /usr/share/locale/nl/LC_MESSAGES/util-linux.mo

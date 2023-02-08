@@ -1,0 +1,16 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   4 ./sysroot-providers/attr
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/attr
+-rw-r--r-- -          -                8010 ./usr/include/attr/attributes.h
+-rw-r--r-- -          -                1569 ./usr/include/attr/error_context.h
+-rw-r--r-- -          -                1411 ./usr/include/attr/libattr.h
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/attr
+-rwxr-xr-x -          -               26408 ./usr/lib/libattr.so.1.1.2448
+lrwxrwxrwx -          -                  19 ./usr/lib/libattr.so.1 -> libattr.so.1.1.2448
+lrwxrwxrwx -          -                  19 ./usr/lib/libattr.so -> libattr.so.1.1.2448
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 217 ./usr/lib/pkgconfig/libattr.pc
+drwxr-xr-x -          -                4096 ./usr/share

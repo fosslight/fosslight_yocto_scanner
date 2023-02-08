@@ -1,0 +1,8 @@
+PV = 0.20.1
+PR = r0
+RPROVIDES = ast-translation gettext-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ast
+PKGSIZE = 5652
+FILES = /usr/share/locale/ast
+FILELIST = /usr/share/locale/ast/LC_MESSAGES/gettext-runtime.mo

@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-bigint perl-module-exporter perl-module-math-bigfloat perl-module-math-bigint perl-module-math-bigint-trace perl-module-math-bigrat perl-module-overload perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 16154
+FILES = /usr/lib/perl5/5.30.2/bigrat.pm
+FILELIST = /usr/lib/perl5/5.30.2/bigrat.pm

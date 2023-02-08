@@ -1,0 +1,8 @@
+PV = 0.4.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 6818
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/man/man1/opkg-build.1

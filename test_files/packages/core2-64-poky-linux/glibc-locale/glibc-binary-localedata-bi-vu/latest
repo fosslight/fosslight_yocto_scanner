@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2931935
+FILES = /usr/lib/locale/bi_VU
+FILELIST = /usr/lib/locale/bi_VU/LC_ADDRESS /usr/lib/locale/bi_VU/LC_COLLATE /usr/lib/locale/bi_VU/LC_CTYPE /usr/lib/locale/bi_VU/LC_IDENTIFICATION /usr/lib/locale/bi_VU/LC_MEASUREMENT /usr/lib/locale/bi_VU/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/bi_VU/LC_MONETARY /usr/lib/locale/bi_VU/LC_NAME /usr/lib/locale/bi_VU/LC_NUMERIC /usr/lib/locale/bi_VU/LC_PAPER /usr/lib/locale/bi_VU/LC_TELEPHONE /usr/lib/locale/bi_VU/LC_TIME

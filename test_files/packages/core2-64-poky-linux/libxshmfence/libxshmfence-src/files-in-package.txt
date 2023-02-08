@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxshmfence
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxshmfence/1.3-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxshmfence/1.3-r0/libxshmfence-1.3
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxshmfence/1.3-r0/libxshmfence-1.3/src
+-rw-r--r-- root       root             3176 ./usr/src/debug/libxshmfence/1.3-r0/libxshmfence-1.3/src/xshmfence_alloc.c
+-rw-r--r-- root       root             2512 ./usr/src/debug/libxshmfence/1.3-r0/libxshmfence-1.3/src/xshmfence_futex.c
+-rw-r--r-- root       root             2658 ./usr/src/debug/libxshmfence/1.3-r0/libxshmfence-1.3/src/xshmfence_futex.h

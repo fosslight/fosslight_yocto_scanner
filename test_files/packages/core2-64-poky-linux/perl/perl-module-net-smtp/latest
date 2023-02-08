@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-io-socket perl-module-io-socket-ip perl-module-mime-base64 perl-module-net-cmd perl-module-net-config perl-module-socket perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 28799
+FILES = /usr/lib/perl5/5.30.2/Net/SMTP.pm
+FILELIST = /usr/lib/perl5/5.30.2/Net/SMTP.pm

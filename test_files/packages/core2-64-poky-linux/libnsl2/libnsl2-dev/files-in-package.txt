@@ -1,0 +1,21 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/rpcsvc
+-rw-r--r-- root       root             2675 ./usr/include/rpcsvc/nis_callback.h
+-rw-r--r-- root       root             2178 ./usr/include/rpcsvc/nis_callback.x
+-rw-r--r-- root       root            15879 ./usr/include/rpcsvc/nis.h
+-rw-r--r-- root       root            12340 ./usr/include/rpcsvc/nislib.h
+-rw-r--r-- root       root            13090 ./usr/include/rpcsvc/nis_object.x
+-rw-r--r-- root       root             5370 ./usr/include/rpcsvc/nis_tags.h
+-rw-r--r-- root       root            16802 ./usr/include/rpcsvc/nis.x
+-rw-r--r-- root       root             3481 ./usr/include/rpcsvc/ypclnt.h
+-rw-r--r-- root       root             7964 ./usr/include/rpcsvc/yp.h
+-rw-r--r-- root       root              913 ./usr/include/rpcsvc/yppasswd.h
+-rw-r--r-- root       root             2286 ./usr/include/rpcsvc/yppasswd.x
+-rw-r--r-- root       root            14920 ./usr/include/rpcsvc/yp_prot.h
+-rw-r--r-- root       root             3027 ./usr/include/rpcsvc/ypupd.h
+-rw-r--r-- root       root             6981 ./usr/include/rpcsvc/yp.x
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               15 ./usr/lib/libnsl.so -> libnsl.so.2.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              247 ./usr/lib/pkgconfig/libnsl.pc

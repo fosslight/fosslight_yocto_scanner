@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root          2373792 ./usr/lib/.debug/libgmp.so.10.4.0
+-rwxr-xr-x root       root           332416 ./usr/lib/.debug/libgmpxx.so.4.6.0

@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-constant perl-module-exporter perl-module-overload perl-module-strict
+RRECOMMENDS = 
+PKGSIZE = 5349
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/Time/Seconds.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Time/Seconds.pm

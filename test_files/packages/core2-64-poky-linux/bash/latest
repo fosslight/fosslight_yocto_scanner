@@ -1,0 +1,5 @@
+PV = 5.0
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native gettext-native gnu-config-native libtool-cross libtool-native ncurses texinfo-dummy-native virtual/libc virtual/libiconv virtual/update-alternatives virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = bash-src bash-dbg bash-ptest bash-staticdev bash-dev bash-doc bash-locale bash-loadable bash bash-bashbug
+LAYER = core

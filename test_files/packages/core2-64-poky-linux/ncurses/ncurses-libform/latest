@@ -1,0 +1,9 @@
+PV = 6.2
+PR = r0
+PKG = libform5
+RPROVIDES = ncurses-libform (=6.2)
+RDEPENDS = glibc (>= 2.31+git0+1094741224) ncurses-libncurses (>= 6.2) ncurses-libtinfo (>= 6.2)
+RRECOMMENDS = 
+PKGSIZE = 68710
+FILES = /usr/lib/libform.so.5 /usr/lib/libform.so.5.9
+FILELIST = /usr/lib/libform.so.5 /usr/lib/libform.so.5.9

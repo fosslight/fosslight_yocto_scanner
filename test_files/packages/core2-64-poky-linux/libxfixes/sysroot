@@ -1,0 +1,14 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/libxfixes
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/X11
+drwxr-xr-x -          -                4096 ./usr/include/X11/extensions
+-rw-r--r-- -          -                7588 ./usr/include/X11/extensions/Xfixes.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               30360 ./usr/lib/libXfixes.so.3.1.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libXfixes.so.3 -> libXfixes.so.3.1.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libXfixes.so -> libXfixes.so.3.1.0
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 236 ./usr/lib/pkgconfig/xfixes.pc
+drwxr-xr-x -          -                4096 ./usr/share

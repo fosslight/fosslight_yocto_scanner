@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root            22048 ./usr/bin/.debug/attr
+-rwxr-xr-x root       root            52600 ./usr/bin/.debug/getfattr
+-rwxr-xr-x root       root            42312 ./usr/bin/.debug/setfattr.attr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root            62976 ./usr/lib/.debug/libattr.so.1.1.2448

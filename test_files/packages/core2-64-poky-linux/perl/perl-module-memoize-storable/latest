@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-storable
+RRECOMMENDS = 
+PKGSIZE = 1413
+FILES = /usr/lib/perl5/5.30.2/Memoize/Storable.pm
+FILELIST = /usr/lib/perl5/5.30.2/Memoize/Storable.pm

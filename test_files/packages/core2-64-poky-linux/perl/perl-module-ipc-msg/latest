@@ -1,0 +1,8 @@
+PV = 5.30.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-class-struct perl-module-ipc-sysv perl-module-strict perl-module-vars
+RRECOMMENDS = 
+PKGSIZE = 4520
+FILES = /usr/lib/perl5/5.30.2/x86_64-linux/IPC/Msg.pm
+FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/IPC/Msg.pm

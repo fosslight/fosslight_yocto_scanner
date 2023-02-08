@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            26512 ./usr/lib/libattr.so.1.1.2448
+lrwxrwxrwx root       root               19 ./usr/lib/libattr.so.1 -> libattr.so.1.1.2448

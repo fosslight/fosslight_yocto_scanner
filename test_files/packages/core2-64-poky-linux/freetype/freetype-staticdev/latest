@@ -1,0 +1,9 @@
+PV = 2.10.2
+PR = r0
+PKG = libfreetype-staticdev
+RPROVIDES = freetype-staticdev (=2.10.2)
+RDEPENDS = freetype-dev (= 2.10.2-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/freetype/*.a
+FILELIST = 

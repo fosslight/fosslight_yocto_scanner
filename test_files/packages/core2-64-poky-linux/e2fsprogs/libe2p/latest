@@ -1,0 +1,9 @@
+PV = 1.45.6
+PR = r0
+PKG = libe2p2
+RPROVIDES = libe2p (=1.45.6)
+RDEPENDS = glibc (>= 2.31+git0+1094741224)
+RRECOMMENDS = 
+PKGSIZE = 44629
+FILES = /lib/libe2p.so.*
+FILELIST = /lib/libe2p.so.2 /lib/libe2p.so.2.3

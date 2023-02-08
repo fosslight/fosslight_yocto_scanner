@@ -1,0 +1,5 @@
+PV = 1.07.1
+PR = r0
+DEPENDS = autoconf-native automake-native flex-native gnu-config-native libtool-cross libtool-native readline texinfo-dummy-native virtual/libc virtual/update-alternatives virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = bc-src bc-dbg bc-staticdev bc-dev bc-doc bc-locale bc
+LAYER = core

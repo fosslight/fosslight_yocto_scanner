@@ -1,0 +1,9 @@
+PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
+PR = r0
+PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
+RPROVIDES = kernel-module-snd-usbmidi-lib
+RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-snd-5.4.40-yocto-standard kernel-module-snd-rawmidi-5.4.40-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 40288
+FILES = /lib/modules/5.4.40-yocto-standard/kernel/sound/usb/snd-usbmidi-lib.ko /etc/modules-load.d/snd-usbmidi-lib.conf /etc/modprobe.d/snd-usbmidi-lib.conf
+FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/sound/usb/snd-usbmidi-lib.ko

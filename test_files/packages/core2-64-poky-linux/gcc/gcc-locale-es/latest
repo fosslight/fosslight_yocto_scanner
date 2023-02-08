@@ -1,0 +1,8 @@
+PV = 10.1.0
+PR = r0
+RPROVIDES = es-translation gcc-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-es
+PKGSIZE = 1166523
+FILES = /usr/share/locale/es
+FILELIST = /usr/share/locale/es/LC_MESSAGES/cpplib.mo /usr/share/locale/es/LC_MESSAGES/gcc.mo

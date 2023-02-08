@@ -1,0 +1,8 @@
+PV = 1.19.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 366313
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/bufferproxy.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/cairomodule.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/context.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/device.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/enums.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/error.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/font.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/glyph.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/matrix.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/misc.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/path.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/pattern.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/private.h /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/pycairo.h /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/rectangle.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/region.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/surface.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/textcluster.c /usr/src/debug/python3-pycairo/1.19.0-r0/pycairo-1.19.0/cairo/textextents.c

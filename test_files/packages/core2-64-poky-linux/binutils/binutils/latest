@@ -1,0 +1,8 @@
+PV = 2.34
+PR = r0
+RPROVIDES = binutils-symlinks
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libbfd (>= 2.34) libgcc (>= 10.1.0) libstdc++ (>= 10.1.0) update-alternatives-opkg zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 10494877
+FILES = /usr/bin/x86_64-poky-linux-* /usr/lib/lib*.so.* /usr/lib/lib*-2.34*.so /usr/x86_64-poky-linux/bin/* /usr/bin/embedspu
+FILELIST = /usr/bin/x86_64-poky-linux-addr2line /usr/bin/x86_64-poky-linux-ar /usr/bin/x86_64-poky-linux-as /usr/bin/x86_64-poky-linux-c++filt /usr/bin/x86_64-poky-linux-dwp /usr/bin/x86_64-poky-linux-elfedit /usr/bin/x86_64-poky-linux-gprof /usr/bin/x86_64-poky-linux-ld /usr/bin/x86_64-poky-linux-ld.bfd /usr/bin/x86_64-poky-linux-ld.gold /usr/bin/x86_64-poky-linux-nm /usr/bin/x86_64-poky-linux-objcopy /usr/bin/x86_64-poky-linux-objdump /usr/bin/x86_64-poky-linux-ranlib /usr/bin/x86_64-poky-linux-readelf /usr/bin/x86_64-poky-linux-size /usr/bin/x86_64-poky-linux-strings /usr/bin/x86_64-poky-linux-strip /usr/lib/libctf-nobfd.so.0 /usr/lib/libctf-nobfd.so.0.0.0 /usr/lib/libctf.so.0 /usr/lib/libctf.so.0.0.0 /usr/lib/libopcodes-2.34.0.20200220.so /usr/x86_64-poky-linux/bin/ar /usr/x86_64-poky-linux/bin/as /usr/x86_64-poky-linux/bin/ld /usr/x86_64-poky-linux/bin/ld.bfd /usr/x86_64-poky-linux/bin/ld.gold /usr/x86_64-poky-linux/bin/nm /usr/x86_64-poky-linux/bin/objcopy /usr/x86_64-poky-linux/bin/objdump /usr/x86_64-poky-linux/bin/ranlib /usr/x86_64-poky-linux/bin/readelf /usr/x86_64-poky-linux/bin/strip

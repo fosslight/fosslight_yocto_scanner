@@ -1,0 +1,9 @@
+PV = 2.4.101
+PR = r0
+PKG = libdrm-amdgpu1
+RPROVIDES = libdrm-amdgpu (=2.4.101)
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libdrm (>= 2.4.101)
+RRECOMMENDS = 
+PKGSIZE = 50393
+FILES = /usr/lib/libdrm_amdgpu.so.* /usr/share/libdrm/amdgpu.ids
+FILELIST = /usr/lib/libdrm_amdgpu.so.1 /usr/lib/libdrm_amdgpu.so.1.0.0 /usr/share/libdrm/amdgpu.ids

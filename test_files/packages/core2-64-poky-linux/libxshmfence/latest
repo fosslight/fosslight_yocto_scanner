@@ -1,0 +1,5 @@
+PV = 1.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native util-macros virtual/libc virtual/libx11 virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = libxshmfence-src libxshmfence-dbg libxshmfence-staticdev libxshmfence-dev libxshmfence-doc libxshmfence-locale libxshmfence
+LAYER = core

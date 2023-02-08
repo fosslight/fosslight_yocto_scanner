@@ -1,0 +1,8 @@
+PV = 2.31
+PR = r0
+RPROVIDES = virtual-locale-tig virtual-locale-tig-er
+RDEPENDS = glibc-binary-localedata-tig-er
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = 
+FILELIST = 

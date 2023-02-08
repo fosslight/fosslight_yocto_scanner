@@ -1,0 +1,8 @@
+PV = 1.19.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = cairo-dbg glibc-dbg
+PKGSIZE = 567424
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/python3.8/site-packages/cairo/.debug/_cairo.cpython-38-x86_64-linux-gnu.so

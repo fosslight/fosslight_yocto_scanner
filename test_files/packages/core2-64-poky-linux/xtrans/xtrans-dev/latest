@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.4.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = util-macros-dev
+PKGSIZE = 191033
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xtrans/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/X11/Xtrans/Xtrans.c /usr/include/X11/Xtrans/Xtrans.h /usr/include/X11/Xtrans/Xtransint.h /usr/include/X11/Xtrans/Xtranslcl.c /usr/include/X11/Xtrans/Xtranssock.c /usr/include/X11/Xtrans/Xtransutil.c /usr/include/X11/Xtrans/transport.c /usr/share/aclocal/xtrans.m4 /usr/share/pkgconfig/xtrans.pc

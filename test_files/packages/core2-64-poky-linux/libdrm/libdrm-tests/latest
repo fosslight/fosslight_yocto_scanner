@@ -1,0 +1,8 @@
+PV = 2.4.101
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.31+git0+1094741224) libdrm (>= 2.4.101) libdrm-etnaviv (>= 2.4.101) libdrm-kms (>= 2.4.101)
+RRECOMMENDS = 
+PKGSIZE = 254360
+FILES = /usr/bin/*
+FILELIST = /usr/bin/etnaviv_2d_test /usr/bin/etnaviv_bo_cache_test /usr/bin/etnaviv_cmd_stream_test /usr/bin/kms-steal-crtc /usr/bin/kms-universal-planes /usr/bin/kmstest /usr/bin/modeprint /usr/bin/modetest /usr/bin/proptest /usr/bin/vbltest

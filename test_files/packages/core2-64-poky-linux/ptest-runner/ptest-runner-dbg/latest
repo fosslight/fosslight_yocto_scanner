@@ -1,0 +1,9 @@
+PV = 2.4.0+gitAUTOINC+1e9a845859
+PR = r0
+PKGV = 2.4.0+git0+1e9a845859
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 68200
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/ptest-runner

@@ -1,0 +1,5 @@
+PV = 1.7.3.4
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native openssl readline tcp-wrappers virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
+PACKAGES = socat-src socat-dbg socat-staticdev socat-dev socat-doc socat-locale socat
+LAYER = core
