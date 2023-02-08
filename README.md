@@ -2,15 +2,24 @@
 SPDX-FileCopyrightText: Copyright 2023 LG Electronics Inc.
 SPDX-License-Identifier: Apache-2.0
 -->
+# FOSSLight Yocto Scanner
 
-# Create a FOSSLight Report for projects built with yocto
-## When you first set up your environment
+**FOSSLight Yocto Scanner** is a Python package that outputs OSS information about the package included in the rootfs image in FOSSLight Report format when building based on Yocto Project.
+
+- How to print OSS information: Prints the OSS information (OSS Name, OSS Version, LICENSE, Download location) defined in the recipe.
+- ⚠️ <U>**For images (ex- kernel, boot loader) mounted on target other than the rootfs image, the script does not print.**</U> Therefore, for this, the user must manually add OSS information to the FOSSLight Report.
+
+## 🚀 How to run
+### When you first set up your environment
+```
 $ pip install virtualenv  
 $ virtualenv -p /usr/bin/python3.7 venv  
 $ source venv/bin/activate  
-$ pip install fosslight_yocto
+(venv)$ pip install fosslight_yocto
+```
 
-## Parameters
+### Parameters
+```
 Required Parameters
 - i [installed-package-names.txt]
 - b [bom.json]
@@ -26,6 +35,7 @@ Optional Parameters
 - e
 - o [output_path]
 - f [file_format]
+```
 
 Note.
 - a option : Find & analyze binaries.
@@ -38,7 +48,6 @@ Note.
 - o option : Output files path
 - f option : Output file format (excel, csv, opossum)
 
-## Run the script
 ### Run with minimal parameters  
 ```
 $ fosslight_yocto -i installed-package-names.txt -b bom.json -p buildhistory/packages
@@ -48,3 +57,14 @@ $ fosslight_yocto -i installed-package-names.txt -b bom.json -p buildhistory/pac
 $ fosslight_yocto -i installed-package-names.txt -b bom.json -p buildhistory/packages -a output_img_path/
 ```
 
+## 👏 Contributing Guide
+
+We always welcome your contributions.  
+Please see the [CONTRIBUTING guide](https://fosslight.org/fosslight-guide-en/learn/1_contribution.html) for how to contribute.
+
+
+## 📄 License
+
+FOSSLight Yocto Scanner is Apache-2.0, as found in the [LICENSE][l] file.
+
+[l]: https://github.com/fosslight/fosslight_yocto/blob/main/LICENSE

@@ -29,3 +29,11 @@ License: Apache-2.0
 Files: test_files/*
 Copyright: 2023 LG Electronics
 License: Apache-2.0
+
+Files: test_files/output/*
+Copyright: 2023 LG Electronics
+License: Apache-2.0
+
+Files: test_files/packages/*
+Copyright: 2023 LG Electronics
+License: Apache-2.0
