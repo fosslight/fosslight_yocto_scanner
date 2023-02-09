@@ -9,53 +9,12 @@ SPDX-License-Identifier: Apache-2.0
 - How to print OSS information: Prints the OSS information (OSS Name, OSS Version, LICENSE, Download location) defined in the recipe.
 - ⚠️ <U>**For images (ex- kernel, boot loader) mounted on target other than the rootfs image, the script does not print.**</U> Therefore, for this, the user must manually add OSS information to the FOSSLight Report.
 
-## 🚀 How to run
-### When you first set up your environment
-```
-$ pip install virtualenv  
-$ virtualenv -p /usr/bin/python3.7 venv  
-$ source venv/bin/activate  
-(venv)$ pip install fosslight_yocto
-```
 
-### Parameters
-```
-Required Parameters
-- i [installed-package-names.txt]
-- b [bom.json]
-- p [buildhistory/packages]
+## 📖 User Guide
 
-Optional Parameters
-- a [build_analysis_path]
-- y [oss-pkg-info.yaml]
-- n 
-- d
-- s
-- c
-- e
-- o [output_path]
-- f [file_format]
-```
+We describe the user guide in the FOSSLight guide page.
+Please see the [**User Guide**](https://fosslight.org/fosslight-guide-en/scanner/5_yocto.html) for more information on how to install and run it.
 
-Note.
-- a option : Find & analyze binaries.
-- y option : Overwrite OSS information from oss-pkg-info.yaml.
-- n option : Print to BIN(Android) instead of SRC sheet.
-- d option : Select license of OSS registered in OSC System.
-- s option : Analyze source code.
-- c option : Analysis source code for all recipes.
-- e option : Fetch source codes in images with source reference text file
-- o option : Output files path
-- f option : Output file format (excel, csv, opossum)
-
-### Run with minimal parameters  
-```
-$ fosslight_yocto -i installed-package-names.txt -b bom.json -p buildhistory/packages
-```
-### Run with binary analysis
-```
-$ fosslight_yocto -i installed-package-names.txt -b bom.json -p buildhistory/packages -a output_img_path/
-```
 
 ## 👏 Contributing Guide
 
