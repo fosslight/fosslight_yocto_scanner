@@ -1,12 +1,12 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: FOSSLight Yocto
-Source: https://github.com/fosslight/fosslight_yocto_scanner
+Source: https://github.com/fosslight/fosslight_yocto
 
 Files: *.md
 Copyright: 2023 LG Electronics
 License: Apache-2.0
 
-Files: tests/*
+Files: test_files/*
 Copyright: 2023 LG Electronics
 License: Apache-2.0
 
@@ -26,14 +26,6 @@ Files: .bumpversion.cfg
 Copyright: 2023 LG Electronics
 License: Apache-2.0
 
-Files: test_files/*
-Copyright: 2023 LG Electronics
-License: Apache-2.0
-
-Files: test_files/output/*
-Copyright: 2023 LG Electronics
-License: Apache-2.0
-
-Files: test_files/packages/*
+Files: .gitignore
 Copyright: 2023 LG Electronics
 License: Apache-2.0
