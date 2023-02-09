@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: FOSSLight Source
-Source: https://github.com/fosslight/fosslight_source
+Upstream-Name: FOSSLight Yocto
+Source: https://github.com/fosslight/fosslight_yocto_scanner
 
 Files: *.md
 Copyright: 2023 LG Electronics

@@ -1,6 +1,6 @@
 # Running tests with tox for releasing new version
 
-name: Pull requests fosslight_source_scanner
+name: Pull requests fosslight_yocto_scanner
 
 on:
   pull_request:
