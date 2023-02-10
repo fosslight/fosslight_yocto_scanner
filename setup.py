@@ -5,7 +5,6 @@
 
 from codecs import open
 from setuptools import setup, find_packages
-import sys
 
 with open('README.md', 'r', 'utf-8') as f:
     readme = f.read()
@@ -24,13 +23,13 @@ if __name__ == "__main__":
         long_description_content_type='text/markdown',
         license='Apache-2.0',
         author='LG Electronics',
-        url='https://github.com/fosslight/fosslight_yocto',
-        download_url='https://github.com/fosslight/fosslight_yocto',
+        url='https://github.com/fosslight/fosslight_yocto_scanner',
+        download_url='https://github.com/fosslight/fosslight_yocto_scanner',
         classifiers=['License :: OSI Approved :: Apache Software License',
                      "Programming Language :: Python :: 3",
                      "Programming Language :: Python :: 3.7",
                      "Programming Language :: Python :: 3.8",
-                     "Programming Language :: Python :: 3.9", ],
+                     "Programming Language :: Python :: 3.9"],
         python_requires='>=3.7',
         install_requires=required,
         include_package_data=True,

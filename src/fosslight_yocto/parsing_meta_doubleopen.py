@@ -2,9 +2,7 @@
 # -*- coding: utf-8 -*-
 # SPDX-FileCopyrightText: Copyright 2023 LG Electronics Inc.
 # SPDX-License-Identifier: Apache-2.0
-import getopt
 import os
-import sys
 import json
 from datetime import datetime
 import logging
@@ -44,7 +42,7 @@ def matching_data_from_recipe(pkg_list, recipe_list, generated_list, is_distribu
                     found_idx = recipe_list.index(recipe)
                     recipe_item = recipe_list[found_idx]
                     if is_distributed:
-                       recipe_item.exclude = False
+                        recipe_item.exclude = False
                     pkg = copy_info_from_recipe(pkg, recipe_item)
                 except ValueError as ex:
                     logger.debug(f"|--- Can't find recipe_ {recipe}:{ex}")
@@ -63,7 +61,7 @@ def parsing_pkg_item(pkg_list, pkg_distributed):
     rc = True
     pkg_items = []
     recipe_items = []
-    pkg_notDistributed = [] 
+    pkg_notDistributed = []
     logger.debug("TOTAL FILE COUNT: " + str(len(pkg_list)) + "\n")
 
     for pkg in pkg_list:
@@ -131,7 +129,7 @@ def parsing_relationships_item(relationships_items):
             if spdx_id:
                 if rel_type == "PACKAGE_OF":
                     spdx_distributed.append(spdx_id)
-                if rel_type == "GENERATES" : #CONTAINS #GENERATED_FROM
+                if rel_type == "GENERATES":  # CONTAINS GENERATED_FROM
                     generated_list[relatedSpdxElement] = spdx_id
 
         except Exception as ex:
@@ -144,12 +142,12 @@ def parsing_relationships_item(relationships_items):
 def parsing_spdx_json(json_file):
     recipes = []
     pkg_distributed = []
-    pkg_notDistributed  = []
+    pkg_notDistributed = []
     try:
         logger.info("Start parsing " + json_file)
         with open(json_file, "r") as st_json:
             st_python = json.load(st_json)
-            rc, spdx_distributed, generated_list= parsing_relationships_item(st_python["relationships"])
+            rc, spdx_distributed, generated_list = parsing_relationships_item(st_python["relationships"])
             rc, pkg_distributed, recipes, pkg_notDistributed = parsing_pkg_item(st_python["packages"], spdx_distributed)
             rc, msg, pkg_distributed = matching_data_from_recipe(pkg_distributed, recipes, generated_list, True)
             rc, msg, pkg_notDistributed = matching_data_from_recipe(pkg_notDistributed, recipes, generated_list)
@@ -169,8 +167,8 @@ def get_sheet_content_to_print(pkg_list):
 def read_spdx_json(json_file_to_parse, output_file_name):
     recipes = []
     pkg_distributed = []
-    pkg_notDistributed  = []
-    
+    pkg_notDistributed = []
+
     msg = ""
     success = True
 
@@ -179,7 +177,7 @@ def read_spdx_json(json_file_to_parse, output_file_name):
         if os.path.isfile(json_file_to_parse):
             recipes, pkg_distributed, pkg_notDistributed = parsing_spdx_json(
                 json_file_to_parse)
-            
+
             sheet_list["SRC_distributed"] = get_sheet_content_to_print(pkg_distributed)
             sheet_list["SRC_recipe"] = get_sheet_content_to_print(recipes)
             sheet_list["SRC_not_distributed"] = get_sheet_content_to_print(pkg_notDistributed)
@@ -203,21 +201,21 @@ def read_spdx_json(json_file_to_parse, output_file_name):
 
 def main():
     global logger
-    argv = sys.argv[1:]
+
     start_time = datetime.now().strftime('%y%m%d_%H%M')
     output_file_name = ""
-    
+
     parser = argparse.ArgumentParser(description='FOSSLight Yocto', prog='fosslight_yocto', add_help=False)
     parser.add_argument('-h', '--help', action='store_true', required=False)
     parser.add_argument('-v', '--version', action='store_true', required=False)
     parser.add_argument('-o', '--output', type=str, required=False)
-    parser.add_argument('-f', '--file',type=str, required=False)
+    parser.add_argument('-f', '--file', type=str, required=False)
 
     args = parser.parse_args()
     if args.help:
         print_help_msg_doubleopen()
     if args.version:
-         print_version(_PKG_NAME)
+        print_version(_PKG_NAME)
     if args.file:
         spdx_file = args.file
     if args.output:

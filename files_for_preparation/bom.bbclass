@@ -1,5 +1,5 @@
 # Copyright (c) 2020 LG Electronics, Inc.
-# SPDX-License-Identifier: LicenseRef-LGE-Proprietary
+# SPDX-License-Identifier: Apache-2.0
 #
 # This class adds write_bom_info and write_abi_xml_data,
 # Each of them can be run by bitake --runall option.

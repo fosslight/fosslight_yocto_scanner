@@ -19,7 +19,7 @@ def write_result_from_bom(out_file_name, installed_packages_src, installed_packa
 
     src_sheet_name = "BIN (Yocto)" if bin_android_mode else "SRC"
     for scan_item in installed_packages_src:
-        list_src_to_print.extend(scan_item.get_print_item(bin_android_mode))        
+        list_src_to_print.extend(scan_item.get_print_item(bin_android_mode))
     sheet_list[src_sheet_name] = list_src_to_print
 
     for scan_item in installed_packages_bin:
