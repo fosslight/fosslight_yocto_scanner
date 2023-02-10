@@ -11,6 +11,6 @@ parmap
 ruamel.yaml
 py-tlsh
 scancode-toolkit
-fosslight_util>=1.4.13
+fosslight_util>=1.4.16
 tqdm
 fosslight_binary>=4.1.8
