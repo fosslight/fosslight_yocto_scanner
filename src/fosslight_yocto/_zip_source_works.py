@@ -104,7 +104,7 @@ def zip_compressed_source(output_dir="", total_list=[]):
             success = False
             logger.error(f'Failed to compress: {ex}')
         if len(total_list) > 0:
-            logger.info(f"\n* Recipes not included in the package file")
+            logger.info("\n* Recipes not included in the package file")
             logger.info("\n".join(total_list))
     else:
         logger.warning("\n* There is no zip file to compress.")

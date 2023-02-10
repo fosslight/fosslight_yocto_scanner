@@ -9,21 +9,22 @@ const_other_proprietary_license = 'other proprietary license'
 EXCLUDE_TRUE_VALUE = "Exclude"
 IGNORE_COPYRIGHT = "NOASSERTION"
 
+
 class PackageItem(OssItem):
     def __init__(self):
-        self.oss_name = "" # Default Value : Recipe Name
-        self._name = "" # oss name to print
-        self._version = "" # Default Value : PV
-        self.license = [] # Default value : license, it will be overwritten with a pkg_license.
-        self._declared_licenses = [] # Declared License in case of multi or dual licenses
-        self._source_name_or_path = [] # Files in installed package - Value of "Binary Name"
-        self.download_location = "" # SRC_URI
+        self.oss_name = ""  # Default Value : Recipe Name
+        self._name = ""  # oss name to print
+        self._version = ""  # Default Value : PV
+        self.license = []  # Default value : license, it will be overwritten with a pkg_license.
+        self._declared_licenses = []  # Declared License in case of multi or dual licenses
+        self._source_name_or_path = []  # Files in installed package - Value of "Binary Name"
+        self.download_location = ""  # SRC_URI
         self.copyright = ""
         self._comment = ""
         self.exclude = False
         self.homepage = ""
-        self.parent_package_name = "" # Packages created at build time have different installed and parent package names.
-        self._package_name = "" # Installed Package name
+        self.parent_package_name = ""  # Packages created at build time have different installed and parent package names.
+        self._package_name = ""  # Installed Package name
         self.src_path = ""
         self.file_path = ""
         self.spdx_id = ""
@@ -137,10 +138,10 @@ class PackageItem(OssItem):
             license_list = ""
             for matched_group in matched_groups:
                 matched_group = matched_group.strip()
-                if re.search(r'^(?!like license)*(\s)*(\((.)*\))',matched_group):
+                if re.search(r'^(?!like license)*(\s)*(\((.)*\))', matched_group):
                     matched_group = matched_group.replace('(', '')
                     matched_group = matched_group.replace(')', '')
-                license_list += matched_group+"&"
+                license_list += matched_group + "&"
             if license_list != "":
                 value = license_list
 
@@ -158,7 +159,7 @@ class PackageItem(OssItem):
 
         if len(self._license) > 1 and const_other_proprietary_license in self._license:
             self._license.remove(const_other_proprietary_license)
-    
+
     @property
     def declared_licenses(self):
         return self._declared_licenses
@@ -230,7 +231,7 @@ def set_value_switch(oss, key, value, nested_pkg_name):
     elif key == 'homepage':
         oss.homepage = value
     elif key == 'src_path':
-        oss.src_path  = value
+        oss.src_path = value
     elif key == 'file_path':
         oss.file_path = value
     elif key == 'license_flags':

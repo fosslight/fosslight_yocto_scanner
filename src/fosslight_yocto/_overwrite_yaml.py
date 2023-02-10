@@ -8,7 +8,7 @@ import codecs
 from ruamel.yaml import YAML
 from ruamel.yaml.constructor import SafeConstructor
 import os
-from ._package_item import const_other_proprietary_license, EXCLUDE_TRUE_VALUE, PackageItem, set_value_switch, update_package_name
+from ._package_item import PackageItem, set_value_switch, update_package_name
 from fosslight_util.parsing_yaml import parsing_yml
 
 logger = logging.getLogger(constant.LOGGER_NAME)
@@ -51,11 +51,6 @@ def set_list_by_value(value):
 
 
 def load_oss_pkg_info_yaml(oss_pkg_files, print_bin_android_mode, installed_packages_src, installed_packages_bin, nested_pkg_name):
-    recipe_from_oss_pkg_info = {}
-    pkgs_from_oss_pkg_info = {}
-    installed_packages_from_oss_pkg_info_yaml = []
-
-    ignored_yaml_data = []
     all_pkgs_to_exclude = []
     oss_items_to_append = []
     for oss_pkg_info_yaml_file in oss_pkg_files.split(','):
@@ -69,7 +64,7 @@ def load_oss_pkg_info_yaml(oss_pkg_files, print_bin_android_mode, installed_pack
             except Exception as ex:
                 logger.debug(f"Failed to parsing yaml({oss_pkg_info_yaml_file}): {ex}")
             if not oss_items_to_append:
-                try:  #  LEGACY YAML FORMAT
+                try:  # LEGACY YAML FORMAT
                     with codecs.open(oss_pkg_info_yaml_file, "r", "utf-8") as f:
                         data = f.read()
                         SafeConstructor.add_constructor(u'tag:yaml.org,2002:map', construct_yaml_map)
@@ -84,7 +79,6 @@ def load_oss_pkg_info_yaml(oss_pkg_files, print_bin_android_mode, installed_pack
                         for recipe_items in data_list:
                             for root_name, oss_items in recipe_items.items():
                                 recipe_name = root_name.strip()
-                                pkgs_to_exclude =[]
                                 if oss_items:
                                     for item in oss_items:
                                         pkg_item = PackageItem()
@@ -103,11 +97,11 @@ def load_oss_pkg_info_yaml(oss_pkg_files, print_bin_android_mode, installed_pack
     for oss in oss_items_to_append:
         recipe_names_to_search = oss.yocto_recipe
         pkg_names_to_search = oss.yocto_package
-        # Find the item to be excluded by the recipe or package name. 
+        # Find the item to be excluded by the recipe or package name.
         pkgs_to_exclude = [x.package_name for x in installed_packages_src if
                            x.oss_name in recipe_names_to_search or x.name in recipe_names_to_search
                            or x.parent_package_name in pkg_names_to_search or x.package_name in pkg_names_to_search]
-        #print(f"{len(pkgs_to_exclude)}:{recipe_names_to_search}/ {pkg_names_to_search}")
+
         if len(pkgs_to_exclude) > 0:
             search_list = recipe_names_to_search + pkg_names_to_search
             len_search = len(search_list)
@@ -118,7 +112,7 @@ def load_oss_pkg_info_yaml(oss_pkg_files, print_bin_android_mode, installed_pack
                 if "comment" in oss:
                     prev_comment = f"{oss.comment}/"
                 oss.comment = f"{prev_comment}pkg, recipe:{search_list}"
-            
+
             all_pkgs_to_exclude += pkgs_to_exclude
 
             oss.source_name_or_path = ""  # Don't print file value loaded from yaml file.
@@ -127,11 +121,9 @@ def load_oss_pkg_info_yaml(oss_pkg_files, print_bin_android_mode, installed_pack
 
     # Exclude packages
     for pkg_name in all_pkgs_to_exclude:
-        pkg_items = list(
-                        filter(lambda x: x.package_name == pkg_name and x.exclude == False,
-                        installed_packages_bin))
-        pkg_items += [x for x in installed_packages_src if
-                      x.package_name == pkg_name and x.exclude == False]
+        pkg_items = list(filter(lambda x: x.package_name == pkg_name
+                                and x.exclude is False, installed_packages_bin))
+        pkg_items += [x for x in installed_packages_src if x.package_name == pkg_name and x.exclude is False]
 
         for item in pkg_items:
             item.exclude = True

@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 # SPDX-FileCopyrightText: Copyright 2023 LG Electronics Inc.
 # SPDX-License-Identifier: Apache-2.0
-import getopt
 import hashlib
 import os
 import sys
@@ -12,17 +11,11 @@ from datetime import datetime
 from binaryornot.check import is_binary
 import magic
 import copy
-import codecs
-from ruamel.yaml import YAML
-from ruamel.yaml.constructor import SafeConstructor
 import logging
-import re
 import pandas as pd
 import pymysql
-from pathlib import Path
 from ._help import print_help_msg_bom, print_version
 # For source code analysis
-import subprocess
 import multiprocessing
 import parmap
 import numpy as np
@@ -33,7 +26,7 @@ from fosslight_util.set_log import init_log
 import fosslight_util.constant as constant
 from fosslight_util.write_txt import write_txt_file
 from ._zip_source_works import collect_source
-from ._package_item import(
+from ._package_item import (
     const_other_proprietary_license,
     EXCLUDE_TRUE_VALUE,
     PackageItem,
@@ -97,7 +90,7 @@ def get_json_object(str_data):
     json_object = ""
     try:
         json_object = json.loads(str_data)
-    except ValueError as e:
+    except ValueError:
         json_object = ""
     return json_object
 
@@ -377,7 +370,7 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
     if str_files:
         logger.debug(f"Write binary.txt file: {output_txt}")
         unique_str_files = set(str_files)
-        write_txt_file(output_txt, "Binary\tsha1sum\ttlsh\n"+'\n'.join(unique_str_files))
+        write_txt_file(output_txt, "Binary\tsha1sum\ttlsh\n" + '\n'.join(unique_str_files))
 
 
 def check_required_files(bom, installed_pkgs, buildhistory_path):
@@ -697,8 +690,8 @@ def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_f
         splited_data = np.array_split(recipes_to_analyze, num_cores)
         splited_data = [x.tolist() for x in splited_data]
 
-        parmap.map(get_src_analysis_result, splited_data, scancode_result_dir, return_list, pm_pbar=True,
-               pm_processes=num_cores)
+        parmap.map(get_src_analysis_result, splited_data, scancode_result_dir, return_list,
+                   pm_pbar=True, pm_processes=num_cores)
         print_src_analysis_result(return_list, output_file_without_extension)
 
 
@@ -857,14 +850,14 @@ def check_oss_exists_in_db(db_cur, name, link):
         WHERE OM.OSS_NAME = '{oss_name}' OR NICK.OSS_NICKNAME = '{oss_name}' """.format(
             oss_name=name)
         if link != "":
-            sql_query = sql_query+ " OR DOWNLOAD.DOWNLOAD_LOCATION='{download}'".format(download=link)
+            sql_query = f"{sql_query} OR DOWNLOAD.DOWNLOAD_LOCATION='{link}'"
 
         df_result = get_list_by_using_query(db_cur, sql_query, ["OSS_NAME"])
         if df_result is not None and len(df_result) > 0:  # Exists
             oss_exists = True
         else:
             oss_exists = False
-    except Exception as error:
+    except Exception:
         oss_exists = False
 
     return oss_exists
@@ -872,7 +865,7 @@ def check_oss_exists_in_db(db_cur, name, link):
 
 def get_list_by_using_query(cur, sql_query, columns):
     result_rows = ""  # DataFrame
-    result = cur.execute(sql_query)
+    cur.execute(sql_query)
     rows = cur.fetchall()
 
     if rows is not None and len(rows) > 0:
@@ -892,7 +885,7 @@ def connect_to_osc_db():
         conn = pymysql.connect(host=host_product, port=port, user=user, password=password, database=dbname)
         cursor = conn.cursor()
     except Exception:
-        logger.warning("Can not access to OSC System's DB.")
+        logger.warning("Can not access to FOSSLight Hub DB.")
 
     return conn, cursor
 
@@ -908,7 +901,7 @@ def disconnect_lge_bin_db(conn, cur):
 
 def main():
     global installed_packages_src, installed_packages_bin
-    argv = sys.argv[1:]
+
     bom_file = "bom.json"
     installed_pkgs = "installed-package-names.txt"
     oss_pkg_yaml_file = ""
@@ -922,17 +915,17 @@ def main():
     output_path = os.getcwd()
     output_src_analysis_file = "source_analysis_report"
     file_format = ""
-   
+
     parser = argparse.ArgumentParser(description='FOSSLight Yocto', prog='fosslight_yocto', add_help=False)
     parser.add_argument('-h', '--help', action='store_true', required=False)
     parser.add_argument('-v', '--version', action='store_true', required=False)
-    parser.add_argument('-i', '--istalled',  type=str, required=False)
-    parser.add_argument('-y', '--yaml',  type=str, required=False)
-    parser.add_argument('-b', '--bom',  type=str, required=False)
+    parser.add_argument('-i', '--istalled', type=str, required=False)
+    parser.add_argument('-y', '--yaml', type=str, required=False)
+    parser.add_argument('-b', '--bom', type=str, required=False)
     parser.add_argument('-p', '--buildhistory', type=str, required=False)
     parser.add_argument('-a', '--analysis', type=str, required=False)
     parser.add_argument('-o', '--output', type=str, required=False)
-    parser.add_argument('-f', '--format',type=str, required=False)
+    parser.add_argument('-f', '--format', type=str, required=False)
     parser.add_argument('-n', '--another', action='store_true', required=False)
     parser.add_argument('-d', '--declared', action='store_true', required=False)
     parser.add_argument('-s', '--source', action='store_true', required=False)
@@ -943,7 +936,7 @@ def main():
     if args.help:
         print_help_msg_bom()
     if args.version:
-         print_version(_PKG_NAME)
+        print_version(_PKG_NAME)
     if args.istalled:
         installed_pkgs = args.istalled
     if args.bom:
@@ -992,7 +985,7 @@ def main():
 
     # Parsing bom file for packages' data
     read_bom_file(bom_file, find_latest_pkg_from_buildhistory(buildhistory_path))
-    
+
     # Dependency Analysis - SRC Sheet or BIN(Android) Sheet
     read_installed_pkg_file(installed_pkgs)
 

@@ -5,7 +5,6 @@
 
 from codecs import open
 from setuptools import setup, find_packages
-import sys
 
 with open('README.md', 'r', 'utf-8') as f:
     readme = f.read()
