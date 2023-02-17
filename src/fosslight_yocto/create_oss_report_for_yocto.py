@@ -966,15 +966,15 @@ def main():
 
     # Output file names
     start_time = datetime.now().strftime('%y%m%d_%H%M')
-    DEFAULT_REPORT_NAME = f"fosslight_report_{start_time}"
+    DEFAULT_REPORT_NAME = f"fosslight_report_yocto_{start_time}"
     success, msg, output_path, output_file, output_extension = check_output_format(output_path, file_format)
     output_path = os.path.abspath(output_path)
     if output_file == "":
         output_file = DEFAULT_REPORT_NAME
     output_file = os.path.join(output_path, output_file)
 
-    out_bin_txt = os.path.join(output_path, f"fosslight_binary_{start_time}.txt")
-    log_file = os.path.join(output_path, f"fosslight_log_{start_time}.txt")
+    out_bin_txt = os.path.join(output_path, f"fosslight_binary_yocto_{start_time}.txt")
+    log_file = os.path.join(output_path, f"fosslight_log_yocto_{start_time}.txt")
     logger, log_item = init_log(log_file)
 
     if not success:
