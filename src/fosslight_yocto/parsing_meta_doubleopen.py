@@ -223,12 +223,12 @@ def main():
 
     if output_file_name == "":
         output_dir = os.getcwd()
-        oss_report_name = f"fosslight_report_{start_time}"
+        oss_report_name = f"fosslight_report_yocto_{start_time}"
     else:
         oss_report_name = output_file_name
         output_dir = os.path.dirname(output_file_name)
 
-    logger, log_item = init_log(os.path.join(output_dir, f"fosslight_log_{start_time}.txt"))
+    logger, log_item = init_log(os.path.join(output_dir, f"fosslight_log_yocto_{start_time}.txt"))
     read_spdx_json(spdx_file, oss_report_name)
 
 
