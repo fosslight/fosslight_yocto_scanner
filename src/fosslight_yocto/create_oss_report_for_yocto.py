@@ -804,7 +804,7 @@ def get_recipe_for_src_analysis(analyze_all):
                     oss_list[key] = {}
                     oss_list[key]['version'] = item.version
                     oss_list[key]['name'] = item.name
-                    oss_list[key]['license'] = item.licenses
+                    oss_list[key]['license'] = item.license
                     oss_list[key]['license_detected'] = []
                     oss_list[key]['link'] = item.download
                     oss_list[key]['src'] = item.src_path
@@ -813,7 +813,7 @@ def get_recipe_for_src_analysis(analyze_all):
                 else:
                     lic_list = oss_list[key]['license']
                     if isinstance(lic_list, list):
-                        lic_list.extend(item.licenses)
+                        lic_list.extend(item.license)
                     oss_list[key]['license'] = list(set(lic_list))
 
         # Check exist or not
