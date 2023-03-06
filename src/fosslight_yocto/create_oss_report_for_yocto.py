@@ -425,8 +425,8 @@ def declare_license_by_osc_db():
 
     # Get all OSS Name, OSS version list
     for item in installed_packages_src:
-        if item.licenses is not None and (len(item.licenses) > 1 or len(
-                set(item.licenses) & set(like_licenses)) == 1) and item.exclude != EXCLUDE_TRUE_VALUE:
+        if item.license is not None and (len(item.license) > 1 or len(
+                set(item.license) & set(like_licenses)) == 1) and item.exclude != EXCLUDE_TRUE_VALUE:
             key = item.name + seperator + item.version
 
             if key not in oss_info_from_db:
@@ -456,17 +456,17 @@ def declare_license_by_osc_db():
     for installed_pkg in installed_packages:
         for item in installed_pkg:
             try:
-                recipe_license = item.licenses
+                recipe_license = item.license
                 declared_lic = []
                 if recipe_license is not None:
                     key = item.name + seperator + item.version
                     if key in oss_info_from_db and len(oss_info_from_db[key]['lic_group']) > 0:
-                        if len(set(item.licenses) & set(like_licenses)) == 1:
+                        if len(set(item.license) & set(like_licenses)) == 1:
                             declared_lic = change_like_license(recipe_license, oss_info_from_db[key]['lic_group'])
                             if len(declared_lic) > 0:
                                 item.license = declared_lic
 
-                        if len(item.licenses) > 1:
+                        if len(item.license) > 1:
                             if seperator.join(recipe_license) in oss_info_from_db[key]:
                                 declared_lic = oss_info_from_db[key][seperator.join(recipe_license)]
                             else:
