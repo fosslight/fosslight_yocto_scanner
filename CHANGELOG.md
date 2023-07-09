@@ -1,5 +1,18 @@
 # Changelog
 
+## v3.1.19 (09/07/2023)
+## Changes
+## 🚀 Features
+
+- Print all data of bom.json with pr option @soimkim (#9)
+
+## 🔧 Maintenance
+
+- Add pr option to help messages @soimkim (#10)
+- Update the ubuntu version for deploy action @dd-jy (#8)
+
+---
+
 ## v3.1.18 (06/03/2023)
 ## Changes
 ## 🐛 Hotfixes
