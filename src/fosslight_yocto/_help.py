@@ -26,7 +26,8 @@ _HELP_MESSAGE_BOM = """
             -c\t\t\t\t   Analyze all the source code
             -e\t\t\t\t   Compress all the source code
             -o <path>\t\t\t   Output Path
-            -f <format>\t\t\t   Output file format (excel, csv, opossum)"""
+            -f <format>\t\t\t   Output file format (excel, csv, opossum)
+            -pr\t\t\t\t   Print all data of bom.json"""
 
 _HELP_MESSAGE_META_DOUBLE = """
     Usage: fosslight_doubleopen [option1] <arg1> [option2] <arg2>...
