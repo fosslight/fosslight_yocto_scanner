@@ -64,6 +64,8 @@ _map_license_from_yocto_to_scancode = {'proprietary-license': [const_other_propr
                                        'mpl-1.1': ['mplv1.1', 'mplv1'], 'mpl-2.0': ['mpl2.0', 'mplv2'],
                                        'x11': ['mit-x']}
 _skip_to_check_scancode_licenses = ['proprietary-license']
+additional_columns = []
+printall = False  # Print all values in bom.json
 
 
 def read_installed_pkg_file(installed_pkg_names_file):
@@ -119,7 +121,7 @@ def check_json_validate(bom_file):
 
 
 def read_bom_file(bom_file, buildhistory_latest_pkg_list):
-    global bom_pkg_data
+    global bom_pkg_data, additional_columns
 
     json_array = check_json_validate(bom_file)
     bom_pkg_data = {}
@@ -127,16 +129,19 @@ def read_bom_file(bom_file, buildhistory_latest_pkg_list):
     for item in json_array:
         oss_item = {"package": "", "license": "", "version": "", "source": "", "oss_name": "", "license_flags": "",
                     "src_path": "", "file_path": ""}
-
-        # Set Data
-        if 'src_path' in item:
-            oss_item['src_path'] = item['src_path']
-        oss_item['version'] = item['pv']
-        recipe_name = item['recipe']
-        # oss_item['package'] = recipe_name
+        additional_column = {}
+        recipe_name = item.get('recipe', '')
         oss_item['oss_name'] = recipe_name
+        oss_item['version'] = item.get('pv', '')
+        oss_item['src_path'] = item.get('src_path', '')
 
-        bom_packages = item['packages']
+        if printall:
+            for key, value in item.items():
+                if key not in ['src_path', 'pv', 'recipe', 'packages', 'license_flags', 'license', 'pkg_lic', 'src_uri', 'file_path']:
+                    additional_column[key] = value if value else ''
+                    additional_columns.append(key)
+
+        bom_packages = item.get('packages', '')
         if recipe_name in buildhistory_latest_pkg_list:
             bom_packages += " " + buildhistory_latest_pkg_list[recipe_name]
             bom_packages = bom_packages.strip()
@@ -168,11 +173,13 @@ def read_bom_file(bom_file, buildhistory_latest_pkg_list):
                 oss_item['license'] = recipe_license
                 if bom_pkg_licenses != "":
                     oss_item['license'] = bom_pkg_licenses.get(package, recipe_license)
+                oss_item['additional_data'] = additional_column
                 bom_pkg_data[package] = copy.deepcopy(oss_item)
         # else: # Do not save data for the recipe without packages. (ex- *-native)
         #    bom_pkg_data[recipe_name] = oss_item
     if len(bom_pkg_data) == 0:
         logger.critical("The bom.json file is not json validated.")
+    additional_columns = list(set(additional_columns))
 
 
 def read_file(file_name_with_path, read_as_one_line=False):
@@ -900,7 +907,7 @@ def disconnect_lge_bin_db(conn, cur):
 
 
 def main():
-    global installed_packages_src, installed_packages_bin
+    global installed_packages_src, installed_packages_bin, printall
 
     bom_file = "bom.json"
     installed_pkgs = "installed-package-names.txt"
@@ -931,6 +938,7 @@ def main():
     parser.add_argument('-s', '--source', action='store_true', required=False)
     parser.add_argument('-c', '--complete', action='store_true', required=False)
     parser.add_argument('-e', '--compress', action='store_true', required=False)
+    parser.add_argument('-pr', '--printall', action='store_true', required=False)
 
     args = parser.parse_args()
     if args.help:
@@ -963,6 +971,8 @@ def main():
         _analyze_source_all = True
     if args.compress:
         _compress_source_all = True
+    if args.printall:
+        printall = True
 
     # Output file names
     start_time = datetime.now().strftime('%y%m%d_%H%M')
@@ -1009,7 +1019,7 @@ def main():
         run_source_code_analysis_multiprocessing(_analyze_source_all, output_path, os.path.join(output_path, output_src_analysis_file))
 
     # Write the result to excel file
-    write_result_from_bom(output_file, installed_packages_src, installed_packages_bin, _print_bin_android, output_extension)
+    write_result_from_bom(output_file, installed_packages_src, installed_packages_bin, _print_bin_android, output_extension, additional_columns)
 
     if _compress_source_all:
         try:

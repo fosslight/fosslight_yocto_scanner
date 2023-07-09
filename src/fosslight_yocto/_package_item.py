@@ -31,6 +31,7 @@ class PackageItem(OssItem):
         self._yocto_recipe = []
         self._yocto_package = []
         self.relative_path = ""
+        self.additional_data = {}
 
     def __eq__(self, value):
         return self.spdx_id == value
@@ -171,28 +172,35 @@ class PackageItem(OssItem):
                 self.comment = "License changed to the license registered in OSC System DB."
                 self._declared_licenses = value
 
-    def get_print_item(self, bin_android_format=False):
+    def get_print_item(self, bin_android_format=False, additional_column=[]):
         print_items = []
         license_to_print = self.license
         exclude = EXCLUDE_TRUE_VALUE if self.exclude else ""
         if len(self.declared_licenses) > 0:
             license_to_print = self.declared_licenses
         if bin_android_format:  # BIN(Android) Sheet
-            print_items.append(
-                [self.parent_package_name, self.oss_name, "", self.name, self.version,
-                 ','.join(license_to_print),
-                 self.download_location, self.homepage, self.copyright, exclude, self.comment])
+            row = [self.parent_package_name, self.oss_name, "", self.name, self.version,
+                   ','.join(license_to_print),
+                   self.download_location, self.homepage, self.copyright, exclude, self.comment]
+            for column_name in additional_column:
+                row.append(self.additional_data.get(column_name, ''))
+            print_items.append(row)
         else:
             if len(self.source_name_or_path) > 0:  # BIN Sheet
                 for file in self.source_name_or_path:
-                    print_items.append(
-                        [file, self.name, self.version, ','.join(license_to_print), self.download_location,
-                         self.homepage, self.copyright, exclude, self.comment])
+                    row = [file, self.name, self.version, ','.join(license_to_print), self.download_location,
+                           self.homepage, self.copyright, exclude, self.comment]
+                    for column_name in additional_column:
+                        row.append(self.additional_data.get(column_name, ''))
+                    print_items.append(row)
+
             else:  # SRC Sheet
-                print_items.append(
-                    [self.parent_package_name, self.name, self.version, ','.join(license_to_print),
-                     self.download_location,
-                     self.homepage, self.copyright, exclude, self.comment])
+                row = [self.parent_package_name, self.name, self.version, ','.join(license_to_print),
+                       self.download_location,
+                       self.homepage, self.copyright, exclude, self.comment]
+                for column_name in additional_column:
+                    row.append(self.additional_data.get(column_name, ''))
+                print_items.append(row)
         return print_items
 
 
@@ -242,6 +250,8 @@ def set_value_switch(oss, key, value, nested_pkg_name):
         oss.yocto_package = value
     elif key == 'yocto_recipe':
         oss.yocto_recipe = value
+    elif key == 'additional_data':
+        oss.additional_data = value
 
 
 def update_package_name(oss, value, nested_pkg_name):
