@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.1.20 (11/07/2023)
+## Changes
+## 🔧 Maintenance
+
+- Fix the version of ScanCode @soimkim (#11)
+
+---
+
 ## v3.1.19 (09/07/2023)
 ## Changes
 ## 🚀 Features
