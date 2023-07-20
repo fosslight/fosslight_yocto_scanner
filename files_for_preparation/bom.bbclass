@@ -52,7 +52,10 @@ python do_write_bom_info() {
     jsondata["pr"] = d.getVar("PR", True)
     jsondata["extendprauto"] = d.getVar("EXTENDPRAUTO", True)
     jsondata["extendpkgv"] = d.getVar("EXTENDPKGV", True)
-     
+    jsondata["description"] = d.getVar("DESCRIPTION", True)
+    jsondata["summary"] = d.getVar("SUMMARY", True)
+    jsondata["cve_check_whitelist "] = d.getVar("CVE_CHECK_WHITELIST", True)
+
     datafile = os.path.join(d.getVar("TOPDIR", True), "bom.json")
     lock = bb.utils.lockfile(datafile + '.lock')
     with open(datafile, "a") as f:
