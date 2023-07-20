@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.1.21 (20/07/2023)
+## Changes
+## 🔧 Maintenance
+
+- Add fields that extract from the recipe. @soimkim (#12)
+
+---
+
 ## v3.1.20 (11/07/2023)
 ## Changes
 ## 🔧 Maintenance
