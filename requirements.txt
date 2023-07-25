@@ -1,4 +1,4 @@
-fosslight_util>=1.4.25
+fosslight_util>=1.4.28
 binaryornot
 openpyxl
 pandas
@@ -11,6 +11,6 @@ XlsxWriter
 parmap
 ruamel.yaml
 py-tlsh
-scancode-toolkit==31.2.6
+scancode-toolkit==32.0.6
 tqdm
 fosslight_binary>=4.1.8
