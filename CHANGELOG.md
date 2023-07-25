@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.1.22 (25/07/2023)
+## Changes
+## 🔧 Maintenance
+
+- Update the scacode-toolkit version @dd-jy (#13)
+
+---
+
 ## v3.1.21 (20/07/2023)
 ## Changes
 ## 🔧 Maintenance
