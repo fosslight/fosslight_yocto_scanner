@@ -66,6 +66,8 @@ _map_license_from_yocto_to_scancode = {'proprietary-license': [const_other_propr
 _skip_to_check_scancode_licenses = ['proprietary-license']
 additional_columns = []
 printall = False  # Print all values in bom.json
+OSC_DB_USER = 'user_oss_license'
+OSC_DB_PASSWORD = 'oss_lic123'
 
 
 def read_installed_pkg_file(installed_pkg_names_file):
@@ -449,7 +451,7 @@ def declare_license_by_osc_db():
     # Get OSS's Licenses from DB
     for key, oss_item in oss_info_from_db.items():
         where_condition = " WHERE (OM.OSS_NAME = '{oss_name}' OR NICK.OSS_NICKNAME = '{oss_name}') AND OM.OSS_VERSION = '{oss_version}'".format(
-            oss_name=oss_item['name'], oss_version=oss_item['version'])
+            oss_name=pymysql.escape_string(oss_item['name']), oss_version=pymysql.escape_string(oss_item['version']))
         oss_item['lic_group'], license_info_from_db = select_query_to_db(db_cur, license_info_from_db, where_condition)
     disconnect_lge_bin_db(db_conn, db_cur)
 
@@ -617,7 +619,7 @@ def get_license_query_to_db(license_name):
         sql_query = """SELECT LM.LICENSE_NAME, LICENSE_TYPE FROM LICENSE_MASTER AS LM
         LEFT OUTER JOIN LICENSE_NICKNAME AS LN ON LM.LICENSE_NAME = LN.LICENSE_NAME
         WHERE LM.LICENSE_NAME='{license_name}' OR LM.SHORT_IDENTIFIER = '{license_name}' OR LN.LICENSE_NICKNAME = '{license_name}' """.format(
-            license_name=license_name)
+            license_name=pymysql.escape_string(license_name))
         df_result = get_list_by_using_query(db_cur, sql_query, ["LICENSE_NAME", "LICENSE_TYPE"])
         if df_result is not None and len(df_result) > 0:
             for idx, row in df_result.iterrows():
@@ -855,9 +857,9 @@ def check_oss_exists_in_db(db_cur, name, link):
         LEFT OUTER JOIN OSS_NICKNAME NICK ON OM.OSS_NAME = NICK.OSS_NAME
         LEFT OUTER JOIN OSS_DOWNLOADLOCATION DOWNLOAD ON DOWNLOAD.OSS_ID = OM.OSS_ID
         WHERE OM.OSS_NAME = '{oss_name}' OR NICK.OSS_NICKNAME = '{oss_name}' """.format(
-            oss_name=name)
+            oss_name=pymysql.escape_string(name))
         if link != "":
-            sql_query = f"{sql_query} OR DOWNLOAD.DOWNLOAD_LOCATION='{link}'"
+            sql_query = f"{sql_query} OR DOWNLOAD.DOWNLOAD_LOCATION='{pymysql.escape_string(link)}'"
 
         df_result = get_list_by_using_query(db_cur, sql_query, ["OSS_NAME"])
         if df_result is not None and len(df_result) > 0:  # Exists
@@ -881,8 +883,8 @@ def get_list_by_using_query(cur, sql_query, columns):
 
 
 def connect_to_osc_db():
-    user = 'user_oss_license'
-    password = 'oss_lic123'
+    user = OSC_DB_USER
+    password = OSC_DB_PASSWORD
     host_product = 'osc-db.lge.com'
     dbname = 'osc'
     port = 3306
