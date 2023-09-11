@@ -314,11 +314,21 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
     installed_packages_bin = []
     str_files = []  # string to print binary.txt
     file_list = []
+    success = False
+    PREFIX_BIN_FAILED = "[Binary Analysis Error] "
+
+    if not os.path.isdir(path_to_find):
+        logger.error(f"{PREFIX_BIN_FAILED}Directory not found: {path_to_find}\nPlease check the Path again.")
+        return success
 
     for root, dirs, files in os.walk(path_to_find):
         for file in files:
             file_abs_path = os.path.join(root, file)
             file_list.append(file_abs_path)
+
+    if not file_list:
+        logger.error(f"{PREFIX_BIN_FAILED}Cannot find files in directory: {path_to_find}\nPlease check the Path again.")
+        return success
 
     for file_abs_path in tqdm(file_list):
         try:
@@ -376,10 +386,17 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
                         installed_packages_bin.append(pkg_item)
         except Exception as ex:
             logger.error(f"Get_binary_list: {ex}")
+    if installed_packages_bin:
+        success = True
+    else:
+        logger.error(f"{PREFIX_BIN_FAILED}Binary cannot be found (File Count: {len(file_list)}): {path_to_find}\nPlease check the Path again.")
+        return success
+
     if str_files:
         logger.debug(f"Write binary.txt file: {output_txt}")
         unique_str_files = set(str_files)
         write_txt_file(output_txt, "Binary\tsha1sum\ttlsh\n" + '\n'.join(unique_str_files))
+    return success
 
 
 def check_required_files(bom, installed_pkgs, buildhistory_path):
