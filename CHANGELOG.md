@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.1.23 (11/09/2023)
+## Changes
+## 🔧 Maintenance
+
+- Add error message for -a option @soimkim (#16)
+- Fix the vulnerability @dd-jy (#14)
+
+---
+
 ## v3.1.22 (25/07/2023)
 ## Changes
 ## 🔧 Maintenance
