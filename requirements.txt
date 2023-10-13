@@ -11,6 +11,6 @@ XlsxWriter
 parmap
 ruamel.yaml
 py-tlsh
-scancode-toolkit==32.0.6
 tqdm
 fosslight_binary>=4.1.8
+fosslight_source>=1.7.3
