@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.1.24 (13/10/2023)
+## Changes
+## 🔧 Maintenance
+
+- Replace ScanCode with FOSSLight Source @soimkim (#18)
+- Upgrade Python minimum version to 3.8 @JustinWonjaePark (#17)
+
+---
+
 ## v3.1.23 (11/09/2023)
 ## Changes
 ## 🔧 Maintenance
