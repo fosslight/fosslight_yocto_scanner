@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.1.25 (02/01/2024)
+## Changes
+## 🐛 Hotfixes
+
+- Fix error without attribute @soimkim (#19)
+
+---
+
 ## v3.1.24 (13/10/2023)
 ## Changes
 ## 🔧 Maintenance
