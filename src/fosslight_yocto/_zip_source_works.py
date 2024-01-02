@@ -12,6 +12,8 @@ from fosslight_util.write_txt import write_txt_file
 import stat
 from fosslight_binary.binary_analysis import check_binary
 from tqdm import tqdm
+from ._package_item import PackageItem
+from typing import List
 
 
 logger = logging.getLogger(constant.LOGGER_NAME)
@@ -112,7 +114,7 @@ def zip_compressed_source(output_dir="", total_list=[]):
         logger.info(f"\n* Final compressed file: {final_zip_file}")
 
 
-def collect_source(pkg_list, output_dir):
+def collect_source(pkg_list: List[PackageItem], output_dir: str):
     global source_desc_folder
     if output_dir == "":
         output_dir = os.getcwd()
@@ -136,7 +138,7 @@ def collect_source(pkg_list, output_dir):
     success_list = []
 
     for recipe_name, recipe_item in tqdm(bom_recipe_data.items()):
-        src_uri = recipe_item.download
+        src_uri = recipe_item.download_location
         base_path = recipe_item.file_path
 
         # zip downloaded source codes and located to package_zip folders
