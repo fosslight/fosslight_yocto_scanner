@@ -4,7 +4,6 @@ openpyxl
 pandas
 PyMySQL
 python-dateutil
-python-magic
 PyYAML
 xlrd
 XlsxWriter
