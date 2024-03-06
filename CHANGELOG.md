@@ -1,5 +1,18 @@
 # Changelog
 
+## v3.1.26 (06/03/2024)
+## Changes
+## 🐛 Hotfixes
+
+- Print package information when using the y option @soimkim (#22)
+
+## 🔧 Maintenance
+
+- Remove python-magic from requirements @JustinWonjaePark (#21)
+- Use common github actions @bjk7119 (#20)
+
+---
+
 ## v3.1.25 (02/01/2024)
 ## Changes
 ## 🐛 Hotfixes
