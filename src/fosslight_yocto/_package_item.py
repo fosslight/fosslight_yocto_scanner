@@ -90,6 +90,14 @@ class PackageItem(OssItem):
         self._oss_name = value
 
     @property
+    def name(self):
+        return self._name
+
+    @name.setter
+    def name(self, value):
+        self._name = value
+
+    @property
     def version(self):
         return self._version
 
@@ -178,7 +186,7 @@ class PackageItem(OssItem):
         exclude = EXCLUDE_TRUE_VALUE if self.exclude else ""
         if len(self.declared_licenses) > 0:
             license_to_print = self.declared_licenses
-        if bin_android_format:  # BIN(Android) Sheet
+        if bin_android_format:  # BIN(Yocto) Sheet
             row = [self.parent_package_name, self.oss_name, "", self.name, self.version,
                    ','.join(license_to_print),
                    self.download_location, self.homepage, self.copyright, exclude, self.comment]
