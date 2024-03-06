@@ -10,6 +10,7 @@ from ruamel.yaml.constructor import SafeConstructor
 import os
 from ._package_item import PackageItem, set_value_switch, update_package_name
 from fosslight_util.parsing_yaml import parsing_yml
+from copy import deepcopy
 
 logger = logging.getLogger(constant.LOGGER_NAME)
 KEY_PKG = "yocto_package"
@@ -98,7 +99,7 @@ def load_oss_pkg_info_yaml(oss_pkg_files, print_bin_android_mode, installed_pack
         recipe_names_to_search = oss.yocto_recipe
         pkg_names_to_search = oss.yocto_package
         # Find the item to be excluded by the recipe or package name.
-        pkgs_to_exclude = [x.package_name for x in installed_packages_src if
+        pkgs_to_exclude = [(x.package_name, x.parent_package_name, x.oss_name) for x in installed_packages_src if
                            x.oss_name in recipe_names_to_search or x.name in recipe_names_to_search
                            or x.parent_package_name in pkg_names_to_search or x.package_name in pkg_names_to_search]
 
@@ -117,10 +118,17 @@ def load_oss_pkg_info_yaml(oss_pkg_files, print_bin_android_mode, installed_pack
 
             oss.source_name_or_path = ""  # Don't print file value loaded from yaml file.
             oss.comment = MSG_FROM_YAML_ROW
-            pkg_item_list.append(oss)
+            oss_name_from_yaml = oss.name
+
+            for _, pkg_name, recipe in pkgs_to_exclude:
+                oss.parent_package_name = pkg_name
+                oss.oss_name = recipe
+                oss.name = oss_name_from_yaml
+                pkg_updated = deepcopy(oss)
+                pkg_item_list.append(pkg_updated)
 
     # Exclude packages
-    for pkg_name in all_pkgs_to_exclude:
+    for pkg_name, _, _ in all_pkgs_to_exclude:
         pkg_items = list(filter(lambda x: x.package_name == pkg_name
                                 and x.exclude is False, installed_packages_bin))
         pkg_items += [x for x in installed_packages_src if x.package_name == pkg_name and x.exclude is False]
