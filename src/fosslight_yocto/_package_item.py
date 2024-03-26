@@ -8,6 +8,7 @@ from fosslight_util.oss_item import OssItem
 const_other_proprietary_license = 'other proprietary license'
 EXCLUDE_TRUE_VALUE = "Exclude"
 IGNORE_COPYRIGHT = "NOASSERTION"
+TLSH_CHECKSUM_NULL = "0"
 
 
 class PackageItem(OssItem):
@@ -32,6 +33,8 @@ class PackageItem(OssItem):
         self._yocto_package = []
         self.relative_path = ""
         self.additional_data = {}
+        self.tlsh = TLSH_CHECKSUM_NULL
+        self.checksum = TLSH_CHECKSUM_NULL
 
     def __eq__(self, value):
         return self.spdx_id == value
@@ -188,8 +191,8 @@ class PackageItem(OssItem):
             license_to_print = self.declared_licenses
         if bin_android_format:  # BIN(Yocto) Sheet
             row = [self.parent_package_name, self.oss_name, "", self.name, self.version,
-                   ','.join(license_to_print),
-                   self.download_location, self.homepage, self.copyright, exclude, self.comment]
+                   ','.join(license_to_print), self.download_location, self.homepage,
+                   self.copyright, exclude, self.comment, self.tlsh, self.checksum]
             for column_name in additional_column:
                 row.append(self.additional_data.get(column_name, ''))
             print_items.append(row)
@@ -197,7 +200,7 @@ class PackageItem(OssItem):
             if len(self.source_name_or_path) > 0:  # BIN Sheet
                 for file in self.source_name_or_path:
                     row = [file, self.name, self.version, ','.join(license_to_print), self.download_location,
-                           self.homepage, self.copyright, exclude, self.comment]
+                           self.homepage, self.copyright, exclude, self.comment, self.tlsh, self.checksum]
                     for column_name in additional_column:
                         row.append(self.additional_data.get(column_name, ''))
                     print_items.append(row)
