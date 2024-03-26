@@ -9,6 +9,7 @@ from fosslight_util.output_format import write_output_file
 
 logger = logging.getLogger(constant.LOGGER_NAME)
 OUTPUT_FILE_EXTENSION = ".xlsx"
+HIDDEN_HEADER = ['TLSH', 'SHA1']
 
 
 def write_result_from_bom(out_file_name, installed_packages_src, installed_packages_bin,
@@ -16,13 +17,13 @@ def write_result_from_bom(out_file_name, installed_packages_src, installed_packa
     SHEET_HEADER = {'BIN (Yocto)': ['ID', 'Binary Name', 'Source Code Path',
                                     'NOTICE.html', 'OSS Name', 'OSS Version',
                                     'License', 'Download Location', 'Homepage',
-                                    'Copyright Text', 'Exclude', 'Comment'],
+                                    'Copyright Text', 'Exclude', 'Comment', 'TLSH', 'SHA1'],
                     'SRC': ['ID', 'Source Name or Path', 'OSS Name', 'OSS Version',
                             'License', 'Download Location', 'Homepage', 'Copyright Text',
                             'Exclude', 'Comment'],
                     'BIN': ['ID', 'Binary Name', 'OSS Name', 'OSS Version',
                             'License', 'Download Location', 'Homepage',
-                            'Copyright Text', 'Exclude', 'Comment']}
+                            'Copyright Text', 'Exclude', 'Comment', 'TLSH', 'SHA1']}
     sheet_list = {}
     list_src_to_print = []
     list_bin_to_print = []
@@ -43,7 +44,8 @@ def write_result_from_bom(out_file_name, installed_packages_src, installed_packa
         sheet_list["BIN"] = list_bin_to_print
 
     logger.debug(f"FILE:{out_file_name}{output_extension}")
-    success_to_write, writing_msg, result_file = write_output_file(out_file_name, output_extension, sheet_list, SHEET_HEADER)
+    success_to_write, writing_msg, result_file = write_output_file(out_file_name, output_extension, sheet_list,
+                                                                   SHEET_HEADER, HIDDEN_HEADER)
 
     if success_to_write:
         logger.info(f"Output file :{result_file}")
