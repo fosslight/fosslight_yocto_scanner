@@ -372,6 +372,8 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
                         pkg_item = PackageItem()
                         pkg_item = update_package_name(pkg_item, pkg_name, _nested_pkg_name)
                         pkg_item.source_name_or_path = file_rel_path
+                        pkg_item.tlsh = tlsh
+                        pkg_item.checksum = checksum
                         if pkg_name != "" and pkg_name in bom_pkg_data:
                             for key, value in bom_pkg_data[pkg_name].items():
                                 set_value_switch(pkg_item, key, value, _nested_pkg_name)
