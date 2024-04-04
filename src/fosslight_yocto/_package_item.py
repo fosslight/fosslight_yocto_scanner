@@ -12,6 +12,13 @@ IGNORE_COPYRIGHT = "NOASSERTION"
 TLSH_CHECKSUM_NULL = "0"
 
 
+class FileItem():
+    def __init__(self, file_with_path, tlsh=TLSH_CHECKSUM_NULL, checksum=TLSH_CHECKSUM_NULL):
+        self.source_name_or_path = file_with_path
+        self.tlsh = tlsh
+        self.checksum = checksum
+
+
 class PackageItem(OssItem):
     def __init__(self):
         self.oss_name = ""  # Default Value : Recipe Name
@@ -34,8 +41,6 @@ class PackageItem(OssItem):
         self._yocto_package = []
         self.relative_path = ""
         self.additional_data = {}
-        self.tlsh = TLSH_CHECKSUM_NULL
-        self.checksum = TLSH_CHECKSUM_NULL
 
     def __eq__(self, value):
         return self.spdx_id == value
@@ -184,7 +189,7 @@ class PackageItem(OssItem):
                 self.comment = "License changed to the license registered in OSC System DB."
                 self._declared_licenses = value
 
-    def get_print_item(self, sheet_name=SHEET_NAME_SRC, additional_column=[]):
+    def get_print_item(self, sheet_name=SHEET_NAME_SRC, additional_column=[], binary_list=[]):
         print_items = []
         license_to_print = self.license
         exclude = EXCLUDE_TRUE_VALUE if self.exclude else ""
@@ -200,8 +205,9 @@ class PackageItem(OssItem):
         else:
             if sheet_name == SHEET_NAME_BIN:
                 for file in self.source_name_or_path:
+                    bin = next((n for n in binary_list if n.source_name_or_path == file), FileItem(file, TLSH_CHECKSUM_NULL, TLSH_CHECKSUM_NULL))
                     row = [file, self.name, self.version, ','.join(license_to_print), self.download_location,
-                           self.homepage, self.copyright, exclude, self.comment, self.tlsh, self.checksum]
+                           self.homepage, self.copyright, exclude, self.comment, bin.tlsh, bin.checksum]
                     for column_name in additional_column:
                         row.append(self.additional_data.get(column_name, ''))
                     print_items.append(row)

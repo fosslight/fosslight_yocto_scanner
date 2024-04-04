@@ -14,8 +14,9 @@ SHEET_NAME_SRC = "SRC"
 SHEET_NAME_BIN = "BIN"
 SHEET_NAME_BIN_YOCTO = "BIN (Yocto)"
 
+
 def write_result_from_bom(out_file_name, installed_packages_src, installed_packages_bin,
-                          bin_android_mode=False, output_extension="", additional_column=[]):
+                          bin_android_mode=False, output_extension="", additional_column=[], binary_list=[]):
     SHEET_HEADER = {SHEET_NAME_BIN_YOCTO: ['ID', 'Binary Name', 'Source Code Path',
                                            'NOTICE.html', 'OSS Name', 'OSS Version',
                                            'License', 'Download Location', 'Homepage',
@@ -40,7 +41,7 @@ def write_result_from_bom(out_file_name, installed_packages_src, installed_packa
     sheet_list[src_sheet_name] = list_src_to_print
 
     for scan_item in installed_packages_bin:
-        list_bin_to_print.extend(scan_item.get_print_item(SHEET_NAME_BIN, additional_column))
+        list_bin_to_print.extend(scan_item.get_print_item(SHEET_NAME_BIN, additional_column, binary_list))
 
     if len(list_bin_to_print) > 0:
         sheet_list[SHEET_NAME_BIN] = list_bin_to_print
