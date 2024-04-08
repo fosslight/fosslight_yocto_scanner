@@ -31,20 +31,23 @@ from ._package_item import (
     EXCLUDE_TRUE_VALUE,
     PackageItem,
     set_value_switch,
-    update_package_name)
+    update_package_name,
+    FileItem)
 from ._write_result_file import write_result_from_bom, print_src_analysis_result
 from tqdm import tqdm
 from ._overwrite_yaml import load_oss_pkg_info_yaml
 from fosslight_util.output_format import check_output_format
 import argparse
+from typing import List
 
 logger = logging.getLogger(constant.LOGGER_NAME)
 _PKG_NAME = "fosslight_yocto"
 
 # Global variables
 bom_pkg_data = {}  # Parsed from bom
-installed_packages_src = []  # SRC Sheet
-installed_packages_bin = []  # BIN Sheet
+installed_packages_src = []  # SRC Sheet | BIN (Yocto) Sheet
+installed_packages_bin: List[PackageItem] = []  # BIN Sheet
+binary_list: List[FileItem] = []  # -a option result
 _nested_pkg_name = {}  # Package list created at build time
 like_licenses = ['mit-like license', 'bsd-like license']
 _map_license_from_yocto_to_scancode = {'proprietary-license': [const_other_proprietary_license],
@@ -308,10 +311,9 @@ def get_checksum_and_tlsh(bin_file_full_path):
 
 
 def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
-    global installed_packages_bin
+    global installed_packages_bin, binary_list
     _EXCLUDE_FILE_EXTENSION = ['png', 'gif', 'jpg', 'bmp', 'jpeg', 'qm']
     _EXCLUDE_FILE_COMMAND_RESULT = ['data', 'timezone data']
-    installed_packages_bin = []
     str_files = []  # string to print binary.txt
     file_list = []
     success = False
@@ -362,6 +364,8 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
 
                     checksum, tlsh = get_checksum_and_tlsh(file_abs_path)
                     str_files.append(f"{file_rel_path}\t{checksum}\t{tlsh}")
+                    file_item = FileItem(file_rel_path, tlsh, checksum)
+                    binary_list.append(file_item)
 
                     pkg_items = list(filter(lambda x: x.package_name is pkg_name, installed_packages_bin))
 
@@ -1038,7 +1042,9 @@ def main():
         run_source_code_analysis_multiprocessing(_analyze_source_all, output_path, os.path.join(output_path, output_src_analysis_file))
 
     # Write the result to excel file
-    write_result_from_bom(output_file, installed_packages_src, installed_packages_bin, _print_bin_android, output_extension, additional_columns)
+    write_result_from_bom(output_file, installed_packages_src, installed_packages_bin,
+                          _print_bin_android, output_extension,
+                          additional_columns, binary_list)
 
     if _compress_source_all:
         try:

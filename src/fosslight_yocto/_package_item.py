@@ -4,10 +4,19 @@
 # SPDX-License-Identifier: Apache-2.0
 import re
 from fosslight_util.oss_item import OssItem
+from ._write_result_file import SHEET_NAME_SRC, SHEET_NAME_BIN, SHEET_NAME_BIN_YOCTO
 
 const_other_proprietary_license = 'other proprietary license'
 EXCLUDE_TRUE_VALUE = "Exclude"
 IGNORE_COPYRIGHT = "NOASSERTION"
+TLSH_CHECKSUM_NULL = "0"
+
+
+class FileItem():
+    def __init__(self, file_with_path, tlsh=TLSH_CHECKSUM_NULL, checksum=TLSH_CHECKSUM_NULL):
+        self.source_name_or_path = file_with_path
+        self.tlsh = tlsh
+        self.checksum = checksum
 
 
 class PackageItem(OssItem):
@@ -180,29 +189,30 @@ class PackageItem(OssItem):
                 self.comment = "License changed to the license registered in OSC System DB."
                 self._declared_licenses = value
 
-    def get_print_item(self, bin_android_format=False, additional_column=[]):
+    def get_print_item(self, sheet_name=SHEET_NAME_SRC, additional_column=[], binary_list=[]):
         print_items = []
         license_to_print = self.license
         exclude = EXCLUDE_TRUE_VALUE if self.exclude else ""
         if len(self.declared_licenses) > 0:
             license_to_print = self.declared_licenses
-        if bin_android_format:  # BIN(Yocto) Sheet
+        if sheet_name == SHEET_NAME_BIN_YOCTO:
             row = [self.parent_package_name, self.oss_name, "", self.name, self.version,
-                   ','.join(license_to_print),
-                   self.download_location, self.homepage, self.copyright, exclude, self.comment]
+                   ','.join(license_to_print), self.download_location, self.homepage,
+                   self.copyright, exclude, self.comment]
             for column_name in additional_column:
                 row.append(self.additional_data.get(column_name, ''))
             print_items.append(row)
         else:
-            if len(self.source_name_or_path) > 0:  # BIN Sheet
+            if sheet_name == SHEET_NAME_BIN:
                 for file in self.source_name_or_path:
+                    bin = next((n for n in binary_list if n.source_name_or_path == file), FileItem(file, TLSH_CHECKSUM_NULL, TLSH_CHECKSUM_NULL))
                     row = [file, self.name, self.version, ','.join(license_to_print), self.download_location,
-                           self.homepage, self.copyright, exclude, self.comment]
+                           self.homepage, self.copyright, exclude, self.comment, bin.tlsh, bin.checksum]
                     for column_name in additional_column:
                         row.append(self.additional_data.get(column_name, ''))
                     print_items.append(row)
 
-            else:  # SRC Sheet
+            elif sheet_name == SHEET_NAME_SRC:
                 row = [self.parent_package_name, self.name, self.version, ','.join(license_to_print),
                        self.download_location,
                        self.homepage, self.copyright, exclude, self.comment]
