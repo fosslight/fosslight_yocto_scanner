@@ -225,13 +225,13 @@ def find_latest_pkg_from_buildhistory(path_buildhistory, installed_pkg_version):
                 packages = ""
                 pkg = ""
                 try:
-                    match = re.search('PV(\s)*=(\s)*((\S)+)', file_contents) 
+                    match = re.search(r'PV(\s)*=(\s)*((\S)+)', file_contents)
                     if match:
                         pv = match.group(3)
-                    match = re.search('PR(\s)*=(\s)*((\S)+)', file_contents) 
+                    match = re.search(r'PR(\s)*=(\s)*((\S)+)', file_contents)
                     if match:
                         pr = match.group(3)
-                    match = re.search('PACKAGES(\s)*=(\s)*([^\n]+)', file_contents)
+                    match = re.search(r'PACKAGES(\s)*=(\s)*([^\n]+)', file_contents)
                     if match:
                         packages = match.group(3).strip()
                         for pkg_name in packages.split():
@@ -240,7 +240,7 @@ def find_latest_pkg_from_buildhistory(path_buildhistory, installed_pkg_version):
                                 buildhistory_latest_pkg[recipe_name] += f" {pkg_name}"
                             else:
                                 buildhistory_latest_pkg[recipe_name] = pkg_name
-                    match = re.search('PKG(\s)*=(\s)*([^\n]+)', file_contents)
+                    match = re.search(r'PKG(\s)*=(\s)*([^\n]+)', file_contents)
                     if match:
                         pkg = match.group(3).strip()
                         for pkg_name in pkg.split():
@@ -251,10 +251,8 @@ def find_latest_pkg_from_buildhistory(path_buildhistory, installed_pkg_version):
                                 nested_pkg_name[pkg_name] = recipe_name
                             else:
                                 not_installed_pkg[pkg_name] = recipe_name
-
-
                 except Exception as ex:
-                    logger.debug(f"Failed to parsing latest:{root}")
+                    logger.debug(f"Failed to parsing latest_{root}:{ex}")
     for pkg in not_installed_pkg.keys():
         if pkg not in nested_pkg_name:
             nested_pkg_name[pkg] = not_installed_pkg[pkg]
@@ -443,7 +441,7 @@ def check_required_files(bom, installed_pkgs, buildhistory_path, installed_pkgs_
     if not os.path.isdir(buildhistory_path) or buildhistory_path == "":
         error_msg = "-p path/to/buildhistory\n"
     if not os.path.isfile(installed_pkgs_version):
-        error_msg = f"-ip installed-packages.txt\n"
+        error_msg = "-ip installed-packages.txt\n"
 
     if error_msg != "":
         exit_with_error_msg("Check Arguments\n" + error_msg, os.EX_NOINPUT)
