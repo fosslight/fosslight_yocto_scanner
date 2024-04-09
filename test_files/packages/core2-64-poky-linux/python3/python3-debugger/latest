@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = python3-core python3-pprint python3-shell python3-stringold
-RRECOMMENDS = 
-PKGSIZE = 287702
-FILES = /usr/lib/python3.8/bdb.py /usr/lib/python3.8/pdb.py /usr/lib/python3.8/__pycache__/bdb.*.pyc /usr/lib/python3.8/__pycache__/pdb.*.pyc
-FILELIST = /usr/lib/python3.8/__pycache__/bdb.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/bdb.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/bdb.cpython-38.pyc /usr/lib/python3.8/__pycache__/pdb.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/pdb.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/pdb.cpython-38.pyc /usr/lib/python3.8/bdb.py /usr/lib/python3.8/pdb.py

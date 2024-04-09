@@ -1,0 +1,5 @@
+PV = 2.1.0
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = yajl-dbg yajl-staticdev yajl-dev yajl-doc yajl-locale yajl-bin yajl
+LAYER = openembedded-layer

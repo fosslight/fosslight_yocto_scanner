@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-config perl-module-constant perl-module-corelist perl-module-exporter perl-module-filehandle perl-module-load perl-module-locale-maketext-simple perl-module-params-check perl-module-strict perl-module-vars perl-module-version perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 28258
-FILES = /usr/lib/perl5/5.30.2/Module/Load.pm /usr/lib/perl5/5.30.2/Module/Load/Conditional.pm
-FILELIST = /usr/lib/perl5/5.30.2/Module/Load.pm /usr/lib/perl5/5.30.2/Module/Load/Conditional.pm

@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = iso-codes-locale ku-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ku
+PKGSIZE = 25177
+FILES = /usr/share/locale/ku
+FILELIST = /usr/share/locale/ku/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/ku/LC_MESSAGES/iso_3166-3.mo /usr/share/locale/ku/LC_MESSAGES/iso_3166.mo

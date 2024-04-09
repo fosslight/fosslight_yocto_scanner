@@ -1,0 +1,5 @@
+PV = 1.16
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = tslib-conf tslib-tests tslib-calibrate tslib-uinput tslib-dbg tslib-staticdev tslib-dev tslib-doc tslib-locale tslib
+LAYER = openembedded-layer

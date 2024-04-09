@@ -1,8 +1,0 @@
-PV = 3.7
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 1670000
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/cmp.diffutils /usr/bin/.debug/diff.diffutils /usr/bin/.debug/diff3 /usr/bin/.debug/sdiff

@@ -1,0 +1,9 @@
+PV = 1.0.0-2
+PR = r1
+PKG = libpdm-plugin-dbg
+RPROVIDES = pdm-plugin-dbg (=1.0.0-2)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg
+PKGSIZE = 121716
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libpdm-plugin.so.1.0.0 /usr/src/debug/pdm-plugin/1.0.0-2-r1/git/src/RefPlugIn/PdmRefPlugInImpl.cpp /usr/src/debug/pdm-plugin/1.0.0-2-r1/git/src/RefPlugIn/PdmRefPlugInImpl.h /usr/src/debug/pdm-plugin/1.0.0-2-r1/git/src/common/IObserver.h /usr/src/debug/pdm-plugin/1.0.0-2-r1/git/src/common/PdmPlugInLog.cpp /usr/src/debug/pdm-plugin/1.0.0-2-r1/git/src/common/PdmPlugInLog.h /usr/src/debug/pdm-plugin/1.0.0-2-r1/git/src/common/PlugInSubject.cpp /usr/src/debug/pdm-plugin/1.0.0-2-r1/git/src/common/PlugInSubject.h

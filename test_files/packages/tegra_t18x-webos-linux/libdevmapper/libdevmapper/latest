@@ -1,0 +1,8 @@
+PV = 2.02.180
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libudev (>= 239) thin-provisioning-tools
+RRECOMMENDS = lvm2-udevrules
+PKGSIZE = 608615
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libdevmapper /usr/lib/libdevmapper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libdevmapper.so.1.02 /usr/sbin/dmsetup /usr/sbin/dmstats

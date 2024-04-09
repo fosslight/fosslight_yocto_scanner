@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = iso-codes-locale son-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-son
+PKGSIZE = 9445
+FILES = /usr/share/locale/son
+FILELIST = /usr/share/locale/son/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/son/LC_MESSAGES/iso_3166.mo

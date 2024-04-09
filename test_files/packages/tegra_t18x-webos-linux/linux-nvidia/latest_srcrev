@@ -1,0 +1,8 @@
+# SRCREV = "fb9982d8463fda87264305c8b5ac38f7dded9f5b"
+SRCREV_kernel = "fb9982d8463fda87264305c8b5ac38f7dded9f5b"
+# SRCREV_nvidia = "4b9e5ab59755f5e7b4c5808a8aacc4c146b96b68"
+SRCREV_nvidia = "4b9e5ab59755f5e7b4c5808a8aacc4c146b96b68"
+# SRCREV_hardware = "9d25edb40451e2fe5bfebd760298320fba4bf1ae"
+SRCREV_hardware = "9d25edb40451e2fe5bfebd760298320fba4bf1ae"
+# SRCREV_nvgpu = "fb4975feb5609755d64916254a45753dd9c19677"
+SRCREV_nvgpu = "fb4975feb5609755d64916254a45753dd9c19677"

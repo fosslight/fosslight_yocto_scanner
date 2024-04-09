@@ -1,0 +1,8 @@
+PV = 1.6.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) iptables (>= 1.6.2)
+RRECOMMENDS = 
+PKGSIZE = 67952
+FILES = /usr/lib/xtables/libipt_LOG.so
+FILELIST = /usr/lib/xtables/libipt_LOG.so

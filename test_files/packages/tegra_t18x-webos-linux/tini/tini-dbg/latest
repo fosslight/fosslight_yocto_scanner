@@ -1,0 +1,8 @@
+PV = 0.18.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 4595917
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/docker-init /usr/src/debug/tini/0.18.0-r0/git/src/tini.c /usr/src/debug/tini/0.18.0-r0/git/src/tiniLicense.h

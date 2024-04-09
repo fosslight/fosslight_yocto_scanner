@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-i18n-langtags perl-module-i18n-langtags-detect perl-module-integer perl-module-strict
-RRECOMMENDS = 
-PKGSIZE = 30385
-FILES = /usr/lib/perl5/5.30.2/Locale/Maketext.pm
-FILELIST = /usr/lib/perl5/5.30.2/Locale/Maketext.pm

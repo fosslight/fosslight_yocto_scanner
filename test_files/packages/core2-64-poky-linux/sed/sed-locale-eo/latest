@@ -1,8 +1,0 @@
-PV = 4.8
-PR = r0
-RPROVIDES = eo-translation sed-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-eo
-PKGSIZE = 15423
-FILES = /usr/share/locale/eo
-FILELIST = /usr/share/locale/eo/LC_MESSAGES/sed.mo

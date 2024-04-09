@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-ghash-ce
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 7992
+FILES = /lib/modules/4.9.140-tegra/kernel/arch/arm64/crypto/ghash-ce.ko /etc/modules-load.d/ghash-ce.conf /etc/modprobe.d/ghash-ce.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/arch/arm64/crypto/ghash-ce.ko

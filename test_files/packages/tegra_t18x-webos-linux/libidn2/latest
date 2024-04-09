@@ -1,0 +1,5 @@
+PV = 2.0.5
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native gtk-doc-native icecc-create-env-native libtool-cross libtool-native libunistring pkgconfig-native python3-native texinfo-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/libiconv
+PACKAGES = libidn2-dbg libidn2-staticdev libidn2-dev libidn2-doc libidn2-bin libidn2 libidn2-locale-cs libidn2-locale-da libidn2-locale-de libidn2-locale-eo libidn2-locale-es libidn2-locale-fi libidn2-locale-fr libidn2-locale-fur libidn2-locale-hr libidn2-locale-hu libidn2-locale-id libidn2-locale-it libidn2-locale-ja libidn2-locale-nl libidn2-locale-pl libidn2-locale-pt-br libidn2-locale-ro libidn2-locale-sr libidn2-locale-sv libidn2-locale-uk libidn2-locale-vi libidn2-locale-zh-cn
+LAYER = core

@@ -1,0 +1,8 @@
+PV = 0.0.10
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 76966
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libsocketcan.so.2.2.1 /usr/src/debug/libsocketcan/0.0.10-r0/git/include/can_netlink.h /usr/src/debug/libsocketcan/0.0.10-r0/git/src/libsocketcan.c

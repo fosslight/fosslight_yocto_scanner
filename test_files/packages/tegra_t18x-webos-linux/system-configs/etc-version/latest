@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 36
+FILES = /etc/nvidia/version-linux.txt /etc/nvidia/version-foundation.txt
+FILELIST = /etc/nvidia/version-foundation.txt /etc/nvidia/version-linux.txt

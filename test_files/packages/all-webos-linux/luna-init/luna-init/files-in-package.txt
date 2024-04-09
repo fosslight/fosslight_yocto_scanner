@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/palm
+-rw-r--r-- root       root             1988 ./etc/palm/defaultPreferences.txt
+-rw-r--r-- root       root            31456 ./etc/palm/locale.txt
+-rwx------ root       root            13348 ./etc/palm/region.json
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/palm
+drwxr-xr-x root       root             4096 ./usr/palm/apollo
+-rw-r--r-- root       root             1956 ./usr/palm/apollo/defaultPreferences.txt
+-rw-r--r-- root       root             8802 ./usr/palm/command-resource-handlers.json
+-rw-r--r-- root       root              233 ./usr/palm/default-dock-positions.json
+-rw-r--r-- root       root             1988 ./usr/palm/defaultPreferences.txt
+-rw------- root       root            72125 ./usr/palm/ext-timezones.json
+-rw-r--r-- root       root            31456 ./usr/palm/locale.txt
+drwxr-xr-x root       root             4096 ./usr/palm/signage
+-rw-r--r-- root       root             1891 ./usr/palm/signage/defaultPreferences.txt

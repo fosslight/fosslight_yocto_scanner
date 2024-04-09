@@ -1,0 +1,8 @@
+PV = 5.24.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-parent perl-module-pod-text perl-module-strict perl-module-vars perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 2266
+FILES = /usr/lib/perl/5.24.4/Pod/Perldoc/ToText.pm
+FILELIST = /usr/lib/perl/5.24.4/Pod/Perldoc/ToText.pm

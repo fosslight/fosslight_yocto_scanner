@@ -1,0 +1,5 @@
+PV = 1.2.11+git836bfd95fecc0f1511dd66bdbf2b5b61ab8b00b6
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = go-fsnotify-dbg go-fsnotify-staticdev go-fsnotify-dev go-fsnotify-doc go-fsnotify-locale go-fsnotify
+LAYER = virtualization-layer

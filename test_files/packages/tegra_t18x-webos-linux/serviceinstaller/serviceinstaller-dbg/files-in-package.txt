@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/serviceinstaller
+drwxr-xr-x root       root             4096 ./usr/src/debug/serviceinstaller/2.0.0-1-r3
+drwxr-xr-x root       root             4096 ./usr/src/debug/serviceinstaller/2.0.0-1-r3/git
+drwxr-xr-x root       root             4096 ./usr/src/debug/serviceinstaller/2.0.0-1-r3/git/include
+drwxr-xr-x root       root             4096 ./usr/src/debug/serviceinstaller/2.0.0-1-r3/git/include/public
+-rwxr-xr-x root       root             1433 ./usr/src/debug/serviceinstaller/2.0.0-1-r3/git/include/public/serviceinstall.h
+-rw-r--r-- root       root             6472 ./usr/src/debug/serviceinstaller/2.0.0-1-r3/git/serviceinstall.cpp

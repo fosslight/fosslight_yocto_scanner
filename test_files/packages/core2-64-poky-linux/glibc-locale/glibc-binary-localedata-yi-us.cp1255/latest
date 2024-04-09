@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 322404
-FILES = /usr/lib/locale/yi_US.CP1255
-FILELIST = /usr/lib/locale/yi_US.CP1255/LC_ADDRESS /usr/lib/locale/yi_US.CP1255/LC_COLLATE /usr/lib/locale/yi_US.CP1255/LC_CTYPE /usr/lib/locale/yi_US.CP1255/LC_IDENTIFICATION /usr/lib/locale/yi_US.CP1255/LC_MEASUREMENT /usr/lib/locale/yi_US.CP1255/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/yi_US.CP1255/LC_MONETARY /usr/lib/locale/yi_US.CP1255/LC_NAME /usr/lib/locale/yi_US.CP1255/LC_NUMERIC /usr/lib/locale/yi_US.CP1255/LC_PAPER /usr/lib/locale/yi_US.CP1255/LC_TELEPHONE /usr/lib/locale/yi_US.CP1255/LC_TIME

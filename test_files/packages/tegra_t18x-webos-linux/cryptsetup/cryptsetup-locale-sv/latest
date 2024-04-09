@@ -1,0 +1,8 @@
+PV = 2.0.4
+PR = r0
+RPROVIDES = cryptsetup-locale sv-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sv
+PKGSIZE = 27975
+FILES = /usr/share/locale/sv
+FILELIST = /usr/share/locale/sv/LC_MESSAGES/cryptsetup.mo

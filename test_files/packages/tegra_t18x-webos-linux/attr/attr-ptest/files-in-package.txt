@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/attr
+drwxr-xr-x root       root             4096 ./usr/lib/attr/ptest
+drwxr-xr-x root       root             4096 ./usr/lib/attr/ptest/include
+-rw-r--r-- root       root             3015 ./usr/lib/attr/ptest/include/builddefs
+-rw-r--r-- root       root             5342 ./usr/lib/attr/ptest/include/buildmacros
+-rw-r--r-- root       root             2452 ./usr/lib/attr/ptest/include/buildrules
+-rwxr-xr-x root       root              136 ./usr/lib/attr/ptest/run-ptest
+drwxr-xr-x root       root             4096 ./usr/lib/attr/ptest/test
+-rw-r--r-- root       root             6744 ./usr/lib/attr/ptest/test/attr.test
+-rw-r--r-- root       root             1464 ./usr/lib/attr/ptest/test/Makefile
+-rw-r--r-- root       root              489 ./usr/lib/attr/ptest/test/README
+drwxr-xr-x root       root             4096 ./usr/lib/attr/ptest/test/root
+-rw-r--r-- root       root             2072 ./usr/lib/attr/ptest/test/root/getfattr.test
+-rwxr-xr-x root       root             9178 ./usr/lib/attr/ptest/test/run
+-rwxr-xr-x root       root               83 ./usr/lib/attr/ptest/test/sort-getfattr-output

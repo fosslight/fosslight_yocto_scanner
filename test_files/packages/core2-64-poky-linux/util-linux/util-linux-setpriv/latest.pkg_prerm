@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  setpriv /usr/bin/setpriv.util-linux

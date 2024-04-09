@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  rev /usr/bin/rev.util-linux

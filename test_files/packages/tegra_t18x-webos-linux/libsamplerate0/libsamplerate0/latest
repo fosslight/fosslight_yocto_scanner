@@ -1,0 +1,8 @@
+PV = 0.1.9
+PR = r1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libsndfile1 (>= 1.0.28)
+RRECOMMENDS = 
+PKGSIZE = 1577246
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libsamplerate0 /usr/lib/libsamplerate0/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/sndfile-resample /usr/lib/libsamplerate.so.0 /usr/lib/libsamplerate.so.0.1.8

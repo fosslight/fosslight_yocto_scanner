@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-snd
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-soundcore-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 110264
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/sound/core/snd.ko /etc/modules-load.d/snd.conf /etc/modprobe.d/snd.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/sound/core/snd.ko

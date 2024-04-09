@@ -1,0 +1,5 @@
+PV = 3.2.5
+PR = r5
+DEPENDS = enact-dev-native
+PACKAGES = enact-framework-dbg enact-framework-staticdev enact-framework-dev enact-framework-doc enact-framework-locale enact-framework
+LAYER = meta-webos

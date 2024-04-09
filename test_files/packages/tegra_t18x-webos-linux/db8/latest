@@ -1,0 +1,5 @@
+PV = 3.2.0-8
+PR = r33
+DEPENDS = boost cmake-modules-webos-native cmake-native curl glib-2.0 gtest icecc-create-env-native icu jemalloc leveldb leveldb-tl luna-service2 ninja-native pkgconfig-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = db8-tests db8-dbg db8-staticdev db8-dev db8-doc db8-locale db8
+LAYER = meta-webos

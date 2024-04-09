@@ -1,0 +1,9 @@
+PV = 2017.75
+PR = r0
+PKGR = r0webos7
+RPROVIDES = ssh sshd
+RDEPENDS = dhcp-client glibc (>= 2.28) update-alternatives-opkg zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 334089
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dropbear /usr/lib/dropbear/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib /etc/systemd/system/dropbear.socket /etc/systemd/system/dropbear.service
+FILELIST = /etc/systemd/system/dropbear.service /etc/systemd/system/dropbear.socket /lib/systemd/system/dropbear.socket /lib/systemd/system/dropbear@.service /lib/systemd/system/dropbearkey.service /usr/bin/dbclient /usr/sbin/dropbear /usr/sbin/dropbearconvert /usr/sbin/dropbearkey /usr/sbin/dropbearmulti

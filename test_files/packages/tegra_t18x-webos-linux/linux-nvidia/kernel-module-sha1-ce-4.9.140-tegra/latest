@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-sha1-ce
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 9600
+FILES = /lib/modules/4.9.140-tegra/kernel/arch/arm64/crypto/sha1-ce.ko /etc/modules-load.d/sha1-ce.conf /etc/modprobe.d/sha1-ce.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/arch/arm64/crypto/sha1-ce.ko

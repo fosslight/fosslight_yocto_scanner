@@ -1,8 +1,0 @@
-PV = 3.3.16
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg ncurses-libncurses-dbg ncurses-libtinfo-dbg
-PKGSIZE = 1878040
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /bin/.debug/kill.procps /bin/.debug/pidof.procps /bin/.debug/ps.procps /bin/.debug/watch.procps /sbin/.debug/sysctl.procps /usr/bin/.debug/free.procps /usr/bin/.debug/pgrep.procps /usr/bin/.debug/pkill.procps /usr/bin/.debug/pmap.procps /usr/bin/.debug/pwdx.procps /usr/bin/.debug/skill.procps /usr/bin/.debug/slabtop /usr/bin/.debug/snice.procps /usr/bin/.debug/tload /usr/bin/.debug/top.procps /usr/bin/.debug/uptime.procps /usr/bin/.debug/vmstat /usr/bin/.debug/w.procps /usr/lib/.debug/libprocps.so.8.0.2

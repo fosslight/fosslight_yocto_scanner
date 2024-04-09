@@ -1,0 +1,8 @@
+PV = 1.0.2-35
+PR = r32
+RPROVIDES = 
+RDEPENDS = wam-dev (= 1.0.2-35-r32)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/wam/*.a
+FILELIST = 

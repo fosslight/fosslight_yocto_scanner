@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = python3-asyncio python3-compression python3-core python3-debugger python3-difflib python3-io python3-logging python3-netclient python3-numbers python3-pprint python3-shell python3-stringold python3-typing python3-unittest
-RRECOMMENDS = 
-PKGSIZE = 296044
-FILES = /usr/lib/python3.8/doctest.py /usr/lib/python3.8/__pycache__/doctest.*.pyc
-FILELIST = /usr/lib/python3.8/__pycache__/doctest.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/doctest.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/doctest.cpython-38.pyc /usr/lib/python3.8/doctest.py

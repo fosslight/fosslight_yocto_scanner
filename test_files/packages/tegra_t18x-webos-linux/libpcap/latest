@@ -1,0 +1,5 @@
+PV = 1.9.1
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native bluez5 flex-native gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libpcap-dbg libpcap-staticdev libpcap-dev libpcap-doc libpcap-locale libpcap
+LAYER = coconut-layer

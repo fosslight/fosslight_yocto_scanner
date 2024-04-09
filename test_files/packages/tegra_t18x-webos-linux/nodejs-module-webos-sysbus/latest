@@ -1,0 +1,5 @@
+PV = 3.0.1-2
+PR = r10
+DEPENDS = glib-2.0 icecc-create-env-native luna-service2 node-gyp-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = nodejs-module-webos-sysbus-dbg nodejs-module-webos-sysbus-staticdev nodejs-module-webos-sysbus-dev nodejs-module-webos-sysbus-doc nodejs-module-webos-sysbus-locale nodejs-module-webos-sysbus
+LAYER = meta-webos

@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root           140176 ./usr/bin/mpg123
+-rwxr-xr-x root       root            68128 ./usr/bin/mpg123-id3dump
+-rwxr-xr-x root       root            68016 ./usr/bin/mpg123-strip
+-rwxr-xr-x root       root            69704 ./usr/bin/out123
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           265968 ./usr/lib/libmpg123.so.0.44.8
+lrwxrwxrwx root       root               19 ./usr/lib/libmpg123.so.0 -> libmpg123.so.0.44.8
+-rwxr-xr-x root       root            67760 ./usr/lib/libout123.so.0.2.2
+lrwxrwxrwx root       root               18 ./usr/lib/libout123.so.0 -> libout123.so.0.2.2
+drwxr-xr-x root       root             4096 ./usr/lib/mpg123
+-rwxr-xr-x root       root            67720 ./usr/lib/mpg123/output_dummy.so
+-rwxr-xr-x root       root            67720 ./usr/lib/mpg123/output_pulse.so

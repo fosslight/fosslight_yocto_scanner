@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/bash-completion
+drwxr-xr-x root       root             4096 ./usr/share/bash-completion/completions
+-rw-r--r-- root       root             2599 ./usr/share/bash-completion/completions/gst-inspect-1.0
+-rw-r--r-- root       root             3484 ./usr/share/bash-completion/completions/gst-launch-1.0
+drwxr-xr-x root       root             4096 ./usr/share/bash-completion/helpers
+-rw-r--r-- root       root             1785 ./usr/share/bash-completion/helpers/gst

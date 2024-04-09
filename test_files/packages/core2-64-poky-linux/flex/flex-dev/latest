@@ -1,8 +1,0 @@
-PV = 2.6.4
-PR = r0
-RPROVIDES = 
-RDEPENDS = flex (= 2.6.4-r0) flex-libfl
-RRECOMMENDS = bash-dev flex-libfl-dev gawk-dev glibc-dev libgcc-dev libstdc++-dev m4-dev make-dev
-PKGSIZE = 6907
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/flex/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/FlexLexer.h /usr/lib/libfl.so

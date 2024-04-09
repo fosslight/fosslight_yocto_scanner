@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/leveldb
+-rw-r--r-- root       root             4024 ./usr/include/leveldb/any_db.hpp
+-rw-r--r-- root       root             2178 ./usr/include/leveldb/bottom_db.hpp
+-rw-r--r-- root       root             7580 ./usr/include/leveldb/cover_walker.hpp
+-rw-r--r-- root       root             5475 ./usr/include/leveldb/memory_db.hpp
+-rw-r--r-- root       root             1909 ./usr/include/leveldb/ref_db.hpp
+-rw-r--r-- root       root             7642 ./usr/include/leveldb/sandwich_db.hpp
+-rw-r--r-- root       root             7166 ./usr/include/leveldb/sequence.hpp
+-rw-r--r-- root       root             4490 ./usr/include/leveldb/subtract_walker.hpp
+-rw-r--r-- root       root             4699 ./usr/include/leveldb/txn_db.hpp
+-rw-r--r-- root       root             1062 ./usr/include/leveldb/walker.hpp
+-rw-r--r-- root       root             3974 ./usr/include/leveldb/whiteout_db.hpp

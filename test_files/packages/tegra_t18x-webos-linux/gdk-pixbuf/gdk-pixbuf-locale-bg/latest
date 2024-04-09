@@ -1,0 +1,9 @@
+PV = 2.36.11
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-bg
+RPROVIDES = bg-translation gdk-pixbuf-locale gdk-pixbuf-locale-bg (=2.36.11)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-bg
+PKGSIZE = 32679
+FILES = /usr/share/locale/bg
+FILELIST = /usr/share/locale/bg/LC_MESSAGES/gdk-pixbuf.mo

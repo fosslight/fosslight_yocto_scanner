@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 19712
+FILES = /lib/firmware/tegra18x/vic04_ucode.bin
+FILELIST = /lib/firmware/tegra18x/vic04_ucode.bin

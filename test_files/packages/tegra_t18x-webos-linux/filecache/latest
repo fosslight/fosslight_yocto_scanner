@@ -1,0 +1,5 @@
+PV = 2.0.1-2
+PR = r4
+DEPENDS = boost cmake-modules-webos-native cmake-native db8 glib-2.0 glibmm icecc-create-env-native jemalloc libsandbox libsigc++-2.0 luna-service2 ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = filecache-dbg filecache-staticdev filecache-dev filecache-doc filecache-locale filecache
+LAYER = meta-webos

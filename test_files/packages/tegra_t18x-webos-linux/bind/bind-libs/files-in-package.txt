@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67776 ./usr/lib/libbind9.so.161.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libbind9.so.161 -> libbind9.so.161.0.0
+-rwxr-xr-x root       root          2182192 ./usr/lib/libdns.so.1104.0.2
+lrwxrwxrwx root       root               18 ./usr/lib/libdns.so.1104 -> libdns.so.1104.0.2
+-rwxr-xr-x root       root            67776 ./usr/lib/libirs.so.161.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libirs.so.161 -> libirs.so.161.0.0
+-rwxr-xr-x root       root            68024 ./usr/lib/libisccc.so.161.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libisccc.so.161 -> libisccc.so.161.0.0
+-rwxr-xr-x root       root           223592 ./usr/lib/libisccfg.so.163.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libisccfg.so.163 -> libisccfg.so.163.0.0
+-rwxr-xr-x root       root           528912 ./usr/lib/libisc.so.1100.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libisc.so.1100 -> libisc.so.1100.0.0
+-rwxr-xr-x root       root           133328 ./usr/lib/liblwres.so.161.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/liblwres.so.161 -> liblwres.so.161.0.0

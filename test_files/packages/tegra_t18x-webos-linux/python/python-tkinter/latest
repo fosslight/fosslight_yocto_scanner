@@ -1,0 +1,8 @@
+PV = 2.7.16
+PR = r1
+RPROVIDES = 
+RDEPENDS = python-core
+RRECOMMENDS = 
+PKGSIZE = 1074099
+FILES = /usr/lib/python2.7/lib-tk
+FILELIST = /usr/lib/python2.7/lib-tk/Canvas.py /usr/lib/python2.7/lib-tk/Canvas.pyc /usr/lib/python2.7/lib-tk/Dialog.py /usr/lib/python2.7/lib-tk/Dialog.pyc /usr/lib/python2.7/lib-tk/FileDialog.py /usr/lib/python2.7/lib-tk/FileDialog.pyc /usr/lib/python2.7/lib-tk/FixTk.py /usr/lib/python2.7/lib-tk/FixTk.pyc /usr/lib/python2.7/lib-tk/ScrolledText.py /usr/lib/python2.7/lib-tk/ScrolledText.pyc /usr/lib/python2.7/lib-tk/SimpleDialog.py /usr/lib/python2.7/lib-tk/SimpleDialog.pyc /usr/lib/python2.7/lib-tk/Tix.py /usr/lib/python2.7/lib-tk/Tix.pyc /usr/lib/python2.7/lib-tk/Tkconstants.py /usr/lib/python2.7/lib-tk/Tkconstants.pyc /usr/lib/python2.7/lib-tk/Tkdnd.py /usr/lib/python2.7/lib-tk/Tkdnd.pyc /usr/lib/python2.7/lib-tk/Tkinter.py /usr/lib/python2.7/lib-tk/Tkinter.pyc /usr/lib/python2.7/lib-tk/tkColorChooser.py /usr/lib/python2.7/lib-tk/tkColorChooser.pyc /usr/lib/python2.7/lib-tk/tkCommonDialog.py /usr/lib/python2.7/lib-tk/tkCommonDialog.pyc /usr/lib/python2.7/lib-tk/tkFileDialog.py /usr/lib/python2.7/lib-tk/tkFileDialog.pyc /usr/lib/python2.7/lib-tk/tkFont.py /usr/lib/python2.7/lib-tk/tkFont.pyc /usr/lib/python2.7/lib-tk/tkMessageBox.py /usr/lib/python2.7/lib-tk/tkMessageBox.pyc /usr/lib/python2.7/lib-tk/tkSimpleDialog.py /usr/lib/python2.7/lib-tk/tkSimpleDialog.pyc /usr/lib/python2.7/lib-tk/ttk.py /usr/lib/python2.7/lib-tk/ttk.pyc /usr/lib/python2.7/lib-tk/turtle.py /usr/lib/python2.7/lib-tk/turtle.pyc

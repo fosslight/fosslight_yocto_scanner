@@ -1,8 +1,0 @@
-PV = 2020.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/lib/xorgproto /usr/lib/xorgproto/* /usr/lib/pixmaps /usr/lib/applications /usr/lib/idl /usr/lib/omf /usr/lib/sounds /usr/lib/bonobo/servers
-FILELIST = 

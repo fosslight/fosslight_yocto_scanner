@@ -1,8 +1,0 @@
-PV = 2.34
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/info/as.info /usr/share/info/bfd.info /usr/share/info/binutils.info /usr/share/info/gprof.info /usr/share/info/ld.info /usr/share/man/man1/x86_64-poky-linux-addr2line.1 /usr/share/man/man1/x86_64-poky-linux-ar.1 /usr/share/man/man1/x86_64-poky-linux-as.1 /usr/share/man/man1/x86_64-poky-linux-c++filt.1 /usr/share/man/man1/x86_64-poky-linux-dlltool.1 /usr/share/man/man1/x86_64-poky-linux-elfedit.1 /usr/share/man/man1/x86_64-poky-linux-gprof.1 /usr/share/man/man1/x86_64-poky-linux-ld.1 /usr/share/man/man1/x86_64-poky-linux-nm.1 /usr/share/man/man1/x86_64-poky-linux-objcopy.1 /usr/share/man/man1/x86_64-poky-linux-objdump.1 /usr/share/man/man1/x86_64-poky-linux-ranlib.1 /usr/share/man/man1/x86_64-poky-linux-readelf.1 /usr/share/man/man1/x86_64-poky-linux-size.1 /usr/share/man/man1/x86_64-poky-linux-strings.1 /usr/share/man/man1/x86_64-poky-linux-strip.1 /usr/share/man/man1/x86_64-poky-linux-windmc.1 /usr/share/man/man1/x86_64-poky-linux-windres.1

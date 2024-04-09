@@ -1,0 +1,8 @@
+PV = 2.62.3
+PR = r0
+RPROVIDES = bs-translation libsoup-2.4-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-bs
+PKGSIZE = 2619
+FILES = /usr/share/locale/bs
+FILELIST = /usr/share/locale/bs/LC_MESSAGES/libsoup.mo

@@ -1,9 +1,0 @@
-PE = 1
-PV = 1.3.4
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg libx11-dbg
-PKGSIZE = 607096
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libXext.so.6.4.0

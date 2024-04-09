@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = avtp-drivers (= 1.0-r0-lg1)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 23010
+FILES = /usr/include/nvavtp.h
+FILELIST = /usr/include/nvavtp.h

@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           396456 ./usr/sbin/webos-connman-adapter
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/api-permissions.d
+-rw-r--r-- root       root             3575 ./usr/share/luna-service2/api-permissions.d/webos-connman-adapter.api.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/client-permissions.d
+-rw-r--r-- root       root              232 ./usr/share/luna-service2/client-permissions.d/webos-connman-adapter.perm.json
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/manifests.d
+-rw-rw-r-- root       root              513 ./usr/share/luna-service2/manifests.d/webos-connman-adapter.manifest.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/roles.d
+-rw-r--r-- root       root              809 ./usr/share/luna-service2/roles.d/webos-connman-adapter.role.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/services.d
+-rw-r--r-- root       root              130 ./usr/share/luna-service2/services.d/webos-connman-adapter.service

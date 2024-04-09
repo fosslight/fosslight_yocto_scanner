@@ -1,0 +1,9 @@
+PV = 1.42
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = sg3-utils-dev (= 1.42-r0webos2)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/sg3-utils/*.a
+FILELIST = 

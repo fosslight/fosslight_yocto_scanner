@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2998
-FILES = /usr/share/i18n/charmaps/ECMA-CYRILLIC.gz
-FILELIST = /usr/share/i18n/charmaps/ECMA-CYRILLIC.gz

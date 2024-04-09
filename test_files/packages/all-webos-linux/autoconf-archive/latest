@@ -1,0 +1,5 @@
+PV = 2018.03.13
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-native
+PACKAGES = autoconf-archive autoconf-archive-doc
+LAYER = core

@@ -1,0 +1,5 @@
+PV = 111
+PR = r1
+DEPENDS = autoconf-native automake-native glib-2.0-native gnu-config-native icecc-create-env-native intltool-native keyutils libgcrypt libtool-cross libtool-native nss pkgconfig-native systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = ecryptfs-utils-dbg ecryptfs-utils-staticdev ecryptfs-utils-dev ecryptfs-utils-doc ecryptfs-utils-locale ecryptfs-utils
+LAYER = meta-webos

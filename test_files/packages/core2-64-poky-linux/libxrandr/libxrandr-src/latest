@@ -1,9 +1,0 @@
-PE = 1
-PV = 1.5.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 117413
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/include/X11/extensions/Xrandr.h /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/Xrandr.c /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/Xrandrint.h /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/XrrConfig.c /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/XrrCrtc.c /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/XrrMode.c /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/XrrMonitor.c /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/XrrOutput.c /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/XrrProperty.c /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/XrrProvider.c /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/XrrProviderProperty.c /usr/src/debug/libxrandr/1_1.5.2-r0/libXrandr-1.5.2/src/XrrScreen.c

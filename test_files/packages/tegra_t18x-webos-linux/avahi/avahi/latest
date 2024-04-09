@@ -1,0 +1,8 @@
+PV = 0.7
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = libnss-mdns
+PKGSIZE = 0
+FILES = /usr/lib/girepository-*/*.typelib
+FILELIST = 

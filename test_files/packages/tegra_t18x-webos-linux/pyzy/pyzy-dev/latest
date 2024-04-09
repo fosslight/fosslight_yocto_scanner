@@ -1,0 +1,10 @@
+PV = 0.1.0+gitAUTOINC+d774746656
+PR = r0
+PKG = libpyzy-1.0-dev
+PKGV = 0.1.0+git0+d774746656
+RPROVIDES = pyzy-dev (=0.1.0+git0+d774746656)
+RDEPENDS = pyzy (= 0.1.0+git0+d774746656-r0)
+RRECOMMENDS = glib-2.0-dev glibc-dev libgcc-dev libsqlite3-dev libstdc++-dev sqlite3-dev util-linux-dev util-linux-libuuid-dev
+PKGSIZE = 20856
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pyzy/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/pyzy-1.0/PyZy/Const.h /usr/include/pyzy-1.0/PyZy/InputContext.h /usr/include/pyzy-1.0/PyZy/Variant.h /usr/lib/libpyzy-1.0.so /usr/lib/pkgconfig/pyzy-1.0.pc

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-base perl-module-strict perl-module-tap-object perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 7603
-FILES = /usr/lib/perl5/5.30.2/TAP/Parser/YAMLish/Reader.pm
-FILELIST = /usr/lib/perl5/5.30.2/TAP/Parser/YAMLish/Reader.pm

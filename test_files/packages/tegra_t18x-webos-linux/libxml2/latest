@@ -1,0 +1,5 @@
+PV = 2.9.8
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native python3 python3-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/libiconv zlib
+PACKAGES = libxml2-ptest libxml2-dbg libxml2-staticdev libxml2-dev libxml2-doc libxml2-locale libxml2-utils libxml2 libxml2-python
+LAYER = core

@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 251392
+FILES = /lib/firmware/tegra18x_xusb_firmware /lib/firmware/tegra19x_xusb_firmware
+FILELIST = /lib/firmware/tegra18x_xusb_firmware /lib/firmware/tegra19x_xusb_firmware

@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r7
+RPROVIDES = 
+RDEPENDS = bash busybox
+RRECOMMENDS = 
+PKGSIZE = 19146
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/bsp-utils /usr/lib/bsp-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/localtime /etc/modules-load.d/gen6_kernel_modules.conf /etc/systemd/scripts/copy_pstore.sh /etc/systemd/scripts/gen6-bsp-utils/gen6_bsp_init.sh /etc/systemd/scripts/gen6_bsp_utils.sh /etc/systemd/scripts/lge_usb_net.sh /etc/systemd/scripts/mic_loopback.sh /etc/systemd/system/copy-pstore.service /etc/systemd/system/gen6_bsp_utils.service /etc/systemd/system/gen6_can_linkup.path /etc/systemd/system/gen6_can_linkup.service /etc/systemd/system/sysinit.target.wants/copy-pstore.service /etc/systemd/system/sysinit.target.wants/gen6_bsp_utils.service /etc/udev/rules.d/lge_usb_net.rules /etc/udev/rules.d/lge_usb_net_ctype.rules /etc/udev/rules.d/lge_usb_net_hub.rules /usr/bin/display-set-shade-level.sh /usr/bin/gen6_poweroff.sh /usr/bin/progress-run-bg.sh

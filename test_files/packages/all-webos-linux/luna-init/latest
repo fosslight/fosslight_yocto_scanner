@@ -1,0 +1,5 @@
+PV = 2.0.1-3
+PR = r17
+DEPENDS = cmake-modules-webos-native cmake-native ninja-native python3-native python3-pytz-native tzdata
+PACKAGES = luna-init-fonts luna-init-dbg luna-init-staticdev luna-init-dev luna-init-doc luna-init-locale luna-init
+LAYER = meta-webos

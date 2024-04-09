@@ -1,0 +1,8 @@
+PV = 0.20080828a-0webos9-1
+PR = r1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 715018
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libjemalloc.so.0.20080828a /usr/lib/.debug/libjemalloc_mt.so.0.20080828a /usr/src/debug/jemalloc/0.20080828a-0webos9-1-r1/git/src/jemalloc_linux.c /usr/src/debug/jemalloc/0.20080828a-0webos9-1-r1/git/src/jemalloc_wrapper.c

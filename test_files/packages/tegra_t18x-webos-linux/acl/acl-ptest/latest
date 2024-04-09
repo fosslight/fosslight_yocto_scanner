@@ -1,0 +1,9 @@
+PV = 2.2.52
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = acl busybox coreutils perl perl-module-filehandle perl-module-getopt-std perl-module-posix shadow
+RRECOMMENDS = ptest-runner
+PKGSIZE = 46839
+FILES = /usr/lib/acl/ptest
+FILELIST = /usr/lib/acl/ptest/include/builddefs /usr/lib/acl/ptest/include/buildmacros /usr/lib/acl/ptest/include/buildrules /usr/lib/acl/ptest/run-ptest /usr/lib/acl/ptest/test/Makefile /usr/lib/acl/ptest/test/cp.test /usr/lib/acl/ptest/test/getfacl-noacl.test /usr/lib/acl/ptest/test/getfacl-recursive.test /usr/lib/acl/ptest/test/make-tree /usr/lib/acl/ptest/test/malformed-restore-double-owner.acl /usr/lib/acl/ptest/test/malformed-restore.test /usr/lib/acl/ptest/test/misc.test /usr/lib/acl/ptest/test/root/permissions.test /usr/lib/acl/ptest/test/root/restore.test /usr/lib/acl/ptest/test/root/setfacl.test /usr/lib/acl/ptest/test/run /usr/lib/acl/ptest/test/sbits-restore.test /usr/lib/acl/ptest/test/setfacl-X.test /usr/lib/acl/ptest/test/sort-getfacl-output /usr/lib/acl/ptest/test/utf8-filenames.test

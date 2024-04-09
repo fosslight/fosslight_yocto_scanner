@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-exporter perl-module-strict
-RRECOMMENDS = 
-PKGSIZE = 28055
-FILES = /usr/lib/perl5/5.30.2/I18N/LangTags.pm
-FILELIST = /usr/lib/perl5/5.30.2/I18N/LangTags.pm

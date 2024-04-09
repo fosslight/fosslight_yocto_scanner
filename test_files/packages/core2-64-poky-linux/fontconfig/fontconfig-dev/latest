@@ -1,9 +1,0 @@
-PV = 2.13.1
-PR = r0
-PKG = libfontconfig-dev
-RPROVIDES = fontconfig-dev (=2.13.1)
-RDEPENDS = fontconfig (= 2.13.1-r0)
-RRECOMMENDS = expat-dev freetype-dev glibc-dev util-linux-dev util-linux-libuuid-dev zlib-dev
-PKGSIZE = 35716
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/fontconfig/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/gettext/*
-FILELIST = /usr/include/fontconfig/fcfreetype.h /usr/include/fontconfig/fcprivate.h /usr/include/fontconfig/fontconfig.h /usr/lib/libfontconfig.so /usr/lib/pkgconfig/fontconfig.pc /usr/share/gettext/its/fontconfig.its /usr/share/gettext/its/fontconfig.loc

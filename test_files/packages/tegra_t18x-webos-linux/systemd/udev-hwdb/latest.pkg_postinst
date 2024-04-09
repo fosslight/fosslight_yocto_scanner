@@ -1,0 +1,6 @@
+set -e
+	if test -n "$D"; then
+		$INTERCEPT_DIR/postinst_intercept update_udev_hwdb ${PKG} mlprefix= binprefix=
+	else
+		udevadm hwdb --update
+	fi

@@ -1,8 +1,0 @@
-PV = 8.32
-PR = r0
-RPROVIDES = 
-RDEPENDS = coreutils (= 8.32-r0)
-RRECOMMENDS = acl-dev attr-dev bash-dev findutils-dev gawk-dev gmp-dev libcap-dev shadow-dev
-PKGSIZE = 0
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/coreutils/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 

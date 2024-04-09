@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-en-dk glibc-localedata-en-nz glibc-localedata-iso14651-t1
+RRECOMMENDS = 
+PKGSIZE = 4044
+FILES = /usr/share/i18n/locales/mi_NZ
+FILELIST = /usr/share/i18n/locales/mi_NZ

@@ -1,0 +1,9 @@
+PV = 2.0.0-314
+PR = r46
+PKGR = r46webostegra2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

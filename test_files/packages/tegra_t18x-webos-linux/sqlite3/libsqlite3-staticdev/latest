@@ -1,0 +1,9 @@
+PE = 3
+PV = 3.29.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 9959310
+FILES = /usr/lib/lib*.a
+FILELIST = /usr/lib/libsqlite3.a

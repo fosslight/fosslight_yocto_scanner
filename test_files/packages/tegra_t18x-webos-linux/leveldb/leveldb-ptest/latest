@@ -1,0 +1,11 @@
+PV = 1.20+gitAUTOINC+a53934a3ae
+PR = r0
+PKG = libleveldb-ptest
+PKGV = 1.20+git0+a53934a3ae
+PKGR = r0webos1
+RPROVIDES = leveldb-ptest (=1.20+git0+a53934a3ae)
+RDEPENDS = glibc (>= 2.28) leveldb (>= 1.20+git0+a53934a3ae) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) snappy (>= 1.1.7)
+RRECOMMENDS = 
+PKGSIZE = 9176456
+FILES = /usr/bin
+FILELIST = /usr/bin/arena_test /usr/bin/autocompact_test /usr/bin/bloom_test /usr/bin/c_test /usr/bin/cache_test /usr/bin/coding_test /usr/bin/corruption_test /usr/bin/crc32c_test /usr/bin/db_bench /usr/bin/db_test /usr/bin/dbformat_test /usr/bin/env_posix_test /usr/bin/env_test /usr/bin/fault_injection_test /usr/bin/filename_test /usr/bin/filter_block_test /usr/bin/hash_test /usr/bin/issue178_test /usr/bin/issue200_test /usr/bin/log_test /usr/bin/memenv_test /usr/bin/recovery_test /usr/bin/skiplist_test /usr/bin/table_test /usr/bin/version_edit_test /usr/bin/version_set_test /usr/bin/write_batch_test

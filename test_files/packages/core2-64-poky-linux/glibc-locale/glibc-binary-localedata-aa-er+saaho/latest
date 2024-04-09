@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2944245
-FILES = /usr/lib/locale/aa_ER@saaho
-FILELIST = /usr/lib/locale/aa_ER@saaho/LC_ADDRESS /usr/lib/locale/aa_ER@saaho/LC_COLLATE /usr/lib/locale/aa_ER@saaho/LC_CTYPE /usr/lib/locale/aa_ER@saaho/LC_IDENTIFICATION /usr/lib/locale/aa_ER@saaho/LC_MEASUREMENT /usr/lib/locale/aa_ER@saaho/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/aa_ER@saaho/LC_MONETARY /usr/lib/locale/aa_ER@saaho/LC_NAME /usr/lib/locale/aa_ER@saaho/LC_NUMERIC /usr/lib/locale/aa_ER@saaho/LC_PAPER /usr/lib/locale/aa_ER@saaho/LC_TELEPHONE /usr/lib/locale/aa_ER@saaho/LC_TIME

@@ -1,9 +1,0 @@
-PV = 8.0
-PR = r0
-PKG = libreadline-dev
-RPROVIDES = readline-dev (=8.0)
-RDEPENDS = readline (= 8.0-r0)
-RRECOMMENDS = glibc-dev ncurses-dev ncurses-libtinfo-dev update-alternatives-opkg-dev
-PKGSIZE = 69314
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/readline/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/readline/chardefs.h /usr/include/readline/history.h /usr/include/readline/keymaps.h /usr/include/readline/readline.h /usr/include/readline/rlconf.h /usr/include/readline/rlstdc.h /usr/include/readline/rltypedefs.h /usr/include/readline/tilde.h /usr/lib/libhistory.so /usr/lib/libreadline.so /usr/lib/pkgconfig/readline.pc

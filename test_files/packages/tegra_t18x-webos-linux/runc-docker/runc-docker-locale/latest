@@ -1,0 +1,10 @@
+PV = 1.0.0-rc5+gitAUTOINC+6a2c155968
+PR = r0
+PKGV = 1.0.0-rc5+git0+6a2c155968
+PKGR = r0webosvirt1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

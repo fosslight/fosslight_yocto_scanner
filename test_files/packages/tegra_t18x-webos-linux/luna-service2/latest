@@ -1,0 +1,5 @@
+PV = 3.21.2-5
+PR = r23
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 gtest icecc-create-env-native libpbnjson ninja-native pkgconfig-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = luna-service2-ptest luna-service2-dbg luna-service2-staticdev luna-service2-dev luna-service2-doc luna-service2-locale luna-service2 luna-service2-perf
+LAYER = meta-webos

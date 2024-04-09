@@ -1,0 +1,8 @@
+PV = 2.24
+PR = r0
+RPROVIDES = ro-translation xkeyboard-config-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ro
+PKGSIZE = 45984
+FILES = /usr/share/locale/ro
+FILELIST = /usr/share/locale/ro/LC_MESSAGES/xkeyboard-config.mo

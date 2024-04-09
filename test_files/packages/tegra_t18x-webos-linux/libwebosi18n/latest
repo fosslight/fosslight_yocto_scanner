@@ -1,0 +1,5 @@
+PV = 1.0.1-2
+PR = r1
+DEPENDS = boost cmake-modules-webos-native cmake-native icecc-create-env-native libpbnjson ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libwebosi18n-dbg libwebosi18n-staticdev libwebosi18n-dev libwebosi18n-doc libwebosi18n-locale libwebosi18n
+LAYER = meta-webos

@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67672 ./usr/lib/libconfig.so.11.0.2
+-rwxr-xr-x root       root           133384 ./usr/lib/libconfig++.so.11.0.2
+lrwxrwxrwx root       root               19 ./usr/lib/libconfig.so.11 -> libconfig.so.11.0.2
+lrwxrwxrwx root       root               21 ./usr/lib/libconfig++.so.11 -> libconfig++.so.11.0.2

@@ -1,0 +1,5 @@
+PV = 1.0.0-7
+PR = r4.1
+DEPENDS = cmake-modules-webos-native cmake-native ninja-native
+PACKAGES = com.webos.app.test.webosose-dbg com.webos.app.test.webosose-staticdev com.webos.app.test.webosose-dev com.webos.app.test.webosose-doc com.webos.app.test.webosose-locale com.webos.app.test.webosose
+LAYER = meta-webos

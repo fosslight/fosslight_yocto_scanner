@@ -1,9 +1,0 @@
-PV = 6.2.0
-PR = r0
-PKG = libgmp10
-RPROVIDES = gmp (=6.2.0)
-RDEPENDS = glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 489456
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gmp /usr/lib/gmp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libgmp.so.10 /usr/lib/libgmp.so.10.4.0

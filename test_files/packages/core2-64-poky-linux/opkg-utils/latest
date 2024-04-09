@@ -1,5 +1,0 @@
-PV = 0.4.2
-PR = r0
-DEPENDS = perl-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = opkg-utils-src opkg-utils-dbg update-alternatives-opkg opkg-utils-doc opkg-utils-locale opkg-utils
-LAYER = core

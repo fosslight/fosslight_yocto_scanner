@@ -1,0 +1,5 @@
+PV = 1.2.0+gitAUTOINC+37c5ffe303
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native icecc-create-env-native libtirpc libtool-cross libtool-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libnsl2-dbg libnsl2-staticdev libnsl2-dev libnsl2-doc libnsl2-locale libnsl2
+LAYER = core

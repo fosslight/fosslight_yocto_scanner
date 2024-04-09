@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-bnx2x
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-mdio-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 1092824
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/ethernet/broadcom/bnx2x/bnx2x.ko /etc/modules-load.d/bnx2x.conf /etc/modprobe.d/bnx2x.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/ethernet/broadcom/bnx2x/bnx2x.ko

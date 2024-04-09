@@ -1,0 +1,5 @@
+PV = 1.2.5-3
+PR = r11
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native librdx libunwind ninja-native pkgconfig-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libsegfault-webos crashd-dbg crashd-staticdev crashd-dev crashd-doc crashd-locale crashd
+LAYER = meta-webos

@@ -1,9 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           324064 ./usr/bin/find.findutils
--rwxr-xr-x root       root           170408 ./usr/bin/locate
--rwxr-xr-x root       root             9076 ./usr/bin/updatedb
--rwxr-xr-x root       root            75976 ./usr/bin/xargs.findutils
-drwxr-xr-x root       root             4096 ./usr/libexec
--rwxr-xr-x root       root            43168 ./usr/libexec/frcode
-drwxr-xr-x root       root             4096 ./var

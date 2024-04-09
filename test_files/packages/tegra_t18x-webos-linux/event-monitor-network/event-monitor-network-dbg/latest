@@ -1,0 +1,8 @@
+PV = 1.0.0-3
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libpbnjson-dbg libstdc++-dbg libwebosi18n-dbg pmloglib-dbg
+PKGSIZE = 486629
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/eventmonitor/.debug/network-plugin.so /usr/src/debug/event-monitor-network/1.0.0-3-r0/git/src/errors.cpp /usr/src/debug/event-monitor-network/1.0.0-3-r0/git/src/errors.h /usr/src/debug/event-monitor-network/1.0.0-3-r0/git/src/networkplugin.cpp /usr/src/debug/event-monitor-network/1.0.0-3-r0/git/src/networkplugin.h

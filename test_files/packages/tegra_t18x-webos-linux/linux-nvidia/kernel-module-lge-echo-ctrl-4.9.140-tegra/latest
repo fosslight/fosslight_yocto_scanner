@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-lge-echo-ctrl
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 26672
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/lge/echo_ctrl/lge_echo_ctrl.ko /etc/modules-load.d/lge_echo_ctrl.conf /etc/modprobe.d/lge_echo_ctrl.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/lge/echo_ctrl/lge_echo_ctrl.ko

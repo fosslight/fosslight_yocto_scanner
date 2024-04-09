@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r1
+DEPENDS = boost chrpath-replacement-native curl expat glib-2.0 glib-2.0-native icecc-create-env-native iotivity libpbnjson luna-service2 openssl pkgconfig-native python-scons-native sqlite3 util-linux virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/gettext virtual/libc
+PACKAGES = org.ocf.webossample.occlientbasicops-dbg org.ocf.webossample.occlientbasicops-staticdev org.ocf.webossample.occlientbasicops-dev org.ocf.webossample.occlientbasicops-doc org.ocf.webossample.occlientbasicops-locale org.ocf.webossample.occlientbasicops
+LAYER = meta-webos

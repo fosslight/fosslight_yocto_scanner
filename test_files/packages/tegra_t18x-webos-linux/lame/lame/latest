@@ -1,0 +1,8 @@
+PV = 3.100
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libmp3lame (>= 3.100) ncurses-libtinfo (>= 6.1)
+RRECOMMENDS = 
+PKGSIZE = 133544
+FILES = /usr/bin/lame
+FILELIST = /usr/bin/lame

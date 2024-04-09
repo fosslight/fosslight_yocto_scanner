@@ -1,0 +1,8 @@
+PV = 1.0.1-2
+PR = r1
+RPROVIDES = 
+RDEPENDS = libwebosi18n (= 1.0.1-2-r1)
+RRECOMMENDS = boost-dev boost-regex-dev glibc-dev libgcc-dev libpbnjson-dev libstdc++-dev
+PKGSIZE = 33467
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libwebosi18n/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/webosi18n.h /usr/include/webosi18n/c/IString_C.h /usr/include/webosi18n/c/ResBundle_C.h /usr/include/webosi18n/c/StringMap_C.h /usr/include/webosi18n/c/WebOSLocale_C.h /usr/include/webosi18n/cxx/IString.h /usr/include/webosi18n/cxx/LocaleMatcher.h /usr/include/webosi18n/cxx/ResBundle.h /usr/include/webosi18n/cxx/WebOSLocale.h /usr/include/webosi18n_C.h /usr/lib/libwebosi18n.so /usr/share/pkgconfig/webosi18n.pc

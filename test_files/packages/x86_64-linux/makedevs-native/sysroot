@@ -1,4 +1,0 @@
-drwxr-xr-x -          -                4096 ./sbin
--rwxr-xr-x -          -               20584 ./sbin/makedevs
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  15 ./sysroot-providers/makedevs-native

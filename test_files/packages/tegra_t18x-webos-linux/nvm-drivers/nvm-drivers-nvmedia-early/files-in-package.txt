@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxrwxr-x root       root           371640 ./usr/lib/libnvmedia.so
+-rwxrwxr-x root       root           177016 ./usr/lib/libnvparser.so
+-rwxrwxr-x root       root           504144 ./usr/lib/libnvtvmr.so

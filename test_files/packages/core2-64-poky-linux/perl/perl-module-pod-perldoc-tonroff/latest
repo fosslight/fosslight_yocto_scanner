@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-parent perl-module-pod-man perl-module-strict perl-module-vars perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 2782
-FILES = /usr/lib/perl5/5.30.2/Pod/Perldoc/ToNroff.pm
-FILELIST = /usr/lib/perl5/5.30.2/Pod/Perldoc/ToNroff.pm

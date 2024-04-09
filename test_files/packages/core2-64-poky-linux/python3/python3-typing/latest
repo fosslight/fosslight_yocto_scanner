@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = python3-core
-RRECOMMENDS = 
-PKGSIZE = 239041
-FILES = /usr/lib/python3.8/typing.py /usr/lib/python3.8/__pycache__/typing.*.pyc
-FILELIST = /usr/lib/python3.8/__pycache__/typing.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/typing.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/typing.cpython-38.pyc /usr/lib/python3.8/typing.py

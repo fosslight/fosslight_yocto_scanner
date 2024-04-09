@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./etc
+-rw-r--r-- root       root              644 ./etc/ntp.conf
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/ntp-units.d
+-rw-r--r-- root       root               13 ./lib/systemd/ntp-units.d/60-ntpd.list
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              201 ./lib/systemd/system/ntpd.service
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           938400 ./usr/sbin/ntpd.ntp
+drwxr-xr-x root       root             4096 ./var
+drwxr-xr-x root       root             4096 ./var/lib
+drwxr-xr-x ntp        ntp              4096 ./var/lib/ntp

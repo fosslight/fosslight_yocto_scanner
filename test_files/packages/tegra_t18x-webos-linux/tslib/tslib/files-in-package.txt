@@ -1,0 +1,18 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67776 ./usr/lib/libts.so.0.9.1
+lrwxrwxrwx root       root               14 ./usr/lib/libts.so.0 -> libts.so.0.9.1
+drwxr-xr-x root       root             4096 ./usr/lib/ts
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/debounce.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/dejitter.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/iir.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/input.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/invert.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/linear.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/lowpass.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/median.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/pthres.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/skip.so
+-rwxr-xr-x root       root            67680 ./usr/lib/ts/touchkit.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ts/variance.so
+-rwxr-xr-x root       root            67768 ./usr/lib/ts/waveshare.so

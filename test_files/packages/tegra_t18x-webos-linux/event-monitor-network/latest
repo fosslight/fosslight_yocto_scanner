@@ -1,0 +1,5 @@
+PV = 1.0.0-3
+PR = r0
+DEPENDS = cmake-modules-webos-native cmake-native event-monitor event-monitor glib-2.0 icecc-create-env-native libpbnjson libwebosi18n ninja-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = event-monitor-network-dbg event-monitor-network-staticdev event-monitor-network-dev event-monitor-network-doc event-monitor-network-locale event-monitor-network
+LAYER = meta-webos

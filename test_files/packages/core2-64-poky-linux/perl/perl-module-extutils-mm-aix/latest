@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-extutils-makemaker-config perl-module-extutils-mm-unix perl-module-strict
-RRECOMMENDS = 
-PKGSIZE = 1403
-FILES = /usr/lib/perl5/5.30.2/ExtUtils/MM_AIX.pm
-FILELIST = /usr/lib/perl5/5.30.2/ExtUtils/MM_AIX.pm

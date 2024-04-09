@@ -1,0 +1,8 @@
+PV = 111
+PR = r1
+RPROVIDES = 
+RDEPENDS = ecryptfs-utils (= 111-r1)
+RRECOMMENDS = glibc-dev keyutils-dev libgcrypt-dev nspr-dev nss-dev
+PKGSIZE = 21776
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ecryptfs-utils/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /lib/libecryptfs.so /usr/include/ecryptfs.h /usr/lib/pkgconfig/libecryptfs.pc

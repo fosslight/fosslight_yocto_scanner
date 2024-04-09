@@ -1,0 +1,10 @@
+PV = 1.29.3
+PR = r0
+PKGV = 1.29.3-0webos3
+PKGR = r0webos13webosupdater1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2447
+FILES = /etc/init.d/mdev /etc/mdev.conf /etc/mdev/*
+FILELIST = /etc/mdev.conf /etc/mdev/find-touchscreen.sh /etc/mdev/mdev-mount.sh

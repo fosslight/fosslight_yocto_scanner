@@ -1,0 +1,8 @@
+PV = 2.0.4
+PR = r0
+RPROVIDES = cryptsetup-locale da-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-da
+PKGSIZE = 17442
+FILES = /usr/share/locale/da
+FILELIST = /usr/share/locale/da/LC_MESSAGES/cryptsetup.mo

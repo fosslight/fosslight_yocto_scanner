@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = virtual-locale-nn virtual-locale-nn-no.iso-8859-1
-RDEPENDS = glibc-binary-localedata-nn-no.iso-8859-1
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = 
-FILELIST = 

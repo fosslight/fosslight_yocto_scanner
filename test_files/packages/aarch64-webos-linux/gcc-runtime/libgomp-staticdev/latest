@@ -1,0 +1,8 @@
+PV = 8.2.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2443480
+FILES = /usr/lib/libgomp*.a
+FILELIST = /usr/lib/libgomp.a

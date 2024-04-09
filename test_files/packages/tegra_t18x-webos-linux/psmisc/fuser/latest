@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 68768
+FILES = /usr/bin/fuser.psmisc
+FILELIST = /usr/bin/fuser.psmisc

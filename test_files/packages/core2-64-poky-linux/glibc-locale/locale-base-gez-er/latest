@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = virtual-locale-gez virtual-locale-gez-er
-RDEPENDS = glibc-binary-localedata-gez-er
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = 
-FILELIST = 

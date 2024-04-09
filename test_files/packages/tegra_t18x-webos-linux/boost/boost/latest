@@ -1,0 +1,8 @@
+PV = 1.68.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = boost-atomic boost-chrono boost-container boost-contract boost-date-time boost-exception boost-filesystem boost-graph boost-iostreams boost-locale boost-log boost-math boost-program-options boost-python boost-random boost-regex boost-serialization boost-signals boost-system boost-test boost-thread boost-timer boost-wave
+PKGSIZE = 0
+FILES = 
+FILELIST = 

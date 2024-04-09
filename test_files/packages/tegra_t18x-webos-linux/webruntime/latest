@@ -1,0 +1,5 @@
+PV = 79.0.3945.79-17
+PR = r26.1
+DEPENDS = alsa-lib atk bison-native cairo curl dbus elfutils-native fontconfig freetype gconf gettext-native glib-2.0-native gperf-native icecc-create-env-native icu libcap libdrm libexif libwebosi18n libxkbcommon lttng-ust lttng-ust luna-service2 nspr nspr-native nss nss-native openssl pango pciutils pixman pmloglib python-beautifulsoup4-native python-html5lib-native python-lxml-native python-native python-six-native python-webencodings-native udev virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/egl virtual/gettext virtual/libc wayland wayland-egl wayland-native webos-wayland-extensions xorgproto
+PACKAGES = webruntime-cross-mksnapshot com.webos.app.browser app-shell chromedriver com.webos.app.wam-demo webruntime-dbg webruntime-staticdev webruntime-dev webruntime-doc webruntime-locale webruntime
+LAYER = meta-webos

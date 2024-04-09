@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 68120
+FILES = /sbin/rmt*
+FILELIST = /sbin/rmt.tar

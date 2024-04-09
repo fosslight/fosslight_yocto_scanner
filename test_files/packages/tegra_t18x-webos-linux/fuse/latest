@@ -1,0 +1,5 @@
+PV = 2.9.8
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = fuse-utils libulockmgr libulockmgr-dev fuse-dbg fuse-staticdev fuse-dev fuse-doc fuse-locale fuse
+LAYER = coconut-layer

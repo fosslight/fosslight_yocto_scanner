@@ -1,0 +1,9 @@
+PV = 1.1.1d
+PR = r0
+PKGR = r0webos22
+RPROVIDES = 
+RDEPENDS = update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 10909
+FILES = /etc/ssl/openssl.cnf*
+FILELIST = /etc/ssl/openssl.cnf.openssl

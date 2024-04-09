@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-strict perl-module-test2-formatter perl-module-test2-formatter-tap perl-module-test2-util-hashbase perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 2000
-FILES = /usr/lib/perl5/5.30.2/Test/Builder/Formatter.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test/Builder/Formatter.pm

@@ -1,0 +1,8 @@
+PV = 1.3.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = libvorbis (= 1.3.6-r0)
+RRECOMMENDS = glibc-dev libogg-dev
+PKGSIZE = 39311
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libvorbis/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/vorbis/codec.h /usr/include/vorbis/vorbisenc.h /usr/include/vorbis/vorbisfile.h /usr/lib/libvorbis.so /usr/lib/libvorbisenc.so /usr/lib/libvorbisfile.so /usr/lib/pkgconfig/vorbis.pc /usr/lib/pkgconfig/vorbisenc.pc /usr/lib/pkgconfig/vorbisfile.pc /usr/share/aclocal/vorbis.m4

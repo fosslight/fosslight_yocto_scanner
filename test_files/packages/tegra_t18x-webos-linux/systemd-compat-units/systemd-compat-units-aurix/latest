@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r29
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 18682
+FILES = etc/systemd/scripts/nv_aurix_check_fw.sh etc/systemd/system/tegra.target.wants/nv_aurix_check_fw.service
+FILELIST = /etc/systemd/scripts/nv_aurix_check_fw.sh /etc/systemd/system/tegra.target.wants/nv_aurix_check_fw.service

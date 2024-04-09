@@ -1,8 +1,0 @@
-PV = 26
-PR = r0
-RPROVIDES = 
-RDEPENDS = bash-completion
-RRECOMMENDS = 
-PKGSIZE = 3235
-FILES = /usr/share/bash-completion /etc/bash_completion.d
-FILELIST = /usr/share/bash-completion/completions/kmod

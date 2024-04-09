@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/prefs
+drwxr-xr-x root       root             4096 ./etc/prefs/properties
+-rw-r--r-- root       root                9 ./etc/prefs/properties/browserOsName
+-rw-r--r-- root       root               16 ./etc/prefs/properties/deviceName
+-rw-r--r-- root       root               20 ./etc/prefs/properties/deviceNameBranded
+-rw-r--r-- root       root               10 ./etc/prefs/properties/deviceNameShort
+-rw-r--r-- root       root               20 ./etc/prefs/properties/deviceNameShortBranded
+-rw-r--r-- root       root               10 ./etc/prefs/properties/machineName
+-rw-r--r-- root       root                3 ./etc/prefs/properties/productClass
+-rw-r--r-- root       root               16 ./etc/prefs/properties/productLineName

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-base perl-module-constant perl-module-strict perl-module-tap-parser-iterator-stream perl-module-tap-parser-iteratorfactory perl-module-tap-parser-sourcehandler perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 2993
-FILES = /usr/lib/perl5/5.30.2/TAP/Parser/SourceHandler/File.pm
-FILELIST = /usr/lib/perl5/5.30.2/TAP/Parser/SourceHandler/File.pm

@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/local
+drwxr-xr-x root       root             4096 ./usr/local/go
+drwxr-xr-x root       root             4096 ./usr/local/go/src
+drwxr-xr-x root       root             4096 ./usr/local/go/src/github.com
+drwxr-xr-x root       root             4096 ./usr/local/go/src/github.com/tchap
+drwxr-xr-x root       root             4096 ./usr/local/go/src/github.com/tchap/go-patricia
+-rw-r--r-- root       root               97 ./usr/local/go/src/github.com/tchap/go-patricia/AUTHORS
+-rw-r--r-- root       root             1078 ./usr/local/go/src/github.com/tchap/go-patricia/LICENSE
+drwxr-xr-x root       root             4096 ./usr/local/go/src/github.com/tchap/go-patricia/patricia
+-rw-r--r-- root       root             6590 ./usr/local/go/src/github.com/tchap/go-patricia/patricia/children.go
+-rw-r--r-- root       root             5486 ./usr/local/go/src/github.com/tchap/go-patricia/patricia/patricia_dense_test.go
+-rw-r--r-- root       root            14562 ./usr/local/go/src/github.com/tchap/go-patricia/patricia/patricia.go
+-rw-r--r-- root       root            17730 ./usr/local/go/src/github.com/tchap/go-patricia/patricia/patricia_sparse_test.go
+-rw-r--r-- root       root             3855 ./usr/local/go/src/github.com/tchap/go-patricia/patricia/patricia_test.go
+-rw-r--r-- root       root             3325 ./usr/local/go/src/github.com/tchap/go-patricia/README.md

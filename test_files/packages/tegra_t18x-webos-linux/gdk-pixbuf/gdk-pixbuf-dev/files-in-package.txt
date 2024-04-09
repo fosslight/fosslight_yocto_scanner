@@ -1,0 +1,25 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67768 ./usr/bin/gdk-pixbuf-csource
+-rwxr-xr-x root       root            67752 ./usr/bin/gdk-pixbuf-pixdata
+-rwxr-xr-x root       root            67760 ./usr/bin/gdk-pixbuf-print-mime-types
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/gdk-pixbuf-2.0
+drwxr-xr-x root       root             4096 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf
+-rw-r--r-- root       root             9645 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h
+-rw-r--r-- root       root             1521 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-autocleanups.h
+-rw-r--r-- root       root            21908 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h
+-rw-r--r-- root       root             1468 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-enum-types.h
+-rw-r--r-- root       root             3556 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-features.h
+-rw-r--r-- root       root             1572 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h
+-rw-r--r-- root       root            13244 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-io.h
+-rw-r--r-- root       root             4704 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-loader.h
+-rw-r--r-- root       root            21781 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h
+-rw-r--r-- root       root             1918 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-marshal.h
+-rw-r--r-- root       root             3186 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h
+-rw-r--r-- root       root             6114 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-transform.h
+-rw-r--r-- root       root             6765 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixdata.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               29 ./usr/lib/libgdk_pixbuf-2.0.so -> libgdk_pixbuf-2.0.so.0.3611.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              508 ./usr/lib/pkgconfig/gdk-pixbuf-2.0.pc

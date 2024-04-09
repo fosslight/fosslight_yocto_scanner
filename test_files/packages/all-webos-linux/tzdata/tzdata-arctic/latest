@@ -1,0 +1,9 @@
+PV = 2019c
+PR = r0
+PKGR = r0webos6
+RPROVIDES = tzdata-arctic
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2228
+FILES = /usr/share/zoneinfo/Arctic/*
+FILELIST = /usr/share/zoneinfo/Arctic/Longyearbyen

@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67752 ./usr/bin/dbus-cleanup-sockets
+-rwxr-xr-x root       root           264912 ./usr/bin/dbus-daemon
+-rwxr-xr-x root       root            67752 ./usr/bin/dbus-monitor
+-rwxr-xr-x root       root            67744 ./usr/bin/dbus-send
+-rwxr-xr-x root       root            67744 ./usr/bin/dbus-uuidgen

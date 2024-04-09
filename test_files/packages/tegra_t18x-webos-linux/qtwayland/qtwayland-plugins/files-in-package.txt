@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/plugins
+drwxr-xr-x root       root             4096 ./usr/lib/plugins/wayland-graphics-integration-server
+-rwxr-xr-x root       root            34744 ./usr/lib/plugins/wayland-graphics-integration-server/libwayland-eglstream-controller.so
+drwxr-xr-x root       root             4096 ./usr/lib/plugins/wayland-shell-integration
+-rwxr-xr-x root       root            47176 ./usr/lib/plugins/wayland-shell-integration/libivi-shell.so
+-rwxr-xr-x root       root            80520 ./usr/lib/plugins/wayland-shell-integration/libwl-shell.so
+-rwxr-xr-x root       root            63592 ./usr/lib/plugins/wayland-shell-integration/libxdg-shell.so
+-rwxr-xr-x root       root            47192 ./usr/lib/plugins/wayland-shell-integration/libxdg-shell-v5.so
+-rwxr-xr-x root       root            55384 ./usr/lib/plugins/wayland-shell-integration/libxdg-shell-v6.so

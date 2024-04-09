@@ -1,0 +1,12 @@
+PE = 1
+PV = 2.58.0
+PR = r0
+PKG = libglib-2.0-locale-en+shaw
+PKGV = 2.58.0-0webos4
+PKGR = r0webos4
+RPROVIDES = en+shaw-translation glib-2.0-locale glib-2.0-locale-en+shaw (=2.58.0-0webos4)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-en+shaw
+PKGSIZE = 69763
+FILES = /usr/share/locale/en@shaw
+FILELIST = /usr/share/locale/en@shaw/LC_MESSAGES/glib20.mo

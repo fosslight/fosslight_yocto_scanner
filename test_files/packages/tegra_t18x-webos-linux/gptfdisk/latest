@@ -1,0 +1,5 @@
+PV = 1.0.4
+PR = r0
+DEPENDS = icecc-create-env-native ncurses popt util-linux virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = gptfdisk-gdisk gptfdisk-cgdisk gptfdisk-fixparts gptfdisk-sgdisk gptfdisk-dbg gptfdisk-staticdev gptfdisk-dev gptfdisk-doc gptfdisk-locale gptfdisk
+LAYER = core

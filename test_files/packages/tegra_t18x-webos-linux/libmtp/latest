@@ -1,0 +1,5 @@
+PV = 1.1.16
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native icecc-create-env-native libmtp-native libtool-cross libtool-native libusb1 pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libmtp-common libmtp-runtime libmtp-dbg libmtp-staticdev libmtp-dev libmtp-doc libmtp-locale libmtp-bin libmtp
+LAYER = openembedded-layer

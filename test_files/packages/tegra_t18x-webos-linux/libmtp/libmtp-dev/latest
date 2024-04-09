@@ -1,0 +1,8 @@
+PV = 1.1.16
+PR = r0
+RPROVIDES = 
+RDEPENDS = libmtp (= 1.1.16-r0)
+RRECOMMENDS = glibc-dev libmtp-common-dev libusb1-dev
+PKGSIZE = 37569
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libmtp/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libmtp.h /usr/lib/libmtp.so /usr/lib/pkgconfig/libmtp.pc

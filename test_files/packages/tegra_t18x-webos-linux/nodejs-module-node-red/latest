@@ -1,0 +1,5 @@
+PV = 0.18.7
+PR = r1
+DEPENDS = icecc-create-env-native nodejs-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = nodejs-module-node-red-dbg nodejs-module-node-red-staticdev nodejs-module-node-red-dev nodejs-module-node-red-doc nodejs-module-node-red-locale nodejs-module-node-red
+LAYER = meta-webos

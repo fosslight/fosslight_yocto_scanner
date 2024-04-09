@@ -1,0 +1,5 @@
+PV = 0.99.0+20-92
+PR = r31
+DEPENDS = glib-2.0 icecc-create-env-native libxkbcommon luna-service2 pkgconfig-native pmloglib qtbase qtbase-native qtdeclarative qtwayland-webos udev virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc wayland
+PACKAGES = maliit-framework-webos-dbg maliit-framework-webos-staticdev maliit-framework-webos-dev maliit-framework-webos-doc maliit-framework-webos-locale maliit-framework-webos
+LAYER = meta-webos

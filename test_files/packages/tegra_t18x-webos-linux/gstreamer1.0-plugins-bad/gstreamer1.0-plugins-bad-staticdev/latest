@@ -1,0 +1,9 @@
+PV = 1.14.4
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = gstreamer1.0-plugins-bad-dev (= 1.14.4-r0webos2)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/gstreamer1.0-plugins-bad/*.a
+FILELIST = 

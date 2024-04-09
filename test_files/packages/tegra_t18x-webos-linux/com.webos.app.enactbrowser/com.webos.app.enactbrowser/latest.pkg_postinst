@@ -1,0 +1,23 @@
+set -e
+    enabled=0
+    if [ "$enabled" = "1" ] ; then
+        pncorrected=com.webos.app.enactbrowser
+        if [ -n "${STARFISH_TV_BASENAME}" ]; then
+            if [ "com.webos.app.enactbrowser" != "${STARFISH_TV_BASENAME}" ] ; then
+                pncorrected=${STARFISH_TV_BASENAME}
+            fi
+        fi
+        f=$D/usr/palm/applications/$pncorrected/webos-image-converter.list
+
+        if [ -e $f ] ; then
+            files=`cat $f`
+            set -- $files
+            while [ $# -gt 0 ]; do
+                sh $D/usr/sbin/webos-image-converter.sh $D$1 $D$2
+                shift 2
+            done
+            # Cannot remove the 'WEBOS_PREFERRED_GFX_IMAGE_FORMAT_CONVERSION_LIST' file due to the fact that some applications get moved around
+        else
+            echo "No image conversions needed for com.webos.app.enactbrowser"
+        fi
+    fi

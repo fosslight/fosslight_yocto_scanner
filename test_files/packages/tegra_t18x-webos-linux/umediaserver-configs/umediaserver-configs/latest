@@ -1,0 +1,8 @@
+PV = 1.0.0-8
+PR = r6
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 1880
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/umediaserver-configs /usr/lib/umediaserver-configs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/palm/frameworks/umediaserver/*
+FILELIST = /etc/umediaserver/umediaserver_resource_config.txt

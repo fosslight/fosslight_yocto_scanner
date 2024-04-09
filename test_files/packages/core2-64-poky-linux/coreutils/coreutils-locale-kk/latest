@@ -1,8 +1,0 @@
-PV = 8.32
-PR = r0
-RPROVIDES = coreutils-locale kk-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-kk
-PKGSIZE = 1651
-FILES = /usr/share/locale/kk
-FILELIST = /usr/share/locale/kk/LC_MESSAGES/coreutils.mo /usr/share/locale/kk/LC_TIME/coreutils.mo

@@ -1,0 +1,5 @@
+PV = 14.4.0-6
+PR = r6
+DEPENDS = 
+PACKAGES = ilib-webapp
+LAYER = meta-webos

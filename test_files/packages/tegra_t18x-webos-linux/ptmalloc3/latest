@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r4
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = ptmalloc3-dbg ptmalloc3-staticdev ptmalloc3-dev ptmalloc3-doc ptmalloc3-locale ptmalloc3
+LAYER = meta-webos

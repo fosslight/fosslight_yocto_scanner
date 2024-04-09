@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /etc/resolv.conf resolv-conf /etc/resolv-conf.connman 100

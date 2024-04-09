@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-ntb-pingpong
+RDEPENDS = kernel-4.9.140-tegra kernel-module-ntb-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 16832
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/ntb/test/ntb_pingpong.ko /etc/modules-load.d/ntb_pingpong.conf /etc/modprobe.d/ntb_pingpong.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/ntb/test/ntb_pingpong.ko

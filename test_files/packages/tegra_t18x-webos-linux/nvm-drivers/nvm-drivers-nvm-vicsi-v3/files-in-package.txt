@@ -1,0 +1,3 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxrwxr-x root       root            87168 ./usr/lib/libnvm_vicsi_v3.so

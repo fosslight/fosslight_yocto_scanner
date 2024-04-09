@@ -1,0 +1,9 @@
+PV = 1.35
+PR = r0
+PKGR = r0webos10
+RPROVIDES = 
+RDEPENDS = dbus-lib (>= 1.12.10) glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) gnutls (>= 3.6.4) iptables (>= 1.6.2)
+RRECOMMENDS = 
+PKGSIZE = 1085936
+FILES = /usr/bin/*-test
+FILELIST = /usr/bin/addr-test /usr/bin/dbus-test /usr/bin/dhcp-server-test /usr/bin/dhcp-test /usr/bin/dnsproxy-test /usr/bin/iptables-test /usr/bin/netlink-test /usr/bin/polkit-test /usr/bin/private-network-test /usr/bin/resolv-test /usr/bin/session-test /usr/bin/supplicant-test /usr/bin/tap-test /usr/bin/web-test /usr/bin/wpad-test

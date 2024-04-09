@@ -1,8 +1,0 @@
-PV = 2.4.48
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 82233
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/include/error_context.h /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/include/misc.h /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/include/walk_tree.h /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libattr/attr_copy_action.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libattr/attr_copy_check.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libattr/attr_copy_fd.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libattr/attr_copy_file.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libattr/libattr.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libattr/syscalls.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libmisc/high_water_alloc.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libmisc/next_line.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libmisc/quote.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libmisc/unquote.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/libmisc/walk_tree.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/tools/attr.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/tools/getfattr.c /usr/src/debug/attr/2.4.48-r0/attr-2.4.48/tools/setfattr.c /usr/src/debug/attr/2.4.48-r0/build/include/attr/attributes.h /usr/src/debug/attr/2.4.48-r0/build/include/attr/libattr.h

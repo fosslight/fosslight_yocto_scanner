@@ -1,0 +1,8 @@
+PV = 3.1
+PR = r0
+RPROVIDES = grep-locale ko-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ko
+PKGSIZE = 723
+FILES = /usr/share/locale/ko
+FILELIST = /usr/share/locale/ko/LC_MESSAGES/grep.mo

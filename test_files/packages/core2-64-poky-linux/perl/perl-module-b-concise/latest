@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-b perl-module-b-op-private perl-module-config perl-module-exporter perl-module-feature perl-module-strict perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 60514
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/B/Concise.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/B/Concise.pm

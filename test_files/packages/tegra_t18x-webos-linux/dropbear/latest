@@ -1,0 +1,5 @@
+PV = 2017.75
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/update-alternatives zlib
+PACKAGES = dropbear-sysvinit dropbear-dbg dropbear-staticdev dropbear-dev dropbear-doc dropbear-locale dropbear
+LAYER = coconut-layer

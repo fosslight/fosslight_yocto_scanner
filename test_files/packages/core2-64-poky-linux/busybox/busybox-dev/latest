@@ -1,8 +1,0 @@
-PV = 1.31.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = busybox (= 1.31.1-r0)
-RRECOMMENDS = glibc-dev initscripts-dev update-alternatives-opkg-dev update-rc.d-dev zip-dev
-PKGSIZE = 0
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/busybox/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 

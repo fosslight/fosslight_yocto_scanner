@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = ba-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ba
+PKGSIZE = 580
+FILES = /usr/share/locale/ba
+FILELIST = /usr/share/locale/ba/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/ba/LC_MESSAGES/iso_3166.mo

@@ -1,0 +1,151 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/profile.d
+-rwxr-xr-x root       root              752 ./etc/profile.d/get-systemd-environments.sh
+drwxr-xr-x root       root             4096 ./etc/systemd
+drwxr-xr-x root       root             4096 ./etc/systemd/system
+lrwxrwxrwx root       root                9 ./etc/systemd/system/busybox-klogd.service -> /dev/null
+lrwxrwxrwx root       root                9 ./etc/systemd/system/busybox-syslog.service -> /dev/null
+drwxr-xr-x root       root             4096 ./etc/systemd/system.conf.d
+-rw-r--r-- root       root             2183 ./etc/systemd/system.conf.d/30-webos-global.conf
+-rw-r--r-- root       root              750 ./etc/systemd/system.conf.d/hv0.conf
+-rw-r--r-- root       root             1680 ./etc/systemd/system.conf.d/system.conf
+lrwxrwxrwx root       root                9 ./etc/systemd/system/ecryptfs.service -> /dev/null
+lrwxrwxrwx root       root                9 ./etc/systemd/system/getty@tty1.service -> /dev/null
+lrwxrwxrwx root       root                9 ./etc/systemd/system/node-fork-server.service -> /dev/null
+lrwxrwxrwx root       root                9 ./etc/systemd/system/run-postinsts.service -> /dev/null
+lrwxrwxrwx root       root                9 ./etc/systemd/system/sntp.service -> /dev/null
+lrwxrwxrwx root       root                9 ./etc/systemd/system/syslog.socket -> /dev/null
+drwxr-xr-x root       root             4096 ./etc/tmpfiles.d
+-rw-r--r-- root       root              757 ./etc/tmpfiles.d/30-run.conf
+-rw-r--r-- root       root              919 ./etc/tmpfiles.d/31-var.conf
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root             1135 ./lib/systemd/system/activitymanager.service
+-rw-r--r-- root       root              886 ./lib/systemd/system/appinstalld.service
+-rw-r--r-- root       root              853 ./lib/systemd/system/audiod.service
+-rw-r--r-- root       root              862 ./lib/systemd/system/audiooutputd.service
+-rw-r--r-- root       root              849 ./lib/systemd/system/backup-log.service
+-rw-r--r-- root       root              969 ./lib/systemd/system/bootd.service
+-rw-r--r-- root       root              877 ./lib/systemd/system/com.webos.service.camera.service
+-rw-r--r-- root       root             1028 ./lib/systemd/system/configd.service
+-rw-r--r-- root       root             1028 ./lib/systemd/system/configurator-activity.service
+-rw-r--r-- root       root              890 ./lib/systemd/system/configurator-db8.service
+-rw-r--r-- root       root             1017 ./lib/systemd/system/crashd.service
+-rw-r--r-- root       root              907 ./lib/systemd/system/db8-pre-config.service
+-rw-r--r-- root       root              717 ./lib/systemd/system/default-webos.target
+drwxr-xr-x root       root             4096 ./lib/systemd/system/default-webos.target.wants
+lrwxrwxrwx root       root               16 ./lib/systemd/system/default-webos.target.wants/bootd.service -> ../bootd.service
+lrwxrwxrwx root       root               17 ./lib/systemd/system/default-webos.target.wants/crashd.service -> ../crashd.service
+lrwxrwxrwx root       root               17 ./lib/systemd/system/default-webos.target.wants/lsm-ready.path -> ../lsm-ready.path
+lrwxrwxrwx root       root               28 ./lib/systemd/system/default-webos.target.wants/populate-volatile.service -> ../populate-volatile.service
+lrwxrwxrwx root       root               14 ./lib/systemd/system/default-webos.target.wants/sam.service -> ../sam.service
+lrwxrwxrwx root       root               21 ./lib/systemd/system/default-webos.target.wants/webapp-mgr.service -> ../webapp-mgr.service
+-rw-r--r-- root       root              755 ./lib/systemd/system/devmode.service
+-rw-r--r-- root       root             1105 ./lib/systemd/system/dropbear.service
+-rw-r--r-- root       root              946 ./lib/systemd/system/event-monitor.service
+-rw-r--r-- root       root              788 ./lib/systemd/system/jail.service
+drwxr-xr-x root       root             4096 ./lib/systemd/system/local-fs.target.wants
+lrwxrwxrwx root       root               18 ./lib/systemd/system/local-fs.target.wants/configd.service -> ../configd.service
+lrwxrwxrwx root       root               18 ./lib/systemd/system/local-fs.target.wants/ls-hubd.service -> ../ls-hubd.service
+lrwxrwxrwx root       root               26 ./lib/systemd/system/local-fs.target.wants/surface-manager.service -> ../surface-manager.service
+-rw-r--r-- root       root              941 ./lib/systemd/system/ls-hubd.service
+-rw-r--r-- root       root              718 ./lib/systemd/system/lsm-ready.path
+-rw-r--r-- root       root             1010 ./lib/systemd/system/lsm-ready.service
+-rw-r--r-- root       root              736 ./lib/systemd/system/lsm-ready.target
+-rw-r--r-- root       root              989 ./lib/systemd/system/luna-download-mgr.service
+-rw-r--r-- root       root              945 ./lib/systemd/system/luna-sys-service.service
+-rw-r--r-- root       root             1245 ./lib/systemd/system/maliit-server.service
+-rw-r--r-- root       root              963 ./lib/systemd/system/maliit-server@.service
+drwxr-xr-x root       root             4096 ./lib/systemd/system/multi-user.target.wants
+lrwxrwxrwx root       root               21 ./lib/systemd/system/multi-user.target.wants/backup-log.service -> ../backup-log.service
+lrwxrwxrwx root       root               23 ./lib/systemd/system/multi-user.target.wants/default-webos.target -> ../default-webos.target
+-rw-r--r-- root       root              980 ./lib/systemd/system/notificationmgr.service
+-rw-r--r-- root       root              977 ./lib/systemd/system/nyx-utils.service
+-rw-r--r-- root       root              871 ./lib/systemd/system/pacrunner.service
+-rw-r--r-- root       root              800 ./lib/systemd/system/populate-volatile.service
+-rw-r--r-- root       root              937 ./lib/systemd/system/rdxd.service
+-rw-r--r-- root       root             1008 ./lib/systemd/system/sam.service
+drwxr-xr-x root       root             4096 ./lib/systemd/system/scripts
+-rwxr-xr-x root       root             1003 ./lib/systemd/system/scripts/configurator-db8.sh
+-rwxr-xr-x root       root             1802 ./lib/systemd/system/scripts/devmode.sh
+-rwxr-xr-x root       root             1596 ./lib/systemd/system/scripts/jail.sh
+-rwxr-xr-x root       root              737 ./lib/systemd/system/scripts/luna-download-mgr.sh
+-rwxr-xr-x root       root             1992 ./lib/systemd/system/scripts/maliit-server.sh
+-rwxr-xr-x root       root            10061 ./lib/systemd/system/scripts/populate-volatile.sh
+-rwxr-xr-x root       root              794 ./lib/systemd/system/scripts/sam.sh
+-rwxr-xr-x root       root             1657 ./lib/systemd/system/scripts/save-journald-logs.py
+-rwxr-xr-x root       root              761 ./lib/systemd/system/scripts/settings-service.sh
+-rwxr-xr-x root       root              852 ./lib/systemd/system/scripts/swap-on.sh
+-rwxr-xr-x root       root             2403 ./lib/systemd/system/scripts/usbctrl.sh
+-rwxr-xr-x root       root              941 ./lib/systemd/system/scripts/webos-bluetooth-service.sh
+-rwxr-xr-x root       root             3458 ./lib/systemd/system/scripts/zram-on.sh
+-rw-r--r-- root       root             1131 ./lib/systemd/system/settings-service-recovery.service
+-rw-r--r-- root       root             1011 ./lib/systemd/system/settings-service.service
+-rw-r--r-- root       root              915 ./lib/systemd/system/sleepd.service
+-rw-r--r-- root       root             1117 ./lib/systemd/system/surface-manager-daemon.service
+-rw-r--r-- root       root              936 ./lib/systemd/system/surface-manager.service
+-rw-r--r-- root       root              839 ./lib/systemd/system/swap-on.service
+-rw-r--r-- root       root              920 ./lib/systemd/system/umediaserver.service
+-rw-r--r-- root       root              833 ./lib/systemd/system/usbctrl.service
+-rw-r--r-- root       root              654 ./lib/systemd/system/webos-bd.target
+drwxr-xr-x root       root             4096 ./lib/systemd/system/webos-bd.target.wants
+lrwxrwxrwx root       root               13 ./lib/systemd/system/webos-bd.target.wants/ai.service -> ../ai.service
+lrwxrwxrwx root       root               18 ./lib/systemd/system/webos-bd.target.wants/flowmgr.service -> ../flowmgr.service
+lrwxrwxrwx root       root               20 ./lib/systemd/system/webos-bd.target.wants/nyx-utils.service -> ../nyx-utils.service
+lrwxrwxrwx root       root               20 ./lib/systemd/system/webos-bd.target.wants/swupdater.service -> ../swupdater.service
+-rw-r--r-- root       root              968 ./lib/systemd/system/webos-bluetooth-service.service
+-rw-r--r-- root       root              654 ./lib/systemd/system/webos-cbd.target
+drwxr-xr-x root       root             4096 ./lib/systemd/system/webos-cbd.target.wants
+lrwxrwxrwx root       root               17 ./lib/systemd/system/webos-cbd.target.wants/audiod.service -> ../audiod.service
+lrwxrwxrwx root       root               23 ./lib/systemd/system/webos-cbd.target.wants/audiooutputd.service -> ../audiooutputd.service
+lrwxrwxrwx root       root               35 ./lib/systemd/system/webos-cbd.target.wants/com.webos.service.camera.service -> ../com.webos.service.camera.service
+lrwxrwxrwx root       root               24 ./lib/systemd/system/webos-cbd.target.wants/memorymanager.service -> ../memorymanager.service
+lrwxrwxrwx root       root               15 ./lib/systemd/system/webos-cbd.target.wants/obex.service -> ../obex.service
+lrwxrwxrwx root       root               17 ./lib/systemd/system/webos-cbd.target.wants/sleepd.service -> ../sleepd.service
+lrwxrwxrwx root       root               18 ./lib/systemd/system/webos-cbd.target.wants/swap-on.service -> ../swap-on.service
+lrwxrwxrwx root       root               18 ./lib/systemd/system/webos-cbd.target.wants/usbctrl.service -> ../usbctrl.service
+lrwxrwxrwx root       root               23 ./lib/systemd/system/webos-cbd.target.wants/videooutputd.service -> ../videooutputd.service
+lrwxrwxrwx root       root               34 ./lib/systemd/system/webos-cbd.target.wants/webos-bluetooth-service.service -> ../webos-bluetooth-service.service
+-rw-r--r-- root       root              989 ./lib/systemd/system/webos-connman-adapter.service
+-rw-r--r-- root       root              654 ./lib/systemd/system/webos-dis.target
+drwxr-xr-x root       root             4096 ./lib/systemd/system/webos-dis.target.wants
+lrwxrwxrwx root       root               27 ./lib/systemd/system/webos-dis.target.wants/configurator-db8.service -> ../configurator-db8.service
+lrwxrwxrwx root       root               25 ./lib/systemd/system/webos-dis.target.wants/db8-pre-config.service -> ../db8-pre-config.service
+lrwxrwxrwx root       root               14 ./lib/systemd/system/webos-dis.target.wants/db8.service -> ../db8.service
+lrwxrwxrwx root       root               24 ./lib/systemd/system/webos-dis.target.wants/event-monitor.service -> ../event-monitor.service
+lrwxrwxrwx root       root               27 ./lib/systemd/system/webos-dis.target.wants/luna-sys-service.service -> ../luna-sys-service.service
+lrwxrwxrwx root       root               34 ./lib/systemd/system/webos-dis.target.wants/physical-device-manager.service -> ../physical-device-manager.service
+lrwxrwxrwx root       root               36 ./lib/systemd/system/webos-dis.target.wants/settings-service-recovery.service -> ../settings-service-recovery.service
+lrwxrwxrwx root       root               27 ./lib/systemd/system/webos-dis.target.wants/settings-service.service -> ../settings-service.service
+-rw-r--r-- root       root              654 ./lib/systemd/system/webos-ibd.target
+drwxr-xr-x root       root             4096 ./lib/systemd/system/webos-ibd.target.wants
+lrwxrwxrwx root       root               18 ./lib/systemd/system/webos-ibd.target.wants/connman.service -> ../connman.service
+lrwxrwxrwx root       root               15 ./lib/systemd/system/webos-ibd.target.wants/jail.service -> ../jail.service
+lrwxrwxrwx root       root               20 ./lib/systemd/system/webos-ibd.target.wants/pacrunner.service -> ../pacrunner.service
+lrwxrwxrwx root       root               21 ./lib/systemd/system/webos-ibd.target.wants/pulseaudio.service -> ../pulseaudio.service
+lrwxrwxrwx root       root               32 ./lib/systemd/system/webos-ibd.target.wants/webos-connman-adapter.service -> ../webos-connman-adapter.service
+-rw-r--r-- root       root              654 ./lib/systemd/system/webos-mbd.target
+drwxr-xr-x root       root             4096 ./lib/systemd/system/webos-mbd.target.wants
+lrwxrwxrwx root       root               18 ./lib/systemd/system/webos-mbd.target.wants/devmode.service -> ../devmode.service
+lrwxrwxrwx root       root               24 ./lib/systemd/system/webos-mbd.target.wants/maliit-server.service -> ../maliit-server.service
+lrwxrwxrwx root       root               26 ./lib/systemd/system/webos-mbd.target.wants/notificationmgr.service -> ../notificationmgr.service
+lrwxrwxrwx root       root               15 ./lib/systemd/system/webos-mbd.target.wants/rdxd.service -> ../rdxd.service
+lrwxrwxrwx root       root               23 ./lib/systemd/system/webos-mbd.target.wants/umediaserver.service -> ../umediaserver.service
+-rw-r--r-- root       root              654 ./lib/systemd/system/webos-rbd.target
+drwxr-xr-x root       root             4096 ./lib/systemd/system/webos-rbd.target.wants
+lrwxrwxrwx root       root               26 ./lib/systemd/system/webos-rbd.target.wants/activitymanager.service -> ../activitymanager.service
+lrwxrwxrwx root       root               22 ./lib/systemd/system/webos-rbd.target.wants/appinstalld.service -> ../appinstalld.service
+lrwxrwxrwx root       root               32 ./lib/systemd/system/webos-rbd.target.wants/configurator-activity.service -> ../configurator-activity.service
+lrwxrwxrwx root       root               19 ./lib/systemd/system/webos-rbd.target.wants/dropbear.service -> ../dropbear.service
+lrwxrwxrwx root       root               28 ./lib/systemd/system/webos-rbd.target.wants/luna-download-mgr.service -> ../luna-download-mgr.service
+-rw-r--r-- root       root              802 ./lib/systemd/system/zram-on.service
+drwxr-xr-x root       root             4096 ./sbin
+-rwxr-xr-x root       root            67992 ./sbin/initctl
+-rwxr-xr-x root       root            67992 ./sbin/restart
+-rwxr-xr-x root       root            67992 ./sbin/start
+-rwxr-xr-x root       root            67736 ./sbin/status
+-rwxr-xr-x root       root            67992 ./sbin/stop
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67992 ./usr/bin/initctl

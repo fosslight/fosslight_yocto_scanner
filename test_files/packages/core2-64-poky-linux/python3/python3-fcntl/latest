@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) python3-core
-RRECOMMENDS = 
-PKGSIZE = 22672
-FILES = /usr/lib/python3.8/lib-dynload/fcntl.*.so
-FILELIST = /usr/lib/python3.8/lib-dynload/fcntl.cpython-38-x86_64-linux-gnu.so

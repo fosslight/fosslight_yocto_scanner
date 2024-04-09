@@ -1,0 +1,5 @@
+PV = 2.0.0-1
+PR = r3
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native libpbnjson librolegen luna-service2 ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = serviceinstaller-dbg serviceinstaller-staticdev serviceinstaller-dev serviceinstaller-doc serviceinstaller-locale serviceinstaller
+LAYER = meta-webos

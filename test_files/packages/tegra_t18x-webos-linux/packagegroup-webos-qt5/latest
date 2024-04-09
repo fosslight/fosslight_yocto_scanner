@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = packagegroup-webos-qt5 packagegroup-webos-qt5-dbg packagegroup-webos-qt5-dev packagegroup-webos-qt5-ptest
+LAYER = meta-webos-tegra

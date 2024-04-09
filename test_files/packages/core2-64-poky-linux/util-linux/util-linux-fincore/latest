@@ -1,8 +1,0 @@
-PV = 2.35.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) util-linux-libsmartcols (>= 2.35.1)
-RRECOMMENDS = 
-PKGSIZE = 34904
-FILES = /usr/bin/fincore
-FILELIST = /usr/bin/fincore

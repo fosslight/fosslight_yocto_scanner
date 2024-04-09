@@ -1,0 +1,5 @@
+PV = 1.0.0-7
+PR = r4.1
+DEPENDS = cmake-modules-webos-native cmake-native ninja-native
+PACKAGES = bareapp-dbg bareapp-staticdev bareapp-dev bareapp-doc bareapp-locale bareapp
+LAYER = meta-webos

@@ -1,8 +1,0 @@
-PV = 4.8.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = shadow (= 4.8.1-r0)
-RRECOMMENDS = attr-dev base-passwd-dev glibc-dev libattr-dev libxcrypt-dev shadow-base-dev shadow-securetty-dev update-alternatives-opkg-dev util-linux-sulogin-dev
-PKGSIZE = 0
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/shadow/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 

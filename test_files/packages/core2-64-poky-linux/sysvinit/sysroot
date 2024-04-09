@@ -1,6 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                   8 ./sysroot-providers/sysvinit
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/include
--rw-r--r-- -          -                2446 ./usr/include/initreq.h
-drwxr-xr-x -          -                4096 ./usr/share

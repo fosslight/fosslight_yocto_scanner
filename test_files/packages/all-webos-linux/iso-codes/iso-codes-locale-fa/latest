@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = fa-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fa
+PKGSIZE = 59049
+FILES = /usr/share/locale/fa
+FILELIST = /usr/share/locale/fa/LC_MESSAGES/iso_15924.mo /usr/share/locale/fa/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/fa/LC_MESSAGES/iso_3166-3.mo /usr/share/locale/fa/LC_MESSAGES/iso_3166.mo /usr/share/locale/fa/LC_MESSAGES/iso_639-2.mo /usr/share/locale/fa/LC_MESSAGES/iso_639-3.mo /usr/share/locale/fa/LC_MESSAGES/iso_639.mo /usr/share/locale/fa/LC_MESSAGES/iso_639_3.mo

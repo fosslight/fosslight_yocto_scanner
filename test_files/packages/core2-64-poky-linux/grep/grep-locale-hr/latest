@@ -1,8 +1,0 @@
-PV = 3.4
-PR = r0
-RPROVIDES = grep-locale hr-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-hr
-PKGSIZE = 16095
-FILES = /usr/share/locale/hr
-FILELIST = /usr/share/locale/hr/LC_MESSAGES/grep.mo

@@ -1,0 +1,8 @@
+PV = 2.60.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glib-networking (= 2.60.2-r0)
+RRECOMMENDS = glib-2.0-dev glibc-dev gnutls-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/glib-networking/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/gio/modules/libgio*.la
+FILELIST = 

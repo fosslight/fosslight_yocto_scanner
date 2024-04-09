@@ -1,8 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/python3.8
-drwxr-xr-x root       root             4096 ./usr/lib/python3.8/__pycache__
--rw-r--r-- root       root             7300 ./usr/lib/python3.8/__pycache__/string.cpython-38.opt-1.pyc
--rw-r--r-- root       root             6194 ./usr/lib/python3.8/__pycache__/string.cpython-38.opt-2.pyc
--rw-r--r-- root       root             7300 ./usr/lib/python3.8/__pycache__/string.cpython-38.pyc
--rw-r--r-- root       root            10535 ./usr/lib/python3.8/string.py

@@ -1,0 +1,8 @@
+PV = 3.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = iperf3-dev (= 3.6-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/iperf3/*.a
+FILELIST = 

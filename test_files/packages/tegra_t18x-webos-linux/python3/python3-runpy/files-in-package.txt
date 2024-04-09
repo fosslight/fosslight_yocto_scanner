@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/__pycache__
+-rw-r--r-- root       root             8629 ./usr/lib/python3.5/__pycache__/runpy.cpython-35.opt-1.pyc
+-rw-r--r-- root       root             7080 ./usr/lib/python3.5/__pycache__/runpy.cpython-35.opt-2.pyc
+-rw-r--r-- root       root             8629 ./usr/lib/python3.5/__pycache__/runpy.cpython-35.pyc
+-rw-r--r-- root       root            11959 ./usr/lib/python3.5/runpy.py

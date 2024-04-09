@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) libcrypto (>= 1.1.1g) libxcrypt (>= 4.4.15) python3-core python3-math python3-stringold
-RRECOMMENDS = ca-certificates openssl
-PKGSIZE = 307812
-FILES = /usr/lib/python3.8/crypt.py /usr/lib/python3.8/hashlib.py /usr/lib/python3.8/lib-dynload/_blake2.*.so /usr/lib/python3.8/lib-dynload/_crypt.*.so /usr/lib/python3.8/lib-dynload/_hashlib.*.so /usr/lib/python3.8/lib-dynload/_md5.*.so /usr/lib/python3.8/lib-dynload/_sha1.*.so /usr/lib/python3.8/lib-dynload/_sha256.*.so /usr/lib/python3.8/lib-dynload/_sha3.*.so /usr/lib/python3.8/lib-dynload/_sha512.*.so /usr/lib/python3.8/__pycache__/crypt.*.pyc /usr/lib/python3.8/__pycache__/hashlib.*.pyc
-FILELIST = /usr/lib/python3.8/__pycache__/crypt.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/crypt.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/crypt.cpython-38.pyc /usr/lib/python3.8/__pycache__/hashlib.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/hashlib.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/hashlib.cpython-38.pyc /usr/lib/python3.8/crypt.py /usr/lib/python3.8/hashlib.py /usr/lib/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/lib-dynload/_crypt.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/lib-dynload/_md5.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/lib-dynload/_sha1.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/lib-dynload/_sha256.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so /usr/lib/python3.8/lib-dynload/_sha512.cpython-38-x86_64-linux-gnu.so

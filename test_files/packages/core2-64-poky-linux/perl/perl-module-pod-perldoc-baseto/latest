@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-config perl-module-strict perl-module-vars perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 3637
-FILES = /usr/lib/perl5/5.30.2/Pod/Perldoc/BaseTo.pm
-FILELIST = /usr/lib/perl5/5.30.2/Pod/Perldoc/BaseTo.pm

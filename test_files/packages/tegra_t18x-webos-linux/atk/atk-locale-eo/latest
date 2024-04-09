@@ -1,0 +1,9 @@
+PV = 2.28.1
+PR = r0
+PKG = libatk-1.0-locale-eo
+RPROVIDES = atk-locale atk-locale-eo (=2.28.1) eo-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eo
+PKGSIZE = 8878
+FILES = /usr/share/locale/eo
+FILELIST = /usr/share/locale/eo/LC_MESSAGES/atk10.mo

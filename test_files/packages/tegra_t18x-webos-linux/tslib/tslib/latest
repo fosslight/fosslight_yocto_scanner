@@ -1,0 +1,9 @@
+PV = 1.16
+PR = r0
+PKG = libts0
+RPROVIDES = tslib (=1.16)
+RDEPENDS = glibc (>= 2.28) tslib-conf
+RRECOMMENDS = pointercal
+PKGSIZE = 948510
+FILES = /usr/lib/*.so.* /usr/lib/ts/*.so*
+FILELIST = /usr/lib/libts.so.0 /usr/lib/libts.so.0.9.1 /usr/lib/ts/debounce.so /usr/lib/ts/dejitter.so /usr/lib/ts/iir.so /usr/lib/ts/input.so /usr/lib/ts/invert.so /usr/lib/ts/linear.so /usr/lib/ts/lowpass.so /usr/lib/ts/median.so /usr/lib/ts/pthres.so /usr/lib/ts/skip.so /usr/lib/ts/touchkit.so /usr/lib/ts/variance.so /usr/lib/ts/waveshare.so

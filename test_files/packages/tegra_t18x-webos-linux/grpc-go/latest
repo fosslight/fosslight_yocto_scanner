@@ -1,0 +1,5 @@
+PV = 1.4.0+gitAUTOINC+777daa17ff
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = grpc-go-dbg grpc-go-staticdev grpc-go-dev grpc-go-doc grpc-go-locale grpc-go
+LAYER = virtualization-layer

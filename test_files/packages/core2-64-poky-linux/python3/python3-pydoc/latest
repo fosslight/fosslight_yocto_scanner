@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = python3-core python3-netclient
-RRECOMMENDS = 
-PKGSIZE = 2283994
-FILES = /usr/bin/pydoc* /usr/lib/python3.8/pydoc.py /usr/lib/python3.8/pydoc_data /usr/lib/python3.8/__pycache__/pydoc.*.pyc
-FILELIST = /usr/bin/pydoc3 /usr/bin/pydoc3.8 /usr/lib/python3.8/__pycache__/pydoc.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/pydoc.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/pydoc.cpython-38.pyc /usr/lib/python3.8/pydoc.py /usr/lib/python3.8/pydoc_data/__init__.py /usr/lib/python3.8/pydoc_data/__pycache__/__init__.cpython-38.opt-1.pyc /usr/lib/python3.8/pydoc_data/__pycache__/__init__.cpython-38.opt-2.pyc /usr/lib/python3.8/pydoc_data/__pycache__/__init__.cpython-38.pyc /usr/lib/python3.8/pydoc_data/__pycache__/topics.cpython-38.opt-1.pyc /usr/lib/python3.8/pydoc_data/__pycache__/topics.cpython-38.opt-2.pyc /usr/lib/python3.8/pydoc_data/__pycache__/topics.cpython-38.pyc /usr/lib/python3.8/pydoc_data/_pydoc.css /usr/lib/python3.8/pydoc_data/topics.py

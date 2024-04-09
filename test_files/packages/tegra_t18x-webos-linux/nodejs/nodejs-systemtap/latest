@@ -1,0 +1,9 @@
+PV = 8.12.0
+PR = r0
+PKGR = r0webos3
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 3495
+FILES = /usr/share/systemtap
+FILELIST = /usr/share/systemtap/tapset/node.stp

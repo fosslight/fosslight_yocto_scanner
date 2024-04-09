@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3 python3-datetime python3-misc python3-multiprocessing stress
+RRECOMMENDS = ptest-runner
+PKGSIZE = 14433
+FILES = /usr/lib/rt-tests/ptest
+FILELIST = /usr/lib/rt-tests/ptest/rt_bmark.py /usr/lib/rt-tests/ptest/run-ptest

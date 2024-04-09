@@ -1,8 +1,0 @@
-PV = 2.35.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = util-linux-swapoff util-linux-swapon
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = 
-FILELIST = 

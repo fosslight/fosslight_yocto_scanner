@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/modules
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra/kernel
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra/kernel/sound
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra/kernel/sound/usb
+-rw-r--r-- root       root            53720 ./lib/modules/4.9.140-tegra/kernel/sound/usb/snd-usbmidi-lib.ko

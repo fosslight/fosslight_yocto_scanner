@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           133304 ./usr/lib/libgstplayer-1.0.so.0.1404.0
+lrwxrwxrwx root       root               28 ./usr/lib/libgstplayer-1.0.so.0 -> libgstplayer-1.0.so.0.1404.0

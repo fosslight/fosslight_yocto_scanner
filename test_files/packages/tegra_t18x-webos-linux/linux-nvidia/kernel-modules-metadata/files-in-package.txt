@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/modules
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra
+-rw-r--r-- root       root            37022 ./lib/modules/4.9.140-tegra/modules.alias
+-rw-r--r-- root       root            40479 ./lib/modules/4.9.140-tegra/modules.alias.bin
+-rw-r--r-- root       root            21893 ./lib/modules/4.9.140-tegra/modules.builtin.bin
+-rw-r--r-- root       root            12484 ./lib/modules/4.9.140-tegra/modules.dep
+-rw-r--r-- root       root            16639 ./lib/modules/4.9.140-tegra/modules.dep.bin
+-rw-r--r-- root       root              106 ./lib/modules/4.9.140-tegra/modules.devname
+-rw-r--r-- root       root               55 ./lib/modules/4.9.140-tegra/modules.softdep
+-rw-r--r-- root       root            37846 ./lib/modules/4.9.140-tegra/modules.symbols
+-rw-r--r-- root       root            41102 ./lib/modules/4.9.140-tegra/modules.symbols.bin

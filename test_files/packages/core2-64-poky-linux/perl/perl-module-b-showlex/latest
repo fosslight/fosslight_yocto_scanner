@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-b perl-module-b-concise perl-module-b-terse perl-module-strict
-RRECOMMENDS = 
-PKGSIZE = 5656
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/B/Showlex.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/B/Showlex.pm

@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-tegra-cpu-sysfs
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 12656
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/platform/tegra/tegra_cpu_sysfs.ko /etc/modules-load.d/tegra_cpu_sysfs.conf /etc/modprobe.d/tegra_cpu_sysfs.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/platform/tegra/tegra_cpu_sysfs.ko

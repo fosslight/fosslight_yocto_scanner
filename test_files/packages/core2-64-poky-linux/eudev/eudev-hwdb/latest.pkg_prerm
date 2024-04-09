@@ -1,2 +1,0 @@
-set -e
-        rm -f $D/etc/udev/hwdb.bin

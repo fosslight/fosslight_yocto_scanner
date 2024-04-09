@@ -1,0 +1,8 @@
+PV = 1.5.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = babeltrace (= 1.5.6-r0)
+RRECOMMENDS = glib-2.0-dev glibc-dev popt-dev util-linux-dev util-linux-libuuid-dev
+PKGSIZE = 102270
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/babeltrace/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/babeltrace/babeltrace.h /usr/include/babeltrace/clock-types.h /usr/include/babeltrace/context.h /usr/include/babeltrace/ctf-ir/clock.h /usr/include/babeltrace/ctf-ir/event-class.h /usr/include/babeltrace/ctf-ir/event.h /usr/include/babeltrace/ctf-ir/field-types.h /usr/include/babeltrace/ctf-ir/fields.h /usr/include/babeltrace/ctf-ir/stream-class.h /usr/include/babeltrace/ctf-ir/utils.h /usr/include/babeltrace/ctf-writer/clock.h /usr/include/babeltrace/ctf-writer/event-fields.h /usr/include/babeltrace/ctf-writer/event-types.h /usr/include/babeltrace/ctf-writer/event.h /usr/include/babeltrace/ctf-writer/stream-class.h /usr/include/babeltrace/ctf-writer/stream.h /usr/include/babeltrace/ctf-writer/writer.h /usr/include/babeltrace/ctf/callbacks.h /usr/include/babeltrace/ctf/events.h /usr/include/babeltrace/ctf/iterator.h /usr/include/babeltrace/error.h /usr/include/babeltrace/format.h /usr/include/babeltrace/iterator.h /usr/include/babeltrace/list.h /usr/include/babeltrace/trace-handle.h /usr/lib/libbabeltrace-ctf-metadata.so /usr/lib/libbabeltrace-ctf-text.so /usr/lib/libbabeltrace-ctf.so /usr/lib/libbabeltrace-dummy.so /usr/lib/libbabeltrace-lttng-live.so /usr/lib/libbabeltrace.so /usr/lib/pkgconfig/babeltrace-ctf.pc /usr/lib/pkgconfig/babeltrace.pc

@@ -1,0 +1,8 @@
+PV = 5.24.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 21062
+FILES = /usr/lib/perl/5.24.4/*/*.txt /usr/lib/perl/5.24.4/*/*/*.txt /usr/lib/perl/5.24.4/auto/XS/Typemap /usr/lib/perl/5.24.4/B/assemble /usr/lib/perl/5.24.4/B/cc_harness /usr/lib/perl/5.24.4/B/disassemble /usr/lib/perl/5.24.4/B/makeliblinks /usr/lib/perl/5.24.4/CGI/eg /usr/lib/perl/5.24.4/CPAN/PAUSE2003.pub /usr/lib/perl/5.24.4/CPAN/SIGNATURE /usr/lib/perl/5.24.4/CPANPLUS/Shell/Default/Plugins/HOWTO.pod /usr/lib/perl/5.24.4/Encode/encode.h /usr/lib/perl/5.24.4/ExtUtils/MANIFEST.SKIP /usr/lib/perl/5.24.4/ExtUtils/NOTES /usr/lib/perl/5.24.4/ExtUtils/PATCHING /usr/lib/perl/5.24.4/ExtUtils/typemap /usr/lib/perl/5.24.4/ExtUtils/xsubpp /usr/lib/perl/5.24.4/ExtUtils/Changes_EU-Install /usr/lib/perl/5.24.4/Net/*.eg /usr/lib/perl/5.24.4/unicore/mktables /usr/lib/perl/5.24.4/unicore/mktables.lst /usr/lib/perl/5.24.4/unicore/version
+FILELIST = /usr/lib/perl/5.24.4/Encode/encode.h /usr/lib/perl/5.24.4/ExtUtils/MANIFEST.SKIP /usr/lib/perl/5.24.4/ExtUtils/typemap /usr/lib/perl/5.24.4/ExtUtils/xsubpp /usr/lib/perl/5.24.4/unicore/version

@@ -1,0 +1,5 @@
+PV = 1.8.22
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = sudo-dbg sudo-staticdev sudo-dev sudo-doc sudo sudo-locale-ca sudo-locale-cs sudo-locale-da sudo-locale-de sudo-locale-el sudo-locale-eo sudo-locale-es sudo-locale-eu sudo-locale-fi sudo-locale-fr sudo-locale-fur sudo-locale-gl sudo-locale-hr sudo-locale-hu sudo-locale-it sudo-locale-ja sudo-locale-ko sudo-locale-lt sudo-locale-nb sudo-locale-nl sudo-locale-nn sudo-locale-pl sudo-locale-pt-br sudo-locale-ru sudo-locale-sk sudo-locale-sl sudo-locale-sr sudo-locale-sv sudo-locale-tr sudo-locale-uk sudo-locale-vi sudo-locale-zh-cn
+LAYER = coconut-layer

@@ -1,5 +1,0 @@
-PV = 3.0
-PR = r2
-DEPENDS = virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = zip-src zip-dbg zip-staticdev zip-dev zip-doc zip-locale zip
-LAYER = core

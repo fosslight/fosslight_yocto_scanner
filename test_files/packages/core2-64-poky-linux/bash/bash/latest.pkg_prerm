@@ -1,4 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  bash /bin/bash.bash
-	update-alternatives --remove  sh /bin/bash.bash

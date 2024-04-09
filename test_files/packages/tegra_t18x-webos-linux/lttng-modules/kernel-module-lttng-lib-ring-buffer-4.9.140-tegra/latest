@@ -1,0 +1,8 @@
+PV = 2.10.9
+PR = r0
+RPROVIDES = kernel-module-lttng-lib-ring-buffer
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 108936
+FILES = /lib/modules/4.9.140-tegra/kernel/lttng-modules/lib/lttng-lib-ring-buffer.ko /etc/modules-load.d/lttng-lib-ring-buffer.conf /etc/modprobe.d/lttng-lib-ring-buffer.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/lttng-modules/lib/lttng-lib-ring-buffer.ko

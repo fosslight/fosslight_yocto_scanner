@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  renice /usr/bin/renice.util-linux

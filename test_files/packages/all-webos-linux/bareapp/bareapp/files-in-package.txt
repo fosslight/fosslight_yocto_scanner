@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/palm
+drwxr-xr-x root       root             4096 ./usr/palm/applications
+drwxr-xr-x root       root             4096 ./usr/palm/applications/bareapp
+-rw-r--r-- root       root              240 ./usr/palm/applications/bareapp/appinfo.json
+-rw-r--r-- root       root             1306 ./usr/palm/applications/bareapp/icon.png
+-rw-r--r-- root       root           410361 ./usr/palm/applications/bareapp/img.jpg
+-rw-r--r-- root       root              676 ./usr/palm/applications/bareapp/index.html
+-rw-r--r-- root       root             2055 ./usr/palm/applications/bareapp/README.md
+drwxr-xr-x root       root             4096 ./usr/share
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/client-permissions.d
+-rw-rw-r-- root       root               46 ./usr/share/luna-service2/client-permissions.d/bareapp.app.json
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/manifests.d
+-rw-rw-r-- root       root              245 ./usr/share/luna-service2/manifests.d/bareapp.manifest.json
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/roles.d
+-rw-rw-r-- root       root              243 ./usr/share/luna-service2/roles.d/bareapp.app.json

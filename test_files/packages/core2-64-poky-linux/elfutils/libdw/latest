@@ -1,9 +1,0 @@
-PV = 0.179
-PR = r0
-PKG = libdw1
-RPROVIDES = libdw (=0.179)
-RDEPENDS = glibc (>= 2.31+git0+1094741224) libelf (>= 0.179) zlib (>= 1.2.11)
-RRECOMMENDS = 
-PKGSIZE = 650174
-FILES = /usr/lib/libdw-0.179.so /usr/lib/libdw.so.* /usr/lib/elfutils/lib*
-FILELIST = /usr/lib/libdw-0.179.so /usr/lib/libdw.so.1

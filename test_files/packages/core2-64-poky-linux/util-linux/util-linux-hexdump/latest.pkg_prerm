@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  hexdump /usr/bin/hexdump.util-linux

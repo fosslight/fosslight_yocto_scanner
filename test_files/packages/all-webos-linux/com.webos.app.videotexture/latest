@@ -1,0 +1,5 @@
+PV = 1.0.0-97
+PR = r5.0
+DEPENDS = cmake-modules-webos-native cmake-native ninja-native
+PACKAGES = com.webos.app.videotexture-dbg com.webos.app.videotexture-staticdev com.webos.app.videotexture-dev com.webos.app.videotexture-doc com.webos.app.videotexture-locale com.webos.app.videotexture
+LAYER = meta-webos-tegra

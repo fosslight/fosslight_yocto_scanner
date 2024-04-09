@@ -1,0 +1,5 @@
+PV = 2.0.1-1
+PR = r3
+DEPENDS = cmake-modules-webos-native cmake-native ninja-native pkgconfig-native
+PACKAGES = cpushareholder-stub-dbg cpushareholder-stub-staticdev cpushareholder-stub-dev cpushareholder-stub-doc cpushareholder-stub-locale cpushareholder-stub
+LAYER = meta-webos

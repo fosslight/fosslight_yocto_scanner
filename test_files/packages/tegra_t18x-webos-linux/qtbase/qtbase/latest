@@ -1,0 +1,10 @@
+PV = 5.12.6+gitAUTOINC+f0b93f7a4b
+PR = r0
+PKGV = 5.12.6+git0+f0b93f7a4b
+PKGR = r0webos70lpdnvidia13-webos1webostegra2
+RPROVIDES = 
+RDEPENDS = babeltrace fontconfig (>= 2.12.6) freetype (>= 2.9.1) glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) harfbuzz (>= 1.7.5) libdrm-nv (>= 1.0) libgcc (>= 8.2.0) libicui18n (>= 62.1) libicuuc (>= 62.1) libpng (>= 1.6.37) libssl libstdc++ (>= 8.2.0) libudev (>= 239) lttng-modules lttng-tools nv-graphics-drivers-egl (>= 1.0) nv-graphics-drivers-glesv2 (>= 1.0) nyx-lib (>= 7.3.0-2) xkeyboard-config zlib (>= 1.2.11)
+RRECOMMENDS = qtbase-plugins qtbase-qmlplugins
+PKGSIZE = 15056414
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtbase /usr/lib/qtbase/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec
+FILELIST = /usr/lib/libQt5Concurrent.so.5 /usr/lib/libQt5Concurrent.so.5.12 /usr/lib/libQt5Concurrent.so.5.12.6 /usr/lib/libQt5Core.so.5 /usr/lib/libQt5Core.so.5.12 /usr/lib/libQt5Core.so.5.12.6 /usr/lib/libQt5EglFSDeviceIntegration.so.5 /usr/lib/libQt5EglFSDeviceIntegration.so.5.12 /usr/lib/libQt5EglFSDeviceIntegration.so.5.12.6 /usr/lib/libQt5EglFsKmsSupport.so.5 /usr/lib/libQt5EglFsKmsSupport.so.5.12 /usr/lib/libQt5EglFsKmsSupport.so.5.12.6 /usr/lib/libQt5Gui.so.5 /usr/lib/libQt5Gui.so.5.12 /usr/lib/libQt5Gui.so.5.12.6 /usr/lib/libQt5Network.so.5 /usr/lib/libQt5Network.so.5.12 /usr/lib/libQt5Network.so.5.12.6 /usr/lib/libQt5Sql.so.5 /usr/lib/libQt5Sql.so.5.12 /usr/lib/libQt5Sql.so.5.12.6 /usr/lib/libQt5Test.so.5 /usr/lib/libQt5Test.so.5.12 /usr/lib/libQt5Test.so.5.12.6 /usr/lib/libQt5Xml.so.5 /usr/lib/libQt5Xml.so.5.12 /usr/lib/libQt5Xml.so.5.12.6

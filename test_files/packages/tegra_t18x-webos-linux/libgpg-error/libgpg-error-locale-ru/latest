@@ -1,0 +1,8 @@
+PV = 1.28
+PR = r0
+RPROVIDES = libgpg-error-locale ru-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ru
+PKGSIZE = 35566
+FILES = /usr/share/locale/ru
+FILELIST = /usr/share/locale/ru/LC_MESSAGES/libgpg-error.mo

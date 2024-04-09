@@ -1,0 +1,8 @@
+PV = 1.0.22-3
+PR = r22
+RPROVIDES = 
+RDEPENDS = settingsservice (= 1.0.22-3-r22)
+RRECOMMENDS = boost-dev busybox-dev glib-2.0-dev glibc-dev glibmm-dev libbson-dev libcrypto-dev libgcc-dev libpbnjson-dev libstdc++-dev luna-service2-dev openssl-dev pmloglib-dev python-dev settingsservice-conf-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/settingsservice/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

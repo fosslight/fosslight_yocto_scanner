@@ -1,0 +1,5 @@
+PV = 5.12.6+gitAUTOINC+f0b93f7a4b
+PR = r0
+DEPENDS = drm drm fontconfig freetype glib-2.0 harfbuzz icecc-create-env-native icu jpeg libinput libpng libxkbcommon libxkbcommon lttng-ust lttng-ust nv-graphics-drivers nv-graphics-drivers nyx-lib openssl qtbase-native ref-hw-chipset-drivers ref-hw-chipset-drivers sqlite3 tslib udev virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/egl virtual/egl virtual/libc virtual/libgles2 wayland wayland wayland-egl wayland-egl zlib
+PACKAGES = qtbase-ptest qtbase-qmldesigner qtbase-qmlplugins qtbase-tools qtbase-plugins qtbase-mkspecs qtbase-examples qtbase-dbg qtbase-staticdev qtbase-dev qtbase-doc qtbase-locale qtbase
+LAYER = qt5-layer

@@ -1,0 +1,10 @@
+PV = 2.0.2+AUTOINC+bc63d36e39
+PR = r0
+PKGV = 2.0.2+0+bc63d36e39
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 949462
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mtd-utils /usr/lib/mtd-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/sbin/flash_erase /usr/sbin/flash_eraseall.mtd-utils /usr/sbin/flash_lock.mtd-utils /usr/sbin/flash_otp_dump /usr/sbin/flash_otp_info /usr/sbin/flash_otp_lock /usr/sbin/flash_otp_write /usr/sbin/flash_unlock.mtd-utils /usr/sbin/flashcp.mtd-utils /usr/sbin/mtd_debug /usr/sbin/mtdinfo /usr/sbin/mtdpart /usr/sbin/nanddump.mtd-utils /usr/sbin/nandtest /usr/sbin/nandwrite.mtd-utils

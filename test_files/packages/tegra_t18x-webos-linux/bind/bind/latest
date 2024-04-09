@@ -1,0 +1,9 @@
+PV = 9.11.5-P4
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = base-files base-passwd bind-libs (>= 9.11.5-P4) busybox glibc (>= 2.28) libcap (>= 2.25) libcrypto (>= 1.1.1d) readline (>= 7.0) shadow zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 2266202
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/bind /usr/lib/bind/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/sbin/generate-rndc-key.sh /lib/systemd/system/named.service
+FILELIST = /etc/bind/bind.keys /etc/bind/db.0 /etc/bind/db.127 /etc/bind/db.255 /etc/bind/db.empty /etc/bind/db.local /etc/bind/db.root /etc/bind/named.conf /etc/bind/named.conf.local /etc/bind/named.conf.options /etc/bind/rndc.conf /etc/bind/zones.rfc1918 /etc/default/bind9 /etc/tmpfiles.d/bind.conf /lib/systemd/system/named.service /usr/bin/arpaname /usr/bin/bind9-config /usr/bin/delv /usr/bin/isc-config.sh /usr/bin/named-rrchecker /usr/bin/nsupdate /usr/sbin/ddns-confgen /usr/sbin/dnssec-dsfromkey /usr/sbin/dnssec-importkey /usr/sbin/dnssec-keyfromlabel /usr/sbin/dnssec-keygen /usr/sbin/dnssec-revoke /usr/sbin/dnssec-settime /usr/sbin/dnssec-signzone /usr/sbin/dnssec-verify /usr/sbin/generate-rndc-key.sh /usr/sbin/genrandom /usr/sbin/isc-hmac-fixup /usr/sbin/lwresd /usr/sbin/named /usr/sbin/named-checkconf /usr/sbin/named-checkzone /usr/sbin/named-compilezone /usr/sbin/named-journalprint /usr/sbin/nsec3hash /usr/sbin/rndc /usr/sbin/rndc-confgen /usr/sbin/tsig-keygen

@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root          1073696 ./usr/lib/libpyzy-1.0.so.0.100.0
+lrwxrwxrwx root       root               22 ./usr/lib/libpyzy-1.0.so.0 -> libpyzy-1.0.so.0.100.0
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pyzy
+drwxr-xr-x root       root             4096 ./usr/share/pyzy/db
+-rw-r--r-- root       root          3432448 ./usr/share/pyzy/db/android.db
+-rw-r--r-- root       root             2907 ./usr/share/pyzy/db/create_index.sql
+-rw-r--r-- root       root             2367 ./usr/share/pyzy/phrases.txt

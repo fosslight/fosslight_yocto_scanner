@@ -1,0 +1,8 @@
+PV = 2.0.0-1
+PR = r3
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg
+PKGSIZE = 68265
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/sbin/.debug/PmKLogDaemon /usr/src/debug/pmklogd/2.0.0-1-r3/build/Configured/src/PmKLogDaemon.c /usr/src/debug/pmklogd/2.0.0-1-r3/build/Configured/src/PmKLogDaemonUtil.c /usr/src/debug/pmklogd/2.0.0-1-r3/git/src/PmKLogDaemon.h

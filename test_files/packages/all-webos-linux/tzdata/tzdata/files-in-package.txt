@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./var
+drwxr-xr-x root       root             4096 ./var/luna
+drwxr-xr-x root       root             4096 ./var/luna/preferences
+lrwxrwxrwx root       root               29 ./var/luna/preferences/localtime -> /usr/share/zoneinfo/Universal
+-rw-r--r-- root       root               10 ./var/luna/preferences/timezone
+drwxr-xr-x root       root             4096 ./var/luna/preferences/zoneinfo
+drwxr-xr-x root       root             4096 ./var/luna/preferences/zoneinfo/Etc
+-rw-r--r-- root       root              114 ./var/luna/preferences/zoneinfo/Etc/Manual

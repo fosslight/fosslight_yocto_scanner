@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root            16768 ./usr/lib/.debug/libwca-support.so.1.0.0
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/wca-support
+drwxr-xr-x root       root             4096 ./usr/src/debug/wca-support/1.0.0-3-r1
+drwxr-xr-x root       root             4096 ./usr/src/debug/wca-support/1.0.0-3-r1/git
+drwxr-xr-x root       root             4096 ./usr/src/debug/wca-support/1.0.0-3-r1/git/src
+-rw-r--r-- root       root             1721 ./usr/src/debug/wca-support/1.0.0-3-r1/git/src/support_none.c

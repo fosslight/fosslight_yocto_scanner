@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-tegra-hv-mtd
+RDEPENDS = kernel-4.9.140-tegra kernel-module-mtd-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 22352
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/mtd/devices/tegra_hv_mtd.ko /etc/modules-load.d/tegra_hv_mtd.conf /etc/modprobe.d/tegra_hv_mtd.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/mtd/devices/tegra_hv_mtd.ko

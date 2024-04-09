@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl
-RRECOMMENDS = 
-PKGSIZE = 2010
-FILES = /usr/lib/perl5/5.30.2/Test2/Event/Skip.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test2/Event/Skip.pm

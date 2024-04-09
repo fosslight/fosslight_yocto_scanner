@@ -1,0 +1,5 @@
+set -e
+	sed '
+		/^hosts:/ !b
+		s/[[:blank:]]\+mdns\(4\|6\)\?\(_minimal\( \[NOTFOUND=return\]\)\?\)\?//g
+		' -i $D/etc/nsswitch.conf

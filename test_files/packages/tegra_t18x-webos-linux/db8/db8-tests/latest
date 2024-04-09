@@ -1,0 +1,8 @@
+PV = 3.2.0-8
+PR = r33
+RPROVIDES = 
+RDEPENDS = boost-chrono (>= 1.68.0) boost-filesystem (>= 1.68.0) boost-program-options (>= 1.68.0) boost-regex (>= 1.68.0) boost-system (>= 1.68.0) busybox db8 (>= 3.2.0-8) glibc (>= 2.28) leveldb (>= 1.20+git0+a53934a3ae) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) pmloglib (>= 3.3.0-4)
+RRECOMMENDS = 
+PKGSIZE = 7860986
+FILES = /usr/lib/db8/tests
+FILELIST = /usr/lib/db8/tests/db-scripts/readme /usr/lib/db8/tests/db-scripts/test_app_private_data.bash /usr/lib/db8/tests/dbclient-perf/plotter/README.md /usr/lib/db8/tests/dbclient-perf/plotter/run.sh /usr/lib/db8/tests/dbgen /usr/lib/db8/tests/generator /usr/lib/db8/tests/gtest_db_core /usr/lib/db8/tests/gtest_dbclient /usr/lib/db8/tests/gtest_dbclient_perf /usr/lib/db8/tests/gtest_leveldb /usr/lib/db8/tests/gtest_mojocore /usr/lib/db8/tests/gtest_sandwich /usr/lib/db8/tests/performance /usr/lib/db8/tests/test_core /usr/lib/db8/tests/test_db_core /usr/lib/db8/tests/test_db_performance /usr/lib/db8/tests/test_db_stress /usr/lib/db8/tests/test_luna_service /usr/lib/db8/tests/volume/data /usr/lib/db8/tests/volume/dbput.bash /usr/lib/db8/tests/volume/readme /usr/lib/db8/tests/volume/runtest.bash

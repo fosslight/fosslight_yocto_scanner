@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67776 ./usr/bin/addr-test
+-rwxr-xr-x root       root            67744 ./usr/bin/dbus-test
+-rwxr-xr-x root       root            67840 ./usr/bin/dhcp-server-test
+-rwxr-xr-x root       root            67832 ./usr/bin/dhcp-test
+-rwxr-xr-x root       root            67848 ./usr/bin/dnsproxy-test
+-rwxr-xr-x root       root            69608 ./usr/bin/iptables-test
+-rwxr-xr-x root       root            67744 ./usr/bin/netlink-test
+-rwxr-xr-x root       root            67744 ./usr/bin/polkit-test
+-rwxr-xr-x root       root            67752 ./usr/bin/private-network-test
+-rwxr-xr-x root       root            67856 ./usr/bin/resolv-test
+-rwxr-xr-x root       root           133880 ./usr/bin/session-test
+-rwxr-xr-x root       root            68504 ./usr/bin/supplicant-test
+-rwxr-xr-x root       root            67744 ./usr/bin/tap-test
+-rwxr-xr-x root       root            68160 ./usr/bin/web-test
+-rwxr-xr-x root       root            67904 ./usr/bin/wpad-test

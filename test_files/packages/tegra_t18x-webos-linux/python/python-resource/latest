@@ -1,0 +1,8 @@
+PV = 2.7.16
+PR = r1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpython2 (>= 2.7.16) python-core
+RRECOMMENDS = 
+PKGSIZE = 68408
+FILES = /usr/lib/python2.7/lib-dynload/resource.so
+FILELIST = /usr/lib/python2.7/lib-dynload/resource.so

@@ -1,0 +1,9 @@
+PV = 1.0
+PR = r0
+PKG = libwayland-egl1
+RPROVIDES = libwayland-egl wayland-egl
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 5976
+FILES = /usr/lib/*.so*
+FILELIST = /usr/lib/libwayland-egl.so /usr/lib/libwayland-egl.so.1 /usr/lib/libwayland-egl.so.1.0.0

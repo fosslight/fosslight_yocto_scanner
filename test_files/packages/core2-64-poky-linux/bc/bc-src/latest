@@ -1,8 +1,0 @@
-PV = 1.07.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 223563
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/bc.h /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/bcdefs.h /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/execute.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/global.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/global.h /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/load.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/main.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/proto.h /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/storage.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/util.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/bc/warranty.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/dc/array.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/dc/dc-proto.h /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/dc/dc.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/dc/dc.h /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/dc/eval.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/dc/misc.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/dc/numeric.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/dc/stack.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/dc/string.c /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/h/getopt.h /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/h/number.h /usr/src/debug/bc/1.07.1-r0/bc-1.07.1/lib/number.c

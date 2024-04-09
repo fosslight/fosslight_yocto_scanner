@@ -1,0 +1,5 @@
+PV = 1.13.0
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native ninja-native pixman virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/libgles2 wayland-native weston
+PACKAGES = wayland-ivi-extension-dbg wayland-ivi-extension-staticdev wayland-ivi-extension-dev wayland-ivi-extension-doc wayland-ivi-extension-locale wayland-ivi-extension
+LAYER = drive5

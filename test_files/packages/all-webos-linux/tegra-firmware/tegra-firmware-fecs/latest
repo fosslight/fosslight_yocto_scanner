@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 636
+FILES = /lib/firmware/*/fecs.bin /lib/firmware/gp10b/fecs_sig.bin /lib/firmware/${DGPU_FIRMWARE_DIR}/gv100/fecs_sig.bin
+FILELIST = /lib/firmware/gp10b/fecs.bin /lib/firmware/gp10b/fecs_sig.bin

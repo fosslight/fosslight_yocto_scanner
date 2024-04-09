@@ -1,0 +1,8 @@
+PV = 2.5.14
+PR = r0
+RPROVIDES = gphoto2-locale it-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-it
+PKGSIZE = 32802
+FILES = /usr/share/locale/it
+FILELIST = /usr/share/locale/it/LC_MESSAGES/gphoto2.mo

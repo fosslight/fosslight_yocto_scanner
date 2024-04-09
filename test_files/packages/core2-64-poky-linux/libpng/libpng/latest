@@ -1,9 +1,0 @@
-PV = 1.6.37
-PR = r0
-PKG = libpng16-16
-RPROVIDES = libpng (=1.6.37)
-RDEPENDS = glibc (>= 2.31+git0+1094741224) zlib (>= 1.2.11)
-RRECOMMENDS = 
-PKGSIZE = 219043
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libpng /usr/lib/libpng/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libpng16.so.16 /usr/lib/libpng16.so.16.37.0

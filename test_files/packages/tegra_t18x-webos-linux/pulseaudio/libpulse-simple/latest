@@ -1,0 +1,9 @@
+PV = 9.0-13
+PR = r20
+PKG = libpulse-simple0
+RPROVIDES = libpulse-simple (=9.0-13)
+RDEPENDS = dbus-lib (>= 1.12.10) glibc (>= 2.28) json-c (>= 0.13.1) libcap (>= 2.25) libpulse (>= 9.0-13) libpulsecommon (>= 9.0-13) libsndfile1 (>= 1.0.28) libsystemd (>= 239)
+RRECOMMENDS = 
+PKGSIZE = 67704
+FILES = /usr/lib/libpulse-simple.so.*
+FILELIST = /usr/lib/libpulse-simple.so.0 /usr/lib/libpulse-simple.so.0.1.0

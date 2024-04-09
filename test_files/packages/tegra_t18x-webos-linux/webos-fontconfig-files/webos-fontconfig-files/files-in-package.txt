@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/fonts
+drwxr-xr-x root       root             4096 ./etc/fonts/conf.d
+lrwxrwxrwx root       root               54 ./etc/fonts/conf.d/31-webos-aliases.conf -> /usr/share/fontconfig/conf.avail/31-webos-aliases.conf
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/fontconfig
+drwxr-xr-x root       root             4096 ./usr/share/fontconfig/conf.avail
+-rw-r--r-- root       root            20518 ./usr/share/fontconfig/conf.avail/31-webos-aliases.conf

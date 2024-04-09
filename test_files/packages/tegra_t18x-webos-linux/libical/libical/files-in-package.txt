@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           198912 ./usr/lib/libical_cxx.so.3.0.6
+lrwxrwxrwx root       root               20 ./usr/lib/libical_cxx.so.3 -> libical_cxx.so.3.0.6
+-rwxr-xr-x root       root           526672 ./usr/lib/libical.so.3.0.6
+lrwxrwxrwx root       root               16 ./usr/lib/libical.so.3 -> libical.so.3.0.6
+-rwxr-xr-x root       root            67840 ./usr/lib/libicalss_cxx.so.3.0.6
+lrwxrwxrwx root       root               22 ./usr/lib/libicalss_cxx.so.3 -> libicalss_cxx.so.3.0.6
+-rwxr-xr-x root       root           133408 ./usr/lib/libicalss.so.3.0.6
+lrwxrwxrwx root       root               18 ./usr/lib/libicalss.so.3 -> libicalss.so.3.0.6
+-rwxr-xr-x root       root           137992 ./usr/lib/libicalvcal.so.3.0.6
+lrwxrwxrwx root       root               20 ./usr/lib/libicalvcal.so.3 -> libicalvcal.so.3.0.6

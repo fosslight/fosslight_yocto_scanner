@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-i18n glibc-localedata-iso14651-t1-pinyin
-RRECOMMENDS = 
-PKGSIZE = 4748
-FILES = /usr/share/i18n/locales/zh_CN
-FILELIST = /usr/share/i18n/locales/zh_CN

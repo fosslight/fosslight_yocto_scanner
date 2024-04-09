@@ -1,0 +1,9 @@
+PV = 1.3.99+gitAUTOINC+ff1837a569
+PR = r1
+PKGV = 1.3.99+git0+ff1837a569
+RPROVIDES = 
+RDEPENDS = com.example.service.iotivity-dev (= 1.3.99+git0+ff1837a569-r1)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/com.example.service.iotivity/*.a
+FILELIST = 

@@ -1,0 +1,5 @@
+PV = 2.2+gitAUTOINC+49956f65bb
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = ptest-runner-dbg ptest-runner-staticdev ptest-runner-dev ptest-runner-doc ptest-runner-locale ptest-runner
+LAYER = core

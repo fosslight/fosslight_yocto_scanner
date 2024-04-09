@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) glibc-gconv glibc-gconv-libjis (>= 2.31)
-RRECOMMENDS = 
-PKGSIZE = 92104
-FILES = /usr/lib/gconv/EUC-JP-MS.so
-FILELIST = /usr/lib/gconv/EUC-JP-MS.so

@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r1-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 83565
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /.debug/init /etc/.debug/set_eth /etc/.debug/set_veth /etc/.debug/svm_fifo_write /usr/src/debug/initshell/1.0-r1-lg1/init.c /usr/src/debug/initshell/1.0-r1-lg1/set_eth.c /usr/src/debug/initshell/1.0-r1-lg1/set_veth.c /usr/src/debug/initshell/1.0-r1-lg1/svm_fifo_write.c

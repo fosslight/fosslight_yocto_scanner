@@ -1,8 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/cmake
-drwxr-xr-x root       root             4096 ./usr/share/cmake/bash-completion
--rw-r--r-- root       root              393 ./usr/share/cmake/bash-completion/bash-completion-config.cmake
--rw-r--r-- root       root              252 ./usr/share/cmake/bash-completion/bash-completion-config-version.cmake
-drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
--rw-r--r-- root       root              328 ./usr/share/pkgconfig/bash-completion.pc

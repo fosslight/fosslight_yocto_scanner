@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos5
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 5336
+FILES = /usr/bin/ldd
+FILELIST = /usr/bin/ldd

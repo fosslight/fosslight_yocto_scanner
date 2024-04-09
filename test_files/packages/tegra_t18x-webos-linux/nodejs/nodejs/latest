@@ -1,0 +1,9 @@
+PV = 8.12.0
+PR = r0
+PKGR = r0webos3
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libcrypto (>= 1.1.1d) libgcc (>= 8.2.0) libicui18n (>= 62.1) libicuuc (>= 62.1) libssl (>= 1.1.1d) libstdc++ (>= 8.2.0) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 17800728
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nodejs /usr/lib/nodejs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/node

@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/modules
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra
+lrwxrwxrwx root       root              110 ./lib/modules/4.9.140-tegra/build -> /soim/osc/yocto/webos/tegra/build-webos/BUILD/work/tegra_t18x-webos-linux/linux-nvidia/4.9-r0-lg1/build/kernel
+lrwxrwxrwx root       root               82 ./lib/modules/4.9.140-tegra/source -> /soim/osc/yocto/webos/tegra/build-webos/BUILD/work-shared/tegra-t18x/kernel-source

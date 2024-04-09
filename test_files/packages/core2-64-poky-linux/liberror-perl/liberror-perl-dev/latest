@@ -1,8 +1,0 @@
-PV = 0.17029
-PR = r0
-RPROVIDES = 
-RDEPENDS = liberror-perl (= 0.17029-r0)
-RRECOMMENDS = perl-dev perl-module-base-dev perl-module-carp-dev perl-module-exporter-dev perl-module-file-spec-dev perl-module-io-handle-dev perl-module-ipc-open3-dev perl-module-lib-dev perl-module-overload-dev perl-module-scalar-util-dev perl-module-strict-dev perl-module-test-more-dev perl-module-vars-dev perl-module-warnings-dev
-PKGSIZE = 0
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/liberror-perl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 

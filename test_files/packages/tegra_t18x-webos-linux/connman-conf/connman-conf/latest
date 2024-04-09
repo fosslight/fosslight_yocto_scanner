@@ -1,0 +1,9 @@
+PV = 1.0
+PR = r2
+PKGR = r2webos2webostegra1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 8616
+FILES = /var/* /usr/share/* /etc/connman /etc
+FILELIST = /etc/connman/main.conf /etc/systemd/system/connman.service /etc/systemd/system/scripts/connman.sh

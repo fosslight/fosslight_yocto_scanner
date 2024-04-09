@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-qspi-mtd
+RDEPENDS = kernel-4.9.140-tegra kernel-module-mtd-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 48848
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/mtd/devices/qspi_mtd.ko /etc/modules-load.d/qspi_mtd.conf /etc/modprobe.d/qspi_mtd.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/mtd/devices/qspi_mtd.ko

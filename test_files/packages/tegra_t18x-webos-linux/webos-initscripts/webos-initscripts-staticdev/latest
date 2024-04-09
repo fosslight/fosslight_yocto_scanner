@@ -1,0 +1,9 @@
+PV = 3.0.0-43
+PR = r12
+PKGR = r12webosupdater1webostegra1
+RPROVIDES = 
+RDEPENDS = webos-initscripts-dev (= 3.0.0-43-r12webosupdater1webostegra1)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/webos-initscripts/*.a
+FILELIST = 

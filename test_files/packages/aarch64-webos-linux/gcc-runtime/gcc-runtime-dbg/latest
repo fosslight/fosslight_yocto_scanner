@@ -1,0 +1,8 @@
+PV = 8.2.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg
+PKGSIZE = 16092159
+FILES = /usr/lib/debug /usr/src/debug /usr/lib/libstdc++.so.*-gdb.py /usr/share/gcc-8.2.0/python/libstdcxx
+FILELIST = /usr/lib/.debug/libatomic.so.1.2.0 /usr/lib/.debug/libgomp.so.1.0.0 /usr/lib/.debug/libitm.so.1.0.0 /usr/lib/.debug/libstdc++.so.6.0.25 /usr/lib/libstdc++.so.6.0.25-gdb.py /usr/share/gcc-8.2.0/python/libstdcxx/__init__.py /usr/share/gcc-8.2.0/python/libstdcxx/v6/__init__.py /usr/share/gcc-8.2.0/python/libstdcxx/v6/printers.py /usr/share/gcc-8.2.0/python/libstdcxx/v6/xmethods.py

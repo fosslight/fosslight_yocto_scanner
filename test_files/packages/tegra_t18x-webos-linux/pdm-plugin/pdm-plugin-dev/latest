@@ -1,0 +1,9 @@
+PV = 1.0.0-2
+PR = r1
+PKG = libpdm-plugin-dev
+RPROVIDES = pdm-plugin-dev (=1.0.0-2)
+RDEPENDS = pdm-plugin (= 1.0.0-2-r1)
+RRECOMMENDS = com.webos.service.pdm-dev glibc-dev libgcc-dev libstdc++-dev
+PKGSIZE = 18
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pdm-plugin/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/lib/libpdm-plugin.so

@@ -1,0 +1,10 @@
+PV = 1.29.3
+PR = r0
+PKGV = 1.29.3-0webos3
+PKGR = r0webos13webosupdater1
+RPROVIDES = bash stat
+RDEPENDS = glibc (>= 2.28) update-alternatives-opkg
+RRECOMMENDS = busybox-udhcpc
+PKGSIZE = 991343
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/busybox /usr/lib/busybox/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /bin/busybox /bin/busybox.nosuid /bin/busybox.suid /bin/sh /etc/busybox.links.nosuid /etc/busybox.links.suid

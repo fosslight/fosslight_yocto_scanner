@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-r--r--r-- root       root            67752 ./usr/lib/libESEnrolleeSDK.so
+-r--r--r-- root       root           330000 ./usr/lib/libHueBundle.so
+-r--r--r-- root       root           264616 ./usr/lib/librcs_client.so
+-r--r--r-- root       root         10094920 ./usr/lib/librcs_common.so
+-r--r--r-- root       root          1313112 ./usr/lib/librcs_container.so
+-r--r--r-- root       root          6752640 ./usr/lib/librcs_server.so

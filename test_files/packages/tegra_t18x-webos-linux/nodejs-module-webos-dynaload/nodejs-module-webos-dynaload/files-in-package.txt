@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/nodejs
+-rwxr-xr-x root       root            68000 ./usr/lib/nodejs/webos.node
+drwxr-xr-x root       root             4096 ./usr/palm
+drwxr-xr-x root       root             4096 ./usr/palm/nodejs
+lrwxrwxrwx root       root               26 ./usr/palm/nodejs/webos.node -> /usr/lib/nodejs/webos.node

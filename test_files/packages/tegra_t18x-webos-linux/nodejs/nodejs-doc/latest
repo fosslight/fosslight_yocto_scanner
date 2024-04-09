@@ -1,0 +1,9 @@
+PV = 8.12.0
+PR = r0
+PKGR = r0webos3
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 18667
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/doc/node/gdbinit /usr/share/doc/node/lldb_commands.py /usr/share/doc/node/lldbinit /usr/share/man/man1/node.1

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-sdbm-file
-RRECOMMENDS = 
-PKGSIZE = 1486
-FILES = /usr/lib/perl5/5.30.2/Memoize/SDBM_File.pm
-FILELIST = /usr/lib/perl5/5.30.2/Memoize/SDBM_File.pm

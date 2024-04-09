@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/nodejs
+-rwxr-xr-x root       root             1005 ./usr/lib/nodejs/palmbus.js
+-rwxr-xr-x root       root           133536 ./usr/lib/nodejs/webos-sysbus.node
+drwxr-xr-x root       root             4096 ./usr/palm
+drwxr-xr-x root       root             4096 ./usr/palm/nodejs
+lrwxrwxrwx root       root               26 ./usr/palm/nodejs/palmbus.js -> /usr/lib/nodejs/palmbus.js
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/manifests.d
+-rw-rw-r-- root       root              163 ./usr/share/luna-service2/manifests.d/nodejs-module-webos-sysbus.manifest.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/roles.d
+-rw-r--r-- root       root              190 ./usr/share/luna-service2/roles.d/com.webos.nodejs.role.json

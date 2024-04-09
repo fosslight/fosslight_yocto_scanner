@@ -1,8 +1,0 @@
-PV = 2.9.10
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) libxml2 (>= 2.9.10)
-RRECOMMENDS = 
-PKGSIZE = 86776
-FILES = /usr/bin/*
-FILELIST = /usr/bin/xmlcatalog /usr/bin/xmllint

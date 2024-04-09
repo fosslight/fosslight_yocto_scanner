@@ -1,0 +1,5 @@
+PV = 1.2.11
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = zlib-ptest zlib-dbg zlib-staticdev zlib-dev zlib-doc zlib-locale zlib
+LAYER = coconut-layer

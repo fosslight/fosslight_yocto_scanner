@@ -1,0 +1,8 @@
+PV = 0.0.25
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 288756
+FILES = /usr/share/fonts /usr/share/fontconfig
+FILELIST = /usr/share/fontconfig/conf.avail/31-cantarell.conf /usr/share/fonts/cantarell/Cantarell-Bold.otf /usr/share/fonts/cantarell/Cantarell-BoldOblique.otf /usr/share/fonts/cantarell/Cantarell-Oblique.otf /usr/share/fonts/cantarell/Cantarell-Regular.otf

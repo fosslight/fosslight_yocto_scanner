@@ -1,0 +1,10 @@
+PE = 1
+PV = 4.14.2
+PR = r0
+PKGR = r0webos3
+RPROVIDES = da-translation rpm-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-da
+PKGSIZE = 27897
+FILES = /usr/share/locale/da
+FILELIST = /usr/share/locale/da/LC_MESSAGES/rpm.mo

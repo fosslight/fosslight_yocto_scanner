@@ -1,0 +1,10 @@
+PV = 5.12.6+gitAUTOINC+179c4b689d
+PR = r0
+PKGV = 5.12.6+git0+179c4b689d
+PKGR = r0webos47
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 12500
+FILES = /usr/lib/mkspecs
+FILELIST = /usr/lib/mkspecs/features/qmlcache.prf /usr/lib/mkspecs/features/qtquickcompiler.prf /usr/lib/mkspecs/modules/qt_lib_packetprotocol_private.pri /usr/lib/mkspecs/modules/qt_lib_qml.pri /usr/lib/mkspecs/modules/qt_lib_qml_private.pri /usr/lib/mkspecs/modules/qt_lib_qmldebug_private.pri /usr/lib/mkspecs/modules/qt_lib_qmldevtools_private.pri /usr/lib/mkspecs/modules/qt_lib_qmltest.pri /usr/lib/mkspecs/modules/qt_lib_qmltest_private.pri /usr/lib/mkspecs/modules/qt_lib_quick.pri /usr/lib/mkspecs/modules/qt_lib_quick_private.pri /usr/lib/mkspecs/modules/qt_lib_quickparticles_private.pri /usr/lib/mkspecs/modules/qt_lib_quickshapes_private.pri

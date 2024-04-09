@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /bin/kill kill /bin/kill.util-linux 80

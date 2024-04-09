@@ -1,8 +1,0 @@
-PV = 2.69
-PR = r11
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/share/locale
-FILELIST = 

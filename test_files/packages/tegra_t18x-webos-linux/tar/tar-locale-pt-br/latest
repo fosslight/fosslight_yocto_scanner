@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = pt-br-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-pt-br
+PKGSIZE = 62176
+FILES = /usr/share/locale/pt_BR
+FILELIST = /usr/share/locale/pt_BR/LC_MESSAGES/tar.mo

@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-ar-eg glibc-localedata-i18n glibc-localedata-iso14651-t1
-RRECOMMENDS = 
-PKGSIZE = 5510
-FILES = /usr/share/i18n/locales/ar_AE
-FILELIST = /usr/share/i18n/locales/ar_AE

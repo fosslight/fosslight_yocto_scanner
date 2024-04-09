@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0-lg1
+DEPENDS = icecc-create-env-native nv-rm-drivers virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = nv-graphics-drivers-egl nv-graphics-drivers-egl-dev nv-graphics-drivers-glesv2 nv-graphics-drivers-glesv2-dev nv-graphics-drivers-nvidia-egl-wayland-dev nv-graphics-drivers-nvidia-egl-wayland nv-graphics-drivers
+LAYER = tegra

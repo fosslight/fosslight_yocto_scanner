@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-encode perl-module-strict perl-module-warnings perl-module-xsloader
-RRECOMMENDS = 
-PKGSIZE = 47849
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/Encode/EBCDIC/EBCDIC.so /usr/lib/perl5/5.30.2/x86_64-linux/Encode/EBCDIC.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Encode/EBCDIC.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/Encode/EBCDIC/EBCDIC.so

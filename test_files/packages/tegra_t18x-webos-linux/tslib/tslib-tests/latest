@@ -1,0 +1,8 @@
+PV = 1.16
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) tslib (>= 1.16)
+RRECOMMENDS = 
+PKGSIZE = 561408
+FILES = /usr/bin/ts_harvest /usr/bin/ts_print /usr/bin/ts_print_raw /usr/bin/ts_print_mt /usr/bin/ts_test /usr/bin/ts_test_mt /usr/bin/ts_verify /usr/bin/ts_finddev
+FILELIST = /usr/bin/ts_finddev /usr/bin/ts_harvest /usr/bin/ts_print /usr/bin/ts_print_mt /usr/bin/ts_print_raw /usr/bin/ts_test /usr/bin/ts_test_mt /usr/bin/ts_verify

@@ -1,0 +1,8 @@
+PV = 1.2.11+git836bfd95fecc0f1511dd66bdbf2b5b61ab8b00b6
+PR = r0
+RPROVIDES = 
+RDEPENDS = go-fsnotify (= 1.2.11+git836bfd95fecc0f1511dd66bdbf2b5b61ab8b00b6-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/go-fsnotify/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

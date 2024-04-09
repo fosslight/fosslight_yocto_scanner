@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/app-shell
+-rwxr-xr-x 1000       1000            67736 ./usr/bin/app-shell/app_shell
+-rwxr-xr-x 1000       1000             5688 ./usr/bin/app-shell/run_app_shell
+-rw-r--r-- 1000       1000           231824 ./usr/bin/app-shell/snapshot_blob.bin
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/client-permissions.d
+-rw-r--r-- root       root              255 ./usr/share/luna-service2/client-permissions.d/app-shell.perm.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/roles.d
+-rw-r--r-- root       root              781 ./usr/share/luna-service2/roles.d/app-shell.role.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/services.d
+-rw-r--r-- root       root               78 ./usr/share/luna-service2/services.d/app-shell.service

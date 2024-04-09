@@ -1,4 +1,0 @@
-drwxr-xr-x -          -                4096 ./etc
--rw-r--r-- -          -               10612 ./etc/login.defs
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  14 ./sysroot-providers/shadow-sysroot

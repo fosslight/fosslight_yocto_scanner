@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = an-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-an
+PKGSIZE = 582
+FILES = /usr/share/locale/an
+FILELIST = /usr/share/locale/an/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/an/LC_MESSAGES/iso_3166.mo

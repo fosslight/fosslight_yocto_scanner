@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/doc
+drwxr-xr-x root       root             4096 ./usr/share/doc/lttng-tools
+-rw-r--r-- root       root           120013 ./usr/share/doc/lttng-tools/ChangeLog
+-rw-r--r-- root       root              734 ./usr/share/doc/lttng-tools/LICENSE
+-rw-r--r-- root       root             1492 ./usr/share/doc/lttng-tools/live-reading-howto.txt
+-rw-r--r-- root       root             8121 ./usr/share/doc/lttng-tools/live-reading-protocol.txt
+-rw-r--r-- root       root             1746 ./usr/share/doc/lttng-tools/python-howto.txt
+-rw-r--r-- root       root             7581 ./usr/share/doc/lttng-tools/quickstart.txt
+-rw-r--r-- root       root             6918 ./usr/share/doc/lttng-tools/README.md
+-rw-r--r-- root       root             2686 ./usr/share/doc/lttng-tools/snapshot-howto.txt
+-rw-r--r-- root       root             3687 ./usr/share/doc/lttng-tools/streaming-howto.txt
+-rw-r--r-- root       root              348 ./usr/share/doc/lttng-tools/valgrind-howto.txt
+drwxr-xr-x root       root             4096 ./usr/share/man
+drwxr-xr-x root       root             4096 ./usr/share/man/man3
+-rw-r--r-- root       root             3167 ./usr/share/man/man3/lttng-health-check.3

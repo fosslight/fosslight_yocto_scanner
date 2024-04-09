@@ -1,0 +1,9 @@
+PV = 7.66.0
+PR = r0
+PKGR = r0webos10
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = c-ares-dbg glibc-dbg libcrypto-dbg libcurl-dbg libssl-dbg zlib-dbg
+PKGSIZE = 89992
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/curl /usr/lib/.debug/libcurl.so.4.6.0

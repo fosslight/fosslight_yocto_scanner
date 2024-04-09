@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = gdbm (>= 1.18.1) glibc (>= 2.31+git0+1094741224) python3-core
-RRECOMMENDS = 
-PKGSIZE = 27600
-FILES = /usr/lib/python3.8/lib-dynload/_gdbm.*.so
-FILELIST = /usr/lib/python3.8/lib-dynload/_gdbm.cpython-38-x86_64-linux-gnu.so

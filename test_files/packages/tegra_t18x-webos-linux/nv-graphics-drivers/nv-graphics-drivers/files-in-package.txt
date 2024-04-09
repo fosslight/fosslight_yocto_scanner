@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             1396 ./usr/include/gearslib.h
+drwxr-xr-x root       root             4096 ./usr/include/KHR
+-rw-r--r-- root       root            10037 ./usr/include/KHR/khrplatform.h
+-rw-r--r-- root       root            17763 ./usr/include/nvgldemo.h
+-rw-r--r-- root       root            10763 ./usr/include/nvtexfont.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               30 ./usr/lib/libnvidia-egl-wayland.so.1 -> libnvidia-egl-wayland.so.1.1.1
+lrwxrwxrwx root       root               26 ./usr/lib/libnvidia-egl-wayland.so -> libnvidia-egl-wayland.so.1
+-rwxrwxr-x root       root         12582360 ./usr/lib/libnvidia-glvkspirv.so.418.00
+-rwxrwxr-x root       root             7656 ./usr/lib/libnvvulkan-producer.so
+-rwxrwxr-x root       root            49536 ./usr/lib/libnvwinsys.so
+-rwxrwxr-x root       root         10691472 ./usr/lib/libvkcore.so.418.00
+lrwxrwxrwx root       root               19 ./usr/lib/libvkcore.so -> libvkcore.so.418.00

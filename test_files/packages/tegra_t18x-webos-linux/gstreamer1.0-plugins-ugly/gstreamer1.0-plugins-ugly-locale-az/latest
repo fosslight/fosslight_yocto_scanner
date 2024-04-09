@@ -1,0 +1,8 @@
+PV = 1.14.4
+PR = r0
+RPROVIDES = az-translation gstreamer1.0-plugins-ugly-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-az
+PKGSIZE = 547
+FILES = /usr/share/locale/az
+FILELIST = /usr/share/locale/az/LC_MESSAGES/gst-plugins-ugly-1.0.mo

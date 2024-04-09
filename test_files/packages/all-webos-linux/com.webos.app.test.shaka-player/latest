@@ -1,0 +1,5 @@
+PV = 1.0.0-97
+PR = r5.0
+DEPENDS = cmake-modules-webos-native cmake-native ninja-native
+PACKAGES = com.webos.app.test.shaka-player-dbg com.webos.app.test.shaka-player-staticdev com.webos.app.test.shaka-player-dev com.webos.app.test.shaka-player-doc com.webos.app.test.shaka-player-locale com.webos.app.test.shaka-player
+LAYER = meta-webos-tegra

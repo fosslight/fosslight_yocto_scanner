@@ -1,0 +1,8 @@
+PV = 1.0.0-4
+PR = r6
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 15004
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/com.palm.service.devmode /usr/lib/com.palm.service.devmode/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services /usr/share/dbus-1/services /usr/share/ls2/roles/prv /usr/share/ls2/roles/pub /usr/share/luna-service2/roles.d /usr/share/luna-service2/services.d /usr/share/luna-service2/client-permissions.d /usr/share/luna-service2/api-permissions.d /usr/share/luna-service2/groups.d /usr/share/luna-service2/manifests.d /usr/palm/services/com.palm.service.devmode/* /var/luna
+FILELIST = /etc/init/devmode.conf /etc/systemd/system/devmode.service /etc/systemd/system/scripts/devmode.sh /usr/palm/services/com.palm.service.devmode/devmode_service.js /usr/palm/services/com.palm.service.devmode/package.json /usr/palm/services/com.palm.service.devmode/services.json /usr/palm/services/com.palm.service.devmode/ssh/webos /usr/palm/services/com.palm.service.devmode/ssh/webos.pub /usr/share/luna-service2/api-permissions.d/com.palm.service.devmode.api.json /usr/share/luna-service2/client-permissions.d/com.palm.service.devmode.perm.json /usr/share/luna-service2/manifests.d/com.palm.service.devmode.manifest.json /usr/share/luna-service2/roles.d/com.palm.service.devmode.role.json /usr/share/luna-service2/roles.d/com.palm.service.devmode.test.role.json /usr/share/luna-service2/services.d/com.palm.service.devmode.service /var/luna/preferences/devmode_enabled

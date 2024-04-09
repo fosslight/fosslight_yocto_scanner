@@ -1,8 +1,0 @@
-PV = 0.179
-PR = r0
-RPROVIDES = 
-RDEPENDS = elfutils (= 0.179-r0) libasm libdw libelf
-RRECOMMENDS = bash-dev coreutils-dev elfutils-binutils-dev glibc-dev glibc-utils-dev libasm-dev libdw-dev libelf-dev libstdc++-dev make-dev zlib-dev
-PKGSIZE = 207536
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/elfutils/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/dwarf.h /usr/include/elfutils/elf-knowledge.h /usr/include/elfutils/known-dwarf.h /usr/include/elfutils/libasm.h /usr/include/elfutils/libdw.h /usr/include/elfutils/libdwelf.h /usr/include/elfutils/libdwfl.h /usr/include/elfutils/version.h /usr/include/gelf.h /usr/include/libelf.h /usr/include/nlist.h /usr/lib/libasm.so /usr/lib/libdw.so /usr/lib/libelf.so /usr/lib/pkgconfig/libdw.pc /usr/lib/pkgconfig/libelf.pc

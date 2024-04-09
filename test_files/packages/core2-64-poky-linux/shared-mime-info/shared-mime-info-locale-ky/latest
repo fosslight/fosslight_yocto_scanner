@@ -1,8 +1,0 @@
-PV = 1.15
-PR = r0
-RPROVIDES = ky-translation shared-mime-info-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-ky
-PKGSIZE = 490
-FILES = /usr/share/locale/ky
-FILELIST = /usr/share/locale/ky/LC_MESSAGES/shared-mime-info.mo

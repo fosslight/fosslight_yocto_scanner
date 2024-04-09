@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) wayland (>= 1.13.0)
+RRECOMMENDS = 
+PKGSIZE = 14026
+FILES = /usr/bin/ /usr/lib/libnvidia-wayland-settings.so /usr/lib/libnvidia-wayland-settings.so.1.1.1 /usr/lib/libnvidia-wayland-settings.so.1
+FILELIST = /usr/bin/nvidia-settings-weston /usr/lib/libnvidia-wayland-settings.so /usr/lib/libnvidia-wayland-settings.so.1 /usr/lib/libnvidia-wayland-settings.so.1.1.1

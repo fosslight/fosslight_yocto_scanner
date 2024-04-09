@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = gez-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-gez
+PKGSIZE = 17826
+FILES = /usr/share/locale/gez
+FILELIST = /usr/share/locale/gez/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/gez/LC_MESSAGES/iso_3166-3.mo /usr/share/locale/gez/LC_MESSAGES/iso_3166.mo /usr/share/locale/gez/LC_MESSAGES/iso_639-2.mo /usr/share/locale/gez/LC_MESSAGES/iso_639-3.mo /usr/share/locale/gez/LC_MESSAGES/iso_639.mo /usr/share/locale/gez/LC_MESSAGES/iso_639_3.mo

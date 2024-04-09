@@ -1,8 +1,0 @@
-PV = 10.1.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = gcc
-RRECOMMENDS = 
-PKGSIZE = 24
-FILES = /usr/bin/cc /usr/bin/gcc /usr/bin/gccbug
-FILELIST = /usr/bin/cc /usr/bin/gcc

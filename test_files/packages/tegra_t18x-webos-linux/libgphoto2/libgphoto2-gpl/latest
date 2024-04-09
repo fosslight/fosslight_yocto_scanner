@@ -1,0 +1,9 @@
+PV = 2.5.17
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libexif (>= 0.6.21) libgphoto2 (>= 2.5.17) libgphotoport (>= 2.5.17) libltdl (>= 2.4.6)
+RRECOMMENDS = 
+PKGSIZE = 147768
+FILES = /usr/lib/libgphoto2*/*/pentax.so
+FILELIST = /usr/lib/libgphoto2/2.5.17/pentax.so

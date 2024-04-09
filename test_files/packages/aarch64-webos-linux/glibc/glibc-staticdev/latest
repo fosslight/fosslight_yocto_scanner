@@ -1,0 +1,10 @@
+PV = 2.28
+PR = r0
+PKG = libc6-staticdev
+PKGR = r0webos5
+RPROVIDES = eglibc-staticdev glibc-staticdev (=2.28) libc-staticdev
+RDEPENDS = glibc-dev (= 2.28-r0webos5)
+RRECOMMENDS = 
+PKGSIZE = 57854176
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/glibc/*.a /usr/lib/*.a /lib/*.a
+FILELIST = /usr/lib/libBrokenLocale.a /usr/lib/libanl.a /usr/lib/libc.a /usr/lib/libdl.a /usr/lib/libg.a /usr/lib/libm.a /usr/lib/libmcheck.a /usr/lib/libpthread.a /usr/lib/libresolv.a /usr/lib/librt.a /usr/lib/libutil.a

@@ -1,0 +1,5 @@
+PV = 40.0.0
+PR = r0
+DEPENDS = icecc-create-env-native python python python-native python-native python-setuptools-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = python-setuptools-dbg python-setuptools-staticdev python-setuptools-dev python-setuptools-doc python-setuptools-locale python-setuptools
+LAYER = core

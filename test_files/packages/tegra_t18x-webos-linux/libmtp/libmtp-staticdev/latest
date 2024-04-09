@@ -1,0 +1,8 @@
+PV = 1.1.16
+PR = r0
+RPROVIDES = 
+RDEPENDS = libmtp-dev (= 1.1.16-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libmtp/*.a
+FILELIST = 

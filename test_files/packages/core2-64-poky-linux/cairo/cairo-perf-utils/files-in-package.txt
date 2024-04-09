@@ -1,6 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root             2955 ./usr/bin/cairo-trace
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/cairo
--rwxr-xr-x root       root           124744 ./usr/lib/cairo/libcairo-trace.so

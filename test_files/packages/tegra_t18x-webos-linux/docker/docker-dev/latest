@@ -1,0 +1,9 @@
+PV = 18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0
+PR = r0
+PKGR = r0webosvirt1
+RPROVIDES = 
+RDEPENDS = docker (= 18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0-r0webosvirt1)
+RRECOMMENDS = base-files-dev base-passwd-dev btrfs-tools-dev busybox-dev compose-file-dev containerd-dev glibc-dev go-capability-dev go-cli-dev go-connections-dev go-context-dev go-dbus-dev go-distribution-dev go-fsnotify-dev go-logrus-dev go-mux-dev go-patricia-dev go-pty-dev go-systemd-dev grpc-go-dev iptables-dev libltdl-dev libsystemd-dev libtool-dev lvm2-dev notary-dev runc-dev shadow-dev shadow-sysroot-dev sqlite3-dev util-linux-dev util-linux-unshare-dev virtual virtual
+PKGSIZE = 0
+FILES = /usr/lib/go/src
+FILELIST = 

@@ -1,0 +1,9 @@
+PV = 9.0-13
+PR = r20
+RPROVIDES = 
+RDEPENDS = alsa-plugins-pulseaudio-conf base-files base-passwd dbus-lib (>= 1.12.10) glibc (>= 2.28) libcap (>= 2.25) libltdl (>= 2.4.6) libpulse (>= 9.0-13) libpulsecommon (>= 9.0-13) libpulsecore (>= 9.0-13) libsndfile1 (>= 1.0.28) libsystemd (>= 239) pulseaudio-lib-bluez5-util pulseaudio-module-alsa-card pulseaudio-module-alsa-sink pulseaudio-module-alsa-source pulseaudio-module-always-sink pulseaudio-module-augment-properties pulseaudio-module-bluetooth-discover pulseaudio-module-bluetooth-policy pulseaudio-module-bluez5-device pulseaudio-module-bluez5-discover pulseaudio-module-card-restore pulseaudio-module-default-device-restore pulseaudio-module-detect pulseaudio-module-device-restore pulseaudio-module-filter-apply pulseaudio-module-filter-heuristics pulseaudio-module-intended-roles pulseaudio-module-native-protocol-unix pulseaudio-module-null-sink pulseaudio-module-null-source pulseaudio-module-palm-policy pulseaudio-module-position-event-sounds pulseaudio-module-rescue-streams pulseaudio-module-role-cork pulseaudio-module-rtp-recv pulseaudio-module-rtp-send pulseaudio-module-stream-restore pulseaudio-module-suspend-on-idle pulseaudio-module-switch-on-port-available pulseaudio-module-udev-detect shadow
+RRECOMMENDS = 
+RREPLACES = libpulse-bin libpulse-conf
+PKGSIZE = 221075
+FILES = /usr/bin/pulseaudio /usr/bin/start-* /etc /usr/bin/pactl */udev/rules.d/*.rules */*/udev/rules.d/*.rules /usr/lib/systemd/user/*
+FILELIST = /etc/dbus-1/system.d/pulseaudio-system.conf /etc/default/volatiles/volatiles.04_pulse /etc/pulse/daemon.conf /etc/pulse/default.pa /etc/pulse/system.pa /etc/systemd/system/pulseaudio.service /lib/udev/rules.d/90-pulseaudio.rules /usr/bin/pactl /usr/bin/pulseaudio /usr/lib/systemd/user/pulseaudio.service /usr/lib/systemd/user/pulseaudio.socket

@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = go-context-dbg go-context-staticdev go-context-dev go-context-doc go-context-locale go-context
+LAYER = virtualization-layer

@@ -1,0 +1,5 @@
+PV = 3.0.2-3
+PR = r7
+DEPENDS = boost cmake-modules-webos-native cmake-native icecc-create-env-native libpbnjson ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = mojoservicelauncher-dbg mojoservicelauncher-staticdev mojoservicelauncher-dev mojoservicelauncher-doc mojoservicelauncher-locale mojoservicelauncher
+LAYER = meta-webos

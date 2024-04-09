@@ -1,7 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                   9 ./sysroot-providers/coreutils
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/lib
-drwxr-xr-x -          -                4096 ./usr/lib/coreutils
--rwxr-xr-x -          -               14040 ./usr/lib/coreutils/libstdbuf.so
-drwxr-xr-x -          -                4096 ./usr/share

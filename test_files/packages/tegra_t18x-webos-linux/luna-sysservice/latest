@@ -1,0 +1,5 @@
+PV = 4.4.0-6
+PR = r6
+DEPENDS = cmake-modules-webos-native cmake-native icecc-create-env-native libpbnjson libwebosi18n libxml2 luna-service2 ninja-native nyx-lib pkgconfig-native pmloglib qtbase sqlite3 uriparser virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = luna-sysservice-dbg luna-sysservice-staticdev luna-sysservice-dev luna-sysservice-doc luna-sysservice-locale luna-sysservice
+LAYER = meta-webos

@@ -1,8 +1,0 @@
-PV = 2.34
-PR = r0
-RPROVIDES = binutils-locale ca-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-ca
-PKGSIZE = 155223
-FILES = /usr/share/locale/ca
-FILELIST = /usr/share/locale/ca/LC_MESSAGES/binutils.mo

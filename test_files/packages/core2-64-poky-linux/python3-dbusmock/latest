@@ -1,5 +1,0 @@
-PV = 0.19
-PR = r0
-DEPENDS = python3 python3-native python3-native python3-setuptools-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = python3-dbusmock-src python3-dbusmock-dbg python3-dbusmock-staticdev python3-dbusmock-dev python3-dbusmock-doc python3-dbusmock-locale python3-dbusmock
-LAYER = core

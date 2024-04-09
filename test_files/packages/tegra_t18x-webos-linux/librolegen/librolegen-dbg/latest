@@ -1,0 +1,8 @@
+PV = 2.1.0-1
+PR = r5
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libgcc-dbg libstdc++-dbg
+PKGSIZE = 352385
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/librolegen.so.2.1.0 /usr/src/debug/librolegen/2.1.0-1-r5/build/Configured/src/rolegen.cpp /usr/src/debug/librolegen/2.1.0-1-r5/git/include/public/rolegen.h

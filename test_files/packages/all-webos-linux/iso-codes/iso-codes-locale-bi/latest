@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = bi-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-bi
+PKGSIZE = 580
+FILES = /usr/share/locale/bi
+FILELIST = /usr/share/locale/bi/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/bi/LC_MESSAGES/iso_3166.mo

@@ -1,0 +1,5 @@
+PV = 3.100
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native icecc-create-env-native libtool-cross libtool-native ncurses pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = lame-dbg lame-staticdev lame-dev lame-doc lame-locale lame libmp3lame libmp3lame-dev
+LAYER = coconut-layer

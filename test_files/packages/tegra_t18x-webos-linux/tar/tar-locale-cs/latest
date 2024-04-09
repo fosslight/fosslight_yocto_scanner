@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = cs-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-cs
+PKGSIZE = 63100
+FILES = /usr/share/locale/cs
+FILELIST = /usr/share/locale/cs/LC_MESSAGES/tar.mo

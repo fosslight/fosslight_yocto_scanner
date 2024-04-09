@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/perl
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto/I18N
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto/I18N/Langinfo
+-r-xr-xr-x root       root            67744 ./usr/lib/perl/5.24.4/auto/I18N/Langinfo/Langinfo.so
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/I18N
+-r--r--r-- root       root             4044 ./usr/lib/perl/5.24.4/I18N/Langinfo.pm

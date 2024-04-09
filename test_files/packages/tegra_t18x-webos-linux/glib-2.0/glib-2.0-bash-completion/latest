@@ -1,0 +1,12 @@
+PE = 1
+PV = 2.58.0
+PR = r0
+PKG = libglib-2.0-bash-completion
+PKGV = 2.58.0-0webos4
+PKGR = r0webos4
+RPROVIDES = glib-2.0-bash-completion (=2.58.0-0webos4)
+RDEPENDS = bash-completion
+RRECOMMENDS = 
+PKGSIZE = 10294
+FILES = /usr/share/bash-completion /etc/bash_completion.d
+FILELIST = /usr/share/bash-completion/completions/gapplication /usr/share/bash-completion/completions/gdbus /usr/share/bash-completion/completions/gio /usr/share/bash-completion/completions/gresource /usr/share/bash-completion/completions/gsettings

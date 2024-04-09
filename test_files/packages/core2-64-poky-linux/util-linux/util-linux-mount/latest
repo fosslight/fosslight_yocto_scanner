@@ -1,8 +1,0 @@
-PV = 2.35.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) update-alternatives-opkg util-linux-libmount (>= 2.35.1)
-RRECOMMENDS = 
-PKGSIZE = 55380
-FILES = /etc/default/mountall /bin/mount.util-linux
-FILELIST = /bin/mount.util-linux /etc/default/mountall

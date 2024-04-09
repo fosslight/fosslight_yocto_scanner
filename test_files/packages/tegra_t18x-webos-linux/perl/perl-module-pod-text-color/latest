@@ -1,0 +1,8 @@
+PV = 5.24.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-pod-text perl-module-strict perl-module-term-ansicolor perl-module-vars perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 4488
+FILES = /usr/lib/perl/5.24.4/Pod/Text/Color.pm
+FILELIST = /usr/lib/perl/5.24.4/Pod/Text/Color.pm

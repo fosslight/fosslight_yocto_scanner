@@ -1,0 +1,8 @@
+PV = 4.0.2-8
+PR = r8
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libgcc-dbg libpbnjson-dbg libstdc++-dbg luna-prefs-dbg luna-service2-dbg pmloglib-dbg
+PKGSIZE = 818161
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/librdx.so.4.0.2 /usr/sbin/.debug/rdx_reporter /usr/sbin/.debug/rdxd /usr/src/debug/rdxd/4.0.2-8-r8/git/include/internal/config.h /usr/src/debug/rdxd/4.0.2-8-r8/git/include/internal/contextlogs.h /usr/src/debug/rdxd/4.0.2-8-r8/git/include/internal/globals.h /usr/src/debug/rdxd/4.0.2-8-r8/git/include/internal/librdxlog.h /usr/src/debug/rdxd/4.0.2-8-r8/git/include/internal/log.h /usr/src/debug/rdxd/4.0.2-8-r8/git/include/internal/logging.h /usr/src/debug/rdxd/4.0.2-8-r8/git/include/internal/util.h /usr/src/debug/rdxd/4.0.2-8-r8/git/include/internal/watch.h /usr/src/debug/rdxd/4.0.2-8-r8/git/include/public/rdx.h /usr/src/debug/rdxd/4.0.2-8-r8/git/src/librdx/librdxlog.c /usr/src/debug/rdxd/4.0.2-8-r8/git/src/librdx/rdx.c /usr/src/debug/rdxd/4.0.2-8-r8/git/src/rdx_reporter/main.c /usr/src/debug/rdxd/4.0.2-8-r8/git/src/rdxd/config.cpp /usr/src/debug/rdxd/4.0.2-8-r8/git/src/rdxd/contextlogs.c /usr/src/debug/rdxd/4.0.2-8-r8/git/src/rdxd/log.c /usr/src/debug/rdxd/4.0.2-8-r8/git/src/rdxd/logging.c /usr/src/debug/rdxd/4.0.2-8-r8/git/src/rdxd/main.cpp /usr/src/debug/rdxd/4.0.2-8-r8/git/src/rdxd/util.c /usr/src/debug/rdxd/4.0.2-8-r8/git/src/rdxd/watch.c

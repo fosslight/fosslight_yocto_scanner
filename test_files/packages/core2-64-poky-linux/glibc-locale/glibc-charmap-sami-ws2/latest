@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 3003
-FILES = /usr/share/i18n/charmaps/SAMI-WS2.gz
-FILELIST = /usr/share/i18n/charmaps/SAMI-WS2.gz

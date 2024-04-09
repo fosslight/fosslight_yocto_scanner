@@ -1,0 +1,10 @@
+PV = 2.28
+PR = r0
+PKG = libc6-thread-db
+PKGR = r0webos5
+RPROVIDES = eglibc-thread-db glibc-thread-db (=2.28)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 35563
+FILES = /lib/libthread_db.so.* /lib/libthread_db-*.so
+FILELIST = /lib/libthread_db-1.0.so /lib/libthread_db.so.1

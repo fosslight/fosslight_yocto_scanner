@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-class-struct perl-module-constant perl-module-exporter perl-module-fcntl perl-module-overload perl-module-strict perl-module-warnings perl-module-warnings-register
-RRECOMMENDS = 
-PKGSIZE = 10221
-FILES = /usr/lib/perl5/5.30.2/File/stat.pm
-FILELIST = /usr/lib/perl5/5.30.2/File/stat.pm

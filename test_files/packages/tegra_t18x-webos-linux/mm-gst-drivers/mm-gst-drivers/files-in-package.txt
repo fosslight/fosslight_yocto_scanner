@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/gstreamer-1.0
+-rwxrwxr-x root       root           372376 ./usr/lib/gstreamer-1.0/libgstnvmedia-1.0.so

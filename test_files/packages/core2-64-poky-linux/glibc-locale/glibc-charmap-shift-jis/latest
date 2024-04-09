@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 42081
-FILES = /usr/share/i18n/charmaps/SHIFT_JIS.gz
-FILELIST = /usr/share/i18n/charmaps/SHIFT_JIS.gz

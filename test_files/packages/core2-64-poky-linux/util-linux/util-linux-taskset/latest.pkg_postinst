@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /usr/bin/taskset taskset /usr/bin/taskset.util-linux 80

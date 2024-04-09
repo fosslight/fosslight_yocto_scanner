@@ -1,0 +1,9 @@
+set -e
+	sed '
+		/^hosts:/ !b
+		/\<mdns\(4\|6\)\?\(_minimal\)\?\>/ b
+		s/\([[:blank:]]\+\)dns\>/\1mdns4_minimal [NOTFOUND=return] dns/g
+		' -i $D/etc/nsswitch.conf
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

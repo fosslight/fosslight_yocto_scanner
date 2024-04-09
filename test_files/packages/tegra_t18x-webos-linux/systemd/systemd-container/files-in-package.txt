@@ -1,0 +1,27 @@
+drwxr-xr-x root       root             4096 ./bin
+-rwxr-xr-x root       root           133520 ./bin/machinectl
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+lrwxrwxrwx root       root               24 ./lib/systemd/system/dbus-org.freedesktop.machine1.service -> systemd-machined.service
+-rwxr-xr-x root       root           133464 ./lib/systemd/systemd-machined
+-rw-r--r-- root       root              445 ./lib/systemd/system/machine.slice
+-rw-r--r-- root       root              462 ./lib/systemd/system/machines.target
+-rw-r--r-- root       root             1280 ./lib/systemd/system/systemd-machined.service
+-rw-r--r-- root       root             1525 ./lib/systemd/system/systemd-nspawn@.service
+-rw-r--r-- root       root              515 ./lib/systemd/system/var-lib-machines.mount
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root           264824 ./usr/bin/systemd-nspawn
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/tmpfiles.d
+-rw-r--r-- root       root              976 ./usr/lib/tmpfiles.d/systemd-nspawn.conf
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/dbus-1
+drwxr-xr-x root       root             4096 ./usr/share/dbus-1/system.d
+-rw-r--r-- root       root            11055 ./usr/share/dbus-1/system.d/org.freedesktop.machine1.conf
+drwxr-xr-x root       root             4096 ./usr/share/dbus-1/system-services
+-rw-r--r-- root       root              457 ./usr/share/dbus-1/system-services/org.freedesktop.machine1.service
+drwxr-xr-x root       root             4096 ./usr/share/polkit-1
+drwxr-xr-x root       root             4096 ./usr/share/polkit-1/actions
+-rw-r--r-- root       root             5534 ./usr/share/polkit-1/actions/org.freedesktop.machine1.policy

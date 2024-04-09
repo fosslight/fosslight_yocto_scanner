@@ -1,0 +1,8 @@
+PV = 3.0.0-1
+PR = r3
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg pmloglib-dbg
+PKGSIZE = 172503
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/PmLogCtl /usr/src/debug/pmlogctl/3.0.0-1-r3/build/Configured/src/PmLogView.c /usr/src/debug/pmlogctl/3.0.0-1-r3/git/src/PmLogCtl.c /usr/src/debug/pmlogctl/3.0.0-1-r3/git/src/PmLogCtl.h /usr/src/debug/pmlogctl/3.0.0-1-r3/git/src/PmLogCtlUtil.c

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-autodie-scope-guardstack perl-module-exporter perl-module-strict perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 7743
-FILES = /usr/lib/perl5/5.30.2/autodie/Util.pm
-FILELIST = /usr/lib/perl5/5.30.2/autodie/Util.pm

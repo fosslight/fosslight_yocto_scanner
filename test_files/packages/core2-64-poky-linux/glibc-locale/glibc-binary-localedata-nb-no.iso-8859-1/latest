@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 318124
-FILES = /usr/lib/locale/nb_NO.ISO-8859-1
-FILELIST = /usr/lib/locale/nb_NO.ISO-8859-1/LC_ADDRESS /usr/lib/locale/nb_NO.ISO-8859-1/LC_COLLATE /usr/lib/locale/nb_NO.ISO-8859-1/LC_CTYPE /usr/lib/locale/nb_NO.ISO-8859-1/LC_IDENTIFICATION /usr/lib/locale/nb_NO.ISO-8859-1/LC_MEASUREMENT /usr/lib/locale/nb_NO.ISO-8859-1/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/nb_NO.ISO-8859-1/LC_MONETARY /usr/lib/locale/nb_NO.ISO-8859-1/LC_NAME /usr/lib/locale/nb_NO.ISO-8859-1/LC_NUMERIC /usr/lib/locale/nb_NO.ISO-8859-1/LC_PAPER /usr/lib/locale/nb_NO.ISO-8859-1/LC_TELEPHONE /usr/lib/locale/nb_NO.ISO-8859-1/LC_TIME

@@ -1,0 +1,9 @@
+PV = 2.36.11
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-eo
+RPROVIDES = eo-translation gdk-pixbuf-locale gdk-pixbuf-locale-eo (=2.36.11)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eo
+PKGSIZE = 18606
+FILES = /usr/share/locale/eo
+FILELIST = /usr/share/locale/eo/LC_MESSAGES/gdk-pixbuf.mo

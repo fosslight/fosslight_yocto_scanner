@@ -1,0 +1,8 @@
+PV = 1.6.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) iptables-module-xt-standard
+RRECOMMENDS = iptables-modules kernel-module-ip-tables kernel-module-ip-tables kernel-module-ip6-tables kernel-module-ip6table-filter kernel-module-ip6table-mangle kernel-module-ip6table-nat kernel-module-ip6table-raw kernel-module-ip6table-security kernel-module-ipt-masquerade kernel-module-ipt-reject kernel-module-iptable-filter kernel-module-iptable-filter kernel-module-iptable-magle kernel-module-iptable-mangle kernel-module-iptable-nat kernel-module-iptable-nat kernel-module-iptable-raw kernel-module-iptable-security kernel-module-nf-conntrack kernel-module-nf-conntrack-ipv4 kernel-module-nf-defrag-ipv4 kernel-module-nf-nat kernel-module-x-tables kernel-module-xt-checksum kernel-module-xt-conntrack kernel-module-xt-state kernel-module-xt-tcpudp
+PKGSIZE = 408427
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/iptables /usr/lib/iptables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/xtables
+FILELIST = /usr/bin/iptables-xml /usr/lib/libip4tc.so.0 /usr/lib/libip4tc.so.0.1.0 /usr/lib/libip6tc.so.0 /usr/lib/libip6tc.so.0.1.0 /usr/lib/libiptc.so.0 /usr/lib/libiptc.so.0.0.0 /usr/lib/libxtables.so.12 /usr/lib/libxtables.so.12.0.0 /usr/sbin/ip6tables /usr/sbin/ip6tables-restore /usr/sbin/ip6tables-save /usr/sbin/iptables /usr/sbin/iptables-restore /usr/sbin/iptables-save /usr/sbin/xtables-multi

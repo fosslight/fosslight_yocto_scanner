@@ -1,0 +1,27 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/luna-service2
+drwxr-xr-x root       root             4096 ./usr/include/luna-service2++
+-rw-r--r-- root       root             7173 ./usr/include/luna-service2++/call.hpp
+-rw-r--r-- root       root             1693 ./usr/include/luna-service2++/condition_variable.hpp
+-rw-r--r-- root       root             2684 ./usr/include/luna-service2++/error.hpp
+-rw-r--r-- root       root            18034 ./usr/include/luna-service2++/handle.hpp
+-rw-r--r-- root       root             3287 ./usr/include/luna-service2/lunaservice-errors.h
+-rw-r--r-- root       root            16699 ./usr/include/luna-service2/lunaservice.h
+-rw-r--r-- root       root             2163 ./usr/include/luna-service2/lunaservice.hpp
+-rw-r--r-- root       root             2109 ./usr/include/luna-service2/lunaservice-meta.h
+-rw-r--r-- root       root             4583 ./usr/include/luna-service2++/message.hpp
+-rw-r--r-- root       root             1518 ./usr/include/luna-service2/payload.h
+-rw-r--r-- root       root             4547 ./usr/include/luna-service2++/payload.hpp
+-rw-r--r-- root       root             3225 ./usr/include/luna-service2++/server_status.hpp
+-rw-r--r-- root       root             4314 ./usr/include/luna-service2++/subscription.hpp
+lrwxrwxrwx root       root               34 ./usr/include/lunaservice-errors.h -> luna-service2/lunaservice-errors.h
+lrwxrwxrwx root       root               27 ./usr/include/lunaservice.h -> luna-service2/lunaservice.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               21 ./usr/lib/libluna-service2.so -> libluna-service2.so.3
+lrwxrwxrwx root       root               23 ./usr/lib/libluna-service2++.so -> libluna-service2++.so.3
+lrwxrwxrwx root       root               19 ./usr/lib/liblunaservice.so -> libluna-service2.so
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rw-r--r-- root       root              924 ./usr/share/pkgconfig/luna-service2.pc
+-rw-r--r-- root       root              909 ./usr/share/pkgconfig/luna-service2++.pc

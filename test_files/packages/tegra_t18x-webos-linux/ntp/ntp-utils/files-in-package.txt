@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root             2901 ./usr/sbin/calc_tickadj
+-rwxr-xr-x root       root           340136 ./usr/sbin/ntpdc
+-rwxr-xr-x root       root           270392 ./usr/sbin/ntp-keygen
+-rwxr-xr-x root       root           134472 ./usr/sbin/ntptime
+-rwxr-xr-x root       root             3634 ./usr/sbin/ntptrace
+-rwxr-xr-x root       root             3291 ./usr/sbin/ntp-wait
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/ntp
+drwxr-xr-x root       root             4096 ./usr/share/ntp/lib
+drwxr-xr-x root       root             4096 ./usr/share/ntp/lib/NTP
+-rw-r--r-- root       root             3830 ./usr/share/ntp/lib/NTP/Util.pm

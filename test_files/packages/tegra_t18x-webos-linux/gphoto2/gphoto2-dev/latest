@@ -1,0 +1,8 @@
+PV = 2.5.14
+PR = r0
+RPROVIDES = 
+RDEPENDS = gphoto2 (= 2.5.14-r0)
+RRECOMMENDS = glibc-dev libexif-dev libgphoto2-dev libgphotoport-dev popt-dev readline-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gphoto2/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

@@ -1,0 +1,9 @@
+PV = 2.36.11
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-fa
+RPROVIDES = fa-translation gdk-pixbuf-locale gdk-pixbuf-locale-fa (=2.36.11)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fa
+PKGSIZE = 20201
+FILES = /usr/share/locale/fa
+FILELIST = /usr/share/locale/fa/LC_MESSAGES/gdk-pixbuf.mo

@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-tegra-safety
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 30248
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/platform/tegra/tegra-safety.ko /etc/modules-load.d/tegra-safety.conf /etc/modprobe.d/tegra-safety.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/platform/tegra/tegra-safety.ko

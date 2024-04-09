@@ -1,0 +1,9 @@
+PV = 2.32.1
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) util-linux-libblkid (>= 2.32.1) util-linux-libsmartcols (>= 2.32.1)
+RRECOMMENDS = 
+PKGSIZE = 133368
+FILES = /usr/sbin/partx
+FILELIST = /usr/sbin/partx

@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = csb-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-csb
+PKGSIZE = 4535
+FILES = /usr/share/locale/csb
+FILELIST = /usr/share/locale/csb/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/csb/LC_MESSAGES/iso_3166.mo

@@ -1,0 +1,9 @@
+PV = 62.1
+PR = r0
+PKG = libicuuc62
+RPROVIDES = libicuuc (=62.1)
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libicudata (>= 62.1) libstdc++ (>= 8.2.0)
+RRECOMMENDS = 
+PKGSIZE = 1902992
+FILES = /usr/lib/libicuuc.so.*
+FILELIST = /usr/lib/libicuuc.so.62 /usr/lib/libicuuc.so.62.1

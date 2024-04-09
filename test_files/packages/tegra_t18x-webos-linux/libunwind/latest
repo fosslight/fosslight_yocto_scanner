@@ -1,0 +1,5 @@
+PV = 1.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc xz
+PACKAGES = libunwind-dbg libunwind-staticdev libunwind-dev libunwind-doc libunwind-locale libunwind
+LAYER = coconut-layer

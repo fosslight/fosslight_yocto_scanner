@@ -1,0 +1,8 @@
+PV = 4.2.1
+PR = r0
+RPROVIDES = make-locale nl-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-nl
+PKGSIZE = 44149
+FILES = /usr/share/locale/nl
+FILELIST = /usr/share/locale/nl/LC_MESSAGES/make.mo

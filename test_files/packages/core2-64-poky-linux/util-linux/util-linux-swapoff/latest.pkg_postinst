@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /sbin/swapoff swapoff /sbin/swapoff.util-linux 80

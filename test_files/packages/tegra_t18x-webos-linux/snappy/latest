@@ -1,0 +1,5 @@
+PV = 1.1.7
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = snappy-dbg snappy-staticdev snappy-dev snappy-doc snappy-locale snappy
+LAYER = openembedded-layer

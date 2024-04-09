@@ -1,8 +1,0 @@
-PV = 4.8
-PR = r0
-RPROVIDES = nb-translation sed-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-nb
-PKGSIZE = 14285
-FILES = /usr/share/locale/nb
-FILELIST = /usr/share/locale/nb/LC_MESSAGES/sed.mo

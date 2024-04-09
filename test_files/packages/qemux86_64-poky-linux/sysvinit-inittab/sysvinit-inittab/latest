@@ -1,9 +1,0 @@
-PV = 2.88dsf
-PR = r10
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-RCONFLICTS = busybox-inittab
-PKGSIZE = 2876
-FILES = /etc/inittab /bin/start_getty
-FILELIST = /bin/start_getty /etc/inittab

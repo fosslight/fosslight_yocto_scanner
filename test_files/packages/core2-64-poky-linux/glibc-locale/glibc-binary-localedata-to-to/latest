@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2932291
-FILES = /usr/lib/locale/to_TO
-FILELIST = /usr/lib/locale/to_TO/LC_ADDRESS /usr/lib/locale/to_TO/LC_COLLATE /usr/lib/locale/to_TO/LC_CTYPE /usr/lib/locale/to_TO/LC_IDENTIFICATION /usr/lib/locale/to_TO/LC_MEASUREMENT /usr/lib/locale/to_TO/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/to_TO/LC_MONETARY /usr/lib/locale/to_TO/LC_NAME /usr/lib/locale/to_TO/LC_NUMERIC /usr/lib/locale/to_TO/LC_PAPER /usr/lib/locale/to_TO/LC_TELEPHONE /usr/lib/locale/to_TO/LC_TIME

@@ -1,0 +1,8 @@
+PV = 1.0.0-3
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libpbnjson (>= 2.15.0-1) libstdc++ (>= 8.2.0) libwebosi18n (>= 1.0.1-2) pmloglib (>= 3.3.0-4)
+RRECOMMENDS = 
+PKGSIZE = 67864
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/event-monitor-network /usr/lib/event-monitor-network/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/eventmonitor
+FILELIST = /usr/lib/eventmonitor/network-plugin.so

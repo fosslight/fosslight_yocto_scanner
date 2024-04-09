@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root         15472632 ./usr/lib/libcuda.so.1
+lrwxrwxrwx root       root               12 ./usr/lib/libcuda.so -> libcuda.so.1
+-rwxr-xr-x root       root           289704 ./usr/lib/libnvidia-fatbinaryloader.so.418.00
+lrwxrwxrwx root       root               35 ./usr/lib/libnvidia-fatbinaryloader.so -> libnvidia-fatbinaryloader.so.418.00
+lrwxrwxrwx root       root               34 ./usr/lib/libnvidia-ptxjitcompiler.so.1 -> libnvidia-ptxjitcompiler.so.418.00
+-rwxr-xr-x root       root          7551344 ./usr/lib/libnvidia-ptxjitcompiler.so.418.00
+lrwxrwxrwx root       root               29 ./usr/lib/libnvidia-ptxjitcompiler.so -> libnvidia-ptxjitcompiler.so.1

@@ -1,7 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/perl5
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/Test2
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/Test2/Formatter
--r--r--r-- root       root            13562 ./usr/lib/perl5/5.30.2/Test2/Formatter/TAP.pm

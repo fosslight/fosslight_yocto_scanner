@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = virtual-locale-ko virtual-locale-ko-kr.euc-kr
-RDEPENDS = glibc-binary-localedata-ko-kr.euc-kr
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = 
-FILELIST = 

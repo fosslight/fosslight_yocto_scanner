@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r1
+RPROVIDES = 
+RDEPENDS = iotivity-resource
+RRECOMMENDS = 
+PKGSIZE = 16768
+FILES = /usr/palm/services/org.ocf.webossample.* /usr/share/luna-service2
+FILELIST = /usr/palm/services/org.ocf.webossample.occlientbasicops/introspection_swagger.dat /usr/palm/services/org.ocf.webossample.occlientbasicops/introspection_swagger.json /usr/palm/services/org.ocf.webossample.occlientbasicops/oic_svr_db_client.dat /usr/palm/services/org.ocf.webossample.occlientbasicops/oic_svr_db_client.json /usr/palm/services/org.ocf.webossample.occlientbasicops/oic_svr_db_client_rfnop.dat /usr/palm/services/org.ocf.webossample.occlientbasicops/oic_svr_db_client_rfnop.json /usr/palm/services/org.ocf.webossample.occlientbasicops/oic_svr_db_client_rfotm.dat /usr/palm/services/org.ocf.webossample.occlientbasicops/oic_svr_db_client_rfotm.json /usr/share/luna-service2/api-permissions.d/occlientbasicops.api.json /usr/share/luna-service2/client-permissions.d/occlientbasicops.perm.json /usr/share/luna-service2/manifests.d/occlientbasicops.manifest.json /usr/share/luna-service2/roles.d/occlientbasicops.role.json /usr/share/luna-service2/services.d/occlientbasicops.service

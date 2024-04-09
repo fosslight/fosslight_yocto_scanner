@@ -1,0 +1,9 @@
+PV = 2.40.1
+PR = r0
+PKG = libxml++-2.6-2
+RPROVIDES = libxml++ (=2.40.1)
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) glibmm (>= 2.56.0) libgcc (>= 8.2.0) libsigc++-2.0 (>= 2.10.0) libstdc++ (>= 8.2.0) libxml2 (>= 2.9.8)
+RRECOMMENDS = 
+PKGSIZE = 264477
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxml++ /usr/lib/libxml++/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libxml++-2.6.so.2 /usr/lib/libxml++-2.6.so.2.0.7

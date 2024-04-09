@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = ace-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ace
+PKGSIZE = 578
+FILES = /usr/share/locale/ace
+FILELIST = /usr/share/locale/ace/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/ace/LC_MESSAGES/iso_3166.mo

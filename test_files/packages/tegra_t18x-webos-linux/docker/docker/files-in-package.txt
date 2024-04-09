@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root             1148 ./lib/systemd/system/docker.service
+-rw-r--r-- root       root             1140 ./lib/systemd/system/docker.service.rpm
+-rw-r--r-- root       root              197 ./lib/systemd/system/docker.socket
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root         58871176 ./usr/bin/docker
+-rwxr-xr-x root       root         69921328 ./usr/bin/dockerd
+-rwxr-xr-x root       root          5036416 ./usr/bin/docker-proxy

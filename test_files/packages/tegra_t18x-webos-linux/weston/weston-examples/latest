@@ -1,0 +1,9 @@
+PV = 2.0.0
+PR = r0
+PKGR = r0coconut9-webos1
+RPROVIDES = 
+RDEPENDS = cairo (>= 1.14.12) glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libjpeg-turbo (>= 2.0.0) libpng (>= 1.6.37) libxkbcommon (>= 0.8.2) nv-graphics-drivers-egl (>= 1.0) nv-graphics-drivers-glesv2 (>= 1.0) pango (>= 1.42.4) pixman (>= 0.34.0) wayland (>= 1.13.0) wayland-egl (>= 1.0)
+RRECOMMENDS = 
+PKGSIZE = 2623472
+FILES = /usr/bin/*
+FILELIST = /usr/bin/weston-calibrator /usr/bin/weston-clickdot /usr/bin/weston-cliptest /usr/bin/weston-confine /usr/bin/weston-dnd /usr/bin/weston-editor /usr/bin/weston-eventdemo /usr/bin/weston-flower /usr/bin/weston-fullscreen /usr/bin/weston-image /usr/bin/weston-multi-resource /usr/bin/weston-presentation-shm /usr/bin/weston-resizor /usr/bin/weston-scaler /usr/bin/weston-simple-damage /usr/bin/weston-simple-dmabuf-v4l /usr/bin/weston-simple-egl /usr/bin/weston-simple-shm /usr/bin/weston-simple-touch /usr/bin/weston-smoke /usr/bin/weston-stacking /usr/bin/weston-subsurfaces /usr/bin/weston-transformed

@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             8808 ./usr/include/drm_fourcc.h
+-rw-r--r-- root       root            27402 ./usr/include/drm.h
+-rw-r--r-- root       root            14085 ./usr/include/drm_mode.h
+-rw-r--r-- root       root            28507 ./usr/include/xf86drm.h
+-rw-r--r-- root       root            15140 ./usr/include/xf86drmMode.h
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxrwxr-x root       root            82304 ./usr/lib/libdrm.so.2
+lrwxrwxrwx root       root               11 ./usr/lib/libdrm.so -> libdrm.so.2
+-rwxrwxr-x root       root            28832 ./usr/lib/libnvll.so

@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./.debug
+-rwxr-xr-x root       root            18664 ./.debug/init
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/.debug
+-rwxr-xr-x root       root            17192 ./etc/.debug/set_eth
+-rwxr-xr-x root       root            18680 ./etc/.debug/set_veth
+-rwxr-xr-x root       root            13512 ./etc/.debug/svm_fifo_write
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/initshell
+drwxr-xr-x root       root             4096 ./usr/src/debug/initshell/1.0-r1-lg1
+-rw-rw-r-- root       root            10189 ./usr/src/debug/initshell/1.0-r1-lg1/init.c
+-rw-rw-r-- root       root             1507 ./usr/src/debug/initshell/1.0-r1-lg1/set_eth.c
+-rw-rw-r-- root       root             3379 ./usr/src/debug/initshell/1.0-r1-lg1/set_veth.c
+-rw-rw-r-- root       root              442 ./usr/src/debug/initshell/1.0-r1-lg1/svm_fifo_write.c

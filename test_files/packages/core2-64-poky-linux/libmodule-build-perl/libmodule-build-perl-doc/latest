@@ -1,8 +1,0 @@
-PV = 0.4231
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 278102
-FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man1/config_data.1 /usr/share/man/man3/Module::Build.3 /usr/share/man/man3/Module::Build::API.3 /usr/share/man/man3/Module::Build::Authoring.3 /usr/share/man/man3/Module::Build::Base.3 /usr/share/man/man3/Module::Build::Bundling.3 /usr/share/man/man3/Module::Build::Compat.3 /usr/share/man/man3/Module::Build::ConfigData.3 /usr/share/man/man3/Module::Build::Cookbook.3 /usr/share/man/man3/Module::Build::Notes.3 /usr/share/man/man3/Module::Build::PPMMaker.3 /usr/share/man/man3/Module::Build::Platform::Default.3 /usr/share/man/man3/Module::Build::Platform::MacOS.3 /usr/share/man/man3/Module::Build::Platform::Unix.3 /usr/share/man/man3/Module::Build::Platform::VMS.3 /usr/share/man/man3/Module::Build::Platform::VOS.3 /usr/share/man/man3/Module::Build::Platform::Windows.3 /usr/share/man/man3/Module::Build::Platform::aix.3 /usr/share/man/man3/Module::Build::Platform::cygwin.3 /usr/share/man/man3/Module::Build::Platform::darwin.3 /usr/share/man/man3/Module::Build::Platform::os2.3

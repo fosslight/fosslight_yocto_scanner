@@ -1,0 +1,5 @@
+PV = 010
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native libusb1 pkgconfig-native udev virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/libiconv virtual/update-alternatives
+PACKAGES = usbutils-dbg usbutils-staticdev usbutils-dev usbutils-doc usbutils-locale usbutils-python usbutils
+LAYER = core

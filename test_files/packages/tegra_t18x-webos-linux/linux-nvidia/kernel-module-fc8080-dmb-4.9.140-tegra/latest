@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-fc8080-dmb
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 86760
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/misc/fc8080/dmb/fc8080_dmb.ko /etc/modules-load.d/fc8080_dmb.conf /etc/modprobe.d/fc8080_dmb.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/misc/fc8080/dmb/fc8080_dmb.ko

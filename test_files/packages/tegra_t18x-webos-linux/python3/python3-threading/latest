@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = 
+RDEPENDS = python3-core
+RRECOMMENDS = 
+PKGSIZE = 81098
+FILES = /usr/lib/python3.5/_dummy_thread.py /usr/lib/python3.5/_threading_local.py /usr/lib/python3.5/dummy_threading.py /usr/lib/python3.5/queue.py /usr/lib/python3.5/__pycache__/_dummy_thread.*.pyc /usr/lib/python3.5/__pycache__/_threading_local.*.pyc /usr/lib/python3.5/__pycache__/dummy_threading.*.pyc /usr/lib/python3.5/__pycache__/queue.*.pyc
+FILELIST = /usr/lib/python3.5/__pycache__/_dummy_thread.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/_dummy_thread.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/_dummy_thread.cpython-35.pyc /usr/lib/python3.5/__pycache__/_threading_local.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/_threading_local.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/_threading_local.cpython-35.pyc /usr/lib/python3.5/__pycache__/dummy_threading.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/dummy_threading.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/dummy_threading.cpython-35.pyc /usr/lib/python3.5/__pycache__/queue.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/queue.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/queue.cpython-35.pyc /usr/lib/python3.5/_dummy_thread.py /usr/lib/python3.5/_threading_local.py /usr/lib/python3.5/dummy_threading.py /usr/lib/python3.5/queue.py

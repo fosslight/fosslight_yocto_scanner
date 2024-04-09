@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/doc
+drwxr-xr-x root       root             4096 ./usr/share/doc/libsocketcan
+-rw-r--r-- root       root             9240 ./usr/share/doc/libsocketcan/INSTALL
+-rw-r--r-- root       root              681 ./usr/share/doc/libsocketcan/README

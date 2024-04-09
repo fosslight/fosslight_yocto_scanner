@@ -1,0 +1,9 @@
+PV = 3.0+gitAUTOINC+a3e58764f5
+PR = r0
+PKGV = 3.0+git0+a3e58764f5
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 71311
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/compose-file /usr/lib/compose-file/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/local/go/src/github.com/aanand/compose-file/*
+FILELIST = /usr/local/go/src/github.com/aanand/compose-file/LICENSE /usr/local/go/src/github.com/aanand/compose-file/interpolation/interpolation.go /usr/local/go/src/github.com/aanand/compose-file/interpolation/interpolation_test.go /usr/local/go/src/github.com/aanand/compose-file/loader/loader.go /usr/local/go/src/github.com/aanand/compose-file/loader/loader_test.go /usr/local/go/src/github.com/aanand/compose-file/schema/bindata.go /usr/local/go/src/github.com/aanand/compose-file/schema/schema.go /usr/local/go/src/github.com/aanand/compose-file/schema/schema_test.go /usr/local/go/src/github.com/aanand/compose-file/template/template.go /usr/local/go/src/github.com/aanand/compose-file/template/template_test.go /usr/local/go/src/github.com/aanand/compose-file/types/types.go

@@ -1,8 +1,0 @@
-PV = 1.07.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) readline (>= 8.0) update-alternatives-opkg
-RRECOMMENDS = 
-PKGSIZE = 152280
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/bc /usr/lib/bc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/bc.bc /usr/bin/dc.bc

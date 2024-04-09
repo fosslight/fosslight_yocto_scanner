@@ -1,0 +1,8 @@
+PV = 2.62.3
+PR = r0
+RPROVIDES = libsoup-2.4-locale tg-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-tg
+PKGSIZE = 2602
+FILES = /usr/share/locale/tg
+FILELIST = /usr/share/locale/tg/LC_MESSAGES/libsoup.mo

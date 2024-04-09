@@ -1,0 +1,5 @@
+PV = 1.14.0+gitrAUTOINC+17dc1b3102
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = c-ares-utils c-ares-dbg c-ares-staticdev c-ares-dev c-ares-doc c-ares-locale c-ares
+LAYER = networking-layer

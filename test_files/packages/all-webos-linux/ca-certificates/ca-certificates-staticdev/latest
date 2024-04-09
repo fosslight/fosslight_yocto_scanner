@@ -1,0 +1,9 @@
+PV = 20190110
+PR = r0
+PKGR = r0webos3
+RPROVIDES = 
+RDEPENDS = ca-certificates-dev (= 20190110-r0webos3)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/ca-certificates/*.a
+FILELIST = 

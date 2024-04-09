@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+if [ -z "$D" ]; then
+	depmod -a 4.9.140-tegra
+else
+	# image.bbclass will call depmodwrapper after everything is installed,
+	# no need to do it here as well
+	:
+fi
+

@@ -1,9 +1,0 @@
-PV = 2.31+gitAUTOINC+1094741224
-PR = r0
-PKGV = 2.31+git0+1094741224
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 89186
-FILES = /usr/bin/tzselect /usr/sbin/zic /usr/sbin/zdump
-FILELIST = /usr/bin/tzselect /usr/sbin/zdump /usr/sbin/zic

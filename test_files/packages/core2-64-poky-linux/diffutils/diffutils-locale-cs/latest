@@ -1,8 +1,0 @@
-PV = 3.7
-PR = r0
-RPROVIDES = cs-translation diffutils-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-cs
-PKGSIZE = 36309
-FILES = /usr/share/locale/cs
-FILELIST = /usr/share/locale/cs/LC_MESSAGES/diffutils.mo

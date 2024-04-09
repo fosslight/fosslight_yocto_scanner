@@ -1,0 +1,10 @@
+PV = 0.98.0+gitAUTOINC+b2d142f486
+PR = r2
+PKG = libbson-1.0-staticdev
+PKGV = 0.98.0+git0+b2d142f486
+RPROVIDES = libbson-staticdev (=0.98.0+git0+b2d142f486)
+RDEPENDS = libbson-dev (= 0.98.0+git0+b2d142f486-r2)
+RRECOMMENDS = 
+PKGSIZE = 1305530
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libbson/*.a
+FILELIST = /usr/lib/libbson-static-1.0.a

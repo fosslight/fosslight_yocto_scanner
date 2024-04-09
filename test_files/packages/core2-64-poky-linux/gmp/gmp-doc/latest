@@ -1,9 +1,0 @@
-PV = 6.2.0
-PR = r0
-PKG = libgmp-doc
-RPROVIDES = gmp-doc (=6.2.0)
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 525107
-FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/info/gmp.info /usr/share/info/gmp.info-1 /usr/share/info/gmp.info-2

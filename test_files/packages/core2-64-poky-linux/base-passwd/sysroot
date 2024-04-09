@@ -1,9 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  11 ./sysroot-providers/base-passwd
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -                 386 ./usr/bin/postinst-base-passwd
-drwxr-xr-x -          -                4096 ./usr/share
-drwxr-xr-x -          -                4096 ./usr/share/base-passwd
--rw-r--r-- -          -                 483 ./usr/share/base-passwd/group.master
--rw-r--r-- -          -                 719 ./usr/share/base-passwd/passwd.master

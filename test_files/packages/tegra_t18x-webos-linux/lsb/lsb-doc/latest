@@ -1,0 +1,9 @@
+PV = 5.0
+PR = r0
+PKGR = r0webos7
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 1580
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/man/man1/lsb_release.1.gz

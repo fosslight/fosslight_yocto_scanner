@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-pcie-tegra-dw
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 81384
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/pci/host/pcie-tegra-dw.ko /etc/modules-load.d/pcie-tegra-dw.conf /etc/modprobe.d/pcie-tegra-dw.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/pci/host/pcie-tegra-dw.ko

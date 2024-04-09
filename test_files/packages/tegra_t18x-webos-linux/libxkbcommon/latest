@@ -1,0 +1,5 @@
+PV = 0.8.2
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native flex-native gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native util-macros virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libxkbcommon-dbg libxkbcommon-staticdev libxkbcommon-dev libxkbcommon-doc libxkbcommon-locale libxkbcommon
+LAYER = core

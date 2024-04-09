@@ -1,8 +1,0 @@
-PV = 1.4.18
-PR = r0
-RPROVIDES = 
-RDEPENDS = m4 (= 1.4.18-r0)
-RRECOMMENDS = coreutils-dev diffutils-dev glibc-dev locale-base-fr-fr.iso-8859-1-dev make-dev
-PKGSIZE = 0
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/m4/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = 

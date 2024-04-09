@@ -1,3 +1,0 @@
-drwxr-xr-x root       root             4096 ./boot
--rw-r--r-- root       root          8729248 ./boot/bzImage-5.4.40-yocto-standard
-lrwxrwxrwx root       root               29 ./boot/bzImage -> bzImage-5.4.40-yocto-standard

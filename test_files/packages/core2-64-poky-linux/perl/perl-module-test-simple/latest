@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-strict perl-module-test-builder-module
-RRECOMMENDS = 
-PKGSIZE = 6492
-FILES = /usr/lib/perl5/5.30.2/Test/Simple.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test/Simple.pm

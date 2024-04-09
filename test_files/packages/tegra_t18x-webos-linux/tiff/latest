@@ -1,0 +1,5 @@
+PV = 4.0.9
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native jpeg libtool-cross libtool-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc xz zlib
+PACKAGES = tiffxx tiff-utils tiff-dbg tiff-staticdev tiff-dev tiff-doc tiff-locale tiff
+LAYER = coconut-layer

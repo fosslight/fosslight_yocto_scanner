@@ -1,8 +1,0 @@
-PV = 1.1.1g
-PR = r0
-RPROVIDES = 
-RDEPENDS = openssl-conf
-RRECOMMENDS = 
-PKGSIZE = 11761
-FILES = /usr/lib/ssl-1.1/* /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openssl /usr/lib/openssl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/ssl-1.1/ct_log_list.cnf /usr/lib/ssl-1.1/ct_log_list.cnf.dist /usr/lib/ssl-1.1/openssl.cnf /usr/lib/ssl-1.1/openssl.cnf.dist

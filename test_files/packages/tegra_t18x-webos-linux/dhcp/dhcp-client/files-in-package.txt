@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/dhcp
+-rw-r--r-- root       root             1566 ./etc/dhcp/dhclient.conf
+drwxr-xr-x root       root             4096 ./etc/init
+-rw-r--r-- root       root              888 ./etc/init/dhclient.conf
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              285 ./lib/systemd/system/dhclient.service
+drwxr-xr-x root       root             4096 ./sbin
+-rwxr-xr-x root       root           199056 ./sbin/dhclient
+-rwxr-xr-x root       root            16626 ./sbin/dhclient-script
+-rwxr-xr-x root       root              966 ./sbin/dhclient-systemd-wrapper

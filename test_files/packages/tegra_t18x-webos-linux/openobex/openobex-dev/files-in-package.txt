@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/openobex
+-rw-r--r-- root       root            14470 ./usr/include/openobex/obex_const.h
+-rw-r--r-- root       root             6868 ./usr/include/openobex/obex.h
+-rw-r--r-- root       root              132 ./usr/include/openobex/version.h
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/cmake
+drwxr-xr-x root       root             4096 ./usr/lib/cmake/OpenObex-1.7.2
+-rw-r--r-- root       root              939 ./usr/lib/cmake/OpenObex-1.7.2/openobex-config.cmake
+-rw-r--r-- root       root              172 ./usr/lib/cmake/OpenObex-1.7.2/openobex-config-version.cmake
+-rw-r--r-- root       root             3498 ./usr/lib/cmake/OpenObex-1.7.2/openobex-target.cmake
+-rw-r--r-- root       root              814 ./usr/lib/cmake/OpenObex-1.7.2/openobex-target-release.cmake
+lrwxrwxrwx root       root               16 ./usr/lib/libopenobex.so -> libopenobex.so.2
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              296 ./usr/lib/pkgconfig/openobex.pc

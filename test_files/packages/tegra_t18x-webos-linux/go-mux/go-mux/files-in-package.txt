@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/local
+drwxr-xr-x root       root             4096 ./usr/local/go
+drwxr-xr-x root       root             4096 ./usr/local/go/src
+drwxr-xr-x root       root             4096 ./usr/local/go/src/github.com
+drwxr-xr-x root       root             4096 ./usr/local/go/src/github.com/gorilla
+drwxr-xr-x root       root             4096 ./usr/local/go/src/github.com/gorilla/mux
+-rw-r--r-- root       root              496 ./usr/local/go/src/github.com/gorilla/mux/bench_test.go
+-rw-r--r-- root       root             6847 ./usr/local/go/src/github.com/gorilla/mux/doc.go
+-rw-r--r-- root       root             1476 ./usr/local/go/src/github.com/gorilla/mux/LICENSE
+-rw-r--r-- root       root             9901 ./usr/local/go/src/github.com/gorilla/mux/mux.go
+-rw-r--r-- root       root            26679 ./usr/local/go/src/github.com/gorilla/mux/mux_test.go
+-rw-r--r-- root       root            18810 ./usr/local/go/src/github.com/gorilla/mux/old_test.go
+-rw-r--r-- root       root              241 ./usr/local/go/src/github.com/gorilla/mux/README.md
+-rw-r--r-- root       root             6711 ./usr/local/go/src/github.com/gorilla/mux/regexp.go
+-rw-r--r-- root       root            14530 ./usr/local/go/src/github.com/gorilla/mux/route.go

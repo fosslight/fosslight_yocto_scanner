@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 432866
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libi2c.so.0.1.1 /usr/sbin/.debug/eeprog /usr/sbin/.debug/i2cdetect.i2c-tools /usr/sbin/.debug/i2cdump.i2c-tools /usr/sbin/.debug/i2cget.i2c-tools /usr/sbin/.debug/i2cset.i2c-tools /usr/sbin/.debug/i2ctransfer /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/eeprog/24cXX.c /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/eeprog/24cXX.h /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/eeprog/eeprog.c /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/include/i2c/smbus.h /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/lib/smbus.c /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/tools/i2cbusses.c /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/tools/i2cbusses.h /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/tools/i2cdetect.c /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/tools/i2cdump.c /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/tools/i2cget.c /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/tools/i2cset.c /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/tools/i2ctransfer.c /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/tools/util.c /usr/src/debug/i2c-tools/4.1-r0/i2c-tools-4.1/tools/util.h

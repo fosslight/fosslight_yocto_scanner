@@ -1,6 +1,0 @@
-PE = 1
-PV = 1.5.1
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libxrandr libxrender pkgconfig-native util-macros-native virtual/libc virtual/libx11 virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = xrandr-src xrandr-dbg xrandr-staticdev xrandr-dev xrandr-doc xrandr-locale xrandr
-LAYER = core

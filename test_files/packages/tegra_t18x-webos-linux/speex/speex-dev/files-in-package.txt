@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/speex
+-rw-r--r-- root       root             6660 ./usr/include/speex/speex_bits.h
+-rw-r--r-- root       root             5033 ./usr/include/speex/speex_callbacks.h
+-rw-r--r-- root       root              203 ./usr/include/speex/speex_config_types.h
+-rw-r--r-- root       root            14030 ./usr/include/speex/speex.h
+-rw-r--r-- root       root             4084 ./usr/include/speex/speex_header.h
+-rw-r--r-- root       root             3675 ./usr/include/speex/speex_stereo.h
+-rw-r--r-- root       root             3582 ./usr/include/speex/speex_types.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               17 ./usr/lib/libspeex.so -> libspeex.so.1.5.1
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              275 ./usr/lib/pkgconfig/speex.pc
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/aclocal
+-rw-r--r-- root       root             3704 ./usr/share/aclocal/speex.m4

@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos5
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 455072
+FILES = /sbin/sln
+FILELIST = /sbin/sln

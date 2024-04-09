@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              189 ./lib/systemd/system/containerd.service
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root         18879464 ./usr/bin/containerd
+-rwxr-xr-x root       root         15796904 ./usr/bin/containerd-ctr
+-rwxr-xr-x root       root         11024152 ./usr/bin/containerd-shim
+lrwxrwxrwx root       root               10 ./usr/bin/docker-containerd -> containerd
+lrwxrwxrwx root       root               14 ./usr/bin/docker-containerd-ctr -> containerd-ctr
+lrwxrwxrwx root       root               15 ./usr/bin/docker-containerd-shim -> containerd-shim

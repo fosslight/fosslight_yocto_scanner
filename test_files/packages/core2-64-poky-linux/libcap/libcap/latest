@@ -1,9 +1,0 @@
-PV = 2.33
-PR = r0
-PKG = libcap2
-RPROVIDES = libcap (=2.33)
-RDEPENDS = glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 39166
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libcap /usr/lib/libcap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/security/*.so
-FILELIST = /lib/libcap.so.2 /lib/libcap.so.2.33

@@ -1,0 +1,9 @@
+PV = 2017.3.23
+PR = r0
+PKGR = r0webosupdater1
+RPROVIDES = 
+RDEPENDS = fuse glibc (>= 2.28) libntfs-3g (>= 2017.3.23)
+RRECOMMENDS = util-linux-mount
+PKGSIZE = 267413
+FILES = /sbin/*.ntfs-3g /usr/bin/ntfs-3g* /sbin/mount.ntfs
+FILELIST = /sbin/mount.ntfs /sbin/mount.ntfs-3g /usr/bin/ntfs-3g /usr/bin/ntfs-3g.probe

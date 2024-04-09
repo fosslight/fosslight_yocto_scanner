@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/xtables
+-rwxr-xr-x root       root            68136 ./usr/lib/xtables/libxt_mark.so
+-rwxr-xr-x root       root            68352 ./usr/lib/xtables/libxt_MARK.so

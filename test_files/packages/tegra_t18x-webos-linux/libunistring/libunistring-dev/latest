@@ -1,0 +1,8 @@
+PV = 0.9.10
+PR = r0
+RPROVIDES = 
+RDEPENDS = libunistring (= 0.9.10-r0)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 155121
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libunistring/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/unicase.h /usr/include/uniconv.h /usr/include/unictype.h /usr/include/unigbrk.h /usr/include/unilbrk.h /usr/include/uniname.h /usr/include/uninorm.h /usr/include/unistdio.h /usr/include/unistr.h /usr/include/unistring/cdefs.h /usr/include/unistring/iconveh.h /usr/include/unistring/inline.h /usr/include/unistring/localcharset.h /usr/include/unistring/stdbool.h /usr/include/unistring/stdint.h /usr/include/unistring/version.h /usr/include/unistring/woe32dll.h /usr/include/unitypes.h /usr/include/uniwbrk.h /usr/include/uniwidth.h /usr/lib/libunistring.so

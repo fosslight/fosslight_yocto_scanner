@@ -1,6 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/doc
-drwxr-xr-x root       root             4096 ./usr/share/doc/expat
--rw-r--r-- root       root              142 ./usr/share/doc/expat/AUTHORS
--rw-r--r-- root       root            38571 ./usr/share/doc/expat/changelog

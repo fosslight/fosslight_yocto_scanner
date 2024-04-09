@@ -1,0 +1,8 @@
+PV = 2.62.3
+PR = r0
+RPROVIDES = hr-translation libsoup-2.4-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hr
+PKGSIZE = 3751
+FILES = /usr/share/locale/hr
+FILELIST = /usr/share/locale/hr/LC_MESSAGES/libsoup.mo

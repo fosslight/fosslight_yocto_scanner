@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-snd-rawmidi
+RDEPENDS = kernel-4.9.140-tegra kernel-module-snd-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 57680
+FILES = /lib/modules/4.9.140-tegra/kernel/sound/core/snd-rawmidi.ko /etc/modules-load.d/snd-rawmidi.conf /etc/modprobe.d/snd-rawmidi.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/sound/core/snd-rawmidi.ko

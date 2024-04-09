@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/udev
+drwxr-xr-x root       root             4096 ./lib/udev/hwdb.d
+-rw-r--r-- root       root            98408 ./lib/udev/hwdb.d/69-libmtp.hwdb
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           490320 ./usr/lib/libmtp.so.9.4.0
+lrwxrwxrwx root       root               15 ./usr/lib/libmtp.so.9 -> libmtp.so.9.4.0

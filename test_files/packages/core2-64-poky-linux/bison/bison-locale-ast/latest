@@ -1,8 +1,0 @@
-PV = 3.5.4
-PR = r0
-RPROVIDES = ast-translation bison-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-ast
-PKGSIZE = 1393
-FILES = /usr/share/locale/ast
-FILELIST = /usr/share/locale/ast/LC_MESSAGES/bison-runtime.mo

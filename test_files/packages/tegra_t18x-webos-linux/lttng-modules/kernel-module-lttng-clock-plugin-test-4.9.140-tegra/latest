@@ -1,0 +1,8 @@
+PV = 2.10.9
+PR = r0
+RPROVIDES = kernel-module-lttng-clock-plugin-test
+RDEPENDS = kernel-4.9.140-tegra kernel-module-lttng-clock-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 6800
+FILES = /lib/modules/4.9.140-tegra/kernel/lttng-modules/tests/lttng-clock-plugin-test.ko /etc/modules-load.d/lttng-clock-plugin-test.conf /etc/modprobe.d/lttng-clock-plugin-test.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/lttng-modules/tests/lttng-clock-plugin-test.ko

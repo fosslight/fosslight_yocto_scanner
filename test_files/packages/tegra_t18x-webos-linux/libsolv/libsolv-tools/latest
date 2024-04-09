@@ -1,0 +1,8 @@
+PV = 0.6.35
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libsolv (>= 0.6.35) libsolvext (>= 0.6.35)
+RRECOMMENDS = 
+PKGSIZE = 745928
+FILES = /usr/bin/*
+FILELIST = /usr/bin/deltainfoxml2solv /usr/bin/dumpsolv /usr/bin/installcheck /usr/bin/mergesolv /usr/bin/repo2solv /usr/bin/repomdxml2solv /usr/bin/rpmdb2solv /usr/bin/rpmmd2solv /usr/bin/rpms2solv /usr/bin/testsolv /usr/bin/updateinfoxml2solv

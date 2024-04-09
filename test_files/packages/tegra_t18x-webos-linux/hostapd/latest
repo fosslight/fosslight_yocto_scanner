@@ -1,0 +1,5 @@
+PV = 2.9
+PR = r0
+DEPENDS = icecc-create-env-native libnl openssl pkgconfig-native systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = hostapd-dbg hostapd-staticdev hostapd-dev hostapd-doc hostapd-locale hostapd
+LAYER = coconut-layer

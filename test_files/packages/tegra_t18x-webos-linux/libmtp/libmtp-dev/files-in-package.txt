@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root            37239 ./usr/include/libmtp.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               15 ./usr/lib/libmtp.so -> libmtp.so.9.4.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              315 ./usr/lib/pkgconfig/libmtp.pc

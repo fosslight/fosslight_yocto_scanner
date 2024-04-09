@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-aa-dj glibc-localedata-so-so
+RRECOMMENDS = 
+PKGSIZE = 4750
+FILES = /usr/share/i18n/locales/so_DJ
+FILELIST = /usr/share/i18n/locales/so_DJ

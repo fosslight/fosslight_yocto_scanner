@@ -1,0 +1,5 @@
+PV = 3.6.4
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gmp gnu-config-native gtk-doc-native icecc-create-env-native libidn2 libtool-cross libtool-native libunistring nettle pkgconfig-native python3-native texinfo-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/libiconv
+PACKAGES = gnutls-openssl gnutls-xx gnutls-dbg gnutls-staticdev gnutls-dev gnutls-doc gnutls-bin gnutls gnutls-locale-cs gnutls-locale-de gnutls-locale-eo gnutls-locale-es gnutls-locale-fi gnutls-locale-fr gnutls-locale-it gnutls-locale-ms gnutls-locale-nl gnutls-locale-pl gnutls-locale-pt-br gnutls-locale-sr gnutls-locale-sv gnutls-locale-uk gnutls-locale-vi gnutls-locale-zh-cn
+LAYER = core

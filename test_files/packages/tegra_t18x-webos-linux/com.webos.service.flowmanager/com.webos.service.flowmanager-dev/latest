@@ -1,0 +1,8 @@
+PV = 1.0.0-5
+PR = r2
+RPROVIDES = 
+RDEPENDS = com.webos.service.flowmanager (= 1.0.0-5-r2)
+RRECOMMENDS = luna-service2-dev nodejs-dev nodejs-module-node-red-dev nodejs-module-webos-service-dev pmloglib-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/com.webos.service.flowmanager/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

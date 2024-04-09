@@ -1,0 +1,9 @@
+PV = 2.6.0
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = flex (= 2.6.0-r0webos2) flex-libfl
+RRECOMMENDS = busybox-dev flex-libfl-dev gawk-dev glibc-dev libgcc-dev libstdc++-dev m4-dev
+PKGSIZE = 6920
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/flex/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/FlexLexer.h /usr/lib/libfl.so /usr/lib/libfl_pic.so

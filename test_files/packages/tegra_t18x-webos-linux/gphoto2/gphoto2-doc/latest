@@ -1,0 +1,8 @@
+PV = 2.5.14
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 26376
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/doc/gphoto2/test-hook.sh /usr/share/man/man1/gphoto2.1

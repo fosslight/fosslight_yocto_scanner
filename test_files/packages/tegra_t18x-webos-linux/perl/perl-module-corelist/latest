@@ -1,0 +1,8 @@
+PV = 5.24.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-corelist perl-module-list-util perl-module-strict perl-module-vars perl-module-version perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 811437
+FILES = /usr/lib/perl/5.24.4/Module/CoreList.pm /usr/lib/perl/5.24.4/Module/CoreList/TieHashDelta.pm /usr/lib/perl/5.24.4/Module/CoreList/Utils.pm
+FILELIST = /usr/lib/perl/5.24.4/Module/CoreList.pm /usr/lib/perl/5.24.4/Module/CoreList/TieHashDelta.pm /usr/lib/perl/5.24.4/Module/CoreList/Utils.pm

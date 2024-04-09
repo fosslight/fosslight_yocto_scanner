@@ -1,0 +1,8 @@
+PV = 2.5.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = libassuan (= 2.5.1-r0)
+RRECOMMENDS = glibc-dev libgpg-error-dev
+PKGSIZE = 29150
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libassuan/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/*-config
+FILELIST = /usr/bin/libassuan-config /usr/include/assuan.h /usr/lib/libassuan.so /usr/lib/pkgconfig/libassuan.pc /usr/share/aclocal/libassuan.m4

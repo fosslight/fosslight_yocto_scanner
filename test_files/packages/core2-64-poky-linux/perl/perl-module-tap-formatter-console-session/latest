@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-base perl-module-strict perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 5527
-FILES = /usr/lib/perl5/5.30.2/TAP/Formatter/Console/Session.pm
-FILELIST = /usr/lib/perl5/5.30.2/TAP/Formatter/Console/Session.pm

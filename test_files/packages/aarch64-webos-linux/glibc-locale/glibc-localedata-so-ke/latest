@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-om-ke glibc-localedata-so-so
+RRECOMMENDS = 
+PKGSIZE = 4675
+FILES = /usr/share/i18n/locales/so_KE
+FILELIST = /usr/share/i18n/locales/so_KE

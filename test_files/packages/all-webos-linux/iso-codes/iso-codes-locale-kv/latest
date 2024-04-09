@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = iso-codes-locale kv-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-kv
+PKGSIZE = 5893
+FILES = /usr/share/locale/kv
+FILELIST = /usr/share/locale/kv/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/kv/LC_MESSAGES/iso_3166.mo

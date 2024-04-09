@@ -1,0 +1,8 @@
+PV = 1.0.0-9
+PR = r1
+RPROVIDES = 
+RDEPENDS = com.webos.service.pdm-dev (= 1.0.0-9-r1)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/com.webos.service.pdm/*.a
+FILELIST = 

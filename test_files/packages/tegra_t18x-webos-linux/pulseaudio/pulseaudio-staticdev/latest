@@ -1,0 +1,8 @@
+PV = 9.0-13
+PR = r20
+RPROVIDES = 
+RDEPENDS = pulseaudio-dev (= 9.0-13-r20)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/pulseaudio/*.a
+FILELIST = 

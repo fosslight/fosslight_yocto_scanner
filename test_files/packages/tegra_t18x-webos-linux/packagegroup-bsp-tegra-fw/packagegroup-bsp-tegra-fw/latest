@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = tegra-firmware-bluetooth tegra-firmware-fecs tegra-firmware-gmicrocode tegra-firmware-gpccs tegra-firmware-gpmu tegra-firmware-gshader tegra-firmware-nvdec tegra-firmware-nvenc tegra-firmware-nvjpeg tegra-firmware-pmu tegra-firmware-prod-fuse tegra-firmware-touch tegra-firmware-vic tegra-firmware-wifi tegra-firmware-xusb
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/packagegroup-bsp-tegra-fw /usr/lib/packagegroup-bsp-tegra-fw/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = 

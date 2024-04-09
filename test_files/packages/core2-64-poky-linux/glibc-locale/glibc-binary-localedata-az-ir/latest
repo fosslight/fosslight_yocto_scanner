@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2939919
-FILES = /usr/lib/locale/az_IR
-FILELIST = /usr/lib/locale/az_IR/LC_ADDRESS /usr/lib/locale/az_IR/LC_COLLATE /usr/lib/locale/az_IR/LC_CTYPE /usr/lib/locale/az_IR/LC_IDENTIFICATION /usr/lib/locale/az_IR/LC_MEASUREMENT /usr/lib/locale/az_IR/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/az_IR/LC_MONETARY /usr/lib/locale/az_IR/LC_NAME /usr/lib/locale/az_IR/LC_NUMERIC /usr/lib/locale/az_IR/LC_PAPER /usr/lib/locale/az_IR/LC_TELEPHONE /usr/lib/locale/az_IR/LC_TIME

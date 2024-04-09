@@ -1,0 +1,9 @@
+PV = 7.66.0
+PR = r0
+PKGR = r0webos10
+RPROVIDES = 
+RDEPENDS = curl (= 7.66.0-r0webos10) libcurl
+RRECOMMENDS = c-ares-dev glibc-dev libcrypto-dev libcurl-dev libidn-dev libssl-dev openssl-dev zlib-dev
+PKGSIZE = 219601
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/curl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/*-config
+FILELIST = /usr/bin/curl-config /usr/include/curl/curl.h /usr/include/curl/curlver.h /usr/include/curl/easy.h /usr/include/curl/mprintf.h /usr/include/curl/multi.h /usr/include/curl/stdcheaders.h /usr/include/curl/system.h /usr/include/curl/typecheck-gcc.h /usr/include/curl/urlapi.h /usr/lib/libcurl.so /usr/lib/pkgconfig/libcurl.pc /usr/share/aclocal/libcurl.m4

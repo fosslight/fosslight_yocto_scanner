@@ -1,0 +1,9 @@
+PV = 4.1.0
+PR = r0
+PKG = libassimp-staticdev
+RPROVIDES = assimp-staticdev (=4.1.0)
+RDEPENDS = assimp-dev (= 4.1.0-r0)
+RRECOMMENDS = 
+PKGSIZE = 1391958
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/assimp/*.a
+FILELIST = /usr/lib/libIrrXML.a

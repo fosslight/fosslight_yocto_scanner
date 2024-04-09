@@ -1,0 +1,8 @@
+PV = 0.20080828a-0webos9-1
+PR = r1
+RPROVIDES = 
+RDEPENDS = jemalloc (= 0.20080828a-0webos9-1-r1)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 3386
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/jemalloc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/lib/libjemalloc.so /usr/lib/libjemalloc_mt.so /usr/share/pkgconfig/jemalloc.pc /usr/share/pkgconfig/jemalloc_mt.pc

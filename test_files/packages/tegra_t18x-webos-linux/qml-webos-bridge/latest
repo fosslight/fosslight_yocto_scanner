@@ -1,0 +1,5 @@
+PV = 1.0.0-115
+PR = r12
+DEPENDS = glib-2.0 icecc-create-env-native libxml2-native luna-service2 qtbase-native qtdeclarative qtdeclarative-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = qml-webos-bridge-dbg qml-webos-bridge-staticdev qml-webos-bridge-dev qml-webos-bridge-doc qml-webos-bridge-locale qml-webos-bridge
+LAYER = meta-webos

@@ -1,0 +1,8 @@
+PV = 1.0.0-115
+PR = r12
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libstdc++ (>= 8.2.0) luna-service2 (>= 3.21.2-5) qml-webos-components qtbase (>= 5.12.6+git0+f0b93f7a4b) qtdeclarative (>= 5.12.6+git0+179c4b689d)
+RRECOMMENDS = 
+PKGSIZE = 367381
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qml-webos-bridge /usr/lib/qml-webos-bridge/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/qml/WebOSServices/* /usr/lib/qt5
+FILELIST = /usr/lib/qml/WebOSServices/AlertModel.js /usr/lib/qml/WebOSServices/AlertModel.qml /usr/lib/qml/WebOSServices/ApplicationListModel.js /usr/lib/qml/WebOSServices/ApplicationListModel.qml /usr/lib/qml/WebOSServices/DB8.qml /usr/lib/qml/WebOSServices/InputAlertModel.js /usr/lib/qml/WebOSServices/InputAlertModel.qml /usr/lib/qml/WebOSServices/LaunchPointsModel.qml /usr/lib/qml/WebOSServices/PackagesListModel.js /usr/lib/qml/WebOSServices/PackagesListModel.qml /usr/lib/qml/WebOSServices/PincodePromptModel.js /usr/lib/qml/WebOSServices/PincodePromptModel.qml /usr/lib/qml/WebOSServices/RunningModel.js /usr/lib/qml/WebOSServices/RunningModel.qml /usr/lib/qml/WebOSServices/ToastModel.js /usr/lib/qml/WebOSServices/ToastModel.qml /usr/lib/qml/WebOSServices/libwebosserviceplugin.so /usr/lib/qml/WebOSServices/qmldir /usr/lib/qml/WebOSServices/webosserviceplugindescription.json

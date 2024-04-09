@@ -1,6 +1,0 @@
-drwxr-xr-x root       root             4096 ./lib
-drwxr-xr-x root       root             4096 ./lib/modules
-drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard
--rw-r--r-- root       root             9285 ./lib/modules/5.4.40-yocto-standard/modules.builtin
--rw-r--r-- root       root            68434 ./lib/modules/5.4.40-yocto-standard/modules.builtin.modinfo
--rw-r--r-- root       root            17785 ./lib/modules/5.4.40-yocto-standard/modules.order

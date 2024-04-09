@@ -1,8 +1,0 @@
-PV = 8.32
-PR = r0
-RPROVIDES = coreutils-locale nl-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-nl
-PKGSIZE = 336374
-FILES = /usr/share/locale/nl
-FILELIST = /usr/share/locale/nl/LC_MESSAGES/coreutils.mo /usr/share/locale/nl/LC_TIME/coreutils.mo

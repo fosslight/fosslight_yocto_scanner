@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /usr/sbin/fsfreeze fsfreeze /usr/sbin/fsfreeze.util-linux 80

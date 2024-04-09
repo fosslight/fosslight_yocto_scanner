@@ -1,0 +1,8 @@
+PV = 1.2.5-3
+PR = r11
+RPROVIDES = 
+RDEPENDS = crashd (= 1.2.5-3-r11)
+RRECOMMENDS = glib-2.0-dev glibc-dev gzip-dev librdx-dev libsegfault-webos-dev libunwind-dev pmloglib-dev rdxd-dev
+PKGSIZE = 0
+FILES = /usr/include /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/crashd/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

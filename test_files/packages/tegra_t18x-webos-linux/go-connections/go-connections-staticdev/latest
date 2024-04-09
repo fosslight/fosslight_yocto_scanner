@@ -1,0 +1,9 @@
+PV = 0.2.1+gitAUTOINC+4ccf312bf1
+PR = r0
+PKGV = 0.2.1+git0+4ccf312bf1
+RPROVIDES = 
+RDEPENDS = go-connections-dev (= 0.2.1+git0+4ccf312bf1-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/go-connections/*.a
+FILELIST = 

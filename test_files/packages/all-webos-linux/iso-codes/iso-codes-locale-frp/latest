@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = frp-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-frp
+PKGSIZE = 9296
+FILES = /usr/share/locale/frp
+FILELIST = /usr/share/locale/frp/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/frp/LC_MESSAGES/iso_3166.mo

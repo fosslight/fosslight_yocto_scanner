@@ -1,7 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  10 ./sysroot-providers/gnu-config
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/share
-drwxr-xr-x -          -                4096 ./usr/share/gnu-config
--rw-r--r-- -          -               48441 ./usr/share/gnu-config/config.guess
--rw-r--r-- -          -               31609 ./usr/share/gnu-config/config.sub

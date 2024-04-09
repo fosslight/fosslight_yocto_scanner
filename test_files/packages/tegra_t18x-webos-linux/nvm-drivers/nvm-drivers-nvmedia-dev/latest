@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dev nv-rm-drivers-dev nvm-drivers-nvm-vicsi-v3-dev ref-hw-chipset-drivers-dev
+PKGSIZE = 421248
+FILES = /usr/include/dev_error.h /usr/include/img_dev.h /usr/include/nvmedia_common.h /usr/include/nvmedia_core.h /usr/include/nvmedia_2d.h /usr/include/nvmedia_eglstream.h /usr/include/nvmedia_icp.h /usr/include/nvmedia_idp.h /usr/include/nvmedia_iep.h /usr/include/nvmedia_image.h /usr/include/nvmedia_isc.h /usr/include/nvmedia_surface.h /usr/include/nvmedia_vcp.h /usr/include/nvmedia_vep.h /usr/include/nvmedia_viddec.h /usr/include/nvmedia_video.h /usr/include/nvmedia_vmp.h /usr/include/nvmedia_vop.h
+FILELIST = /usr/include/dev_error.h /usr/include/img_dev.h /usr/include/nvmedia_2d.h /usr/include/nvmedia_common.h /usr/include/nvmedia_core.h /usr/include/nvmedia_eglstream.h /usr/include/nvmedia_icp.h /usr/include/nvmedia_idp.h /usr/include/nvmedia_iep.h /usr/include/nvmedia_image.h /usr/include/nvmedia_isc.h /usr/include/nvmedia_surface.h /usr/include/nvmedia_vcp.h /usr/include/nvmedia_vep.h /usr/include/nvmedia_viddec.h /usr/include/nvmedia_video.h /usr/include/nvmedia_vmp.h /usr/include/nvmedia_vop.h

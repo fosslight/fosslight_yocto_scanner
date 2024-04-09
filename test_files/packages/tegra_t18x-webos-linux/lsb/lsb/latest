@@ -1,0 +1,9 @@
+PV = 5.0
+PR = r0
+PKGR = r0webos7
+RPROVIDES = lsb-core-aarch64 lsb-release
+RDEPENDS = util-linux-getopt
+RRECOMMENDS = 
+PKGSIZE = 16440
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lsb /usr/lib/lsb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib /usr/lib/lsb /lib/lsb/*
+FILELIST = /bin/lsb_release /etc/core-lsb/lsb_killproc /etc/core-lsb/lsb_log_message /etc/core-lsb/lsb_pidofproc /etc/core-lsb/lsb_start_daemon /etc/webos-release /lib/lsb/init-functions

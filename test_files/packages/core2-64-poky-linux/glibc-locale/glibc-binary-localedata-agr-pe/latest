@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2932212
-FILES = /usr/lib/locale/agr_PE
-FILELIST = /usr/lib/locale/agr_PE/LC_ADDRESS /usr/lib/locale/agr_PE/LC_COLLATE /usr/lib/locale/agr_PE/LC_CTYPE /usr/lib/locale/agr_PE/LC_IDENTIFICATION /usr/lib/locale/agr_PE/LC_MEASUREMENT /usr/lib/locale/agr_PE/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/agr_PE/LC_MONETARY /usr/lib/locale/agr_PE/LC_NAME /usr/lib/locale/agr_PE/LC_NUMERIC /usr/lib/locale/agr_PE/LC_PAPER /usr/lib/locale/agr_PE/LC_TELEPHONE /usr/lib/locale/agr_PE/LC_TIME

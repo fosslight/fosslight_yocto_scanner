@@ -1,0 +1,8 @@
+PV = 2.7.16
+PR = r1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpython2 (>= 2.7.16) python-core python-io
+RRECOMMENDS = 
+PKGSIZE = 78957
+FILES = /usr/lib/python2.7/getpass.py /usr/lib/python2.7/getpass.pyc /usr/lib/python2.7/lib-dynload/grp.so /usr/lib/python2.7/lib-dynload/nis.so
+FILELIST = /usr/lib/python2.7/getpass.py /usr/lib/python2.7/getpass.pyc /usr/lib/python2.7/lib-dynload/grp.so

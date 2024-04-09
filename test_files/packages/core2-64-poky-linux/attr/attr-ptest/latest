@@ -1,8 +1,0 @@
-PV = 2.4.48
-PR = r0
-RPROVIDES = 
-RDEPENDS = attr coreutils gawk make perl perl-module-cwd perl-module-file-basename perl-module-file-path perl-module-file-spec perl-module-filehandle perl-module-getopt-std perl-module-posix
-RRECOMMENDS = ptest-runner
-PKGSIZE = 582880
-FILES = /usr/lib/attr/ptest
-FILELIST = /usr/lib/attr/ptest/Makefile /usr/lib/attr/ptest/build-aux/ar-lib /usr/lib/attr/ptest/build-aux/compile /usr/lib/attr/ptest/build-aux/config.guess /usr/lib/attr/ptest/build-aux/config.rpath /usr/lib/attr/ptest/build-aux/config.sub /usr/lib/attr/ptest/build-aux/depcomp /usr/lib/attr/ptest/build-aux/install-sh /usr/lib/attr/ptest/build-aux/ltmain.sh /usr/lib/attr/ptest/build-aux/missing /usr/lib/attr/ptest/build-aux/test-driver /usr/lib/attr/ptest/run-ptest /usr/lib/attr/ptest/test/Makemodule.am /usr/lib/attr/ptest/test/README /usr/lib/attr/ptest/test/attr.test /usr/lib/attr/ptest/test/root/getfattr.test /usr/lib/attr/ptest/test/run /usr/lib/attr/ptest/test/sort-getfattr-output

@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/a52dec
+-rw-r--r-- root       root             1895 ./usr/include/a52dec/a52.h
+-rw-r--r-- root       root             1225 ./usr/include/a52dec/attributes.h
+-rw-r--r-- root       root             2047 ./usr/include/a52dec/audio_out.h
+-rw-r--r-- root       root             1270 ./usr/include/a52dec/mm_accel.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               15 ./usr/lib/liba52.so -> liba52.so.0.0.0

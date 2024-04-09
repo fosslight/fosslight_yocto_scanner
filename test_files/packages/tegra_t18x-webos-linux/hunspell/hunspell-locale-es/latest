@@ -1,0 +1,8 @@
+PV = 1.6.2
+PR = r0
+RPROVIDES = es-translation hunspell-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-es
+PKGSIZE = 0
+FILES = /usr/share/locale/es
+FILELIST = 

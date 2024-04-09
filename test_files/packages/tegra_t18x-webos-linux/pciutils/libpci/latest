@@ -1,0 +1,9 @@
+PV = 3.6.2
+PR = r0
+PKG = libpci3
+RPROVIDES = libpci (=3.6.2)
+RDEPENDS = glibc (>= 2.28) libudev (>= 239) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 68071
+FILES = /usr/lib/libpci.so.*
+FILELIST = /usr/lib/libpci.so.3 /usr/lib/libpci.so.3.6.2

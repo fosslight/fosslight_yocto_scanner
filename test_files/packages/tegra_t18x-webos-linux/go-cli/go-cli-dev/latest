@@ -1,0 +1,8 @@
+PV = 1.1.0+git27ecc97192df1bf053a22b04463f2b51b8b8373e
+PR = r0
+RPROVIDES = 
+RDEPENDS = go-cli (= 1.1.0+git27ecc97192df1bf053a22b04463f2b51b8b8373e-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/go-cli/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

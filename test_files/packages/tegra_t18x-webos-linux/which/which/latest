@@ -1,0 +1,8 @@
+PV = 2.21
+PR = r3
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 68272
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/which /usr/lib/which/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/which.which

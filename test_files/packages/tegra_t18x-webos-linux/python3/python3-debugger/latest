@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = 
+RDEPENDS = python3-core python3-pprint python3-shell python3-stringold
+RRECOMMENDS = 
+PKGSIZE = 272386
+FILES = /usr/lib/python3.5/bdb.py /usr/lib/python3.5/pdb.py /usr/lib/python3.5/__pycache__/bdb.*.pyc /usr/lib/python3.5/__pycache__/pdb.*.pyc
+FILELIST = /usr/lib/python3.5/__pycache__/bdb.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/bdb.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/bdb.cpython-35.pyc /usr/lib/python3.5/__pycache__/pdb.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/pdb.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/pdb.cpython-35.pyc /usr/lib/python3.5/bdb.py /usr/lib/python3.5/pdb.py

@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/modprobe.d
+-rw-r--r-- root       root             1448 ./etc/modprobe.d/blacklist.conf
+-rw-r--r-- root       root              895 ./etc/modules

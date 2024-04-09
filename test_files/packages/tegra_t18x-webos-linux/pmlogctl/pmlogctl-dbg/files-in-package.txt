@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root           111888 ./usr/bin/.debug/PmLogCtl
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/pmlogctl
+drwxr-xr-x root       root             4096 ./usr/src/debug/pmlogctl/3.0.0-1-r3
+drwxr-xr-x root       root             4096 ./usr/src/debug/pmlogctl/3.0.0-1-r3/build
+drwxr-xr-x root       root             4096 ./usr/src/debug/pmlogctl/3.0.0-1-r3/build/Configured
+drwxr-xr-x root       root             4096 ./usr/src/debug/pmlogctl/3.0.0-1-r3/build/Configured/src
+-rw-r--r-- root       root            26636 ./usr/src/debug/pmlogctl/3.0.0-1-r3/build/Configured/src/PmLogView.c
+drwxr-xr-x root       root             4096 ./usr/src/debug/pmlogctl/3.0.0-1-r3/git
+drwxr-xr-x root       root             4096 ./usr/src/debug/pmlogctl/3.0.0-1-r3/git/src
+-rw-r--r-- root       root            26070 ./usr/src/debug/pmlogctl/3.0.0-1-r3/git/src/PmLogCtl.c
+-rw-r--r-- root       root             3837 ./usr/src/debug/pmlogctl/3.0.0-1-r3/git/src/PmLogCtl.h
+-rw-r--r-- root       root             4072 ./usr/src/debug/pmlogctl/3.0.0-1-r3/git/src/PmLogCtlUtil.c

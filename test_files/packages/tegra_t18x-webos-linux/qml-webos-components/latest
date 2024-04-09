@@ -1,0 +1,5 @@
+PV = 1.0.0-46
+PR = r12
+DEPENDS = icecc-create-env-native librdx libxml2-native lttng-ust pmloglib qt-features-webos qtbase-native qtdeclarative qtdeclarative-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = qml-webos-components-dbg qml-webos-components-staticdev qml-webos-components-dev qml-webos-components-doc qml-webos-components-locale qml-webos-components
+LAYER = meta-webos

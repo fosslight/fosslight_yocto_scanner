@@ -1,8 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/perl5
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/IO
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/IO/Uncompress
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/IO/Uncompress/Adapter
--r--r--r-- root       root             3278 ./usr/lib/perl5/5.30.2/IO/Uncompress/Adapter/Inflate.pm

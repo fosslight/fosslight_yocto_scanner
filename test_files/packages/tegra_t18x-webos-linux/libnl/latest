@@ -1,0 +1,6 @@
+PE = 1
+PV = 3.4.0
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native flex-native gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libnl-dbg libnl-staticdev libnl-dev libnl-doc libnl-locale libnl libnl-cli libnl-genl libnl-idiag libnl-nf libnl-route libnl-xfrm
+LAYER = core

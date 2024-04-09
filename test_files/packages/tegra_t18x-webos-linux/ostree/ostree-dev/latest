@@ -1,0 +1,9 @@
+PV = v2018.9
+PR = r0
+PKGR = r0webosupdater1
+RPROVIDES = 
+RDEPENDS = ostree (= v2018.9-r0webosupdater1)
+RRECOMMENDS = attr-dev bash-completion-dev busybox-dev curl-dev e2fsprogs-dev fuse-dev glib-2.0-dev glibc-dev gobject-introspection-dev gpgme-dev libarchive-dev libassuan-dev libcap-dev libcurl-dev libgpg-error-dev liblzma-dev libsystemd-dev systemd-dev util-linux-libmount-dev xz-dev zlib-dev
+PKGSIZE = 174277
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ostree/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/gir-1.0 /usr/share/gir-*/*.gir /usr/lib/gir-*/*.gir
+FILELIST = /usr/include/ostree-1/ostree-async-progress.h /usr/include/ostree-1/ostree-autocleanups.h /usr/include/ostree-1/ostree-bootconfig-parser.h /usr/include/ostree-1/ostree-core.h /usr/include/ostree-1/ostree-deployment.h /usr/include/ostree-1/ostree-diff.h /usr/include/ostree-1/ostree-dummy-enumtypes.h /usr/include/ostree-1/ostree-gpg-verify-result.h /usr/include/ostree-1/ostree-mutable-tree.h /usr/include/ostree-1/ostree-ref.h /usr/include/ostree-1/ostree-remote.h /usr/include/ostree-1/ostree-repo-deprecated.h /usr/include/ostree-1/ostree-repo-file.h /usr/include/ostree-1/ostree-repo-finder-avahi.h /usr/include/ostree-1/ostree-repo-finder-config.h /usr/include/ostree-1/ostree-repo-finder-mount.h /usr/include/ostree-1/ostree-repo-finder-override.h /usr/include/ostree-1/ostree-repo-finder.h /usr/include/ostree-1/ostree-repo.h /usr/include/ostree-1/ostree-sepolicy.h /usr/include/ostree-1/ostree-sysroot-upgrader.h /usr/include/ostree-1/ostree-sysroot.h /usr/include/ostree-1/ostree-types.h /usr/include/ostree-1/ostree-version.h /usr/include/ostree-1/ostree.h /usr/lib/libostree-1.so /usr/lib/pkgconfig/ostree-1.pc

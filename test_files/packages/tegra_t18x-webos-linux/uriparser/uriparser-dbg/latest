@@ -1,0 +1,8 @@
+PV = 0.8.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 787085
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/uriparse /usr/lib/.debug/liburiparser.so.1.0.20 /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/include/uriparser/Uri.h /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/include/uriparser/UriBase.h /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/include/uriparser/UriIp4.h /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriCommon.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriCommon.h /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriCompare.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriEscape.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriFile.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriIp4.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriIp4Base.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriIp4Base.h /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriNormalize.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriNormalizeBase.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriNormalizeBase.h /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriParse.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriParseBase.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriParseBase.h /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriQuery.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriRecompose.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriResolve.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/src/UriShorten.c /usr/src/debug/uriparser/0.8.4-r0/uriparser-0.8.4/tool/uriparse.c

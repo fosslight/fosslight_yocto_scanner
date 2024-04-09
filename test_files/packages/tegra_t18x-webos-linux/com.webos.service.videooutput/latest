@@ -1,0 +1,5 @@
+PV = 1.0.0-12
+PR = r1
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native libpbnjson luna-service2 ninja-native pkgconfig-native pmloglib val-impl virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = com.webos.service.videooutput-ptest com.webos.service.videooutput-dbg com.webos.service.videooutput-staticdev com.webos.service.videooutput-dev com.webos.service.videooutput-doc com.webos.service.videooutput-locale com.webos.service.videooutput
+LAYER = meta-webos

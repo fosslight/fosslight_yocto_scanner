@@ -1,0 +1,5 @@
+PV = 1.0.0-10
+PR = r3
+DEPENDS = icecc-create-env-native luna-prefs luna-service2 maliit-framework-webos qt-features-webos qtbase qtbase-native qtdeclarative qtdeclarative-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = imemanager-dbg imemanager-staticdev imemanager-dev imemanager-doc imemanager-locale imemanager
+LAYER = meta-webos

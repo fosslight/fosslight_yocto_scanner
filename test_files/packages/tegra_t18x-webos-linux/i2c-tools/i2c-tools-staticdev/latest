@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = i2c-tools-dev (= 4.1-r0)
+RRECOMMENDS = 
+PKGSIZE = 24192
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/i2c-tools/*.a
+FILELIST = /usr/lib/libi2c.a

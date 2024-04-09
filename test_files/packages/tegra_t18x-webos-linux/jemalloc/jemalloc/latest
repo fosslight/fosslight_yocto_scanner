@@ -1,0 +1,8 @@
+PV = 0.20080828a-0webos9-1
+PR = r1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 135551
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/jemalloc /usr/lib/jemalloc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libjemalloc.so.0 /usr/lib/libjemalloc.so.0.20080828a /usr/lib/libjemalloc_mt.so.0 /usr/lib/libjemalloc_mt.so.0.20080828a

@@ -1,8 +1,0 @@
-PV = 2018.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.64.2) glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 35412
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gnome-desktop-testing /usr/lib/gnome-desktop-testing/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/ginsttest-runner /usr/bin/gnome-desktop-testing-runner

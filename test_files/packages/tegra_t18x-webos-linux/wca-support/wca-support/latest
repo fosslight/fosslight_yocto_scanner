@@ -1,0 +1,9 @@
+PV = 1.0.0-3
+PR = r1
+PKG = libwca-support1
+RPROVIDES = wca-support (=1.0.0-3)
+RDEPENDS = glibc (>= 2.28) iw
+RRECOMMENDS = 
+PKGSIZE = 67631
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/wca-support /usr/lib/wca-support/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libwca-support.so.1 /usr/lib/libwca-support.so.1.0.0

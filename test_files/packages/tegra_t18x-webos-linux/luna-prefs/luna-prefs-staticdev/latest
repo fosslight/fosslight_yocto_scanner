@@ -1,0 +1,8 @@
+PV = 3.0.0-3
+PR = r13
+RPROVIDES = 
+RDEPENDS = luna-prefs-dev (= 3.0.0-3-r13)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/luna-prefs/*.a
+FILELIST = 

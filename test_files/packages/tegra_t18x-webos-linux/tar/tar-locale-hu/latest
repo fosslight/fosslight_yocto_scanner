@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = hu-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hu
+PKGSIZE = 65596
+FILES = /usr/share/locale/hu
+FILELIST = /usr/share/locale/hu/LC_MESSAGES/tar.mo

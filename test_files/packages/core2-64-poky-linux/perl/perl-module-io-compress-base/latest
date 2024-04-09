@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-io-compress-base-common perl-module-io-file perl-module-io-handle perl-module-strict perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 23722
-FILES = /usr/lib/perl5/5.30.2/IO/Compress/Base.pm
-FILELIST = /usr/lib/perl5/5.30.2/IO/Compress/Base.pm

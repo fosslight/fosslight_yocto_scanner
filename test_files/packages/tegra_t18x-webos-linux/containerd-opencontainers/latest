@@ -1,0 +1,5 @@
+PV = v1.0.2+gitcfd04396dc68220d1cecbe686a6cc3aa5ce3667c
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-go virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/aarch64-webos-linux-go-runtime virtual/libc
+PACKAGES = containerd-opencontainers-ptest containerd-opencontainers-dbg containerd-opencontainers-staticdev containerd-opencontainers-dev containerd-opencontainers-doc containerd-opencontainers-locale containerd-opencontainers
+LAYER = virtualization-layer

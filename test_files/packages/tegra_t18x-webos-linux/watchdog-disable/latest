@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0
+DEPENDS = icecc-create-env-native systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = watchdog-disable-dbg watchdog-disable-staticdev watchdog-disable-dev watchdog-disable-doc watchdog-disable-locale watchdog-disable
+LAYER = meta-webos-tegra

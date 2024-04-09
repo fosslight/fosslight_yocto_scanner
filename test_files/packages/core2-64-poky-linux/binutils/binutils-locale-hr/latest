@@ -1,8 +1,0 @@
-PV = 2.34
-PR = r0
-RPROVIDES = binutils-locale hr-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-hr
-PKGSIZE = 26716
-FILES = /usr/share/locale/hr
-FILELIST = /usr/share/locale/hr/LC_MESSAGES/bfd.mo /usr/share/locale/hr/LC_MESSAGES/binutils.mo

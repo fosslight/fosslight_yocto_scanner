@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/systemd
+drwxr-xr-x root       root             4096 ./etc/systemd/scripts
+-rwxr-xr-x root       root            18344 ./etc/systemd/scripts/nv_aurix_check_fw.sh
+drwxr-xr-x root       root             4096 ./etc/systemd/system
+drwxr-xr-x root       root             4096 ./etc/systemd/system/tegra.target.wants
+-rw-r--r-- root       root              338 ./etc/systemd/system/tegra.target.wants/nv_aurix_check_fw.service

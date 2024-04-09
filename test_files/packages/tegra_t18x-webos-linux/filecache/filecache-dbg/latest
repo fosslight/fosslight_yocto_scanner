@@ -1,0 +1,8 @@
+PV = 2.0.1-2
+PR = r4
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = boost-filesystem-dbg boost-system-dbg db8-dbg glib-2.0-dbg glibc-dbg glibmm-dbg jemalloc-dbg libgcc-dbg libpbnjson-dbg libsigc++-2.0-dbg libstdc++-dbg luna-service2-dbg pmloglib-dbg
+PKGSIZE = 4527374
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/sbin/.debug/filecache /usr/src/debug/filecache/2.0.1-2-r4/build/Configured/src/CacheBase.h /usr/src/debug/filecache/2.0.1-2-r4/git/src/AsyncFileCopier.cpp /usr/src/debug/filecache/2.0.1-2-r4/git/src/AsyncFileCopier.h /usr/src/debug/filecache/2.0.1-2-r4/git/src/CacheBase.cpp /usr/src/debug/filecache/2.0.1-2-r4/git/src/CacheObject.cpp /usr/src/debug/filecache/2.0.1-2-r4/git/src/CacheObject.h /usr/src/debug/filecache/2.0.1-2-r4/git/src/CategoryHandler.cpp /usr/src/debug/filecache/2.0.1-2-r4/git/src/CategoryHandler.h /usr/src/debug/filecache/2.0.1-2-r4/git/src/FileCache.cpp /usr/src/debug/filecache/2.0.1-2-r4/git/src/FileCache.h /usr/src/debug/filecache/2.0.1-2-r4/git/src/FileCacheError.h /usr/src/debug/filecache/2.0.1-2-r4/git/src/FileCacheServiceApp.cpp /usr/src/debug/filecache/2.0.1-2-r4/git/src/FileCacheServiceApp.h /usr/src/debug/filecache/2.0.1-2-r4/git/src/FileCacheSet.cpp /usr/src/debug/filecache/2.0.1-2-r4/git/src/FileCacheSet.h

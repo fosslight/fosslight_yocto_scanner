@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-snd-soc-tegra-virt-t210ref-pcm
+RDEPENDS = kernel-4.9.140-tegra kernel-module-snd-soc-core-4.9.140-tegra kernel-module-snd-soc-tegra-virt-alt-ivc-4.9.140-tegra kernel-module-snd-soc-tegra210-virt-alt-admaif-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 15600
+FILES = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-virt-alt/snd-soc-tegra-virt-t210ref-pcm.ko /etc/modules-load.d/snd-soc-tegra-virt-t210ref-pcm.conf /etc/modprobe.d/snd-soc-tegra-virt-t210ref-pcm.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-virt-alt/snd-soc-tegra-virt-t210ref-pcm.ko

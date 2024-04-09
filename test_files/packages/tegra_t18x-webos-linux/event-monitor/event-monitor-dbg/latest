@@ -1,0 +1,8 @@
+PV = 1.1.0-5
+PR = r2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libgcc-dbg libpbnjson-dbg libstdc++-dbg luna-service2-dbg pmloglib-dbg
+PKGSIZE = 3354679
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/sbin/.debug/event-monitor /usr/src/debug/event-monitor/1.1.0-5-r2/git/include/public/event-monitor-api/api.h /usr/src/debug/event-monitor/1.1.0-5-r2/git/include/public/event-monitor-api/error.hpp /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/logging.h /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/lunaservice.cpp /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/lunaservice.h /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/main.cpp /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/pluginadapter.cpp /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/pluginadapter.h /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/plugininfo.cpp /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/plugininfo.h /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/pluginloader.cpp /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/pluginloader.h /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/pluginmanager.cpp /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/pluginmanager.h /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/servicemonitor.cpp /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/servicemonitor.h /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/utils.cpp /usr/src/debug/event-monitor/1.1.0-5-r2/git/src/service/utils.h

@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-ntb-transport
+RDEPENDS = kernel-4.9.140-tegra kernel-module-ntb-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 61544
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/ntb/ntb_transport.ko /etc/modules-load.d/ntb_transport.conf /etc/modprobe.d/ntb_transport.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/ntb/ntb_transport.ko

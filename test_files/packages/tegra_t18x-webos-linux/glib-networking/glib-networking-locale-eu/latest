@@ -1,0 +1,8 @@
+PV = 2.60.2
+PR = r0
+RPROVIDES = eu-translation glib-networking-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eu
+PKGSIZE = 4981
+FILES = /usr/share/locale/eu
+FILELIST = /usr/share/locale/eu/LC_MESSAGES/glib-networking.mo

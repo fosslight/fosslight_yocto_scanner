@@ -1,0 +1,8 @@
+PV = 2.24
+PR = r0
+RPROVIDES = eo-translation xkeyboard-config-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eo
+PKGSIZE = 79021
+FILES = /usr/share/locale/eo
+FILELIST = /usr/share/locale/eo/LC_MESSAGES/xkeyboard-config.mo

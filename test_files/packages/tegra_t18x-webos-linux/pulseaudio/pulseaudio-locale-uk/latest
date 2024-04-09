@@ -1,0 +1,8 @@
+PV = 9.0-13
+PR = r20
+RPROVIDES = pulseaudio-locale uk-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-uk
+PKGSIZE = 92452
+FILES = /usr/share/locale/uk
+FILELIST = /usr/share/locale/uk/LC_MESSAGES/pulseaudio.mo

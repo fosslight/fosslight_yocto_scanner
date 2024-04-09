@@ -1,6 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/perl5
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/autodie
--r--r--r-- root       root            22264 ./usr/lib/perl5/5.30.2/autodie/exception.pm

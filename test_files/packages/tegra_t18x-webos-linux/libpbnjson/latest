@@ -1,0 +1,5 @@
+PV = 2.15.0-1
+PR = r7
+DEPENDS = boost cmake-modules-webos-native cmake-native flex-native glib-2.0 gmp gperf-native icecc-create-env-native lemon-native pkgconfig-native uriparser virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc yajl
+PACKAGES = libpbnjson-dbg libpbnjson-staticdev libpbnjson-dev libpbnjson-doc libpbnjson-locale libpbnjson
+LAYER = meta-webos

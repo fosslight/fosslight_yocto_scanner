@@ -1,0 +1,9 @@
+PV = 4.1.1
+PR = r0
+PKG = libcrypt-dbg
+RPROVIDES = libxcrypt-dbg (=4.1.1)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 865334
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libcrypt.so.1.1.0 /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-des-tables.c /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-des.c /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-des.h /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-hmac-sha1.c /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-hmac-sha1.h /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-md4.c /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-md4.h /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-md5.c /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-md5.h /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha1.c /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha1.h /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha256.c /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha256.h /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha512.c /usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha512.h /usr/src/debug/libxcrypt/4.1.1-r0/git/byteorder.h /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-base.h /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-bcrypt.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-des-obsolete.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-des.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-gensalt-static.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-gensalt.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-md5.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-nthash.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-pbkdf1-sha1.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-private.h /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-sha256.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-sha512.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-static.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-sunmd5.c /usr/src/debug/libxcrypt/4.1.1-r0/git/crypt.c /usr/src/debug/libxcrypt/4.1.1-r0/git/randombytes.c

@@ -1,0 +1,8 @@
+PV = 3.0.0-1
+PR = r1
+RPROVIDES = 
+RDEPENDS = applicationinstallerutility (= 3.0.0-1-r1)
+RRECOMMENDS = glib-2.0-dev glibc-dev libgcc-dev libstdc++-dev openssl-dev pmloglib-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/applicationinstallerutility/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

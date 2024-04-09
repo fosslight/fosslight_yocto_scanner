@@ -1,0 +1,8 @@
+PV = 2.10.9
+PR = r0
+RPROVIDES = kernel-module-lttng-ftrace
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 10432
+FILES = /lib/modules/4.9.140-tegra/kernel/lttng-modules/probes/lttng-ftrace.ko /etc/modules-load.d/lttng-ftrace.conf /etc/modprobe.d/lttng-ftrace.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/lttng-modules/probes/lttng-ftrace.ko

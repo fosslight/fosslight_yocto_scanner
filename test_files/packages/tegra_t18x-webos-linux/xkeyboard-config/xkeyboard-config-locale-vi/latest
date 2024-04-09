@@ -1,0 +1,8 @@
+PV = 2.24
+PR = r0
+RPROVIDES = vi-translation xkeyboard-config-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-vi
+PKGSIZE = 87205
+FILES = /usr/share/locale/vi
+FILELIST = /usr/share/locale/vi/LC_MESSAGES/xkeyboard-config.mo

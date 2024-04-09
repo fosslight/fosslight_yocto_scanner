@@ -1,8 +1,0 @@
-PV = 2.9.10
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) libxcrypt (>= 4.4.15) libxml2 (>= 2.9.10) python3-core zlib (>= 1.2.11)
-RRECOMMENDS = 
-PKGSIZE = 769140
-FILES = /usr/lib/python3.8/site-packages
-FILELIST = /usr/lib/python3.8/site-packages/drv_libxml2.py /usr/lib/python3.8/site-packages/libxml2.py /usr/lib/python3.8/site-packages/libxml2mod.so

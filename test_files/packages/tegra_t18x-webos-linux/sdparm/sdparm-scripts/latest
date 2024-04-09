@@ -1,0 +1,9 @@
+PV = 1.10
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = busybox sdparm
+RRECOMMENDS = 
+PKGSIZE = 6669
+FILES = /usr/bin/sas_disk_blink /usr/bin/scsi_ch_swp
+FILELIST = /usr/bin/sas_disk_blink /usr/bin/scsi_ch_swp

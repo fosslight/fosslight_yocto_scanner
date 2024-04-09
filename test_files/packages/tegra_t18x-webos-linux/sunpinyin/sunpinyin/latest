@@ -1,0 +1,9 @@
+PV = 2.99+3.0.0-rc1+gitAUTOINC+e3c122ed3b
+PR = r1
+PKGV = 2.99+3.0.0-rc1+git0+e3c122ed3b
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libsqlite3 (>= 3.29.0) libstdc++ (>= 8.2.0)
+RRECOMMENDS = 
+PKGSIZE = 43552672
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/sunpinyin /usr/lib/sunpinyin/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/maliit/plugins/
+FILELIST = /usr/lib/maliit/plugins/dict/lm_sc.t3g /usr/lib/maliit/plugins/dict/pydict_sc.bin /usr/lib/maliit/plugins/libsunpinyin.so.3.0

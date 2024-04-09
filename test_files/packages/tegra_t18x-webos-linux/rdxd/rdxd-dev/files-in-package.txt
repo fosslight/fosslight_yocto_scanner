@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             4484 ./usr/include/rdx.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               11 ./usr/lib/librdx.so -> librdx.so.4
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rw-r--r-- root       root              801 ./usr/share/pkgconfig/rdx.pc

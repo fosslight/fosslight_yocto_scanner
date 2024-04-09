@@ -1,0 +1,5 @@
+PV = 7.66.0
+PR = r0
+DEPENDS = autoconf-native automake-native c-ares gnu-config-native icecc-create-env-native libidn libtool-cross libtool-native openssl pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/update-alternatives zlib
+PACKAGES = libcurl curl-dbg curl-staticdev curl-dev curl-doc curl-locale curl
+LAYER = coconut-layer

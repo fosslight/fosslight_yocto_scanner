@@ -1,0 +1,8 @@
+PV = 4.0.2-8
+PR = r8
+RPROVIDES = 
+RDEPENDS = busybox glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libgcc (>= 8.2.0) libpbnjson (>= 2.15.0-1) libstdc++ (>= 8.2.0) luna-prefs (>= 3.0.0-3) luna-service2 (>= 3.21.2-5) nyx-utils pmloglib (>= 3.3.0-4) tar
+RRECOMMENDS = 
+PKGSIZE = 288622
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rdxd /usr/lib/rdxd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services /usr/share/dbus-1/services /usr/share/ls2/roles/prv /usr/share/ls2/roles/pub /usr/share/luna-service2/roles.d /usr/share/luna-service2/services.d /usr/share/luna-service2/client-permissions.d /usr/share/luna-service2/api-permissions.d /usr/share/luna-service2/groups.d /usr/share/luna-service2/manifests.d
+FILELIST = /etc/init.d/postmountall.d/rm_varlogtmp /etc/rdxd.conf /usr/bin/collect_alllogs.sh /usr/lib/librdx.so.4 /usr/lib/librdx.so.4.0.2 /usr/sbin/rdx_reporter /usr/sbin/rdxd /usr/share/luna-service2/api-permissions.d/com.webos.rdxd.api.json /usr/share/luna-service2/client-permissions.d/com.webos.rdxd.perm.json /usr/share/luna-service2/manifests.d/rdxd.manifest.json /usr/share/luna-service2/roles.d/com.webos.rdxd.role.json /usr/share/luna-service2/services.d/com.webos.rdxd.service /usr/share/rdxd/cleanseen.sh /usr/share/rdxd/dumplog.sh /usr/share/rdxd/filter.sh /usr/share/rdxd/logging.sh /usr/share/rdxd/make_integcheck.sh /usr/share/rdxd/make_overview.sh /usr/share/rdxd/make_sysinfo.sh /usr/share/rdxd/show_rdx_reports

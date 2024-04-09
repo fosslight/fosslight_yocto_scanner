@@ -1,0 +1,10 @@
+PV = 5.12.6+gitAUTOINC+53a507b30b
+PR = r0
+PKGV = 5.12.6+git0+53a507b30b
+PKGR = r0webos4
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libstdc++ (>= 8.2.0) qtbase (>= 5.12.6+git0+f0b93f7a4b) qtdeclarative (>= 5.12.6+git0+179c4b689d) qtmultimedia (>= 5.12.6+git0+53a507b30b)
+RRECOMMENDS = 
+PKGSIZE = 477874
+FILES = /usr/lib/qml/*.qmltypes /usr/lib/qml/*/*.so /usr/lib/qml/*/qmldir /usr/lib/qml/*/*.qmltypes /usr/lib/qml/*/*.qml /usr/lib/qml/*/*.qmlc /usr/lib/qml/*/*.js /usr/lib/qml/*/*.jsc /usr/lib/qml/*/*.png /usr/lib/qml/*/*/*.so /usr/lib/qml/*/*/qmldir /usr/lib/qml/*/*/*.qmltypes /usr/lib/qml/*/*/*.qml /usr/lib/qml/*/*/*.qmlc /usr/lib/qml/*/*/*.js /usr/lib/qml/*/*/*.jsc /usr/lib/qml/*/*/*.png /usr/lib/qml/*/*/*/*.so /usr/lib/qml/*/*/*/qmldir /usr/lib/qml/*/*/*/images /usr/lib/qml/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*.qml /usr/lib/qml/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*.js /usr/lib/qml/*/*/*/*.jsc /usr/lib/qml/*/*/*/*.png /usr/lib/qml/*/*/*/*.metainfo /usr/lib/qml/*/*/*/*/*.so /usr/lib/qml/*/*/*/*/qmldir /usr/lib/qml/*/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*/*.qml /usr/lib/qml/*/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*/*.js /usr/lib/qml/*/*/*/*/*.jsc /usr/lib/qml/*/*/*/*/*/*.png
+FILELIST = /usr/lib/qml/QtMultimedia/Video.qml /usr/lib/qml/QtMultimedia/libdeclarative_multimedia.so /usr/lib/qml/QtMultimedia/plugins.qmltypes /usr/lib/qml/QtMultimedia/qmldir

@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-fr-be glibc-localedata-iso14651-t1
-RRECOMMENDS = 
-PKGSIZE = 1721
-FILES = /usr/share/i18n/locales/fr_BE@euro
-FILELIST = /usr/share/i18n/locales/fr_BE@euro

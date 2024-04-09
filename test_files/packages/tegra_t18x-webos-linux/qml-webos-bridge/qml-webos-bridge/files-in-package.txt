@@ -1,0 +1,24 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/qml
+drwxr-xr-x root       root             4096 ./usr/lib/qml/WebOSServices
+-rw-r--r-- root       root             1765 ./usr/lib/qml/WebOSServices/AlertModel.js
+-rw-r--r-- root       root              988 ./usr/lib/qml/WebOSServices/AlertModel.qml
+-rw-r--r-- root       root             1091 ./usr/lib/qml/WebOSServices/ApplicationListModel.js
+-rw-r--r-- root       root              936 ./usr/lib/qml/WebOSServices/ApplicationListModel.qml
+-rw-r--r-- root       root             2969 ./usr/lib/qml/WebOSServices/DB8.qml
+-rw-r--r-- root       root             1090 ./usr/lib/qml/WebOSServices/InputAlertModel.js
+-rw-r--r-- root       root             1039 ./usr/lib/qml/WebOSServices/InputAlertModel.qml
+-rw-r--r-- root       root            18150 ./usr/lib/qml/WebOSServices/LaunchPointsModel.qml
+-rwxr-xr-x root       root           330064 ./usr/lib/qml/WebOSServices/libwebosserviceplugin.so
+-rw-r--r-- root       root             1665 ./usr/lib/qml/WebOSServices/PackagesListModel.js
+-rw-r--r-- root       root              930 ./usr/lib/qml/WebOSServices/PackagesListModel.qml
+-rw-r--r-- root       root             1104 ./usr/lib/qml/WebOSServices/PincodePromptModel.js
+-rw-r--r-- root       root             1075 ./usr/lib/qml/WebOSServices/PincodePromptModel.qml
+-rw-r--r-- root       root              383 ./usr/lib/qml/WebOSServices/qmldir
+-rw-r--r-- root       root              945 ./usr/lib/qml/WebOSServices/RunningModel.js
+-rw-r--r-- root       root              924 ./usr/lib/qml/WebOSServices/RunningModel.qml
+-rw-r--r-- root       root             1213 ./usr/lib/qml/WebOSServices/ToastModel.js
+-rw-r--r-- root       root             1015 ./usr/lib/qml/WebOSServices/ToastModel.qml
+-rw-r--r-- root       root               35 ./usr/lib/qml/WebOSServices/webosserviceplugindescription.json
+lrwxrwxrwx root       root                1 ./usr/lib/qt5 -> .

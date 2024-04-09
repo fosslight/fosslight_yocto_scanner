@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = python3-core python3-datetime python3-xml
-RRECOMMENDS = 
-PKGSIZE = 108027
-FILES = /usr/lib/python3.8/plistlib.py /usr/lib/python3.8/__pycache__/plistlib.*.pyc
-FILELIST = /usr/lib/python3.8/__pycache__/plistlib.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/plistlib.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/plistlib.cpython-38.pyc /usr/lib/python3.8/plistlib.py

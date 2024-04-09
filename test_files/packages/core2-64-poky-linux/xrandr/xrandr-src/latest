@@ -1,9 +1,0 @@
-PE = 1
-PV = 1.5.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 110389
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/xrandr/1_1.5.1-r0/xrandr-1.5.1/xrandr.c

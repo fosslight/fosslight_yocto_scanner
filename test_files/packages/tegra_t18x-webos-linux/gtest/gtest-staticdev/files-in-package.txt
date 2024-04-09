@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root         14404284 ./usr/lib/libgmock.a
+-rw-r--r-- root       root         14529626 ./usr/lib/libgmock_main.a
+-rw-r--r-- root       root         10670132 ./usr/lib/libgtest.a
+-rw-r--r-- root       root            92310 ./usr/lib/libgtest_main.a

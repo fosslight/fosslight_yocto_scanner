@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/spi_tp
+-rw-r--r-- root       root              228 ./etc/spi_tp/spi_tp.cfg
+drwxr-xr-x root       root             4096 ./etc/tacp
+-rw-r--r-- root       root              468 ./etc/tacp/tacp_non_vlan.cfg
+-rw-r--r-- root       root              508 ./etc/tacp/tacp_vlan.cfg

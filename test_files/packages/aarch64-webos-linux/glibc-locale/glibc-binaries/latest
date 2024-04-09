@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-binary-localedata-en-us
+PKGSIZE = 0
+FILES = 
+FILELIST = 

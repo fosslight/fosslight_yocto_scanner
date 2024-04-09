@@ -1,0 +1,9 @@
+PV = 3.3.0-4
+PR = r9
+PKG = libpmloglib-locale
+RPROVIDES = pmloglib-locale (=3.3.0-4)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

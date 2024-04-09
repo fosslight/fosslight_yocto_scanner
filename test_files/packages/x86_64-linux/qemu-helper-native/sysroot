@@ -1,6 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  18 ./sysroot-providers/qemu-helper-native
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -                 548 ./usr/bin/qemu-oe-bridge-helper
--rwxr-xr-x -          -               12392 ./usr/bin/tunctl

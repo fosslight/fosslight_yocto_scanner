@@ -1,8 +1,0 @@
-PV = 0.7.10
-PR = r0
-RPROVIDES = 
-RDEPENDS = libcap-ng (= 0.7.10-r0)
-RRECOMMENDS = glibc-dev
-PKGSIZE = 4618
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libcap-ng/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/cap-ng.h /usr/lib/libcap-ng.so /usr/lib/pkgconfig/libcap-ng.pc /usr/share/aclocal/cap-ng.m4

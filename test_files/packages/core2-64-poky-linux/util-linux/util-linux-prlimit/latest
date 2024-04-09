@@ -1,8 +1,0 @@
-PV = 2.35.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) util-linux-libsmartcols (>= 2.35.1)
-RRECOMMENDS = 
-PKGSIZE = 39480
-FILES = /usr/bin/prlimit
-FILELIST = /usr/bin/prlimit

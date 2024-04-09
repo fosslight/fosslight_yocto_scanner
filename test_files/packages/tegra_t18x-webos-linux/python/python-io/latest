@@ -1,0 +1,8 @@
+PV = 2.7.16
+PR = r1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libcrypto (>= 1.1.1d) libpython2 (>= 2.7.16) libssl (>= 1.1.1d) python-contextlib python-core python-crypt python-fcntl python-lang python-math python-netclient python-textutils
+RRECOMMENDS = 
+PKGSIZE = 1010261
+FILES = /usr/lib/python2.7/StringIO.py /usr/lib/python2.7/StringIO.pyc /usr/lib/python2.7/_pyio.py /usr/lib/python2.7/_pyio.pyc /usr/lib/python2.7/io.py /usr/lib/python2.7/io.pyc /usr/lib/python2.7/lib-dynload/_io.so /usr/lib/python2.7/lib-dynload/_socket.so /usr/lib/python2.7/lib-dynload/_ssl.so /usr/lib/python2.7/lib-dynload/cStringIO.so /usr/lib/python2.7/lib-dynload/select.so /usr/lib/python2.7/lib-dynload/termios.so /usr/lib/python2.7/pipes.py /usr/lib/python2.7/pipes.pyc /usr/lib/python2.7/socket.py /usr/lib/python2.7/socket.pyc /usr/lib/python2.7/ssl.py /usr/lib/python2.7/ssl.pyc /usr/lib/python2.7/tempfile.py /usr/lib/python2.7/tempfile.pyc
+FILELIST = /usr/lib/python2.7/StringIO.py /usr/lib/python2.7/StringIO.pyc /usr/lib/python2.7/_pyio.py /usr/lib/python2.7/_pyio.pyc /usr/lib/python2.7/io.py /usr/lib/python2.7/io.pyc /usr/lib/python2.7/lib-dynload/_io.so /usr/lib/python2.7/lib-dynload/_socket.so /usr/lib/python2.7/lib-dynload/_ssl.so /usr/lib/python2.7/lib-dynload/cStringIO.so /usr/lib/python2.7/lib-dynload/select.so /usr/lib/python2.7/lib-dynload/termios.so /usr/lib/python2.7/pipes.py /usr/lib/python2.7/pipes.pyc /usr/lib/python2.7/socket.py /usr/lib/python2.7/socket.pyc /usr/lib/python2.7/ssl.py /usr/lib/python2.7/ssl.pyc /usr/lib/python2.7/tempfile.py /usr/lib/python2.7/tempfile.pyc

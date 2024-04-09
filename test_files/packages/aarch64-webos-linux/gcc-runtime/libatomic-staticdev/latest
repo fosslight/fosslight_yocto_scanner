@@ -1,0 +1,8 @@
+PV = 8.2.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 723502
+FILES = /usr/lib/libatomic.a
+FILELIST = /usr/lib/libatomic.a

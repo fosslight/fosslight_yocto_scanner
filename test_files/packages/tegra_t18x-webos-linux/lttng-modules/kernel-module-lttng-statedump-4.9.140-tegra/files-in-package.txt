@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/modules
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra/kernel
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra/kernel/lttng-modules
+-rw-r--r-- root       root            23888 ./lib/modules/4.9.140-tegra/kernel/lttng-modules/lttng-statedump.ko

@@ -1,0 +1,8 @@
+PV = 2.7.16
+PR = r1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpython2 (>= 2.7.16) python-core
+RRECOMMENDS = 
+PKGSIZE = 161252
+FILES = /usr/lib/python2.7/json /usr/lib/python2.7/lib-dynload/_json.so
+FILELIST = /usr/lib/python2.7/json/__init__.py /usr/lib/python2.7/json/__init__.pyc /usr/lib/python2.7/json/decoder.py /usr/lib/python2.7/json/decoder.pyc /usr/lib/python2.7/json/encoder.py /usr/lib/python2.7/json/encoder.pyc /usr/lib/python2.7/json/scanner.py /usr/lib/python2.7/json/scanner.pyc /usr/lib/python2.7/json/tool.py /usr/lib/python2.7/json/tool.pyc /usr/lib/python2.7/lib-dynload/_json.so

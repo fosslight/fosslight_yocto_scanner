@@ -1,0 +1,9 @@
+PV = 5.12.4-144
+PR = r0
+PKGR = r0webos17
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 3996
+FILES = /usr/lib/mkspecs
+FILELIST = /usr/lib/mkspecs/modules/qt_lib_waylandclient.pri /usr/lib/mkspecs/modules/qt_lib_waylandclient_private.pri /usr/lib/mkspecs/modules/qt_lib_waylandcompositor.pri /usr/lib/mkspecs/modules/qt_lib_waylandcompositor_private.pri

@@ -1,0 +1,5 @@
+PV = 1.0.0-37
+PR = r2
+DEPENDS = cmake-modules-webos-native cmake-native icecc-create-env-native ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc wayland wayland-native
+PACKAGES = webos-wayland-extensions-dbg webos-wayland-extensions-staticdev webos-wayland-extensions-dev webos-wayland-extensions-doc webos-wayland-extensions-locale webos-wayland-extensions
+LAYER = meta-webos

@@ -1,0 +1,9 @@
+PV = 3.3.15
+PR = r0
+PKGR = r0webos1
+RPROVIDES = procps-locale zh-cn-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-zh-cn
+PKGSIZE = 4220
+FILES = /usr/share/locale/zh_CN
+FILELIST = /usr/share/locale/zh_CN/LC_MESSAGES/procps-ng.mo

@@ -1,0 +1,5 @@
+PV = 0.18.0
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = tini-dbg tini-staticdev tini-dev tini-doc tini-locale tini
+LAYER = virtualization-layer

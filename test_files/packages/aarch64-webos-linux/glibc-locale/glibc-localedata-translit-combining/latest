@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 85332
+FILES = /usr/share/i18n/locales/translit_combining
+FILELIST = /usr/share/i18n/locales/translit_combining

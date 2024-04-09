@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-ablk-helper
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 9472
+FILES = /lib/modules/4.9.140-tegra/kernel/crypto/ablk_helper.ko /etc/modules-load.d/ablk_helper.conf /etc/modprobe.d/ablk_helper.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/crypto/ablk_helper.ko

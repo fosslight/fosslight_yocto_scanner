@@ -1,0 +1,8 @@
+PV = 2.0.5
+PR = r0
+RPROVIDES = hr-translation libidn2-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hr
+PKGSIZE = 1298
+FILES = /usr/share/locale/hr
+FILELIST = /usr/share/locale/hr/LC_MESSAGES/libidn2.mo

@@ -1,8 +1,0 @@
-PV = 10.1.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = libgcc-dev
-PKGSIZE = 0
-FILES = /usr/include/c++/x86_64-poky-linux/bits/*.gch
-FILELIST = 

@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/modules
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra/kernel
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra/kernel/sound
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra/kernel/sound/soc
+drwxr-xr-x root       root             4096 ./lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-virt-alt
+-rw-r--r-- root       root            15600 ./lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-virt-alt/snd-soc-tegra-virt-t210ref-pcm.ko

@@ -1,0 +1,10 @@
+PE = 1
+PV = 2.0.0
+PR = r0
+PKG = libjpeg-staticdev
+RPROVIDES = libjpeg-turbo-staticdev (=2.0.0)
+RDEPENDS = libjpeg-turbo-dev (= 1:2.0.0-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libjpeg-turbo/*.a
+FILELIST = 

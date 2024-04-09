@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root            16980 ./usr/include/qweboskeyextension.h
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/mkspecs
+drwxr-xr-x root       root             4096 ./usr/lib/mkspecs/features
+-rw-r--r-- root       root              686 ./usr/lib/mkspecs/features/webos-desktop.prf
+-rw-r--r-- root       root             1864 ./usr/lib/mkspecs/features/webos.prf
+-rw-r--r-- root       root             4867 ./usr/lib/mkspecs/features/webos-service.prf
+-rw-r--r-- root       root             4850 ./usr/lib/mkspecs/features/webos-variables.prf

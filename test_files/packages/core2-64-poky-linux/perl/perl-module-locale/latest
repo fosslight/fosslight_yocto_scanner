@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-config
-RRECOMMENDS = 
-PKGSIZE = 4855
-FILES = /usr/lib/perl5/5.30.2/locale.pm
-FILELIST = /usr/lib/perl5/5.30.2/locale.pm

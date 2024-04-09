@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-file-find perl-module-getopt-long perl-module-strict perl-module-vars
-RRECOMMENDS = 
-PKGSIZE = 247875
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/Devel/PPPort.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Devel/PPPort.pm

@@ -1,0 +1,5 @@
+PV = 1.1.6
+PR = r0
+DEPENDS = alsa-lib autoconf-native automake-native gnu-config-native icecc-create-env-native libsamplerate0 libtool-cross libtool-native pkgconfig-native pulseaudio virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = alsa-plugins-dbg alsa-plugins-staticdev alsa-plugins-dev alsa-plugins-doc alsa-plugins-locale alsa-plugins alsa-plugins-pulseaudio-conf libasound-module-conf-pulse libasound-module-ctl-arcam-av libasound-module-ctl-oss libasound-module-ctl-pulse libasound-module-pcm-oss libasound-module-pcm-pulse libasound-module-pcm-speex libasound-module-pcm-upmix libasound-module-pcm-usb-stream libasound-module-pcm-vdownmix libasound-module-rate-samplerate
+LAYER = core

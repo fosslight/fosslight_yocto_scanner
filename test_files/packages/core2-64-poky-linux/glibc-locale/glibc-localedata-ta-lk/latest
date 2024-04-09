@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-si-lk glibc-localedata-ta-in
-RRECOMMENDS = 
-PKGSIZE = 3808
-FILES = /usr/share/i18n/locales/ta_LK
-FILELIST = /usr/share/i18n/locales/ta_LK

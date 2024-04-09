@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 64bit libcuda libcuda.so
+RDEPENDS = glibc (>= 2.28) nv-rm-drivers (>= 1.0)
+RRECOMMENDS = 
+PKGSIZE = 23313790
+FILES = /usr/lib/*
+FILELIST = /usr/lib/libcuda.so /usr/lib/libcuda.so.1 /usr/lib/libnvidia-fatbinaryloader.so /usr/lib/libnvidia-fatbinaryloader.so.418.00 /usr/lib/libnvidia-ptxjitcompiler.so /usr/lib/libnvidia-ptxjitcompiler.so.1 /usr/lib/libnvidia-ptxjitcompiler.so.418.00

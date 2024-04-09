@@ -1,0 +1,9 @@
+PV = 2.32.1
+PR = r0
+PKGR = r0webos2
+RPROVIDES = cs-translation util-linux-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-cs
+PKGSIZE = 454743
+FILES = /usr/share/locale/cs
+FILELIST = /usr/share/locale/cs/LC_MESSAGES/util-linux.mo

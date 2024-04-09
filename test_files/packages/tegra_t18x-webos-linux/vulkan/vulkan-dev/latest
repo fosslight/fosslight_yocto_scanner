@@ -1,0 +1,9 @@
+PV = 1.1.73.0
+PR = r0
+PKG = libvulkan-dev
+RPROVIDES = vulkan-dev (=1.1.73.0)
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) vulkan (= 1.1.73.0-r0)
+RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev wayland-dev
+PKGSIZE = 3950971
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vulkan/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/vulkan/vk_icd.h /usr/include/vulkan/vk_layer.h /usr/include/vulkan/vk_layer_dispatch_table.h /usr/include/vulkan/vk_platform.h /usr/include/vulkan/vk_sdk_platform.h /usr/include/vulkan/vulkan.h /usr/include/vulkan/vulkan.hpp /usr/include/vulkan/vulkan_android.h /usr/include/vulkan/vulkan_core.h /usr/include/vulkan/vulkan_ios.h /usr/include/vulkan/vulkan_macos.h /usr/include/vulkan/vulkan_mir.h /usr/include/vulkan/vulkan_vi.h /usr/include/vulkan/vulkan_wayland.h /usr/include/vulkan/vulkan_win32.h /usr/include/vulkan/vulkan_xcb.h /usr/include/vulkan/vulkan_xlib.h /usr/include/vulkan/vulkan_xlib_xrandr.h /usr/lib/libVkLayer_utils.so /usr/lib/libvulkan.so /usr/lib/pkgconfig/vulkan.pc

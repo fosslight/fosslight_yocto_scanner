@@ -1,9 +1,0 @@
-PE = 1
-PV = 5.0.3
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 46191
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/libxfixes/1_5.0.3-r0/libXfixes-5.0.3/include/X11/extensions/Xfixes.h /usr/src/debug/libxfixes/1_5.0.3-r0/libXfixes-5.0.3/src/Cursor.c /usr/src/debug/libxfixes/1_5.0.3-r0/libXfixes-5.0.3/src/Region.c /usr/src/debug/libxfixes/1_5.0.3-r0/libXfixes-5.0.3/src/SaveSet.c /usr/src/debug/libxfixes/1_5.0.3-r0/libXfixes-5.0.3/src/Selection.c /usr/src/debug/libxfixes/1_5.0.3-r0/libXfixes-5.0.3/src/Xfixes.c /usr/src/debug/libxfixes/1_5.0.3-r0/libXfixes-5.0.3/src/Xfixesint.h

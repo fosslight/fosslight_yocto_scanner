@@ -1,0 +1,9 @@
+PV = 3.6.4
+PR = r0
+PKG = libgnutls-locale-nl
+RPROVIDES = gnutls-locale gnutls-locale-nl (=3.6.4) nl-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-nl
+PKGSIZE = 24451
+FILES = /usr/share/locale/nl
+FILELIST = /usr/share/locale/nl/LC_MESSAGES/gnutls.mo

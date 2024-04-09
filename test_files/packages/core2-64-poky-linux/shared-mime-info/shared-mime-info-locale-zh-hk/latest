@@ -1,8 +1,0 @@
-PV = 1.15
-PR = r0
-RPROVIDES = shared-mime-info-locale zh-hk-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-zh-hk
-PKGSIZE = 509
-FILES = /usr/share/locale/zh_HK
-FILELIST = /usr/share/locale/zh_HK/LC_MESSAGES/shared-mime-info.mo

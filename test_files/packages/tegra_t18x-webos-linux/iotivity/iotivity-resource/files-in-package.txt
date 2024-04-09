@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-r--r--r-- root       root           724072 ./usr/lib/libconnectivity_abstraction.so
+-r--r--r-- root       root            67608 ./usr/lib/liboc_logger_core.so
+-r--r--r-- root       root            67768 ./usr/lib/liboc_logger.so
+-r--r--r-- root       root           198768 ./usr/lib/libocpmapi.so
+-r--r--r-- root       root           330048 ./usr/lib/libocprovision.so
+-r--r--r-- root       root          4983128 ./usr/lib/liboc.so
+-r--r--r-- root       root           724944 ./usr/lib/liboctbstack.so
+-r--r--r-- root       root           198928 ./usr/lib/libresource_directory.so

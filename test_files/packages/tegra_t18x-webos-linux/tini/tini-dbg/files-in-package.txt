@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root          4569904 ./usr/bin/.debug/docker-init
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/tini
+drwxr-xr-x root       root             4096 ./usr/src/debug/tini/0.18.0-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/tini/0.18.0-r0/git
+drwxr-xr-x root       root             4096 ./usr/src/debug/tini/0.18.0-r0/git/src
+-rw-r--r-- root       root            19172 ./usr/src/debug/tini/0.18.0-r0/git/src/tini.c
+-rw-r--r-- root       root             6841 ./usr/src/debug/tini/0.18.0-r0/git/src/tiniLicense.h

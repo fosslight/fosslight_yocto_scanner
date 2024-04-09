@@ -1,0 +1,10 @@
+PV = 2.28
+PR = r0
+PKG = libc6-pcprofile
+PKGR = r0webos5
+RPROVIDES = eglibc-pcprofile glibc-pcprofile (=2.28)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 6152
+FILES = /lib/libpcprofile.so
+FILELIST = /lib/libpcprofile.so

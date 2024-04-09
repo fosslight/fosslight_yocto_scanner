@@ -1,0 +1,8 @@
+PV = 1.0.0-26
+PR = r4
+RPROVIDES = 
+RDEPENDS = com.webos.service.memorymanager (= 1.0.0-26-r4)
+RRECOMMENDS = glib-2.0-dev glibc-dev libgcc-dev libpbnjson-dev libstdc++-dev luna-service2-dev pmloglib-dev procps-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/com.webos.service.memorymanager/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

@@ -1,0 +1,9 @@
+PV = 7.66.0
+PR = r0
+PKGR = r0webos10
+RPROVIDES = 
+RDEPENDS = curl-dev (= 7.66.0-r0webos10)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/curl/*.a
+FILELIST = 

@@ -1,0 +1,10 @@
+PV = 2.0.2+AUTOINC+bc63d36e39
+PR = r0
+PKGV = 2.0.2+0+bc63d36e39
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 677888
+FILES = /usr/sbin/nftl* /usr/sbin/ftl* /usr/sbin/rfd* /usr/sbin/doc* /usr/sbin/serve_image /usr/sbin/recv_image
+FILELIST = /usr/sbin/doc_loadbios /usr/sbin/docfdisk /usr/sbin/ftl_check /usr/sbin/ftl_format /usr/sbin/nftl_format /usr/sbin/nftldump /usr/sbin/recv_image /usr/sbin/rfddump /usr/sbin/rfdformat /usr/sbin/serve_image

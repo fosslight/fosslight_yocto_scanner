@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = gl-translation glibc-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-gl
+PKGSIZE = 0
+FILES = /usr/share/locale/gl
+FILELIST = 

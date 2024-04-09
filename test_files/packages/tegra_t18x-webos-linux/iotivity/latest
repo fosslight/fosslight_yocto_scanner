@@ -1,0 +1,5 @@
+PV = 1.3.99+gitAUTOINC+255060695e
+PR = r3
+DEPENDS = boost chrpath-replacement-native coreutils-native curl enact-dev-native enact-framework expat glib-2.0 glib-2.0-native icecc-create-env-native ilib-webapp libpbnjson luna-service2 openssl pkgconfig-native python-scons-native sqlite3 util-linux virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/gettext virtual/libc virtual/webruntime
+PACKAGES = iotivity-dbg iotivity-staticdev iotivity-dev iotivity-doc iotivity-locale iotivity-tests iotivity-plugins-samples iotivity-resource iotivity-service iotivity-service-samples iotivity-tools iotivity
+LAYER = meta-webos

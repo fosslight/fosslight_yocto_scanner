@@ -1,9 +1,0 @@
-PV = 1.18.1
-PR = r0
-PKG = libgdbm-compat4
-RPROVIDES = gdbm-compat (=1.18.1)
-RDEPENDS = gdbm (>= 1.18.1) glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 14103
-FILES = /usr/lib/libgdbm_compat.so.*
-FILELIST = /usr/lib/libgdbm_compat.so.4 /usr/lib/libgdbm_compat.so.4.0.0

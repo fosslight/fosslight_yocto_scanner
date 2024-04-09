@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 1569
-FILES = /usr/share/i18n/charmaps/JIS_C6220-1969-RO.gz
-FILELIST = /usr/share/i18n/charmaps/JIS_C6220-1969-RO.gz

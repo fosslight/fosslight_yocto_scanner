@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            67744 ./usr/sbin/docfdisk
+-rwxr-xr-x root       root            67744 ./usr/sbin/doc_loadbios
+-rwxr-xr-x root       root            67824 ./usr/sbin/ftl_check
+-rwxr-xr-x root       root            67824 ./usr/sbin/ftl_format
+-rwxr-xr-x root       root            67768 ./usr/sbin/nftldump
+-rwxr-xr-x root       root            67832 ./usr/sbin/nftl_format
+-rwxr-xr-x root       root            67752 ./usr/sbin/recv_image
+-rwxr-xr-x root       root            67824 ./usr/sbin/rfddump
+-rwxr-xr-x root       root            67824 ./usr/sbin/rfdformat
+-rwxr-xr-x root       root            67752 ./usr/sbin/serve_image

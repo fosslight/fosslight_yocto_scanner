@@ -1,0 +1,19 @@
+set -e
+    if [ -e $D/etc/ld.so.preload -a -s $D/etc/ld.so.preload ]; then
+        # remove old libSegFault entries
+        sed -i '/libSegFault/d' $D/etc/ld.so.preload
+        if [ -s $D/etc/ld.so.preload ]; then
+            # append new libSegFault.so entry
+            sed -i "$ a\
+/usr/lib/libSegFault.so" $D/etc/ld.so.preload
+        else
+            echo "/lib/libSegFault.so" > $D/etc/ld.so.preload
+        fi
+    else
+        # When building bdk, /etc might not exist in the sysroot
+        mkdir -p $D/etc
+        echo "/lib/libSegFault.so" > $D/etc/ld.so.preload
+    fi
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

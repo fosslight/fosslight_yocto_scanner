@@ -1,0 +1,10 @@
+PE = 1
+PV = 239
+PR = r0
+PKGR = r0webos4
+RPROVIDES = ja-translation systemd-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ja
+PKGSIZE = 20615
+FILES = /usr/share/locale/ja
+FILELIST = /usr/share/locale/ja/LC_MESSAGES/systemd.mo

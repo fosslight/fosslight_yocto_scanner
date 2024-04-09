@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/event-monitor-api
+-rw-r--r-- root       root             8700 ./usr/include/event-monitor-api/api.h
+-rw-r--r-- root       root             1284 ./usr/include/event-monitor-api/error.hpp
+-rw-r--r-- root       root             1795 ./usr/include/event-monitor-api.h
+-rw-r--r-- root       root             1194 ./usr/include/event-monitor-api/logging.h
+-rw-r--r-- root       root             1912 ./usr/include/event-monitor-api/pluginbase.hpp

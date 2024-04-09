@@ -1,5 +1,0 @@
-PV = 0.4231
-PR = r0
-DEPENDS = perl perl-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = libmodule-build-perl-src libmodule-build-perl-dbg libmodule-build-perl-ptest libmodule-build-perl-staticdev libmodule-build-perl-dev libmodule-build-perl-doc libmodule-build-perl-locale libmodule-build-perl
-LAYER = core

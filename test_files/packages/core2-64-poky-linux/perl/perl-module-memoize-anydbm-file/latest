@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-vars
-RRECOMMENDS = 
-PKGSIZE = 674
-FILES = /usr/lib/perl5/5.30.2/Memoize/AnyDBM_File.pm
-FILELIST = /usr/lib/perl5/5.30.2/Memoize/AnyDBM_File.pm

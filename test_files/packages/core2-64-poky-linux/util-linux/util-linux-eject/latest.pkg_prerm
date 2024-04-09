@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  eject /usr/bin/eject.util-linux

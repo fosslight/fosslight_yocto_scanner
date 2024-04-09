@@ -1,0 +1,8 @@
+PV = 40.0.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = python-setuptools (= 40.0.0-r0)
+RRECOMMENDS = python-compile-dev python-compression-dev python-core-dev python-ctypes-dev python-dev python-distutils-dev python-email-dev python-html-dev python-netserver-dev python-numbers-dev python-pkgutil-dev python-plistlib-dev python-shell-dev python-stringold-dev python-threading-dev python-unittest-dev python-xml-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/python-setuptools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/pkgconfig /usr/lib/pkgconfig /usr/lib/python2.7/site-packages/*.la
+FILELIST = 

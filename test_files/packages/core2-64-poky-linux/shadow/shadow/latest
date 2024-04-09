@@ -1,8 +1,0 @@
-PV = 4.8.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = base-passwd glibc (>= 2.31+git0+1094741224) libattr (>= 2.4.48) libxcrypt (>= 4.4.15) shadow-base shadow-securetty update-alternatives-opkg util-linux-sulogin
-RRECOMMENDS = 
-PKGSIZE = 1765833
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/shadow /usr/lib/shadow/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /etc/default/useradd /etc/limits /etc/login.access /sbin/nologin.shadow /sbin/vigr.shadow /sbin/vipw.shadow /usr/bin/chage /usr/bin/chfn.shadow /usr/bin/chsh.shadow /usr/bin/expiry /usr/bin/faillog /usr/bin/gpasswd /usr/bin/lastlog /usr/bin/newgidmap /usr/bin/newuidmap /usr/bin/passwd.shadow /usr/sbin/chgpasswd /usr/sbin/chpasswd.shadow /usr/sbin/groupadd /usr/sbin/groupdel /usr/sbin/groupmems /usr/sbin/groupmod /usr/sbin/grpck /usr/sbin/grpconv /usr/sbin/grpunconv /usr/sbin/logoutd /usr/sbin/newusers /usr/sbin/pwck /usr/sbin/pwconv /usr/sbin/pwunconv /usr/sbin/useradd /usr/sbin/userdel /usr/sbin/usermod

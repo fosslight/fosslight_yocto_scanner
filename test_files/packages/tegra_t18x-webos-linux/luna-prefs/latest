@@ -1,0 +1,5 @@
+PV = 3.0.0-3
+PR = r13
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native json-c luna-service2 ninja-native nyx-lib pkgconfig-native sqlite3 virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = luna-prefs-dbg luna-prefs-staticdev luna-prefs-dev luna-prefs-doc luna-prefs-locale luna-prefs
+LAYER = meta-webos

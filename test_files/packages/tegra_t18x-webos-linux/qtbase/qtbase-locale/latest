@@ -1,0 +1,10 @@
+PV = 5.12.6+gitAUTOINC+f0b93f7a4b
+PR = r0
+PKGV = 5.12.6+git0+f0b93f7a4b
+PKGR = r0webos70lpdnvidia13-webos1webostegra2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

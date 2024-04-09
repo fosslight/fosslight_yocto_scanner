@@ -1,0 +1,9 @@
+PV = 1.68.0
+PR = r0
+PKG = libboost-iostreams1.68.0
+RPROVIDES = boost-iostreams (=1.68.0)
+RDEPENDS = glibc (>= 2.28) libbz2 (>= 1.0.6) libgcc (>= 8.2.0) liblzma (>= 5.2.4) libstdc++ (>= 8.2.0) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 133392
+FILES = /usr/lib/libboost_iostreams*.so.*
+FILELIST = /usr/lib/libboost_iostreams.so.1.68.0

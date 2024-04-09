@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-base perl-module-carp perl-module-file-path perl-module-file-spec perl-module-io-handle perl-module-strict perl-module-tap-base perl-module-tap-formatter-file perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 29006
-FILES = /usr/lib/perl5/5.30.2/TAP/Harness.pm
-FILELIST = /usr/lib/perl5/5.30.2/TAP/Harness.pm

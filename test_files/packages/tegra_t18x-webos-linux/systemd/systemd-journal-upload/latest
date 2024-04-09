@@ -1,0 +1,10 @@
+PE = 1
+PV = 239
+PR = r0
+PKGR = r0webos4
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /lib/systemd/systemd-journal-upload /lib/systemd/system/systemd-journal-upload.service /etc/systemd/journal-upload.conf
+FILELIST = 

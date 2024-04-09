@@ -1,9 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/locale
-drwxr-xr-x root       root             4096 ./usr/share/locale/ro
-drwxr-xr-x root       root             4096 ./usr/share/locale/ro/LC_MESSAGES
--rw-r--r-- root       root            69061 ./usr/share/locale/ro/LC_MESSAGES/bfd.mo
--rw-r--r-- root       root            20288 ./usr/share/locale/ro/LC_MESSAGES/binutils.mo
--rw-r--r-- root       root             9921 ./usr/share/locale/ro/LC_MESSAGES/gprof.mo
--rw-r--r-- root       root            16009 ./usr/share/locale/ro/LC_MESSAGES/opcodes.mo

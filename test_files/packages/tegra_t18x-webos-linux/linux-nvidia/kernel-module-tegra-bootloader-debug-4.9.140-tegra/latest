@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-tegra-bootloader-debug
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 18016
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/platform/tegra/tegra_bootloader_debug.ko /etc/modules-load.d/tegra_bootloader_debug.conf /etc/modprobe.d/tegra_bootloader_debug.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/platform/tegra/tegra_bootloader_debug.ko

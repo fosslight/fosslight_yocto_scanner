@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root          1015732 ./usr/lib/libQt5AccessibilitySupport.a
+-rw-r--r-- root       root         78425150 ./usr/lib/libQt5Bootstrap.a
+-rw-r--r-- root       root          2398436 ./usr/lib/libQt5DeviceDiscoverySupport.a
+-rw-r--r-- root       root          1489964 ./usr/lib/libQt5EdidSupport.a
+-rw-r--r-- root       root          3231746 ./usr/lib/libQt5EglSupport.a
+-rw-r--r-- root       root          3753860 ./usr/lib/libQt5EventDispatcherSupport.a
+-rw-r--r-- root       root          8799368 ./usr/lib/libQt5FbSupport.a
+-rw-r--r-- root       root          7021156 ./usr/lib/libQt5FontDatabaseSupport.a
+-rw-r--r-- root       root         20436722 ./usr/lib/libQt5InputSupport.a
+-rw-r--r-- root       root          3318654 ./usr/lib/libQt5KmsSupport.a
+-rw-r--r-- root       root           771948 ./usr/lib/libQt5OpenGLExtensions.a
+-rw-r--r-- root       root          3591330 ./usr/lib/libQt5PlatformCompositorSupport.a
+-rw-r--r-- root       root          1298066 ./usr/lib/libQt5ServiceSupport.a
+-rw-r--r-- root       root          3626548 ./usr/lib/libQt5ThemeSupport.a

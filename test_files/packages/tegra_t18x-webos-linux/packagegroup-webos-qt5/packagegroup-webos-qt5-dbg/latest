@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = qtbase-dbg qtbase-examples-dbg qtdeclarative-dbg qtmultimedia-dbg qtmultimedia-qmlplugins-dbg qtwayland-dbg qtwayland-examples-dbg qtwayland-plugins-dbg qtwayland-webos-dbg
+PKGSIZE = 0
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = 

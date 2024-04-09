@@ -1,0 +1,8 @@
+PV = 0.99.0+20-92
+PR = r31
+RPROVIDES = 
+RDEPENDS = maliit-framework-webos-dev (= 0.99.0+20-92-r31)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/maliit-framework-webos/*.a
+FILELIST = 

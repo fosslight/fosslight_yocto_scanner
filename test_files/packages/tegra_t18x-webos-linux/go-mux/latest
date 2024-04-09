@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = go-mux-dbg go-mux-staticdev go-mux-dev go-mux-doc go-mux-locale go-mux
+LAYER = virtualization-layer

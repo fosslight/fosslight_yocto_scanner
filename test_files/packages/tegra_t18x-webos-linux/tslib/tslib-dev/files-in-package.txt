@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             5278 ./usr/include/tslib.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               14 ./usr/lib/libts.so -> libts.so.0.9.1
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              183 ./usr/lib/pkgconfig/tslib.pc

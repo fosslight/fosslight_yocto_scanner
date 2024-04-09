@@ -1,0 +1,12 @@
+PE = 1
+PV = 2.58.0
+PR = r0
+PKG = libglib-2.0-locale-an
+PKGV = 2.58.0-0webos4
+PKGR = r0webos4
+RPROVIDES = an-translation glib-2.0-locale glib-2.0-locale-an (=2.58.0-0webos4)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-an
+PKGSIZE = 100925
+FILES = /usr/share/locale/an
+FILELIST = /usr/share/locale/an/LC_MESSAGES/glib20.mo

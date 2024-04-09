@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/libgphoto2
+drwxr-xr-x root       root             4096 ./usr/lib/libgphoto2/2.5.17
+-rwxr-xr-x root       root           147768 ./usr/lib/libgphoto2/2.5.17/pentax.so

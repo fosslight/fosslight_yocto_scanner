@@ -1,0 +1,9 @@
+PV = 2.0.5
+PR = r0
+PKG = libidn2-0
+RPROVIDES = libidn2 (=2.0.5)
+RDEPENDS = glibc (>= 2.28) libunistring (>= 0.9.10)
+RRECOMMENDS = 
+PKGSIZE = 133240
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libidn2 /usr/lib/libidn2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libidn2.so.0 /usr/lib/libidn2.so.0.3.4

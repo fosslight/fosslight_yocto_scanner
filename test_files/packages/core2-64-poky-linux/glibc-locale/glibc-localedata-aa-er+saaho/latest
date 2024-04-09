@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-aa-er glibc-localedata-aa-et
-RRECOMMENDS = 
-PKGSIZE = 4199
-FILES = /usr/share/i18n/locales/aa_ER@saaho
-FILELIST = /usr/share/i18n/locales/aa_ER@saaho

@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 1113906
-FILES = /usr/lib/locale/zh_HK.BIG5-HKSCS
-FILELIST = /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_ADDRESS /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_COLLATE /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_CTYPE /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_IDENTIFICATION /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_MEASUREMENT /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_MONETARY /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_NAME /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_NUMERIC /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_PAPER /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_TELEPHONE /usr/lib/locale/zh_HK.BIG5-HKSCS/LC_TIME

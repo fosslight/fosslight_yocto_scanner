@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = ha-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ha
+PKGSIZE = 5221
+FILES = /usr/share/locale/ha
+FILELIST = /usr/share/locale/ha/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/ha/LC_MESSAGES/iso_3166.mo

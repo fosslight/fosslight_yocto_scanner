@@ -1,6 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  17 ./sysroot-providers/qemuwrapper-cross
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/bin
-drwxr-xr-x -          -                4096 ./usr/bin/crossscripts
--rwxr-xr-x -          -                 243 ./usr/bin/crossscripts/qemuwrapper

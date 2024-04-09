@@ -1,0 +1,8 @@
+PV = 1.0.0-7
+PR = r4.1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 415172
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/bareapp /usr/lib/bareapp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services /usr/share/dbus-1/services /usr/share/ls2/roles/prv /usr/share/ls2/roles/pub /usr/share/luna-service2/roles.d /usr/share/luna-service2/services.d /usr/share/luna-service2/client-permissions.d /usr/share/luna-service2/api-permissions.d /usr/share/luna-service2/groups.d /usr/share/luna-service2/manifests.d /usr/palm/applications
+FILELIST = /usr/palm/applications/bareapp/README.md /usr/palm/applications/bareapp/appinfo.json /usr/palm/applications/bareapp/icon.png /usr/palm/applications/bareapp/img.jpg /usr/palm/applications/bareapp/index.html /usr/share/luna-service2/client-permissions.d/bareapp.app.json /usr/share/luna-service2/manifests.d/bareapp.manifest.json /usr/share/luna-service2/roles.d/bareapp.app.json

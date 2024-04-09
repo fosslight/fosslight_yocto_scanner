@@ -1,8 +1,0 @@
-PV = 1.18.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = expat-dbg glibc-dbg libffi-dbg libxml2-dbg
-PKGSIZE = 2544440
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/wayland-scanner /usr/lib/.debug/libwayland-client.so.0.3.0 /usr/lib/.debug/libwayland-cursor.so.0.0.0 /usr/lib/.debug/libwayland-egl.so.1.0.0 /usr/lib/.debug/libwayland-server.so.0.1.0 /usr/lib/wayland/ptest/.debug/exec-fd-leak-checker /usr/lib/wayland/ptest/tests/.debug/array-test /usr/lib/wayland/ptest/tests/.debug/client-test /usr/lib/wayland/ptest/tests/.debug/compositor-introspection-test /usr/lib/wayland/ptest/tests/.debug/connection-test /usr/lib/wayland/ptest/tests/.debug/cpp-compile-test /usr/lib/wayland/ptest/tests/.debug/display-test /usr/lib/wayland/ptest/tests/.debug/event-loop-test /usr/lib/wayland/ptest/tests/.debug/exec-fd-leak-checker /usr/lib/wayland/ptest/tests/.debug/fixed-test /usr/lib/wayland/ptest/tests/.debug/headers-test /usr/lib/wayland/ptest/tests/.debug/interface-test /usr/lib/wayland/ptest/tests/.debug/list-test /usr/lib/wayland/ptest/tests/.debug/map-test /usr/lib/wayland/ptest/tests/.debug/message-test /usr/lib/wayland/ptest/tests/.debug/newsignal-test /usr/lib/wayland/ptest/tests/.debug/os-wrappers-test /usr/lib/wayland/ptest/tests/.debug/protocol-logger-test /usr/lib/wayland/ptest/tests/.debug/queue-test /usr/lib/wayland/ptest/tests/.debug/resources-test /usr/lib/wayland/ptest/tests/.debug/sanity-test /usr/lib/wayland/ptest/tests/.debug/signal-test /usr/lib/wayland/ptest/tests/.debug/socket-test

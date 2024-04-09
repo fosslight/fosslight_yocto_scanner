@@ -1,0 +1,10 @@
+PV = 1.14.0+gitrAUTOINC+17dc1b3102
+PR = r0
+PKG = libcares-utils
+PKGV = 1.14.0+gitr0+17dc1b3102
+RPROVIDES = c-ares-utils (=1.14.0+gitr0+17dc1b3102)
+RDEPENDS = c-ares (>= 1.14.0+gitr0+17dc1b3102) glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 203432
+FILES = /usr/bin
+FILELIST = /usr/bin/acountry /usr/bin/adig /usr/bin/ahost

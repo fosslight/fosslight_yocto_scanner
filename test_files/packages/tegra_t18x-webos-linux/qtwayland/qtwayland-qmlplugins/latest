@@ -1,0 +1,9 @@
+PV = 5.12.4-144
+PR = r0
+PKGR = r0webos17
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libstdc++ (>= 8.2.0) qtbase (>= 5.12.6+git0+f0b93f7a4b) qtdeclarative (>= 5.12.6+git0+179c4b689d) qtwayland (>= 5.12.4-144)
+RRECOMMENDS = 
+PKGSIZE = 250620
+FILES = /usr/lib/qml/*.qmltypes /usr/lib/qml/*/*.so /usr/lib/qml/*/qmldir /usr/lib/qml/*/*.qmltypes /usr/lib/qml/*/*.qml /usr/lib/qml/*/*.qmlc /usr/lib/qml/*/*.js /usr/lib/qml/*/*.jsc /usr/lib/qml/*/*.png /usr/lib/qml/*/*/*.so /usr/lib/qml/*/*/qmldir /usr/lib/qml/*/*/*.qmltypes /usr/lib/qml/*/*/*.qml /usr/lib/qml/*/*/*.qmlc /usr/lib/qml/*/*/*.js /usr/lib/qml/*/*/*.jsc /usr/lib/qml/*/*/*.png /usr/lib/qml/*/*/*/*.so /usr/lib/qml/*/*/*/qmldir /usr/lib/qml/*/*/*/images /usr/lib/qml/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*.qml /usr/lib/qml/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*.js /usr/lib/qml/*/*/*/*.jsc /usr/lib/qml/*/*/*/*.png /usr/lib/qml/*/*/*/*.metainfo /usr/lib/qml/*/*/*/*/*.so /usr/lib/qml/*/*/*/*/qmldir /usr/lib/qml/*/*/*/*/*.qmltypes /usr/lib/qml/*/*/*/*/*.qml /usr/lib/qml/*/*/*/*/*.qmlc /usr/lib/qml/*/*/*/*/*.js /usr/lib/qml/*/*/*/*/*.jsc /usr/lib/qml/*/*/*/*/*/*.png
+FILELIST = /usr/lib/qml/QtWayland/Compositor/libqwaylandcompositorplugin.so /usr/lib/qml/QtWayland/Compositor/plugins.qmltypes /usr/lib/qml/QtWayland/Compositor/qmldir

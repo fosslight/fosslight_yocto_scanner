@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/locale
+drwxr-xr-x root       root             4096 ./usr/share/locale/es
+drwxr-xr-x root       root             4096 ./usr/share/locale/es/LC_MESSAGES
+-rw-r--r-- root       root             7292 ./usr/share/locale/es/LC_MESSAGES/iso_15924.mo
+-rw-r--r-- root       root            23918 ./usr/share/locale/es/LC_MESSAGES/iso_3166-1.mo
+-rw-r--r-- root       root             5614 ./usr/share/locale/es/LC_MESSAGES/iso_3166-2.mo
+lrwxrwxrwx root       root               13 ./usr/share/locale/es/LC_MESSAGES/iso_3166_2.mo -> iso_3166-2.mo
+-rw-r--r-- root       root             2948 ./usr/share/locale/es/LC_MESSAGES/iso_3166-3.mo
+lrwxrwxrwx root       root               13 ./usr/share/locale/es/LC_MESSAGES/iso_3166.mo -> iso_3166-1.mo
+-rw-r--r-- root       root             7370 ./usr/share/locale/es/LC_MESSAGES/iso_4217.mo
+-rw-r--r-- root       root            17182 ./usr/share/locale/es/LC_MESSAGES/iso_639-2.mo
+-rw-r--r-- root       root            13162 ./usr/share/locale/es/LC_MESSAGES/iso_639-3.mo
+lrwxrwxrwx root       root               12 ./usr/share/locale/es/LC_MESSAGES/iso_639_3.mo -> iso_639-3.mo
+lrwxrwxrwx root       root               12 ./usr/share/locale/es/LC_MESSAGES/iso_639.mo -> iso_639-2.mo

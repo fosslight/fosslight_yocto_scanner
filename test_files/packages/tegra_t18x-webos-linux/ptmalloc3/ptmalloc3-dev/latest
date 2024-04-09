@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r4
+RPROVIDES = 
+RDEPENDS = ptmalloc3 (= 1.0-r4)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 36947
+FILES = /usr/include
+FILELIST = /usr/include/malloc-2.8.3.h /usr/include/malloc_utils.h /usr/include/mmap_dev_heap.h /usr/include/sysdeps/generic/malloc-machine.h /usr/include/sysdeps/generic/thread-st.h /usr/include/sysdeps/pthread/malloc-machine.h /usr/include/sysdeps/pthread/thread-st.h /usr/include/sysdeps/solaris/malloc-machine.h /usr/include/sysdeps/solaris/thread-st.h /usr/include/sysdeps/sproc/malloc-machine.h /usr/include/sysdeps/sproc/thread-st.h

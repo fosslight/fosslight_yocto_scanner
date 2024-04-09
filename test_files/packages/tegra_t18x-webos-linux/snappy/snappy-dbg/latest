@@ -1,0 +1,10 @@
+PV = 1.1.7
+PR = r0
+PKG = libsnappy-dbg
+PKGR = r0webos1
+RPROVIDES = snappy-dbg (=1.1.7)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg
+PKGSIZE = 460968
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libsnappy.so.1.1.7 /usr/src/debug/snappy/1.1.7-r0/build/snappy-stubs-public.h /usr/src/debug/snappy/1.1.7-r0/snappy-1.1.7/snappy-c.cc /usr/src/debug/snappy/1.1.7-r0/snappy-1.1.7/snappy-c.h /usr/src/debug/snappy/1.1.7-r0/snappy-1.1.7/snappy-internal.h /usr/src/debug/snappy/1.1.7-r0/snappy-1.1.7/snappy-sinksource.cc /usr/src/debug/snappy/1.1.7-r0/snappy-1.1.7/snappy-sinksource.h /usr/src/debug/snappy/1.1.7-r0/snappy-1.1.7/snappy-stubs-internal.cc /usr/src/debug/snappy/1.1.7-r0/snappy-1.1.7/snappy-stubs-internal.h /usr/src/debug/snappy/1.1.7-r0/snappy-1.1.7/snappy.cc /usr/src/debug/snappy/1.1.7-r0/snappy-1.1.7/snappy.h

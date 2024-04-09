@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67744 ./usr/bin/gsl-histogram
+-rwxr-xr-x root       root            67744 ./usr/bin/gsl-randist
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           264288 ./usr/lib/libgslcblas.so.0.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libgslcblas.so.0 -> libgslcblas.so.0.0.0
+-rwxr-xr-x root       root          2083936 ./usr/lib/libgsl.so.0.16.0
+lrwxrwxrwx root       root               16 ./usr/lib/libgsl.so.0 -> libgsl.so.0.16.0

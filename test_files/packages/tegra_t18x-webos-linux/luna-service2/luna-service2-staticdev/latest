@@ -1,0 +1,8 @@
+PV = 3.21.2-5
+PR = r23
+RPROVIDES = 
+RDEPENDS = luna-service2-dev (= 3.21.2-5-r23)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/luna-service2/*.a
+FILELIST = 

@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) glibc-gconv glibc-gconv-libgb (>= 2.28) glibc-gconv-libjis (>= 2.28) glibc-gconv-libksc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 38936
+FILES = /usr/lib/gconv/ISO-2022-JP.so
+FILELIST = /usr/lib/gconv/ISO-2022-JP.so

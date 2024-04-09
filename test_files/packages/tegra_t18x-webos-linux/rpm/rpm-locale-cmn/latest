@@ -1,0 +1,10 @@
+PE = 1
+PV = 4.14.2
+PR = r0
+PKGR = r0webos3
+RPROVIDES = cmn-translation rpm-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-cmn
+PKGSIZE = 57454
+FILES = /usr/share/locale/cmn
+FILELIST = /usr/share/locale/cmn/LC_MESSAGES/rpm.mo

@@ -1,0 +1,5 @@
+PV = 0.98.0+gitAUTOINC+b2d142f486
+PR = r2
+DEPENDS = cmake-native icecc-create-env-native ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libbson-dbg libbson-staticdev libbson-dev libbson-doc libbson-locale libbson
+LAYER = meta-webos

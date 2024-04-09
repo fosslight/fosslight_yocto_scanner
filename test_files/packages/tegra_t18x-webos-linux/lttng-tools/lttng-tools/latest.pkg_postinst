@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
+
+	systemctl $OPTS disable lttng-sessiond.service
+
+	if [ -z "$D" -a "disable" = "enable" ]; then
+		systemctl --no-block restart lttng-sessiond.service
+	fi
+fi
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

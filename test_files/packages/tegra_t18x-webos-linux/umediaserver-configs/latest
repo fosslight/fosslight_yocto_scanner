@@ -1,0 +1,5 @@
+PV = 1.0.0-8
+PR = r6
+DEPENDS = cmake-modules-webos-native cmake-native icecc-create-env-native ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = umediaserver-configs-dbg umediaserver-configs-staticdev umediaserver-configs-dev umediaserver-configs-doc umediaserver-configs-locale umediaserver-configs
+LAYER = meta-webos

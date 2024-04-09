@@ -1,0 +1,5 @@
+PV = 1.0.0-4
+PR = r0
+DEPENDS = 
+PACKAGES = webos-fonts
+LAYER = meta-webos

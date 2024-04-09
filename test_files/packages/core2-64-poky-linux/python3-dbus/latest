@@ -1,5 +1,0 @@
-PV = 1.2.16
-PR = r0
-DEPENDS = autoconf-native automake-native dbus expat glib-2.0 gnu-config-native libtool-cross libtool-native pkgconfig-native python3 python3-native python3-native virtual/libc virtual/libintl virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = python3-dbus-src python3-dbus-dbg python3-dbus-staticdev python3-dbus-dev python3-dbus-doc python3-dbus-locale python3-dbus
-LAYER = core

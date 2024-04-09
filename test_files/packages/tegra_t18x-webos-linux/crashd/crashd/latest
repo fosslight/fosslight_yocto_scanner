@@ -1,0 +1,8 @@
+PV = 1.2.5-3
+PR = r11
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) gzip libsegfault-webos pmloglib (>= 3.3.0-4) rdxd (>= 4.0.2-8)
+RRECOMMENDS = 
+PKGSIZE = 69247
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/crashd /usr/lib/crashd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/sbin/crashd /usr/sbin/save-core-dump.sh

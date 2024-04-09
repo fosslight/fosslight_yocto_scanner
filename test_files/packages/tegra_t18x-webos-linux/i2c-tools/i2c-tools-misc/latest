@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = i2c-tools perl perl-module-constant perl-module-fcntl perl-module-file-basename perl-module-posix perl-module-strict perl-module-vars
+RRECOMMENDS = 
+PKGSIZE = 131551
+FILES = /usr/sbin/i2c-stub-from-dump /usr/bin/ddcmon /usr/bin/decode-edid /usr/bin/decode-dimms /usr/bin/decode-vaio
+FILELIST = /usr/bin/ddcmon /usr/bin/decode-dimms /usr/bin/decode-edid /usr/bin/decode-vaio /usr/sbin/i2c-stub-from-dump

@@ -1,8 +1,0 @@
-PV = 1.1.1g
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) libcrypto (>= 1.1.1g)
-RRECOMMENDS = 
-PKGSIZE = 63088
-FILES = /usr/lib/engines-1.1
-FILELIST = /usr/lib/engines-1.1/afalg.so /usr/lib/engines-1.1/capi.so /usr/lib/engines-1.1/padlock.so

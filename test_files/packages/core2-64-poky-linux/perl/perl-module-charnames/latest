@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module--charnames perl-module-bytes perl-module-re perl-module-strict perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 20867
-FILES = /usr/lib/perl5/5.30.2/charnames.pm
-FILELIST = /usr/lib/perl5/5.30.2/charnames.pm

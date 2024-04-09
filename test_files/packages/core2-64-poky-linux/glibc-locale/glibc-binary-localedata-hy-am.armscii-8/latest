@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 318179
-FILES = /usr/lib/locale/hy_AM.ARMSCII-8
-FILELIST = /usr/lib/locale/hy_AM.ARMSCII-8/LC_ADDRESS /usr/lib/locale/hy_AM.ARMSCII-8/LC_COLLATE /usr/lib/locale/hy_AM.ARMSCII-8/LC_CTYPE /usr/lib/locale/hy_AM.ARMSCII-8/LC_IDENTIFICATION /usr/lib/locale/hy_AM.ARMSCII-8/LC_MEASUREMENT /usr/lib/locale/hy_AM.ARMSCII-8/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/hy_AM.ARMSCII-8/LC_MONETARY /usr/lib/locale/hy_AM.ARMSCII-8/LC_NAME /usr/lib/locale/hy_AM.ARMSCII-8/LC_NUMERIC /usr/lib/locale/hy_AM.ARMSCII-8/LC_PAPER /usr/lib/locale/hy_AM.ARMSCII-8/LC_TELEPHONE /usr/lib/locale/hy_AM.ARMSCII-8/LC_TIME

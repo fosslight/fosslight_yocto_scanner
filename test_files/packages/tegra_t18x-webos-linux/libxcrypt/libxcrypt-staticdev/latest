@@ -1,0 +1,9 @@
+PV = 4.1.1
+PR = r0
+PKG = libcrypt-staticdev
+RPROVIDES = libxcrypt-staticdev (=4.1.1)
+RDEPENDS = libxcrypt-dev (= 4.1.1-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libxcrypt/*.a
+FILELIST = 

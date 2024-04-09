@@ -1,0 +1,10 @@
+PE = 1
+PV = 239
+PR = r0
+PKGR = r0webos4
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /lib/systemd/systemd-journal-gatewayd /lib/systemd/system/systemd-journal-gatewayd.service /lib/systemd/system/systemd-journal-gatewayd.socket /lib/systemd/system/sockets.target.wants/systemd-journal-gatewayd.socket /usr/share/systemd/gatewayd/browse.html
+FILELIST = 

@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root            32630 ./usr/include/cudaEGL.h
+-rw-r--r-- root       root            23875 ./usr/include/cudaGL.h
+-rw-r--r-- root       root           578505 ./usr/include/cuda.h
+-rw-r--r-- root       root             6170 ./usr/include/cudaProfiler.h

@@ -1,0 +1,9 @@
+PV = 3.3.15
+PR = r0
+PKGR = r0webos1
+RPROVIDES = de-translation procps-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-de
+PKGSIZE = 68959
+FILES = /usr/share/locale/de
+FILELIST = /usr/share/locale/de/LC_MESSAGES/procps-ng.mo

@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = alsa-configs avtp-drivers cuda-drivers devmem2 emc-log etc-modules etc-version kernel-modules mm-gst-drivers mnand-hs mnand-lifetime mnand-refresh nv-graphics-drivers nv-graphics-drivers-egl nv-graphics-drivers-glesv2 nv-graphics-drivers-nvidia-egl-wayland nvidia-settings-weston nvidia-settings-weston-dev nvm-drivers-nvcapture nvm-drivers-nvmedia-dev nvtracebuf saf775x-tools shutdown stream-server stream-server-cross-plugins stream-server-extra-plugins tegra-bt tegra-touch tegrastats tos-storage-daemon virtualization-dspowerstate
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/packagegroup-bsp /usr/lib/packagegroup-bsp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = 

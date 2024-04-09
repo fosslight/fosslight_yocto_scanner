@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = virtual-locale-de virtual-locale-de-at+euro.iso-8859-15
-RDEPENDS = glibc-binary-localedata-de-at+euro.iso-8859-15
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = 
-FILELIST = 

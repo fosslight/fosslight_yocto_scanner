@@ -1,0 +1,9 @@
+PV = 1.8.0
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 132674
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gtest /usr/lib/gtest/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/bin/gtest
+FILELIST = /usr/bin/gtest/gtest_break_on_failure_unittest.py /usr/bin/gtest/gtest_catch_exceptions_test.py /usr/bin/gtest/gtest_color_test.py /usr/bin/gtest/gtest_env_var_test.py /usr/bin/gtest/gtest_filter_unittest.py /usr/bin/gtest/gtest_help_test.py /usr/bin/gtest/gtest_list_tests_unittest.py /usr/bin/gtest/gtest_output_test.py /usr/bin/gtest/gtest_shuffle_test.py /usr/bin/gtest/gtest_test_utils.py /usr/bin/gtest/gtest_throw_on_failure_test.py /usr/bin/gtest/gtest_uninitialized_test.py /usr/bin/gtest/gtest_xml_outfiles_test.py /usr/bin/gtest/gtest_xml_output_unittest.py /usr/bin/gtest/gtest_xml_test_utils.py

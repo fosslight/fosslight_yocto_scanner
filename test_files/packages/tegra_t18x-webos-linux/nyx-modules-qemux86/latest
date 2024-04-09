@@ -1,0 +1,5 @@
+PV = 1.0.0-2
+PR = r0
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native luna-service2 ninja-native nyx-lib nyx-lib openssl pkgconfig-native udev virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = nyx-modules-qemux86-dbg nyx-modules-qemux86-staticdev nyx-modules-qemux86-dev nyx-modules-qemux86-doc nyx-modules-qemux86-locale nyx-modules-qemux86
+LAYER = meta-webos

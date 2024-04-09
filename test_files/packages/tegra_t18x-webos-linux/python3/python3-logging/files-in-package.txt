@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/logging
+-rw-r--r-- root       root            35944 ./usr/lib/python3.5/logging/config.py
+-rw-r--r-- root       root            57010 ./usr/lib/python3.5/logging/handlers.py
+-rw-r--r-- root       root            69529 ./usr/lib/python3.5/logging/__init__.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/logging/__pycache__
+-rw-r--r-- root       root            25341 ./usr/lib/python3.5/logging/__pycache__/config.cpython-35.opt-1.pyc
+-rw-r--r-- root       root            21238 ./usr/lib/python3.5/logging/__pycache__/config.cpython-35.opt-2.pyc
+-rw-r--r-- root       root            25390 ./usr/lib/python3.5/logging/__pycache__/config.cpython-35.pyc
+-rw-r--r-- root       root            45198 ./usr/lib/python3.5/logging/__pycache__/handlers.cpython-35.opt-1.pyc
+-rw-r--r-- root       root            26679 ./usr/lib/python3.5/logging/__pycache__/handlers.cpython-35.opt-2.pyc
+-rw-r--r-- root       root            45198 ./usr/lib/python3.5/logging/__pycache__/handlers.cpython-35.pyc
+-rw-r--r-- root       root            61387 ./usr/lib/python3.5/logging/__pycache__/__init__.cpython-35.opt-1.pyc
+-rw-r--r-- root       root            33714 ./usr/lib/python3.5/logging/__pycache__/__init__.cpython-35.opt-2.pyc
+-rw-r--r-- root       root            61426 ./usr/lib/python3.5/logging/__pycache__/__init__.cpython-35.pyc

@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-nct1008
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 47152
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/misc/nct1008.ko /etc/modules-load.d/nct1008.conf /etc/modprobe.d/nct1008.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/misc/nct1008.ko

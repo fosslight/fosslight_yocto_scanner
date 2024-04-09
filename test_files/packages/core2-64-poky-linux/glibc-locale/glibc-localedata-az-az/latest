@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-tr-tr
-RRECOMMENDS = 
-PKGSIZE = 6119
-FILES = /usr/share/i18n/locales/az_AZ
-FILELIST = /usr/share/i18n/locales/az_AZ

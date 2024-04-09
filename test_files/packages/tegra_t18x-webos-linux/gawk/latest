@@ -1,0 +1,5 @@
+PV = 4.2.1
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native icecc-create-env-native libtool-cross libtool-native readline texinfo-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/update-alternatives
+PACKAGES = gawk-ptest gawk-dbg gawk-staticdev gawk-dev gawk-doc gawk gawk-locale-ca gawk-locale-da gawk-locale-de gawk-locale-es gawk-locale-fi gawk-locale-fr gawk-locale-id gawk-locale-it gawk-locale-ja gawk-locale-ms gawk-locale-nl gawk-locale-pl gawk-locale-pt-br gawk-locale-sv gawk-locale-vi gawk-locale-zh-cn
+LAYER = core

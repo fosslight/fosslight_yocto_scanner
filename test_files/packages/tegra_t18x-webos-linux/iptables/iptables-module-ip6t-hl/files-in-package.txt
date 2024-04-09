@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/xtables
+-rwxr-xr-x root       root            67944 ./usr/lib/xtables/libip6t_hl.so
+-rwxr-xr-x root       root            67952 ./usr/lib/xtables/libip6t_HL.so

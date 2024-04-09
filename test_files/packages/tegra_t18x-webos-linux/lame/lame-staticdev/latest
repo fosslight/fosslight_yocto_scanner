@@ -1,0 +1,8 @@
+PV = 3.100
+PR = r0
+RPROVIDES = 
+RDEPENDS = lame-dev (= 3.100-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/lame/*.a
+FILELIST = 

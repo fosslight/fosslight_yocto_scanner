@@ -1,8 +1,0 @@
-PV = 10.1.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = g++
-RRECOMMENDS = 
-PKGSIZE = 24
-FILES = /usr/bin/c++ /usr/bin/g++
-FILELIST = /usr/bin/c++ /usr/bin/g++

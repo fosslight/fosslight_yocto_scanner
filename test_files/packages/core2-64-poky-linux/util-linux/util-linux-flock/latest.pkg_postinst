@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /usr/bin/flock flock /usr/bin/flock.util-linux 80

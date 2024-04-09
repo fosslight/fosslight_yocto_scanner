@@ -1,0 +1,9 @@
+PV = 2.9.11
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = base-files base-passwd glibc (>= 2.28) libgcc liburcu (>= 0.10.1) libxml2 (>= 2.9.8) lttng-ust (>= 2.10.3) popt (>= 1.16) shadow util-linux-libuuid (>= 2.32.1)
+RRECOMMENDS = 
+PKGSIZE = 2422384
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lttng-tools /usr/lib/lttng-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lttng/libexec/* /usr/share/xml/lttng /usr/lib/python3.5/site-packages/* /lib/systemd/system/lttng-sessiond.service
+FILELIST = /lib/systemd/system/lttng-sessiond.service /usr/bin/lttng /usr/bin/lttng-crash /usr/bin/lttng-relayd /usr/bin/lttng-sessiond /usr/lib/liblttng-ctl.so.0 /usr/lib/liblttng-ctl.so.0.0.0 /usr/lib/lttng/libexec/lttng-consumerd /usr/share/xml/lttng/session.xsd

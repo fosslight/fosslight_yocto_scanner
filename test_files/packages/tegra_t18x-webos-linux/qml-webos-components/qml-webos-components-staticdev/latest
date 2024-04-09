@@ -1,0 +1,8 @@
+PV = 1.0.0-46
+PR = r12
+RPROVIDES = 
+RDEPENDS = qml-webos-components-dev (= 1.0.0-46-r12)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/qml-webos-components/*.a
+FILELIST = 

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-net-ftp-i perl-module-strict perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 137
-FILES = /usr/lib/perl5/5.30.2/Net/FTP/E.pm
-FILELIST = /usr/lib/perl5/5.30.2/Net/FTP/E.pm

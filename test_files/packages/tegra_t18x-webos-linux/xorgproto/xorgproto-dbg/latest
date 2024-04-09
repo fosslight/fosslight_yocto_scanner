@@ -1,0 +1,8 @@
+PV = 2018.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = xorgproto-dev (= 2018.4-r0)
+PKGSIZE = 0
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = 

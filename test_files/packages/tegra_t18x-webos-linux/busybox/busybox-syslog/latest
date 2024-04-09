@@ -1,0 +1,11 @@
+PV = 1.29.3
+PR = r0
+PKGV = 1.29.3-0webos3
+PKGR = r0webos13webosupdater1
+RPROVIDES = 
+RDEPENDS = busybox update-alternatives-opkg
+RRECOMMENDS = 
+RCONFLICTS = rsyslog sysklogd syslog-ng
+PKGSIZE = 1511
+FILES = /etc/init.d/syslog* /etc/syslog-startup.conf* /etc/syslog.conf* /lib/systemd/system/syslog.service /etc/default/busybox-syslog /lib/systemd/system/busybox-syslog.service /lib/systemd/system/busybox-klogd.service
+FILELIST = /etc/default/busybox-syslog /etc/syslog.conf /lib/systemd/system/busybox-klogd.service /lib/systemd/system/busybox-syslog.service

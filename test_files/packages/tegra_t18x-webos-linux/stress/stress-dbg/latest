@@ -1,0 +1,8 @@
+PV = 1.0.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 92230
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/stress /usr/src/debug/stress/1.0.4-r0/stress-1.0.4/src/stress.c

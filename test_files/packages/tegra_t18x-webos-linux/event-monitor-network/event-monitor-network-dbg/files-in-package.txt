@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/eventmonitor
+drwxr-xr-x root       root             4096 ./usr/lib/eventmonitor/.debug
+-rwxr-xr-x root       root           478392 ./usr/lib/eventmonitor/.debug/network-plugin.so
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/event-monitor-network
+drwxr-xr-x root       root             4096 ./usr/src/debug/event-monitor-network/1.0.0-3-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/event-monitor-network/1.0.0-3-r0/git
+drwxr-xr-x root       root             4096 ./usr/src/debug/event-monitor-network/1.0.0-3-r0/git/src
+-rw-r--r-- root       root             1049 ./usr/src/debug/event-monitor-network/1.0.0-3-r0/git/src/errors.cpp
+-rw-r--r-- root       root             1202 ./usr/src/debug/event-monitor-network/1.0.0-3-r0/git/src/errors.h
+-rw-r--r-- root       root             4829 ./usr/src/debug/event-monitor-network/1.0.0-3-r0/git/src/networkplugin.cpp
+-rw-r--r-- root       root             1157 ./usr/src/debug/event-monitor-network/1.0.0-3-r0/git/src/networkplugin.h

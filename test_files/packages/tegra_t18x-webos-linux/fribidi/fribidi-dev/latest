@@ -1,0 +1,9 @@
+PV = 1.0.5
+PR = r0
+PKG = libfribidi-dev
+RPROVIDES = fribidi-dev (=1.0.5)
+RDEPENDS = fribidi (= 1.0.5-r0)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 80012
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/fribidi/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/fribidi/fribidi-arabic.h /usr/include/fribidi/fribidi-begindecls.h /usr/include/fribidi/fribidi-bidi-types-list.h /usr/include/fribidi/fribidi-bidi-types.h /usr/include/fribidi/fribidi-bidi.h /usr/include/fribidi/fribidi-brackets.h /usr/include/fribidi/fribidi-char-sets-list.h /usr/include/fribidi/fribidi-char-sets.h /usr/include/fribidi/fribidi-common.h /usr/include/fribidi/fribidi-config.h /usr/include/fribidi/fribidi-deprecated.h /usr/include/fribidi/fribidi-enddecls.h /usr/include/fribidi/fribidi-flags.h /usr/include/fribidi/fribidi-joining-types-list.h /usr/include/fribidi/fribidi-joining-types.h /usr/include/fribidi/fribidi-joining.h /usr/include/fribidi/fribidi-mirroring.h /usr/include/fribidi/fribidi-shape.h /usr/include/fribidi/fribidi-types.h /usr/include/fribidi/fribidi-unicode-version.h /usr/include/fribidi/fribidi-unicode.h /usr/include/fribidi/fribidi.h /usr/lib/libfribidi.so /usr/lib/pkgconfig/fribidi.pc

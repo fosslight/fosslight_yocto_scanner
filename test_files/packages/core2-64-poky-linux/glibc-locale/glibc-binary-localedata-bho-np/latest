@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2935668
-FILES = /usr/lib/locale/bho_NP
-FILELIST = /usr/lib/locale/bho_NP/LC_ADDRESS /usr/lib/locale/bho_NP/LC_COLLATE /usr/lib/locale/bho_NP/LC_CTYPE /usr/lib/locale/bho_NP/LC_IDENTIFICATION /usr/lib/locale/bho_NP/LC_MEASUREMENT /usr/lib/locale/bho_NP/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/bho_NP/LC_MONETARY /usr/lib/locale/bho_NP/LC_NAME /usr/lib/locale/bho_NP/LC_NUMERIC /usr/lib/locale/bho_NP/LC_PAPER /usr/lib/locale/bho_NP/LC_TELEPHONE /usr/lib/locale/bho_NP/LC_TIME

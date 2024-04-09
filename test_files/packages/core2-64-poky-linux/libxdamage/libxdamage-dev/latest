@@ -1,9 +1,0 @@
-PE = 1
-PV = 1.1.5
-PR = r0
-RPROVIDES = 
-RDEPENDS = libxdamage (= 1:1.1.5-r0)
-RRECOMMENDS = glibc-dev libx11-dev libxfixes-dev util-macros-dev xorgproto-dev
-PKGSIZE = 2580
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libxdamage/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/X11/extensions/Xdamage.h /usr/lib/libXdamage.so /usr/lib/pkgconfig/xdamage.pc

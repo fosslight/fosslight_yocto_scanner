@@ -1,0 +1,10 @@
+PV = 1.44.3
+PR = r0
+PKG = libext2fs2
+PKGR = r0webos11
+RPROVIDES = libext2fs (=1.44.3)
+RDEPENDS = glibc (>= 2.28) libcomerr (>= 1.44.3) util-linux-libblkid (>= 2.32.1)
+RRECOMMENDS = 
+PKGSIZE = 465352
+FILES = /usr/lib/e2initrd_helper /lib/libext2fs.so.*
+FILELIST = /lib/libext2fs.so.2 /lib/libext2fs.so.2.4 /usr/lib/e2initrd_helper

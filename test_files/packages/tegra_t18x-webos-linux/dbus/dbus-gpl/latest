@@ -1,0 +1,9 @@
+PV = 1.12.10
+PR = r0
+PKGR = r0webos5
+RPROVIDES = 
+RDEPENDS = dbus-lib (>= 1.12.10) expat (>= 2.2.8) glibc (>= 2.28) libsystemd (>= 239)
+RRECOMMENDS = 
+PKGSIZE = 535904
+FILES = /usr/bin/dbus-cleanup-sockets /usr/bin/dbus-daemon /usr/bin/dbus-monitor /usr/bin/dbus-send /usr/bin/dbus-uuidgen
+FILELIST = /usr/bin/dbus-cleanup-sockets /usr/bin/dbus-daemon /usr/bin/dbus-monitor /usr/bin/dbus-send /usr/bin/dbus-uuidgen

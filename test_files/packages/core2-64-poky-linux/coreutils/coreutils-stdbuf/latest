@@ -1,8 +1,0 @@
-PV = 8.32
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 77792
-FILES = /usr/bin/stdbuf /usr/lib/coreutils/libstdbuf.so
-FILELIST = /usr/bin/stdbuf /usr/lib/coreutils/libstdbuf.so

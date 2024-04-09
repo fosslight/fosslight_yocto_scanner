@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = iso-codes-locale ki-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ki
+PKGSIZE = 5203
+FILES = /usr/share/locale/ki
+FILELIST = /usr/share/locale/ki/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/ki/LC_MESSAGES/iso_3166.mo

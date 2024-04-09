@@ -1,0 +1,10 @@
+PV = 0.1.0+gitAUTOINC+d774746656
+PR = r0
+PKG = libpyzy-1.0-0
+PKGV = 0.1.0+git0+d774746656
+RPROVIDES = pyzy (=0.1.0+git0+d774746656)
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libgcc (>= 8.2.0) libsqlite3 (>= 3.29.0) libstdc++ (>= 8.2.0) util-linux-libuuid (>= 2.32.1)
+RRECOMMENDS = 
+PKGSIZE = 4511440
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/pyzy /usr/lib/pyzy/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libpyzy-1.0.so.0 /usr/lib/libpyzy-1.0.so.0.100.0 /usr/share/pyzy/db/android.db /usr/share/pyzy/db/create_index.sql /usr/share/pyzy/phrases.txt

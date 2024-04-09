@@ -1,0 +1,44 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             2019 ./usr/include/evdns.h
+drwxr-xr-x root       root             4096 ./usr/include/event2
+-rw-r--r-- root       root             4700 ./usr/include/event2/buffer_compat.h
+-rw-r--r-- root       root             4464 ./usr/include/event2/bufferevent_compat.h
+-rw-r--r-- root       root            34518 ./usr/include/event2/bufferevent.h
+-rw-r--r-- root       root             4848 ./usr/include/event2/bufferevent_ssl.h
+-rw-r--r-- root       root             4135 ./usr/include/event2/bufferevent_struct.h
+-rw-r--r-- root       root            39078 ./usr/include/event2/buffer.h
+-rw-r--r-- root       root            12156 ./usr/include/event2/dns_compat.h
+-rw-r--r-- root       root            26838 ./usr/include/event2/dns.h
+-rw-r--r-- root       root             2596 ./usr/include/event2/dns_struct.h
+-rw-r--r-- root       root             7639 ./usr/include/event2/event_compat.h
+-rw-r--r-- root       root            16865 ./usr/include/event2/event-config.h
+-rw-r--r-- root       root            62393 ./usr/include/event2/event.h
+-rw-r--r-- root       root             5024 ./usr/include/event2/event_struct.h
+-rw-r--r-- root       root             3147 ./usr/include/event2/http_compat.h
+-rw-r--r-- root       root            42755 ./usr/include/event2/http.h
+-rw-r--r-- root       root             4809 ./usr/include/event2/http_struct.h
+-rw-r--r-- root       root             2603 ./usr/include/event2/keyvalq_struct.h
+-rw-r--r-- root       root             7445 ./usr/include/event2/listener.h
+-rw-r--r-- root       root             2351 ./usr/include/event2/rpc_compat.h
+-rw-r--r-- root       root            21025 ./usr/include/event2/rpc.h
+-rw-r--r-- root       root             3235 ./usr/include/event2/rpc_struct.h
+-rw-r--r-- root       root             2141 ./usr/include/event2/tag_compat.h
+-rw-r--r-- root       root             4914 ./usr/include/event2/tag.h
+-rw-r--r-- root       root             9952 ./usr/include/event2/thread.h
+-rw-r--r-- root       root            28415 ./usr/include/event2/util.h
+-rw-r--r-- root       root             2348 ./usr/include/event2/visibility.h
+-rw-r--r-- root       root             2744 ./usr/include/event.h
+-rw-r--r-- root       root             2035 ./usr/include/evhttp.h
+-rw-r--r-- root       root             2015 ./usr/include/evrpc.h
+-rw-r--r-- root       root             1782 ./usr/include/evutil.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               26 ./usr/lib/libevent_core.so -> libevent_core-2.1.so.6.0.2
+lrwxrwxrwx root       root               27 ./usr/lib/libevent_extra.so -> libevent_extra-2.1.so.6.0.2
+lrwxrwxrwx root       root               30 ./usr/lib/libevent_pthreads.so -> libevent_pthreads-2.1.so.6.0.2
+lrwxrwxrwx root       root               21 ./usr/lib/libevent.so -> libevent-2.1.so.6.0.2
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              265 ./usr/lib/pkgconfig/libevent_core.pc
+-rw-r--r-- root       root              268 ./usr/lib/pkgconfig/libevent_extra.pc
+-rw-r--r-- root       root              301 ./usr/lib/pkgconfig/libevent.pc
+-rw-r--r-- root       root              346 ./usr/lib/pkgconfig/libevent_pthreads.pc

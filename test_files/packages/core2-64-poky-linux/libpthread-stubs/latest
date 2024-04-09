@@ -1,5 +1,0 @@
-PV = 0.4
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = libpthread-stubs-src libpthread-stubs-dbg libpthread-stubs-staticdev libpthread-stubs-dev libpthread-stubs-doc libpthread-stubs-locale libpthread-stubs
-LAYER = core

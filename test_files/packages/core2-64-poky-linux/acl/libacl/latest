@@ -1,9 +1,0 @@
-PV = 2.2.53
-PR = r0
-PKG = libacl1
-RPROVIDES = libacl (=2.2.53)
-RDEPENDS = glibc (>= 2.31+git0+1094741224) libattr (>= 2.4.48)
-RRECOMMENDS = 
-PKGSIZE = 38922
-FILES = /usr/lib/lib*.so.*
-FILELIST = /usr/lib/libacl.so.1 /usr/lib/libacl.so.1.1.2253

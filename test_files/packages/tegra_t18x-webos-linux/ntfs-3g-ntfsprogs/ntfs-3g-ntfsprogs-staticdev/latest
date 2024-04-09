@@ -1,0 +1,9 @@
+PV = 2017.3.23
+PR = r0
+PKGR = r0webosupdater1
+RPROVIDES = 
+RDEPENDS = ntfs-3g-ntfsprogs-dev (= 2017.3.23-r0webosupdater1)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/ntfs-3g-ntfsprogs/*.a
+FILELIST = 

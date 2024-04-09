@@ -1,8 +1,0 @@
-PV = 2019.01.06
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 46036
-FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/doc/autoconf-archive/AUTHORS /usr/share/doc/autoconf-archive/COPYING /usr/share/doc/autoconf-archive/COPYING.EXCEPTION /usr/share/doc/autoconf-archive/README /usr/share/info/autoconf-archive.info

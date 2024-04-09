@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = bzip2 coreutils libgcc locale-base-tr-tr.iso-8859-9 python3-modules python3-tests sed tzdata-europe unzip
-RRECOMMENDS = ptest-runner
-PKGSIZE = 241
-FILES = /usr/lib/python3/ptest
-FILELIST = /usr/lib/python3/ptest/run-ptest

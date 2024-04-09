@@ -1,0 +1,9 @@
+PV = 3.6.4
+PR = r0
+PKG = libgnutls-locale-zh-cn
+RPROVIDES = gnutls-locale gnutls-locale-zh-cn (=3.6.4) zh-cn-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-zh-cn
+PKGSIZE = 22475
+FILES = /usr/share/locale/zh_CN
+FILELIST = /usr/share/locale/zh_CN/LC_MESSAGES/gnutls.mo

@@ -1,0 +1,5 @@
+PV = 4.14
+PR = r0
+DEPENDS = icecc-create-env-native libnl pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = iw-dbg iw-staticdev iw-dev iw-doc iw-locale iw
+LAYER = core

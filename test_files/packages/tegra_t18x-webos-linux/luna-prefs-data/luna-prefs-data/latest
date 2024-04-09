@@ -1,0 +1,8 @@
+PV = 3.0.0
+PR = r3
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 104
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/luna-prefs-data /usr/lib/luna-prefs-data/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/prefs/properties/browserOsName /etc/prefs/properties/deviceName /etc/prefs/properties/deviceNameBranded /etc/prefs/properties/deviceNameShort /etc/prefs/properties/deviceNameShortBranded /etc/prefs/properties/machineName /etc/prefs/properties/productClass /etc/prefs/properties/productLineName

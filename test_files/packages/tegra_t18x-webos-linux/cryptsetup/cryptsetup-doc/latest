@@ -1,0 +1,8 @@
+PV = 2.0.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 85810
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/man/man8/cryptsetup-reencrypt.8 /usr/share/man/man8/cryptsetup.8 /usr/share/man/man8/integritysetup.8 /usr/share/man/man8/veritysetup.8

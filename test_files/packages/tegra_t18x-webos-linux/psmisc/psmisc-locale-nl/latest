@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = nl-translation psmisc-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-nl
+PKGSIZE = 12358
+FILES = /usr/share/locale/nl
+FILELIST = /usr/share/locale/nl/LC_MESSAGES/psmisc.mo

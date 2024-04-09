@@ -1,0 +1,5 @@
+PV = 3.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native openssl virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = iperf3-dbg iperf3-staticdev iperf3-dev iperf3-doc iperf3-locale iperf3
+LAYER = openembedded-layer

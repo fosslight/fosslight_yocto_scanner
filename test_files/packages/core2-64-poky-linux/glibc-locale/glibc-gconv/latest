@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 56353
-FILES = /usr/lib/gconv/*
-FILELIST = /usr/lib/gconv/gconv-modules

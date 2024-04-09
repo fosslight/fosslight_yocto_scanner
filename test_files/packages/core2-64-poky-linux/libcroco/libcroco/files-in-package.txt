@@ -1,6 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root            26584 ./usr/bin/csslint-0.6
-drwxr-xr-x root       root             4096 ./usr/lib
--rwxr-xr-x root       root           247880 ./usr/lib/libcroco-0.6.so.3.0.1
-lrwxrwxrwx root       root               21 ./usr/lib/libcroco-0.6.so.3 -> libcroco-0.6.so.3.0.1

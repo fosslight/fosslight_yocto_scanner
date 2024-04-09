@@ -1,0 +1,9 @@
+PV = 1.0.0-3
+PR = r1
+PKG = libval-mock-dbg
+RPROVIDES = videooutput-adaptation-layer-mock-dbg (=1.0.0-3)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libpbnjson-dbg libstdc++-dbg pmloglib-dbg
+PKGSIZE = 206910
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libval-mock.so.1.0.0 /usr/src/debug/videooutput-adaptation-layer-mock/1.0.0-3-r1/git/src/logging.h /usr/src/debug/videooutput-adaptation-layer-mock/1.0.0-3-r1/git/src/val/val_impl.cpp /usr/src/debug/videooutput-adaptation-layer-mock/1.0.0-3-r1/git/src/val/val_impl.h /usr/src/debug/videooutput-adaptation-layer-mock/1.0.0-3-r1/git/src/val/val_settings_impl.cpp /usr/src/debug/videooutput-adaptation-layer-mock/1.0.0-3-r1/git/src/val/val_settings_impl.h /usr/src/debug/videooutput-adaptation-layer-mock/1.0.0-3-r1/git/src/val/val_video_impl.cpp /usr/src/debug/videooutput-adaptation-layer-mock/1.0.0-3-r1/git/src/val/val_video_impl.h

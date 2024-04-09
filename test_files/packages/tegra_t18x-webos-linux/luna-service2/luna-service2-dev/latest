@@ -1,0 +1,8 @@
+PV = 3.21.2-5
+PR = r23
+RPROVIDES = 
+RDEPENDS = luna-service2 (= 3.21.2-5-r23)
+RRECOMMENDS = busybox-dev cpushareholder-stub-dev glib-2.0-dev glib-2.0-utils-dev glibc-dev gtest-dev libgcc-dev libpbnjson-dev libstdc++-dev luna-service2-ptest-dev luna-service2-security-conf-dev pmloglib-dev ptest-runner-dev rdxd-dev
+PKGSIZE = 73986
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/luna-service2/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/luna-service2++/call.hpp /usr/include/luna-service2++/condition_variable.hpp /usr/include/luna-service2++/error.hpp /usr/include/luna-service2++/handle.hpp /usr/include/luna-service2++/message.hpp /usr/include/luna-service2++/payload.hpp /usr/include/luna-service2++/server_status.hpp /usr/include/luna-service2++/subscription.hpp /usr/include/luna-service2/lunaservice-errors.h /usr/include/luna-service2/lunaservice-meta.h /usr/include/luna-service2/lunaservice.h /usr/include/luna-service2/lunaservice.hpp /usr/include/luna-service2/payload.h /usr/include/lunaservice-errors.h /usr/include/lunaservice.h /usr/lib/libluna-service2++.so /usr/lib/libluna-service2.so /usr/lib/liblunaservice.so /usr/share/pkgconfig/luna-service2++.pc /usr/share/pkgconfig/luna-service2.pc

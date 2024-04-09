@@ -1,6 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                   9 ./sysroot-providers/m4-native
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -              155752 ./usr/bin/m4
-drwxr-xr-x -          -                4096 ./usr/share

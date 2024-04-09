@@ -1,0 +1,9 @@
+PV = 0.4.2+gitAUTOINC+c8aa8cf53c
+PR = r0
+PKGV = 0.4.2+git0+c8aa8cf53c
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

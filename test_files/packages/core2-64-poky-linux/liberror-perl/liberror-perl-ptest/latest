@@ -1,8 +1,0 @@
-PV = 0.17029
-PR = r0
-RPROVIDES = 
-RDEPENDS = liberror-perl perl perl-module-base perl-module-file-spec perl-module-io-handle perl-module-ipc-open3 perl-module-lib perl-module-test-more
-RRECOMMENDS = ptest-runner
-PKGSIZE = 15165
-FILES = /usr/lib/liberror-perl/ptest/t/* /usr/lib/liberror-perl/ptest/run-ptest /usr/lib/liberror-perl/ptest
-FILELIST = /usr/lib/liberror-perl/ptest/run-ptest /usr/lib/liberror-perl/ptest/t/00-compile.t /usr/lib/liberror-perl/ptest/t/01throw.t /usr/lib/liberror-perl/ptest/t/02order.t /usr/lib/liberror-perl/ptest/t/03throw-non-Error.t /usr/lib/liberror-perl/ptest/t/04use-base-Error-Simple.t /usr/lib/liberror-perl/ptest/t/05text-errors-with-file-handles.t /usr/lib/liberror-perl/ptest/t/06customize-text-throw.t /usr/lib/liberror-perl/ptest/t/07try-in-obj-destructor.t /usr/lib/liberror-perl/ptest/t/08warndie.t /usr/lib/liberror-perl/ptest/t/09dollar-at.t /usr/lib/liberror-perl/ptest/t/10throw-in-catch.t /usr/lib/liberror-perl/ptest/t/11rethrow.t /usr/lib/liberror-perl/ptest/t/12wrong-error-var.t /usr/lib/liberror-perl/ptest/t/13except-arg0.t /usr/lib/liberror-perl/ptest/t/14Error-Simple-VERSION.t /usr/lib/liberror-perl/ptest/t/lib/MyDie.pm

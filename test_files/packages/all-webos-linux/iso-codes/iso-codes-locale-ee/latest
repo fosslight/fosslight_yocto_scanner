@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = ee-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ee
+PKGSIZE = 576
+FILES = /usr/share/locale/ee
+FILELIST = /usr/share/locale/ee/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/ee/LC_MESSAGES/iso_3166.mo

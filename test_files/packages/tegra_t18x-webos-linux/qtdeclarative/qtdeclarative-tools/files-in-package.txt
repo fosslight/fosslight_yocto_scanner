@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67824 ./usr/bin/qml
+-rwxr-xr-x root       root          1444816 ./usr/bin/qmlcachegen
+-rwxr-xr-x root       root          1315328 ./usr/bin/qmlimportscanner
+-rwxr-xr-x root       root           920016 ./usr/bin/qmllint
+-rwxr-xr-x root       root           723352 ./usr/bin/qmlmin
+-rwxr-xr-x root       root           133288 ./usr/bin/qmlplugindump
+-rwxr-xr-x root       root           133440 ./usr/bin/qmlpreview
+-rwxr-xr-x root       root           264512 ./usr/bin/qmlprofiler
+-rwxr-xr-x root       root            67832 ./usr/bin/qmlscene
+-rwxr-xr-x root       root            67744 ./usr/bin/qmltestrunner

@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = eo-translation glibc-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-eo
-PKGSIZE = 0
-FILES = /usr/share/locale/eo
-FILELIST = 

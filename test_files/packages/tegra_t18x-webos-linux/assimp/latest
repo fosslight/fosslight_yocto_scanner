@@ -1,0 +1,5 @@
+PV = 4.1.0
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc zlib
+PACKAGES = assimp-dbg assimp-staticdev assimp-dev assimp-doc assimp-locale assimp
+LAYER = core

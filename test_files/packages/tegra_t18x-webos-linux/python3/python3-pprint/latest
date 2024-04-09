@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = 
+RDEPENDS = python3-core
+RRECOMMENDS = 
+PKGSIZE = 71076
+FILES = /usr/lib/python3.5/pprint.py /usr/lib/python3.5/__pycache__/pprint.*.pyc
+FILELIST = /usr/lib/python3.5/__pycache__/pprint.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/pprint.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/pprint.cpython-35.pyc /usr/lib/python3.5/pprint.py

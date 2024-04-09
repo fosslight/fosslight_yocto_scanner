@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-nls-cp950
-RDEPENDS = kernel-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 115056
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/fs/nls/nls_cp950.ko /etc/modules-load.d/nls_cp950.conf /etc/modprobe.d/nls_cp950.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/fs/nls/nls_cp950.ko

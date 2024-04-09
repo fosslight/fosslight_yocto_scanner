@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-snd-cs8427
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-snd-5.4.40-yocto-standard kernel-module-snd-i2c-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 16824
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/sound/i2c/snd-cs8427.ko /etc/modules-load.d/snd-cs8427.conf /etc/modprobe.d/snd-cs8427.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/sound/i2c/snd-cs8427.ko

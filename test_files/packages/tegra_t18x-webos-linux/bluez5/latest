@@ -1,0 +1,5 @@
+PV = 5.50
+PR = r0
+DEPENDS = autoconf-native automake-native dbus glib-2.0 gnu-config-native icecc-create-env-native libical libtool-cross libtool-native pkgconfig-native readline systemd-systemctl-native udev virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = bluez5-testtools bluez5-obex bluez5-noinst-tools bluez5-ptest bluez5-dbg bluez5-staticdev bluez5-dev bluez5-doc bluez5-locale bluez5
+LAYER = coconut-layer

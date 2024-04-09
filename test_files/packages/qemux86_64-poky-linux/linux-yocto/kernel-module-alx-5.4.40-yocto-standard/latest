@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-alx
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-mdio-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 62184
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/ethernet/atheros/alx/alx.ko /etc/modules-load.d/alx.conf /etc/modprobe.d/alx.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/ethernet/atheros/alx/alx.ko

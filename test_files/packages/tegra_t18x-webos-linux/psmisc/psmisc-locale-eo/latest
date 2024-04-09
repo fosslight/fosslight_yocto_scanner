@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = eo-translation psmisc-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eo
+PKGSIZE = 12087
+FILES = /usr/share/locale/eo
+FILELIST = /usr/share/locale/eo/LC_MESSAGES/psmisc.mo

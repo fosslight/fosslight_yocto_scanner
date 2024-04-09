@@ -1,0 +1,9 @@
+PV = 2.02.180
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = busybox lvm2 (= 2.02.180-r0webos1)
+RRECOMMENDS = 
+PKGSIZE = 62104
+FILES = /usr/sbin/blkdeactivate /usr/sbin/fsadm /usr/sbin/lvmconf /usr/sbin/lvmdump
+FILELIST = /usr/sbin/blkdeactivate /usr/sbin/fsadm /usr/sbin/lvmconf /usr/sbin/lvmdump

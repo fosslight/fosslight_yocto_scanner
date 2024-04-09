@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = fy-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fy
+PKGSIZE = 9477
+FILES = /usr/share/locale/fy
+FILELIST = /usr/share/locale/fy/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/fy/LC_MESSAGES/iso_3166.mo

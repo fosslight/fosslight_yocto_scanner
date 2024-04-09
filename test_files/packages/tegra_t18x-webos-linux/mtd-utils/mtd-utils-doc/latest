@@ -1,0 +1,10 @@
+PV = 2.0.2+AUTOINC+bc63d36e39
+PR = r0
+PKGV = 2.0.2+0+bc63d36e39
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 11687
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/man/man1/mkfs.jffs2.1 /usr/share/man/man8/ubinize.8

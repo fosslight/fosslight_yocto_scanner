@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/ubiattach ubiattach /usr/sbin/ubiattach.mtd-utils 100
+	update-alternatives --install /usr/sbin/ubidetach ubidetach /usr/sbin/ubidetach.mtd-utils 100
+	update-alternatives --install /usr/sbin/ubimkvol ubimkvol /usr/sbin/ubimkvol.mtd-utils 100
+	update-alternatives --install /usr/sbin/ubirename ubirename /usr/sbin/ubirename.mtd-utils 100
+	update-alternatives --install /usr/sbin/ubirmvol ubirmvol /usr/sbin/ubirmvol.mtd-utils 100
+	update-alternatives --install /usr/sbin/ubirsvol ubirsvol /usr/sbin/ubirsvol.mtd-utils 100
+	update-alternatives --install /usr/sbin/ubiupdatevol ubiupdatevol /usr/sbin/ubiupdatevol.mtd-utils 100

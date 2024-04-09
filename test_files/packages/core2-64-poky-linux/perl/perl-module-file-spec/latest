@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-constant perl-module-cwd perl-module-file-spec-unix perl-module-strict
-RRECOMMENDS = 
-PKGSIZE = 10571
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/File/Spec.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/File/Spec.pm

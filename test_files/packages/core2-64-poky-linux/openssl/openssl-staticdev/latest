@@ -1,8 +1,0 @@
-PV = 1.1.1g
-PR = r0
-RPROVIDES = 
-RDEPENDS = openssl-dev (= 1.1.1g-r0)
-RRECOMMENDS = 
-PKGSIZE = 18509330
-FILES = /usr/lib/*.a /lib/*.a /usr/lib/openssl/*.a
-FILELIST = /usr/lib/libcrypto.a /usr/lib/libssl.a

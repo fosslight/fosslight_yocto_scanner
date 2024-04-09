@@ -1,0 +1,8 @@
+PV = 1.11.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = libinput (= 1.11.3-r0)
+RRECOMMENDS = glibc-dev libevdev-dev libudev-dev mtdev-dev udev-dev
+PKGSIZE = 177518
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libinput/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libinput.h /usr/lib/libinput.so /usr/lib/pkgconfig/libinput.pc

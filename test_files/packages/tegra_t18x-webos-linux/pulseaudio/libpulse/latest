@@ -1,0 +1,9 @@
+PV = 9.0-13
+PR = r20
+PKG = libpulse0
+RPROVIDES = libpulse (=9.0-13)
+RDEPENDS = dbus-lib (>= 1.12.10) glibc (>= 2.28) json-c (>= 0.13.1) libcap (>= 2.25) libpulsecommon (>= 9.0-13) libsndfile1 (>= 1.0.28) libsystemd (>= 239)
+RRECOMMENDS = 
+PKGSIZE = 332115
+FILES = /usr/lib/libpulse.so.* /etc/pulse/client.conf
+FILELIST = /etc/pulse/client.conf /usr/lib/libpulse.so.0 /usr/lib/libpulse.so.0.20.0

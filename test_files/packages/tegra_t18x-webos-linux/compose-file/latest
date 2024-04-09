@@ -1,0 +1,5 @@
+PV = 3.0+gitAUTOINC+a3e58764f5
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = compose-file-dbg compose-file-staticdev compose-file-dev compose-file-doc compose-file-locale compose-file
+LAYER = virtualization-layer

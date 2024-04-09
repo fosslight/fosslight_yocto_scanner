@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-encode perl-module-encoding perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 8021
-FILES = /usr/lib/perl5/5.30.2/open.pm
-FILELIST = /usr/lib/perl5/5.30.2/open.pm

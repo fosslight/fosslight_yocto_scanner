@@ -1,0 +1,9 @@
+PV = 1.14.4
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = gstreamer1.0-plugins-good-meta
+PKGSIZE = 0
+FILES = /usr/lib/girepository-*/*.typelib
+FILELIST = 

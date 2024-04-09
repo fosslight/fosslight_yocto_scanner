@@ -1,0 +1,8 @@
+PV = 40.0.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = python-setuptools-dev (= 40.0.0-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/python-setuptools/*.a /usr/lib/python2.7/site-packages/*.a
+FILELIST = 

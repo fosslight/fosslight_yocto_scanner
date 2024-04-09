@@ -1,0 +1,22 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             5796 ./usr/include/libunwind-aarch64.h
+-rw-r--r-- root       root            11297 ./usr/include/libunwind-common.h
+-rw-r--r-- root       root             3155 ./usr/include/libunwind-coredump.h
+-rw-r--r-- root       root             8954 ./usr/include/libunwind-dynamic.h
+-rw-r--r-- root       root              924 ./usr/include/libunwind.h
+-rw-r--r-- root       root             2707 ./usr/include/libunwind-ptrace.h
+-rw-r--r-- root       root             6145 ./usr/include/unwind.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               26 ./usr/lib/libunwind-aarch64.so -> libunwind-aarch64.so.8.0.1
+lrwxrwxrwx root       root               27 ./usr/lib/libunwind-coredump.so -> libunwind-coredump.so.0.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libunwind-generic.so -> libunwind-aarch64.so
+lrwxrwxrwx root       root               25 ./usr/lib/libunwind-ptrace.so -> libunwind-ptrace.so.0.0.0
+lrwxrwxrwx root       root               25 ./usr/lib/libunwind-setjmp.so -> libunwind-setjmp.so.0.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libunwind.so -> libunwind.so.8.0.1
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              246 ./usr/lib/pkgconfig/libunwind-coredump.pc
+-rw-r--r-- root       root              225 ./usr/lib/pkgconfig/libunwind-generic.pc
+-rw-r--r-- root       root              207 ./usr/lib/pkgconfig/libunwind.pc
+-rw-r--r-- root       root              240 ./usr/lib/pkgconfig/libunwind-ptrace.pc
+-rw-r--r-- root       root              222 ./usr/lib/pkgconfig/libunwind-setjmp.pc

@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-r-xr-xr-x root       root            14837 ./usr/sbin/blkdeactivate
+-r-xr-xr-x root       root            24108 ./usr/sbin/fsadm
+-r-xr-xr-x root       root            12847 ./usr/sbin/lvmconf
+-r-xr-xr-x root       root            10312 ./usr/sbin/lvmdump

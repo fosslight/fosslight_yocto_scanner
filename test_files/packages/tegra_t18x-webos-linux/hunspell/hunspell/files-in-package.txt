@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             5227 ./usr/bin/affixcompress
+-rwxr-xr-x root       root            67832 ./usr/bin/analyze
+-rwxr-xr-x root       root            67992 ./usr/bin/chmorph
+-rwxr-xr-x root       root           133968 ./usr/bin/hunspell
+-rwxr-xr-x root       root            67832 ./usr/bin/hunzip
+-rwxr-xr-x root       root            67832 ./usr/bin/hzip
+-rwxr-xr-x root       root            13097 ./usr/bin/ispellaff2myspell
+-rwxr-xr-x root       root             2564 ./usr/bin/makealias
+-rwxr-xr-x root       root            67832 ./usr/bin/munch
+-rwxr-xr-x root       root            67832 ./usr/bin/unmunch
+-rwxr-xr-x root       root             1335 ./usr/bin/wordforms
+-rwxr-xr-x root       root             1648 ./usr/bin/wordlist2hunspell
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           474968 ./usr/lib/libhunspell-1.6.so.0.0.1
+lrwxrwxrwx root       root               24 ./usr/lib/libhunspell-1.6.so.0 -> libhunspell-1.6.so.0.0.1

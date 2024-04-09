@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl
-RRECOMMENDS = 
-PKGSIZE = 1820
-FILES = /usr/lib/perl5/5.30.2/Unicode/Collate/Locale/wo.pl
-FILELIST = /usr/lib/perl5/5.30.2/Unicode/Collate/Locale/wo.pl

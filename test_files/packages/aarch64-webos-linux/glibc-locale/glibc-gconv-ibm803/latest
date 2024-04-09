@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) glibc-gconv
+RRECOMMENDS = 
+PKGSIZE = 10240
+FILES = /usr/lib/gconv/IBM803.so
+FILELIST = /usr/lib/gconv/IBM803.so

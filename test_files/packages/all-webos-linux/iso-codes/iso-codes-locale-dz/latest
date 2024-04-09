@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = dz-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-dz
+PKGSIZE = 45995
+FILES = /usr/share/locale/dz
+FILELIST = /usr/share/locale/dz/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/dz/LC_MESSAGES/iso_3166-3.mo /usr/share/locale/dz/LC_MESSAGES/iso_3166.mo

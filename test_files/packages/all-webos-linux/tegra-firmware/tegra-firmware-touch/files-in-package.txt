@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/firmware
+-rw-r--r-- root       root           212392 ./lib/firmware/164.13_1.0.AA_ATMEL_mXT2954T2_NVIDIA_P2737.fw
+-rw-r--r-- root       root             8424 ./lib/firmware/ATMEL_2954T2_NVIDIA_P1332_CFG.raw
+-rw-r--r-- root       root             8424 ./lib/firmware/ATMEL_mXT2954T2_NVIDIA_P2737_CFG_land.raw
+-rw-r--r-- root       root             8424 ./lib/firmware/ATMEL_mXT2954T2_NVIDIA_P2737_CFG.raw

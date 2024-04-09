@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-r-xr-xr-x root       root          1974952 ./usr/lib/libperl.so.5.24.4
+lrwxrwxrwx root       root               17 ./usr/lib/libperl.so.5 -> libperl.so.5.24.4
+drwxr-xr-x root       root             4096 ./usr/lib/perl
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4
+-r--r--r-- root       root              409 ./usr/lib/perl/5.24.4/Config_git.pl
+-r--r--r-- root       root            49635 ./usr/lib/perl/5.24.4/Config_heavy.pl
+lrwxrwxrwx root       root               15 ./usr/lib/perl/5.24.4/Config_heavy-target.pl -> Config_heavy.pl
+lrwxrwxrwx root       root                4 ./usr/lib/perl5 -> perl
+-rwxr-xr-x root       root            41768 ./usr/lib/perl/config.sh

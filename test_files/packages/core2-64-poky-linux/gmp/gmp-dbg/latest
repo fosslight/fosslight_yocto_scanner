@@ -1,9 +1,0 @@
-PV = 6.2.0
-PR = r0
-PKG = libgmp-dbg
-RPROVIDES = gmp-dbg (=6.2.0)
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg
-PKGSIZE = 2706208
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libgmp.so.10.4.0 /usr/lib/.debug/libgmpxx.so.4.6.0

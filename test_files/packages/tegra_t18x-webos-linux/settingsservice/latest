@@ -1,0 +1,5 @@
+PV = 1.0.22-3
+PR = r22
+DEPENDS = boost cmake-modules-webos-native cmake-native glib-2.0 glibmm icecc-create-env-native libbson libpbnjson luna-service2 ninja-native openssl pkgconfig-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = settingsservice-dbg settingsservice-staticdev settingsservice-dev settingsservice-doc settingsservice-locale settingsservice
+LAYER = meta-webos

@@ -1,0 +1,9 @@
+PV = 1.3.1+gitAUTOINC+c6aab8e612
+PR = r4
+PKGV = 1.3.1+git0+c6aab8e612
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libstdc++-dbg
+PKGSIZE = 34552188
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/node_modules/iotivity-node/build/Release/.debug/iotivity.node /usr/src/debug/iotivity-node/1.3.1+gitAUTOINC+c6aab8e612-r4/.node-gyp/8.12.0/include/node/node_api.h /usr/src/debug/iotivity-node/1.3.1+gitAUTOINC+c6aab8e612-r4/.node-gyp/8.12.0/include/node/node_api_types.h

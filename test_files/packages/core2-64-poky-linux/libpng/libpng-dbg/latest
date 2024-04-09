@@ -1,9 +1,0 @@
-PV = 1.6.37
-PR = r0
-PKG = libpng16-dbg
-RPROVIDES = libpng-dbg (=1.6.37)
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg zlib-dbg
-PKGSIZE = 1047040
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/png-fix-itxt /usr/bin/.debug/pngfix /usr/lib/.debug/libpng16.so.16.37.0

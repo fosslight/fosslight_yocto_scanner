@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0
+DEPENDS = bc-native icecc-create-env-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = make-mod-scripts-dbg make-mod-scripts-staticdev make-mod-scripts-dev make-mod-scripts-doc make-mod-scripts-locale make-mod-scripts
+LAYER = core

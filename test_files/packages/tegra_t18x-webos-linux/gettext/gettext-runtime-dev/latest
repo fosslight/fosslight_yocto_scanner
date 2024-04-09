@@ -1,0 +1,8 @@
+PV = 0.19.8.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dev glibc-dev libcroco-dev libxml2-dev
+PKGSIZE = 0
+FILES = /usr/lib/libasprintf.a /usr/include/autosprintf.h
+FILELIST = 

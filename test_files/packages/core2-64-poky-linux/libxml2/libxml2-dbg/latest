@@ -1,8 +1,0 @@
-PV = 2.9.10
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg libxcrypt-dbg zlib-dbg
-PKGSIZE = 10730504
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/xmlcatalog /usr/bin/.debug/xmllint /usr/lib/.debug/libxml2.so.2.9.10 /usr/lib/libxml2/ptest/.debug/runsuite /usr/lib/libxml2/ptest/.debug/runtest /usr/lib/libxml2/ptest/.debug/runxmlconf /usr/lib/libxml2/ptest/.debug/testAutomata /usr/lib/libxml2/ptest/.debug/testC14N /usr/lib/libxml2/ptest/.debug/testHTML /usr/lib/libxml2/ptest/.debug/testModule /usr/lib/libxml2/ptest/.debug/testReader /usr/lib/libxml2/ptest/.debug/testRegexp /usr/lib/libxml2/ptest/.debug/testRelax /usr/lib/libxml2/ptest/.debug/testSAX /usr/lib/libxml2/ptest/.debug/testSchemas /usr/lib/libxml2/ptest/.debug/testThreads /usr/lib/libxml2/ptest/.debug/testURI /usr/lib/libxml2/ptest/.debug/testXPath /usr/lib/libxml2/ptest/.debug/testapi /usr/lib/libxml2/ptest/.debug/testchar /usr/lib/libxml2/ptest/.debug/testdict /usr/lib/libxml2/ptest/.debug/testlimits /usr/lib/libxml2/ptest/.debug/testrecurse /usr/lib/python3.8/site-packages/.debug/libxml2mod.so

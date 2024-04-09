@@ -1,0 +1,8 @@
+PV = 1.0.0-37
+PR = r2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg wayland-dbg
+PKGSIZE = 78026
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libwayland-webos-client.so.1.0.0 /usr/lib/.debug/libwayland-webos-server.so.1.0.0 /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/client/wayland-input-method-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/client/wayland-text-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/client/wayland-webos-extension-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/client/wayland-webos-foreign-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/client/wayland-webos-input-manager-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/client/wayland-webos-shell-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/client/wayland-webos-surface-group-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/server/wayland-input-method-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/server/wayland-text-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/server/wayland-webos-extension-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/server/wayland-webos-foreign-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/server/wayland-webos-input-manager-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/server/wayland-webos-shell-protocol.c /usr/src/debug/webos-wayland-extensions/1.0.0-37-r2/build/server/wayland-webos-surface-group-protocol.c

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-bytes perl-module-compress-raw-zlib perl-module-io-compress-base-common perl-module-strict perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 3278
-FILES = /usr/lib/perl5/5.30.2/IO/Uncompress/Adapter/Inflate.pm
-FILELIST = /usr/lib/perl5/5.30.2/IO/Uncompress/Adapter/Inflate.pm

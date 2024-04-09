@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) glibc-gconv
-RRECOMMENDS = 
-PKGSIZE = 18376
-FILES = /usr/lib/gconv/GREEK-CCITT.so
-FILELIST = /usr/lib/gconv/GREEK-CCITT.so

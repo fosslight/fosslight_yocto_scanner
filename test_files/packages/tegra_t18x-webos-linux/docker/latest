@@ -1,0 +1,5 @@
+PV = 18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0
+PR = r0
+DEPENDS = base-files base-passwd btrfs-tools compose-file go-capability go-cli go-connections go-context go-dbus go-distribution go-fsnotify go-logrus go-mux go-patricia go-pty go-systemd grpc-go icecc-create-env-native libtool lvm2 notary pkgconfig-native shadow shadow-native shadow-sysroot sqlite3 systemd-systemctl-native virtual/aarch64-go virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/aarch64-webos-linux-go-runtime virtual/libc
+PACKAGES = docker-ptest docker-contrib docker-dbg docker-staticdev docker-dev docker-doc docker-locale docker
+LAYER = virtualization-layer

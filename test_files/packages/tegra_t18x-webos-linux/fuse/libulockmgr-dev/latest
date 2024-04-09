@@ -1,0 +1,8 @@
+PV = 2.9.8
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dev
+PKGSIZE = 0
+FILES = /usr/lib/libulock*.la
+FILELIST = 

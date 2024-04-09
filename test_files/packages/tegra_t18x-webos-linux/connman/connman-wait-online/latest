@@ -1,0 +1,9 @@
+PV = 1.35
+PR = r0
+PKGR = r0webos10
+RPROVIDES = 
+RDEPENDS = dbus-lib (>= 1.12.10) glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 68317
+FILES = /usr/sbin/connmand-wait-online /lib/systemd/system/connman-wait-online.service
+FILELIST = /lib/systemd/system/connman-wait-online.service /usr/sbin/connmand-wait-online

@@ -1,0 +1,8 @@
+PV = 3.0.1-2
+PR = r10
+RPROVIDES = 
+RDEPENDS = nodejs-module-webos-sysbus-dev (= 3.0.1-2-r10)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/nodejs-module-webos-sysbus/*.a
+FILELIST = 

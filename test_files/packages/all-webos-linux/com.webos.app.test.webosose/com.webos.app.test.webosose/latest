@@ -1,0 +1,8 @@
+PV = 1.0.0-7
+PR = r4.1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 3870
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/com.webos.app.test.webosose /usr/lib/com.webos.app.test.webosose/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services /usr/share/dbus-1/services /usr/share/ls2/roles/prv /usr/share/ls2/roles/pub /usr/share/luna-service2/roles.d /usr/share/luna-service2/services.d /usr/share/luna-service2/client-permissions.d /usr/share/luna-service2/api-permissions.d /usr/share/luna-service2/groups.d /usr/share/luna-service2/manifests.d /usr/palm/applications
+FILELIST = /usr/palm/applications/com.webos.app.test.webosose/README.md /usr/palm/applications/com.webos.app.test.webosose/appinfo.json /usr/palm/applications/com.webos.app.test.webosose/icon.png /usr/palm/applications/com.webos.app.test.webosose/index.html /usr/share/luna-service2/client-permissions.d/com.webos.app.test.webosose.app.json /usr/share/luna-service2/manifests.d/com.webos.app.test.webosose.manifest.json /usr/share/luna-service2/roles.d/com.webos.app.test.webosose.app.json

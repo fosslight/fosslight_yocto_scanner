@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-extutils-liblist-kid perl-module-strict
-RRECOMMENDS = 
-PKGSIZE = 9500
-FILES = /usr/lib/perl5/5.30.2/ExtUtils/Liblist.pm
-FILELIST = /usr/lib/perl5/5.30.2/ExtUtils/Liblist.pm

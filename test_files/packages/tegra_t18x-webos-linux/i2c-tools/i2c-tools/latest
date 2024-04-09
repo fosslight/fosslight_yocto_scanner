@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 474503
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/i2c-tools /usr/lib/i2c-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libi2c.so.0 /usr/lib/libi2c.so.0.1.1 /usr/sbin/eeprog /usr/sbin/i2cdetect.i2c-tools /usr/sbin/i2cdump.i2c-tools /usr/sbin/i2cget.i2c-tools /usr/sbin/i2cset.i2c-tools /usr/sbin/i2ctransfer

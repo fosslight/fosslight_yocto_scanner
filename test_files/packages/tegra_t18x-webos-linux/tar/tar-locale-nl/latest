@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = nl-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-nl
+PKGSIZE = 62069
+FILES = /usr/share/locale/nl
+FILELIST = /usr/share/locale/nl/LC_MESSAGES/tar.mo

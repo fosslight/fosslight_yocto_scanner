@@ -1,0 +1,5 @@
+PV = 4+gitb4a58d95188dd092ae20072bac14cece0e67c388
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = go-systemd-dbg go-systemd-staticdev go-systemd-dev go-systemd-doc go-systemd-locale go-systemd
+LAYER = virtualization-layer

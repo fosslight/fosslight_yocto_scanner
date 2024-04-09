@@ -1,0 +1,5 @@
+PV = 5.2.4
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native icecc-create-env-native libtool-cross libtool-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/update-alternatives
+PACKAGES = liblzma xz-dbg xz-staticdev xz-dev xz-doc xz xz-locale-cs xz-locale-de xz-locale-fr xz-locale-it xz-locale-pl xz-locale-vi
+LAYER = core

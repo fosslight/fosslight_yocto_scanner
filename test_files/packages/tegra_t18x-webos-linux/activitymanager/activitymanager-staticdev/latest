@@ -1,0 +1,8 @@
+PV = 3.0.0-5
+PR = r9
+RPROVIDES = 
+RDEPENDS = activitymanager-dev (= 3.0.0-5-r9)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/activitymanager/*.a
+FILELIST = 

@@ -1,8 +1,0 @@
-PV = 2.34
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg libbfd-dbg libgcc-dbg libstdc++-dbg zlib-dbg
-PKGSIZE = 142576200
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/x86_64-poky-linux-addr2line /usr/bin/.debug/x86_64-poky-linux-ar /usr/bin/.debug/x86_64-poky-linux-as /usr/bin/.debug/x86_64-poky-linux-c++filt /usr/bin/.debug/x86_64-poky-linux-dwp /usr/bin/.debug/x86_64-poky-linux-elfedit /usr/bin/.debug/x86_64-poky-linux-gprof /usr/bin/.debug/x86_64-poky-linux-ld /usr/bin/.debug/x86_64-poky-linux-ld.gold /usr/bin/.debug/x86_64-poky-linux-nm /usr/bin/.debug/x86_64-poky-linux-objcopy /usr/bin/.debug/x86_64-poky-linux-objdump /usr/bin/.debug/x86_64-poky-linux-ranlib /usr/bin/.debug/x86_64-poky-linux-readelf /usr/bin/.debug/x86_64-poky-linux-size /usr/bin/.debug/x86_64-poky-linux-strings /usr/bin/.debug/x86_64-poky-linux-strip /usr/lib/.debug/libbfd-2.34.0.20200220.so /usr/lib/.debug/libctf-nobfd.so.0.0.0 /usr/lib/.debug/libctf.so.0.0.0 /usr/lib/.debug/libopcodes-2.34.0.20200220.so

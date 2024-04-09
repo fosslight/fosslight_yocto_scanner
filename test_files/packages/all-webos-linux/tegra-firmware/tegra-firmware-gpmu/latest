@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 101508
+FILES = /lib/firmware/*/gpmu_ucode.bin /lib/firmware/*/gpmu_ucode_desc.bin /lib/firmware/*/gpmu_ucode_image.bin /lib/firmware/*/pmu_bl.bin /lib/firmware/*/pmu_sig.bin
+FILELIST = /lib/firmware/gp10b/gpmu_ucode.bin /lib/firmware/gp10b/gpmu_ucode_desc.bin /lib/firmware/gp10b/gpmu_ucode_image.bin /lib/firmware/gp10b/pmu_bl.bin /lib/firmware/gp10b/pmu_sig.bin

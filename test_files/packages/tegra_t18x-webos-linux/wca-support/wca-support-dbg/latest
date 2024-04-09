@@ -1,0 +1,9 @@
+PV = 1.0.0-3
+PR = r1
+PKG = libwca-support-dbg
+RPROVIDES = wca-support-dbg (=1.0.0-3)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 18489
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libwca-support.so.1.0.0 /usr/src/debug/wca-support/1.0.0-3-r1/git/src/support_none.c

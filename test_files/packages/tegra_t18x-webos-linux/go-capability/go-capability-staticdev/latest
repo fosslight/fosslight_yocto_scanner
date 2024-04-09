@@ -1,0 +1,9 @@
+PV = 0.0+gitAUTOINC+2c00daeb6c
+PR = r0
+PKGV = 0.0+git0+2c00daeb6c
+RPROVIDES = 
+RDEPENDS = go-capability-dev (= 0.0+git0+2c00daeb6c-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/go-capability/*.a
+FILELIST = 

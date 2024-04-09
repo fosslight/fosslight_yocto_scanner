@@ -1,5 +1,0 @@
-PV = 3.34.0
-PR = r0
-DEPENDS = cairo glib-2.0 gobject-introspection gobject-introspection-native meson-native ninja-native pkgconfig-native prelink-native python3 python3 python3-native python3-native python3-pycairo qemu-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = python3-pygobject-src python3-pygobject-dbg python3-pygobject-staticdev python3-pygobject-dev python3-pygobject-doc python3-pygobject-locale python3-pygobject
-LAYER = core

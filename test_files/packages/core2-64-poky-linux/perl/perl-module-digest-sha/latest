@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-digest-base perl-module-dynaloader perl-module-exporter perl-module-fcntl perl-module-integer perl-module-strict perl-module-vars perl-module-warnings perl-module-xsloader
-RRECOMMENDS = 
-PKGSIZE = 69078
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/Digest/SHA/SHA.so /usr/lib/perl5/5.30.2/x86_64-linux/Digest/SHA.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Digest/SHA.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/Digest/SHA/SHA.so

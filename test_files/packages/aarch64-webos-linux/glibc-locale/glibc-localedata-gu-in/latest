@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-hi-in glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-translit-combining
+RRECOMMENDS = 
+PKGSIZE = 5570
+FILES = /usr/share/i18n/locales/gu_IN
+FILELIST = /usr/share/i18n/locales/gu_IN

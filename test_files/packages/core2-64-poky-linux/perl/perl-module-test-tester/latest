@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-exporter perl-module-strict perl-module-test-builder perl-module-test-tester-capturerunner perl-module-test-tester-delegate perl-module-vars
-RRECOMMENDS = 
-PKGSIZE = 18334
-FILES = /usr/lib/perl5/5.30.2/Test/Tester.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test/Tester.pm

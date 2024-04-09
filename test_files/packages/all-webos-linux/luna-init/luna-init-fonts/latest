@@ -1,0 +1,8 @@
+PV = 2.0.1-3
+PR = r17
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 5408918
+FILES = /usr/share/fonts/
+FILELIST = /usr/share/fonts/Prelude-Bold.ttf /usr/share/fonts/Prelude-BoldOblique.ttf /usr/share/fonts/Prelude-Medium.ttf /usr/share/fonts/Prelude-MediumOblique.ttf /usr/share/fonts/PreludeCompWGL-Black.ttf /usr/share/fonts/PreludeCompWGL-BlackItalic.ttf /usr/share/fonts/PreludeCompWGL-Bold.ttf /usr/share/fonts/PreludeCompWGL-BoldItalic.ttf /usr/share/fonts/PreludeCompWGL-Light.ttf /usr/share/fonts/PreludeCompWGL-LightItalic.ttf /usr/share/fonts/PreludeCompWGL-Medium.ttf /usr/share/fonts/PreludeCompWGL-MediumItalic.ttf /usr/share/fonts/PreludeCondWGL-Black.ttf /usr/share/fonts/PreludeCondWGL-BlackItalic.ttf /usr/share/fonts/PreludeCondWGL-Bold.ttf /usr/share/fonts/PreludeCondWGL-BoldItalic.ttf /usr/share/fonts/PreludeCondWGL-Light.ttf /usr/share/fonts/PreludeCondWGL-LightItalic.ttf /usr/share/fonts/PreludeCondWGL-Medium.ttf /usr/share/fonts/PreludeCondWGL-MediumItalic.ttf /usr/share/fonts/PreludeCondensed-Bold.ttf /usr/share/fonts/PreludeCondensed-Medium.ttf /usr/share/fonts/PreludeWGL-Black.ttf /usr/share/fonts/PreludeWGL-BlackItalic.ttf /usr/share/fonts/PreludeWGL-Bold.ttf /usr/share/fonts/PreludeWGL-BoldItalic.ttf /usr/share/fonts/PreludeWGL-Light.ttf /usr/share/fonts/PreludeWGL-LightItalic.ttf /usr/share/fonts/PreludeWGL-Medium.ttf /usr/share/fonts/PreludeWGL-MediumItalic.ttf /usr/share/fonts/Prelude_Font_LICENSE.txt /usr/share/fonts/webos-fallback-fonts.xml /usr/share/fonts/webos-system-fonts.xml

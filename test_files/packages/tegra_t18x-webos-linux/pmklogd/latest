@@ -1,0 +1,5 @@
+PV = 2.0.0-1
+PR = r3
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = pmklogd-dbg pmklogd-staticdev pmklogd-dev pmklogd-doc pmklogd-locale pmklogd
+LAYER = meta-webos

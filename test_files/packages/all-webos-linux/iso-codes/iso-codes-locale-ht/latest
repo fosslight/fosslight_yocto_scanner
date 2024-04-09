@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = ht-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ht
+PKGSIZE = 7886
+FILES = /usr/share/locale/ht
+FILELIST = /usr/share/locale/ht/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/ht/LC_MESSAGES/iso_3166.mo

@@ -1,9 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/perl5
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/mro
--r-xr-xr-x root       root            22400 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/mro/mro.so
--r--r--r-- root       root            10116 ./usr/lib/perl5/5.30.2/x86_64-linux/mro.pm

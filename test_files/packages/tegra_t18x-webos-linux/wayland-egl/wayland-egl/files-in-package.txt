@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxrwxr-x root       root             5936 ./usr/lib/libwayland-egl.so.1.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libwayland-egl.so.1 -> libwayland-egl.so
+lrwxrwxrwx root       root               23 ./usr/lib/libwayland-egl.so -> libwayland-egl.so.1.0.0

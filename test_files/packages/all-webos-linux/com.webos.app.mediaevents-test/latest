@@ -1,0 +1,5 @@
+PV = 1.0.0-97
+PR = r5.1
+DEPENDS = cmake-modules-webos-native cmake-native ninja-native
+PACKAGES = com.webos.app.mediaevents-test-dbg com.webos.app.mediaevents-test-staticdev com.webos.app.mediaevents-test-dev com.webos.app.mediaevents-test-doc com.webos.app.mediaevents-test-locale com.webos.app.mediaevents-test
+LAYER = meta-webos-tegra

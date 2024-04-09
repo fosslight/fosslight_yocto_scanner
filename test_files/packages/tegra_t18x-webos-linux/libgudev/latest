@@ -1,0 +1,5 @@
+PV = 232
+PR = r0
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native gobject-introspection gobject-introspection-native gtk-doc-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native prelink-native python3-native qemu-native udev virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libgudev-dbg libgudev-staticdev libgudev-dev libgudev-doc libgudev-locale libgudev
+LAYER = core

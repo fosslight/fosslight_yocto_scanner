@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            68656 ./usr/bin/babeltrace
+-rwxr-xr-x root       root            67744 ./usr/bin/babeltrace-log
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67760 ./usr/lib/libbabeltrace-ctf-metadata.so.1.0.0
+lrwxrwxrwx root       root               35 ./usr/lib/libbabeltrace-ctf-metadata.so.1 -> libbabeltrace-ctf-metadata.so.1.0.0
+-rwxr-xr-x root       root           330424 ./usr/lib/libbabeltrace-ctf.so.1.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/libbabeltrace-ctf.so.1 -> libbabeltrace-ctf.so.1.0.0
+-rwxr-xr-x root       root            67848 ./usr/lib/libbabeltrace-ctf-text.so.1.0.0
+lrwxrwxrwx root       root               31 ./usr/lib/libbabeltrace-ctf-text.so.1 -> libbabeltrace-ctf-text.so.1.0.0
+-rwxr-xr-x root       root            67760 ./usr/lib/libbabeltrace-dummy.so.1.0.0
+lrwxrwxrwx root       root               28 ./usr/lib/libbabeltrace-dummy.so.1 -> libbabeltrace-dummy.so.1.0.0
+-rwxr-xr-x root       root            67760 ./usr/lib/libbabeltrace-lttng-live.so.1.0.0
+lrwxrwxrwx root       root               33 ./usr/lib/libbabeltrace-lttng-live.so.1 -> libbabeltrace-lttng-live.so.1.0.0
+-rwxr-xr-x root       root            67744 ./usr/lib/libbabeltrace.so.1.0.0
+lrwxrwxrwx root       root               22 ./usr/lib/libbabeltrace.so.1 -> libbabeltrace.so.1.0.0

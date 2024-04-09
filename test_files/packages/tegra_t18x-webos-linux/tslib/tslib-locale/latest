@@ -1,0 +1,9 @@
+PV = 1.16
+PR = r0
+PKG = libts-locale
+RPROVIDES = tslib-locale (=1.16)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

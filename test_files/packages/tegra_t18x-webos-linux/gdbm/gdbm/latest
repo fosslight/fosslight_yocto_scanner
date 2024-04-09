@@ -1,0 +1,9 @@
+PV = 1.18
+PR = r0
+PKG = libgdbm6
+RPROVIDES = gdbm (=1.18)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 67872
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gdbm /usr/lib/gdbm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libgdbm.so.6 /usr/lib/libgdbm.so.6.0.0

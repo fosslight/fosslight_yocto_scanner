@@ -1,0 +1,39 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             7877 ./usr/include/dto_types.h
+-rw-r--r-- root       root             5331 ./usr/include/Logger.h
+-rw-r--r-- root       root             3217 ./usr/include/MDCClient.h
+-rw-r--r-- root       root             2221 ./usr/include/MDCContentProvider.h
+-rw-r--r-- root       root             2093 ./usr/include/ResourceManagerClient_c.h
+-rw-r--r-- root       root              850 ./usr/include/ResourceManagerClient_common.h
+-rw-r--r-- root       root             5669 ./usr/include/ResourceManagerClient.h
+-rw-r--r-- root       root            15680 ./usr/include/uMediaClient.h
+-rw-r--r-- root       root             1425 ./usr/include/uMediaClient_wrapper.h
+-rw-r--r-- root       root             2552 ./usr/include/uMediaTypes.h
+-rw-r--r-- root       root             1395 ./usr/include/UMSConnector_common.h
+-rw-r--r-- root       root             4560 ./usr/include/UMSConnector.h
+-rw-r--r-- root       root             3351 ./usr/include/UMSConnector_wrapper.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               18 ./usr/lib/libmdc_client.so -> libmdc_client.so.1
+lrwxrwxrwx root       root               28 ./usr/lib/libmdc_content_provider.so -> libmdc_content_provider.so.1
+lrwxrwxrwx root       root               32 ./usr/lib/libmedia_display_controller.so -> libmedia_display_controller.so.1
+lrwxrwxrwx root       root               20 ./usr/lib/libprocess_pool.so -> libprocess_pool.so.1
+lrwxrwxrwx root       root               29 ./usr/lib/libresource_mgr_client_c.so -> libresource_mgr_client_c.so.1
+lrwxrwxrwx root       root               27 ./usr/lib/libresource_mgr_client.so -> libresource_mgr_client.so.1
+lrwxrwxrwx root       root               20 ./usr/lib/libresource_mgr.so -> libresource_mgr.so.1
+lrwxrwxrwx root       root               20 ./usr/lib/libumedia_api_c.so -> libumedia_api_c.so.1
+lrwxrwxrwx root       root               18 ./usr/lib/libumedia_api.so -> libumedia_api.so.1
+lrwxrwxrwx root       root               26 ./usr/lib/libums_connector_impl.so -> libums_connector_impl.so.1
+lrwxrwxrwx root       root               21 ./usr/lib/libums_connector.so -> libums_connector.so.1
+lrwxrwxrwx root       root               29 ./usr/lib/libums_connector_wrapper.so -> libums_connector_wrapper.so.1
+lrwxrwxrwx root       root               15 ./usr/lib/libums_dbi.so -> libums_dbi.so.1
+lrwxrwxrwx root       root               24 ./usr/lib/libums_pipeline_mgr.so -> libums_pipeline_mgr.so.1
+lrwxrwxrwx root       root               20 ./usr/lib/libums_pipeline.so -> libums_pipeline.so.1
+lrwxrwxrwx root       root               20 ./usr/lib/libums_registry.so -> libums_registry.so.1
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rw-r--r-- root       root              268 ./usr/share/pkgconfig/mdc_client.pc
+-rw-r--r-- root       root              282 ./usr/share/pkgconfig/mdc_content_provider.pc
+-rw-r--r-- root       root              255 ./usr/share/pkgconfig/umedia_api_c.pc
+-rw-r--r-- root       root              257 ./usr/share/pkgconfig/umedia_api.pc
+-rw-r--r-- root       root              849 ./usr/share/pkgconfig/umediaserver.pc

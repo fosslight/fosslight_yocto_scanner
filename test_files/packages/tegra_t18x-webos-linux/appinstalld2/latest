@@ -1,0 +1,5 @@
+PV = 1.0.0-4
+PR = r3
+DEPENDS = boost cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native icu libpbnjson luna-service2 ninja-native pkgconfig-native pmloglib pmtrace virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = appinstalld2-dbg appinstalld2-staticdev appinstalld2-dev appinstalld2-doc appinstalld2-locale appinstalld2
+LAYER = meta-webos

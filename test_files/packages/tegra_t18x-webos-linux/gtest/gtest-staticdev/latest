@@ -1,0 +1,9 @@
+PV = 1.8.0
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = gtest-dev (= 1.8.0-r0webos1)
+RRECOMMENDS = 
+PKGSIZE = 39696352
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/gtest/*.a
+FILELIST = /usr/lib/libgmock.a /usr/lib/libgmock_main.a /usr/lib/libgtest.a /usr/lib/libgtest_main.a

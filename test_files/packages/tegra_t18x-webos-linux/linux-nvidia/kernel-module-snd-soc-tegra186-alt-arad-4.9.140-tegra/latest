@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-snd-soc-tegra186-alt-arad
+RDEPENDS = kernel-4.9.140-tegra kernel-module-snd-soc-core-4.9.140-tegra kernel-module-snd-soc-tegra-alt-utils-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 41480
+FILES = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-alt/snd-soc-tegra186-alt-arad.ko /etc/modules-load.d/snd-soc-tegra186-alt-arad.conf /etc/modprobe.d/snd-soc-tegra186-alt-arad.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-alt/snd-soc-tegra186-alt-arad.ko

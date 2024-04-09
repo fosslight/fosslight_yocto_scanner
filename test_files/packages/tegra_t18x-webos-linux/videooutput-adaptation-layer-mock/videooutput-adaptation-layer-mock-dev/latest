@@ -1,0 +1,9 @@
+PV = 1.0.0-3
+PR = r1
+PKG = libval-mock-dev
+RPROVIDES = videooutput-adaptation-layer-mock-dev (=1.0.0-3)
+RDEPENDS = videooutput-adaptation-layer-mock (= 1.0.0-3-r1)
+RRECOMMENDS = glib-2.0-dev glib-2.0-utils-dev glibc-dev libgcc-dev libpbnjson-dev libstdc++-dev pmloglib-dev ptest-runner-dev videooutput-adaptation-layer-api-dev
+PKGSIZE = 843
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/videooutput-adaptation-layer-mock/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/lib/libval-mock.so /usr/share/pkgconfig/val-impl.pc

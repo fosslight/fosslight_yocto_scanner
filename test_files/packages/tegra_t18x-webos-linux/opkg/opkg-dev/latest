@@ -1,0 +1,10 @@
+PE = 1
+PV = 0.3.6
+PR = r0
+PKGR = r0webos6
+RPROVIDES = 
+RDEPENDS = libopkg opkg (= 1:0.3.6-r0webos6)
+RRECOMMENDS = glibc-dev libarchive-dev libopkg-dev libsolv-dev opkg-arch-config-dev update-alternatives-opkg-dev
+PKGSIZE = 235
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/opkg/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/lib/libopkg.so /usr/lib/pkgconfig/libopkg.pc

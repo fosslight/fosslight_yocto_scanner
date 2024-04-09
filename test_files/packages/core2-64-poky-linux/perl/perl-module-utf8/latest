@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-utf8-heavy
-RRECOMMENDS = 
-PKGSIZE = 10423
-FILES = /usr/lib/perl5/5.30.2/utf8.pm
-FILELIST = /usr/lib/perl5/5.30.2/utf8.pm

@@ -1,0 +1,6 @@
+PE = 2
+PV = 2.10.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native liburcu util-linux virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = lttng-ust-dbg lttng-ust-staticdev lttng-ust-dev lttng-ust-doc lttng-ust-locale lttng-ust-bin lttng-ust
+LAYER = core

@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             6987 ./usr/include/PmTrace.h
+-rw-r--r-- root       root             4714 ./usr/include/PmTraceMsg.h
+-rw-r--r-- root       root             2454 ./usr/include/PmTraceProvider.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               31 ./usr/lib/liblttng-ust-mtrace-malloc.so -> liblttng-ust-mtrace-malloc.so.1
+lrwxrwxrwx root       root               28 ./usr/lib/liblttng-ust-mtrace-new.so -> liblttng-ust-mtrace-new.so.1
+lrwxrwxrwx root       root               15 ./usr/lib/libPmTrace.so -> libPmTrace.so.1
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rw-r--r-- root       root              934 ./usr/share/pkgconfig/PmTrace.pc

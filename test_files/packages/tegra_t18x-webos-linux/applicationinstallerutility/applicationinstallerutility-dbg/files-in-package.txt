@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root           418824 ./usr/bin/.debug/ApplicationInstallerUtility
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/applicationinstallerutility
+drwxr-xr-x root       root             4096 ./usr/src/debug/applicationinstallerutility/3.0.0-1-r1
+drwxr-xr-x root       root             4096 ./usr/src/debug/applicationinstallerutility/3.0.0-1-r1/build
+drwxr-xr-x root       root             4096 ./usr/src/debug/applicationinstallerutility/3.0.0-1-r1/build/Configured
+drwxr-xr-x root       root             4096 ./usr/src/debug/applicationinstallerutility/3.0.0-1-r1/build/Configured/src
+-rw-r--r-- root       root            22713 ./usr/src/debug/applicationinstallerutility/3.0.0-1-r1/build/Configured/src/Main.cpp
+drwxr-xr-x root       root             4096 ./usr/src/debug/applicationinstallerutility/3.0.0-1-r1/git
+drwxr-xr-x root       root             4096 ./usr/src/debug/applicationinstallerutility/3.0.0-1-r1/git/src
+-rw-r--r-- root       root             1115 ./usr/src/debug/applicationinstallerutility/3.0.0-1-r1/git/src/ApplicationInstallerErrors.h

@@ -1,0 +1,8 @@
+PV = 0.1.0-25
+PR = r0
+RPROVIDES = 
+RDEPENDS = bluetooth-sil-bluez5 (= 0.1.0-25-r0)
+RRECOMMENDS = bluetooth-sil-api-dev bluez5-dev bluez5-obex-dev glib-2.0-dev glibc-dev libgcc-dev libstdc++-dev pmloglib-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bluetooth-sil-bluez5/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

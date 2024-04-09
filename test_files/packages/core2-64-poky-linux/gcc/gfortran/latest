@@ -1,8 +1,0 @@
-PV = 10.1.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = libquadmath libquadmath-dev
-PKGSIZE = 0
-FILES = /usr/bin/x86_64-poky-linux-gfortran /usr/libexec/gcc/x86_64-poky-linux/10.1.0/f951
-FILELIST = 

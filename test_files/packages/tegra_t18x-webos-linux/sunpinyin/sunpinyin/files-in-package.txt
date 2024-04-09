@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/maliit
+drwxr-xr-x root       root             4096 ./usr/lib/maliit/plugins
+drwxr-xr-x root       root             4096 ./usr/lib/maliit/plugins/dict
+-rwxr-xr-x root       root         39188868 ./usr/lib/maliit/plugins/dict/lm_sc.t3g
+-rwxr-xr-x root       root          3954372 ./usr/lib/maliit/plugins/dict/pydict_sc.bin
+-rwxr-xr-x root       root           409432 ./usr/lib/maliit/plugins/libsunpinyin.so.3.0

@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-hi-in glibc-localedata-iso14651-t1 glibc-localedata-kn-in
-RRECOMMENDS = 
-PKGSIZE = 5267
-FILES = /usr/share/i18n/locales/tcy_IN
-FILELIST = /usr/share/i18n/locales/tcy_IN

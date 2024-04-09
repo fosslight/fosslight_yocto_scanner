@@ -1,0 +1,19 @@
+set -e
+    etc_lt=${LOCALTIME_LOCATION:-/var/luna/preferences/localtime}
+    src=${TIMEZONE_LOCATION:-/var/luna/preferences/timezone}
+
+    if [ -e $D${src} ] ; then
+        tz=$(sed -e 's:#.*::' -e 's:[[:space:]]*::g' -e '/^$/d' "$D${src}")
+    fi
+
+    if [ -z ${tz} ] ; then
+        exit 0
+    fi
+
+    if [ ! -e "$D/usr/share/zoneinfo/${tz}" ] ; then
+        echo "You have an invalid TIMEZONE setting in ${src}"
+        echo "Your ${etc_lt} has been reset to Universal; enjoy!"
+        tz="Universal"
+        echo "Updating $D${etc_lt} with $D/usr/share/zoneinfo/${tz}"
+        ln -snf "/usr/share/zoneinfo/${tz}" "$D${etc_lt}"
+    fi

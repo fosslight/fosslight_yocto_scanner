@@ -1,0 +1,9 @@
+PV = 79.0.3945.79-17
+PR = r26.1
+PKGR = r26.1webosintel1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/palm/applications/com.webos.app.wam-demo /usr/share/dbus-1/system-services/com.webos.app.wam-demo.service /usr/share/dbus-1/services/com.webos.app.wam-demo.service /usr/share/ls2/roles/prv/com.webos.app.wam-demo.json /usr/share/ls2/roles/pub/com.webos.app.wam-demo.json
+FILELIST = 

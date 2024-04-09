@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            68384 ./usr/bin/ApplicationInstallerUtility
+-rwxr-xr-x root       root              677 ./usr/bin/find_file_in_archive.sh
+-rwxr-xr-x root       root              675 ./usr/bin/pmServicePostInstall.sh
+-rwxr-xr-x root       root              675 ./usr/bin/pmServicePostRemove.sh

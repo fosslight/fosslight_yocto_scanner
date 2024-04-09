@@ -1,8 +1,0 @@
-PV = 5.4.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = btrfs-tools-dev (= 5.4.1-r0)
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/lib/*.a /lib/*.a /usr/lib/btrfs-tools/*.a /usr/lib/python3.8/site-packages/*.a
-FILELIST = 

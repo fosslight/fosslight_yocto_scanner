@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /usr/bin/setpriv setpriv /usr/bin/setpriv.util-linux 80

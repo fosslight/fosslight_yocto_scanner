@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./etc
+-rw-r--r-- root       root                0 ./etc/machine-id
+drwxr-xr-x root       root             4096 ./etc/systemd
+-rw-r--r-- root       root              615 ./etc/systemd/coredump.conf
+-rw-r--r-- root       root             1029 ./etc/systemd/journald.conf
+-rw-r--r-- root       root             1043 ./etc/systemd/logind.conf
+-rw-r--r-- root       root             1682 ./etc/systemd/system.conf
+-rw-r--r-- root       root             1130 ./etc/systemd/user.conf

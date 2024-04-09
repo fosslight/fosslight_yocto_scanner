@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) pstree
+RRECOMMENDS = 
+PKGSIZE = 135662
+FILES = /usr/bin
+FILELIST = /usr/bin/prtstat /usr/bin/pslog /usr/bin/pstree.x11

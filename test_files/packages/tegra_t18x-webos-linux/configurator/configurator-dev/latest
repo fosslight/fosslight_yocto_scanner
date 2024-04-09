@@ -1,0 +1,8 @@
+PV = 3.0.0-3
+PR = r6
+RPROVIDES = 
+RDEPENDS = configurator (= 3.0.0-3-r6)
+RRECOMMENDS = db8-dev glib-2.0-dev glibc-dev libgcc-dev libstdc++-dev luna-service2-dev pmloglib-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/configurator/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

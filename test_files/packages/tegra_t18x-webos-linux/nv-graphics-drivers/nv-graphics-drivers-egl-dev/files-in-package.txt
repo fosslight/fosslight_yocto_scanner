@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/EGL
+-rw-r--r-- root       root            64437 ./usr/include/EGL/eglext.h
+-rw-r--r-- root       root            11497 ./usr/include/EGL/eglext_nv.h
+-rw-r--r-- root       root            15361 ./usr/include/EGL/egl.h
+-rw-r--r-- root       root             5935 ./usr/include/EGL/eglplatform.h
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rwxr-xr-x root       root              233 ./usr/share/pkgconfig/egl.pc

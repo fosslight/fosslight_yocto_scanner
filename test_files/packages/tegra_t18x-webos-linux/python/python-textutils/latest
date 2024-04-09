@@ -1,0 +1,8 @@
+PV = 2.7.16
+PR = r1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpython2 (>= 2.7.16) python-codecs python-core python-io python-lang
+RRECOMMENDS = 
+PKGSIZE = 248865
+FILES = /usr/lib/python2.7/csv.py /usr/lib/python2.7/csv.pyc /usr/lib/python2.7/lib-dynload/_csv.so /usr/lib/python2.7/optparse.py /usr/lib/python2.7/optparse.pyc /usr/lib/python2.7/textwrap.py /usr/lib/python2.7/textwrap.pyc
+FILELIST = /usr/lib/python2.7/csv.py /usr/lib/python2.7/csv.pyc /usr/lib/python2.7/lib-dynload/_csv.so /usr/lib/python2.7/optparse.py /usr/lib/python2.7/optparse.pyc /usr/lib/python2.7/textwrap.py /usr/lib/python2.7/textwrap.pyc

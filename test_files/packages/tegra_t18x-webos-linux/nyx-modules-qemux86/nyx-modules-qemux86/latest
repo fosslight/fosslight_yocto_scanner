@@ -1,0 +1,8 @@
+PV = 1.0.0-2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) nyx-lib (>= 7.3.0-2) pmloglib (>= 3.3.0-4)
+RRECOMMENDS = 
+PKGSIZE = 272772
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nyx-modules-qemux86 /usr/lib/nyx-modules-qemux86/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/nyx/modules/*
+FILELIST = /etc/udev/rules.d/99-nyx-modules.rules /usr/lib/nyx/modules/nyxBatteryMain.module /usr/lib/nyx/modules/nyxChargerMain.module /usr/lib/nyx/modules/nyxKeysMain.module /usr/lib/nyx/modules/nyxTouchpanelMain.module /usr/sbin/fake_battery_values.sh

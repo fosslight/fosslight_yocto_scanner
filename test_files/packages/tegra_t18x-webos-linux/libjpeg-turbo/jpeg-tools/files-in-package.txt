@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67840 ./usr/bin/cjpeg
+-rwxr-xr-x root       root            67840 ./usr/bin/djpeg
+-rwxr-xr-x root       root            67760 ./usr/bin/jpegtran
+-rwxr-xr-x root       root            67744 ./usr/bin/rdjpgcom
+-rwxr-xr-x root       root            68032 ./usr/bin/tjbench
+-rwxr-xr-x root       root            67744 ./usr/bin/wrjpgcom

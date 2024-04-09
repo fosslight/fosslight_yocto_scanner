@@ -1,0 +1,9 @@
+PV = 2.28.1
+PR = r0
+PKG = libatk-1.0-locale-si
+RPROVIDES = atk-locale atk-locale-si (=2.28.1) si-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-si
+PKGSIZE = 2048
+FILES = /usr/share/locale/si
+FILELIST = /usr/share/locale/si/LC_MESSAGES/atk10.mo

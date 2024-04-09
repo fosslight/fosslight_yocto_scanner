@@ -1,0 +1,8 @@
+PV = 2.60.2
+PR = r0
+RPROVIDES = ca+valencia-translation glib-networking-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ca+valencia
+PKGSIZE = 3712
+FILES = /usr/share/locale/ca@valencia
+FILELIST = /usr/share/locale/ca@valencia/LC_MESSAGES/glib-networking.mo

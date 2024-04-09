@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./etc
+-rw-r--r-- root       root                0 ./etc/hosts.allow
+-rw-r--r-- root       root                0 ./etc/hosts.deny
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            67792 ./usr/sbin/safe_finger
+-rwxr-xr-x root       root            67744 ./usr/sbin/tcpd
+-rwxr-xr-x root       root            67888 ./usr/sbin/tcpdchk
+-rwxr-xr-x root       root            67784 ./usr/sbin/tcpdmatch
+-rwxr-xr-x root       root            67752 ./usr/sbin/try-from

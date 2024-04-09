@@ -1,8 +1,0 @@
-PV = 1.8.4
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) iptables (>= 1.8.4)
-RRECOMMENDS = 
-PKGSIZE = 23008
-FILES = /usr/lib/xtables/libxt_owner.so
-FILELIST = /usr/lib/xtables/libxt_owner.so

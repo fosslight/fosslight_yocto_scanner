@@ -1,0 +1,5 @@
+PV = 1.0.2-35
+PR = r32
+DEPENDS = freetype glib-2.0 icecc-create-env-native libpbnjson librolegen lttng-ust lttng-ust luna-prefs luna-service2 nyx-lib openssl pmloglib qt-features-webos qtbase qtbase-native serviceinstaller sqlite3 virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/webruntime
+PACKAGES = wam-dbg wam-staticdev wam-dev wam-doc wam-locale wam
+LAYER = meta-webos

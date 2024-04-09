@@ -1,0 +1,5 @@
+PV = 1.0.0-5
+PR = r2
+DEPENDS = cmake-modules-webos-native cmake-native icecc-create-env-native ninja-native nodejs-native systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = com.webos.service.flowmanager-dbg com.webos.service.flowmanager-staticdev com.webos.service.flowmanager-dev com.webos.service.flowmanager-doc com.webos.service.flowmanager-locale com.webos.service.flowmanager
+LAYER = meta-webos

@@ -1,0 +1,9 @@
+PV = 2.9.11
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = lttng-tools (= 2.9.11-r0webos2)
+RRECOMMENDS = babeltrace-dev base-files-dev base-passwd-dev busybox-dev gawk-dev glibc-dev libgcc-dev liburcu-dev libxml2-dev lttng-ust-dev make-dev perl-dev perl-module-getopt-long-dev popt-dev procps-dev shadow-dev shadow-sysroot-dev util-linux-dev util-linux-libuuid-dev
+PKGSIZE = 66071
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lttng-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/python3.5/site-packages/*.la
+FILELIST = /usr/include/lttng/channel.h /usr/include/lttng/constant.h /usr/include/lttng/domain.h /usr/include/lttng/event.h /usr/include/lttng/handle.h /usr/include/lttng/health.h /usr/include/lttng/load.h /usr/include/lttng/lttng-error.h /usr/include/lttng/lttng.h /usr/include/lttng/save.h /usr/include/lttng/session.h /usr/include/lttng/snapshot.h /usr/include/lttng/version.h.tmpl /usr/lib/liblttng-ctl.so /usr/lib/pkgconfig/lttng-ctl.pc

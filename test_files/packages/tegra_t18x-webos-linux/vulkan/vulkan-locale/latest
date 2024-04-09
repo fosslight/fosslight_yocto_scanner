@@ -1,0 +1,9 @@
+PV = 1.1.73.0
+PR = r0
+PKG = libvulkan-locale
+RPROVIDES = vulkan-locale (=1.1.73.0)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

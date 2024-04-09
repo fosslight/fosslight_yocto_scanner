@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = da-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-da
+PKGSIZE = 57405
+FILES = /usr/share/locale/da
+FILELIST = /usr/share/locale/da/LC_MESSAGES/tar.mo

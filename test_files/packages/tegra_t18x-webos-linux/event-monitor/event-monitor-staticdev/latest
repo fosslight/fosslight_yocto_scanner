@@ -1,0 +1,8 @@
+PV = 1.1.0-5
+PR = r2
+RPROVIDES = 
+RDEPENDS = event-monitor-dev (= 1.1.0-5-r2)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/event-monitor/*.a
+FILELIST = 

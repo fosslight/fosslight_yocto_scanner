@@ -1,0 +1,5 @@
+PV = 0.24.2
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native obexftp-native openobex pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = obexftp-dbg obexftp-staticdev obexftp-dev obexftp-doc obexftp-locale obexftp
+LAYER = openembedded-layer

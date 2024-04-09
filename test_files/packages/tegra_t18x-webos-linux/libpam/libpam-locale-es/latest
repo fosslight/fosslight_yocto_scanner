@@ -1,0 +1,8 @@
+PV = 1.3.0
+PR = r5
+RPROVIDES = es-translation libpam-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-es
+PKGSIZE = 12004
+FILES = /usr/share/locale/es
+FILELIST = /usr/share/locale/es/LC_MESSAGES/Linux-PAM.mo

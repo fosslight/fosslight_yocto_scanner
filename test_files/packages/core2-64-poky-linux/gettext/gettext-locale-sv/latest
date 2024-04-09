@@ -1,8 +1,0 @@
-PV = 0.20.1
-PR = r0
-RPROVIDES = gettext-locale sv-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-sv
-PKGSIZE = 120886
-FILES = /usr/share/locale/sv
-FILELIST = /usr/share/locale/sv/LC_MESSAGES/gettext-runtime.mo /usr/share/locale/sv/LC_MESSAGES/gettext-tools.mo

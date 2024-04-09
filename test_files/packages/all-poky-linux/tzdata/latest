@@ -1,5 +1,0 @@
-PV = 2020a
-PR = r0
-DEPENDS = tzcode-native
-PACKAGES = tzdata-src tzdata-core tzdata-misc tzdata-posix tzdata-right tzdata-africa tzdata-americas tzdata-antarctica tzdata-arctic tzdata-asia tzdata-atlantic tzdata-australia tzdata-europe tzdata-pacific tzdata
-LAYER = core

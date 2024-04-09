@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67832 ./usr/bin/hangul
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/maliit
+drwxr-xr-x root       root             4096 ./usr/lib/maliit/plugins
+-rwxr-xr-x root       root            67752 ./usr/lib/maliit/plugins/libhangul.so.1.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/maliit/plugins/libhangul.so.1 -> libhangul.so.1.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/maliit/plugins/libhangul.so -> libhangul.so.1.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/maliit/plugins/pkgconfig
+-rw-r--r-- root       root              219 ./usr/lib/maliit/plugins/pkgconfig/libhangul.pc
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/libhangul
+drwxr-xr-x root       root             4096 ./usr/share/libhangul/hanja
+-rw-r--r-- root       root          6451206 ./usr/share/libhangul/hanja/hanja.txt
+-rw-r--r-- root       root            10255 ./usr/share/libhangul/hanja/mssymbol.txt

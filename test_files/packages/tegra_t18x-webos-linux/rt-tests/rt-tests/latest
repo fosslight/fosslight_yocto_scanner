@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 754397
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rt-tests /usr/lib/rt-tests/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/src/backfire
+FILELIST = /usr/bin/cyclictest /usr/bin/hackbench /usr/bin/pi_stress /usr/bin/pip_stress /usr/bin/pmqtest /usr/bin/ptsematest /usr/bin/rt-migrate-test /usr/bin/sendme /usr/bin/signaltest /usr/bin/sigwaittest /usr/bin/svsematest /usr/src/backfire/Makefile /usr/src/backfire/backfire.c

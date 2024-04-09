@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-b
-RRECOMMENDS = 
-PKGSIZE = 4291
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/O.pm /usr/lib/perl5/5.30.2/x86_64-linux/O.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/O.pm

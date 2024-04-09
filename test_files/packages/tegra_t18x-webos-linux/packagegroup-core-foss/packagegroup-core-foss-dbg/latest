@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = alsa-state-dbg assimp-dbg bluez5-noinst-tools-dbg bluez5-obex-dbg bridge-utils-dbg cairo-dbg can-utils-dbg connman-client-dbg cryptsetup-dbg dhcp-client-dbg dhcp-server-dbg e2fsprogs-mke2fs-dbg e2fsprogs-resize2fs-dbg ethtool-dbg grep-dbg gstreamer1.0-dbg hostapd-dbg i2c-tools-dbg iperf3-dbg iw-dbg jpeg-dbg ldd-dbg libasound-module-pcm-pulse-dbg libasound-module-rate-samplerate-dbg libgomp-dbg libpcap-dbg libxkbcommon-dbg linuxptp-dbg lvm2-dbg mtd-utils-dbg obexftp-dbg openssl-misc-dbg perl-dbg pulseaudio-lib-alsa-util-dbg pulseaudio-misc-dbg pulseaudio-module-alsa-card-dbg pulseaudio-module-alsa-sink-dbg pulseaudio-module-alsa-source-dbg pulseaudio-module-detect-dbg pulseaudio-module-gconf-dbg pulseaudio-module-native-protocol-tcp-dbg pulseaudio-module-remap-sink-dbg pulseaudio-module-suspend-on-idle-dbg pulseaudio-server-dbg python-pip-dbg rt-tests-dbg sudo-dbg systemd-analyze-dbg usbutils-dbg vulkan-bin-dbg vulkan-dbg
+PKGSIZE = 0
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = 

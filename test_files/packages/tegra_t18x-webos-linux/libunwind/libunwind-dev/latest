@@ -1,0 +1,8 @@
+PV = 1.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = libunwind (= 1.2-r0)
+RRECOMMENDS = glibc-dev libgcc-dev liblzma-dev xz-dev
+PKGSIZE = 40259
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libunwind/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libunwind-aarch64.h /usr/include/libunwind-common.h /usr/include/libunwind-coredump.h /usr/include/libunwind-dynamic.h /usr/include/libunwind-ptrace.h /usr/include/libunwind.h /usr/include/unwind.h /usr/lib/libunwind-aarch64.so /usr/lib/libunwind-coredump.so /usr/lib/libunwind-generic.so /usr/lib/libunwind-ptrace.so /usr/lib/libunwind-setjmp.so /usr/lib/libunwind.so /usr/lib/pkgconfig/libunwind-coredump.pc /usr/lib/pkgconfig/libunwind-generic.pc /usr/lib/pkgconfig/libunwind-ptrace.pc /usr/lib/pkgconfig/libunwind-setjmp.pc /usr/lib/pkgconfig/libunwind.pc

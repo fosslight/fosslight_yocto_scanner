@@ -1,0 +1,8 @@
+PV = 1.0.0-43
+PR = r4
+RPROVIDES = 
+RDEPENDS = qt-features-webos (= 1.0.0-43-r4)
+RRECOMMENDS = qtbase-dev
+PKGSIZE = 29247
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qt-features-webos/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/mkspecs
+FILELIST = /usr/include/qweboskeyextension.h /usr/lib/mkspecs/features/webos-desktop.prf /usr/lib/mkspecs/features/webos-service.prf /usr/lib/mkspecs/features/webos-variables.prf /usr/lib/mkspecs/features/webos.prf

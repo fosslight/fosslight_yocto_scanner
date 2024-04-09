@@ -1,8 +1,0 @@
-PV = 2.35.1
-PR = r0
-RPROVIDES = fi-translation util-linux-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-fi
-PKGSIZE = 87704
-FILES = /usr/share/locale/fi
-FILELIST = /usr/share/locale/fi/LC_MESSAGES/util-linux.mo

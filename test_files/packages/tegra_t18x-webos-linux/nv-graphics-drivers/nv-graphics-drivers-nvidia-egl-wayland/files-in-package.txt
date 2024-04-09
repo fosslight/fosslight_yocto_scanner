@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxrwxr-x root       root            37936 ./usr/lib/libnvidia-egl-wayland.so.1.1.1
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/egl
+drwxr-xr-x root       root             4096 ./usr/share/egl/egl_external_platform.d
+-rw-r--r-- root       root              115 ./usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json

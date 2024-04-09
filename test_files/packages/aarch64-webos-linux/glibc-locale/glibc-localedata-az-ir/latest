@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-fa-ir
+RRECOMMENDS = 
+PKGSIZE = 9873
+FILES = /usr/share/i18n/locales/az_IR
+FILELIST = /usr/share/i18n/locales/az_IR

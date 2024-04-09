@@ -1,0 +1,9 @@
+PV = v2018.9
+PR = r0
+PKGR = r0webosupdater1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 67752
+FILES = /usr/lib/ostree/ostree-prepare-root
+FILELIST = /usr/lib/ostree/ostree-prepare-root

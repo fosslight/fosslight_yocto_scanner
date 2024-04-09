@@ -1,0 +1,8 @@
+PV = 1.0.0-115
+PR = r12
+RPROVIDES = 
+RDEPENDS = qml-webos-bridge (= 1.0.0-115-r12)
+RRECOMMENDS = glib-2.0-dev glibc-dev libstdc++-dev luna-service2-dev qml-webos-components-dev qtbase-dev qtdeclarative-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qml-webos-bridge/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

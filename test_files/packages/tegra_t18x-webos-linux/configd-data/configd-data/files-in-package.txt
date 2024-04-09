@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/configd
+drwxr-xr-x root       root             4096 ./etc/configd/layers
+drwxr-xr-x root       root             4096 ./etc/configd/layers/base
+-rw-r--r-- root       root               48 ./etc/configd/layers/base/com.webos.surfacemanager.json
+-rw-r--r-- root       root              869 ./etc/configd/layers.json

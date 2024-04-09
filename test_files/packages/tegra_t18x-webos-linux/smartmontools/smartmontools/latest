@@ -1,0 +1,8 @@
+PV = 6.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) mailx
+RRECOMMENDS = 
+PKGSIZE = 1590429
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/smartmontools /usr/lib/smartmontools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/smartd.service
+FILELIST = /etc/default/smartmontools /etc/smartd.conf /etc/smartd_warning.sh /lib/systemd/system/smartd.service /usr/sbin/smartctl /usr/sbin/smartd /usr/sbin/update-smart-drivedb /usr/share/smartmontools/drivedb.h

@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) glibc-gconv
+RRECOMMENDS = 
+PKGSIZE = 47072
+FILES = /usr/lib/gconv/libKSC.so
+FILELIST = /usr/lib/gconv/libKSC.so

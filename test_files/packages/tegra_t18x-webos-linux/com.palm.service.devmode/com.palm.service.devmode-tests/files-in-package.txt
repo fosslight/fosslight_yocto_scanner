@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/palm
+drwxr-xr-x root       root             4096 ./usr/palm/services
+drwxr-xr-x root       root             4096 ./usr/palm/services/com.palm.service.devmode
+drwxr-xr-x root       root             4096 ./usr/palm/services/com.palm.service.devmode/tests
+-rw-r--r-- root       root             2327 ./usr/palm/services/com.palm.service.devmode/tests/sanity.js
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/manifests.d
+-rw-r--r-- root       root              181 ./usr/share/luna-service2/manifests.d/com.palm.service.devmode-tests.manifest.json

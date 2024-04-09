@@ -1,0 +1,8 @@
+PV = 0.24.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = obexftp (= 0.24.2-r0)
+RRECOMMENDS = bluez5-dev glibc-dev openobex-dev
+PKGSIZE = 19801
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/obexftp/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/bfb/bfb.h /usr/include/bfb/bfb_io.h /usr/include/multicobex/multi_cobex.h /usr/include/obexftp/client.h /usr/include/obexftp/obexftp.h /usr/include/obexftp/object.h /usr/include/obexftp/uuid.h /usr/lib/libbfb.so /usr/lib/libmulticobex.so /usr/lib/libobexftp.so /usr/lib/pkgconfig/obexftp.pc

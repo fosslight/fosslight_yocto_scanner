@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/GLES2
+-rw-r--r-- root       root           216471 ./usr/include/GLES2/gl2ext.h
+-rw-r--r-- root       root            25767 ./usr/include/GLES2/gl2ext_nv.h
+-rw-r--r-- root       root            43972 ./usr/include/GLES2/gl2.h
+-rw-r--r-- root       root             1160 ./usr/include/GLES2/gl2platform.h
+drwxr-xr-x root       root             4096 ./usr/include/GLES3
+-rw-r--r-- root       root           107463 ./usr/include/GLES3/gl31.h
+-rw-r--r-- root       root            82648 ./usr/include/GLES3/gl3.h
+-rw-r--r-- root       root             1160 ./usr/include/GLES3/gl3platform.h
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rwxr-xr-x root       root              263 ./usr/share/pkgconfig/glesv2.pc

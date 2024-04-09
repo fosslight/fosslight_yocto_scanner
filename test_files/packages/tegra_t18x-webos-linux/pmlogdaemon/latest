@@ -1,0 +1,5 @@
+PV = 3.1.0-6
+PR = r9
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native libpbnjson librdx luna-service2 ninja-native pkgconfig-native pmloglib pmloglib-private virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc zlib
+PACKAGES = pmlogdaemon-dbg pmlogdaemon-staticdev pmlogdaemon-dev pmlogdaemon-doc pmlogdaemon-locale pmlogdaemon
+LAYER = meta-webos

@@ -1,8 +1,0 @@
-PV = 2.34
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) zlib (>= 1.2.11)
-RRECOMMENDS = 
-PKGSIZE = 1310600
-FILES = /usr/lib/libbfd-*.so.* /usr/lib/libbfd-*.so
-FILELIST = /usr/lib/libbfd-2.34.0.20200220.so

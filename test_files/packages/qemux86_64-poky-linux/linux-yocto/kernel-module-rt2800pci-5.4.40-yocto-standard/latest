@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-rt2800pci
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-eeprom-93cx6-5.4.40-yocto-standard kernel-module-rt2800lib-5.4.40-yocto-standard kernel-module-rt2800mmio-5.4.40-yocto-standard kernel-module-rt2x00lib-5.4.40-yocto-standard kernel-module-rt2x00mmio-5.4.40-yocto-standard kernel-module-rt2x00pci-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 21224
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2800pci.ko /etc/modules-load.d/rt2800pci.conf /etc/modprobe.d/rt2800pci.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2800pci.ko

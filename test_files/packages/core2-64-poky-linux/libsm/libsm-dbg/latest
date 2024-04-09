@@ -1,9 +1,0 @@
-PE = 1
-PV = 1.2.3
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg libice-dbg
-PKGSIZE = 144856
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libSM.so.6.0.1

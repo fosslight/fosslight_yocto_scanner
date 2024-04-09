@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            68120 ./usr/bin/EGLWLInputEventExample
+-rwxr-xr-x root       root            68016 ./usr/bin/EGLWLMockNavigation
+-rwxr-xr-x root       root            67752 ./usr/bin/layer-add-surfaces
+-rwxr-xr-x root       root           264608 ./usr/bin/LayerManagerControl
+-rwxr-xr-x root       root            67872 ./usr/bin/multi-touch-viewer
+-rwxr-xr-x root       root            67936 ./usr/bin/simple-ivi-share
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67800 ./usr/lib/libilmClient.so.1.13.0
+-rwxr-xr-x root       root            67680 ./usr/lib/libilmCommon.so.1.13.0
+-rwxr-xr-x root       root            68160 ./usr/lib/libilmControl.so.1.13.0
+-rwxr-xr-x root       root            67680 ./usr/lib/libilmInput.so.1.13.0
+-rwxr-xr-x root       root            67808 ./usr/lib/libivi-application.so.1.13.0
+drwxr-xr-x root       root             4096 ./usr/lib/weston
+-rwxr-xr-x root       root            67896 ./usr/lib/weston/ivi-controller.so
+-rwxr-xr-x root       root            67880 ./usr/lib/weston/ivi-input-controller.so

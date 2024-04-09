@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/vulkan
+drwxr-xr-x root       root             4096 ./etc/vulkan/icd.d
+-rw-rw-r-- 1000       1000              140 ./etc/vulkan/icd.d/nvidia_icd.json
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           330176 ./usr/lib/libvulkan.so.1.1.73
+lrwxrwxrwx root       root               19 ./usr/lib/libvulkan.so.1 -> libvulkan.so.1.1.73

@@ -1,0 +1,8 @@
+PV = git
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = fuse-dbg glibc-dbg libgcc-dbg libmtp-dbg libstdc++-dbg libusb1-dbg
+PKGSIZE = 3622524
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/simple-mtpfs /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-fuse.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-fuse.h /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-libmtp.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-libmtp.h /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-log.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-log.h /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-main.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-mtp-device.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-mtp-device.h /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-sha1.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-sha1.h /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-tmp-files-pool.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-tmp-files-pool.h /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-type-basic.h /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-type-dir.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-type-dir.h /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-type-file.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-type-file.h /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-type-tmp-file.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-type-tmp-file.h /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-util.cpp /usr/src/debug/simple-mtpfs/git-r0/git/src/simple-mtpfs-util.h

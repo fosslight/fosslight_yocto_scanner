@@ -1,0 +1,8 @@
+PV = 8.2.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = libgcc-dev
+PKGSIZE = 0
+FILES = /usr/lib/gcc/aarch64-webos-linux/8.2.0/include/quadmath* /usr/lib/libquadmath*.so /usr/lib/libquadmath.la
+FILELIST = 

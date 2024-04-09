@@ -1,8 +1,0 @@
-PV = 1.0.8
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 227189
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/blocksort.c /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/bzip2.c /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/bzip2recover.c /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/bzlib.c /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/bzlib.h /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/bzlib_private.h /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/compress.c /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/crctable.c /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/decompress.c /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/huffman.c /usr/src/debug/bzip2/1.0.8-r0/bzip2-1.0.8/randtable.c

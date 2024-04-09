@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           723440 ./usr/lib/libmaliit-plugins.so.0.99.0+20-92
+lrwxrwxrwx root       root               33 ./usr/lib/libmaliit-plugins.so.0.99 -> libmaliit-plugins.so.0.99.0+20-92
+lrwxrwxrwx root       root               33 ./usr/lib/libmaliit-plugins.so.0 -> libmaliit-plugins.so.0.99.0+20-92
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           133552 ./usr/sbin/MaliitServer

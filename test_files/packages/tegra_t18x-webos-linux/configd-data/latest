@@ -1,0 +1,5 @@
+PV = 1.0.0-1
+PR = r1
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = configd-data-dbg configd-data-staticdev configd-data-dev configd-data-doc configd-data-locale configd-data
+LAYER = meta-webos

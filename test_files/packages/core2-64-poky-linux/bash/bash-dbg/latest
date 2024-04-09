@@ -1,8 +1,0 @@
-PV = 5.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg ncurses-libtinfo-dbg
-PKGSIZE = 4417848
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /bin/.debug/bash.bash /usr/lib/bash/.debug/basename /usr/lib/bash/.debug/dirname /usr/lib/bash/.debug/fdflags /usr/lib/bash/.debug/finfo /usr/lib/bash/.debug/head /usr/lib/bash/.debug/id /usr/lib/bash/.debug/ln /usr/lib/bash/.debug/logname /usr/lib/bash/.debug/mkdir /usr/lib/bash/.debug/mypid /usr/lib/bash/.debug/pathchk /usr/lib/bash/.debug/print /usr/lib/bash/.debug/printenv /usr/lib/bash/.debug/push /usr/lib/bash/.debug/realpath /usr/lib/bash/.debug/rmdir /usr/lib/bash/.debug/seq /usr/lib/bash/.debug/setpgid /usr/lib/bash/.debug/sleep /usr/lib/bash/.debug/strftime /usr/lib/bash/.debug/sync /usr/lib/bash/.debug/tee /usr/lib/bash/.debug/truefalse /usr/lib/bash/.debug/tty /usr/lib/bash/.debug/uname /usr/lib/bash/.debug/unlink /usr/lib/bash/.debug/whoami /usr/lib/bash/ptest/tests/.debug/printenv /usr/lib/bash/ptest/tests/.debug/recho /usr/lib/bash/ptest/tests/.debug/xcase /usr/lib/bash/ptest/tests/.debug/zecho

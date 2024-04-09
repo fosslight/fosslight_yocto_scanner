@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = ko-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ko
+PKGSIZE = 64147
+FILES = /usr/share/locale/ko
+FILELIST = /usr/share/locale/ko/LC_MESSAGES/tar.mo

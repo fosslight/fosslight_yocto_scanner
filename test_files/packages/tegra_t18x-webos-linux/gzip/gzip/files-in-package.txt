@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./bin
+-rwxr-xr-x root       root             2345 ./bin/gunzip.gzip
+-rwxr-xr-x root       root           134264 ./bin/gzip.gzip
+-rwxr-xr-x root       root             2345 ./bin/uncompress
+-rwxr-xr-x root       root             1983 ./bin/zcat.gzip
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             6375 ./usr/bin/gzexe
+-rwxr-xr-x root       root             1677 ./usr/bin/zcmp
+-rwxr-xr-x root       root             5879 ./usr/bin/zdiff
+-rwxr-xr-x root       root               29 ./usr/bin/zegrep
+-rwxr-xr-x root       root               29 ./usr/bin/zfgrep
+-rwxr-xr-x root       root             2080 ./usr/bin/zforce
+-rwxr-xr-x root       root             7587 ./usr/bin/zgrep
+-rwxr-xr-x root       root             2205 ./usr/bin/zless
+-rwxr-xr-x root       root             1841 ./usr/bin/zmore
+-rwxr-xr-x root       root             4552 ./usr/bin/znew

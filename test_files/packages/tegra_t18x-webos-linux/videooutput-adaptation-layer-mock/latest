@@ -1,0 +1,5 @@
+PV = 1.0.0-3
+PR = r1
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native libpbnjson ninja-native pkgconfig-native pmloglib videooutput-adaptation-layer-api virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = videooutput-adaptation-layer-mock-ptest videooutput-adaptation-layer-mock-dbg videooutput-adaptation-layer-mock-staticdev videooutput-adaptation-layer-mock-dev videooutput-adaptation-layer-mock-doc videooutput-adaptation-layer-mock-locale videooutput-adaptation-layer-mock
+LAYER = meta-webos

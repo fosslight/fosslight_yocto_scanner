@@ -1,0 +1,8 @@
+PV = 7.1.0-2
+PR = r15
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libcrypto-dbg nyx-lib-dbg pmloglib-dbg
+PKGSIZE = 424161
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/nyx/modules/.debug/nyxDeviceInfoMain.module /usr/lib/nyx/modules/.debug/nyxDisplayMain.module /usr/lib/nyx/modules/.debug/nyxOSInfoMain.module /usr/lib/nyx/modules/.debug/nyxSecurity2Main.module /usr/lib/nyx/modules/.debug/nyxSecurityMain.module /usr/lib/nyx/modules/.debug/nyxSystemMain.module /usr/src/debug/nyx-modules/7.1.0-2-r15/build/Configured/src/os_info/os_info.c /usr/src/debug/nyx-modules/7.1.0-2-r15/build/Configured/src/security/security.h /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/device_info/device_info_generic.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/display/display.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security/aes.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security/keystore.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security/rsa.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security/security.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security/sha.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security2/3des.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security2/aes.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security2/hmac.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security2/rsa.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security2/security2.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/security2/security2.h /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/system/rtc.c /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/system/rtc.h /usr/src/debug/nyx-modules/7.1.0-2-r15/git/src/system/system.c

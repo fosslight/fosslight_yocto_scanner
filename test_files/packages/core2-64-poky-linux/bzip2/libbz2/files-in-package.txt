@@ -1,4 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
--rwxr-xr-x root       root            74656 ./usr/lib/libbz2.so.1.0.6
-lrwxrwxrwx root       root               15 ./usr/lib/libbz2.so.1 -> libbz2.so.1.0.6

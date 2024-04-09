@@ -1,0 +1,9 @@
+PE = 2
+PV = 2.10.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 67631
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/doc/lttng-ust/ChangeLog /usr/share/doc/lttng-ust/README.md /usr/share/doc/lttng-ust/java-agent.txt

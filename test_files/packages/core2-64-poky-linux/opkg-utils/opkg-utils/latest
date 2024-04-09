@@ -1,8 +1,0 @@
-PV = 0.4.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = bash python3 python3-compression python3-crypt python3-fcntl python3-io python3-logging python3-math python3-pickle python3-shell python3-stringold
-RRECOMMENDS = 
-PKGSIZE = 59151
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/opkg-utils /usr/lib/opkg-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/arfile.py /usr/bin/opkg-build /usr/bin/opkg-buildpackage /usr/bin/opkg-compare-indexes /usr/bin/opkg-diff /usr/bin/opkg-extract-file /usr/bin/opkg-list-fields /usr/bin/opkg-make-index /usr/bin/opkg-show-deps /usr/bin/opkg-unbuild /usr/bin/opkg.py

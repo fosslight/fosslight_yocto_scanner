@@ -1,0 +1,9 @@
+PV = 1.14.4
+PR = r0
+PKGR = r0webos1
+RPROVIDES = de-translation gstreamer1.0-plugins-base-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-de
+PKGSIZE = 18024
+FILES = /usr/share/locale/de
+FILELIST = /usr/share/locale/de/LC_MESSAGES/gst-plugins-base-1.0.mo

@@ -1,0 +1,8 @@
+PV = 1.25.10
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpulse (>= 9.0-13) libpulse-simple (>= 9.0-13)
+RRECOMMENDS = 
+PKGSIZE = 815229
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mpg123 /usr/lib/mpg123/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/mpg123 /usr/bin/mpg123-id3dump /usr/bin/mpg123-strip /usr/bin/out123 /usr/lib/libmpg123.so.0 /usr/lib/libmpg123.so.0.44.8 /usr/lib/libout123.so.0 /usr/lib/libout123.so.0.2.2 /usr/lib/mpg123/output_dummy.so /usr/lib/mpg123/output_pulse.so

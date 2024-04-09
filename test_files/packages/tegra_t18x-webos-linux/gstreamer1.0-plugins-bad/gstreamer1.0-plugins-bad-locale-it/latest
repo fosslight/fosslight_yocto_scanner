@@ -1,0 +1,9 @@
+PV = 1.14.4
+PR = r0
+PKGR = r0webos2
+RPROVIDES = gstreamer1.0-plugins-bad-locale it-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-it
+PKGSIZE = 3555
+FILES = /usr/share/locale/it
+FILELIST = /usr/share/locale/it/LC_MESSAGES/gst-plugins-bad-1.0.mo

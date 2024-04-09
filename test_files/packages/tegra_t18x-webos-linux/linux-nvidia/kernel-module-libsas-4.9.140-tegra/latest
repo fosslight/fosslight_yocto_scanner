@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-libsas
+RDEPENDS = kernel-4.9.140-tegra kernel-module-scsi-transport-sas-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 117376
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/scsi/libsas/libsas.ko /etc/modules-load.d/libsas.conf /etc/modprobe.d/libsas.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/scsi/libsas/libsas.ko

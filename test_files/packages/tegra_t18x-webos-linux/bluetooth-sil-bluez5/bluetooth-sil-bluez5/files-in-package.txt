@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/bluetooth-sils
+-rwxr-xr-x root       root          1182088 ./usr/lib/bluetooth-sils/bluez5.so

@@ -1,8 +1,0 @@
-PV = 1.0.8
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg libbz2-dbg
-PKGSIZE = 343840
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/bzip2.bzip2 /usr/bin/.debug/bzip2recover /usr/lib/.debug/libbz2.so.1.0.6

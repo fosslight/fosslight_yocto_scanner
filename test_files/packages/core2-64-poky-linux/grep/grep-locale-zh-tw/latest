@@ -1,8 +1,0 @@
-PV = 3.4
-PR = r0
-RPROVIDES = grep-locale zh-tw-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-zh-tw
-PKGSIZE = 13500
-FILES = /usr/share/locale/zh_TW
-FILELIST = /usr/share/locale/zh_TW/LC_MESSAGES/grep.mo

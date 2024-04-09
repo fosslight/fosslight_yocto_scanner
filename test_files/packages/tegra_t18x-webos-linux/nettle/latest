@@ -1,0 +1,5 @@
+PV = 3.4
+PR = r0
+DEPENDS = autoconf-native automake-native gmp gnu-config-native icecc-create-env-native libtool-cross libtool-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = nettle-ptest nettle-dbg nettle-staticdev nettle-dev nettle-doc nettle-locale nettle
+LAYER = core

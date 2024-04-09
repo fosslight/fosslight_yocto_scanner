@@ -1,0 +1,5 @@
+PV = 2.9.1
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc zlib
+PACKAGES = freetype-dbg freetype-staticdev freetype-dev freetype-doc freetype-locale freetype
+LAYER = core

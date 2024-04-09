@@ -1,8 +1,0 @@
-PV = 1.15
-PR = r0
-RPROVIDES = 
-RDEPENDS = shared-mime-info (= 1.15-r0)
-RRECOMMENDS = glib-2.0-dev glibc-dev libxml2-dev
-PKGSIZE = 120
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/shared-mime-info/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/pkgconfig/shared-mime-info.pc
-FILELIST = /usr/share/pkgconfig/shared-mime-info.pc

@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = ky-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ky
+PKGSIZE = 55118
+FILES = /usr/share/locale/ky
+FILELIST = /usr/share/locale/ky/LC_MESSAGES/tar.mo

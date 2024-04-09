@@ -1,0 +1,5 @@
+PV = 1.0.0-43
+PR = r4
+DEPENDS = icecc-create-env-native qtbase qtbase-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = qt-features-webos-dbg qt-features-webos-staticdev qt-features-webos-dev qt-features-webos-doc qt-features-webos-locale qt-features-webos
+LAYER = meta-webos

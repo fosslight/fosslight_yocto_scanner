@@ -1,8 +1,0 @@
-PV = 3.4
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg libpcre-dbg
-PKGSIZE = 1174256
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /bin/.debug/grep.grep

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-exporter perl-module-ipc-open3 perl-module-strict
-RRECOMMENDS = 
-PKGSIZE = 4004
-FILES = /usr/lib/perl5/5.30.2/IPC/Open2.pm
-FILELIST = /usr/lib/perl5/5.30.2/IPC/Open2.pm

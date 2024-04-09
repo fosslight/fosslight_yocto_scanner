@@ -1,8 +1,0 @@
-PV = 1.15
-PR = r0
-RPROVIDES = kk-translation shared-mime-info-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-kk
-PKGSIZE = 50092
-FILES = /usr/share/locale/kk
-FILELIST = /usr/share/locale/kk/LC_MESSAGES/shared-mime-info.mo

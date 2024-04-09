@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            68000 ./usr/lib/liburcu-bp.so.6.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/liburcu-bp.so.6 -> liburcu-bp.so.6.0.0
+-rwxr-xr-x root       root            67816 ./usr/lib/liburcu-cds.so.6.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/liburcu-cds.so.6 -> liburcu-cds.so.6.0.0
+-rwxr-xr-x root       root            67680 ./usr/lib/liburcu-common.so.6.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/liburcu-common.so.6 -> liburcu-common.so.6.0.0
+-rwxr-xr-x root       root            68048 ./usr/lib/liburcu-mb.so.6.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/liburcu-mb.so.6 -> liburcu-mb.so.6.0.0
+-rwxr-xr-x root       root            68056 ./usr/lib/liburcu-qsbr.so.6.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/liburcu-qsbr.so.6 -> liburcu-qsbr.so.6.0.0
+-rwxr-xr-x root       root            68056 ./usr/lib/liburcu-signal.so.6.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/liburcu-signal.so.6 -> liburcu-signal.so.6.0.0
+-rwxr-xr-x root       root            68048 ./usr/lib/liburcu.so.6.0.0
+lrwxrwxrwx root       root               16 ./usr/lib/liburcu.so.6 -> liburcu.so.6.0.0

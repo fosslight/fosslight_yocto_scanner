@@ -1,0 +1,8 @@
+PV = 1.0.0-1
+PR = r1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 162298
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/settingsservice-conf /usr/lib/settingsservice-conf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/palm/countryGroupList.json /etc/palm/countryList.json /etc/palm/countryRegionList.json /etc/palm/defaultSettings.json /etc/palm/defaultTimeZone.json /etc/palm/description.bson /etc/palm/description.categorykeysmap.bson /etc/palm/description.categorykeysmap.json /etc/palm/description.json /etc/palm/description.map.bson /etc/palm/description.map.json /etc/palm/dimensionFormat.json /etc/palm/languageStyle.json /etc/palm/locale.json /etc/palm/settingsservice.conf

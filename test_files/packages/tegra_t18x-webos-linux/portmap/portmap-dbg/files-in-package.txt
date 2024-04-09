@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./sbin
+drwxr-xr-x root       root             4096 ./sbin/.debug
+-rwxr-xr-x root       root            17440 ./sbin/.debug/pmap_dump
+-rwxr-xr-x root       root            17104 ./sbin/.debug/pmap_set
+-rwxr-xr-x root       root            70176 ./sbin/.debug/portmap
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/portmap
+drwxr-xr-x root       root             4096 ./usr/src/debug/portmap/6.0-r9
+drwxr-xr-x root       root             4096 ./usr/src/debug/portmap/6.0-r9/portmap_6.0
+-rw-r--r-- root       root             4907 ./usr/src/debug/portmap/6.0-r9/portmap_6.0/from_local.c
+-rw-r--r-- root       root             8854 ./usr/src/debug/portmap/6.0-r9/portmap_6.0/pmap_check.c
+-rw-r--r-- root       root             1096 ./usr/src/debug/portmap/6.0-r9/portmap_6.0/pmap_check.h
+-rw-r--r-- root       root             1381 ./usr/src/debug/portmap/6.0-r9/portmap_6.0/pmap_dump.c
+-rw-r--r-- root       root             1432 ./usr/src/debug/portmap/6.0-r9/portmap_6.0/pmap_set.c
+-rw-r--r-- root       root            22557 ./usr/src/debug/portmap/6.0-r9/portmap_6.0/portmap.c

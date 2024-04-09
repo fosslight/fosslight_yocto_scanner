@@ -1,0 +1,9 @@
+PV = 2017.3.23
+PR = r0
+PKGR = r0webosupdater1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libntfs-3g (>= 2017.3.23)
+RRECOMMENDS = 
+PKGSIZE = 1080611
+FILES = /sbin/* /usr/bin/* /usr/sbin/*
+FILELIST = /sbin/mkfs.ntfs /sbin/mount.lowntfs-3g /usr/bin/lowntfs-3g /usr/bin/ntfscat /usr/bin/ntfscluster /usr/bin/ntfscmp /usr/bin/ntfsfix /usr/bin/ntfsinfo /usr/bin/ntfsls /usr/sbin/mkntfs /usr/sbin/ntfsclone /usr/sbin/ntfscp /usr/sbin/ntfslabel /usr/sbin/ntfsresize /usr/sbin/ntfsundelete

@@ -1,0 +1,11 @@
+PE = 1
+PV = 239
+PR = r0
+PKG = libnss-myhostname2
+PKGR = r0webos4
+RPROVIDES = libnss-myhostname (=239)
+RDEPENDS = glibc (>= 2.28) util-linux-libmount (>= 2.32.1)
+RRECOMMENDS = 
+PKGSIZE = 133536
+FILES = /lib/libnss_myhostname.so.2
+FILELIST = /lib/libnss_myhostname.so.2

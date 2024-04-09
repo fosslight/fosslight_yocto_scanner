@@ -1,6 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                   9 ./sysroot-providers/diffutils
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/lib
-drwxr-xr-x -          -                4096 ./usr/lib/diffutils
-drwxr-xr-x -          -                4096 ./usr/share

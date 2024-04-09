@@ -1,9 +1,0 @@
-PV = 2.10
-PR = r0
-PKG = liblzo2-2
-RPROVIDES = lzo (=2.10)
-RDEPENDS = glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 141216
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lzo /usr/lib/lzo/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/liblzo2.so.2 /usr/lib/liblzo2.so.2.0.0

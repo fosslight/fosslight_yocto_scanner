@@ -1,4 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root           386424 ./usr/lib/.debug/libXrandr.so.2.2.0

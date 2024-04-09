@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             5414 ./usr/include/snappy-c.h
+-rw-r--r-- root       root             9709 ./usr/include/snappy.h
+-rw-r--r-- root       root             7256 ./usr/include/snappy-sinksource.h
+-rw-r--r-- root       root             3252 ./usr/include/snappy-stubs-public.h
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/cmake
+drwxr-xr-x root       root             4096 ./usr/lib/cmake/Snappy
+-rw-r--r-- root       root               56 ./usr/lib/cmake/Snappy/SnappyConfig.cmake
+-rw-r--r-- root       root             1607 ./usr/lib/cmake/Snappy/SnappyConfigVersion.cmake
+-rw-r--r-- root       root             3609 ./usr/lib/cmake/Snappy/SnappyTargets.cmake
+-rw-r--r-- root       root              806 ./usr/lib/cmake/Snappy/SnappyTargets-noconfig.cmake
+lrwxrwxrwx root       root               14 ./usr/lib/libsnappy.so -> libsnappy.so.1

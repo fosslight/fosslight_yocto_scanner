@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root             1012 ./usr/lib/libbind9.la
+-rwxr-xr-x root       root              961 ./usr/lib/libdns.la
+-rwxr-xr-x root       root              928 ./usr/lib/libirs.la
+-rwxr-xr-x root       root              969 ./usr/lib/libisccc.la
+-rwxr-xr-x root       root              995 ./usr/lib/libisccfg.la
+-rwxr-xr-x root       root              941 ./usr/lib/libisc.la
+-rwxr-xr-x root       root              940 ./usr/lib/liblwres.la

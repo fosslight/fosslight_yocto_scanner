@@ -1,0 +1,5 @@
+PV = 1.8.0
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = gtest-dbg gtest-staticdev gtest-dev gtest-doc gtest-locale gtest
+LAYER = openembedded-layer

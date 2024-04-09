@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = fur-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fur
+PKGSIZE = 2623
+FILES = /usr/share/locale/fur
+FILELIST = /usr/share/locale/fur/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/fur/LC_MESSAGES/iso_3166.mo

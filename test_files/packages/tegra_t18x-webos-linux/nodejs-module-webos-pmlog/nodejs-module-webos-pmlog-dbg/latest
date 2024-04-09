@@ -1,0 +1,8 @@
+PV = 3.0.1-1
+PR = r6
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg pmloglib-dbg
+PKGSIZE = 598212
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/nodejs/.debug/pmloglib.node /usr/src/debug/nodejs-module-webos-pmlog/3.0.1-1-r6/git/src/pmloglib.cpp /usr/src/debug/nodejs-module-webos-pmlog/3.0.1-1-r6/git/src/pmloglib.js.h /usr/src/debug/nodejs-module-webos-pmlog/3.0.1-1-r6/node-v8.12.0/deps/v8/include/v8.h /usr/src/debug/nodejs-module-webos-pmlog/3.0.1-1-r6/node-v8.12.0/src/node.h

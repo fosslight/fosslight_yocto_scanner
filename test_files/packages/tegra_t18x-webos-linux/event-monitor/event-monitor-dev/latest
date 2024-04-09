@@ -1,0 +1,8 @@
+PV = 1.1.0-5
+PR = r2
+RPROVIDES = 
+RDEPENDS = event-monitor (= 1.1.0-5-r2)
+RRECOMMENDS = glib-2.0-dev glibc-dev libgcc-dev libpbnjson-dev libstdc++-dev libwebosi18n-dev luna-service2-dev pmloglib-dev
+PKGSIZE = 14885
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/event-monitor/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/event-monitor-api.h /usr/include/event-monitor-api/api.h /usr/include/event-monitor-api/error.hpp /usr/include/event-monitor-api/logging.h /usr/include/event-monitor-api/pluginbase.hpp

@@ -1,8 +1,0 @@
-PV = 4.8
-PR = r0
-RPROVIDES = sed-locale sr-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-sr
-PKGSIZE = 15905
-FILES = /usr/share/locale/sr
-FILELIST = /usr/share/locale/sr/LC_MESSAGES/sed.mo

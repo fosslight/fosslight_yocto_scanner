@@ -1,0 +1,5 @@
+PV = 2014.1
+PR = r1
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = gnome-desktop-testing-dbg gnome-desktop-testing-staticdev gnome-desktop-testing-dev gnome-desktop-testing-doc gnome-desktop-testing-locale gnome-desktop-testing
+LAYER = core

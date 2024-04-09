@@ -1,0 +1,10 @@
+PV = 0.175
+PR = r0
+PKG = libasm1
+PKGR = r0webos1
+RPROVIDES = libasm (=0.175)
+RDEPENDS = glibc (>= 2.28) libdw (>= 0.175) libelf (>= 0.175)
+RRECOMMENDS = 
+PKGSIZE = 67847
+FILES = /usr/lib/libasm-0.175.so /usr/lib/libasm.so.*
+FILELIST = /usr/lib/libasm-0.175.so /usr/lib/libasm.so.1

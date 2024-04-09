@@ -1,0 +1,8 @@
+PV = 2.0.5
+PR = r0
+RPROVIDES = fi-translation libidn2-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fi
+PKGSIZE = 1237
+FILES = /usr/share/locale/fi
+FILELIST = /usr/share/locale/fi/LC_MESSAGES/libidn2.mo

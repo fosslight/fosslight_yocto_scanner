@@ -1,0 +1,9 @@
+PV = 0.9.12
+PR = r0
+PKGR = r0webos3
+RPROVIDES = 
+RDEPENDS = mm-common (= 0.9.12-r0webos3)
+RRECOMMENDS = 
+PKGSIZE = 4838479
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mm-common/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mm-common /usr/lib/mm-common/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/share/appdata /usr/share/icons
+FILELIST = /usr/bin/mm-common-prepare /usr/share/aclocal/mm-ax_cxx_compile_stdcxx.m4 /usr/share/aclocal/mm-ax_cxx_compile_stdcxx_11.m4 /usr/share/aclocal/mm-common.m4 /usr/share/aclocal/mm-dietlib.m4 /usr/share/aclocal/mm-doc.m4 /usr/share/aclocal/mm-module.m4 /usr/share/aclocal/mm-pkg.m4 /usr/share/aclocal/mm-warnings.m4 /usr/share/mm-common/build/compile-binding.am /usr/share/mm-common/build/dist-changelog.am /usr/share/mm-common/build/doc-reference.am /usr/share/mm-common/build/generate-binding.am /usr/share/mm-common/doctags/libstdc++.tag /usr/share/mm-common/doctool/doc-install.pl /usr/share/mm-common/doctool/doc-postprocess.pl /usr/share/mm-common/doctool/doxygen-extra.css /usr/share/mm-common/doctool/doxygen.css /usr/share/mm-common/doctool/tagfile-to-devhelp2.xsl /usr/share/pkgconfig/mm-common-libstdc++.pc /usr/share/pkgconfig/mm-common-util.pc

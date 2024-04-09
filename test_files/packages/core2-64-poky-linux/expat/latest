@@ -1,5 +1,0 @@
-PV = 2.2.9
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = expat-src expat-dbg expat-staticdev expat-dev expat-doc expat-locale expat-bin expat
-LAYER = core

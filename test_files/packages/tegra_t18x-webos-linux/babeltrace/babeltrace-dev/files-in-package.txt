@@ -1,0 +1,41 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/babeltrace
+-rw-r--r-- root       root             1386 ./usr/include/babeltrace/babeltrace.h
+-rw-r--r-- root       root             1590 ./usr/include/babeltrace/clock-types.h
+-rw-r--r-- root       root             4195 ./usr/include/babeltrace/context.h
+drwxr-xr-x root       root             4096 ./usr/include/babeltrace/ctf
+-rw-r--r-- root       root             4187 ./usr/include/babeltrace/ctf/callbacks.h
+-rw-r--r-- root       root             9582 ./usr/include/babeltrace/ctf/events.h
+drwxr-xr-x root       root             4096 ./usr/include/babeltrace/ctf-ir
+-rw-r--r-- root       root             4495 ./usr/include/babeltrace/ctf-ir/clock.h
+-rw-r--r-- root       root             3171 ./usr/include/babeltrace/ctf-ir/event-class.h
+-rw-r--r-- root       root             3635 ./usr/include/babeltrace/ctf-ir/event.h
+-rw-r--r-- root       root             6700 ./usr/include/babeltrace/ctf-ir/fields.h
+-rw-r--r-- root       root            12866 ./usr/include/babeltrace/ctf-ir/field-types.h
+-rw-r--r-- root       root             3574 ./usr/include/babeltrace/ctf-ir/stream-class.h
+-rw-r--r-- root       root             2121 ./usr/include/babeltrace/ctf-ir/utils.h
+-rw-r--r-- root       root             4322 ./usr/include/babeltrace/ctf/iterator.h
+drwxr-xr-x root       root             4096 ./usr/include/babeltrace/ctf-writer
+-rw-r--r-- root       root             2239 ./usr/include/babeltrace/ctf-writer/clock.h
+-rw-r--r-- root       root             2281 ./usr/include/babeltrace/ctf-writer/event-fields.h
+-rw-r--r-- root       root             3054 ./usr/include/babeltrace/ctf-writer/event.h
+-rw-r--r-- root       root             2341 ./usr/include/babeltrace/ctf-writer/event-types.h
+-rw-r--r-- root       root             2839 ./usr/include/babeltrace/ctf-writer/stream-class.h
+-rw-r--r-- root       root             4447 ./usr/include/babeltrace/ctf-writer/stream.h
+-rw-r--r-- root       root             5440 ./usr/include/babeltrace/ctf-writer/writer.h
+-rw-r--r-- root       root             2209 ./usr/include/babeltrace/error.h
+-rw-r--r-- root       root             3022 ./usr/include/babeltrace/format.h
+-rw-r--r-- root       root             4045 ./usr/include/babeltrace/iterator.h
+-rw-r--r-- root       root             5034 ./usr/include/babeltrace/list.h
+-rw-r--r-- root       root             2689 ./usr/include/babeltrace/trace-handle.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               35 ./usr/lib/libbabeltrace-ctf-metadata.so -> libbabeltrace-ctf-metadata.so.1.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/libbabeltrace-ctf.so -> libbabeltrace-ctf.so.1.0.0
+lrwxrwxrwx root       root               31 ./usr/lib/libbabeltrace-ctf-text.so -> libbabeltrace-ctf-text.so.1.0.0
+lrwxrwxrwx root       root               28 ./usr/lib/libbabeltrace-dummy.so -> libbabeltrace-dummy.so.1.0.0
+lrwxrwxrwx root       root               33 ./usr/lib/libbabeltrace-lttng-live.so -> libbabeltrace-lttng-live.so.1.0.0
+lrwxrwxrwx root       root               22 ./usr/lib/libbabeltrace.so -> libbabeltrace.so.1.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              325 ./usr/lib/pkgconfig/babeltrace-ctf.pc
+-rw-r--r-- root       root              306 ./usr/lib/pkgconfig/babeltrace.pc

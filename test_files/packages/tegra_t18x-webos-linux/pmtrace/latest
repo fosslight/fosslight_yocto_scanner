@@ -1,0 +1,5 @@
+PV = 1.0.0-7
+PR = r10
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native libpbnjson lttng-ust lttng-ust ninja-native pkgconfig-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = pmtrace-dbg pmtrace-staticdev pmtrace-dev pmtrace-doc pmtrace-locale pmtrace
+LAYER = meta-webos

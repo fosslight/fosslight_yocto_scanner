@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67848 ./usr/bin/gdk-pixbuf-thumbnailer
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/thumbnailers
+-rw-r--r-- root       root              514 ./usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer

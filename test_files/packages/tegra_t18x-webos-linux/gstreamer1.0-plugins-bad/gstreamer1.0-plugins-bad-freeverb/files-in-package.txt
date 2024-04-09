@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/gstreamer-1.0
+-rwxr-xr-x root       root            67880 ./usr/lib/gstreamer-1.0/libgstfreeverb.so
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/gstreamer-1.0
+drwxr-xr-x root       root             4096 ./usr/share/gstreamer-1.0/presets
+-rw-r--r-- root       root              226 ./usr/share/gstreamer-1.0/presets/GstFreeverb.prs

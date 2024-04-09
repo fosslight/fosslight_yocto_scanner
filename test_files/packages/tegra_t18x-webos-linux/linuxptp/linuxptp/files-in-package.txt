@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67744 ./usr/bin/hwstamp_ctl
+-rwxr-xr-x root       root           139552 ./usr/bin/phc2sys
+-rwxr-xr-x root       root            78096 ./usr/bin/pmc
+-rwxr-xr-x root       root           139648 ./usr/bin/ptp4l

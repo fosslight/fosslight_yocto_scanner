@@ -1,0 +1,8 @@
+PV = 3.4.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = libarchive (= 3.4.0-r0)
+RRECOMMENDS = attr-dev bzip2-dev glibc-dev libbz2-dev liblzma-dev libxml2-dev lzo-dev update-alternatives-opkg-dev xz-dev zlib-dev
+PKGSIZE = 86358
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libarchive/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/archive.h /usr/include/archive_entry.h /usr/lib/libarchive.so /usr/lib/pkgconfig/libarchive.pc

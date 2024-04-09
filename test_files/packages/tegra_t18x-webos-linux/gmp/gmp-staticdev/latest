@@ -1,0 +1,9 @@
+PV = 6.1.2
+PR = r0
+PKG = libgmp-staticdev
+RPROVIDES = gmp-staticdev (=6.1.2)
+RDEPENDS = gmp-dev (= 6.1.2-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/gmp/*.a
+FILELIST = 

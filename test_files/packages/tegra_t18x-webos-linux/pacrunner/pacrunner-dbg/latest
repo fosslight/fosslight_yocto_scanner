@@ -1,0 +1,8 @@
+PV = 0.9
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = dbus-lib-dbg glib-2.0-dbg glibc-dbg
+PKGSIZE = 543259
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/sbin/.debug/pacrunner /usr/src/debug/pacrunner/0.9-r0/build/src/builtin.h /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/gdbus/client.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/gdbus/gdbus.h /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/gdbus/mainloop.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/gdbus/object.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/gdbus/polkit.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/gdbus/watch.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/client.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/download.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/download.h /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/js.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/js.h /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/log.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/log.h /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/main.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/manager.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/manual.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/pacrunner.h /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/plugin.c /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/plugin.h /usr/src/debug/pacrunner/0.9-r0/pacrunner-0.9/src/proxy.c

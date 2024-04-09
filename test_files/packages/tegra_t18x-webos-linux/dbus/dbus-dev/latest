@@ -1,0 +1,9 @@
+PV = 1.12.10
+PR = r0
+PKGR = r0webos5
+RPROVIDES = 
+RDEPENDS = dbus (= 1.12.10-r0webos5) dbus-lib (>= 1.12.10) glibc (>= 2.28)
+RRECOMMENDS = autoconf-archive-dev base-files-dev base-passwd-dev dbus-gpl-dev dbus-lib-dev dbus-test-ptest-dev expat-dev glibc-dev libsystemd-dev shadow-dev shadow-sysroot-dev systemd-dev
+PKGSIZE = 195029
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dbus/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/dbus-1.0/include /usr/lib/cmake/DBus1 /usr/bin/dbus-test-tool
+FILELIST = /usr/bin/dbus-test-tool /usr/include/dbus-1.0/dbus/dbus-address.h /usr/include/dbus-1.0/dbus/dbus-bus.h /usr/include/dbus-1.0/dbus/dbus-connection.h /usr/include/dbus-1.0/dbus/dbus-errors.h /usr/include/dbus-1.0/dbus/dbus-macros.h /usr/include/dbus-1.0/dbus/dbus-memory.h /usr/include/dbus-1.0/dbus/dbus-message.h /usr/include/dbus-1.0/dbus/dbus-misc.h /usr/include/dbus-1.0/dbus/dbus-pending-call.h /usr/include/dbus-1.0/dbus/dbus-protocol.h /usr/include/dbus-1.0/dbus/dbus-server.h /usr/include/dbus-1.0/dbus/dbus-shared.h /usr/include/dbus-1.0/dbus/dbus-signature.h /usr/include/dbus-1.0/dbus/dbus-syntax.h /usr/include/dbus-1.0/dbus/dbus-threads.h /usr/include/dbus-1.0/dbus/dbus-types.h /usr/include/dbus-1.0/dbus/dbus.h /usr/lib/cmake/DBus1/DBus1Config.cmake /usr/lib/cmake/DBus1/DBus1ConfigVersion.cmake /usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h /usr/lib/libdbus-1.so /usr/lib/pkgconfig/dbus-1.pc

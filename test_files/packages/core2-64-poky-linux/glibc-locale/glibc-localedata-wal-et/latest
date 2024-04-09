@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-am-et glibc-localedata-ti-et
-RRECOMMENDS = 
-PKGSIZE = 5360
-FILES = /usr/share/i18n/locales/wal_ET
-FILELIST = /usr/share/i18n/locales/wal_ET

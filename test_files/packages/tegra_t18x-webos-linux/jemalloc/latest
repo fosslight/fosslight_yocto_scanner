@@ -1,0 +1,5 @@
+PV = 0.20080828a-0webos9-1
+PR = r1
+DEPENDS = cmake-modules-webos-native cmake-native icecc-create-env-native ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = jemalloc-dbg jemalloc-staticdev jemalloc-dev jemalloc-doc jemalloc-locale jemalloc
+LAYER = meta-webos

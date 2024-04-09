@@ -1,0 +1,5 @@
+PV = 1.0.0-3
+PR = r2
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = webos-fontconfig-files-dbg webos-fontconfig-files-staticdev webos-fontconfig-files-dev webos-fontconfig-files-doc webos-fontconfig-files-locale webos-fontconfig-files
+LAYER = meta-webos

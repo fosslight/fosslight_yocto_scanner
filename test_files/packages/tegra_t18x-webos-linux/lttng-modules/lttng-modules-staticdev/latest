@@ -1,0 +1,8 @@
+PV = 2.10.9
+PR = r0
+RPROVIDES = 
+RDEPENDS = lttng-modules-dev (= 2.10.9-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/lttng-modules/*.a
+FILELIST = 

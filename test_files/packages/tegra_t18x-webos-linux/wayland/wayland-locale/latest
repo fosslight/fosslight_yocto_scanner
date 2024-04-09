@@ -1,0 +1,9 @@
+PV = 1.13.0
+PR = r0-lg1
+PKGR = r0-lg1webos2coconut4
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

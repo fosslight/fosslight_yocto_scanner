@@ -1,0 +1,2 @@
+# SRCREV = "${WEBOS_SRCREV}"
+SRCREV = "add9380f63bdc86c79aa25c9d9ad0582112cbf7a"

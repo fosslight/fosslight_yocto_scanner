@@ -1,8 +1,0 @@
-PV = 1.45.6
-PR = r0
-RPROVIDES = ca-translation e2fsprogs-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-ca
-PKGSIZE = 139267
-FILES = /usr/share/locale/ca
-FILELIST = /usr/share/locale/ca/LC_MESSAGES/e2fsprogs.mo

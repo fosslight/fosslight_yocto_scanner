@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-eqos-ape
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 27912
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/misc/eqos_ape/eqos_ape.ko /etc/modules-load.d/eqos_ape.conf /etc/modprobe.d/eqos_ape.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/misc/eqos_ape/eqos_ape.ko

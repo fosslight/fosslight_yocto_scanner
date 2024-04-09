@@ -1,0 +1,8 @@
+PV = 2.0.5
+PR = r0
+RPROVIDES = 
+RDEPENDS = libidn2 (= 2.0.5-r0)
+RRECOMMENDS = glibc-dev libunistring-dev
+PKGSIZE = 12191
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libidn2/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/idn2.h /usr/lib/libidn2.so /usr/lib/pkgconfig/libidn2.pc

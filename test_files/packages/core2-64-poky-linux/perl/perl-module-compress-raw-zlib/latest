@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-bytes perl-module-constant perl-module-dynaloader perl-module-exporter perl-module-strict perl-module-warnings perl-module-xsloader
-RRECOMMENDS = 
-PKGSIZE = 176352
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/Compress/Raw/Zlib/Zlib.so /usr/lib/perl5/5.30.2/x86_64-linux/Compress/Raw/Zlib.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Compress/Raw/Zlib.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/Compress/Raw/Zlib/Zlib.so

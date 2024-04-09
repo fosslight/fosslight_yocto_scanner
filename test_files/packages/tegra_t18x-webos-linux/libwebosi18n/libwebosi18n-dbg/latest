@@ -1,0 +1,8 @@
+PV = 1.0.1-2
+PR = r1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = boost-regex-dbg glibc-dbg libgcc-dbg libpbnjson-dbg libstdc++-dbg
+PKGSIZE = 3669955
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libwebosi18n.so.1.0.1 /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/headers/webosi18n/c/IString_C.h /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/headers/webosi18n/c/ResBundle_C.h /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/headers/webosi18n/c/StringMap_C.h /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/headers/webosi18n/c/WebOSLocale_C.h /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/headers/webosi18n/cxx/IString.h /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/headers/webosi18n/cxx/LocaleMatcher.h /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/headers/webosi18n/cxx/ResBundle.h /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/headers/webosi18n/cxx/WebOSLocale.h /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/src/IString.cpp /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/src/IString_C.cpp /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/src/LocaleMatcher.cpp /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/src/ResBundle.cpp /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/src/ResBundle_C.cpp /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/src/StringMap_C.c /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/src/WebOSLocale.cpp /usr/src/debug/libwebosi18n/1.0.1-2-r1/git/src/WebOSLocale_C.cpp

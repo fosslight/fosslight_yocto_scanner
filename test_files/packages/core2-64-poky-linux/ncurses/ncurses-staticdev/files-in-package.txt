@@ -1,4 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
--rw-r--r-- root       root           691834 ./usr/lib/libncurses++.a
--rw-r--r-- root       root           692906 ./usr/lib/libncurses++w.a

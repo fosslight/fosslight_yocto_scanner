@@ -1,0 +1,10 @@
+PV = 5.12.6+gitAUTOINC+f0b93f7a4b
+PR = r0
+PKGV = 5.12.6+git0+f0b93f7a4b
+PKGR = r0webos70lpdnvidia13-webos1webostegra2
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) perl
+RRECOMMENDS = 
+PKGSIZE = 5794251
+FILES = /usr/bin/*
+FILELIST = /usr/bin/fixqt4headers.pl /usr/bin/moc /usr/bin/qlalr /usr/bin/qmake /usr/bin/qt.conf /usr/bin/qvkgen /usr/bin/rcc /usr/bin/syncqt.pl

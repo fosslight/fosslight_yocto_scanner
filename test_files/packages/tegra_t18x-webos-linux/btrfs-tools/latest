@@ -1,0 +1,5 @@
+PV = 4.17.1
+PR = r0
+DEPENDS = acl attr autoconf-native automake-native e2fsprogs gnu-config-native icecc-create-env-native libtool-cross libtool-native lzo pkgconfig-native python3 python3-native python3-native python3-setuptools-native udev util-linux virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = btrfs-tools-dbg btrfs-tools-staticdev btrfs-tools-dev btrfs-tools-doc btrfs-tools-locale btrfs-tools
+LAYER = core

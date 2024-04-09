@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = psmisc-locale ru-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ru
+PKGSIZE = 15788
+FILES = /usr/share/locale/ru
+FILELIST = /usr/share/locale/ru/LC_MESSAGES/psmisc.mo

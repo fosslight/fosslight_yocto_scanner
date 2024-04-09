@@ -1,6 +1,0 @@
-PE = 1
-PV = 0.38.4
-PR = r0
-DEPENDS = meson-native ninja-native pkgconfig-native python3-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc zlib
-PACKAGES = pixman-src pixman-dbg pixman-staticdev pixman-dev pixman-doc pixman-locale pixman
-LAYER = core

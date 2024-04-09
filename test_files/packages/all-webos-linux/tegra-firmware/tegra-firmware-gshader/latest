@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 34812
+FILES = /lib/firmware/gp10b/gpu2cde.bin
+FILELIST = /lib/firmware/gp10b/gpu2cde.bin

@@ -1,0 +1,11 @@
+PV = 1.20+gitAUTOINC+a53934a3ae
+PR = r0
+PKG = libleveldb-staticdev
+PKGV = 1.20+git0+a53934a3ae
+PKGR = r0webos1
+RPROVIDES = leveldb-staticdev (=1.20+git0+a53934a3ae)
+RDEPENDS = leveldb-dev (= 1.20+git0+a53934a3ae-r0webos1)
+RRECOMMENDS = 
+PKGSIZE = 16411512
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/leveldb/*.a
+FILELIST = /usr/lib/libleveldb.a /usr/lib/libmemenv.a

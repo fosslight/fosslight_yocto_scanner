@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-switchtec
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 55072
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/ntb/hw/switchtec-kernel/switchtec.ko /etc/modules-load.d/switchtec.conf /etc/modprobe.d/switchtec.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/ntb/hw/switchtec-kernel/switchtec.ko

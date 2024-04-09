@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = packagegroup-bsp-tegra-fw (= 1.0-r0)
+RRECOMMENDS = tegra-firmware-bluetooth-dev tegra-firmware-fecs-dev tegra-firmware-gmicrocode-dev tegra-firmware-gpccs-dev tegra-firmware-gpmu-dev tegra-firmware-gshader-dev tegra-firmware-nvdec-dev tegra-firmware-nvenc-dev tegra-firmware-nvjpeg-dev tegra-firmware-pmu-dev tegra-firmware-prod-fuse-dev tegra-firmware-touch-dev tegra-firmware-vic-dev tegra-firmware-wifi-dev tegra-firmware-xusb-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-bsp-tegra-fw/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 
