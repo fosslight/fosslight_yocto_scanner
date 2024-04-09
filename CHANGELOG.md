@@ -1,5 +1,17 @@
 # Changelog
 
+## v3.1.27 (09/04/2024)
+## Changes
+## 🚀 Features
+
+- Add TLSH, SHA1 column at report @bjk7119 (#23)
+
+## 🐛 Hotfixes
+
+- Find installed packages in the latest files @soimkim (#24)
+
+---
+
 ## v3.1.26 (06/03/2024)
 ## Changes
 ## 🐛 Hotfixes
