@@ -41,6 +41,8 @@ class PackageItem(OssItem):
         self._yocto_package = []
         self.relative_path = ""
         self.additional_data = {}
+        self.pv = ""
+        self.pr = ""
 
     def __eq__(self, value):
         return self.spdx_id == value

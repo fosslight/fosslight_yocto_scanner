@@ -48,7 +48,7 @@ bom_pkg_data = {}  # Parsed from bom
 installed_packages_src = []  # SRC Sheet | BIN (Yocto) Sheet
 installed_packages_bin: List[PackageItem] = []  # BIN Sheet
 binary_list: List[FileItem] = []  # -a option result
-_nested_pkg_name = {}  # Package list created at build time
+nested_pkg_name = {}  # Package list created at build time
 like_licenses = ['mit-like license', 'bsd-like license']
 _map_license_from_yocto_to_scancode = {'proprietary-license': [const_other_proprietary_license],
                                        'gpl-3.0-plus': ['gplv3', 'gpl-3.0'],
@@ -84,13 +84,13 @@ def read_installed_pkg_file(installed_pkg_names_file):
                 pkg_name = line.strip()
                 pkg_item = PackageItem()
                 if pkg_name != "":
-                    pkg_item = update_package_name(pkg_item, pkg_name, _nested_pkg_name)
+                    pkg_item = update_package_name(pkg_item, pkg_name, nested_pkg_name)
                     if pkg_name in bom_pkg_data:
                         for key, value in bom_pkg_data[pkg_name].items():
-                            set_value_switch(pkg_item, key, value, _nested_pkg_name)
+                            set_value_switch(pkg_item, key, value, nested_pkg_name)
                     installed_packages_src.append(pkg_item)
     except Exception as ex:
-        logger.error(f"Read_installed_pkg_file: {ex}")
+        logger.error(f"Read {installed_pkg_names_file}: {ex}")
 
 
 def get_json_object(str_data):
@@ -205,35 +205,59 @@ def read_file(file_name_with_path, read_as_one_line=False):
     return read_success, read_line
 
 
-def find_latest_pkg_from_buildhistory(path_buildhistory):
-    global _nested_pkg_name
+def find_latest_pkg_from_buildhistory(path_buildhistory, installed_pkg_version):
+    global nested_pkg_name
     buildhistory_latest_pkg = {}  # Key :Recipe, Value: Recipe -- Parsed from buildhistory
-    _tmp_package_per_recipe_info = {}
-    _nested_pkg_name = {}
+    tmp_package_per_recipe_info = {}
+    nested_pkg_name = {}
+
+    success, installed_pkg_version_lines = read_file(installed_pkg_version)
 
     for root, dirs, files in os.walk(path_buildhistory):
         for file in files:
             if file == "latest":
                 dir_name, recipe_name = os.path.split(root)
                 read_sucess, lines = read_file(os.path.join(root, file))
-                for line in lines:
-                    if line.startswith("PACKAGES ="):
-                        line = line.replace("PACKAGES =", "").strip()
-                        for pkg_name in line.split():
-                            _tmp_package_per_recipe_info[pkg_name] = recipe_name
+                file_contents = '\n'.join(lines)
+                pv = ""
+                pr = ""
+                packages = ""
+                pkg = ""
+                try:
+                    match = re.search('PV(\s)*=(\s)*((\S)+)', file_contents) 
+                    if match:
+                        pv = match.group(3)
+                    match = re.search('PR(\s)*=(\s)*((\S)+)', file_contents) 
+                    if match:
+                        pr = match.group(3)
+                    match = re.search('PACKAGES(\s)*=(\s)*([^\n]+)', file_contents)
+                    if match:
+                        packages = match.group(3).strip()
+                        for pkg_name in packages.split():
+                            tmp_package_per_recipe_info[pkg_name] = recipe_name
                             if recipe_name in buildhistory_latest_pkg:
-                                buildhistory_latest_pkg[recipe_name] += " " + pkg_name
+                                buildhistory_latest_pkg[recipe_name] += f" {pkg_name}"
                             else:
                                 buildhistory_latest_pkg[recipe_name] = pkg_name
-                    if line.startswith("PKG ="):
-                        for pkg_name in line.split():
-                            _nested_pkg_name[pkg_name] = recipe_name
+                    match = re.search('PKG(\s)*=(\s)*([^\n]+)', file_contents)
+                    if match:
+                        pkg = match.group(3).strip()
+                        for pkg_name in pkg.split():
+                            re_pkg_name = re.escape(pkg_name)
+                            r = re.compile(f"^{re_pkg_name}-{pv}-{pr}")
+                            installed_pkg_verified = list(filter(r.match, installed_pkg_version_lines))
+                            if installed_pkg_verified:
+                                nested_pkg_name[pkg_name] = recipe_name
 
-    for pkg in _nested_pkg_name.keys():
-        pkg_to_find = _nested_pkg_name[pkg]
-        if pkg_to_find in _tmp_package_per_recipe_info:
-            recipe_name_found = _tmp_package_per_recipe_info[pkg_to_find]
-            buildhistory_latest_pkg[recipe_name_found] += " " + pkg
+                except Exception as ex:
+                    logger.debug(f"Failed to parsing latest:{root}")
+
+    for pkg in nested_pkg_name.keys():
+        pkg_to_find = nested_pkg_name[pkg]
+        if pkg_to_find in tmp_package_per_recipe_info:
+            recipe_found = tmp_package_per_recipe_info[pkg_to_find]
+            buildhistory_latest_pkg[recipe_found] += f" {pkg}"
+
     return buildhistory_latest_pkg
 
 
@@ -374,11 +398,11 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
                         pkg_items[0].source_name_or_path = file_rel_path
                     else:  # New Package
                         pkg_item = PackageItem()
-                        pkg_item = update_package_name(pkg_item, pkg_name, _nested_pkg_name)
+                        pkg_item = update_package_name(pkg_item, pkg_name, nested_pkg_name)
                         pkg_item.source_name_or_path = file_rel_path
                         if pkg_name != "" and pkg_name in bom_pkg_data:
                             for key, value in bom_pkg_data[pkg_name].items():
-                                set_value_switch(pkg_item, key, value, _nested_pkg_name)
+                                set_value_switch(pkg_item, key, value, nested_pkg_name)
                         else:
                             if pkg_name != "":
                                 pkg_item.oss_name = pkg_name
@@ -403,7 +427,7 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
     return success
 
 
-def check_required_files(bom, installed_pkgs, buildhistory_path):
+def check_required_files(bom, installed_pkgs, buildhistory_path, installed_pkgs_version):
     error_msg = ""
     if not os.path.isfile(bom):
         error_msg = "-b bom.json\n"
@@ -411,6 +435,8 @@ def check_required_files(bom, installed_pkgs, buildhistory_path):
         error_msg = "-i installed-package-names.txt\n"
     if not os.path.isdir(buildhistory_path) or buildhistory_path == "":
         error_msg = "-p path/to/buildhistory\n"
+    if not os.path.isfile(installed_pkgs_version):
+        error_msg = f"-ip installed-packages.txt\n"
 
     if error_msg != "":
         exit_with_error_msg("Check Arguments\n" + error_msg, os.EX_NOINPUT)
@@ -934,6 +960,7 @@ def main():
 
     bom_file = "bom.json"
     installed_pkgs = "installed-package-names.txt"
+    installed_pkgs_with_version = "installed-packages.txt"
     oss_pkg_yaml_file = ""
     buildhistory_path = ""
     bin_analysis_path = ""
@@ -950,6 +977,7 @@ def main():
     parser.add_argument('-h', '--help', action='store_true', required=False)
     parser.add_argument('-v', '--version', action='store_true', required=False)
     parser.add_argument('-i', '--istalled', type=str, required=False)
+    parser.add_argument('-ip', '--package', type=str, required=False)
     parser.add_argument('-y', '--yaml', type=str, required=False)
     parser.add_argument('-b', '--bom', type=str, required=False)
     parser.add_argument('-p', '--buildhistory', type=str, required=False)
@@ -970,6 +998,8 @@ def main():
         print_version(_PKG_NAME)
     if args.istalled:
         installed_pkgs = args.istalled
+    if args.package:
+        installed_pkgs_with_version = args.package
     if args.bom:
         bom_file = args.bom
     if args.yaml:
@@ -1016,10 +1046,10 @@ def main():
         logger.error(f"Format error. {msg}")
         sys.exit(1)
 
-    check_required_files(bom_file, installed_pkgs, buildhistory_path)
+    check_required_files(bom_file, installed_pkgs, buildhistory_path, installed_pkgs_with_version)
 
     # Parsing bom file for packages' data
-    read_bom_file(bom_file, find_latest_pkg_from_buildhistory(buildhistory_path))
+    read_bom_file(bom_file, find_latest_pkg_from_buildhistory(buildhistory_path, installed_pkgs_with_version))
 
     # Dependency Analysis - SRC Sheet or BIN(Android) Sheet
     read_installed_pkg_file(installed_pkgs)
@@ -1031,7 +1061,7 @@ def main():
     # Load oss-pkg-info.yaml
     if oss_pkg_yaml_file != "":
         installed_packages_src, installed_packages_bin = load_oss_pkg_info_yaml(oss_pkg_yaml_file, _print_bin_android,
-                                                                                installed_packages_src, installed_packages_bin, _nested_pkg_name)
+                                                                                installed_packages_src, installed_packages_bin, nested_pkg_name)
 
     # Declare License by OSC System's OSS DB only in case multi or dual licenses
     if _change_license_to_declared_license:
