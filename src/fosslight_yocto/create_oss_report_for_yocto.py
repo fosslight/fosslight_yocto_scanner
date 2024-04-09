@@ -210,6 +210,7 @@ def find_latest_pkg_from_buildhistory(path_buildhistory, installed_pkg_version):
     buildhistory_latest_pkg = {}  # Key :Recipe, Value: Recipe -- Parsed from buildhistory
     tmp_package_per_recipe_info = {}
     nested_pkg_name = {}
+    not_installed_pkg = {}
 
     success, installed_pkg_version_lines = read_file(installed_pkg_version)
 
@@ -248,9 +249,15 @@ def find_latest_pkg_from_buildhistory(path_buildhistory, installed_pkg_version):
                             installed_pkg_verified = list(filter(r.match, installed_pkg_version_lines))
                             if installed_pkg_verified:
                                 nested_pkg_name[pkg_name] = recipe_name
+                            else:
+                                not_installed_pkg[pkg_name] = recipe_name
+
 
                 except Exception as ex:
                     logger.debug(f"Failed to parsing latest:{root}")
+    for pkg in not_installed_pkg.keys():
+        if pkg not in nested_pkg_name:
+            nested_pkg_name[pkg] = not_installed_pkg[pkg]
 
     for pkg in nested_pkg_name.keys():
         pkg_to_find = nested_pkg_name[pkg]
