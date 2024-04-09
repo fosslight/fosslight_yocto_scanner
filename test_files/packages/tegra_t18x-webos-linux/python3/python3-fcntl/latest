@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpython3 (>= 3.5.6) python3-core
+RRECOMMENDS = 
+PKGSIZE = 71608
+FILES = /usr/lib/python3.5/lib-dynload/fcntl.*.so
+FILELIST = /usr/lib/python3.5/lib-dynload/fcntl.cpython-35m-aarch64-linux-gnu.so

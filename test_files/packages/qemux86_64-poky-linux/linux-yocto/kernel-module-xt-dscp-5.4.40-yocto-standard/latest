@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-xt-dscp
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-x-tables-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 12352
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/net/netfilter/xt_DSCP.ko /etc/modules-load.d/xt_DSCP.conf /etc/modprobe.d/xt_DSCP.conf /lib/modules/5.4.40-yocto-standard/kernel/net/netfilter/xt_dscp.ko /etc/modules-load.d/xt_dscp.conf /etc/modprobe.d/xt_dscp.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/net/netfilter/xt_DSCP.ko /lib/modules/5.4.40-yocto-standard/kernel/net/netfilter/xt_dscp.ko

@@ -1,0 +1,9 @@
+PV = 1.1.73.0
+PR = r0
+PKG = libvulkan1
+RPROVIDES = vulkan (=1.1.73.0)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 330335
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/vulkan /usr/lib/vulkan/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/vulkan/icd.d/nvidia_icd.json /usr/lib/libvulkan.so.1 /usr/lib/libvulkan.so.1.1.73

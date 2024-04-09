@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-snd-soc-tegra210-alt-amx
+RDEPENDS = kernel-4.9.140-tegra kernel-module-snd-soc-core-4.9.140-tegra kernel-module-snd-soc-tegra-alt-utils-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 52784
+FILES = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-alt/snd-soc-tegra210-alt-amx.ko /etc/modules-load.d/snd-soc-tegra210-alt-amx.conf /etc/modprobe.d/snd-soc-tegra210-alt-amx.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-alt/snd-soc-tegra210-alt-amx.ko

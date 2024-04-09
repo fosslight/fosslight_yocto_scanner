@@ -1,0 +1,9 @@
+PV = v2018.9
+PR = r0
+PKGR = r0webosupdater1
+RPROVIDES = 
+RDEPENDS = bash-completion
+RRECOMMENDS = 
+PKGSIZE = 41417
+FILES = /usr/share/bash-completion /etc/bash_completion.d
+FILELIST = /usr/share/bash-completion/completions/ostree

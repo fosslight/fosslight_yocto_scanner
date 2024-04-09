@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 1201141
-FILES = /usr/lib/locale/zh_SG.GBK
-FILELIST = /usr/lib/locale/zh_SG.GBK/LC_ADDRESS /usr/lib/locale/zh_SG.GBK/LC_COLLATE /usr/lib/locale/zh_SG.GBK/LC_CTYPE /usr/lib/locale/zh_SG.GBK/LC_IDENTIFICATION /usr/lib/locale/zh_SG.GBK/LC_MEASUREMENT /usr/lib/locale/zh_SG.GBK/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/zh_SG.GBK/LC_MONETARY /usr/lib/locale/zh_SG.GBK/LC_NAME /usr/lib/locale/zh_SG.GBK/LC_NUMERIC /usr/lib/locale/zh_SG.GBK/LC_PAPER /usr/lib/locale/zh_SG.GBK/LC_TELEPHONE /usr/lib/locale/zh_SG.GBK/LC_TIME

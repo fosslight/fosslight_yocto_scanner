@@ -1,0 +1,9 @@
+PV = 1.2.0
+PR = r0
+PKG = libspeex-bin
+RPROVIDES = speex-bin (=1.2.0)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = 

@@ -1,0 +1,8 @@
+PV = 1.1.0+git27ecc97192df1bf053a22b04463f2b51b8b8373e
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 50998
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/go-cli /usr/lib/go-cli/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/local/go/src/github.com/codegangsta/cli/*
+FILELIST = /usr/local/go/src/github.com/codegangsta/cli/LICENSE /usr/local/go/src/github.com/codegangsta/cli/README.md /usr/local/go/src/github.com/codegangsta/cli/app.go /usr/local/go/src/github.com/codegangsta/cli/app_test.go /usr/local/go/src/github.com/codegangsta/cli/autocomplete/bash_autocomplete /usr/local/go/src/github.com/codegangsta/cli/cli.go /usr/local/go/src/github.com/codegangsta/cli/cli_test.go /usr/local/go/src/github.com/codegangsta/cli/command.go /usr/local/go/src/github.com/codegangsta/cli/command_test.go /usr/local/go/src/github.com/codegangsta/cli/context.go /usr/local/go/src/github.com/codegangsta/cli/context_test.go /usr/local/go/src/github.com/codegangsta/cli/flag.go /usr/local/go/src/github.com/codegangsta/cli/flag_test.go /usr/local/go/src/github.com/codegangsta/cli/help.go /usr/local/go/src/github.com/codegangsta/cli/helpers_test.go

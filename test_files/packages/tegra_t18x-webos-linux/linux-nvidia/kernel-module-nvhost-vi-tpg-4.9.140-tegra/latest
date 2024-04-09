@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-nvhost-vi-tpg
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 12176
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/media/platform/tegra/tpg/nvhost-vi-tpg.ko /etc/modules-load.d/nvhost-vi-tpg.conf /etc/modprobe.d/nvhost-vi-tpg.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/media/platform/tegra/tpg/nvhost-vi-tpg.ko

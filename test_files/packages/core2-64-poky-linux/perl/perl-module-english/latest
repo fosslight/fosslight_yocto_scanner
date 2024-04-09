@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-exporter
-RRECOMMENDS = 
-PKGSIZE = 4761
-FILES = /usr/lib/perl5/5.30.2/English.pm
-FILELIST = /usr/lib/perl5/5.30.2/English.pm

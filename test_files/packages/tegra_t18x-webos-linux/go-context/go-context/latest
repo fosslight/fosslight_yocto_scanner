@@ -1,0 +1,8 @@
+PV = git
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 11097
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/go-context /usr/lib/go-context/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/local/go/src/github.com/gorilla/context/*
+FILELIST = /usr/local/go/src/github.com/gorilla/context/LICENSE /usr/local/go/src/github.com/gorilla/context/README.md /usr/local/go/src/github.com/gorilla/context/context.go /usr/local/go/src/github.com/gorilla/context/context_test.go /usr/local/go/src/github.com/gorilla/context/doc.go

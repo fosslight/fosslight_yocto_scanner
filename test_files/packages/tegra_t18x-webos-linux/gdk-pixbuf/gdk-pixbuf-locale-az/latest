@@ -1,0 +1,9 @@
+PV = 2.36.11
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-az
+RPROVIDES = az-translation gdk-pixbuf-locale gdk-pixbuf-locale-az (=2.36.11)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-az
+PKGSIZE = 15227
+FILES = /usr/share/locale/az
+FILELIST = /usr/share/locale/az/LC_MESSAGES/gdk-pixbuf.mo

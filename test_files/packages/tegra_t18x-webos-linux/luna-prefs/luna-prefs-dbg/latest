@@ -1,0 +1,8 @@
+PV = 3.0.0-3
+PR = r13
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg json-c-dbg libsqlite3-dbg luna-service2-dbg nyx-lib-dbg
+PKGSIZE = 455459
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/luna-prefs-service /usr/bin/.debug/lunaprop /usr/lib/.debug/libluna-prefs.so.3.0.0 /usr/src/debug/luna-prefs/3.0.0-3-r13/git/include/lunaprefs.h /usr/src/debug/luna-prefs/3.0.0-3-r13/git/libluna-prefs/lunaprefs.c /usr/src/debug/luna-prefs/3.0.0-3-r13/git/luna-prefs-service/accesschecker.c /usr/src/debug/luna-prefs/3.0.0-3-r13/git/luna-prefs-service/accesschecker.h /usr/src/debug/luna-prefs/3.0.0-3-r13/git/luna-prefs-service/database.c /usr/src/debug/luna-prefs/3.0.0-3-r13/git/luna-prefs-service/database.h /usr/src/debug/luna-prefs/3.0.0-3-r13/git/luna-prefs-service/main.c /usr/src/debug/luna-prefs/3.0.0-3-r13/git/luna-prop/main.c

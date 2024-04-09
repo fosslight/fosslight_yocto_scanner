@@ -1,0 +1,8 @@
+PV = 2.0.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = cryptsetup (= 2.0.4-r0)
+RRECOMMENDS = glibc-dev json-c-dev libcrypto-dev libdevmapper-dev libgcrypt-dev libssl-dev openssl-dev popt-dev util-linux-dev util-linux-libblkid-dev util-linux-libuuid-dev
+PKGSIZE = 61941
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/cryptsetup/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libcryptsetup.h /usr/lib/libcryptsetup.so /usr/lib/pkgconfig/libcryptsetup.pc

@@ -1,0 +1,9 @@
+PV = 1.10
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg sg3-utils-dbg
+PKGSIZE = 775662
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/sdparm /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/include/sg_cmds_basic.h /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/include/sg_cmds_mmc.h /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/include/sg_lib.h /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/include/sg_pr2serr.h /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/include/sg_unaligned.h /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/src/sdparm.c /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/src/sdparm.h /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/src/sdparm_access.c /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/src/sdparm_cmd.c /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/src/sdparm_data.c /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/src/sdparm_data_vendor.c /usr/src/debug/sdparm/1.10-r0/sdparm-1.10/src/sdparm_vpd.c

@@ -1,0 +1,9 @@
+PV = 2.6.0+gitAUTOINC+28602af35a
+PR = r0
+PKGV = 2.6.0+git0+28602af35a
+RPROVIDES = 
+RDEPENDS = go-distribution-dev (= 2.6.0+git0+28602af35a-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/go-distribution/*.a
+FILELIST = 

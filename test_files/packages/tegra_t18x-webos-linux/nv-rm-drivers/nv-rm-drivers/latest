@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 1011472
+FILES = /usr/lib/libnvdc.so /usr/lib/libnvddk_2d_v2.so /usr/lib/libnvddk_vic.so /usr/lib/libnvidia-rmapi-tegra.so.418.00 /usr/lib/libnvimp.so /usr/lib/libnvos.so /usr/lib/libnvrm.so /usr/lib/libnvrm_gpu.so /usr/lib/libnvrm_graphics.so /usr/lib/libnvrm_interop_gpu.so /usr/lib/libnvscrncapt.so /usr/lib/libnvtegrahv.so
+FILELIST = /usr/lib/libnvdc.so /usr/lib/libnvddk_2d_v2.so /usr/lib/libnvddk_vic.so /usr/lib/libnvidia-rmapi-tegra.so.418.00 /usr/lib/libnvimp.so /usr/lib/libnvos.so /usr/lib/libnvrm.so /usr/lib/libnvrm_gpu.so /usr/lib/libnvrm_graphics.so /usr/lib/libnvrm_interop_gpu.so /usr/lib/libnvscrncapt.so /usr/lib/libnvtegrahv.so

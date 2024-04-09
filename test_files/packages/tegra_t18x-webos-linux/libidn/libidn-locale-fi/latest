@@ -1,0 +1,8 @@
+PV = 1.35
+PR = r0
+RPROVIDES = fi-translation libidn-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fi
+PKGSIZE = 8946
+FILES = /usr/share/locale/fi
+FILELIST = /usr/share/locale/fi/LC_MESSAGES/libidn.mo

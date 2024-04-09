@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = alsa-state assimp bluez5-noinst-tools bluez5-obex bridge-utils cairo can-utils connman-client cryptsetup dhcp-client dhcp-server e2fsprogs-mke2fs e2fsprogs-resize2fs ethtool grep gstreamer1.0 hostapd i2c-tools iperf3 iw jpeg ldd libasound-module-pcm-pulse libasound-module-rate-samplerate libgomp libpcap libxkbcommon linuxptp lvm2 mtd-utils obexftp openssl-misc perl pulseaudio-lib-alsa-util pulseaudio-misc pulseaudio-module-alsa-card pulseaudio-module-alsa-sink pulseaudio-module-alsa-source pulseaudio-module-detect pulseaudio-module-gconf pulseaudio-module-native-protocol-tcp pulseaudio-module-remap-sink pulseaudio-module-suspend-on-idle pulseaudio-server python-pip rt-tests sudo systemd-analyze usbutils vulkan vulkan-bin
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/packagegroup-core-foss /usr/lib/packagegroup-core-foss/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = 

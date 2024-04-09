@@ -1,0 +1,8 @@
+PV = 5.24.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl
+RRECOMMENDS = 
+PKGSIZE = 31615
+FILES = /usr/lib/perl/5.24.4/utf8_heavy.pl
+FILELIST = /usr/lib/perl/5.24.4/utf8_heavy.pl

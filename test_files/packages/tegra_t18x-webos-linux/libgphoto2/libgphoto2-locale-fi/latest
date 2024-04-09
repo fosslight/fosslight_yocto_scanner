@@ -1,0 +1,9 @@
+PV = 2.5.17
+PR = r0
+PKGR = r0webos1
+RPROVIDES = fi-translation libgphoto2-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fi
+PKGSIZE = 8163
+FILES = /usr/share/locale/fi
+FILELIST = /usr/share/locale/fi/LC_MESSAGES/libgphoto2_port-12.mo

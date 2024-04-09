@@ -1,0 +1,9 @@
+PV = 2.0.0-314
+PR = r46
+PKGR = r46webostegra2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 8179
+FILES = /etc/surface-manager.d/ /usr/share/luna-service2/roles.d /usr/share/luna-service2/services.d /usr/share/luna-service2/client-permissions.d /usr/share/luna-service2/api-permissions.d /usr/share/luna-service2/groups.d /usr/share/luna-service2/manifests.d
+FILELIST = /etc/surface-manager.d/product.env /usr/share/luna-service2/api-permissions.d/com.webos.surfacemanager.api.json /usr/share/luna-service2/client-permissions.d/com.webos.surfacemanager.perm.json /usr/share/luna-service2/groups.d/com.webos.surfacemanager.group.json /usr/share/luna-service2/manifests.d/luna-surfacemanager.manifest.json /usr/share/luna-service2/roles.d/com.webos.surfacemanager.role.json /usr/share/luna-service2/services.d/com.webos.surfacemanager.service

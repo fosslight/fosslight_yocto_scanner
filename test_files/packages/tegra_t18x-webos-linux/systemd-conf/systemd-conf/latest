@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 5499
+FILES = /etc/machine-id /etc/systemd
+FILELIST = /etc/machine-id /etc/systemd/coredump.conf /etc/systemd/journald.conf /etc/systemd/logind.conf /etc/systemd/system.conf /etc/systemd/user.conf

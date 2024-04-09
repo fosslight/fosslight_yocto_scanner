@@ -1,0 +1,8 @@
+PV = 2.1.0
+PR = r5
+RPROVIDES = 
+RDEPENDS = libsysfs sysfsutils (= 2.1.0-r5)
+RRECOMMENDS = glibc-dev libsysfs-dev
+PKGSIZE = 16307
+FILES = /usr/include /lib/lib*.so /lib/lib*.so /lib/*.la /lib/*.o /lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /lib/sysfsutils/*.la /lib/*.la /lib/cmake /usr/share/cmake
+FILELIST = /lib/libsysfs.so /usr/include/sysfs/dlist.h /usr/include/sysfs/libsysfs.h

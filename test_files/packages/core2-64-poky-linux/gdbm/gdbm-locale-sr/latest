@@ -1,9 +1,0 @@
-PV = 1.18.1
-PR = r0
-PKG = libgdbm-locale-sr
-RPROVIDES = gdbm-locale gdbm-locale-sr (=1.18.1) sr-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-sr
-PKGSIZE = 19331
-FILES = /usr/share/locale/sr
-FILELIST = /usr/share/locale/sr/LC_MESSAGES/gdbm.mo

@@ -1,0 +1,8 @@
+PV = 1.0.0-7
+PR = r4.1
+RPROVIDES = 
+RDEPENDS = bareapp (= 1.0.0-7-r4.1)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bareapp/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

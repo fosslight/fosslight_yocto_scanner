@@ -1,0 +1,8 @@
+PV = 1.8.22
+PR = r0
+RPROVIDES = nb-translation sudo-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-nb
+PKGSIZE = 63066
+FILES = /usr/share/locale/nb
+FILELIST = /usr/share/locale/nb/LC_MESSAGES/sudo.mo /usr/share/locale/nb/LC_MESSAGES/sudoers.mo

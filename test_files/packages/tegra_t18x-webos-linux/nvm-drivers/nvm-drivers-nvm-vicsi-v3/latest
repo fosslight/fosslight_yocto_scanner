@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) nv-rm-drivers (>= 1.0)
+RRECOMMENDS = 
+PKGSIZE = 87168
+FILES = /usr/lib/libnvm_vicsi_v3.so
+FILELIST = /usr/lib/libnvm_vicsi_v3.so

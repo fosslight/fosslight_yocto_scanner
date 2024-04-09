@@ -1,0 +1,10 @@
+PV = 1.1.7
+PR = r0
+PKG = libsnappy-locale
+PKGR = r0webos1
+RPROVIDES = snappy-locale (=1.1.7)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

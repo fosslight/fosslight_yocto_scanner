@@ -1,6 +1,0 @@
-drwxr-xr-x root       root             4096 ./etc
-drwxr-xr-x root       root             4096 ./etc/init.d
--rwxr-xr-x root       root               25 ./etc/init.d/run-postinsts
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/sbin
--rwxr-xr-x root       root             1986 ./usr/sbin/run-postinsts

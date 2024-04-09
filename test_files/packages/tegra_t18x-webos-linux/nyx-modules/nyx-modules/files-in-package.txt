@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/nyx
+drwxr-xr-x root       root             4096 ./usr/lib/nyx/modules
+-rwxr-xr-x root       root            67680 ./usr/lib/nyx/modules/nyxDeviceInfoMain.module
+-rwxr-xr-x root       root            67680 ./usr/lib/nyx/modules/nyxDisplayMain.module
+-rwxr-xr-x root       root            67680 ./usr/lib/nyx/modules/nyxOSInfoMain.module
+-rwxr-xr-x root       root            67912 ./usr/lib/nyx/modules/nyxSecurity2Main.module
+-rwxr-xr-x root       root            67864 ./usr/lib/nyx/modules/nyxSecurityMain.module
+-rwxr-xr-x root       root            67688 ./usr/lib/nyx/modules/nyxSystemMain.module

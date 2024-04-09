@@ -1,0 +1,8 @@
+PV = 2.0.1-3
+PR = r17
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 165243
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/luna-init /usr/lib/luna-init/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/palm /etc/palm
+FILELIST = /etc/palm/defaultPreferences.txt /etc/palm/locale.txt /etc/palm/region.json /usr/palm/apollo/defaultPreferences.txt /usr/palm/command-resource-handlers.json /usr/palm/default-dock-positions.json /usr/palm/defaultPreferences.txt /usr/palm/ext-timezones.json /usr/palm/locale.txt /usr/palm/signage/defaultPreferences.txt

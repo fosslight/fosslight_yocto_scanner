@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = tegra-firmware-bluetooth-dbg tegra-firmware-fecs-dbg tegra-firmware-gmicrocode-dbg tegra-firmware-gpccs-dbg tegra-firmware-gpmu-dbg tegra-firmware-gshader-dbg tegra-firmware-nvdec-dbg tegra-firmware-nvenc-dbg tegra-firmware-nvjpeg-dbg tegra-firmware-pmu-dbg tegra-firmware-prod-fuse-dbg tegra-firmware-touch-dbg tegra-firmware-vic-dbg tegra-firmware-wifi-dbg tegra-firmware-xusb-dbg
+PKGSIZE = 0
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = 

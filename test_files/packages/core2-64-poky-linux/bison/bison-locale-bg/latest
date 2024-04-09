@@ -1,8 +1,0 @@
-PV = 3.5.4
-PR = r0
-RPROVIDES = bg-translation bison-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-bg
-PKGSIZE = 40619
-FILES = /usr/share/locale/bg
-FILELIST = /usr/share/locale/bg/LC_MESSAGES/bison-gnulib.mo /usr/share/locale/bg/LC_MESSAGES/bison-runtime.mo /usr/share/locale/bg/LC_MESSAGES/bison.mo

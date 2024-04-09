@@ -1,4 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/xtables
--rwxr-xr-x root       root            14440 ./usr/lib/xtables/libxt_NFLOG.so

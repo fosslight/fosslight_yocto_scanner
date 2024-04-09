@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/node_modules
+drwxr-xr-x root       root             4096 ./usr/lib/node_modules/webos-service
+drwxr-xr-x root       root             4096 ./usr/lib/node_modules/webos-service/lib
+-rw-r--r-- root       root             7461 ./usr/lib/node_modules/webos-service/lib/activitymanager.js
+-rw-r--r-- root       root             2546 ./usr/lib/node_modules/webos-service/lib/message.js
+-rw-r--r-- root       root              519 ./usr/lib/node_modules/webos-service/lib/method.js
+-rw-r--r-- root       root            12467 ./usr/lib/node_modules/webos-service/lib/service.js
+-rw-r--r-- root       root             1402 ./usr/lib/node_modules/webos-service/lib/subscription.js
+-rw-r--r-- root       root              481 ./usr/lib/node_modules/webos-service/package.json

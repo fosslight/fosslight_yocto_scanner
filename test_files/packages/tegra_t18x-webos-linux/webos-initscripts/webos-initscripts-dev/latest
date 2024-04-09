@@ -1,0 +1,9 @@
+PV = 3.0.0-43
+PR = r12
+PKGR = r12webosupdater1webostegra1
+RPROVIDES = 
+RDEPENDS = webos-initscripts (= 3.0.0-43-r12webosupdater1webostegra1)
+RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev libsystemd-dev rdxd-dev systemd-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/webos-initscripts/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

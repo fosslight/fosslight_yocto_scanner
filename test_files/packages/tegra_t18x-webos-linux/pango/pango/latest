@@ -1,0 +1,8 @@
+PV = 1.42.4
+PR = r0
+RPROVIDES = pango-module-arabic-lang pango-module-basic-fc pango-module-indic-lang pango-modules
+RDEPENDS = cairo (>= 1.14.12) fontconfig (>= 2.12.6) freetype (>= 2.9.1) fribidi (>= 1.0.5) glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) harfbuzz (>= 1.7.5)
+RRECOMMENDS = 
+PKGSIZE = 666632
+FILES = /usr/bin/* /usr/lib/libpango*.so.* /usr/lib/girepository-*/*.typelib
+FILELIST = /usr/bin/pango-list /usr/bin/pango-view /usr/lib/libpango-1.0.so.0 /usr/lib/libpango-1.0.so.0.4200.4 /usr/lib/libpangocairo-1.0.so.0 /usr/lib/libpangocairo-1.0.so.0.4200.4 /usr/lib/libpangoft2-1.0.so.0 /usr/lib/libpangoft2-1.0.so.0.4200.4

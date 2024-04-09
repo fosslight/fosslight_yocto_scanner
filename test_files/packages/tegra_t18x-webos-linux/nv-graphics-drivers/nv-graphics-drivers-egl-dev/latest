@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = libegl-mesa-dev
+RDEPENDS = 
+RRECOMMENDS = glibc-dev nv-rm-drivers-dev
+PKGSIZE = 97463
+FILES = /usr/share/pkgconfig/egl.pc /usr/include/EGL/egl.h /usr/include/EGL/eglext.h /usr/include/EGL/eglext_nv.h /usr/include/EGL/eglplatform.h
+FILELIST = /usr/include/EGL/egl.h /usr/include/EGL/eglext.h /usr/include/EGL/eglext_nv.h /usr/include/EGL/eglplatform.h /usr/share/pkgconfig/egl.pc

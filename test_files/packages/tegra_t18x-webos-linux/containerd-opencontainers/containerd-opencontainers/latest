@@ -1,0 +1,9 @@
+PV = v1.0.2+gitcfd04396dc68220d1cecbe686a6cc3aa5ce3667c
+PR = r0
+PKGR = r0webosvirt1
+RPROVIDES = containerd virtual
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = docker
+PKGSIZE = 45700748
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/containerd-opencontainers /usr/lib/containerd-opencontainers/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/*
+FILELIST = /lib/systemd/system/containerd.service /usr/bin/containerd /usr/bin/containerd-ctr /usr/bin/containerd-shim /usr/bin/docker-containerd /usr/bin/docker-containerd-ctr /usr/bin/docker-containerd-shim

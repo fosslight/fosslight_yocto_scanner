@@ -1,0 +1,9 @@
+PV = 1.2.0
+PR = r0
+PKG = libspeex-locale
+RPROVIDES = speex-locale (=1.2.0)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

@@ -1,0 +1,10 @@
+PV = 0.3.6
+PR = r0
+RPROVIDES = update-alternatives update-alternatives-cworth
+RDEPENDS = 
+RRECOMMENDS = 
+RREPLACES = update-alternatives-cworth
+RCONFLICTS = update-alternatives-cworth
+PKGSIZE = 4633
+FILES = /usr/bin/update-alternatives
+FILELIST = /usr/bin/update-alternatives

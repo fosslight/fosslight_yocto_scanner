@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r4
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 422738
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libptmalloc3.so /usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/malloc-2.8.3.h /usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/malloc-private.h /usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/malloc.c /usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/malloc_utils.c /usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/ptmalloc3.c /usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/sysdeps/pthread/malloc-machine.h

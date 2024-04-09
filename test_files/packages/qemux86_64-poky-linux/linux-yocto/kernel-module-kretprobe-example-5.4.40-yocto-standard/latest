@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-kretprobe-example
-RDEPENDS = kernel-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 6568
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/samples/kprobes/kretprobe_example.ko /etc/modules-load.d/kretprobe_example.conf /etc/modprobe.d/kretprobe_example.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/samples/kprobes/kretprobe_example.ko

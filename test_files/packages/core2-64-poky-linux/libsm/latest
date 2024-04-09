@@ -1,6 +1,0 @@
-PE = 1
-PV = 1.2.3
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libice libtool-cross libtool-native pkgconfig-native util-macros virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc xorgproto xtrans
-PACKAGES = libsm-src libsm-dbg libsm-staticdev libsm-dev libsm-doc libsm-locale libsm
-LAYER = core

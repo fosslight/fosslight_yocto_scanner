@@ -1,8 +1,0 @@
-PV = 3.7
-PR = r0
-RPROVIDES = bg-translation diffutils-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-bg
-PKGSIZE = 47696
-FILES = /usr/share/locale/bg
-FILELIST = /usr/share/locale/bg/LC_MESSAGES/diffutils.mo

@@ -1,0 +1,5 @@
+PV = 3.39
+PR = r0
+DEPENDS = icecc-create-env-native nspr nss-native sqlite3 virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc zlib
+PACKAGES = nss-smime nss-dbg nss-staticdev nss-dev nss-doc nss-locale nss
+LAYER = core

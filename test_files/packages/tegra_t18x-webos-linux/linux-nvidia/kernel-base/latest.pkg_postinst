@@ -1,0 +1,9 @@
+set -e
+	if [ ! -e "$D/lib/modules/4.9.140-tegra" ]; then
+		mkdir -p $D/lib/modules/4.9.140-tegra
+	fi
+	if [ -n "$D" ]; then
+		depmodwrapper -a -b $D 4.9.140-tegra
+	else
+		depmod -a 4.9.140-tegra
+	fi

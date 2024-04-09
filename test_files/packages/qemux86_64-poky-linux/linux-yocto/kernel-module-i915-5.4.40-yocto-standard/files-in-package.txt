@@ -1,9 +1,0 @@
-drwxr-xr-x root       root             4096 ./lib
-drwxr-xr-x root       root             4096 ./lib/modules
-drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard
-drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard/kernel
-drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard/kernel/drivers
-drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard/kernel/drivers/gpu
-drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard/kernel/drivers/gpu/drm
-drwxr-xr-x root       root             4096 ./lib/modules/5.4.40-yocto-standard/kernel/drivers/gpu/drm/i915
--rw-r--r-- root       root          2776592 ./lib/modules/5.4.40-yocto-standard/kernel/drivers/gpu/drm/i915/i915.ko

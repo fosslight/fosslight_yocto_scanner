@@ -1,0 +1,8 @@
+PV = 1.0.0-6
+PR = r1
+RPROVIDES = 
+RDEPENDS = bluetooth-sil-api (= 1.0.0-6-r1)
+RRECOMMENDS = glib-2.0-dev glibc-dev libgcc-dev libstdc++-dev
+PKGSIZE = 210779
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bluetooth-sil-api/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/bluetooth-sil-api.h /usr/include/bluetooth-sil-api/a2dp.h /usr/include/bluetooth-sil-api/adapter.h /usr/include/bluetooth-sil-api/avrcp.h /usr/include/bluetooth-sil-api/errors.h /usr/include/bluetooth-sil-api/ftp.h /usr/include/bluetooth-sil-api/gatt.h /usr/include/bluetooth-sil-api/hfp.h /usr/include/bluetooth-sil-api/hid.h /usr/include/bluetooth-sil-api/observer.h /usr/include/bluetooth-sil-api/opp.h /usr/include/bluetooth-sil-api/pairing.h /usr/include/bluetooth-sil-api/pan.h /usr/include/bluetooth-sil-api/pbap.h /usr/include/bluetooth-sil-api/profile.h /usr/include/bluetooth-sil-api/properties.h /usr/include/bluetooth-sil-api/spp.h /usr/include/bluetooth-sil-api/uuid.h /usr/share/pkgconfig/bluetooth-sil-api.pc

@@ -1,0 +1,9 @@
+PV = 1.13.0
+PR = r0-lg1
+PKGR = r0-lg1webos2coconut4
+RPROVIDES = 
+RDEPENDS = wayland-dev (= 1.13.0-r0-lg1webos2coconut4)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/wayland/*.a
+FILELIST = 

@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = psmisc-locale vi-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-vi
+PKGSIZE = 13639
+FILES = /usr/share/locale/vi
+FILELIST = /usr/share/locale/vi/LC_MESSAGES/psmisc.mo

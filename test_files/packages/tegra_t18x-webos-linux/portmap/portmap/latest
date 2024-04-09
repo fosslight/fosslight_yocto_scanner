@@ -1,0 +1,10 @@
+PV = 6.0
+PR = r9
+RPROVIDES = portmap-systemd
+RDEPENDS = glibc (>= 2.28) libtirpc (>= 1.1.4) libwrap (>= 7.6)
+RRECOMMENDS = 
+RREPLACES = portmap-systemd
+RCONFLICTS = portmap-systemd
+PKGSIZE = 68113
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/portmap /usr/lib/portmap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/portmap.service
+FILELIST = /lib/systemd/system/portmap.service /sbin/portmap

@@ -1,0 +1,9 @@
+PV = 1.3.99+gitAUTOINC+ff1837a569
+PR = r1
+PKGV = 1.3.99+git0+ff1837a569
+RPROVIDES = 
+RDEPENDS = com.example.service.iotivity (= 1.3.99+git0+ff1837a569-r1)
+RRECOMMENDS = boost-dev curl-dev expat-dev glib-2.0-dev iotivity-dev iotivity-resource-dev libpbnjson-dev luna-service2-dev openssl-dev sqlite3-dev util-linux-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/com.example.service.iotivity/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

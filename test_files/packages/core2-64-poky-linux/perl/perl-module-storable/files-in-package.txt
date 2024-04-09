@@ -1,9 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/perl5
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2
--r--r--r-- root       root            49780 ./usr/lib/perl5/5.30.2/Storable.pm
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Storable
--r-xr-xr-x root       root           104416 ./usr/lib/perl5/5.30.2/x86_64-linux/auto/Storable/Storable.so

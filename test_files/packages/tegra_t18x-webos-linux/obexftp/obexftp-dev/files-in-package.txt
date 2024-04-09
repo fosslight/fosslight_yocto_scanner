@@ -1,0 +1,18 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/bfb
+-rw-r--r-- root       root             3678 ./usr/include/bfb/bfb.h
+-rw-r--r-- root       root             1179 ./usr/include/bfb/bfb_io.h
+drwxr-xr-x root       root             4096 ./usr/include/multicobex
+-rw-r--r-- root       root             1439 ./usr/include/multicobex/multi_cobex.h
+drwxr-xr-x root       root             4096 ./usr/include/obexftp
+-rw-r--r-- root       root             6482 ./usr/include/obexftp/client.h
+-rw-r--r-- root       root             3127 ./usr/include/obexftp/obexftp.h
+-rw-r--r-- root       root             2229 ./usr/include/obexftp/object.h
+-rw-r--r-- root       root             1371 ./usr/include/obexftp/uuid.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               11 ./usr/lib/libbfb.so -> libbfb.so.1
+lrwxrwxrwx root       root               18 ./usr/lib/libmulticobex.so -> libmulticobex.so.1
+lrwxrwxrwx root       root               15 ./usr/lib/libobexftp.so -> libobexftp.so.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              252 ./usr/lib/pkgconfig/obexftp.pc

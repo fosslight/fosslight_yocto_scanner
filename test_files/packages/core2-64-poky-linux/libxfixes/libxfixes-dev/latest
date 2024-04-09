@@ -1,9 +1,0 @@
-PE = 1
-PV = 5.0.3
-PR = r0
-RPROVIDES = 
-RDEPENDS = libxfixes (= 1:5.0.3-r0)
-RRECOMMENDS = glibc-dev libx11-dev util-macros-dev xorgproto-dev
-PKGSIZE = 7842
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libxfixes/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/X11/extensions/Xfixes.h /usr/lib/libXfixes.so /usr/lib/pkgconfig/xfixes.pc

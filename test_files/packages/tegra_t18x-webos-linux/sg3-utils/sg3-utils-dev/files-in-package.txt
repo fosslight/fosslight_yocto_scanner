@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/scsi
+-rw-r--r-- root       root            12818 ./usr/include/scsi/sg_cmds_basic.h
+-rw-r--r-- root       root            17208 ./usr/include/scsi/sg_cmds_extra.h
+-rw-r--r-- root       root              847 ./usr/include/scsi/sg_cmds.h
+-rw-r--r-- root       root             2034 ./usr/include/scsi/sg_cmds_mmc.h
+-rw-r--r-- root       root             6575 ./usr/include/scsi/sg_io_linux.h
+-rw-r--r-- root       root             3610 ./usr/include/scsi/sg_lib_data.h
+-rw-r--r-- root       root            22757 ./usr/include/scsi/sg_lib.h
+-rw-r--r-- root       root             1976 ./usr/include/scsi/sg_linux_inc.h
+-rw-r--r-- root       root             6176 ./usr/include/scsi/sg_pt.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               20 ./usr/lib/libsgutils2.so -> libsgutils2.so.2.0.0

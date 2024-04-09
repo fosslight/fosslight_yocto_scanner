@@ -1,5 +1,0 @@
-PV = 5.4
-PR = r0
-DEPENDS = bison-native pkgconfig-native rsync-native unifdef-native
-PACKAGES = linux-libc-headers-src linux-libc-headers-dbg linux-libc-headers-staticdev linux-libc-headers-dev linux-libc-headers-doc linux-libc-headers-locale linux-libc-headers
-LAYER = core

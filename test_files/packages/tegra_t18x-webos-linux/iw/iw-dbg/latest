@@ -1,0 +1,8 @@
+PV = 4.14
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libnl-dbg libnl-genl-dbg
+PKGSIZE = 1369990
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/sbin/.debug/iw /usr/src/debug/iw/4.14-r0/build/version.c /usr/src/debug/iw/4.14-r0/iw-4.14/ap.c /usr/src/debug/iw/4.14-r0/iw-4.14/bitrate.c /usr/src/debug/iw/4.14-r0/iw-4.14/coalesce.c /usr/src/debug/iw/4.14-r0/iw-4.14/connect.c /usr/src/debug/iw/4.14-r0/iw-4.14/cqm.c /usr/src/debug/iw/4.14-r0/iw-4.14/event.c /usr/src/debug/iw/4.14-r0/iw-4.14/genl.c /usr/src/debug/iw/4.14-r0/iw-4.14/ibss.c /usr/src/debug/iw/4.14-r0/iw-4.14/ieee80211.h /usr/src/debug/iw/4.14-r0/iw-4.14/info.c /usr/src/debug/iw/4.14-r0/iw-4.14/interface.c /usr/src/debug/iw/4.14-r0/iw-4.14/iw.c /usr/src/debug/iw/4.14-r0/iw-4.14/iw.h /usr/src/debug/iw/4.14-r0/iw-4.14/link.c /usr/src/debug/iw/4.14-r0/iw-4.14/mesh.c /usr/src/debug/iw/4.14-r0/iw-4.14/mgmt.c /usr/src/debug/iw/4.14-r0/iw-4.14/mpath.c /usr/src/debug/iw/4.14-r0/iw-4.14/mpp.c /usr/src/debug/iw/4.14-r0/iw-4.14/nl80211.h /usr/src/debug/iw/4.14-r0/iw-4.14/ocb.c /usr/src/debug/iw/4.14-r0/iw-4.14/offch.c /usr/src/debug/iw/4.14-r0/iw-4.14/p2p.c /usr/src/debug/iw/4.14-r0/iw-4.14/phy.c /usr/src/debug/iw/4.14-r0/iw-4.14/ps.c /usr/src/debug/iw/4.14-r0/iw-4.14/reason.c /usr/src/debug/iw/4.14-r0/iw-4.14/reg.c /usr/src/debug/iw/4.14-r0/iw-4.14/roc.c /usr/src/debug/iw/4.14-r0/iw-4.14/scan.c /usr/src/debug/iw/4.14-r0/iw-4.14/sections.c /usr/src/debug/iw/4.14-r0/iw-4.14/station.c /usr/src/debug/iw/4.14-r0/iw-4.14/status.c /usr/src/debug/iw/4.14-r0/iw-4.14/survey.c /usr/src/debug/iw/4.14-r0/iw-4.14/util.c /usr/src/debug/iw/4.14-r0/iw-4.14/vendor.c /usr/src/debug/iw/4.14-r0/iw-4.14/wowlan.c

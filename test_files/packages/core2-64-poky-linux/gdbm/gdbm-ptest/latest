@@ -1,9 +1,0 @@
-PV = 1.18.1
-PR = r0
-PKG = libgdbm-ptest
-RPROVIDES = gdbm-ptest (=1.18.1)
-RDEPENDS = diffutils gdbm (>= 1.18.1) gdbm-bin gdbm-compat (>= 1.18.1) glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = ptest-runner
-PKGSIZE = 339689
-FILES = /usr/lib/gdbm/ptest
-FILELIST = /usr/lib/gdbm/ptest/run-ptest /usr/lib/gdbm/ptest/tests/closerr /usr/lib/gdbm/ptest/tests/d_creat_ce /usr/lib/gdbm/ptest/tests/dtdel /usr/lib/gdbm/ptest/tests/dtdump /usr/lib/gdbm/ptest/tests/dtfetch /usr/lib/gdbm/ptest/tests/dtload /usr/lib/gdbm/ptest/tests/fdop /usr/lib/gdbm/ptest/tests/g_open_ce /usr/lib/gdbm/ptest/tests/g_reorg_ce /usr/lib/gdbm/ptest/tests/gtdel /usr/lib/gdbm/ptest/tests/gtdump /usr/lib/gdbm/ptest/tests/gtfetch /usr/lib/gdbm/ptest/tests/gtload /usr/lib/gdbm/ptest/tests/gtopt /usr/lib/gdbm/ptest/tests/gtrecover /usr/lib/gdbm/ptest/tests/gtver /usr/lib/gdbm/ptest/tests/num2word /usr/lib/gdbm/ptest/tests/testsuite

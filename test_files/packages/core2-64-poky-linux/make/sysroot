@@ -1,7 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                   4 ./sysroot-providers/make
--rw-r--r-- -          -                   4 ./sysroot-providers/virtual_make
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/include
--rw-r--r-- -          -                2912 ./usr/include/gnumake.h
-drwxr-xr-x -          -                4096 ./usr/share

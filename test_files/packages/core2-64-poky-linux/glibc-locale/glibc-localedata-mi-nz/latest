@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-en-dk glibc-localedata-en-nz glibc-localedata-iso14651-t1
-RRECOMMENDS = 
-PKGSIZE = 4088
-FILES = /usr/share/i18n/locales/mi_NZ
-FILELIST = /usr/share/i18n/locales/mi_NZ

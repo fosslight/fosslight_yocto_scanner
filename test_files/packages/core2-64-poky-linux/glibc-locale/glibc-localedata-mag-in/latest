@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-hi-in
-RRECOMMENDS = 
-PKGSIZE = 5012
-FILES = /usr/share/i18n/locales/mag_IN
-FILELIST = /usr/share/i18n/locales/mag_IN

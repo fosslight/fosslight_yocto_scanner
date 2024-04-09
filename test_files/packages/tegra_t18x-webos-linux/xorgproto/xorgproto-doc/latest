@@ -1,0 +1,8 @@
+PV = 2018.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 296158
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/doc/xorgproto/PM_spec /usr/share/doc/xorgproto/compositeproto.txt /usr/share/doc/xorgproto/damageproto.txt /usr/share/doc/xorgproto/dri2proto.txt /usr/share/doc/xorgproto/dri3proto.txt /usr/share/doc/xorgproto/fixesproto.txt /usr/share/doc/xorgproto/presentproto.txt /usr/share/doc/xorgproto/randrproto.txt /usr/share/doc/xorgproto/renderproto.txt /usr/share/doc/xorgproto/resproto.txt /usr/share/doc/xorgproto/xv-protocol-v2.txt

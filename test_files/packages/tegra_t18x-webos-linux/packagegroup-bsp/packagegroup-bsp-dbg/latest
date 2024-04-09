@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = alsa-configs-dbg avtp-drivers-dbg cuda-drivers-dbg devmem2-dbg emc-log-dbg etc-modules-dbg etc-version-dbg kernel-modules-dbg mm-gst-drivers-dbg mnand-hs-dbg mnand-lifetime-dbg mnand-refresh-dbg nv-graphics-drivers-dbg nv-graphics-drivers-egl-dbg nv-graphics-drivers-glesv2-dbg nv-graphics-drivers-nvidia-egl-wayland-dbg nvidia-settings-weston-dbg nvm-drivers-nvcapture-dbg nvm-drivers-nvmedia-dbg nvtracebuf-dbg saf775x-tools-dbg shutdown-dbg stream-server-cross-plugins-dbg stream-server-dbg stream-server-extra-plugins-dbg tegra-bt-dbg tegra-touch-dbg tegrastats-dbg tos-storage-daemon-dbg virtualization-dspowerstate-dbg
+PKGSIZE = 0
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = 

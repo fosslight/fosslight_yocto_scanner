@@ -1,0 +1,9 @@
+PV = 1.0.1
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 57961
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /sbin/.debug/makedevs /usr/src/debug/makedevs/1.0.1-r0/makedevs.c

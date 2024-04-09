@@ -1,0 +1,9 @@
+PV = 232
+PR = r0
+PKG = libgudev-1.0-staticdev
+RPROVIDES = libgudev-staticdev (=232)
+RDEPENDS = libgudev-dev (= 232-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libgudev/*.a
+FILELIST = 

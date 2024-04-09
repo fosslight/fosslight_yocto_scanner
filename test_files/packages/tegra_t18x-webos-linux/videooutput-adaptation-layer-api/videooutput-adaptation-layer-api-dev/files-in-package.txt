@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/val
+-rw-r--r-- root       root             1231 ./usr/include/val/val_api.h
+-rw-r--r-- root       root              878 ./usr/include/val/val_common.h
+-rw-r--r-- root       root             1912 ./usr/include/val/val_settings.h
+-rw-r--r-- root       root             4258 ./usr/include/val/val_video.h
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rw-r--r-- root       root              835 ./usr/share/pkgconfig/videooutput-adaptation-layer-api.pc

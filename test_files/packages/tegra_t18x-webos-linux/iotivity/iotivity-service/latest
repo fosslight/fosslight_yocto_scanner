@@ -1,0 +1,9 @@
+PV = 1.3.99+gitAUTOINC+255060695e
+PR = r3
+PKGV = 1.3.99+git0+255060695e
+RPROVIDES = 
+RDEPENDS = boost-system (>= 1.68.0) boost-thread (>= 1.68.0) glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) iotivity-resource libcurl (>= 7.66.0) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) pmloglib (>= 3.3.0-4)
+RRECOMMENDS = 
+PKGSIZE = 18823040
+FILES = /usr/lib/libBMISensorBundle.so /usr/lib/libDISensorBundle.so /usr/lib/librcs_server.so /usr/lib/librcs_common.so /usr/lib/librcs_container.so /usr/lib/libHueBundle.so /usr/lib/libESEnrolleeSDK.so /usr/lib/libESMediatorRich.so /usr/lib/libnotification_consumer.so /usr/lib/libnotification_provider.so /usr/lib/librcs_client.so /usr/lib/libTestBundle.so
+FILELIST = /usr/lib/libESEnrolleeSDK.so /usr/lib/libHueBundle.so /usr/lib/librcs_client.so /usr/lib/librcs_common.so /usr/lib/librcs_container.so /usr/lib/librcs_server.so

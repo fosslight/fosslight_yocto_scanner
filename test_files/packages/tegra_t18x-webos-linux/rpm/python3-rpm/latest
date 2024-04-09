@@ -1,0 +1,10 @@
+PE = 1
+PV = 4.14.2
+PR = r0
+PKGR = r0webos3
+RPROVIDES = 
+RDEPENDS = db (>= 5.3.28) file (>= 5.36) glibc (>= 2.28) libbz2 (>= 1.0.6) libdw (>= 0.175) libelf (>= 0.175) libgomp (>= 8.2.0) liblzma (>= 5.2.4) libpython3 (>= 3.5.6) nss (>= 3.39) popt (>= 1.16) rpm (>= 4.14.2) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 299424
+FILES = /usr/lib/python3.5/site-packages/rpm/*
+FILELIST = /usr/lib/python3.5/site-packages/rpm/__init__.py /usr/lib/python3.5/site-packages/rpm/_rpm.so /usr/lib/python3.5/site-packages/rpm/_rpmb.so /usr/lib/python3.5/site-packages/rpm/_rpms.so /usr/lib/python3.5/site-packages/rpm/transaction.py

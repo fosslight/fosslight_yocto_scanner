@@ -1,0 +1,10 @@
+PE = 1
+PV = 239
+PR = r0
+PKGR = r0webos4
+RPROVIDES = 
+RDEPENDS = bash-completion
+RRECOMMENDS = 
+PKGSIZE = 73074
+FILES = /usr/share/bash-completion /etc/bash_completion.d
+FILELIST = /usr/share/bash-completion/completions/busctl /usr/share/bash-completion/completions/hostnamectl /usr/share/bash-completion/completions/journalctl /usr/share/bash-completion/completions/kernel-install /usr/share/bash-completion/completions/localectl /usr/share/bash-completion/completions/loginctl /usr/share/bash-completion/completions/machinectl /usr/share/bash-completion/completions/systemctl /usr/share/bash-completion/completions/systemd-analyze /usr/share/bash-completion/completions/systemd-cat /usr/share/bash-completion/completions/systemd-cgls /usr/share/bash-completion/completions/systemd-cgtop /usr/share/bash-completion/completions/systemd-delta /usr/share/bash-completion/completions/systemd-detect-virt /usr/share/bash-completion/completions/systemd-nspawn /usr/share/bash-completion/completions/systemd-path /usr/share/bash-completion/completions/systemd-run

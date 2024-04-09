@@ -1,9 +1,0 @@
-PV = 10.1.0
-PR = r0
-PKG = libgcc-s-src
-RPROVIDES = libgcc-src (=10.1.0)
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 45232
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/enable-execute-stack.c /usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/gthr-default.h /usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/md-unwind-support.h /usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/sfp-machine.h /usr/src/debug/libgcc/10.1.0-r0/gcc-10.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/unwind.h

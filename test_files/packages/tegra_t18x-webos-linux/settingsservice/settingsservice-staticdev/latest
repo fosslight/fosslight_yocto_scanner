@@ -1,0 +1,8 @@
+PV = 1.0.22-3
+PR = r22
+RPROVIDES = 
+RDEPENDS = settingsservice-dev (= 1.0.22-3-r22)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/settingsservice/*.a
+FILELIST = 

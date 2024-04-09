@@ -1,0 +1,9 @@
+PV = 6.1
+PR = r0
+PKG = libncurses5
+RPROVIDES = ncurses-libncurses (=6.1)
+RDEPENDS = glibc (>= 2.28) ncurses-libtinfo (>= 6.1)
+RRECOMMENDS = 
+PKGSIZE = 198777
+FILES = /lib/libncurses.so.5 /lib/libncurses.so.5.9
+FILELIST = /lib/libncurses.so.5 /lib/libncurses.so.5.9

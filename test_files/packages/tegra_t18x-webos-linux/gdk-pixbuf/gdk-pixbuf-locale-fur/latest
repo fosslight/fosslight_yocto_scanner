@@ -1,0 +1,9 @@
+PV = 2.36.11
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-fur
+RPROVIDES = fur-translation gdk-pixbuf-locale gdk-pixbuf-locale-fur (=2.36.11)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fur
+PKGSIZE = 23474
+FILES = /usr/share/locale/fur
+FILELIST = /usr/share/locale/fur/LC_MESSAGES/gdk-pixbuf.mo

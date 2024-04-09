@@ -1,0 +1,5 @@
+PV = 1.9
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native texinfo-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/update-alternatives
+PACKAGES = gzip-ptest gzip-dbg gzip-staticdev gzip-dev gzip-doc gzip-locale gzip
+LAYER = core

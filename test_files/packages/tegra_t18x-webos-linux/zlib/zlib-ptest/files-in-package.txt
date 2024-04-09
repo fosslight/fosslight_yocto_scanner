@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/zlib
+drwxr-xr-x root       root             4096 ./usr/lib/zlib/ptest
+-rwxr-xr-x root       root           133376 ./usr/lib/zlib/ptest/example
+-rwxr-xr-x root       root            67760 ./usr/lib/zlib/ptest/examplesh
+-rwxr-xr-x root       root            14832 ./usr/lib/zlib/ptest/Makefile
+-rwxr-xr-x root       root           133360 ./usr/lib/zlib/ptest/minigzip
+-rwxr-xr-x root       root            67744 ./usr/lib/zlib/ptest/minigzipsh
+-rwxr-xr-x root       root              157 ./usr/lib/zlib/ptest/run-ptest

@@ -1,0 +1,10 @@
+PV = 2.5.17
+PR = r0
+PKG = libgphoto2-6
+PKGR = r0webos1
+RPROVIDES = libgphoto2 (=2.5.17)
+RDEPENDS = busybox glibc (>= 2.28) libexif (>= 0.6.21) libgphotoport (>= 2.5.17) libltdl (>= 2.4.6)
+RRECOMMENDS = libgphoto2-camlibs
+PKGSIZE = 2524509
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libgphoto2 /usr/lib/libgphoto2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/udev/* /usr/share/hal
+FILELIST = /etc/udev/rules.d/40-libgphoto2.rules /lib/udev/check-ptp-camera /usr/lib/libgphoto2.so.6 /usr/lib/libgphoto2.so.6.1.0 /usr/share/hal/fdi/information/20thirdparty/10-camera-libgphoto2-device.fdi /usr/share/hal/fdi/information/20thirdparty/10-camera-libgphoto2.fdi /usr/share/libgphoto2/2.5.17/konica/english /usr/share/libgphoto2/2.5.17/konica/french /usr/share/libgphoto2/2.5.17/konica/german /usr/share/libgphoto2/2.5.17/konica/japanese /usr/share/libgphoto2/2.5.17/konica/korean /usr/share/libgphoto2/2.5.17/konica/spanish

@@ -1,5 +1,0 @@
-PV = 2.31+gitAUTOINC+1094741224
-PR = r0
-DEPENDS = autoconf-native automake-native bison-native gnu-config-native gperf-native libgcc-initial libtool-native linux-libc-headers make-native texinfo-dummy-native virtual/x86_64-poky-linux-gcc
-PACKAGES = glibc-src glibc-dbg catchsegv sln nscd ldconfig ldd tzcode glibc-thread-db glibc-pic libcidn libmemusage libnss-db libsegfault glibc-pcprofile libsotruss glibc glibc-utils glibc-extra-nss glibc-dev glibc-staticdev glibc-doc
-LAYER = core

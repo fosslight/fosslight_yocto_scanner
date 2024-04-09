@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = packagegroup-core-foss (= 1.0-r0)
+RRECOMMENDS = alsa-state-dev assimp-dev bluez5-noinst-tools-dev bluez5-obex-dev bridge-utils-dev cairo-dev can-utils-dev connman-client-dev cryptsetup-dev dhcp-client-dev dhcp-server-dev e2fsprogs-mke2fs-dev e2fsprogs-resize2fs-dev ethtool-dev grep-dev gstreamer1.0-dev hostapd-dev i2c-tools-dev iperf3-dev iw-dev jpeg-dev ldd-dev libasound-module-pcm-pulse-dev libasound-module-rate-samplerate-dev libgomp-dev libpcap-dev libxkbcommon-dev linuxptp-dev lvm2-dev mtd-utils-dev obexftp-dev openssl-misc-dev perl-dev pulseaudio-lib-alsa-util-dev pulseaudio-misc-dev pulseaudio-module-alsa-card-dev pulseaudio-module-alsa-sink-dev pulseaudio-module-alsa-source-dev pulseaudio-module-detect-dev pulseaudio-module-gconf-dev pulseaudio-module-native-protocol-tcp-dev pulseaudio-module-remap-sink-dev pulseaudio-module-suspend-on-idle-dev pulseaudio-server-dev python-pip-dev rt-tests-dev sudo-dev systemd-analyze-dev usbutils-dev vulkan-bin-dev vulkan-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-core-foss/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

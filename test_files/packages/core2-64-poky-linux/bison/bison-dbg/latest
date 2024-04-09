@@ -1,8 +1,0 @@
-PV = 3.5.4
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 2100424
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/bison

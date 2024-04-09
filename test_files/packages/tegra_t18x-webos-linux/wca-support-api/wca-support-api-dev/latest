@@ -1,0 +1,8 @@
+PV = 1.0.0-3
+PR = r1
+RPROVIDES = 
+RDEPENDS = wca-support-api (= 1.0.0-3-r1)
+RRECOMMENDS = libpbnjson-dev luna-service2-dev
+PKGSIZE = 9234
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wca-support-api/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/wca-support.h /usr/share/pkgconfig/wca-support-api.pc

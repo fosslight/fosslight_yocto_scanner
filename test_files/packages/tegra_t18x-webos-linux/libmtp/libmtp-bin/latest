@@ -1,0 +1,8 @@
+PV = 1.1.16
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libmtp (>= 1.1.16)
+RRECOMMENDS = 
+PKGSIZE = 1151903
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/mtp-albumart /usr/bin/mtp-albums /usr/bin/mtp-connect /usr/bin/mtp-delfile /usr/bin/mtp-detect /usr/bin/mtp-emptyfolders /usr/bin/mtp-files /usr/bin/mtp-filetree /usr/bin/mtp-folders /usr/bin/mtp-format /usr/bin/mtp-getfile /usr/bin/mtp-getplaylist /usr/bin/mtp-hotplug /usr/bin/mtp-newfolder /usr/bin/mtp-newplaylist /usr/bin/mtp-playlists /usr/bin/mtp-reset /usr/bin/mtp-sendfile /usr/bin/mtp-sendtr /usr/bin/mtp-thumb /usr/bin/mtp-tracks /usr/bin/mtp-trexist

@@ -1,0 +1,9 @@
+PV = 1.0.2
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 119342
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/ppsctl /usr/bin/.debug/ppsldisc /usr/bin/.debug/ppstest /usr/bin/.debug/ppswatch /usr/src/debug/pps-tools/1.0.2-r0/git/ppsctl.c /usr/src/debug/pps-tools/1.0.2-r0/git/ppsldisc.c /usr/src/debug/pps-tools/1.0.2-r0/git/ppstest.c /usr/src/debug/pps-tools/1.0.2-r0/git/ppswatch.c /usr/src/debug/pps-tools/1.0.2-r0/git/timepps.h

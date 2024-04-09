@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/firmware
+drwxr-xr-x root       root             4096 ./lib/firmware/brcm
+-rw-r--r-- root       root             3731 ./lib/firmware/brcm/bcmdhd.clm_blob
+-rw-r--r-- root       root           582813 ./lib/firmware/brcm/fw_bcmdhd.bin
+-rw-r--r-- root       root             4928 ./lib/firmware/brcm/nvram_murata_4359_b1_es4.txt
+-rw-r--r-- root       root             4691 ./lib/firmware/brcm/nvram.txt

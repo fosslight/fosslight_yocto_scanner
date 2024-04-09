@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-ca-es
-RRECOMMENDS = 
-PKGSIZE = 1839
-FILES = /usr/share/i18n/locales/ca_ES@valencia
-FILELIST = /usr/share/i18n/locales/ca_ES@valencia

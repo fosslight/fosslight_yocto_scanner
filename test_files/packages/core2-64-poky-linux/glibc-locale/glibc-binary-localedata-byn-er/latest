@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2944273
-FILES = /usr/lib/locale/byn_ER
-FILELIST = /usr/lib/locale/byn_ER/LC_ADDRESS /usr/lib/locale/byn_ER/LC_COLLATE /usr/lib/locale/byn_ER/LC_CTYPE /usr/lib/locale/byn_ER/LC_IDENTIFICATION /usr/lib/locale/byn_ER/LC_MEASUREMENT /usr/lib/locale/byn_ER/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/byn_ER/LC_MONETARY /usr/lib/locale/byn_ER/LC_NAME /usr/lib/locale/byn_ER/LC_NUMERIC /usr/lib/locale/byn_ER/LC_PAPER /usr/lib/locale/byn_ER/LC_TELEPHONE /usr/lib/locale/byn_ER/LC_TIME

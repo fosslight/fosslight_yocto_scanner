@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-br-netfilter
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-bridge-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 29592
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/net/bridge/br_netfilter.ko /etc/modules-load.d/br_netfilter.conf /etc/modprobe.d/br_netfilter.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/net/bridge/br_netfilter.ko

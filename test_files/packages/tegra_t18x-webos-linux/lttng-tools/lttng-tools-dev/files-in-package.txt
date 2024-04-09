@@ -1,0 +1,20 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/lttng
+-rw-r--r-- root       root             3820 ./usr/include/lttng/channel.h
+-rw-r--r-- root       root             1940 ./usr/include/lttng/constant.h
+-rw-r--r-- root       root             2442 ./usr/include/lttng/domain.h
+-rw-r--r-- root       root            13766 ./usr/include/lttng/event.h
+-rw-r--r-- root       root             2075 ./usr/include/lttng/handle.h
+-rw-r--r-- root       root             4135 ./usr/include/lttng/health.h
+-rw-r--r-- root       root             6555 ./usr/include/lttng/load.h
+-rw-r--r-- root       root             9835 ./usr/include/lttng/lttng-error.h
+-rw-r--r-- root       root             5633 ./usr/include/lttng/lttng.h
+-rw-r--r-- root       root             4377 ./usr/include/lttng/save.h
+-rw-r--r-- root       root             5473 ./usr/include/lttng/session.h
+-rw-r--r-- root       root             4845 ./usr/include/lttng/snapshot.h
+-rw-r--r-- root       root              830 ./usr/include/lttng/version.h.tmpl
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               21 ./usr/lib/liblttng-ctl.so -> liblttng-ctl.so.0.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              324 ./usr/lib/pkgconfig/lttng-ctl.pc

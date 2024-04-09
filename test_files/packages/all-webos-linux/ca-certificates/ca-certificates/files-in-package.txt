@@ -1,0 +1,397 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/ca-certificates
+-rw-r--r-- root       root             5340 ./etc/ca-certificates.conf
+drwxr-xr-x root       root             4096 ./etc/ca-certificates/update.d
+drwxr-xr-x root       root             4096 ./etc/ssl
+drwxr-xr-x root       root            16384 ./etc/ssl/certs
+lrwxrwxrwx root       root               45 ./etc/ssl/certs/02265526.0 -> Entrust_Root_Certification_Authority_-_G2.pem
+lrwxrwxrwx root       root               36 ./etc/ssl/certs/03179a64.0 -> Staat_der_Nederlanden_EV_Root_CA.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/062cdee6.0 -> GlobalSign_Root_CA_-_R3.pem
+lrwxrwxrwx root       root               25 ./etc/ssl/certs/064e0aa9.0 -> QuoVadis_Root_CA_2_G3.pem
+lrwxrwxrwx root       root               50 ./etc/ssl/certs/06dc52d5.0 -> SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+lrwxrwxrwx root       root               20 ./etc/ssl/certs/080911ac.0 -> QuoVadis_Root_CA.pem
+lrwxrwxrwx root       root               54 ./etc/ssl/certs/09789157.0 -> Starfield_Services_Root_Certificate_Authority_-_G2.pem
+lrwxrwxrwx root       root               16 ./etc/ssl/certs/0b1b94ef.0 -> CFCA_EV_ROOT.pem
+lrwxrwxrwx root       root               44 ./etc/ssl/certs/0bf05006.0 -> SSL.com_Root_Certification_Authority_ECC.pem
+lrwxrwxrwx root       root               34 ./etc/ssl/certs/0c4c9b6c.0 -> Global_Chambersign_Root_-_2008.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/0f6fa695.0 -> GDCA_TrustAUTH_R5_ROOT.pem
+lrwxrwxrwx root       root               46 ./etc/ssl/certs/106f3e4d.0 -> Entrust_Root_Certification_Authority_-_EC1.pem
+lrwxrwxrwx root       root               49 ./etc/ssl/certs/116bf586.0 -> GeoTrust_Primary_Certification_Authority_-_G2.pem
+lrwxrwxrwx root       root               35 ./etc/ssl/certs/128805a3.0 -> EE_Certification_Centre_Root_CA.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/157753a5.0 -> AddTrust_External_Root.pem
+lrwxrwxrwx root       root               59 ./etc/ssl/certs/1636090b.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+lrwxrwxrwx root       root               23 ./etc/ssl/certs/18856ac4.0 -> SecureSign_RootCA11.pem
+lrwxrwxrwx root       root               31 ./etc/ssl/certs/1d3472b9.0 -> GlobalSign_ECC_Root_CA_-_R5.pem
+lrwxrwxrwx root       root               37 ./etc/ssl/certs/1e08bfd1.0 -> IdenTrust_Public_Sector_Root_CA_1.pem
+lrwxrwxrwx root       root               32 ./etc/ssl/certs/1e09d511.0 -> T-TeleSec_GlobalRoot_Class_2.pem
+lrwxrwxrwx root       root               38 ./etc/ssl/certs/244b5494.0 -> DigiCert_High_Assurance_EV_Root_CA.pem
+lrwxrwxrwx root       root               20 ./etc/ssl/certs/2ae6433e.0 -> CA_Disig_Root_R2.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/2b349938.0 -> AffirmTrust_Commercial.pem
+lrwxrwxrwx root       root               22 ./etc/ssl/certs/2c543cd1.0 -> GeoTrust_Global_CA.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/2e4eed3c.0 -> thawte_Primary_Root_CA.pem
+lrwxrwxrwx root       root               18 ./etc/ssl/certs/2e5ac55d.0 -> DST_Root_CA_X3.pem
+lrwxrwxrwx root       root               59 ./etc/ssl/certs/32888f65.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+lrwxrwxrwx root       root               10 ./etc/ssl/certs/349f2832.0 -> EC-ACC.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/3513523f.0 -> DigiCert_Global_Root_CA.pem
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/3bde41ac.0 -> Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/3e44d2f7.0 -> TrustCor_RootCert_CA-2.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/3e45d192.0 -> Hongkong_Post_Root_CA_1.pem
+lrwxrwxrwx root       root               31 ./etc/ssl/certs/40193066.0 -> Certum_Trusted_Network_CA_2.pem
+lrwxrwxrwx root       root               16 ./etc/ssl/certs/4042bcee.0 -> ISRG_Root_X1.pem
+lrwxrwxrwx root       root               34 ./etc/ssl/certs/40547a79.0 -> COMODO_Certification_Authority.pem
+lrwxrwxrwx root       root               43 ./etc/ssl/certs/4304c5e5.0 -> Network_Solutions_Certificate_Authority.pem
+lrwxrwxrwx root       root               44 ./etc/ssl/certs/480720ec.0 -> GeoTrust_Primary_Certification_Authority.pem
+lrwxrwxrwx root       root               29 ./etc/ssl/certs/48bec511.0 -> Certum_Trusted_Network_CA.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/4a6481c9.0 -> GlobalSign_Root_CA_-_R2.pem
+lrwxrwxrwx root       root               45 ./etc/ssl/certs/4bfab552.0 -> Starfield_Root_Certificate_Authority_-_G2.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/4f316efb.0 -> SwissSign_Gold_CA_-_G2.pem
+lrwxrwxrwx root       root               35 ./etc/ssl/certs/5273a94c.0 -> E-Tugra_Certification_Authority.pem
+lrwxrwxrwx root       root               32 ./etc/ssl/certs/5443e9e3.0 -> T-TeleSec_GlobalRoot_Class_3.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/54657681.0 -> Buypass_Class_2_Root_CA.pem
+lrwxrwxrwx root       root               28 ./etc/ssl/certs/57bcb2da.0 -> SwissSign_Silver_CA_-_G2.pem
+lrwxrwxrwx root       root               38 ./etc/ssl/certs/5a4d6896.0 -> Staat_der_Nederlanden_Root_CA_-_G3.pem
+lrwxrwxrwx root       root               22 ./etc/ssl/certs/5ad8a5d6.0 -> GlobalSign_Root_CA.pem
+lrwxrwxrwx root       root               38 ./etc/ssl/certs/5c44d531.0 -> Staat_der_Nederlanden_Root_CA_-_G2.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/5cd81ad7.0 -> TeliaSonera_Root_CA_v1.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/5d3033c5.0 -> TrustCor_RootCert_CA-1.pem
+lrwxrwxrwx root       root               23 ./etc/ssl/certs/5f15c80c.0 -> TWCA_Global_Root_CA.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/607986c7.0 -> DigiCert_Global_Root_G2.pem
+lrwxrwxrwx root       root               15 ./etc/ssl/certs/6410666e.0 -> Taiwan_GRCA.pem
+lrwxrwxrwx root       root               29 ./etc/ssl/certs/653b494a.0 -> Baltimore_CyberTrust_Root.pem
+lrwxrwxrwx root       root               40 ./etc/ssl/certs/6b99d060.0 -> Entrust_Root_Certification_Authority.pem
+lrwxrwxrwx root       root               20 ./etc/ssl/certs/6d41d539.0 -> Amazon_Root_CA_2.pem
+lrwxrwxrwx root       root               44 ./etc/ssl/certs/6fa5da56.0 -> SSL.com_Root_Certification_Authority_RSA.pem
+lrwxrwxrwx root       root               24 ./etc/ssl/certs/706f604c.0 -> XRamp_Global_CA_Root.pem
+lrwxrwxrwx root       root               25 ./etc/ssl/certs/749e9e03.0 -> QuoVadis_Root_CA_1_G3.pem
+lrwxrwxrwx root       root               28 ./etc/ssl/certs/75d1b2ed.0 -> DigiCert_Trusted_Root_G4.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/76cb8f92.0 -> Cybertrust_Global_Root.pem
+lrwxrwxrwx root       root               22 ./etc/ssl/certs/76faf6c0.0 -> QuoVadis_Root_CA_3.pem
+lrwxrwxrwx root       root               63 ./etc/ssl/certs/7719f463.0 -> Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+lrwxrwxrwx root       root               35 ./etc/ssl/certs/773e07ad.0 -> OISTE_WISeKey_Global_Root_GC_CA.pem
+lrwxrwxrwx root       root               18 ./etc/ssl/certs/7aaf71c0.0 -> TrustCor_ECA-1.pem
+lrwxrwxrwx root       root               64 ./etc/ssl/certs/7d0b38bd.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+lrwxrwxrwx root       root               31 ./etc/ssl/certs/7f3d5d1d.0 -> DigiCert_Assured_ID_Root_G3.pem
+lrwxrwxrwx root       root               30 ./etc/ssl/certs/812e17de.0 -> Deutsche_Telekom_Root_CA_2.pem
+lrwxrwxrwx root       root               34 ./etc/ssl/certs/8160b96c.0 -> Microsec_e-Szigno_Root_CA_2009.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/8867006a.0 -> GeoTrust_Universal_CA_2.pem
+lrwxrwxrwx root       root               20 ./etc/ssl/certs/8cb5ee0f.0 -> Amazon_Root_CA_3.pem
+lrwxrwxrwx root       root               20 ./etc/ssl/certs/8d86cdd1.0 -> certSIGN_ROOT_CA.pem
+lrwxrwxrwx root       root               34 ./etc/ssl/certs/930ac5d2.0 -> Actalis_Authentication_Root_CA.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/93bc0acc.0 -> AffirmTrust_Networking.pem
+lrwxrwxrwx root       root               48 ./etc/ssl/certs/988a38cb.0 -> NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/9c2e7d30.0 -> Sonera_Class_2_Root_CA.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/9c8dfbd4.0 -> AffirmTrust_Premium_ECC.pem
+lrwxrwxrwx root       root               31 ./etc/ssl/certs/9d04f354.0 -> DigiCert_Assured_ID_Root_G2.pem
+lrwxrwxrwx root       root               24 ./etc/ssl/certs/9f0f5fd6.0 -> Certinomis_-_Root_CA.pem
+lrwxrwxrwx root       root               13 ./etc/ssl/certs/a94d09e5.0 -> ACCVRAIZ1.pem
+lrwxrwxrwx root       root               48 ./etc/ssl/certs/ACCVRAIZ1.pem -> /usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt
+lrwxrwxrwx root       root               55 ./etc/ssl/certs/AC_RAIZ_FNMT-RCM.pem -> /usr/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM.crt
+lrwxrwxrwx root       root               69 ./etc/ssl/certs/Actalis_Authentication_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Actalis_Authentication_Root_CA.crt
+lrwxrwxrwx root       root               25 ./etc/ssl/certs/ad088e1d.0 -> GeoTrust_Universal_CA.pem
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/AddTrust_External_Root.pem -> /usr/share/ca-certificates/mozilla/AddTrust_External_Root.crt
+lrwxrwxrwx root       root               45 ./etc/ssl/certs/aee5f10d.0 -> Entrust.net_Premium_2048_Secure_Server_CA.pem
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/AffirmTrust_Commercial.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Commercial.crt
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/AffirmTrust_Networking.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/AffirmTrust_Premium_ECC.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Premium_ECC.crt
+lrwxrwxrwx root       root               58 ./etc/ssl/certs/AffirmTrust_Premium.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt
+lrwxrwxrwx root       root               55 ./etc/ssl/certs/Amazon_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/Amazon_Root_CA_1.crt
+lrwxrwxrwx root       root               55 ./etc/ssl/certs/Amazon_Root_CA_2.pem -> /usr/share/ca-certificates/mozilla/Amazon_Root_CA_2.crt
+lrwxrwxrwx root       root               55 ./etc/ssl/certs/Amazon_Root_CA_3.pem -> /usr/share/ca-certificates/mozilla/Amazon_Root_CA_3.crt
+lrwxrwxrwx root       root               55 ./etc/ssl/certs/Amazon_Root_CA_4.pem -> /usr/share/ca-certificates/mozilla/Amazon_Root_CA_4.crt
+lrwxrwxrwx root       root               60 ./etc/ssl/certs/Atos_TrustedRoot_2011.pem -> /usr/share/ca-certificates/mozilla/Atos_TrustedRoot_2011.crt
+lrwxrwxrwx root       root               96 ./etc/ssl/certs/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem -> /usr/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt
+lrwxrwxrwx root       root               31 ./etc/ssl/certs/b0e59380.0 -> GlobalSign_ECC_Root_CA_-_R4.pem
+lrwxrwxrwx root       root               31 ./etc/ssl/certs/b1159c4c.0 -> DigiCert_Assured_ID_Root_CA.pem
+lrwxrwxrwx root       root               35 ./etc/ssl/certs/b1b8a7f3.0 -> OISTE_WISeKey_Global_Root_GA_CA.pem
+lrwxrwxrwx root       root               64 ./etc/ssl/certs/b204d74a.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+lrwxrwxrwx root       root               20 ./etc/ssl/certs/b66938e9.0 -> Secure_Global_CA.pem
+lrwxrwxrwx root       root               23 ./etc/ssl/certs/b727005e.0 -> AffirmTrust_Premium.pem
+lrwxrwxrwx root       root               37 ./etc/ssl/certs/b7a5b843.0 -> TWCA_Root_Certification_Authority.pem
+lrwxrwxrwx root       root               31 ./etc/ssl/certs/ba89ed3b.0 -> thawte_Primary_Root_CA_-_G3.pem
+lrwxrwxrwx root       root               64 ./etc/ssl/certs/Baltimore_CyberTrust_Root.pem -> /usr/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/Buypass_Class_2_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/Buypass_Class_3_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt
+lrwxrwxrwx root       root               51 ./etc/ssl/certs/c01cdfa2.0 -> VeriSign_Universal_Root_Certification_Authority.pem
+lrwxrwxrwx root       root               31 ./etc/ssl/certs/c089bbbd.0 -> thawte_Primary_Root_CA_-_G2.pem
+lrwxrwxrwx root       root               64 ./etc/ssl/certs/c0ff1f52.0 -> Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem
+lrwxrwxrwx root       root               34 ./etc/ssl/certs/c28a8a30.0 -> D-TRUST_Root_Class_3_CA_2_2009.pem
+lrwxrwxrwx root       root               36 ./etc/ssl/certs/c47d9980.0 -> Chambers_of_Commerce_Root_-_2008.pem
+lrwxrwxrwx root       root               37 ./etc/ssl/certs/ca6e4ad9.0 -> ePKI_Root_Certification_Authority.pem
+-rw-r--r-- root       root           197194 ./etc/ssl/certs/ca-certificates.crt
+lrwxrwxrwx root       root               55 ./etc/ssl/certs/CA_Disig_Root_R2.pem -> /usr/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt
+lrwxrwxrwx root       root               44 ./etc/ssl/certs/cbf06781.0 -> Go_Daddy_Root_Certificate_Authority_-_G2.pem
+lrwxrwxrwx root       root               14 ./etc/ssl/certs/cc450945.0 -> Izenpe.com.pem
+lrwxrwxrwx root       root               34 ./etc/ssl/certs/cd58d51e.0 -> Security_Communication_RootCA2.pem
+lrwxrwxrwx root       root               20 ./etc/ssl/certs/cd8c0d63.0 -> AC_RAIZ_FNMT-RCM.pem
+lrwxrwxrwx root       root               20 ./etc/ssl/certs/ce5e74ef.0 -> Amazon_Root_CA_1.pem
+lrwxrwxrwx root       root               47 ./etc/ssl/certs/Certigna.pem -> /usr/share/ca-certificates/mozilla/Certigna.crt
+lrwxrwxrwx root       root               59 ./etc/ssl/certs/Certinomis_-_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Certinomis_-_Root_CA.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/Certplus_Class_2_Primary_CA.pem -> /usr/share/ca-certificates/mozilla/Certplus_Class_2_Primary_CA.crt
+lrwxrwxrwx root       root               55 ./etc/ssl/certs/certSIGN_ROOT_CA.pem -> /usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/Certum_Trusted_Network_CA_2.pem -> /usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA_2.crt
+lrwxrwxrwx root       root               64 ./etc/ssl/certs/Certum_Trusted_Network_CA.pem -> /usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt
+lrwxrwxrwx root       root               51 ./etc/ssl/certs/CFCA_EV_ROOT.pem -> /usr/share/ca-certificates/mozilla/CFCA_EV_ROOT.crt
+lrwxrwxrwx root       root               71 ./etc/ssl/certs/Chambers_of_Commerce_Root_-_2008.pem -> /usr/share/ca-certificates/mozilla/Chambers_of_Commerce_Root_-_2008.crt
+lrwxrwxrwx root       root               63 ./etc/ssl/certs/Comodo_AAA_Services_root.pem -> /usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt
+lrwxrwxrwx root       root               69 ./etc/ssl/certs/COMODO_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/COMODO_Certification_Authority.crt
+lrwxrwxrwx root       root               73 ./etc/ssl/certs/COMODO_ECC_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/COMODO_ECC_Certification_Authority.crt
+lrwxrwxrwx root       root               73 ./etc/ssl/certs/COMODO_RSA_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/COMODO_RSA_Certification_Authority.crt
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/Cybertrust_Global_Root.pem -> /usr/share/ca-certificates/mozilla/Cybertrust_Global_Root.crt
+lrwxrwxrwx root       root               37 ./etc/ssl/certs/d4dae3dd.0 -> D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+lrwxrwxrwx root       root               38 ./etc/ssl/certs/d6325660.0 -> COMODO_RSA_Certification_Authority.pem
+lrwxrwxrwx root       root               22 ./etc/ssl/certs/d7e8dc79.0 -> QuoVadis_Root_CA_2.pem
+lrwxrwxrwx root       root               23 ./etc/ssl/certs/d853d49e.0 -> Trustis_FPS_Root_CA.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/dc4d6a89.0 -> GlobalSign_Root_CA_-_R6.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/dd8e9d41.0 -> DigiCert_Global_Root_G3.pem
+lrwxrwxrwx root       root               20 ./etc/ssl/certs/de6d66f3.0 -> Amazon_Root_CA_4.pem
+lrwxrwxrwx root       root               26 ./etc/ssl/certs/def36a68.0 -> LuxTrust_Global_Root_2.pem
+lrwxrwxrwx root       root               65 ./etc/ssl/certs/Deutsche_Telekom_Root_CA_2.pem -> /usr/share/ca-certificates/mozilla/Deutsche_Telekom_Root_CA_2.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/DigiCert_Assured_ID_Root_CA.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/DigiCert_Assured_ID_Root_G2.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/DigiCert_Assured_ID_Root_G3.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G3.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/DigiCert_Global_Root_CA.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Global_Root_CA.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/DigiCert_Global_Root_G2.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G2.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/DigiCert_Global_Root_G3.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G3.crt
+lrwxrwxrwx root       root               73 ./etc/ssl/certs/DigiCert_High_Assurance_EV_Root_CA.pem -> /usr/share/ca-certificates/mozilla/DigiCert_High_Assurance_EV_Root_CA.crt
+lrwxrwxrwx root       root               63 ./etc/ssl/certs/DigiCert_Trusted_Root_G4.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt
+lrwxrwxrwx root       root               53 ./etc/ssl/certs/DST_Root_CA_X3.pem -> /usr/share/ca-certificates/mozilla/DST_Root_CA_X3.crt
+lrwxrwxrwx root       root               69 ./etc/ssl/certs/D-TRUST_Root_Class_3_CA_2_2009.pem -> /usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt
+lrwxrwxrwx root       root               72 ./etc/ssl/certs/D-TRUST_Root_Class_3_CA_2_EV_2009.pem -> /usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt
+lrwxrwxrwx root       root               12 ./etc/ssl/certs/e113c810.0 -> Certigna.pem
+lrwxrwxrwx root       root               25 ./etc/ssl/certs/e18bfb83.0 -> QuoVadis_Root_CA_3_G3.pem
+lrwxrwxrwx root       root               49 ./etc/ssl/certs/e2799e36.0 -> GeoTrust_Primary_Certification_Authority_-_G3.pem
+lrwxrwxrwx root       root               25 ./etc/ssl/certs/e36a6752.0 -> Atos_TrustedRoot_2011.pem
+lrwxrwxrwx root       root               35 ./etc/ssl/certs/e73d606e.0 -> OISTE_WISeKey_Global_Root_GB_CA.pem
+lrwxrwxrwx root       root               27 ./etc/ssl/certs/e8de2f56.0 -> Buypass_Class_3_Root_CA.pem
+lrwxrwxrwx root       root               45 ./etc/ssl/certs/EC-ACC.pem -> /usr/share/ca-certificates/mozilla/EC-ACC.crt
+lrwxrwxrwx root       root               28 ./etc/ssl/certs/ee64a828.0 -> Comodo_AAA_Services_root.pem
+lrwxrwxrwx root       root               70 ./etc/ssl/certs/EE_Certification_Centre_Root_CA.pem -> /usr/share/ca-certificates/mozilla/EE_Certification_Centre_Root_CA.crt
+lrwxrwxrwx root       root               38 ./etc/ssl/certs/eed8c118.0 -> COMODO_ECC_Certification_Authority.pem
+lrwxrwxrwx root       root               34 ./etc/ssl/certs/ef954a4e.0 -> IdenTrust_Commercial_Root_CA_1.pem
+lrwxrwxrwx root       root               80 ./etc/ssl/certs/Entrust.net_Premium_2048_Secure_Server_CA.pem -> /usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt
+lrwxrwxrwx root       root               81 ./etc/ssl/certs/Entrust_Root_Certification_Authority_-_EC1.pem -> /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt
+lrwxrwxrwx root       root               80 ./etc/ssl/certs/Entrust_Root_Certification_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt
+lrwxrwxrwx root       root               75 ./etc/ssl/certs/Entrust_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt
+lrwxrwxrwx root       root               72 ./etc/ssl/certs/ePKI_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt
+lrwxrwxrwx root       root               70 ./etc/ssl/certs/E-Tugra_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/E-Tugra_Certification_Authority.crt
+lrwxrwxrwx root       root               31 ./etc/ssl/certs/f060240e.0 -> Certplus_Class_2_Primary_CA.pem
+lrwxrwxrwx root       root               23 ./etc/ssl/certs/f081611a.0 -> Go_Daddy_Class_2_CA.pem
+lrwxrwxrwx root       root               47 ./etc/ssl/certs/f0c70a8d.0 -> SSL.com_EV_Root_Certification_Authority_ECC.pem
+lrwxrwxrwx root       root               41 ./etc/ssl/certs/f30dd6ad.0 -> USERTrust_ECC_Certification_Authority.pem
+lrwxrwxrwx root       root               34 ./etc/ssl/certs/f3377b1b.0 -> Security_Communication_Root_CA.pem
+lrwxrwxrwx root       root               24 ./etc/ssl/certs/f387163d.0 -> Starfield_Class_2_CA.pem
+lrwxrwxrwx root       root               18 ./etc/ssl/certs/f39fc864.0 -> SecureTrust_CA.pem
+lrwxrwxrwx root       root               41 ./etc/ssl/certs/fc5a8f99.0 -> USERTrust_RSA_Certification_Authority.pem
+lrwxrwxrwx root       root               19 ./etc/ssl/certs/fe8a2cd8.0 -> SZAFIR_ROOT_CA2.pem
+lrwxrwxrwx root       root               49 ./etc/ssl/certs/ff34af3f.0 -> TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/GDCA_TrustAUTH_R5_ROOT.pem -> /usr/share/ca-certificates/mozilla/GDCA_TrustAUTH_R5_ROOT.crt
+lrwxrwxrwx root       root               57 ./etc/ssl/certs/GeoTrust_Global_CA.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Global_CA.crt
+lrwxrwxrwx root       root               84 ./etc/ssl/certs/GeoTrust_Primary_Certification_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt
+lrwxrwxrwx root       root               84 ./etc/ssl/certs/GeoTrust_Primary_Certification_Authority_-_G3.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt
+lrwxrwxrwx root       root               79 ./etc/ssl/certs/GeoTrust_Primary_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/GeoTrust_Universal_CA_2.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA_2.crt
+lrwxrwxrwx root       root               60 ./etc/ssl/certs/GeoTrust_Universal_CA.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA.crt
+lrwxrwxrwx root       root               69 ./etc/ssl/certs/Global_Chambersign_Root_-_2008.pem -> /usr/share/ca-certificates/mozilla/Global_Chambersign_Root_-_2008.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/GlobalSign_ECC_Root_CA_-_R4.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/GlobalSign_ECC_Root_CA_-_R5.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt
+lrwxrwxrwx root       root               57 ./etc/ssl/certs/GlobalSign_Root_CA.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/GlobalSign_Root_CA_-_R2.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R2.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/GlobalSign_Root_CA_-_R3.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/GlobalSign_Root_CA_-_R6.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R6.crt
+lrwxrwxrwx root       root               58 ./etc/ssl/certs/Go_Daddy_Class_2_CA.pem -> /usr/share/ca-certificates/mozilla/Go_Daddy_Class_2_CA.crt
+lrwxrwxrwx root       root               79 ./etc/ssl/certs/Go_Daddy_Root_Certificate_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt
+lrwxrwxrwx root       root               98 ./etc/ssl/certs/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem -> /usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.crt
+lrwxrwxrwx root       root               94 ./etc/ssl/certs/Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem -> /usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt
+lrwxrwxrwx root       root               94 ./etc/ssl/certs/Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem -> /usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2015.crt
+lrwxrwxrwx root       root               62 ./etc/ssl/certs/Hongkong_Post_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_1.crt
+lrwxrwxrwx root       root               69 ./etc/ssl/certs/IdenTrust_Commercial_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/IdenTrust_Commercial_Root_CA_1.crt
+lrwxrwxrwx root       root               72 ./etc/ssl/certs/IdenTrust_Public_Sector_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/IdenTrust_Public_Sector_Root_CA_1.crt
+lrwxrwxrwx root       root               51 ./etc/ssl/certs/ISRG_Root_X1.pem -> /usr/share/ca-certificates/mozilla/ISRG_Root_X1.crt
+lrwxrwxrwx root       root               49 ./etc/ssl/certs/Izenpe.com.pem -> /usr/share/ca-certificates/mozilla/Izenpe.com.crt
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/LuxTrust_Global_Root_2.pem -> /usr/share/ca-certificates/mozilla/LuxTrust_Global_Root_2.crt
+lrwxrwxrwx root       root               69 ./etc/ssl/certs/Microsec_e-Szigno_Root_CA_2009.pem -> /usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA_2009.crt
+lrwxrwxrwx root       root               83 ./etc/ssl/certs/NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem -> /usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt
+lrwxrwxrwx root       root               78 ./etc/ssl/certs/Network_Solutions_Certificate_Authority.pem -> /usr/share/ca-certificates/mozilla/Network_Solutions_Certificate_Authority.crt
+lrwxrwxrwx root       root               70 ./etc/ssl/certs/OISTE_WISeKey_Global_Root_GA_CA.pem -> /usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt
+lrwxrwxrwx root       root               70 ./etc/ssl/certs/OISTE_WISeKey_Global_Root_GB_CA.pem -> /usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
+lrwxrwxrwx root       root               70 ./etc/ssl/certs/OISTE_WISeKey_Global_Root_GC_CA.pem -> /usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GC_CA.crt
+lrwxrwxrwx root       root               60 ./etc/ssl/certs/QuoVadis_Root_CA_1_G3.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_1_G3.crt
+lrwxrwxrwx root       root               60 ./etc/ssl/certs/QuoVadis_Root_CA_2_G3.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2_G3.crt
+lrwxrwxrwx root       root               57 ./etc/ssl/certs/QuoVadis_Root_CA_2.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2.crt
+lrwxrwxrwx root       root               60 ./etc/ssl/certs/QuoVadis_Root_CA_3_G3.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3_G3.crt
+lrwxrwxrwx root       root               57 ./etc/ssl/certs/QuoVadis_Root_CA_3.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3.crt
+lrwxrwxrwx root       root               55 ./etc/ssl/certs/QuoVadis_Root_CA.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA.crt
+lrwxrwxrwx root       root               55 ./etc/ssl/certs/Secure_Global_CA.pem -> /usr/share/ca-certificates/mozilla/Secure_Global_CA.crt
+lrwxrwxrwx root       root               58 ./etc/ssl/certs/SecureSign_RootCA11.pem -> /usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt
+lrwxrwxrwx root       root               53 ./etc/ssl/certs/SecureTrust_CA.pem -> /usr/share/ca-certificates/mozilla/SecureTrust_CA.crt
+lrwxrwxrwx root       root               69 ./etc/ssl/certs/Security_Communication_RootCA2.pem -> /usr/share/ca-certificates/mozilla/Security_Communication_RootCA2.crt
+lrwxrwxrwx root       root               69 ./etc/ssl/certs/Security_Communication_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Security_Communication_Root_CA.crt
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/Sonera_Class_2_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Sonera_Class_2_Root_CA.crt
+lrwxrwxrwx root       root               82 ./etc/ssl/certs/SSL.com_EV_Root_Certification_Authority_ECC.pem -> /usr/share/ca-certificates/mozilla/SSL.com_EV_Root_Certification_Authority_ECC.crt
+lrwxrwxrwx root       root               85 ./etc/ssl/certs/SSL.com_EV_Root_Certification_Authority_RSA_R2.pem -> /usr/share/ca-certificates/mozilla/SSL.com_EV_Root_Certification_Authority_RSA_R2.crt
+lrwxrwxrwx root       root               79 ./etc/ssl/certs/SSL.com_Root_Certification_Authority_ECC.pem -> /usr/share/ca-certificates/mozilla/SSL.com_Root_Certification_Authority_ECC.crt
+lrwxrwxrwx root       root               79 ./etc/ssl/certs/SSL.com_Root_Certification_Authority_RSA.pem -> /usr/share/ca-certificates/mozilla/SSL.com_Root_Certification_Authority_RSA.crt
+lrwxrwxrwx root       root               71 ./etc/ssl/certs/Staat_der_Nederlanden_EV_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_EV_Root_CA.crt
+lrwxrwxrwx root       root               73 ./etc/ssl/certs/Staat_der_Nederlanden_Root_CA_-_G2.pem -> /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt
+lrwxrwxrwx root       root               73 ./etc/ssl/certs/Staat_der_Nederlanden_Root_CA_-_G3.pem -> /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G3.crt
+lrwxrwxrwx root       root               59 ./etc/ssl/certs/Starfield_Class_2_CA.pem -> /usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt
+lrwxrwxrwx root       root               80 ./etc/ssl/certs/Starfield_Root_Certificate_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt
+lrwxrwxrwx root       root               89 ./etc/ssl/certs/Starfield_Services_Root_Certificate_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/SwissSign_Gold_CA_-_G2.pem -> /usr/share/ca-certificates/mozilla/SwissSign_Gold_CA_-_G2.crt
+lrwxrwxrwx root       root               63 ./etc/ssl/certs/SwissSign_Silver_CA_-_G2.pem -> /usr/share/ca-certificates/mozilla/SwissSign_Silver_CA_-_G2.crt
+lrwxrwxrwx root       root               54 ./etc/ssl/certs/SZAFIR_ROOT_CA2.pem -> /usr/share/ca-certificates/mozilla/SZAFIR_ROOT_CA2.crt
+lrwxrwxrwx root       root               50 ./etc/ssl/certs/Taiwan_GRCA.pem -> /usr/share/ca-certificates/mozilla/Taiwan_GRCA.crt
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/TeliaSonera_Root_CA_v1.pem -> /usr/share/ca-certificates/mozilla/TeliaSonera_Root_CA_v1.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/thawte_Primary_Root_CA_-_G2.pem -> /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G2.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/thawte_Primary_Root_CA_-_G3.pem -> /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G3.crt
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/thawte_Primary_Root_CA.pem -> /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA.crt
+lrwxrwxrwx root       root               53 ./etc/ssl/certs/TrustCor_ECA-1.pem -> /usr/share/ca-certificates/mozilla/TrustCor_ECA-1.crt
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/TrustCor_RootCert_CA-1.pem -> /usr/share/ca-certificates/mozilla/TrustCor_RootCert_CA-1.crt
+lrwxrwxrwx root       root               61 ./etc/ssl/certs/TrustCor_RootCert_CA-2.pem -> /usr/share/ca-certificates/mozilla/TrustCor_RootCert_CA-2.crt
+lrwxrwxrwx root       root               58 ./etc/ssl/certs/Trustis_FPS_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Trustis_FPS_Root_CA.crt
+lrwxrwxrwx root       root               67 ./etc/ssl/certs/T-TeleSec_GlobalRoot_Class_2.pem -> /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
+lrwxrwxrwx root       root               67 ./etc/ssl/certs/T-TeleSec_GlobalRoot_Class_3.pem -> /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt
+lrwxrwxrwx root       root               84 ./etc/ssl/certs/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem -> /usr/share/ca-certificates/mozilla/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.crt
+lrwxrwxrwx root       root               58 ./etc/ssl/certs/TWCA_Global_Root_CA.pem -> /usr/share/ca-certificates/mozilla/TWCA_Global_Root_CA.crt
+lrwxrwxrwx root       root               72 ./etc/ssl/certs/TWCA_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/TWCA_Root_Certification_Authority.crt
+lrwxrwxrwx root       root               76 ./etc/ssl/certs/USERTrust_ECC_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt
+lrwxrwxrwx root       root               76 ./etc/ssl/certs/USERTrust_RSA_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt
+lrwxrwxrwx root       root               99 ./etc/ssl/certs/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem -> /usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt
+lrwxrwxrwx root       root               99 ./etc/ssl/certs/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem -> /usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt
+lrwxrwxrwx root       root               99 ./etc/ssl/certs/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem -> /usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt
+lrwxrwxrwx root       root               86 ./etc/ssl/certs/VeriSign_Universal_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/VeriSign_Universal_Root_Certification_Authority.crt
+lrwxrwxrwx root       root               59 ./etc/ssl/certs/XRamp_Global_CA_Root.pem -> /usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root             5990 ./usr/sbin/update-ca-certificates
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/ca-certificates
+drwxr-xr-x root       root            12288 ./usr/share/ca-certificates/mozilla
+-rw-r--r-- root       root             2772 ./usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt
+-rw-r--r-- root       root             1972 ./usr/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM.crt
+-rw-r--r-- root       root             2049 ./usr/share/ca-certificates/mozilla/Actalis_Authentication_Root_CA.crt
+-rw-r--r-- root       root             1521 ./usr/share/ca-certificates/mozilla/AddTrust_External_Root.crt
+-rw-r--r-- root       root             1204 ./usr/share/ca-certificates/mozilla/AffirmTrust_Commercial.crt
+-rw-r--r-- root       root             1204 ./usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt
+-rw-r--r-- root       root             1891 ./usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt
+-rw-r--r-- root       root              753 ./usr/share/ca-certificates/mozilla/AffirmTrust_Premium_ECC.crt
+-rw-r--r-- root       root             1188 ./usr/share/ca-certificates/mozilla/Amazon_Root_CA_1.crt
+-rw-r--r-- root       root             1883 ./usr/share/ca-certificates/mozilla/Amazon_Root_CA_2.crt
+-rw-r--r-- root       root              656 ./usr/share/ca-certificates/mozilla/Amazon_Root_CA_3.crt
+-rw-r--r-- root       root              737 ./usr/share/ca-certificates/mozilla/Amazon_Root_CA_4.crt
+-rw-r--r-- root       root             1261 ./usr/share/ca-certificates/mozilla/Atos_TrustedRoot_2011.crt
+-rw-r--r-- root       root             2167 ./usr/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt
+-rw-r--r-- root       root             1261 ./usr/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt
+-rw-r--r-- root       root             1915 ./usr/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt
+-rw-r--r-- root       root             1915 ./usr/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt
+-rw-r--r-- root       root             1935 ./usr/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt
+-rw-r--r-- root       root             1330 ./usr/share/ca-certificates/mozilla/Certigna.crt
+-rw-r--r-- root       root             1992 ./usr/share/ca-certificates/mozilla/Certinomis_-_Root_CA.crt
+-rw-r--r-- root       root             1298 ./usr/share/ca-certificates/mozilla/Certplus_Class_2_Primary_CA.crt
+-rw-r--r-- root       root             1176 ./usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt
+-rw-r--r-- root       root             2078 ./usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA_2.crt
+-rw-r--r-- root       root             1354 ./usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt
+-rw-r--r-- root       root             1984 ./usr/share/ca-certificates/mozilla/CFCA_EV_ROOT.crt
+-rw-r--r-- root       root             2594 ./usr/share/ca-certificates/mozilla/Chambers_of_Commerce_Root_-_2008.crt
+-rw-r--r-- root       root             1517 ./usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt
+-rw-r--r-- root       root             1489 ./usr/share/ca-certificates/mozilla/COMODO_Certification_Authority.crt
+-rw-r--r-- root       root              940 ./usr/share/ca-certificates/mozilla/COMODO_ECC_Certification_Authority.crt
+-rw-r--r-- root       root             2086 ./usr/share/ca-certificates/mozilla/COMODO_RSA_Certification_Authority.crt
+-rw-r--r-- root       root             1318 ./usr/share/ca-certificates/mozilla/Cybertrust_Global_Root.crt
+-rw-r--r-- root       root             1318 ./usr/share/ca-certificates/mozilla/Deutsche_Telekom_Root_CA_2.crt
+-rw-r--r-- root       root             1350 ./usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt
+-rw-r--r-- root       root             1306 ./usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt
+-rw-r--r-- root       root              851 ./usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G3.crt
+-rw-r--r-- root       root             1338 ./usr/share/ca-certificates/mozilla/DigiCert_Global_Root_CA.crt
+-rw-r--r-- root       root             1294 ./usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G2.crt
+-rw-r--r-- root       root              839 ./usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G3.crt
+-rw-r--r-- root       root             1367 ./usr/share/ca-certificates/mozilla/DigiCert_High_Assurance_EV_Root_CA.crt
+-rw-r--r-- root       root             1988 ./usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt
+-rw-r--r-- root       root             1200 ./usr/share/ca-certificates/mozilla/DST_Root_CA_X3.crt
+-rw-r--r-- root       root             1517 ./usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt
+-rw-r--r-- root       root             1537 ./usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt
+-rw-r--r-- root       root             1911 ./usr/share/ca-certificates/mozilla/EC-ACC.crt
+-rw-r--r-- root       root             1452 ./usr/share/ca-certificates/mozilla/EE_Certification_Centre_Root_CA.crt
+-rw-r--r-- root       root             1505 ./usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt
+-rw-r--r-- root       root             1643 ./usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt
+-rw-r--r-- root       root             1090 ./usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt
+-rw-r--r-- root       root             1533 ./usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt
+-rw-r--r-- root       root             2033 ./usr/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt
+-rw-r--r-- root       root             2244 ./usr/share/ca-certificates/mozilla/E-Tugra_Certification_Authority.crt
+-rw-r--r-- root       root             1980 ./usr/share/ca-certificates/mozilla/GDCA_TrustAUTH_R5_ROOT.crt
+-rw-r--r-- root       root             1216 ./usr/share/ca-certificates/mozilla/GeoTrust_Global_CA.crt
+-rw-r--r-- root       root             1269 ./usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority.crt
+-rw-r--r-- root       root              989 ./usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt
+-rw-r--r-- root       root             1444 ./usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt
+-rw-r--r-- root       root             1939 ./usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA_2.crt
+-rw-r--r-- root       root             1935 ./usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA.crt
+-rw-r--r-- root       root             2585 ./usr/share/ca-certificates/mozilla/Global_Chambersign_Root_-_2008.crt
+-rw-r--r-- root       root              713 ./usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt
+-rw-r--r-- root       root              794 ./usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt
+-rw-r--r-- root       root             1261 ./usr/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt
+-rw-r--r-- root       root             1354 ./usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R2.crt
+-rw-r--r-- root       root             1229 ./usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt
+-rw-r--r-- root       root             1972 ./usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R6.crt
+-rw-r--r-- root       root             1448 ./usr/share/ca-certificates/mozilla/Go_Daddy_Class_2_CA.crt
+-rw-r--r-- root       root             1367 ./usr/share/ca-certificates/mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt
+-rw-r--r-- root       root             1017 ./usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.crt
+-rw-r--r-- root       root             1513 ./usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt
+-rw-r--r-- root       root             2155 ./usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2015.crt
+-rw-r--r-- root       root             1168 ./usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_1.crt
+-rw-r--r-- root       root             1923 ./usr/share/ca-certificates/mozilla/IdenTrust_Commercial_Root_CA_1.crt
+-rw-r--r-- root       root             1931 ./usr/share/ca-certificates/mozilla/IdenTrust_Public_Sector_Root_CA_1.crt
+-rw-r--r-- root       root             1939 ./usr/share/ca-certificates/mozilla/ISRG_Root_X1.crt
+-rw-r--r-- root       root             2122 ./usr/share/ca-certificates/mozilla/Izenpe.com.crt
+-rw-r--r-- root       root             2057 ./usr/share/ca-certificates/mozilla/LuxTrust_Global_Root_2.crt
+-rw-r--r-- root       root             1460 ./usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA_2009.crt
+-rw-r--r-- root       root             1476 ./usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt
+-rw-r--r-- root       root             1411 ./usr/share/ca-certificates/mozilla/Network_Solutions_Certificate_Authority.crt
+-rw-r--r-- root       root             1428 ./usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt
+-rw-r--r-- root       root             1346 ./usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
+-rw-r--r-- root       root              895 ./usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GC_CA.crt
+-rw-r--r-- root       root             1923 ./usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_1_G3.crt
+-rw-r--r-- root       root             2041 ./usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2.crt
+-rw-r--r-- root       root             1923 ./usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2_G3.crt
+-rw-r--r-- root       root             2354 ./usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3.crt
+-rw-r--r-- root       root             1923 ./usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3_G3.crt
+-rw-r--r-- root       root             2078 ./usr/share/ca-certificates/mozilla/QuoVadis_Root_CA.crt
+-rw-r--r-- root       root             1354 ./usr/share/ca-certificates/mozilla/Secure_Global_CA.crt
+-rw-r--r-- root       root             1249 ./usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt
+-rw-r--r-- root       root             1350 ./usr/share/ca-certificates/mozilla/SecureTrust_CA.crt
+-rw-r--r-- root       root             1261 ./usr/share/ca-certificates/mozilla/Security_Communication_RootCA2.crt
+-rw-r--r-- root       root             1224 ./usr/share/ca-certificates/mozilla/Security_Communication_Root_CA.crt
+-rw-r--r-- root       root             1143 ./usr/share/ca-certificates/mozilla/Sonera_Class_2_Root_CA.crt
+-rw-r--r-- root       root              956 ./usr/share/ca-certificates/mozilla/SSL.com_EV_Root_Certification_Authority_ECC.crt
+-rw-r--r-- root       root             2114 ./usr/share/ca-certificates/mozilla/SSL.com_EV_Root_Certification_Authority_RSA_R2.crt
+-rw-r--r-- root       root              944 ./usr/share/ca-certificates/mozilla/SSL.com_Root_Certification_Authority_ECC.crt
+-rw-r--r-- root       root             2094 ./usr/share/ca-certificates/mozilla/SSL.com_Root_Certification_Authority_RSA.crt
+-rw-r--r-- root       root             1948 ./usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_EV_Root_CA.crt
+-rw-r--r-- root       root             2069 ./usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt
+-rw-r--r-- root       root             1952 ./usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G3.crt
+-rw-r--r-- root       root             1468 ./usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt
+-rw-r--r-- root       root             1399 ./usr/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt
+-rw-r--r-- root       root             1424 ./usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt
+-rw-r--r-- root       root             2045 ./usr/share/ca-certificates/mozilla/SwissSign_Gold_CA_-_G2.crt
+-rw-r--r-- root       root             2049 ./usr/share/ca-certificates/mozilla/SwissSign_Silver_CA_-_G2.crt
+-rw-r--r-- root       root             1257 ./usr/share/ca-certificates/mozilla/SZAFIR_ROOT_CA2.crt
+-rw-r--r-- root       root             1948 ./usr/share/ca-certificates/mozilla/Taiwan_GRCA.crt
+-rw-r--r-- root       root             1870 ./usr/share/ca-certificates/mozilla/TeliaSonera_Root_CA_v1.crt
+-rw-r--r-- root       root             1493 ./usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA.crt
+-rw-r--r-- root       root              940 ./usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G2.crt
+-rw-r--r-- root       root             1505 ./usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G3.crt
+-rw-r--r-- root       root             1493 ./usr/share/ca-certificates/mozilla/TrustCor_ECA-1.crt
+-rw-r--r-- root       root             1513 ./usr/share/ca-certificates/mozilla/TrustCor_RootCert_CA-1.crt
+-rw-r--r-- root       root             2204 ./usr/share/ca-certificates/mozilla/TrustCor_RootCert_CA-2.crt
+-rw-r--r-- root       root             1241 ./usr/share/ca-certificates/mozilla/Trustis_FPS_Root_CA.crt
+-rw-r--r-- root       root             1367 ./usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
+-rw-r--r-- root       root             1367 ./usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt
+-rw-r--r-- root       root             1582 ./usr/share/ca-certificates/mozilla/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.crt
+-rw-r--r-- root       root             1883 ./usr/share/ca-certificates/mozilla/TWCA_Global_Root_CA.crt
+-rw-r--r-- root       root             1269 ./usr/share/ca-certificates/mozilla/TWCA_Root_Certification_Authority.crt
+-rw-r--r-- root       root              948 ./usr/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt
+-rw-r--r-- root       root             2094 ./usr/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt
+-rw-r--r-- root       root             1484 ./usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt
+-rw-r--r-- root       root             1281 ./usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt
+-rw-r--r-- root       root             1732 ./usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt
+-rw-r--r-- root       root             1700 ./usr/share/ca-certificates/mozilla/VeriSign_Universal_Root_Certification_Authority.crt
+-rw-r--r-- root       root             1513 ./usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt

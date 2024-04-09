@@ -1,0 +1,8 @@
+PV = 0.0.1-13
+PR = r2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg luna-surfacemanager-dbg qtbase-dbg qtdeclarative-dbg qtwayland-dbg
+PKGSIZE = 2093554
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/plugins/compositor/.debug/libwebosautocompositorplugin.so /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/build/src/plugins/compositor/webosauto/moc_debugtypes.cpp /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/build/src/plugins/compositor/webosauto/moc_webosautocompositor.cpp /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/build/src/plugins/compositor/webosauto/moc_webosautocompositorplugin.cpp /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/build/src/plugins/compositor/webosauto/moc_webosautocompositorwindow.cpp /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/git/src/plugins/compositor/webosauto/debugtypes.cpp /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/git/src/plugins/compositor/webosauto/debugtypes.h /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/git/src/plugins/compositor/webosauto/webosautocompositor.cpp /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/git/src/plugins/compositor/webosauto/webosautocompositor.h /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/git/src/plugins/compositor/webosauto/webosautocompositorplugin.cpp /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/git/src/plugins/compositor/webosauto/webosautocompositorplugin.h /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/git/src/plugins/compositor/webosauto/webosautocompositorwindow.cpp /usr/src/debug/auto-luna-surface-manager/0.0.1-13-r2/git/src/plugins/compositor/webosauto/webosautocompositorwindow.h

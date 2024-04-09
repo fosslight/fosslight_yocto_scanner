@@ -1,0 +1,8 @@
+PV = 1.0.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libwebp (>= 1.0.0)
+RRECOMMENDS = 
+PKGSIZE = 339120
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/cwebp /usr/bin/dwebp /usr/bin/img2webp /usr/bin/webpinfo /usr/bin/webpmux

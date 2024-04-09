@@ -1,8 +1,0 @@
-PV = 10.1.0
-PR = r0
-RPROVIDES = eo-translation gcc-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-eo
-PKGSIZE = 23839
-FILES = /usr/share/locale/eo
-FILELIST = /usr/share/locale/eo/LC_MESSAGES/cpplib.mo

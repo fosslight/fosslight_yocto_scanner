@@ -1,0 +1,5 @@
+PV = 1.1.0+git27ecc97192df1bf053a22b04463f2b51b8b8373e
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = go-cli-dbg go-cli-staticdev go-cli-dev go-cli-doc go-cli-locale go-cli
+LAYER = virtualization-layer

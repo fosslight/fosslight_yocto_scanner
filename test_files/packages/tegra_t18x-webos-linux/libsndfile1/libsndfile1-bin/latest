@@ -1,0 +1,9 @@
+PV = 1.0.28
+PR = r0
+PKG = libsndfile-bin
+RPROVIDES = libsndfile1-bin (=1.0.28)
+RDEPENDS = alsa-lib (>= 1.1.6) glibc (>= 2.28) libsndfile1 (>= 1.0.28)
+RRECOMMENDS = 
+PKGSIZE = 678336
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/sndfile-cmp /usr/bin/sndfile-concat /usr/bin/sndfile-convert /usr/bin/sndfile-deinterleave /usr/bin/sndfile-info /usr/bin/sndfile-interleave /usr/bin/sndfile-metadata-get /usr/bin/sndfile-metadata-set /usr/bin/sndfile-play /usr/bin/sndfile-salvage

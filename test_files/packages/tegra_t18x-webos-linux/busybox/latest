@@ -1,0 +1,5 @@
+PV = 1.29.3
+PR = r0
+DEPENDS = icecc-create-env-native kern-tools-native systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/crypt virtual/libc virtual/update-alternatives
+PACKAGES = busybox-ptest busybox-httpd busybox-udhcpd busybox-udhcpc busybox-syslog busybox-mdev busybox-hwclock busybox-dbg busybox-staticdev busybox-dev busybox-doc busybox-locale busybox
+LAYER = core

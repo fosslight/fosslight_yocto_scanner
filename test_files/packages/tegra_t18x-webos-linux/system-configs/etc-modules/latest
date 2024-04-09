@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2343
+FILES = /etc/modules /etc/modprobe.d/blacklist.conf
+FILELIST = /etc/modprobe.d/blacklist.conf /etc/modules

@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/hunspell
+-rw-r--r-- root       root             3500 ./usr/include/hunspell/atypes.hxx
+-rw-r--r-- root       root            11925 ./usr/include/hunspell/csutil.hxx
+-rw-r--r-- root       root             2818 ./usr/include/hunspell/htypes.hxx
+-rw-r--r-- root       root             6691 ./usr/include/hunspell/hunspell.h
+-rw-r--r-- root       root             9111 ./usr/include/hunspell/hunspell.hxx
+-rw-r--r-- root       root              497 ./usr/include/hunspell/hunvisapi.h
+-rw-r--r-- root       root             2603 ./usr/include/hunspell/w_char.hxx
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               24 ./usr/lib/libhunspell-1.6.so -> libhunspell-1.6.so.0.0.1
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              215 ./usr/lib/pkgconfig/hunspell.pc

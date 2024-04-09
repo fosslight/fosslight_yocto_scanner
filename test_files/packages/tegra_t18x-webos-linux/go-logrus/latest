@@ -1,0 +1,5 @@
+PV = 0.11.0+gitd26492970760ca5d33129d2d799e34be5c4782eb
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = go-logrus-dbg go-logrus-staticdev go-logrus-dev go-logrus-doc go-logrus-locale go-logrus
+LAYER = virtualization-layer

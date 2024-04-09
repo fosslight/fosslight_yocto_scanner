@@ -1,0 +1,10 @@
+PE = 1
+PV = 2.0.0
+PR = r0
+PKG = libjpeg-dev
+RPROVIDES = libjpeg-turbo-dev (=2.0.0)
+RDEPENDS = libjpeg-turbo (= 1:2.0.0-r0) libturbojpeg
+RRECOMMENDS = glibc-dev libturbojpeg-dev
+PKGSIZE = 157140
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libjpeg-turbo/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/jconfig.h /usr/include/jerror.h /usr/include/jmorecfg.h /usr/include/jpeglib.h /usr/include/turbojpeg.h /usr/lib/libjpeg.so /usr/lib/libturbojpeg.so /usr/lib/pkgconfig/libjpeg.pc /usr/lib/pkgconfig/libturbojpeg.pc

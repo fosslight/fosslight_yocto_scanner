@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 8719
-FILES = /usr/share/i18n/locales/POSIX
-FILELIST = /usr/share/i18n/locales/POSIX

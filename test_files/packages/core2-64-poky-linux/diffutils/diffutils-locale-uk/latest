@@ -1,8 +1,0 @@
-PV = 3.7
-PR = r0
-RPROVIDES = diffutils-locale uk-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-uk
-PKGSIZE = 45459
-FILES = /usr/share/locale/uk
-FILELIST = /usr/share/locale/uk/LC_MESSAGES/diffutils.mo

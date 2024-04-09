@@ -1,9 +1,0 @@
-PV = 3.8.2
-PR = r0
-PKG = libpython3.8-staticdev
-RPROVIDES = libpython3-staticdev (=3.8.2)
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 20264412
-FILES = /usr/lib/python3.8/config-3.8-*/libpython3.8.a
-FILELIST = /usr/lib/python3.8/config-3.8-x86_64-linux-gnu/libpython3.8.a

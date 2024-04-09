@@ -1,0 +1,8 @@
+PV = 1.0.0-4
+PR = r6
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2508
+FILES = /usr/palm/services/com.palm.service.devmode/tests /usr/share/luna-service2/roles.d/com.palm.service.devmode.test.json /usr/share/luna-service2/manifests.d/com.palm.service.devmode-tests.manifest.json
+FILELIST = /usr/palm/services/com.palm.service.devmode/tests/sanity.js /usr/share/luna-service2/manifests.d/com.palm.service.devmode-tests.manifest.json

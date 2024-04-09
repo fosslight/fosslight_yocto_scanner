@@ -1,0 +1,8 @@
+PV = 0.11.0+gitd26492970760ca5d33129d2d799e34be5c4782eb
+PR = r0
+RPROVIDES = 
+RDEPENDS = go-logrus (= 0.11.0+gitd26492970760ca5d33129d2d799e34be5c4782eb-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/go-logrus/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

@@ -1,0 +1,8 @@
+PV = 1.6.2
+PR = r0
+RPROVIDES = hu-translation hunspell-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hu
+PKGSIZE = 0
+FILES = /usr/share/locale/hu
+FILELIST = 

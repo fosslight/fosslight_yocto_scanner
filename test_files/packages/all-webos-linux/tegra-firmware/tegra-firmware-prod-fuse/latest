@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 92832
+FILES = /lib/firmware/gp10b/g_c85b6_gp10b_desc.bin /lib/firmware/gp10b/g_c85b6_gp10b_image.bin /lib/firmware/gp10b/g_c85b6_gp10b_sign.bin
+FILELIST = /lib/firmware/gp10b/g_c85b6_gp10b_desc.bin /lib/firmware/gp10b/g_c85b6_gp10b_image.bin /lib/firmware/gp10b/g_c85b6_gp10b_sign.bin

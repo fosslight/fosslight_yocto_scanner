@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-iso14651-t1 glibc-localedata-pl-pl
+RRECOMMENDS = 
+PKGSIZE = 4892
+FILES = /usr/share/i18n/locales/szl_PL
+FILELIST = /usr/share/i18n/locales/szl_PL

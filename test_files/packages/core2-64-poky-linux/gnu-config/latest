@@ -1,5 +1,0 @@
-PV = 20200117+gitAUTOINC+5256817ace
-PR = r0
-DEPENDS = 
-PACKAGES = gnu-config-src gnu-config
-LAYER = core

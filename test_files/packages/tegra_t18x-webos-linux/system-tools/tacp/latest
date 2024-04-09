@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = ref-hw-chipset-drivers-tacp
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = tacp/tacp_test_app tacp/tacp_ping.sh
+FILELIST = 

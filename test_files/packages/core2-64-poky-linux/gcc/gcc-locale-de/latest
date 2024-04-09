@@ -1,8 +1,0 @@
-PV = 10.1.0
-PR = r0
-RPROVIDES = de-translation gcc-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-de
-PKGSIZE = 1919428
-FILES = /usr/share/locale/de
-FILELIST = /usr/share/locale/de/LC_MESSAGES/cpplib.mo /usr/share/locale/de/LC_MESSAGES/gcc.mo

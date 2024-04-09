@@ -1,0 +1,8 @@
+PV = 3.2.5
+PR = r5
+RPROVIDES = 
+RDEPENDS = enact-framework-dev (= 3.2.5-r5)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/enact-framework/*.a
+FILELIST = 

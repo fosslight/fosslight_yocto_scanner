@@ -1,0 +1,26 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/vulkan
+-rw-r--r-- root       root             5366 ./usr/include/vulkan/vk_icd.h
+-rw-r--r-- root       root            24709 ./usr/include/vulkan/vk_layer_dispatch_table.h
+-rw-r--r-- root       root             6998 ./usr/include/vulkan/vk_layer.h
+-rw-r--r-- root       root             3279 ./usr/include/vulkan/vk_platform.h
+-rw-r--r-- root       root             1913 ./usr/include/vulkan/vk_sdk_platform.h
+-rw-r--r-- root       root             4729 ./usr/include/vulkan/vulkan_android.h
+-rw-r--r-- root       root           364910 ./usr/include/vulkan/vulkan_core.h
+-rw-r--r-- root       root             1590 ./usr/include/vulkan/vulkan.h
+-rw-r--r-- root       root          1803436 ./usr/include/vulkan/vulkan.hpp
+-rw-r--r-- root       root             1754 ./usr/include/vulkan/vulkan_ios.h
+-rw-r--r-- root       root             1784 ./usr/include/vulkan/vulkan_macos.h
+-rw-r--r-- root       root             2241 ./usr/include/vulkan/vulkan_mir.h
+-rw-r--r-- root       root             1729 ./usr/include/vulkan/vulkan_vi.h
+-rw-r--r-- root       root             2307 ./usr/include/vulkan/vulkan_wayland.h
+-rw-r--r-- root       root            11236 ./usr/include/vulkan/vulkan_win32.h
+-rw-r--r-- root       root             2325 ./usr/include/vulkan/vulkan_xcb.h
+-rw-r--r-- root       root             2305 ./usr/include/vulkan/vulkan_xlib.h
+-rw-r--r-- root       root             1845 ./usr/include/vulkan/vulkan_xlib_xrandr.h
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root          1706248 ./usr/lib/libVkLayer_utils.so
+lrwxrwxrwx root       root               14 ./usr/lib/libvulkan.so -> libvulkan.so.1
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              253 ./usr/lib/pkgconfig/vulkan.pc

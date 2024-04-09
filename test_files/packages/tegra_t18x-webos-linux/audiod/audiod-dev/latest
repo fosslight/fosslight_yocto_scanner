@@ -1,0 +1,8 @@
+PV = 1.0.0-12
+PR = r25
+RPROVIDES = 
+RDEPENDS = audiod (= 1.0.0-12-r25)
+RRECOMMENDS = babeltrace-dev boost-dev glib-2.0-dev glibc-dev libasound-dev libasound-module-pcm-pulse-dev libgcc-dev libpbnjson-dev libpulse-dev libpulsecore-dev libstdc++-dev lttng-modules-dev lttng-tools-dev lttng-ust-dev luna-prefs-dev luna-service2-dev pmloglib-dev pulseaudio-dev pulseaudio-lib-cli-dev pulseaudio-lib-protocol-cli-dev pulseaudio-misc-dev pulseaudio-module-cli-protocol-tcp-dev pulseaudio-module-cli-protocol-unix-dev pulseaudio-server-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/audiod/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

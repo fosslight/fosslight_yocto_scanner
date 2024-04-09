@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 321022
-FILES = /usr/lib/locale/mi_NZ.ISO-8859-13
-FILELIST = /usr/lib/locale/mi_NZ.ISO-8859-13/LC_ADDRESS /usr/lib/locale/mi_NZ.ISO-8859-13/LC_COLLATE /usr/lib/locale/mi_NZ.ISO-8859-13/LC_CTYPE /usr/lib/locale/mi_NZ.ISO-8859-13/LC_IDENTIFICATION /usr/lib/locale/mi_NZ.ISO-8859-13/LC_MEASUREMENT /usr/lib/locale/mi_NZ.ISO-8859-13/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/mi_NZ.ISO-8859-13/LC_MONETARY /usr/lib/locale/mi_NZ.ISO-8859-13/LC_NAME /usr/lib/locale/mi_NZ.ISO-8859-13/LC_NUMERIC /usr/lib/locale/mi_NZ.ISO-8859-13/LC_PAPER /usr/lib/locale/mi_NZ.ISO-8859-13/LC_TELEPHONE /usr/lib/locale/mi_NZ.ISO-8859-13/LC_TIME

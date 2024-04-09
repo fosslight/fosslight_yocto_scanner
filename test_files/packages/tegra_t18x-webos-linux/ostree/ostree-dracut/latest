@@ -1,0 +1,9 @@
+PV = v2018.9
+PR = r0
+PKGR = r0webosupdater1
+RPROVIDES = 
+RDEPENDS = busybox
+RRECOMMENDS = 
+PKGSIZE = 2312
+FILES = /etc/dracut.conf.d /usr/lib/dracut
+FILELIST = /etc/dracut.conf.d/ostree.conf /usr/lib/dracut/modules.d/98ostree/module-setup.sh

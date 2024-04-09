@@ -1,0 +1,5 @@
+PV = 0.1.0-25
+PR = r0
+DEPENDS = bluetooth-sil-api cmake-modules-webos-native cmake-native glib-2.0 glib-2.0-native icecc-create-env-native ninja-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = bluetooth-sil-bluez5-dbg bluetooth-sil-bluez5-staticdev bluetooth-sil-bluez5-dev bluetooth-sil-bluez5-doc bluetooth-sil-bluez5-locale bluetooth-sil-bluez5
+LAYER = meta-webos

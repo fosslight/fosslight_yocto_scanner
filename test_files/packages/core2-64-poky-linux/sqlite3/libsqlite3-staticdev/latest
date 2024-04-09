@@ -1,9 +1,0 @@
-PE = 3
-PV = 3.31.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/lib/lib*.a
-FILELIST = 

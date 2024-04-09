@@ -1,0 +1,5 @@
+PV = 8.43
+PR = r0
+DEPENDS = autoconf-native automake-native bzip2 gnu-config-native icecc-create-env-native libtool-cross libtool-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc zlib
+PACKAGES = libpcrecpp libpcreposix pcregrep pcregrep-doc pcretest pcretest-doc libpcre-ptest libpcre-dbg libpcre-staticdev libpcre-dev libpcre-doc libpcre-locale libpcre
+LAYER = coconut-layer

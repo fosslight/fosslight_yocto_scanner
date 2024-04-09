@@ -1,0 +1,9 @@
+PV = 1.4.0+gitAUTOINC+777daa17ff
+PR = r0
+PKGV = 1.4.0+git0+777daa17ff
+RPROVIDES = 
+RDEPENDS = grpc-go-dev (= 1.4.0+git0+777daa17ff-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/grpc-go/*.a
+FILELIST = 

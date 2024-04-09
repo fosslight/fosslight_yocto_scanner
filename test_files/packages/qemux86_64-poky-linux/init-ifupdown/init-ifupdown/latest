@@ -1,9 +1,0 @@
-PV = 1.0
-PR = r7
-RPROVIDES = 
-RDEPENDS = netbase
-RRECOMMENDS = update-rc.d
-RCONFLICTS = netbase (< 1:5.0)
-PKGSIZE = 2897
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/init-ifupdown /usr/lib/init-ifupdown/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /etc/init.d/networking /etc/network/if-pre-up.d/nfsroot /etc/network/interfaces /etc/network/nm-disabled-eth0

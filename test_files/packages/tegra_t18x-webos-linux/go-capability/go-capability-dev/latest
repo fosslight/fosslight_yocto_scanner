@@ -1,0 +1,9 @@
+PV = 0.0+gitAUTOINC+2c00daeb6c
+PR = r0
+PKGV = 0.0+git0+2c00daeb6c
+RPROVIDES = 
+RDEPENDS = go-capability (= 0.0+git0+2c00daeb6c-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/go-capability/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67600 ./usr/lib/libi2c.so.0.1.1
+lrwxrwxrwx root       root               15 ./usr/lib/libi2c.so.0 -> libi2c.so.0.1.1
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            67736 ./usr/sbin/eeprog
+-rwxr-xr-x root       root            67832 ./usr/sbin/i2cdetect.i2c-tools
+-rwxr-xr-x root       root            67832 ./usr/sbin/i2cdump.i2c-tools
+-rwxr-xr-x root       root            67832 ./usr/sbin/i2cget.i2c-tools
+-rwxr-xr-x root       root            67832 ./usr/sbin/i2cset.i2c-tools
+-rwxr-xr-x root       root            67824 ./usr/sbin/i2ctransfer

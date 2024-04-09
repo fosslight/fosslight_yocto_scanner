@@ -1,4 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
--rwxr-xr-x root       root          2741968 ./usr/lib/libmpfr.so.6.0.2
-lrwxrwxrwx root       root               16 ./usr/lib/libmpfr.so.6 -> libmpfr.so.6.0.2

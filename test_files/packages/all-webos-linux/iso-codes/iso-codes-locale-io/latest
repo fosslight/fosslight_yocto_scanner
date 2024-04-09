@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = io-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-io
+PKGSIZE = 9339
+FILES = /usr/share/locale/io
+FILELIST = /usr/share/locale/io/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/io/LC_MESSAGES/iso_3166.mo

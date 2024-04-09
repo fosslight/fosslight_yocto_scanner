@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /sbin/swapoff swapoff /sbin/swapoff.util-linux 80
+	update-alternatives --install /sbin/swapon swapon /sbin/swapon.util-linux 80

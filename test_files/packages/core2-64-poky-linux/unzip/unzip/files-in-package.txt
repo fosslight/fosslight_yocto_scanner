@@ -1,7 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root            26576 ./usr/bin/funzip
--rwxr-xr-x root       root            88152 ./usr/bin/unzipsfx
--rwxr-xr-x root       root           186472 ./usr/bin/unzip.unzip
--rwxr-xr-x root       root             2953 ./usr/bin/zipgrep
--rwxr-xr-x root       root           186472 ./usr/bin/zipinfo

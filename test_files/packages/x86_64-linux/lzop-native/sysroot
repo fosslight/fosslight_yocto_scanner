@@ -1,6 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  11 ./sysroot-providers/lzop-native
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               73832 ./usr/bin/lzop
-drwxr-xr-x -          -                4096 ./usr/share

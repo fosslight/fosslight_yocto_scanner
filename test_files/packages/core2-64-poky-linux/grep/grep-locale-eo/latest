@@ -1,8 +1,0 @@
-PV = 3.4
-PR = r0
-RPROVIDES = eo-translation grep-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-eo
-PKGSIZE = 11325
-FILES = /usr/share/locale/eo
-FILELIST = /usr/share/locale/eo/LC_MESSAGES/grep.mo

@@ -1,0 +1,9 @@
+PV = 2.6
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = dbus-lib (>= 1.12.10) glibc (>= 2.28) gnutls (>= 3.6.4) libgcrypt (>= 1.8.4) libnl (>= 3.4.0) libnl-genl (>= 3.4.0)
+RRECOMMENDS = wpa-supplicant-cli wpa-supplicant-passphrase
+PKGSIZE = 1321275
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/wpa-supplicant /usr/lib/wpa-supplicant/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services/* /lib/systemd /lib/systemd/system/wpa_supplicant-nl80211@.service /lib/systemd/system/wpa_supplicant-wired@.service /etc/systemd/system/wpa-supplicant.service
+FILELIST = /etc/dbus-1/system.d/dbus-wpa_supplicant.conf /etc/default/volatiles/99_wpa_supplicant /etc/network/if-post-down.d/wpa-supplicant /etc/network/if-pre-up.d/wpa-supplicant /etc/systemd/system/scripts/wpa-supplicant.sh /etc/systemd/system/wpa-supplicant.service /etc/wpa_supplicant.conf /lib/systemd/system/wpa_supplicant-nl80211@.service /lib/systemd/system/wpa_supplicant-wired@.service /lib/systemd/system/wpa_supplicant@.service /usr/sbin/wpa_supplicant /usr/share/dbus-1/system-services/fi.epitest.hostap.WPASupplicant.service /usr/share/dbus-1/system-services/fi.w1.wpa_supplicant1.service

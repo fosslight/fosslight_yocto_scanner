@@ -1,0 +1,35 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/iso-codes
+drwxr-xr-x root       root             4096 ./usr/share/iso-codes/json
+-rw-r--r-- root       root            17097 ./usr/share/iso-codes/json/iso_15924.json
+-rw-r--r-- root       root            36677 ./usr/share/iso-codes/json/iso_3166-1.json
+-rw-r--r-- root       root           469822 ./usr/share/iso-codes/json/iso_3166-2.json
+-rw-r--r-- root       root             5934 ./usr/share/iso-codes/json/iso_3166-3.json
+-rw-r--r-- root       root            15522 ./usr/share/iso-codes/json/iso_4217.json
+-rw-r--r-- root       root            36787 ./usr/share/iso-codes/json/iso_639-2.json
+-rw-r--r-- root       root           867091 ./usr/share/iso-codes/json/iso_639-3.json
+-rw-r--r-- root       root             8486 ./usr/share/iso-codes/json/iso_639-5.json
+-rw-r--r-- root       root              960 ./usr/share/iso-codes/json/schema-15924.json
+-rw-r--r-- root       root             1438 ./usr/share/iso-codes/json/schema-3166-1.json
+-rw-r--r-- root       root             1045 ./usr/share/iso-codes/json/schema-3166-2.json
+-rw-r--r-- root       root             1665 ./usr/share/iso-codes/json/schema-3166-3.json
+-rw-r--r-- root       root              934 ./usr/share/iso-codes/json/schema-4217.json
+-rw-r--r-- root       root             1299 ./usr/share/iso-codes/json/schema-639-2.json
+-rw-r--r-- root       root             1913 ./usr/share/iso-codes/json/schema-639-3.json
+-rw-r--r-- root       root              768 ./usr/share/iso-codes/json/schema-639-5.json
+drwxr-xr-x root       root             4096 ./usr/share/xml
+drwxr-xr-x root       root             4096 ./usr/share/xml/iso-codes
+-rw-r--r-- root       root            17766 ./usr/share/xml/iso-codes/iso_15924.xml
+-rw-r--r-- root       root            39667 ./usr/share/xml/iso-codes/iso_3166-1.xml
+-rw-r--r-- root       root           314865 ./usr/share/xml/iso-codes/iso_3166-2.xml
+lrwxrwxrwx root       root               14 ./usr/share/xml/iso-codes/iso_3166_2.xml -> iso_3166-2.xml
+-rw-r--r-- root       root                0 ./usr/share/xml/iso-codes/iso_3166-3.xml
+lrwxrwxrwx root       root               14 ./usr/share/xml/iso-codes/iso_3166.xml -> iso_3166-1.xml
+-rw-r--r-- root       root            30565 ./usr/share/xml/iso-codes/iso_4217.xml
+-rw-r--r-- root       root            48769 ./usr/share/xml/iso-codes/iso_639-2.xml
+-rw-r--r-- root       root          1007405 ./usr/share/xml/iso-codes/iso_639-3.xml
+lrwxrwxrwx root       root               13 ./usr/share/xml/iso-codes/iso_639_3.xml -> iso_639-3.xml
+-rw-r--r-- root       root             8484 ./usr/share/xml/iso-codes/iso_639-5.xml
+lrwxrwxrwx root       root               13 ./usr/share/xml/iso-codes/iso_639_5.xml -> iso_639-5.xml
+lrwxrwxrwx root       root               13 ./usr/share/xml/iso-codes/iso_639.xml -> iso_639-2.xml

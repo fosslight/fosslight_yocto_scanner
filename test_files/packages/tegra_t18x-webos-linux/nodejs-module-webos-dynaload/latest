@@ -1,0 +1,5 @@
+PV = 3.0.2-1
+PR = r6
+DEPENDS = boost icecc-create-env-native node-gyp-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = nodejs-module-webos-dynaload-dbg nodejs-module-webos-dynaload-staticdev nodejs-module-webos-dynaload-dev nodejs-module-webos-dynaload-doc nodejs-module-webos-dynaload-locale nodejs-module-webos-dynaload
+LAYER = meta-webos

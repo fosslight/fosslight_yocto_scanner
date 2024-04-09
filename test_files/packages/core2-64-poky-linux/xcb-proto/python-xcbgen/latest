@@ -1,8 +1,0 @@
-PV = 1.14
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 188081
-FILES = /usr/lib/python3.8/site-packages
-FILELIST = /usr/lib/python3.8/site-packages/xcbgen/__init__.py /usr/lib/python3.8/site-packages/xcbgen/__pycache__/__init__.cpython-38.opt-1.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/__init__.cpython-38.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/align.cpython-38.opt-1.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/align.cpython-38.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/error.cpython-38.opt-1.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/error.cpython-38.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/expr.cpython-38.opt-1.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/expr.cpython-38.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/matcher.cpython-38.opt-1.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/matcher.cpython-38.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/state.cpython-38.opt-1.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/state.cpython-38.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/xtypes.cpython-38.opt-1.pyc /usr/lib/python3.8/site-packages/xcbgen/__pycache__/xtypes.cpython-38.pyc /usr/lib/python3.8/site-packages/xcbgen/align.py /usr/lib/python3.8/site-packages/xcbgen/error.py /usr/lib/python3.8/site-packages/xcbgen/expr.py /usr/lib/python3.8/site-packages/xcbgen/matcher.py /usr/lib/python3.8/site-packages/xcbgen/state.py /usr/lib/python3.8/site-packages/xcbgen/xtypes.py

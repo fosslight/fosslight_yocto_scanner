@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = virtual-locale-mt virtual-locale-mt-mt.iso-8859-3
-RDEPENDS = glibc-binary-localedata-mt-mt.iso-8859-3
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = 
-FILELIST = 

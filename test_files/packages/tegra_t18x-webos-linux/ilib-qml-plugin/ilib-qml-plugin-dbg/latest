@@ -1,0 +1,8 @@
+PV = 11.0.0-2
+PR = r3
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg
+PKGSIZE = 1782175
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/qml/iLib/.debug/libFileReader.so /usr/src/debug/ilib-qml-plugin/11.0.0-2-r3/build/.moc/moc_filereader.cpp /usr/src/debug/ilib-qml-plugin/11.0.0-2-r3/build/.moc/moc_filereader_plugin.cpp /usr/src/debug/ilib-qml-plugin/11.0.0-2-r3/git/filereader.cpp /usr/src/debug/ilib-qml-plugin/11.0.0-2-r3/git/filereader.h /usr/src/debug/ilib-qml-plugin/11.0.0-2-r3/git/filereader_plugin.cpp /usr/src/debug/ilib-qml-plugin/11.0.0-2-r3/git/filereader_plugin.h

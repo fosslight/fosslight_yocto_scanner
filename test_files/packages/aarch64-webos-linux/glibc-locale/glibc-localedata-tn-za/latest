@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-en-za glibc-localedata-i18n glibc-localedata-iso14651-t1
+RRECOMMENDS = 
+PKGSIZE = 7146
+FILES = /usr/share/i18n/locales/tn_ZA
+FILELIST = /usr/share/i18n/locales/tn_ZA

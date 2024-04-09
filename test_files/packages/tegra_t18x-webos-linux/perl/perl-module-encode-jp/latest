@@ -1,0 +1,8 @@
+PV = 5.24.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) perl perl-module-encode perl-module-encode-jp-jis7 perl-module-strict perl-module-warnings perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 2757402
+FILES = /usr/lib/perl/5.24.4/auto/Encode/JP/JP.so /usr/lib/perl/5.24.4/Encode/JP.pm
+FILELIST = /usr/lib/perl/5.24.4/Encode/JP.pm /usr/lib/perl/5.24.4/auto/Encode/JP/JP.so

@@ -1,0 +1,8 @@
+PV = 1.0.0-24
+PR = r11
+RPROVIDES = 
+RDEPENDS = umediaserver-dev (= 1.0.0-24-r11)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/umediaserver/*.a
+FILELIST = 

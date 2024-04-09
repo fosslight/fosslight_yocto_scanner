@@ -1,0 +1,9 @@
+PV = 1.0.0-2
+PR = r1
+PKG = libpdm-plugin-locale
+RPROVIDES = pdm-plugin-locale (=1.0.0-2)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

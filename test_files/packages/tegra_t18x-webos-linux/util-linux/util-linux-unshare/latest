@@ -1,0 +1,9 @@
+PV = 2.32.1
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 68024
+FILES = /usr/bin/unshare.util-linux
+FILELIST = /usr/bin/unshare.util-linux

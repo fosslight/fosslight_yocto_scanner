@@ -1,0 +1,9 @@
+PV = 1.1.1d
+PR = r0
+PKGR = r0webos22
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libcrypto (>= 1.1.1d)
+RRECOMMENDS = 
+PKGSIZE = 203232
+FILES = /usr/lib/engines-1.1
+FILELIST = /usr/lib/engines-1.1/afalg.so /usr/lib/engines-1.1/capi.so /usr/lib/engines-1.1/padlock.so

@@ -1,0 +1,9 @@
+PV = 2.28.1
+PR = r0
+PKG = libatk-1.0-locale-en+shaw
+RPROVIDES = atk-locale atk-locale-en+shaw (=2.28.1) en+shaw-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-en+shaw
+PKGSIZE = 12670
+FILES = /usr/share/locale/en@shaw
+FILELIST = /usr/share/locale/en@shaw/LC_MESSAGES/atk10.mo

@@ -1,0 +1,8 @@
+PV = 0.4.28
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) liborc-0.4 (>= 0.4.28) liborc-test-0.4 (>= 0.4.28)
+RRECOMMENDS = 
+PKGSIZE = 136264
+FILES = /usr/bin/*
+FILELIST = /usr/bin/orc-bugreport /usr/bin/orcc

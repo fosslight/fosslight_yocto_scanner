@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/default
+-rw-r--r-- root       root              146 ./etc/default/ntpdate
+drwxr-xr-x root       root             4096 ./etc/network
+drwxr-xr-x root       root             4096 ./etc/network/if-up.d
+lrwxrwxrwx root       root               21 ./etc/network/if-up.d/ntpdate-sync -> /usr/bin/ntpdate-sync
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              205 ./lib/systemd/system/ntpdate.service
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             1088 ./usr/bin/ntpdate-sync
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           200040 ./usr/sbin/ntpdate

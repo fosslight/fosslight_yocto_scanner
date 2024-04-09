@@ -1,0 +1,5 @@
+PV = 1.11.13
+PR = r0
+DEPENDS = go-native icecc-create-env-native virtual/aarch64-go virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = go-runtime-dbg go-runtime-staticdev go-runtime-dev go-runtime-doc go-runtime-locale go-runtime
+LAYER = core

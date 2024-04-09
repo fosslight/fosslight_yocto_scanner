@@ -1,0 +1,8 @@
+PV = 5.24.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) perl perl-module-carp perl-module-strict perl-module-warnings perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 69120
+FILES = /usr/lib/perl/5.24.4/auto/IO/IO.so /usr/lib/perl/5.24.4/IO.pm
+FILELIST = /usr/lib/perl/5.24.4/IO.pm /usr/lib/perl/5.24.4/auto/IO/IO.so

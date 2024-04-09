@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /usr/share/man/man3/Thread.3 Thread.3 /usr/share/man/man3/Thread.3.perl 40

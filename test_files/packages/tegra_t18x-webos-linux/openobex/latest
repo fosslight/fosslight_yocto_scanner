@@ -1,0 +1,5 @@
+PV = 1.7.2
+PR = r0
+DEPENDS = bluez5 cmake-native icecc-create-env-native ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/libusb0
+PACKAGES = openobex-apps openobex-dbg openobex-staticdev openobex-dev openobex-doc openobex-locale openobex
+LAYER = openembedded-layer

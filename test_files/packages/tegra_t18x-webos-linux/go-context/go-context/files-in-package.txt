@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/local
+drwxr-xr-x root       root             4096 ./usr/local/go
+drwxr-xr-x root       root             4096 ./usr/local/go/src
+drwxr-xr-x root       root             4096 ./usr/local/go/src/github.com
+drwxr-xr-x root       root             4096 ./usr/local/go/src/github.com/gorilla
+drwxr-xr-x root       root             4096 ./usr/local/go/src/github.com/gorilla/context
+-rw-r--r-- root       root             3583 ./usr/local/go/src/github.com/gorilla/context/context.go
+-rw-r--r-- root       root             3284 ./usr/local/go/src/github.com/gorilla/context/context_test.go
+-rw-r--r-- root       root             2470 ./usr/local/go/src/github.com/gorilla/context/doc.go
+-rw-r--r-- root       root             1476 ./usr/local/go/src/github.com/gorilla/context/LICENSE
+-rw-r--r-- root       root              284 ./usr/local/go/src/github.com/gorilla/context/README.md

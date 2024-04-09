@@ -1,0 +1,9 @@
+PV = 2.28.1
+PR = r0
+PKG = libatk-1.0-staticdev
+RPROVIDES = atk-staticdev (=2.28.1)
+RDEPENDS = atk-dev (= 2.28.1-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/atk/*.a
+FILELIST = 

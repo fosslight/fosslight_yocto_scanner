@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /sbin/nologin nologin /sbin/nologin.util-linux 80

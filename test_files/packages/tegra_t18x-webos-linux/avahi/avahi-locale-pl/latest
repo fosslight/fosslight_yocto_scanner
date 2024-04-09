@@ -1,0 +1,8 @@
+PV = 0.7
+PR = r0
+RPROVIDES = avahi-locale pl-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-pl
+PKGSIZE = 17807
+FILES = /usr/share/locale/pl
+FILELIST = /usr/share/locale/pl/LC_MESSAGES/avahi.mo

@@ -1,9 +1,0 @@
-PV = 2.31+gitAUTOINC+1094741224
-PR = r0
-PKGV = 2.31+git0+1094741224
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 887673
-FILES = /sbin/ldconfig /etc/ld.so.conf
-FILELIST = /etc/ld.so.conf /sbin/ldconfig

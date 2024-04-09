@@ -1,8 +1,0 @@
-PV = 2.35.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) libcap-ng (>= 0.7.10) update-alternatives-opkg
-RRECOMMENDS = 
-PKGSIZE = 47160
-FILES = /usr/bin/setpriv.util-linux
-FILELIST = /usr/bin/setpriv.util-linux

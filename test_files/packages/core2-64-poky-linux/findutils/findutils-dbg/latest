@@ -1,8 +1,0 @@
-PV = 4.7.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 2691048
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/find.findutils /usr/bin/.debug/locate /usr/bin/.debug/xargs.findutils /usr/libexec/.debug/frcode

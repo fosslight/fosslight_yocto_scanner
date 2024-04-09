@@ -1,0 +1,8 @@
+PV = 2.0.0-1
+PR = r2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 10098
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/src/debug/libsandbox/2.0.0-1-r2/build/Configured/src/paths.h /usr/src/debug/libsandbox/2.0.0-1-r2/git/include/public/sandbox.h /usr/src/debug/libsandbox/2.0.0-1-r2/git/src/sandbox.cpp

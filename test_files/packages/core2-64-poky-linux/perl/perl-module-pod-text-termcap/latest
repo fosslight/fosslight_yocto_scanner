@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-pod-text perl-module-posix perl-module-strict perl-module-term-cap perl-module-vars perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 8666
-FILES = /usr/lib/perl5/5.30.2/Pod/Text/Termcap.pm
-FILELIST = /usr/lib/perl5/5.30.2/Pod/Text/Termcap.pm

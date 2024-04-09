@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67824 ./usr/bin/gpgme-json
+-rwxr-xr-x root       root           133648 ./usr/bin/gpgme-tool
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           334968 ./usr/lib/libgpgme.so.11.20.1
+lrwxrwxrwx root       root               19 ./usr/lib/libgpgme.so.11 -> libgpgme.so.11.20.1

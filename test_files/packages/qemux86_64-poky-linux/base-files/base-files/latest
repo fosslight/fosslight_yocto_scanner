@@ -1,8 +1,0 @@
-PV = 3.0.14
-PR = r89
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 3223
-FILES = /
-FILELIST = /etc/fstab /etc/host.conf /etc/hostname /etc/hosts /etc/issue /etc/issue.net /etc/motd /etc/mtab /etc/nsswitch.conf /etc/profile /etc/shells /etc/skel/.bashrc /etc/skel/.profile /var/lock

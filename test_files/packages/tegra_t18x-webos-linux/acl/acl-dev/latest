@@ -1,0 +1,9 @@
+PV = 2.2.52
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = acl (= 2.2.52-r0webos1) libacl
+RRECOMMENDS = attr-dev busybox-dev coreutils-dev glibc-dev libacl-dev libattr-dev perl-dev perl-module-filehandle-dev perl-module-getopt-std-dev perl-module-posix-dev shadow-dev
+PKGSIZE = 6375
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/acl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /lib/libacl.so /usr/include/acl/libacl.h /usr/include/sys/acl.h /usr/lib/libacl.so

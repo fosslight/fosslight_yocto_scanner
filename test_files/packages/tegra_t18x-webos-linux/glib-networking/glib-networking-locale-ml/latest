@@ -1,0 +1,8 @@
+PV = 2.60.2
+PR = r0
+RPROVIDES = glib-networking-locale ml-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ml
+PKGSIZE = 5667
+FILES = /usr/share/locale/ml
+FILELIST = /usr/share/locale/ml/LC_MESSAGES/glib-networking.mo

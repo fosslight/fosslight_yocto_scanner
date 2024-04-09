@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/info
+-rw-r--r-- root       root            19664 ./usr/share/info/autoconf-archive.info
+-rw-r--r-- root       root           300681 ./usr/share/info/autoconf-archive.info-1
+-rw-r--r-- root       root           301396 ./usr/share/info/autoconf-archive.info-2
+-rw-r--r-- root       root           298713 ./usr/share/info/autoconf-archive.info-3
+-rw-r--r-- root       root           258767 ./usr/share/info/autoconf-archive.info-4

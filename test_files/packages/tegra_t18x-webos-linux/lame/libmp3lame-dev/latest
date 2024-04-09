@@ -1,0 +1,8 @@
+PV = 3.100
+PR = r0
+RPROVIDES = 
+RDEPENDS = libmp3lame
+RRECOMMENDS = glibc-dev ncurses-dev
+PKGSIZE = 50072
+FILES = /usr/include /usr/lib/*
+FILELIST = /usr/include/lame/lame.h /usr/lib/libmp3lame.so

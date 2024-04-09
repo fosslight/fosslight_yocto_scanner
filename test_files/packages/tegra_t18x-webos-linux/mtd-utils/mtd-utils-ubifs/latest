@@ -1,0 +1,10 @@
+PV = 2.0.2+AUTOINC+bc63d36e39
+PR = r0
+PKGV = 2.0.2+0+bc63d36e39
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) lzo (>= 2.10) update-alternatives-opkg util-linux-libuuid (>= 2.32.1) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 1013112
+FILES = /usr/sbin/mkfs.ubifs /usr/sbin/ubi*
+FILELIST = /usr/sbin/mkfs.ubifs /usr/sbin/ubiattach.mtd-utils /usr/sbin/ubiblock /usr/sbin/ubicrc32 /usr/sbin/ubidetach.mtd-utils /usr/sbin/ubiformat /usr/sbin/ubimkvol.mtd-utils /usr/sbin/ubinfo /usr/sbin/ubinize /usr/sbin/ubirename.mtd-utils /usr/sbin/ubirmvol.mtd-utils /usr/sbin/ubirsvol.mtd-utils /usr/sbin/ubiupdatevol.mtd-utils

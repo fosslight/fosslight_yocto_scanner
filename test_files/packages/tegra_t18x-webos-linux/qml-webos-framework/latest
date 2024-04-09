@@ -1,0 +1,5 @@
+PV = 1.0.0-145
+PR = r28
+DEPENDS = icecc-create-env-native libxml2-native luna-service2 pmloglib qt-features-webos qtbase-native qtdeclarative qtdeclarative-native qtwayland-webos virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = qml-webos-framework-tests qml-webos-framework-dbg qml-webos-framework-staticdev qml-webos-framework-dev qml-webos-framework-doc qml-webos-framework-locale qml-webos-framework qml-webos-framework-examples qml-webos-framework-tools
+LAYER = meta-webos

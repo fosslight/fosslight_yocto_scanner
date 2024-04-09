@@ -1,0 +1,8 @@
+PV = 1.11.13
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 0
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = 

@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-r-xr-xr-x root       root           405144 ./usr/lib/libdevmapper.so.1.02
+drwxr-xr-x root       root             4096 ./usr/sbin
+-r-xr-xr-x root       root           203464 ./usr/sbin/dmsetup
+lrwxrwxrwx root       root                7 ./usr/sbin/dmstats -> dmsetup

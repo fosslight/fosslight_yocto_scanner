@@ -1,0 +1,9 @@
+PV = 3.3.0-4
+PR = r9
+PKG = libpmloglib-dbg
+RPROVIDES = pmloglib-dbg (=3.3.0-4)
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libgcc-dbg libpbnjson-dbg libstdc++-dbg
+PKGSIZE = 410270
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libPmLogLib.so.3.3.0 /usr/lib/.debug/libPmLogLibCpp.so.3.3.0 /usr/src/debug/pmloglib/3.3.0-4-r9/build/Configured/include/public/PmLogLib.h /usr/src/debug/pmloglib/3.3.0-4-r9/git/cxx/PmLog.cpp /usr/src/debug/pmloglib/3.3.0-4-r9/git/cxx/PmLog.h /usr/src/debug/pmloglib/3.3.0-4-r9/git/include/private/PmLogLibPrv.h /usr/src/debug/pmloglib/3.3.0-4-r9/git/src/PmLogLib.c

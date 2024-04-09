@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = eu-translation psmisc-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eu
+PKGSIZE = 8574
+FILES = /usr/share/locale/eu
+FILELIST = /usr/share/locale/eu/LC_MESSAGES/psmisc.mo

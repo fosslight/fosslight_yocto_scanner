@@ -1,0 +1,5 @@
+PV = 6.6
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = smartmontools-dbg smartmontools-staticdev smartmontools-dev smartmontools-doc smartmontools-locale smartmontools
+LAYER = openembedded-layer

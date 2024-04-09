@@ -1,0 +1,9 @@
+PV = 0.13.1
+PR = r0
+PKG = libjson-c-dev
+RPROVIDES = json-c-dev (=0.13.1)
+RDEPENDS = json-c (= 0.13.1-r0)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 86160
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/json-c/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/json-c/arraylist.h /usr/include/json-c/bits.h /usr/include/json-c/debug.h /usr/include/json-c/json.h /usr/include/json-c/json_c_version.h /usr/include/json-c/json_config.h /usr/include/json-c/json_inttypes.h /usr/include/json-c/json_object.h /usr/include/json-c/json_object_iterator.h /usr/include/json-c/json_pointer.h /usr/include/json-c/json_tokener.h /usr/include/json-c/json_util.h /usr/include/json-c/json_visit.h /usr/include/json-c/linkhash.h /usr/include/json-c/printbuf.h /usr/lib/libjson-c.so /usr/lib/pkgconfig/json-c.pc

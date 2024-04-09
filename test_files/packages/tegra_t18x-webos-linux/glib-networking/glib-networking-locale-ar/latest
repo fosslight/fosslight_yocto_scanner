@@ -1,0 +1,8 @@
+PV = 2.60.2
+PR = r0
+RPROVIDES = ar-translation glib-networking-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ar
+PKGSIZE = 3611
+FILES = /usr/share/locale/ar
+FILELIST = /usr/share/locale/ar/LC_MESSAGES/glib-networking.mo

@@ -1,8 +1,0 @@
-PV = 1.4.18
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/share/locale
-FILELIST = 

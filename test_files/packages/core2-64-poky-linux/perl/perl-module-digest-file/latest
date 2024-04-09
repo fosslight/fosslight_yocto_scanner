@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-digest perl-module-exporter perl-module-strict perl-module-vars
-RRECOMMENDS = 
-PKGSIZE = 1732
-FILES = /usr/lib/perl5/5.30.2/Digest/file.pm
-FILELIST = /usr/lib/perl5/5.30.2/Digest/file.pm

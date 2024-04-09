@@ -1,0 +1,8 @@
+PV = 1.6.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) iptables (>= 1.6.2)
+RRECOMMENDS = 
+PKGSIZE = 135896
+FILES = /usr/lib/xtables/libip6t_HL.so /usr/lib/xtables/libip6t_hl.so
+FILELIST = /usr/lib/xtables/libip6t_HL.so /usr/lib/xtables/libip6t_hl.so

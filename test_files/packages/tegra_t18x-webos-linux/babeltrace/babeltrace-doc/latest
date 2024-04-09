@@ -1,0 +1,8 @@
+PV = 1.5.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 83079
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/doc/babeltrace/API.txt /usr/share/doc/babeltrace/ChangeLog /usr/share/doc/babeltrace/LICENSE /usr/share/doc/babeltrace/gpl-2.0.txt /usr/share/doc/babeltrace/lttng-live.txt /usr/share/doc/babeltrace/mit-license.txt /usr/share/doc/babeltrace/std-ext-lib.txt /usr/share/man/man1/babeltrace-log.1 /usr/share/man/man1/babeltrace.1

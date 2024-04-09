@@ -1,5 +1,0 @@
-PV = 10.1.0
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libgcc libtool-native texinfo-dummy-native virtual/libc virtual/x86_64-poky-linux-g++ virtual/x86_64-poky-linux-gcc
-PACKAGES = gcc-runtime-src gcc-runtime-dbg libstdc++ libstdc++-precompile-dev libstdc++-dev libstdc++-staticdev libg2c libg2c-dev libssp libssp-dev libssp-staticdev libmudflap libmudflap-dev libmudflap-staticdev libquadmath libquadmath-dev libquadmath-staticdev libgomp libgomp-dev libgomp-staticdev libatomic libatomic-dev libatomic-staticdev libitm libitm-dev libitm-staticdev
-LAYER = core

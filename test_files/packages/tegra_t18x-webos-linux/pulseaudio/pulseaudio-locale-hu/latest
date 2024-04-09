@@ -1,0 +1,8 @@
+PV = 9.0-13
+PR = r20
+RPROVIDES = hu-translation pulseaudio-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hu
+PKGSIZE = 72928
+FILES = /usr/share/locale/hu
+FILELIST = /usr/share/locale/hu/LC_MESSAGES/pulseaudio.mo

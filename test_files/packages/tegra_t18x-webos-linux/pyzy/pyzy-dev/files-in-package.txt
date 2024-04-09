@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/pyzy-1.0
+drwxr-xr-x root       root             4096 ./usr/include/pyzy-1.0/PyZy
+-rw-r--r-- root       root             3564 ./usr/include/pyzy-1.0/PyZy/Const.h
+-rw-r--r-- root       root            14483 ./usr/include/pyzy-1.0/PyZy/InputContext.h
+-rw-r--r-- root       root             2528 ./usr/include/pyzy-1.0/PyZy/Variant.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               22 ./usr/lib/libpyzy-1.0.so -> libpyzy-1.0.so.0.100.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              259 ./usr/lib/pkgconfig/pyzy-1.0.pc

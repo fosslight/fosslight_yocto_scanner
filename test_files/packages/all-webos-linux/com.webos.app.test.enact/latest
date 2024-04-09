@@ -1,0 +1,5 @@
+PV = 1.0.0-7
+PR = r4.1
+DEPENDS = cmake-modules-webos-native cmake-native ninja-native
+PACKAGES = com.webos.app.test.enact-dbg com.webos.app.test.enact-staticdev com.webos.app.test.enact-dev com.webos.app.test.enact-doc com.webos.app.test.enact-locale com.webos.app.test.enact
+LAYER = meta-webos

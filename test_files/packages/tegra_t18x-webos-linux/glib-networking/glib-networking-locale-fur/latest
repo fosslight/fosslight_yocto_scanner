@@ -1,0 +1,8 @@
+PV = 2.60.2
+PR = r0
+RPROVIDES = fur-translation glib-networking-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fur
+PKGSIZE = 5315
+FILES = /usr/share/locale/fur
+FILELIST = /usr/share/locale/fur/LC_MESSAGES/glib-networking.mo

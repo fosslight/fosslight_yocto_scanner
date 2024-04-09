@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/firmware
+drwxr-xr-x root       root             4096 ./lib/firmware/gp10b
+-rw-r--r-- root       root              652 ./lib/firmware/gp10b/g_c85b6_gp10b_desc.bin
+-rw-r--r-- root       root            49408 ./lib/firmware/gp10b/g_c85b6_gp10b_image.bin
+-rw-r--r-- root       root            42772 ./lib/firmware/gp10b/g_c85b6_gp10b_sign.bin

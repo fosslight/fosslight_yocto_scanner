@@ -1,0 +1,8 @@
+PV = 3.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcrypto-dbg libssl-dbg
+PKGSIZE = 933650
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/iperf3 /usr/lib/.debug/libiperf.so.0.0.0 /usr/src/debug/iperf3/3.6-r0/git/src/cjson.c /usr/src/debug/iperf3/3.6-r0/git/src/cjson.h /usr/src/debug/iperf3/3.6-r0/git/src/dscp.c /usr/src/debug/iperf3/3.6-r0/git/src/flowlabel.h /usr/src/debug/iperf3/3.6-r0/git/src/iperf.h /usr/src/debug/iperf3/3.6-r0/git/src/iperf_api.c /usr/src/debug/iperf3/3.6-r0/git/src/iperf_api.h /usr/src/debug/iperf3/3.6-r0/git/src/iperf_auth.c /usr/src/debug/iperf3/3.6-r0/git/src/iperf_auth.h /usr/src/debug/iperf3/3.6-r0/git/src/iperf_client_api.c /usr/src/debug/iperf3/3.6-r0/git/src/iperf_error.c /usr/src/debug/iperf3/3.6-r0/git/src/iperf_locale.c /usr/src/debug/iperf3/3.6-r0/git/src/iperf_locale.h /usr/src/debug/iperf3/3.6-r0/git/src/iperf_sctp.c /usr/src/debug/iperf3/3.6-r0/git/src/iperf_server_api.c /usr/src/debug/iperf3/3.6-r0/git/src/iperf_tcp.c /usr/src/debug/iperf3/3.6-r0/git/src/iperf_udp.c /usr/src/debug/iperf3/3.6-r0/git/src/iperf_util.c /usr/src/debug/iperf3/3.6-r0/git/src/iperf_util.h /usr/src/debug/iperf3/3.6-r0/git/src/main.c /usr/src/debug/iperf3/3.6-r0/git/src/net.c /usr/src/debug/iperf3/3.6-r0/git/src/net.h /usr/src/debug/iperf3/3.6-r0/git/src/tcp_info.c /usr/src/debug/iperf3/3.6-r0/git/src/timer.c /usr/src/debug/iperf3/3.6-r0/git/src/timer.h /usr/src/debug/iperf3/3.6-r0/git/src/units.c /usr/src/debug/iperf3/3.6-r0/git/src/units.h

@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxrwxr-x root       root             9824 ./usr/bin/nvidia-settings-weston
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxrwxr-x root       root             4136 ./usr/lib/libnvidia-wayland-settings.so.1.1.1
+lrwxrwxrwx root       root               35 ./usr/lib/libnvidia-wayland-settings.so.1 -> libnvidia-wayland-settings.so.1.1.1
+lrwxrwxrwx root       root               31 ./usr/lib/libnvidia-wayland-settings.so -> libnvidia-wayland-settings.so.1

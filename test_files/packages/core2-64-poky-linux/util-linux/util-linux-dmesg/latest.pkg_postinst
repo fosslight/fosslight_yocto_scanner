@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /bin/dmesg dmesg /bin/dmesg.util-linux 80

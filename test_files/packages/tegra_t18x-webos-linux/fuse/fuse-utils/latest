@@ -1,0 +1,8 @@
+PV = 2.9.8
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 203384
+FILES = /usr/bin /sbin
+FILELIST = /sbin/mount.fuse /usr/bin/fusermount /usr/bin/ulockmgr_server

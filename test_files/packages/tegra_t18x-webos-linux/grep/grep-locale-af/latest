@@ -1,0 +1,8 @@
+PV = 3.1
+PR = r0
+RPROVIDES = af-translation grep-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-af
+PKGSIZE = 1474
+FILES = /usr/share/locale/af
+FILELIST = /usr/share/locale/af/LC_MESSAGES/grep.mo

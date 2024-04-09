@@ -1,0 +1,9 @@
+PV = v1.0.2+gitcfd04396dc68220d1cecbe686a6cc3aa5ce3667c
+PR = r0
+PKGR = r0webosvirt1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ptest-runner
+PKGSIZE = 0
+FILES = /usr/lib/containerd-opencontainers/ptest
+FILELIST = 

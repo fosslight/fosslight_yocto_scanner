@@ -1,0 +1,8 @@
+PV = 2.62.3
+PR = r0
+RPROVIDES = hi-translation libsoup-2.4-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hi
+PKGSIZE = 3722
+FILES = /usr/share/locale/hi
+FILELIST = /usr/share/locale/hi/LC_MESSAGES/libsoup.mo

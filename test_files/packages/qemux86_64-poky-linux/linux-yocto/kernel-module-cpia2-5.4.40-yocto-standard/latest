@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-cpia2
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-videodev-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 62176
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/media/usb/cpia2/cpia2.ko /etc/modules-load.d/cpia2.conf /etc/modprobe.d/cpia2.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/media/usb/cpia2/cpia2.ko

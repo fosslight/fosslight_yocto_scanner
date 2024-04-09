@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = fi-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fi
+PKGSIZE = 54605
+FILES = /usr/share/locale/fi
+FILELIST = /usr/share/locale/fi/LC_MESSAGES/tar.mo

@@ -1,6 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  17 ./sysroot-providers/makedepend-native
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               36968 ./usr/bin/makedepend
-drwxr-xr-x -          -                4096 ./usr/share

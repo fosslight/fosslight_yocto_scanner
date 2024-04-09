@@ -1,0 +1,5 @@
+PV = 1.14.4
+PR = r0
+DEPENDS = autoconf-native automake-native bzip2 gnu-config-native gstreamer1.0 gstreamer1.0-plugins-base gtk-doc-native icecc-create-env-native libtool-cross libtool-native nasm-native orc pkgconfig-native python3-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc xz zlib
+PACKAGES = gstreamer1.0-libav-dbg gstreamer1.0-libav-staticdev gstreamer1.0-libav-dev gstreamer1.0-libav-doc gstreamer1.0-libav-locale gstreamer1.0-libav
+LAYER = core

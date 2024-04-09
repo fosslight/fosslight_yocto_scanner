@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67688 ./usr/lib/libwebpdemux.so.2.0.4
+lrwxrwxrwx root       root               21 ./usr/lib/libwebpdemux.so.2 -> libwebpdemux.so.2.0.4
+-rwxr-xr-x root       root            67672 ./usr/lib/libwebpmux.so.3.0.2
+lrwxrwxrwx root       root               19 ./usr/lib/libwebpmux.so.3 -> libwebpmux.so.3.0.2
+-rwxr-xr-x root       root           395616 ./usr/lib/libwebp.so.7.0.2
+lrwxrwxrwx root       root               16 ./usr/lib/libwebp.so.7 -> libwebp.so.7.0.2

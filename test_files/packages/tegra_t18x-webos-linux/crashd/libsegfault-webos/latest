@@ -1,0 +1,10 @@
+PV = 1.2.5-3
+PR = r11
+RPROVIDES = libsegfault
+RDEPENDS = glibc (>= 2.28) libunwind (>= 1.2)
+RRECOMMENDS = 
+RREPLACES = libsegfault
+RCONFLICTS = libsegfault
+PKGSIZE = 67696
+FILES = /lib/*.so*
+FILELIST = /lib/libSegFault.so

@@ -1,0 +1,9 @@
+PV = 3.0+gitAUTOINC+a3e58764f5
+PR = r0
+PKGV = 3.0+git0+a3e58764f5
+RPROVIDES = 
+RDEPENDS = compose-file (= 3.0+git0+a3e58764f5-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/compose-file/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

@@ -1,0 +1,9 @@
+PV = 5.12.6+gitAUTOINC+7ce8cd84f7
+PR = r0
+PKGV = 5.12.6+git0+7ce8cd84f7
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = qtgraphicaleffects-plugins qtgraphicaleffects-qmlplugins
+PKGSIZE = 0
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtgraphicaleffects /usr/lib/qtgraphicaleffects/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec
+FILELIST = 

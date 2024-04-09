@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-bytes perl-module-compress-raw-zlib perl-module-exporter perl-module-io-compress-base-common perl-module-io-compress-gzip-constants perl-module-io-compress-zlib-extra perl-module-io-uncompress-rawinflate perl-module-strict perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 31939
-FILES = /usr/lib/perl5/5.30.2/IO/Uncompress/Gunzip.pm
-FILELIST = /usr/lib/perl5/5.30.2/IO/Uncompress/Gunzip.pm

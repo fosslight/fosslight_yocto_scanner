@@ -1,0 +1,9 @@
+PV = 1.18
+PR = r0
+PKG = libgdbm-staticdev
+RPROVIDES = gdbm-staticdev (=1.18)
+RDEPENDS = gdbm-dev (= 1.18-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/gdbm/*.a
+FILELIST = 

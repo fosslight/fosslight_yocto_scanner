@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/qml
+drwxr-xr-x root       root             4096 ./usr/lib/qml/QtWayland
+drwxr-xr-x root       root             4096 ./usr/lib/qml/QtWayland/Compositor
+-rwxr-xr-x root       root           198560 ./usr/lib/qml/QtWayland/Compositor/libqwaylandcompositorplugin.so
+-rw-r--r-- root       root            51965 ./usr/lib/qml/QtWayland/Compositor/plugins.qmltypes
+-rw-r--r-- root       root               95 ./usr/lib/qml/QtWayland/Compositor/qmldir

@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./bin
+-rwxr-xr-x root       root            67824 ./bin/keyctl
+drwxr-xr-x root       root             4096 ./etc
+-rw-r--r-- root       root             1787 ./etc/request-key.conf
+drwxr-xr-x root       root             4096 ./etc/request-key.d
+drwxr-xr-x root       root             4096 ./sbin
+-rwxr-xr-x root       root            67848 ./sbin/key.dns_resolver
+-rwxr-xr-x root       root            67760 ./sbin/request-key
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67672 ./usr/lib/libkeyutils.so.1.8
+lrwxrwxrwx root       root               18 ./usr/lib/libkeyutils.so.1 -> libkeyutils.so.1.8
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/keyutils
+-rwxr-xr-x root       root              906 ./usr/share/keyutils/request-key-debug.sh

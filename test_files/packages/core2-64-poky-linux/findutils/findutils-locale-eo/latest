@@ -1,8 +1,0 @@
-PV = 4.7.0
-PR = r0
-RPROVIDES = eo-translation findutils-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-eo
-PKGSIZE = 34447
-FILES = /usr/share/locale/eo
-FILELIST = /usr/share/locale/eo/LC_MESSAGES/findutils.mo

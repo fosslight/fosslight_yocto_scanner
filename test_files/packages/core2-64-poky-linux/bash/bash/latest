@@ -1,8 +1,0 @@
-PV = 5.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = base-files glibc (>= 2.31+git0+1094741224) ncurses-libtinfo (>= 6.2) update-alternatives-opkg
-RRECOMMENDS = 
-PKGSIZE = 1190872
-FILES = /usr/bin/bash /bin/bash.bash
-FILELIST = /bin/bash.bash

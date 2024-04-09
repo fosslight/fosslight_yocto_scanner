@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./lib
+-rwxr-xr-x root       root            30992 ./lib/libnss_db-2.28.so
+lrwxrwxrwx root       root               17 ./lib/libnss_db.so.2 -> libnss_db-2.28.so
+drwxr-xr-x root       root             4096 ./var
+drwxr-xr-x root       root             4096 ./var/db
+-rwxr-xr-x root       root             4453 ./var/db/makedbs.sh
+-rw-r--r-- root       root             5350 ./var/db/Makefile

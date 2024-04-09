@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = python3-core
-RRECOMMENDS = 
-PKGSIZE = 594713
-FILES = /usr/lib/python3.8/gzip.py /usr/lib/python3.8/tarfile.py /usr/lib/python3.8/zipfile.py /usr/lib/python3.8/__pycache__/gzip.*.pyc /usr/lib/python3.8/__pycache__/tarfile.*.pyc /usr/lib/python3.8/__pycache__/zipfile.*.pyc
-FILELIST = /usr/lib/python3.8/__pycache__/gzip.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/gzip.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/gzip.cpython-38.pyc /usr/lib/python3.8/__pycache__/tarfile.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/tarfile.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/tarfile.cpython-38.pyc /usr/lib/python3.8/__pycache__/zipfile.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/zipfile.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/zipfile.cpython-38.pyc /usr/lib/python3.8/gzip.py /usr/lib/python3.8/tarfile.py /usr/lib/python3.8/zipfile.py

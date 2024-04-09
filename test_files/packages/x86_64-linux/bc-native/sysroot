@@ -1,7 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                   9 ./sysroot-providers/bc-native
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               90216 ./usr/bin/bc
--rwxr-xr-x -          -               49256 ./usr/bin/dc
-drwxr-xr-x -          -                4096 ./usr/share

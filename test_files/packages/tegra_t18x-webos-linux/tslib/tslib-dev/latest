@@ -1,0 +1,9 @@
+PV = 1.16
+PR = r0
+PKG = libts-dev
+RPROVIDES = tslib-dev (=1.16)
+RDEPENDS = tslib (= 1.16-r0)
+RRECOMMENDS = glibc-dev tslib-conf-dev
+PKGSIZE = 5475
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tslib/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/ts/*.la
+FILELIST = /usr/include/tslib.h /usr/lib/libts.so /usr/lib/pkgconfig/tslib.pc

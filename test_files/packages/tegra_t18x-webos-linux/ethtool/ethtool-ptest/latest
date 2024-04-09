@@ -1,0 +1,8 @@
+PV = 4.19
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) make
+RRECOMMENDS = ptest-runner
+PKGSIZE = 1351190
+FILES = /usr/lib/ethtool/ptest
+FILELIST = /usr/lib/ethtool/ptest/Makefile /usr/lib/ethtool/ptest/ethtool /usr/lib/ethtool/ptest/run-ptest /usr/lib/ethtool/ptest/test-cmdline /usr/lib/ethtool/ptest/test-features

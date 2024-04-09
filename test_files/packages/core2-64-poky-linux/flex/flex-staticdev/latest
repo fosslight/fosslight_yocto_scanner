@@ -1,8 +1,0 @@
-PV = 2.6.4
-PR = r0
-RPROVIDES = 
-RDEPENDS = flex-dev (= 2.6.4-r0)
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/lib/*.a /lib/*.a /usr/lib/flex/*.a
-FILELIST = 

@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = packagegroup-bsp (= 1.0-r0-lg1)
+RRECOMMENDS = alsa-configs-dev avtp-drivers-dev cuda-drivers-dev devmem2-dev emc-log-dev etc-modules-dev etc-version-dev kernel-modules-dev mm-gst-drivers-dev mnand-hs-dev mnand-lifetime-dev mnand-refresh-dev nv-graphics-drivers-dev nv-graphics-drivers-egl-dev nv-graphics-drivers-glesv2-dev nv-graphics-drivers-nvidia-egl-wayland-dev nvidia-settings-weston-dev nvm-drivers-nvcapture-dev nvm-drivers-nvmedia-dev nvtracebuf-dev saf775x-tools-dev shutdown-dev stream-server-cross-plugins-dev stream-server-dev stream-server-extra-plugins-dev tegra-bt-dev tegra-touch-dev tegrastats-dev tos-storage-daemon-dev virtualization-dspowerstate-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-bsp/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

@@ -1,0 +1,10 @@
+PV = 1.14.0+gitrAUTOINC+17dc1b3102
+PR = r0
+PKG = libcares2
+PKGV = 1.14.0+gitr0+17dc1b3102
+RPROVIDES = c-ares (=1.14.0+gitr0+17dc1b3102)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 133449
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/c-ares /usr/lib/c-ares/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libcares.so.2 /usr/lib/libcares.so.2.2.0

@@ -1,8 +1,0 @@
-PV = 3.4
-PR = r0
-RPROVIDES = eu-translation grep-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-eu
-PKGSIZE = 1488
-FILES = /usr/share/locale/eu
-FILELIST = /usr/share/locale/eu/LC_MESSAGES/grep.mo

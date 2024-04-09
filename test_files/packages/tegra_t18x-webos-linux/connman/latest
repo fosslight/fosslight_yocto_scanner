@@ -1,0 +1,5 @@
+PV = 1.35
+PR = r0
+DEPENDS = autoconf-native automake-native bluez5 dbus glib-2.0 gnu-config-native gnutls icecc-create-env-native iptables libtool-cross libtool-native pkgconfig-native ppp readline systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/update-alternatives wpa-supplicant
+PACKAGES = connman-vpn connman-wait-online connman-tools connman-tests connman-client connman-dbg connman-staticdev connman-dev connman-doc connman-locale connman
+LAYER = core

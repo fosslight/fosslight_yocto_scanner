@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-pod-simple perl-module-strict perl-module-text-wrap
-RRECOMMENDS = 
-PKGSIZE = 4560
-FILES = /usr/lib/perl5/5.30.2/Pod/Simple/DumpAsXML.pm
-FILELIST = /usr/lib/perl5/5.30.2/Pod/Simple/DumpAsXML.pm

@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /sbin/pivot_root pivot_root /sbin/pivot_root.util-linux 80

@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-en-dk glibc-localedata-hr-hr glibc-localedata-i18n
+RRECOMMENDS = 
+PKGSIZE = 3561
+FILES = /usr/share/i18n/locales/bs_BA
+FILELIST = /usr/share/i18n/locales/bs_BA

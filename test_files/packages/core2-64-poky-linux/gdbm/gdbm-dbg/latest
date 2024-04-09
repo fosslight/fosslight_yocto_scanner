@@ -1,9 +1,0 @@
-PV = 1.18.1
-PR = r0
-PKG = libgdbm-dbg
-RPROVIDES = gdbm-dbg (=1.18.1)
-RDEPENDS = 
-RRECOMMENDS = gdbm-compat-dbg glibc-dbg
-PKGSIZE = 1064528
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/gdbm_dump /usr/bin/.debug/gdbm_load /usr/bin/.debug/gdbmtool /usr/lib/.debug/libgdbm.so.6.0.0 /usr/lib/.debug/libgdbm_compat.so.4.0.0 /usr/lib/gdbm/ptest/tests/.debug/closerr /usr/lib/gdbm/ptest/tests/.debug/d_creat_ce /usr/lib/gdbm/ptest/tests/.debug/dtdel /usr/lib/gdbm/ptest/tests/.debug/dtdump /usr/lib/gdbm/ptest/tests/.debug/dtfetch /usr/lib/gdbm/ptest/tests/.debug/dtload /usr/lib/gdbm/ptest/tests/.debug/fdop /usr/lib/gdbm/ptest/tests/.debug/g_open_ce /usr/lib/gdbm/ptest/tests/.debug/g_reorg_ce /usr/lib/gdbm/ptest/tests/.debug/gtdel /usr/lib/gdbm/ptest/tests/.debug/gtdump /usr/lib/gdbm/ptest/tests/.debug/gtfetch /usr/lib/gdbm/ptest/tests/.debug/gtload /usr/lib/gdbm/ptest/tests/.debug/gtopt /usr/lib/gdbm/ptest/tests/.debug/gtrecover /usr/lib/gdbm/ptest/tests/.debug/gtver /usr/lib/gdbm/ptest/tests/.debug/num2word

@@ -14,6 +14,7 @@ _HELP_MESSAGE_BOM = """
             -p <path>\t\t   Path of buildhistory/package
             -b <file_with_path>\t\t   bom.json
             -i <file_with_path>\t\t   installed-package-names.txt
+            -ip <file_with_path>\t\t   installed-packages.txt
 
         Optional
             -h\t\t\t\t   Print help message

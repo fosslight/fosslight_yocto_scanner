@@ -1,0 +1,9 @@
+PV = 5.12.6+gitAUTOINC+7ce8cd84f7
+PR = r0
+PKGV = 5.12.6+git0+7ce8cd84f7
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg
+PKGSIZE = 3650273
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/qml/QtGraphicalEffects/.debug/libqtgraphicaleffectsplugin.so /usr/lib/qml/QtGraphicalEffects/private/.debug/libqtgraphicaleffectsprivate.so /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/build/src/effects/.moc/plugin.moc /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/build/src/effects/.rcc/qrc_qtgraphicaleffectsshaders.cpp /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/build/src/effects/private/.moc/moc_qgfxshaderbuilder_p.cpp /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/build/src/effects/private/.moc/moc_qgfxsourceproxy_p.cpp /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/build/src/effects/private/.moc/plugin.moc /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/git/src/effects/plugin.cpp /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/git/src/effects/private/plugin.cpp /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/git/src/effects/private/qgfxshaderbuilder.cpp /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/git/src/effects/private/qgfxshaderbuilder_p.h /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/git/src/effects/private/qgfxsourceproxy.cpp /usr/src/debug/qtgraphicaleffects/5.12.6+gitAUTOINC+7ce8cd84f7-r0/git/src/effects/private/qgfxsourceproxy_p.h

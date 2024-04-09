@@ -1,8 +1,0 @@
-PV = 1.15
-PR = r0
-RPROVIDES = az-translation shared-mime-info-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-az
-PKGSIZE = 8079
-FILES = /usr/share/locale/az
-FILELIST = /usr/share/locale/az/LC_MESSAGES/shared-mime-info.mo

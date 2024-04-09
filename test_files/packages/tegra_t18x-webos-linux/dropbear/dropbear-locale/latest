@@ -1,0 +1,9 @@
+PV = 2017.75
+PR = r0
+PKGR = r0webos7
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

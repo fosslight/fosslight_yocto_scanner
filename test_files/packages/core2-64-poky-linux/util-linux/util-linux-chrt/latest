@@ -1,8 +1,0 @@
-PV = 2.35.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) update-alternatives-opkg
-RRECOMMENDS = 
-PKGSIZE = 34864
-FILES = /usr/bin/chrt.util-linux
-FILELIST = /usr/bin/chrt.util-linux

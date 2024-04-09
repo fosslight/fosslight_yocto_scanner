@@ -1,0 +1,10 @@
+PE = 1
+PV = 239
+PR = r0
+PKGR = r0webos4
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /lib/systemd/systemd-journal-remote /etc/systemd/journal-remote.conf /lib/systemd/system/systemd-journal-remote.service /lib/systemd/system/systemd-journal-remote.socket
+FILELIST = 

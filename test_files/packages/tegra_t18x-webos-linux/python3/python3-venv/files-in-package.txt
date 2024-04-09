@@ -1,0 +1,22 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root              230 ./usr/bin/pyvenv-3.5
+lrwxrwxrwx root       root               10 ./usr/bin/pyvenv -> pyvenv-3.5
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/venv
+-rw-r--r-- root       root            20018 ./usr/lib/python3.5/venv/__init__.py
+-rw-r--r-- root       root              145 ./usr/lib/python3.5/venv/__main__.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/venv/__pycache__
+-rw-r--r-- root       root            16247 ./usr/lib/python3.5/venv/__pycache__/__init__.cpython-35.opt-1.pyc
+-rw-r--r-- root       root            10355 ./usr/lib/python3.5/venv/__pycache__/__init__.cpython-35.opt-2.pyc
+-rw-r--r-- root       root            16312 ./usr/lib/python3.5/venv/__pycache__/__init__.cpython-35.pyc
+-rw-r--r-- root       root              339 ./usr/lib/python3.5/venv/__pycache__/__main__.cpython-35.opt-1.pyc
+-rw-r--r-- root       root              339 ./usr/lib/python3.5/venv/__pycache__/__main__.cpython-35.opt-2.pyc
+-rw-r--r-- root       root              339 ./usr/lib/python3.5/venv/__pycache__/__main__.cpython-35.pyc
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/venv/scripts
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/venv/scripts/common
+-rw-r--r-- root       root             2158 ./usr/lib/python3.5/venv/scripts/common/activate
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/venv/scripts/posix
+-rw-r--r-- root       root             1276 ./usr/lib/python3.5/venv/scripts/posix/activate.csh
+-rw-r--r-- root       root             2438 ./usr/lib/python3.5/venv/scripts/posix/activate.fish

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl
-RRECOMMENDS = 
-PKGSIZE = 11704
-FILES = /usr/lib/perl5/5.30.2/Memoize/Expire.pm
-FILELIST = /usr/lib/perl5/5.30.2/Memoize/Expire.pm

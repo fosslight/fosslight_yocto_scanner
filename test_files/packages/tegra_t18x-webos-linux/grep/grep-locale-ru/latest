@@ -1,0 +1,8 @@
+PV = 3.1
+PR = r0
+RPROVIDES = grep-locale ru-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ru
+PKGSIZE = 22207
+FILES = /usr/share/locale/ru
+FILELIST = /usr/share/locale/ru/LC_MESSAGES/grep.mo

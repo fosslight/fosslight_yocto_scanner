@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = el-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-el
+PKGSIZE = 14467
+FILES = /usr/share/locale/el
+FILELIST = /usr/share/locale/el/LC_MESSAGES/tar.mo

@@ -1,0 +1,5 @@
+PV = 3.0.6
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native icu ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libical-dbg libical-staticdev libical-dev libical-doc libical-locale libical
+LAYER = coconut-layer

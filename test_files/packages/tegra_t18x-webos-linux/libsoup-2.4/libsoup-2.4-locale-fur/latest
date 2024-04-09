@@ -1,0 +1,8 @@
+PV = 2.62.3
+PR = r0
+RPROVIDES = fur-translation libsoup-2.4-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fur
+PKGSIZE = 3829
+FILES = /usr/share/locale/fur
+FILELIST = /usr/share/locale/fur/LC_MESSAGES/libsoup.mo

@@ -1,9 +1,0 @@
-PV = 1.2.11
-PR = r0
-PKG = libz-dbg
-RPROVIDES = zlib-dbg (=1.2.11)
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 299624
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /lib/.debug/libz.so.1.2.11 /usr/lib/zlib/ptest/.debug/examplesh

@@ -1,5 +1,0 @@
-PV = 3.5.29
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = base-passwd-src base-passwd-dbg base-passwd-update base-passwd-staticdev base-passwd-dev base-passwd-doc base-passwd-locale base-passwd
-LAYER = core

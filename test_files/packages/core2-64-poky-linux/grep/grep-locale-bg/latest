@@ -1,8 +1,0 @@
-PV = 3.4
-PR = r0
-RPROVIDES = bg-translation grep-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-bg
-PKGSIZE = 21068
-FILES = /usr/share/locale/bg
-FILELIST = /usr/share/locale/bg/LC_MESSAGES/grep.mo

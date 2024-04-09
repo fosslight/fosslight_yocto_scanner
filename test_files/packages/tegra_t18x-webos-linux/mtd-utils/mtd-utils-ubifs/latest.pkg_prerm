@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  ubiattach /usr/sbin/ubiattach.mtd-utils
+	update-alternatives --remove  ubidetach /usr/sbin/ubidetach.mtd-utils
+	update-alternatives --remove  ubimkvol /usr/sbin/ubimkvol.mtd-utils
+	update-alternatives --remove  ubirename /usr/sbin/ubirename.mtd-utils
+	update-alternatives --remove  ubirmvol /usr/sbin/ubirmvol.mtd-utils
+	update-alternatives --remove  ubirsvol /usr/sbin/ubirsvol.mtd-utils
+	update-alternatives --remove  ubiupdatevol /usr/sbin/ubiupdatevol.mtd-utils

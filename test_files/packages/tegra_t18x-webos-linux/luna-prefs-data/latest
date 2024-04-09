@@ -1,0 +1,5 @@
+PV = 3.0.0
+PR = r3
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = luna-prefs-data-dbg luna-prefs-data-staticdev luna-prefs-data-dev luna-prefs-data-doc luna-prefs-data-locale luna-prefs-data
+LAYER = meta-webos

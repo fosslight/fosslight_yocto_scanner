@@ -1,0 +1,9 @@
+PV = 2.2.6+gitAUTOINC+666120de43
+PR = r0
+PKGV = 2.2.6+git0+666120de43
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 52723
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/go-patricia /usr/lib/go-patricia/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/local/go/src/github.com/tchap/go-patricia/*
+FILELIST = /usr/local/go/src/github.com/tchap/go-patricia/AUTHORS /usr/local/go/src/github.com/tchap/go-patricia/LICENSE /usr/local/go/src/github.com/tchap/go-patricia/README.md /usr/local/go/src/github.com/tchap/go-patricia/patricia/children.go /usr/local/go/src/github.com/tchap/go-patricia/patricia/patricia.go /usr/local/go/src/github.com/tchap/go-patricia/patricia/patricia_dense_test.go /usr/local/go/src/github.com/tchap/go-patricia/patricia/patricia_sparse_test.go /usr/local/go/src/github.com/tchap/go-patricia/patricia/patricia_test.go

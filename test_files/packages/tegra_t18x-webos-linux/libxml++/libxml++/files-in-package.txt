@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           264456 ./usr/lib/libxml++-2.6.so.2.0.7
+lrwxrwxrwx root       root               21 ./usr/lib/libxml++-2.6.so.2 -> libxml++-2.6.so.2.0.7

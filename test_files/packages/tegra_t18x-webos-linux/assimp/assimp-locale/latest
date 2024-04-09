@@ -1,0 +1,9 @@
+PV = 4.1.0
+PR = r0
+PKG = libassimp-locale
+RPROVIDES = assimp-locale (=4.1.0)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

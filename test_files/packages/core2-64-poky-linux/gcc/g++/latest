@@ -1,8 +1,0 @@
-PV = 10.1.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = libatomic libatomic-dev libstdc++ libstdc++-dev
-PKGSIZE = 1234312
-FILES = /usr/bin/x86_64-poky-linux-g++* /usr/libexec/gcc/x86_64-poky-linux/10.1.0/cc1plus
-FILELIST = /usr/bin/x86_64-poky-linux-g++

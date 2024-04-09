@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = iso-codes-locale kab-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-kab
+PKGSIZE = 6188
+FILES = /usr/share/locale/kab
+FILELIST = /usr/share/locale/kab/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/kab/LC_MESSAGES/iso_3166.mo

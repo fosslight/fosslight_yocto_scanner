@@ -1,0 +1,9 @@
+PV = 0.1.0+gitAUTOINC+4a71565b28
+PR = r2
+PKGV = 0.1.0+git0+4a71565b28
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 512719
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/hangul /usr/lib/maliit/plugins/.debug/libhangul.so.1.0.0 /usr/src/debug/libhangul/0.1.0+gitAUTOINC+4a71565b28-r2/git/hangul/hangul.h /usr/src/debug/libhangul/0.1.0+gitAUTOINC+4a71565b28-r2/git/hangul/hangulctype.c /usr/src/debug/libhangul/0.1.0+gitAUTOINC+4a71565b28-r2/git/hangul/hangulinputcontext.c /usr/src/debug/libhangul/0.1.0+gitAUTOINC+4a71565b28-r2/git/hangul/hangulinternals.h /usr/src/debug/libhangul/0.1.0+gitAUTOINC+4a71565b28-r2/git/hangul/hangulkeyboard.h /usr/src/debug/libhangul/0.1.0+gitAUTOINC+4a71565b28-r2/git/hangul/hanja.c /usr/src/debug/libhangul/0.1.0+gitAUTOINC+4a71565b28-r2/git/hangul/hanjacompatible.h /usr/src/debug/libhangul/0.1.0+gitAUTOINC+4a71565b28-r2/git/tools/hangul.c

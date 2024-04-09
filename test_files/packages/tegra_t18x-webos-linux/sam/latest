@@ -1,0 +1,5 @@
+PV = 2.0.0-25
+PR = r24
+DEPENDS = boost cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native icu libpbnjson libwebosi18n luna-service2 ninja-native pkgconfig-native pmloglib procps virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = sam-tests sam-dbg sam-staticdev sam-dev sam-doc sam-locale sam
+LAYER = meta-webos

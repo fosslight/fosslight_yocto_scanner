@@ -1,0 +1,9 @@
+PV = 1.7.5
+PR = r0
+PKG = libharfbuzz-locale
+RPROVIDES = harfbuzz-locale (=1.7.5)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

@@ -1,0 +1,9 @@
+PV = 1.1.6
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = alsa-lib (>= 1.1.6) glibc (>= 2.28)
+RRECOMMENDS = alsa-states
+PKGSIZE = 161907
+FILES = /usr/sbin/alsactl */udev/rules.d */*/udev/rules.d /lib/systemd /var/lib/alsa /usr/share/alsa/init/
+FILELIST = /usr/sbin/alsactl /usr/share/alsa/init/00main /usr/share/alsa/init/ca0106 /usr/share/alsa/init/default /usr/share/alsa/init/hda /usr/share/alsa/init/help /usr/share/alsa/init/info /usr/share/alsa/init/test

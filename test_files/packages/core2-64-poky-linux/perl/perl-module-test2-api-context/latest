@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-carp perl-module-scalar-util perl-module-strict perl-module-test2-api perl-module-test2-event-v2 perl-module-test2-eventfacet perl-module-test2-eventfacet-trace perl-module-test2-util perl-module-test2-util-externalmeta perl-module-test2-util-hashbase perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 27296
-FILES = /usr/lib/perl5/5.30.2/Test2/API/Context.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test2/API/Context.pm

@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/xkbcommon
+-rw-r--r-- root       root             4295 ./usr/include/xkbcommon/xkbcommon-compat.h
+-rw-r--r-- root       root            16193 ./usr/include/xkbcommon/xkbcommon-compose.h
+-rw-r--r-- root       root            62680 ./usr/include/xkbcommon/xkbcommon.h
+-rw-r--r-- root       root           212387 ./usr/include/xkbcommon/xkbcommon-keysyms.h
+-rw-r--r-- root       root             1718 ./usr/include/xkbcommon/xkbcommon-names.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               21 ./usr/lib/libxkbcommon.so -> libxkbcommon.so.0.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              206 ./usr/lib/pkgconfig/xkbcommon.pc

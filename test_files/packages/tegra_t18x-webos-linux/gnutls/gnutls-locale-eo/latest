@@ -1,0 +1,9 @@
+PV = 3.6.4
+PR = r0
+PKG = libgnutls-locale-eo
+RPROVIDES = eo-translation gnutls-locale gnutls-locale-eo (=3.6.4)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eo
+PKGSIZE = 23612
+FILES = /usr/share/locale/eo
+FILELIST = /usr/share/locale/eo/LC_MESSAGES/gnutls.mo

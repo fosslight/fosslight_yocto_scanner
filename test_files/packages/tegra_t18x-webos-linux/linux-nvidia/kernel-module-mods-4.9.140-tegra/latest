@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-mods
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 249808
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/misc/mods/mods.ko /etc/modules-load.d/mods.conf /etc/modprobe.d/mods.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/misc/mods/mods.ko

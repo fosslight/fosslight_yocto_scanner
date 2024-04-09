@@ -1,0 +1,10 @@
+PV = 1.29.3
+PR = r0
+PKGV = 1.29.3-0webos3
+PKGR = r0webos13webosupdater1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /etc/init.d/busybox-udhcpd
+FILELIST = 

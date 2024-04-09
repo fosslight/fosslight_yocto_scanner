@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = dv-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-dv
+PKGSIZE = 11434
+FILES = /usr/share/locale/dv
+FILELIST = /usr/share/locale/dv/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/dv/LC_MESSAGES/iso_3166.mo

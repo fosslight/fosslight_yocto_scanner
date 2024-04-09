@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-cns11643-stroke glibc-localedata-i18n glibc-localedata-translit-combining
-RRECOMMENDS = 
-PKGSIZE = 5141
-FILES = /usr/share/i18n/locales/cmn_TW
-FILELIST = /usr/share/i18n/locales/cmn_TW

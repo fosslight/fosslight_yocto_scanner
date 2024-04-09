@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0-lg1
+DEPENDS = icecc-create-env-native ref-hw-chipset-drivers virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = nvm-drivers-nvmedia-early nvm-drivers-nvmedia-others nvm-drivers-nvmedia-dev nvm-drivers-nvm-vicsi-v3 nvm-drivers-nvcapture
+LAYER = tegra

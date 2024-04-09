@@ -1,0 +1,8 @@
+PV = 2.0.5
+PR = r0
+RPROVIDES = de-translation libidn2-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-de
+PKGSIZE = 1204
+FILES = /usr/share/locale/de
+FILELIST = /usr/share/locale/de/LC_MESSAGES/libidn2.mo

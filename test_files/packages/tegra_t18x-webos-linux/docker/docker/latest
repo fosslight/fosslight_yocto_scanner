@@ -1,0 +1,10 @@
+PV = 18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0
+PR = r0
+PKGR = r0webosvirt1
+RPROVIDES = 
+RDEPENDS = base-files base-passwd containerd glibc (>= 2.28) iptables libltdl (>= 2.4.6) libsystemd (>= 239) runc shadow util-linux util-linux-unshare virtual virtual
+RRECOMMENDS = docker-init kernel-module-br-netfilter kernel-module-dm-thin-pool kernel-module-ebt-dnat kernel-module-ip-vs kernel-module-nf-defrag-ipv6 kernel-module-nf-nat kernel-module-nfnetlink kernel-module-openvswitch kernel-module-veth kernel-module-xt-addrtype kernel-module-xt-conntrack kernel-module-xt-nat
+RSUGGESTS = lxc rt-tests
+PKGSIZE = 133831405
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/docker /usr/lib/docker/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/* /lib/systemd/system/docker.service
+FILELIST = /lib/systemd/system/docker.service /lib/systemd/system/docker.service.rpm /lib/systemd/system/docker.socket /usr/bin/docker /usr/bin/docker-proxy /usr/bin/dockerd

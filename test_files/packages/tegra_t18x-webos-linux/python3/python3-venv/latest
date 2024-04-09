@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = python3-pyvenv
+RDEPENDS = python3-compression python3-core python3-logging python3-shell python3-stringold python3-unixadmin
+RRECOMMENDS = 
+PKGSIZE = 70206
+FILES = /usr/lib/python3.5/venv /usr/bin/pyvenv*
+FILELIST = /usr/bin/pyvenv /usr/bin/pyvenv-3.5 /usr/lib/python3.5/venv/__init__.py /usr/lib/python3.5/venv/__main__.py /usr/lib/python3.5/venv/__pycache__/__init__.cpython-35.opt-1.pyc /usr/lib/python3.5/venv/__pycache__/__init__.cpython-35.opt-2.pyc /usr/lib/python3.5/venv/__pycache__/__init__.cpython-35.pyc /usr/lib/python3.5/venv/__pycache__/__main__.cpython-35.opt-1.pyc /usr/lib/python3.5/venv/__pycache__/__main__.cpython-35.opt-2.pyc /usr/lib/python3.5/venv/__pycache__/__main__.cpython-35.pyc /usr/lib/python3.5/venv/scripts/common/activate /usr/lib/python3.5/venv/scripts/posix/activate.csh /usr/lib/python3.5/venv/scripts/posix/activate.fish

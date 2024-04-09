@@ -1,0 +1,8 @@
+PV = 1.7.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libusb1 (>= 1.0.22)
+RRECOMMENDS = 
+PKGSIZE = 202133
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openobex /usr/lib/openobex/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.*
+FILELIST = /lib/udev/rules.d/60-openobex.rules /usr/lib/libopenobex.so.1.7.2 /usr/lib/libopenobex.so.2 /usr/sbin/obex-check-device

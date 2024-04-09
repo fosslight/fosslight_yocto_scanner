@@ -1,0 +1,8 @@
+PV = git
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 85691
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/go-mux /usr/lib/go-mux/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/local/go/src/github.com/gorilla/mux/*
+FILELIST = /usr/local/go/src/github.com/gorilla/mux/LICENSE /usr/local/go/src/github.com/gorilla/mux/README.md /usr/local/go/src/github.com/gorilla/mux/bench_test.go /usr/local/go/src/github.com/gorilla/mux/doc.go /usr/local/go/src/github.com/gorilla/mux/mux.go /usr/local/go/src/github.com/gorilla/mux/mux_test.go /usr/local/go/src/github.com/gorilla/mux/old_test.go /usr/local/go/src/github.com/gorilla/mux/regexp.go /usr/local/go/src/github.com/gorilla/mux/route.go

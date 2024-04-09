@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/perl
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto/Socket
+-r-xr-xr-x root       root            67744 ./usr/lib/perl/5.24.4/auto/Socket/Socket.so
+-r--r--r-- root       root            36431 ./usr/lib/perl/5.24.4/Socket.pm

@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            68256 ./usr/bin/libevdev-tweak-device
+-rwxr-xr-x root       root            67744 ./usr/bin/mouse-dpi-tool
+-rwxr-xr-x root       root            67752 ./usr/bin/touchpad-edge-detector
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           133320 ./usr/lib/libevdev.so.2.1.21
+lrwxrwxrwx root       root               18 ./usr/lib/libevdev.so.2 -> libevdev.so.2.1.21

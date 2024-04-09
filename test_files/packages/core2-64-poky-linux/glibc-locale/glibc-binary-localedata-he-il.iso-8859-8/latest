@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 316602
-FILES = /usr/lib/locale/he_IL.ISO-8859-8
-FILELIST = /usr/lib/locale/he_IL.ISO-8859-8/LC_ADDRESS /usr/lib/locale/he_IL.ISO-8859-8/LC_COLLATE /usr/lib/locale/he_IL.ISO-8859-8/LC_CTYPE /usr/lib/locale/he_IL.ISO-8859-8/LC_IDENTIFICATION /usr/lib/locale/he_IL.ISO-8859-8/LC_MEASUREMENT /usr/lib/locale/he_IL.ISO-8859-8/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/he_IL.ISO-8859-8/LC_MONETARY /usr/lib/locale/he_IL.ISO-8859-8/LC_NAME /usr/lib/locale/he_IL.ISO-8859-8/LC_NUMERIC /usr/lib/locale/he_IL.ISO-8859-8/LC_PAPER /usr/lib/locale/he_IL.ISO-8859-8/LC_TELEPHONE /usr/lib/locale/he_IL.ISO-8859-8/LC_TIME

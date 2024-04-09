@@ -1,0 +1,9 @@
+PV = 2.0.0
+PR = r0
+PKGR = r0coconut9-webos1
+RPROVIDES = 
+RDEPENDS = weston (= 2.0.0-r0coconut9-webos1)
+RRECOMMENDS = base-files-dev base-passwd-dev cairo-dev dbus-dev dbus-lib-dev drm-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev jpeg-dev libdrm-nv-dev libinput-dev libjpeg-turbo-dev libpam-dev libpng-dev libsystemd-dev libudev-dev libxkbcommon-dev mtdev-dev nv-graphics-drivers-egl-dev nv-graphics-drivers-glesv2-dev nv-graphics-drivers-nvidia-egl-wayland-dev pango-dev pixman-dev shadow-dev shadow-sysroot-dev udev-dev wayland-dev wayland-egl-dev wayland-protocols wayland-protocols-dev xkeyboard-config-dev
+PKGSIZE = 115331
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/weston/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libweston-2/compositor-drm.h /usr/include/libweston-2/compositor-fbdev.h /usr/include/libweston-2/compositor-headless.h /usr/include/libweston-2/compositor-rdp.h /usr/include/libweston-2/compositor-wayland.h /usr/include/libweston-2/compositor-x11.h /usr/include/libweston-2/compositor.h /usr/include/libweston-2/config-parser.h /usr/include/libweston-2/libweston-desktop.h /usr/include/libweston-2/matrix.h /usr/include/libweston-2/plugin-registry.h /usr/include/libweston-2/timeline-object.h /usr/include/libweston-2/version.h /usr/include/libweston-2/windowed-output-api.h /usr/include/libweston-2/zalloc.h /usr/include/weston/ivi-layout-export.h /usr/include/weston/weston.h /usr/lib/libweston-2.so /usr/lib/libweston-desktop-2.so /usr/lib/pkgconfig/libweston-2.pc /usr/lib/pkgconfig/libweston-desktop-2.pc /usr/lib/pkgconfig/weston.pc

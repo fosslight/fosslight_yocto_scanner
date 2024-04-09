@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r29
+RPROVIDES = 
+RDEPENDS = busybox
+RRECOMMENDS = 
+PKGSIZE = 12852
+FILES = etc/systemd/scripts/nv_tacp_init.sh etc/systemd/system/tegra.target.wants/nv_tacp_init.service
+FILELIST = /etc/systemd/scripts/nv_tacp_init.sh /etc/systemd/system/tegra.target.wants/nv_tacp_init.service

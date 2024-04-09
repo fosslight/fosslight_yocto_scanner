@@ -1,0 +1,9 @@
+PV = 1.10
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) sg3-utils (>= 1.42)
+RRECOMMENDS = 
+PKGSIZE = 244120
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/sdparm /usr/lib/sdparm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/sdparm

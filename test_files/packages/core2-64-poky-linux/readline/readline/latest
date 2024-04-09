@@ -1,9 +1,0 @@
-PV = 8.0
-PR = r0
-PKG = libreadline8
-RPROVIDES = readline (=8.0)
-RDEPENDS = glibc (>= 2.31+git0+1094741224) ncurses-libtinfo (>= 6.2)
-RRECOMMENDS = 
-PKGSIZE = 379308
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/readline /usr/lib/readline/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /etc/inputrc /usr/lib/libhistory.so.8 /usr/lib/libhistory.so.8.0 /usr/lib/libreadline.so.8 /usr/lib/libreadline.so.8.0

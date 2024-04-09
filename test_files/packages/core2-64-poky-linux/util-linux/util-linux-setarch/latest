@@ -1,8 +1,0 @@
-PV = 2.35.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 26971
-FILES = /usr/bin/setarch /usr/bin/i386 /usr/bin/linux32 /usr/bin/uname26 /usr/bin/linux64 /usr/bin/x86_64
-FILELIST = /usr/bin/i386 /usr/bin/linux32 /usr/bin/linux64 /usr/bin/setarch /usr/bin/uname26 /usr/bin/x86_64

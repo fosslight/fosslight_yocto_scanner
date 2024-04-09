@@ -1,0 +1,5 @@
+PV = 11.0.0-2
+PR = r3
+DEPENDS = icecc-create-env-native qtbase-native qtdeclarative virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = ilib-qml-plugin-dbg ilib-qml-plugin-staticdev ilib-qml-plugin-dev ilib-qml-plugin-doc ilib-qml-plugin-locale ilib-qml-plugin
+LAYER = meta-webos

@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           347040 ./usr/lib/.debug/librolegen.so.2.1.0
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/librolegen
+drwxr-xr-x root       root             4096 ./usr/src/debug/librolegen/2.1.0-1-r5
+drwxr-xr-x root       root             4096 ./usr/src/debug/librolegen/2.1.0-1-r5/build
+drwxr-xr-x root       root             4096 ./usr/src/debug/librolegen/2.1.0-1-r5/build/Configured
+drwxr-xr-x root       root             4096 ./usr/src/debug/librolegen/2.1.0-1-r5/build/Configured/src
+-rwxr-xr-x root       root             4048 ./usr/src/debug/librolegen/2.1.0-1-r5/build/Configured/src/rolegen.cpp
+drwxr-xr-x root       root             4096 ./usr/src/debug/librolegen/2.1.0-1-r5/git
+drwxr-xr-x root       root             4096 ./usr/src/debug/librolegen/2.1.0-1-r5/git/include
+drwxr-xr-x root       root             4096 ./usr/src/debug/librolegen/2.1.0-1-r5/git/include/public
+-rwxr-xr-x root       root             1297 ./usr/src/debug/librolegen/2.1.0-1-r5/git/include/public/rolegen.h

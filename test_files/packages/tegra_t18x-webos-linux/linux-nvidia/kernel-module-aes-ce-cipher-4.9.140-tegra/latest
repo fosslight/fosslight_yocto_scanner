@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-aes-ce-cipher
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 9048
+FILES = /lib/modules/4.9.140-tegra/kernel/arch/arm64/crypto/aes-ce-cipher.ko /etc/modules-load.d/aes-ce-cipher.conf /etc/modprobe.d/aes-ce-cipher.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/arch/arm64/crypto/aes-ce-cipher.ko

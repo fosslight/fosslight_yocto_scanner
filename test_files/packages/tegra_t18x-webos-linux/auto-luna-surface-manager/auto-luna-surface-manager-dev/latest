@@ -1,0 +1,8 @@
+PV = 0.0.1-13
+PR = r2
+RPROVIDES = 
+RDEPENDS = auto-luna-surface-manager (= 0.0.1-13-r2)
+RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev luna-surfacemanager-base-dev luna-surfacemanager-dev qt-features-webos-dev qtbase-dev qtdeclarative-dev qtwayland-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/auto-luna-surface-manager/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

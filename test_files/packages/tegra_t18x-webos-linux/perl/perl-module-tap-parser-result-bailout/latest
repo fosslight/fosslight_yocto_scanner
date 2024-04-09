@@ -1,0 +1,8 @@
+PV = 5.24.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-base perl-module-strict perl-module-warnings
+RRECOMMENDS = 
+PKGSIZE = 1151
+FILES = /usr/lib/perl/5.24.4/TAP/Parser/Result/Bailout.pm
+FILELIST = /usr/lib/perl/5.24.4/TAP/Parser/Result/Bailout.pm

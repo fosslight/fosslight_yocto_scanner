@@ -1,9 +1,0 @@
-PE = 1
-PV = 1.0.10
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 219079
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/include/X11/ICE/ICEconn.h /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/include/X11/ICE/ICElib.h /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/include/X11/ICE/ICEmsg.h /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/include/X11/ICE/ICEproto.h /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/include/X11/ICE/ICEutil.h /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/ICElibint.h /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/accept.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/authutil.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/connect.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/error.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/getauth.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/globals.h /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/iceauth.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/listen.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/listenwk.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/locking.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/misc.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/ping.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/process.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/protosetup.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/register.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/replywait.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/setauth.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/shutdown.c /usr/src/debug/libice/1_1.0.10-r0/libICE-1.0.10/src/watch.c

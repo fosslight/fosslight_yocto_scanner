@@ -1,0 +1,5 @@
+PV = 1.0.2-14
+PR = r5
+DEPENDS = cmake-modules-webos-native cmake-native icecc-create-env-native ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = luna-service2-security-conf-dbg luna-service2-security-conf-staticdev luna-service2-security-conf-dev luna-service2-security-conf-doc luna-service2-security-conf-locale luna-service2-security-conf
+LAYER = meta-webos

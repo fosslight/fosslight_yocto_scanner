@@ -1,8 +1,0 @@
-PV = 2.2.53
-PR = r0
-RPROVIDES = 
-RDEPENDS = acl (= 2.2.53-r0) libacl
-RRECOMMENDS = attr-dev bash-dev coreutils-dev e2fsprogs-mke2fs-dev gawk-dev glibc-dev libacl-dev libattr-dev make-dev perl-dev perl-module-cwd-dev perl-module-file-basename-dev perl-module-file-path-dev perl-module-file-spec-dev perl-module-filehandle-dev perl-module-getopt-std-dev perl-module-posix-dev shadow-dev
-PKGSIZE = 6533
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/acl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/acl/libacl.h /usr/include/sys/acl.h /usr/lib/libacl.so /usr/lib/pkgconfig/libacl.pc

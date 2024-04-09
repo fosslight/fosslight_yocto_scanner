@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = i2c-tools (= 4.1-r0)
+RRECOMMENDS = glibc-dev perl-dev perl-module-constant-dev perl-module-fcntl-dev perl-module-file-basename-dev perl-module-posix-dev perl-module-strict-dev perl-module-vars-dev update-alternatives-opkg-dev
+PKGSIZE = 2069
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/i2c-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/i2c/smbus.h /usr/lib/libi2c.so

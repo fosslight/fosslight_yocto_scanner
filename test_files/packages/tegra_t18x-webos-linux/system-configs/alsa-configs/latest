@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 321673
+FILES = /usr/share/alsa/*
+FILELIST = /usr/share/alsa/alsa-base.conf /usr/share/alsa/asound.conf.apbifg1.vcm30t124.e1859.e1861 /usr/share/alsa/asound.conf.apbifg2.vcm30t124.e1859.e1860 /usr/share/alsa/asound.conf.genivi /usr/share/alsa/asound.conf.vcm31.aran /usr/share/alsa/asound.conf.vcm31t210.e2580.e2573.e1892 /usr/share/alsa/asound.conf.vcm31t210.p2382 /usr/share/alsa/asound.state

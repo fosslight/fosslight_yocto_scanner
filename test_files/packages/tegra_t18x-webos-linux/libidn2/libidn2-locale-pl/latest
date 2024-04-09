@@ -1,0 +1,8 @@
+PV = 2.0.5
+PR = r0
+RPROVIDES = libidn2-locale pl-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-pl
+PKGSIZE = 5556
+FILES = /usr/share/locale/pl
+FILELIST = /usr/share/locale/pl/LC_MESSAGES/libidn2.mo

@@ -1,0 +1,9 @@
+PV = 2.1.0
+PR = r5
+PKG = libsysfs2
+RPROVIDES = libsysfs (=2.1.0)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 67689
+FILES = /lib/lib*.so.*
+FILELIST = /lib/libsysfs.so.2 /lib/libsysfs.so.2.0.1

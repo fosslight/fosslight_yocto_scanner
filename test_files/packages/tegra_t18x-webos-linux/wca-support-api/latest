@@ -1,0 +1,5 @@
+PV = 1.0.0-3
+PR = r1
+DEPENDS = cmake-modules-webos-native cmake-native icecc-create-env-native libpbnjson luna-service2 ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = wca-support-api-dbg wca-support-api-staticdev wca-support-api-dev wca-support-api-doc wca-support-api-locale wca-support-api
+LAYER = meta-webos

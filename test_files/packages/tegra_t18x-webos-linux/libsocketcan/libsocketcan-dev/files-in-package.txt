@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             3079 ./usr/include/can_netlink.h
+-rw-r--r-- root       root             1986 ./usr/include/libsocketcan.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               21 ./usr/lib/libsocketcan.so -> libsocketcan.so.2.2.1
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              275 ./usr/lib/pkgconfig/libsocketcan.pc

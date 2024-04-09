@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-aes-ce-blk
+RDEPENDS = kernel-4.9.140-tegra kernel-module-ablk-helper-4.9.140-tegra kernel-module-aes-ce-cipher-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 19688
+FILES = /lib/modules/4.9.140-tegra/kernel/arch/arm64/crypto/aes-ce-blk.ko /etc/modules-load.d/aes-ce-blk.conf /etc/modprobe.d/aes-ce-blk.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/arch/arm64/crypto/aes-ce-blk.ko

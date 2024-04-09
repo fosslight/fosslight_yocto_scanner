@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 15872
+FILES = /lib/firmware/tegra18x/nvhost_nvjpg011.fw
+FILELIST = /lib/firmware/tegra18x/nvhost_nvjpg011.fw

@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root            25584 ./usr/bin/.debug/ppsctl
+-rwxr-xr-x root       root            14592 ./usr/bin/.debug/ppsldisc
+-rwxr-xr-x root       root            24168 ./usr/bin/.debug/ppstest
+-rwxr-xr-x root       root            31736 ./usr/bin/.debug/ppswatch
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/pps-tools
+drwxr-xr-x root       root             4096 ./usr/src/debug/pps-tools/1.0.2-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/pps-tools/1.0.2-r0/git
+-rw-r--r-- root       root             5564 ./usr/src/debug/pps-tools/1.0.2-r0/git/ppsctl.c
+-rw-r--r-- root       root             1284 ./usr/src/debug/pps-tools/1.0.2-r0/git/ppsldisc.c
+-rw-r--r-- root       root             4079 ./usr/src/debug/pps-tools/1.0.2-r0/git/ppstest.c
+-rw-r--r-- root       root             6407 ./usr/src/debug/pps-tools/1.0.2-r0/git/ppswatch.c
+-rw-r--r-- root       root             5928 ./usr/src/debug/pps-tools/1.0.2-r0/git/timepps.h

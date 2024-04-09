@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/perl
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto/File
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto/File/DosGlob
+-r-xr-xr-x root       root            67672 ./usr/lib/perl/5.24.4/auto/File/DosGlob/DosGlob.so
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/File
+-r--r--r-- root       root             7994 ./usr/lib/perl/5.24.4/File/DosGlob.pm

@@ -1,0 +1,8 @@
+PV = 1.9
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ptest-runner
+PKGSIZE = 186228
+FILES = /usr/lib/gzip/ptest
+FILELIST = /usr/lib/gzip/ptest/run-ptest /usr/lib/gzip/ptest/src/build-aux/test-driver /usr/lib/gzip/ptest/src/tests/Makefile /usr/lib/gzip/ptest/src/tests/Makefile.am /usr/lib/gzip/ptest/src/tests/Makefile.in /usr/lib/gzip/ptest/src/tests/gzip-env /usr/lib/gzip/ptest/src/tests/helin-segv /usr/lib/gzip/ptest/src/tests/help-version /usr/lib/gzip/ptest/src/tests/hufts /usr/lib/gzip/ptest/src/tests/hufts-segv.gz /usr/lib/gzip/ptest/src/tests/init.cfg /usr/lib/gzip/ptest/src/tests/init.sh /usr/lib/gzip/ptest/src/tests/keep /usr/lib/gzip/ptest/src/tests/list /usr/lib/gzip/ptest/src/tests/memcpy-abuse /usr/lib/gzip/ptest/src/tests/mixed /usr/lib/gzip/ptest/src/tests/null-suffix-clobber /usr/lib/gzip/ptest/src/tests/stdin /usr/lib/gzip/ptest/src/tests/timestamp /usr/lib/gzip/ptest/src/tests/trailing-nul /usr/lib/gzip/ptest/src/tests/unpack-invalid /usr/lib/gzip/ptest/src/tests/unpack-valid /usr/lib/gzip/ptest/src/tests/upper-suffix /usr/lib/gzip/ptest/src/tests/z-suffix /usr/lib/gzip/ptest/src/tests/zdiff /usr/lib/gzip/ptest/src/tests/zgrep-context /usr/lib/gzip/ptest/src/tests/zgrep-f /usr/lib/gzip/ptest/src/tests/zgrep-signal /usr/lib/gzip/ptest/src/tests/znew-k

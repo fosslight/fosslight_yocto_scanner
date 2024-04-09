@@ -1,9 +1,0 @@
-PV = 1.2.6
-PR = r0
-PKG = libtirpc3
-RPROVIDES = libtirpc (=1.2.6)
-RDEPENDS = glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 163119
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libtirpc /usr/lib/libtirpc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /etc/bindresvport.blacklist /etc/netconfig /usr/lib/libtirpc.so.3 /usr/lib/libtirpc.so.3.0.0

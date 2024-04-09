@@ -1,0 +1,9 @@
+PV = 5.12.4-144
+PR = r0
+PKGR = r0webos17
+RPROVIDES = 
+RDEPENDS = babeltrace fontconfig (>= 2.12.6) freetype (>= 2.9.1) glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libstdc++ (>= 8.2.0) libxkbcommon (>= 0.8.2) lttng-modules lttng-tools lttng-ust (>= 2.10.3) nv-graphics-drivers-egl (>= 1.0) nv-graphics-drivers-glesv2 (>= 1.0) qtbase (>= 5.12.6+git0+f0b93f7a4b) qtdeclarative (>= 5.12.6+git0+179c4b689d) wayland (>= 1.13.0) wayland-egl (>= 1.0)
+RRECOMMENDS = qtwayland-plugins qtwayland-qmlplugins
+PKGSIZE = 2424304
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtwayland /usr/lib/qtwayland/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/libexec
+FILELIST = /usr/lib/libQt5WaylandClient.so.5 /usr/lib/libQt5WaylandClient.so.5.12 /usr/lib/libQt5WaylandClient.so.5.12.4 /usr/lib/libQt5WaylandCompositor.so.5 /usr/lib/libQt5WaylandCompositor.so.5.12 /usr/lib/libQt5WaylandCompositor.so.5.12.4 /usr/lib/libQt5WaylandEglClientBufferIntegration.so.1 /usr/lib/libQt5WaylandEglClientBufferIntegration.so.1.0 /usr/lib/libQt5WaylandEglClientBufferIntegration.so.1.0.0 /usr/lib/libQt5WaylandShellSurface.so.1 /usr/lib/libQt5WaylandShellSurface.so.1.0 /usr/lib/libQt5WaylandShellSurface.so.1.0.0

@@ -1,0 +1,8 @@
+PV = 2.10.9
+PR = r0
+RPROVIDES = kernel-module-lttng-statedump
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 23888
+FILES = /lib/modules/4.9.140-tegra/kernel/lttng-modules/lttng-statedump.ko /etc/modules-load.d/lttng-statedump.conf /etc/modprobe.d/lttng-statedump.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/lttng-modules/lttng-statedump.ko

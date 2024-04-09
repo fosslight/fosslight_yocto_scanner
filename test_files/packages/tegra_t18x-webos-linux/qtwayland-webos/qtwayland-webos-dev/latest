@@ -1,0 +1,8 @@
+PV = 2.0.0-49
+PR = r9
+RPROVIDES = 
+RDEPENDS = qtwayland-webos (= 2.0.0-49-r9)
+RRECOMMENDS = babeltrace-dev glibc-dev libstdc++-dev libxkbcommon-dev lttng-modules-dev lttng-tools-dev lttng-ust-dev qt-features-webos-dev qtbase-dev qtwayland-dev wayland-dev webos-wayland-extensions-dev
+PKGSIZE = 23233
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtwayland-webos/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/webosforeign.h /usr/include/webosinputmanager.h /usr/include/webosinputpanellocator.h /usr/include/webosplatform.h /usr/include/webosshell.h /usr/include/webosshellintegration.h /usr/include/webosshellsurface.h /usr/include/webossurfacegroup.h /usr/include/webossurfacegroupcompositor.h /usr/include/webossurfacegrouplayer.h /usr/include/webosxinput.h /usr/lib/libwebos-platform-interface.so /usr/lib/pkgconfig/webos-platform-interface.pc /usr/lib/pkgconfig/weboscompositorextensionclient.pc

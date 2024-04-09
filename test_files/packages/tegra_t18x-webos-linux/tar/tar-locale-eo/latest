@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = eo-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eo
+PKGSIZE = 59483
+FILES = /usr/share/locale/eo
+FILELIST = /usr/share/locale/eo/LC_MESSAGES/tar.mo

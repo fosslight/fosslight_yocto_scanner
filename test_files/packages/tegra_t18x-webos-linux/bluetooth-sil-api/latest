@@ -1,0 +1,5 @@
+PV = 1.0.0-6
+PR = r1
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = bluetooth-sil-api-tests bluetooth-sil-api-dbg bluetooth-sil-api-staticdev bluetooth-sil-api-dev bluetooth-sil-api-doc bluetooth-sil-api-locale bluetooth-sil-api
+LAYER = meta-webos

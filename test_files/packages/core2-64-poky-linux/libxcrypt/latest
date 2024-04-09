@@ -1,5 +1,0 @@
-PV = 4.4.15
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = libxcrypt-src libxcrypt-dbg libxcrypt-staticdev libxcrypt-dev libxcrypt-doc libxcrypt-locale libxcrypt
-LAYER = core

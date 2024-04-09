@@ -1,8 +1,0 @@
-PV = 10.1.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/lib/libquadmath.a
-FILELIST = 

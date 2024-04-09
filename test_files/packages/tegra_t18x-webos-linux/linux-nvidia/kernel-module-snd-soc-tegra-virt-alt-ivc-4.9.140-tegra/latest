@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-snd-soc-tegra-virt-alt-ivc
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 12864
+FILES = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-virt-alt/snd-soc-tegra-virt-alt-ivc.ko /etc/modules-load.d/snd-soc-tegra-virt-alt-ivc.conf /etc/modprobe.d/snd-soc-tegra-virt-alt-ivc.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-virt-alt/snd-soc-tegra-virt-alt-ivc.ko

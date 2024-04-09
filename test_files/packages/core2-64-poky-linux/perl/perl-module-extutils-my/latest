@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-extutils-mm perl-module-strict
-RRECOMMENDS = 
-PKGSIZE = 678
-FILES = /usr/lib/perl5/5.30.2/ExtUtils/MY.pm
-FILELIST = /usr/lib/perl5/5.30.2/ExtUtils/MY.pm

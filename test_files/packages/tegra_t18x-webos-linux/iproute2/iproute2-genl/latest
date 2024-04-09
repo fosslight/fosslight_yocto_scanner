@@ -1,0 +1,8 @@
+PV = 4.19.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libcap (>= 2.25) libmnl (>= 1.0.4)
+RRECOMMENDS = 
+PKGSIZE = 133416
+FILES = /sbin/genl
+FILELIST = /sbin/genl

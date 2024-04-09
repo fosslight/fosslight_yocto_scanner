@@ -1,0 +1,9 @@
+PV = 1.0
+PR = r0-lg1
+PKG = libnvidia-egl-wayland-dev
+RPROVIDES = nv-graphics-drivers-nvidia-egl-wayland-dev (=1.0)
+RDEPENDS = 
+RRECOMMENDS = glibc-dev nv-rm-drivers-dev wayland-dev
+PKGSIZE = 2173
+FILES = /usr/include/wayland-eglstream-controller-server-protocol.h
+FILELIST = /usr/include/wayland-eglstream-controller-server-protocol.h

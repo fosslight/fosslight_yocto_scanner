@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = bg-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-bg
+PKGSIZE = 54544
+FILES = /usr/share/locale/bg
+FILELIST = /usr/share/locale/bg/LC_MESSAGES/tar.mo

@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/killall killall /usr/bin/killall.psmisc 90

@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             2608 ./usr/include/PmLog.h
+-rw-r--r-- root       root            42834 ./usr/include/PmLogLib.h
+-rw-r--r-- root       root            13925 ./usr/include/PmLogMsg.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               19 ./usr/lib/libPmLogLibCpp.so -> libPmLogLibCpp.so.3
+lrwxrwxrwx root       root               16 ./usr/lib/libPmLogLib.so -> libPmLogLib.so.3
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rw-r--r-- root       root              829 ./usr/share/pkgconfig/PmLogLibCpp.pc
+-rw-r--r-- root       root              792 ./usr/share/pkgconfig/PmLogLib-headers.pc
+-rw-r--r-- root       root              810 ./usr/share/pkgconfig/PmLogLib.pc

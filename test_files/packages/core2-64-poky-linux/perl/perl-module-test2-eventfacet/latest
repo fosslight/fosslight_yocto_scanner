@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-carp perl-module-strict perl-module-test2-util perl-module-test2-util-hashbase perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 1494
-FILES = /usr/lib/perl5/5.30.2/Test2/EventFacet.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test2/EventFacet.pm

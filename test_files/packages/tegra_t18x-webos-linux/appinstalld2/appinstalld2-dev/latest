@@ -1,0 +1,8 @@
+PV = 1.0.0-4
+PR = r3
+RPROVIDES = 
+RDEPENDS = appinstalld2 (= 1.0.0-4-r3)
+RRECOMMENDS = applicationinstallerutility-dev boost-dev ecryptfs-utils-dev glib-2.0-dev glibc-dev icu-dev libgcc-dev libicuuc-dev libpbnjson-dev librolegen-dev libstdc++-dev luna-service2-dev pmloglib-dev pmtrace-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/appinstalld2/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

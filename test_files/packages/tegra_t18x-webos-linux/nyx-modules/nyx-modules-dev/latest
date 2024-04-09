@@ -1,0 +1,8 @@
+PV = 7.1.0-2
+PR = r15
+RPROVIDES = 
+RDEPENDS = nyx-modules (= 7.1.0-2-r15)
+RRECOMMENDS = glib-2.0-dev glibc-dev gzip-dev libcrypto-dev lsb-dev luna-service2-dev nyx-lib-dev openssl-dev pmloglib-dev udev-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/nyx-modules/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

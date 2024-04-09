@@ -1,5 +1,0 @@
-PV = 1.0
-PR = r7
-DEPENDS = initscripts update-rc.d virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = modutils-initscripts-src modutils-initscripts-dbg modutils-initscripts-staticdev modutils-initscripts-dev modutils-initscripts-doc modutils-initscripts-locale modutils-initscripts
-LAYER = core

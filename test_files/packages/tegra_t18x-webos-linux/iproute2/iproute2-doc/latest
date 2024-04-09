@@ -1,0 +1,8 @@
+PV = 4.19.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 98797
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/doc/iproute2/examples/README.cbq /usr/share/doc/iproute2/examples/README.iproute2+tc /usr/share/doc/iproute2/examples/SYN-DoS.rate.limit /usr/share/doc/iproute2/examples/cbq.init-v0.7.3 /usr/share/doc/iproute2/examples/cbqinit.eth1 /usr/share/doc/iproute2/examples/dhcp-client-script /usr/share/doc/iproute2/examples/diffserv/Edge1 /usr/share/doc/iproute2/examples/diffserv/Edge2 /usr/share/doc/iproute2/examples/diffserv/Edge31-ca-u32 /usr/share/doc/iproute2/examples/diffserv/Edge31-cb-chains /usr/share/doc/iproute2/examples/diffserv/Edge32-ca-u32 /usr/share/doc/iproute2/examples/diffserv/Edge32-cb-chains /usr/share/doc/iproute2/examples/diffserv/Edge32-cb-u32 /usr/share/doc/iproute2/examples/diffserv/README /usr/share/doc/iproute2/examples/diffserv/afcbq /usr/share/doc/iproute2/examples/diffserv/ef-prio /usr/share/doc/iproute2/examples/diffserv/efcbq /usr/share/doc/iproute2/examples/diffserv/regression-testing /usr/share/doc/iproute2/examples/gaiconf

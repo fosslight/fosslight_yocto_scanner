@@ -1,0 +1,8 @@
+PV = 1.1.0-8
+PR = r1
+RPROVIDES = 
+RDEPENDS = com.webos.app.settings (= 1.1.0-8-r1)
+RRECOMMENDS = enact-framework-dev ilib-webapp-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/com.webos.app.settings/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

@@ -1,8 +1,0 @@
-PV = 2.35.1
-PR = r0
-RPROVIDES = hr-translation util-linux-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-hr
-PKGSIZE = 473008
-FILES = /usr/share/locale/hr
-FILELIST = /usr/share/locale/hr/LC_MESSAGES/util-linux.mo

@@ -1,0 +1,9 @@
+PV = 0.4.28
+PR = r0
+PKG = liborc-0.4-0
+RPROVIDES = liborc-0.4 (=0.4.28)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 541028
+FILES = /usr/lib/liborc-0.4.so /usr/lib/liborc-0.4.so.0 /usr/lib/liborc-0.4.so.0.28.0
+FILELIST = /usr/lib/liborc-0.4.so.0 /usr/lib/liborc-0.4.so.0.28.0

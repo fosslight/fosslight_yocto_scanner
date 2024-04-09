@@ -1,9 +1,0 @@
-PV = 4.0.2
-PR = r0
-PKG = libmpfr6
-RPROVIDES = mpfr (=4.0.2)
-RDEPENDS = glibc (>= 2.31+git0+1094741224) gmp (>= 6.2.0)
-RRECOMMENDS = 
-PKGSIZE = 2741984
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mpfr /usr/lib/mpfr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libmpfr.so.6 /usr/lib/libmpfr.so.6.0.2

@@ -1,8 +1,0 @@
-PV = 0.17029
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 26635
-FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man3/Error.3 /usr/share/man/man3/Error::Simple.3

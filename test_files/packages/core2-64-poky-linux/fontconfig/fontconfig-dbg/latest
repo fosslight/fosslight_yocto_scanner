@@ -1,9 +1,0 @@
-PV = 2.13.1
-PR = r0
-PKG = libfontconfig-dbg
-RPROVIDES = fontconfig-dbg (=2.13.1)
-RDEPENDS = 
-RRECOMMENDS = expat-dbg freetype-dbg glibc-dbg util-linux-libuuid-dbg
-PKGSIZE = 1316104
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/fc-cache /usr/bin/.debug/fc-cat /usr/bin/.debug/fc-conflist /usr/bin/.debug/fc-list /usr/bin/.debug/fc-match /usr/bin/.debug/fc-pattern /usr/bin/.debug/fc-query /usr/bin/.debug/fc-scan /usr/bin/.debug/fc-validate /usr/lib/.debug/libfontconfig.so.1.12.0 /usr/libexec/.debug/fc-cache

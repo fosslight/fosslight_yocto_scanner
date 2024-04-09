@@ -1,8 +1,0 @@
-PV = 1.15
-PR = r0
-RPROVIDES = bg-translation shared-mime-info-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-bg
-PKGSIZE = 44054
-FILES = /usr/share/locale/bg
-FILELIST = /usr/share/locale/bg/LC_MESSAGES/shared-mime-info.mo

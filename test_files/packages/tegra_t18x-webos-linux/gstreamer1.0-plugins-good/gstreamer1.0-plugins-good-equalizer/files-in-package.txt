@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/gstreamer-1.0
+-rwxr-xr-x root       root            67752 ./usr/lib/gstreamer-1.0/libgstequalizer.so
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/gstreamer-1.0
+drwxr-xr-x root       root             4096 ./usr/share/gstreamer-1.0/presets
+-rw-r--r-- root       root             1457 ./usr/share/gstreamer-1.0/presets/GstIirEqualizer10Bands.prs
+-rw-r--r-- root       root              143 ./usr/share/gstreamer-1.0/presets/GstIirEqualizer3Bands.prs
+-rw-r--r-- root       root               82 ./usr/share/gstreamer-1.0/presets/GstQTMux.prs

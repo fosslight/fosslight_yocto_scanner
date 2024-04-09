@@ -1,7 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  12 ./sysroot-providers/patch-native
--rw-r--r-- -          -                  12 ./sysroot-providers/patch-replacement-native
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -              188520 ./usr/bin/patch
-drwxr-xr-x -          -                4096 ./usr/share

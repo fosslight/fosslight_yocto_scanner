@@ -1,0 +1,11 @@
+PV = 1.12.10
+PR = r0
+PKG = dbus-1
+PKGR = r0webos5
+RPROVIDES = dbus (=1.12.10) dbus-x11
+RDEPENDS = base-files base-passwd dbus-gpl dbus-lib (>= 1.12.10) expat (>= 2.2.8) glibc (>= 2.28) libsystemd (>= 239) shadow
+RRECOMMENDS = 
+RREPLACES = dbus-x11
+PKGSIZE = 286890
+FILES = /usr/bin/dbus-daemon* /usr/bin/dbus-uuidgen /usr/bin/dbus-cleanup-sockets /usr/bin/dbus-send /usr/bin/dbus-monitor /usr/bin/dbus-launch /usr/bin/dbus-run-session /usr/bin/dbus-update-activation-environment /usr/libexec/dbus* /etc /var /usr/share/dbus-1/services /usr/share/dbus-1/system-services /usr/share/dbus-1/session.d /usr/share/dbus-1/session.conf /usr/share/dbus-1/system.d /usr/share/dbus-1/system.conf /usr/share/xml/dbus-1 /lib/systemd/system /usr/lib/systemd/user /usr/lib/sysusers.d/dbus.conf /usr/lib/tmpfiles.d/dbus.conf
+FILELIST = /etc/dbus-1/session.conf /etc/dbus-1/system.conf /etc/default/volatiles/99_dbus /lib/systemd/system/dbus.service /lib/systemd/system/dbus.socket /lib/systemd/system/dbus.target.wants/dbus.socket /lib/systemd/system/multi-user.target.wants/dbus.service /lib/systemd/system/sockets.target.wants/dbus.socket /usr/bin/dbus-launch /usr/bin/dbus-run-session /usr/bin/dbus-update-activation-environment /usr/lib/systemd/user/dbus.service /usr/lib/systemd/user/dbus.socket /usr/lib/systemd/user/sockets.target.wants/dbus.socket /usr/lib/sysusers.d/dbus.conf /usr/lib/tmpfiles.d/dbus.conf /usr/libexec/dbus-daemon-launch-helper /usr/share/dbus-1/session.conf /usr/share/dbus-1/system.conf /usr/share/xml/dbus-1/busconfig.dtd /usr/share/xml/dbus-1/introspect.dtd

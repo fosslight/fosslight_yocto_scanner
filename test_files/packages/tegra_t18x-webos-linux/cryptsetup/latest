@@ -1,0 +1,5 @@
+PV = 2.0.4
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native icecc-create-env-native json-c libdevmapper libgcrypt libtool-cross libtool-native openssl pkgconfig-native popt util-linux virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = cryptsetup-dbg cryptsetup-staticdev cryptsetup-dev cryptsetup-doc cryptsetup cryptsetup-locale-cs cryptsetup-locale-da cryptsetup-locale-de cryptsetup-locale-es cryptsetup-locale-fi cryptsetup-locale-fr cryptsetup-locale-id cryptsetup-locale-it cryptsetup-locale-nl cryptsetup-locale-pl cryptsetup-locale-pt-br cryptsetup-locale-sr cryptsetup-locale-sv cryptsetup-locale-uk cryptsetup-locale-vi cryptsetup-locale-zh-cn
+LAYER = openembedded-layer

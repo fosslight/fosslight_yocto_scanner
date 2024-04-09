@@ -1,0 +1,9 @@
+PV = 3.6.4
+PR = r0
+PKG = libgnutls-locale-vi
+RPROVIDES = gnutls-locale gnutls-locale-vi (=3.6.4) vi-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-vi
+PKGSIZE = 26146
+FILES = /usr/share/locale/vi
+FILELIST = /usr/share/locale/vi/LC_MESSAGES/gnutls.mo

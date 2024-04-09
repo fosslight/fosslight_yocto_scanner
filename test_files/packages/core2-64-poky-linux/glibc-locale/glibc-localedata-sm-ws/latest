@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-en-us glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-translit-combining
-RRECOMMENDS = 
-PKGSIZE = 3796
-FILES = /usr/share/i18n/locales/sm_WS
-FILELIST = /usr/share/i18n/locales/sm_WS

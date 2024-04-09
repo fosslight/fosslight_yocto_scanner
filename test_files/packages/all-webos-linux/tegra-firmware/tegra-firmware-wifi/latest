@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 596163
+FILES = /lib/firmware/brcm/fw_bcmdhd.bin /lib/firmware/brcm/bcmdhd.clm_blob /lib/firmware/brcm/nvram.txt /lib/firmware/brcm/nvram_murata_4359_b1_es4.txt
+FILELIST = /lib/firmware/brcm/bcmdhd.clm_blob /lib/firmware/brcm/fw_bcmdhd.bin /lib/firmware/brcm/nvram.txt /lib/firmware/brcm/nvram_murata_4359_b1_es4.txt

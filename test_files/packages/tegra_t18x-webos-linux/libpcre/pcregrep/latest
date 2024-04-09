@@ -1,0 +1,8 @@
+PV = 8.43
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpcre (>= 8.43)
+RRECOMMENDS = 
+PKGSIZE = 69720
+FILES = /usr/bin/pcregrep
+FILELIST = /usr/bin/pcregrep

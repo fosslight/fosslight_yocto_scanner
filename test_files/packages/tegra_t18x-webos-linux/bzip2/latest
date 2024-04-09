@@ -1,0 +1,5 @@
+PV = 1.0.6
+PR = r6
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/update-alternatives
+PACKAGES = bzip2-ptest libbz2 bzip2-dbg bzip2-staticdev bzip2-dev bzip2-doc bzip2-locale bzip2
+LAYER = core

@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = psmisc-locale sr-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sr
+PKGSIZE = 15310
+FILES = /usr/share/locale/sr
+FILELIST = /usr/share/locale/sr/LC_MESSAGES/psmisc.mo

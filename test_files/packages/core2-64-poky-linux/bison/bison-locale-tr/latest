@@ -1,8 +1,0 @@
-PV = 3.5.4
-PR = r0
-RPROVIDES = bison-locale tr-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-tr
-PKGSIZE = 16699
-FILES = /usr/share/locale/tr
-FILELIST = /usr/share/locale/tr/LC_MESSAGES/bison-gnulib.mo /usr/share/locale/tr/LC_MESSAGES/bison-runtime.mo /usr/share/locale/tr/LC_MESSAGES/bison.mo

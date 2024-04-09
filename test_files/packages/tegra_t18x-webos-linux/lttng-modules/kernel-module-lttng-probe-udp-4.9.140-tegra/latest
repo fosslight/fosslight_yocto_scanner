@@ -1,0 +1,8 @@
+PV = 2.10.9
+PR = r0
+RPROVIDES = kernel-module-lttng-probe-udp
+RDEPENDS = kernel-4.9.140-tegra kernel-module-lttng-tracer-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 7696
+FILES = /lib/modules/4.9.140-tegra/kernel/lttng-modules/probes/lttng-probe-udp.ko /etc/modules-load.d/lttng-probe-udp.conf /etc/modprobe.d/lttng-probe-udp.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/lttng-modules/probes/lttng-probe-udp.ko

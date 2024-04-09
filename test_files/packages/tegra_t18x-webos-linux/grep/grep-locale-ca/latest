@@ -1,0 +1,8 @@
+PV = 3.1
+PR = r0
+RPROVIDES = ca-translation grep-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ca
+PKGSIZE = 12738
+FILES = /usr/share/locale/ca
+FILELIST = /usr/share/locale/ca/LC_MESSAGES/grep.mo

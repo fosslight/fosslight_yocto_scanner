@@ -1,9 +1,0 @@
-PE = 1
-PV = 1.0.10
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 399936
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libICE.so.6.3.0

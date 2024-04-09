@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67920 ./usr/bin/prtstat
+-rwxr-xr-x root       root            67736 ./usr/bin/pslog
+lrwxrwxrwx root       root                6 ./usr/bin/pstree.x11 -> pstree

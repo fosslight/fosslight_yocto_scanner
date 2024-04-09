@@ -1,0 +1,53 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/man
+drwxr-xr-x root       root             4096 ./usr/share/man/man1
+-rw-r--r-- root       root            26289 ./usr/share/man/man1/keyctl.1
+drwxr-xr-x root       root             4096 ./usr/share/man/man3
+-rw-r--r-- root       root             2155 ./usr/share/man/man3/find_key_by_type_and_name.3
+-rw-r--r-- root       root             2592 ./usr/share/man/man3/keyctl.3
+lrwxrwxrwx root       root               20 ./usr/share/man/man3/keyctl_assume_authority.3 -> keyctl_instantiate.3
+-rw-r--r-- root       root             2424 ./usr/share/man/man3/keyctl_chown.3
+-rw-r--r-- root       root             1999 ./usr/share/man/man3/keyctl_clear.3
+-rw-r--r-- root       root             3463 ./usr/share/man/man3/keyctl_describe.3
+lrwxrwxrwx root       root               17 ./usr/share/man/man3/keyctl_describe_alloc.3 -> keyctl_describe.3
+-rw-r--r-- root       root             5021 ./usr/share/man/man3/keyctl_dh_compute.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/keyctl_dh_compute_alloc.3 -> keyctl_dh_compute.3
+lrwxrwxrwx root       root               19 ./usr/share/man/man3/keyctl_dh_compute_kdf.3 -> keyctl_dh_compute.3
+-rw-r--r-- root       root             3039 ./usr/share/man/man3/keyctl_get_keyring_ID.3
+-rw-r--r-- root       root             3344 ./usr/share/man/man3/keyctl_get_persistent.3
+-rw-r--r-- root       root             3202 ./usr/share/man/man3/keyctl_get_security.3
+lrwxrwxrwx root       root               21 ./usr/share/man/man3/keyctl_get_security_alloc.3 -> keyctl_get_security.3
+-rw-r--r-- root       root             6001 ./usr/share/man/man3/keyctl_instantiate.3
+lrwxrwxrwx root       root               20 ./usr/share/man/man3/keyctl_instantiate_iov.3 -> keyctl_instantiate.3
+-rw-r--r-- root       root             2222 ./usr/share/man/man3/keyctl_invalidate.3
+-rw-r--r-- root       root             2644 ./usr/share/man/man3/keyctl_join_session_keyring.3
+-rw-r--r-- root       root             2722 ./usr/share/man/man3/keyctl_link.3
+lrwxrwxrwx root       root               20 ./usr/share/man/man3/keyctl_negate.3 -> keyctl_instantiate.3
+-rw-r--r-- root       root               26 ./usr/share/man/man3/keyctl_pkey_decrypt.3
+-rw-r--r-- root       root             4150 ./usr/share/man/man3/keyctl_pkey_encrypt.3
+-rw-r--r-- root       root             3889 ./usr/share/man/man3/keyctl_pkey_query.3
+-rw-r--r-- root       root             4908 ./usr/share/man/man3/keyctl_pkey_sign.3
+-rw-r--r-- root       root               25 ./usr/share/man/man3/keyctl_pkey_verify.3
+-rw-r--r-- root       root             3507 ./usr/share/man/man3/keyctl_read.3
+lrwxrwxrwx root       root               13 ./usr/share/man/man3/keyctl_read_alloc.3 -> keyctl_read.3
+lrwxrwxrwx root       root               20 ./usr/share/man/man3/keyctl_reject.3 -> keyctl_instantiate.3
+-rw-r--r-- root       root             2515 ./usr/share/man/man3/keyctl_restrict_keyring.3
+-rw-r--r-- root       root             2040 ./usr/share/man/man3/keyctl_revoke.3
+-rw-r--r-- root       root             4209 ./usr/share/man/man3/keyctl_search.3
+-rw-r--r-- root       root             2522 ./usr/share/man/man3/keyctl_session_to_parent.3
+-rw-r--r-- root       root             3751 ./usr/share/man/man3/keyctl_setperm.3
+-rw-r--r-- root       root             3096 ./usr/share/man/man3/keyctl_set_reqkey_keyring.3
+-rw-r--r-- root       root             2327 ./usr/share/man/man3/keyctl_set_timeout.3
+lrwxrwxrwx root       root               13 ./usr/share/man/man3/keyctl_unlink.3 -> keyctl_link.3
+-rw-r--r-- root       root             2586 ./usr/share/man/man3/keyctl_update.3
+-rw-r--r-- root       root             3101 ./usr/share/man/man3/recursive_key_scan.3
+lrwxrwxrwx root       root               20 ./usr/share/man/man3/recursive_session_key_scan.3 -> recursive_key_scan.3
+drwxr-xr-x root       root             4096 ./usr/share/man/man5
+-rw-r--r-- root       root             4529 ./usr/share/man/man5/request-key.conf.5
+drwxr-xr-x root       root             4096 ./usr/share/man/man7
+-rw-r--r-- root       root             9416 ./usr/share/man/man7/asymmetric-key.7
+-rw-r--r-- root       root             2713 ./usr/share/man/man7/keyutils.7
+drwxr-xr-x root       root             4096 ./usr/share/man/man8
+-rw-r--r-- root       root             1326 ./usr/share/man/man8/key.dns_resolver.8
+-rw-r--r-- root       root             2175 ./usr/share/man/man8/request-key.8

@@ -1,0 +1,5 @@
+PV = 5.12.6+gitAUTOINC+179c4b689d
+PR = r0
+DEPENDS = icecc-create-env-native qtbase qtbase-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = qtdeclarative-ptest qtdeclarative-qmldesigner qtdeclarative-qmlplugins qtdeclarative-tools qtdeclarative-plugins qtdeclarative-mkspecs qtdeclarative-examples qtdeclarative-dbg qtdeclarative-staticdev qtdeclarative-dev qtdeclarative-doc qtdeclarative-locale qtdeclarative
+LAYER = qt5-layer

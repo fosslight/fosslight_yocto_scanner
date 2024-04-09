@@ -1,8 +1,0 @@
-PV = 10.1.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = libatomic
-RRECOMMENDS = glibc-dev libgcc-dev
-PKGSIZE = 18
-FILES = /usr/lib/libatomic.so /usr/lib/libatomic.la
-FILELIST = /usr/lib/libatomic.so

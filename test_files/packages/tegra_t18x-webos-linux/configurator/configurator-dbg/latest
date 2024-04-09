@@ -1,0 +1,8 @@
+PV = 3.0.0-3
+PR = r6
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = db8-dbg glib-2.0-dbg glibc-dbg libgcc-dbg libstdc++-dbg pmloglib-dbg
+PKGSIZE = 1851021
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/sbin/.debug/configurator /usr/src/debug/configurator/3.0.0-3-r6/build/Configured/src/Configurator.h /usr/src/debug/configurator/3.0.0-3-r6/git/src/ActivityConfigurator.cpp /usr/src/debug/configurator/3.0.0-3-r6/git/src/ActivityConfigurator.h /usr/src/debug/configurator/3.0.0-3-r6/git/src/BusClient.cpp /usr/src/debug/configurator/3.0.0-3-r6/git/src/BusClient.h /usr/src/debug/configurator/3.0.0-3-r6/git/src/Configurator.cpp /usr/src/debug/configurator/3.0.0-3-r6/git/src/DbKindConfigurator.cpp /usr/src/debug/configurator/3.0.0-3-r6/git/src/DbKindConfigurator.h /usr/src/debug/configurator/3.0.0-3-r6/git/src/DbPermissionsConfigurator.cpp /usr/src/debug/configurator/3.0.0-3-r6/git/src/DbPermissionsConfigurator.h /usr/src/debug/configurator/3.0.0-3-r6/git/src/FileCacheConfigurator.cpp /usr/src/debug/configurator/3.0.0-3-r6/git/src/FileCacheConfigurator.h /usr/src/debug/configurator/3.0.0-3-r6/git/src/Flags.h /usr/src/debug/configurator/3.0.0-3-r6/git/src/Log.cpp /usr/src/debug/configurator/3.0.0-3-r6/git/src/Log.h

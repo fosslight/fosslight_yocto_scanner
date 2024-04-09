@@ -1,0 +1,9 @@
+PV = 7.3.0-2
+PR = r7
+PKG = libnyx-staticdev
+RPROVIDES = nyx-lib-staticdev (=7.3.0-2)
+RDEPENDS = nyx-lib-dev (= 7.3.0-2-r7)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/nyx-lib/*.a
+FILELIST = 

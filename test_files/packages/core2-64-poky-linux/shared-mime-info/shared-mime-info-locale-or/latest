@@ -1,8 +1,0 @@
-PV = 1.15
-PR = r0
-RPROVIDES = or-translation shared-mime-info-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-or
-PKGSIZE = 496
-FILES = /usr/share/locale/or
-FILELIST = /usr/share/locale/or/LC_MESSAGES/shared-mime-info.mo

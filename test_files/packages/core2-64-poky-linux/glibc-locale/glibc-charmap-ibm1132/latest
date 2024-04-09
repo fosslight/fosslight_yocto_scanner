@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2028
-FILES = /usr/share/i18n/charmaps/IBM1132.gz
-FILELIST = /usr/share/i18n/charmaps/IBM1132.gz

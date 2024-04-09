@@ -1,0 +1,8 @@
+PV = 1.2.0-2
+PR = r17
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/libexec/tests/*
+FILELIST = 

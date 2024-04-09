@@ -1,0 +1,5 @@
+PV = 0.2.1+gitAUTOINC+4ccf312bf1
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = go-connections-dbg go-connections-staticdev go-connections-dev go-connections-doc go-connections-locale go-connections
+LAYER = virtualization-layer

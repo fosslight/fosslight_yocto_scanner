@@ -1,0 +1,8 @@
+PV = 2.0.0-25
+PR = r24
+RPROVIDES = 
+RDEPENDS = sam (= 2.0.0-25-r24)
+RRECOMMENDS = boost-dev ecryptfs-utils-dev glib-2.0-dev glibc-dev icu-dev libgcc-dev libicuuc-dev libpbnjson-dev libstdc++-dev libwebosi18n-dev luna-service2-dev pmloglib-dev procps-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sam/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

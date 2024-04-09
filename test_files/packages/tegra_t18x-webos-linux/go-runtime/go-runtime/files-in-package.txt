@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/go
+drwxr-xr-x root       root             4096 ./usr/lib/go/pkg
+drwxr-xr-x root       root             4096 ./usr/lib/go/pkg/linux_arm64_dynlink
+-rw-r--r-- root       root         33723208 ./usr/lib/go/pkg/linux_arm64_dynlink/libstd.so

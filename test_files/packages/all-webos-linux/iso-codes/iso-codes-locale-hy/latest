@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = hy-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hy
+PKGSIZE = 34838
+FILES = /usr/share/locale/hy
+FILELIST = /usr/share/locale/hy/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/hy/LC_MESSAGES/iso_3166-3.mo /usr/share/locale/hy/LC_MESSAGES/iso_3166.mo

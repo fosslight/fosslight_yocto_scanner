@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/nodejs
+-rwxr-xr-x root       root            71496 ./usr/lib/nodejs/pmloglib.node
+drwxr-xr-x root       root             4096 ./usr/palm
+drwxr-xr-x root       root             4096 ./usr/palm/nodejs
+lrwxrwxrwx root       root               29 ./usr/palm/nodejs/pmloglib.node -> /usr/lib/nodejs/pmloglib.node

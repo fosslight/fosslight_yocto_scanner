@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/palm
+drwxr-xr-x root       root             4096 ./usr/palm/services
+drwxr-xr-x root       root             4096 ./usr/palm/services/iotivity
+drwxr-xr-x root       root             4096 ./usr/palm/services/iotivity/tests
+drwxr-xr-x root       root             4096 ./usr/palm/services/iotivity/tests/resource

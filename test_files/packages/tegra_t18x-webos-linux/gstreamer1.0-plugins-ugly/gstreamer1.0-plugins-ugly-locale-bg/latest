@@ -1,0 +1,8 @@
+PV = 1.14.4
+PR = r0
+RPROVIDES = bg-translation gstreamer1.0-plugins-ugly-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-bg
+PKGSIZE = 1999
+FILES = /usr/share/locale/bg
+FILELIST = /usr/share/locale/bg/LC_MESSAGES/gst-plugins-ugly-1.0.mo

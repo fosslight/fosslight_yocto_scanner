@@ -1,0 +1,8 @@
+PV = 3.0.2-3
+PR = r7
+RPROVIDES = 
+RDEPENDS = mojoservicelauncher-dev (= 3.0.2-3-r7)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/mojoservicelauncher/*.a
+FILELIST = 

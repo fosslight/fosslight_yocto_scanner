@@ -1,4 +1,0 @@
-drwxr-xr-x root       root             4096 ./bin
--rwxr-xr-x root       root             1736 ./bin/start_getty
-drwxr-xr-x root       root             4096 ./etc
--rw-r--r-- root       root             1140 ./etc/inittab

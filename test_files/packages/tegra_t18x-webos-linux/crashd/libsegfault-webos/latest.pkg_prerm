@@ -1,0 +1,6 @@
+set -e
+    # remove libSegFault entry from /etc/ld.so.preload
+    sed -i '/libSegFault/d' $D/etc/ld.so.preload
+    if [ ! -s $D/etc/ld.so.preload ]; then
+        rm -f $D/etc/ld.so.preload
+    fi

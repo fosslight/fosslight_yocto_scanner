@@ -1,9 +1,0 @@
-PV = 1.31.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = busybox update-alternatives-opkg
-RRECOMMENDS = update-rc.d
-RCONFLICTS = rsyslog sysklogd syslog-ng
-PKGSIZE = 2786
-FILES = /etc/init.d/syslog* /etc/syslog-startup.conf* /etc/syslog.conf* /lib/systemd/system/syslog.service /etc/default/busybox-syslog
-FILELIST = /etc/init.d/syslog /etc/syslog-startup.conf /etc/syslog.conf

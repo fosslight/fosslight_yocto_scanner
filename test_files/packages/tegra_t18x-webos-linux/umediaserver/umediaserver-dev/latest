@@ -1,0 +1,8 @@
+PV = 1.0.0-24
+PR = r11
+RPROVIDES = 
+RDEPENDS = umediaserver (= 1.0.0-24-r11)
+RRECOMMENDS = boost-dev boost-filesystem-dev boost-system-dev com.webos.service.videooutput-dev glib-2.0-dev glibc-dev gstreamer1.0-dev gstreamer1.0-plugins-base-dev libconfig-dev libgcc-dev libpbnjson-dev libpython2-dev libsqlite3-dev libstdc++-dev libxml2-dev luna-prefs-dev luna-service2-dev pmloglib-dev pmtrace-dev python-dev umediaserver-configs-dev
+PKGSIZE = 58499
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/umediaserver/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/Logger.h /usr/include/MDCClient.h /usr/include/MDCContentProvider.h /usr/include/ResourceManagerClient.h /usr/include/ResourceManagerClient_c.h /usr/include/ResourceManagerClient_common.h /usr/include/UMSConnector.h /usr/include/UMSConnector_common.h /usr/include/UMSConnector_wrapper.h /usr/include/dto_types.h /usr/include/uMediaClient.h /usr/include/uMediaClient_wrapper.h /usr/include/uMediaTypes.h /usr/lib/libmdc_client.so /usr/lib/libmdc_content_provider.so /usr/lib/libmedia_display_controller.so /usr/lib/libprocess_pool.so /usr/lib/libresource_mgr.so /usr/lib/libresource_mgr_client.so /usr/lib/libresource_mgr_client_c.so /usr/lib/libumedia_api.so /usr/lib/libumedia_api_c.so /usr/lib/libums_connector.so /usr/lib/libums_connector_impl.so /usr/lib/libums_connector_wrapper.so /usr/lib/libums_dbi.so /usr/lib/libums_pipeline.so /usr/lib/libums_pipeline_mgr.so /usr/lib/libums_registry.so /usr/share/pkgconfig/mdc_client.pc /usr/share/pkgconfig/mdc_content_provider.pc /usr/share/pkgconfig/umedia_api.pc /usr/share/pkgconfig/umedia_api_c.pc /usr/share/pkgconfig/umediaserver.pc

@@ -1,0 +1,5 @@
+PV = 5.12.6+gitAUTOINC+7ce8cd84f7
+PR = r0
+DEPENDS = icecc-create-env-native qtbase-native qtdeclarative qtdeclarative-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = qtgraphicaleffects-qmldesigner qtgraphicaleffects-qmlplugins qtgraphicaleffects-tools qtgraphicaleffects-plugins qtgraphicaleffects-mkspecs qtgraphicaleffects-examples qtgraphicaleffects-dbg qtgraphicaleffects-staticdev qtgraphicaleffects-dev qtgraphicaleffects-doc qtgraphicaleffects-locale qtgraphicaleffects
+LAYER = qt5-layer

@@ -1,0 +1,8 @@
+PV = 1.0.0-9
+PR = r1
+RPROVIDES = 
+RDEPENDS = com.webos.service.pdm (= 1.0.0-9-r1)
+RRECOMMENDS = dosfstools-dev e2fsprogs-e2fsck-dev e2fsprogs-tune2fs-dev fuse-utils-dev glib-2.0-dev glibc-dev gphoto2-dev gphotofs-dev gptfdisk-sgdisk-dev libgcc-dev libpbnjson-dev libstdc++-dev libudev-dev libwebosi18n-dev lsof-dev luna-service2-dev ntfs-3g-dev ntfs-3g-ntfsprogs-dev pdm-plugin-dev pmloglib-dev sdparm-dev simple-mtpfs-dev smartmontools-dev udev-dev
+PKGSIZE = 7253
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/com.webos.service.pdm/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/IDevice.h /usr/include/Plugin-Api.h /usr/include/pdm-plugin/Api.h /usr/include/pdm-plugin/PluginBase.h

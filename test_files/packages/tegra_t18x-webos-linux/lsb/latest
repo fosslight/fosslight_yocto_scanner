@@ -1,0 +1,5 @@
+PV = 5.0
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = lsb-dbg lsb-staticdev lsb-dev lsb-doc lsb-locale lsb
+LAYER = core

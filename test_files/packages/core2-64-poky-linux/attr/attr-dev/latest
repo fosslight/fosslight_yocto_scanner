@@ -1,8 +1,0 @@
-PV = 2.4.48
-PR = r0
-RPROVIDES = 
-RDEPENDS = attr (= 2.4.48-r0) libattr
-RRECOMMENDS = coreutils-dev gawk-dev glibc-dev libattr-dev make-dev perl-dev perl-module-cwd-dev perl-module-file-basename-dev perl-module-file-path-dev perl-module-file-spec-dev perl-module-filehandle-dev perl-module-getopt-std-dev perl-module-posix-dev update-alternatives-opkg-dev
-PKGSIZE = 11226
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/attr/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/attr/attributes.h /usr/include/attr/error_context.h /usr/include/attr/libattr.h /usr/lib/libattr.so /usr/lib/pkgconfig/libattr.pc

@@ -1,0 +1,9 @@
+PV = 1.3.99+gitAUTOINC+255060695e
+PR = r3
+PKGV = 1.3.99+git0+255060695e
+RPROVIDES = 
+RDEPENDS = iotivity-dev (= 1.3.99+git0+255060695e-r3)
+RRECOMMENDS = 
+PKGSIZE = 248365562
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/iotivity/*.a
+FILELIST = /usr/lib/libc_common.a /usr/lib/libcoap.a /usr/lib/libconnectivity_abstraction.a /usr/lib/libocsrm.a /usr/lib/liboctbstack.a /usr/lib/librcs_client.a /usr/lib/librcs_common.a /usr/lib/librcs_container.a /usr/lib/librcs_server.a /usr/lib/libresource_directory.a /usr/lib/libroutingmanager.a

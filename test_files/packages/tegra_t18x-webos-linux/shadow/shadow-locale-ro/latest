@@ -1,0 +1,9 @@
+PV = 4.6
+PR = r0
+PKGR = r0webos2
+RPROVIDES = ro-translation shadow-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ro
+PKGSIZE = 19288
+FILES = /usr/share/locale/ro
+FILELIST = /usr/share/locale/ro/LC_MESSAGES/shadow.mo

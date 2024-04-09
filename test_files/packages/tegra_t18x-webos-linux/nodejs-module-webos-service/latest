@@ -1,0 +1,5 @@
+PV = 1.0.1-2
+PR = r3
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = nodejs-module-webos-service-samples nodejs-module-webos-service-dbg nodejs-module-webos-service-staticdev nodejs-module-webos-service-dev nodejs-module-webos-service-doc nodejs-module-webos-service-locale nodejs-module-webos-service
+LAYER = meta-webos

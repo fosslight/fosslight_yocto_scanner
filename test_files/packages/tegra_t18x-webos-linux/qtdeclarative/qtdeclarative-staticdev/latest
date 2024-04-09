@@ -1,0 +1,10 @@
+PV = 5.12.6+gitAUTOINC+179c4b689d
+PR = r0
+PKGV = 5.12.6+git0+179c4b689d
+PKGR = r0webos47
+RPROVIDES = 
+RDEPENDS = qtdeclarative-dev (= 5.12.6+git0+179c4b689d-r0webos47)
+RRECOMMENDS = 
+PKGSIZE = 51699490
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/qtdeclarative/*.a /usr/lib/*.a /usr/lib/plugins/*/*.a /usr/lib/plugins/*/*.prl /usr/lib/plugins/*/*/*.a /usr/lib/plugins/*/*/*.prl /usr/lib/qml/*/*.a /usr/lib/qml/*/*.prl /usr/lib/qml/*/*/*.a /usr/lib/qml/*/*/*.prl /usr/lib/qml/*/*/*/*.a /usr/lib/qml/*/*/*/*.prl /usr/lib/qml/*/*/*/*/*.a /usr/lib/qml/*/*/*/*/*.prl
+FILELIST = /usr/lib/libQt5PacketProtocol.a /usr/lib/libQt5QmlDebug.a /usr/lib/libQt5QmlDevTools.a

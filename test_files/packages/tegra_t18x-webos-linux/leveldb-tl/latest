@@ -1,0 +1,5 @@
+PV = 0.1.6
+PR = r3
+DEPENDS = cmake-native gtest icecc-create-env-native leveldb ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = leveldb-tl-dbg leveldb-tl-staticdev leveldb-tl-dev leveldb-tl-doc leveldb-tl-locale leveldb-tl
+LAYER = meta-webos

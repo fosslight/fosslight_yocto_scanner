@@ -1,0 +1,29 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            26624 ./usr/lib/libQt5Concurrent.so.5.12.6
+lrwxrwxrwx root       root               26 ./usr/lib/libQt5Concurrent.so.5.12 -> libQt5Concurrent.so.5.12.6
+lrwxrwxrwx root       root               26 ./usr/lib/libQt5Concurrent.so.5 -> libQt5Concurrent.so.5.12.6
+-rwxr-xr-x root       root          5918792 ./usr/lib/libQt5Core.so.5.12.6
+lrwxrwxrwx root       root               20 ./usr/lib/libQt5Core.so.5.12 -> libQt5Core.so.5.12.6
+lrwxrwxrwx root       root               20 ./usr/lib/libQt5Core.so.5 -> libQt5Core.so.5.12.6
+-rwxr-xr-x root       root           461120 ./usr/lib/libQt5EglFSDeviceIntegration.so.5.12.6
+lrwxrwxrwx root       root               38 ./usr/lib/libQt5EglFSDeviceIntegration.so.5.12 -> libQt5EglFSDeviceIntegration.so.5.12.6
+lrwxrwxrwx root       root               38 ./usr/lib/libQt5EglFSDeviceIntegration.so.5 -> libQt5EglFSDeviceIntegration.so.5.12.6
+-rwxr-xr-x root       root           325576 ./usr/lib/libQt5EglFsKmsSupport.so.5.12.6
+lrwxrwxrwx root       root               31 ./usr/lib/libQt5EglFsKmsSupport.so.5.12 -> libQt5EglFsKmsSupport.so.5.12.6
+lrwxrwxrwx root       root               31 ./usr/lib/libQt5EglFsKmsSupport.so.5 -> libQt5EglFsKmsSupport.so.5.12.6
+-rwxr-xr-x root       root          5538728 ./usr/lib/libQt5Gui.so.5.12.6
+lrwxrwxrwx root       root               19 ./usr/lib/libQt5Gui.so.5.12 -> libQt5Gui.so.5.12.6
+lrwxrwxrwx root       root               19 ./usr/lib/libQt5Gui.so.5 -> libQt5Gui.so.5.12.6
+-rwxr-xr-x root       root          1873928 ./usr/lib/libQt5Network.so.5.12.6
+lrwxrwxrwx root       root               23 ./usr/lib/libQt5Network.so.5.12 -> libQt5Network.so.5.12.6
+lrwxrwxrwx root       root               23 ./usr/lib/libQt5Network.so.5 -> libQt5Network.so.5.12.6
+-rwxr-xr-x root       root           317344 ./usr/lib/libQt5Sql.so.5.12.6
+lrwxrwxrwx root       root               19 ./usr/lib/libQt5Sql.so.5.12 -> libQt5Sql.so.5.12.6
+lrwxrwxrwx root       root               19 ./usr/lib/libQt5Sql.so.5 -> libQt5Sql.so.5.12.6
+-rwxr-xr-x root       root           337976 ./usr/lib/libQt5Test.so.5.12.6
+lrwxrwxrwx root       root               20 ./usr/lib/libQt5Test.so.5.12 -> libQt5Test.so.5.12.6
+lrwxrwxrwx root       root               20 ./usr/lib/libQt5Test.so.5 -> libQt5Test.so.5.12.6
+-rwxr-xr-x root       root           255896 ./usr/lib/libQt5Xml.so.5.12.6
+lrwxrwxrwx root       root               19 ./usr/lib/libQt5Xml.so.5.12 -> libQt5Xml.so.5.12.6
+lrwxrwxrwx root       root               19 ./usr/lib/libQt5Xml.so.5 -> libQt5Xml.so.5.12.6

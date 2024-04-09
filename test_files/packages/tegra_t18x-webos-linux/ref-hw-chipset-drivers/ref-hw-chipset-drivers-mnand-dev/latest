@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dev
+PKGSIZE = 29511
+FILES = /usr/include/nvmnand.h
+FILELIST = /usr/include/nvmnand.h

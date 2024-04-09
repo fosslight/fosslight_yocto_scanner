@@ -1,8 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/perl5
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/vendor_perl
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/vendor_perl/5.30.2
-drwxr-xr-x root       root             4096 ./usr/lib/perl5/vendor_perl/5.30.2/Error
--r--r--r-- root       root            30152 ./usr/lib/perl5/vendor_perl/5.30.2/Error.pm
--r--r--r-- root       root             4069 ./usr/lib/perl5/vendor_perl/5.30.2/Error/Simple.pm

@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root            59144 ./usr/bin/.debug/ptest-runner
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/ptest-runner
+drwxr-xr-x root       root             4096 ./usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git
+-rw-r--r-- root       root             3985 ./usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git/main.c
+-rw-r--r-- root       root             3788 ./usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git/ptest_list.c
+-rw-r--r-- root       root             1850 ./usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git/ptest_list.h
+-rw-r--r-- root       root             9213 ./usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git/utils.c
+-rw-r--r-- root       root             1754 ./usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git/utils.h

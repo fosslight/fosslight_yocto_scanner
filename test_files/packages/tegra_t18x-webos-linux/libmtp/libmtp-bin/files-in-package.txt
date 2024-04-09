@@ -1,0 +1,24 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-albumart
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-albums
+-rwxr-xr-x root       root            67936 ./usr/bin/mtp-connect
+lrwxrwxrwx root       root               11 ./usr/bin/mtp-delfile -> mtp-connect
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-detect
+-rwxr-xr-x root       root            67752 ./usr/bin/mtp-emptyfolders
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-files
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-filetree
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-folders
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-format
+lrwxrwxrwx root       root               11 ./usr/bin/mtp-getfile -> mtp-connect
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-getplaylist
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-hotplug
+lrwxrwxrwx root       root               11 ./usr/bin/mtp-newfolder -> mtp-connect
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-newplaylist
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-playlists
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-reset
+lrwxrwxrwx root       root               11 ./usr/bin/mtp-sendfile -> mtp-connect
+lrwxrwxrwx root       root               11 ./usr/bin/mtp-sendtr -> mtp-connect
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-thumb
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-tracks
+-rwxr-xr-x root       root            67744 ./usr/bin/mtp-trexist

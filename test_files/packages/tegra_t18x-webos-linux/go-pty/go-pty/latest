@@ -1,0 +1,8 @@
+PV = git
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 9655
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/go-pty /usr/lib/go-pty/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/local/go/src/github.com/kr/pty/*
+FILELIST = /usr/local/go/src/github.com/kr/pty/License /usr/local/go/src/github.com/kr/pty/README.md /usr/local/go/src/github.com/kr/pty/doc.go /usr/local/go/src/github.com/kr/pty/ioctl.go /usr/local/go/src/github.com/kr/pty/ioctl_bsd.go /usr/local/go/src/github.com/kr/pty/mktypes.bash /usr/local/go/src/github.com/kr/pty/pty_darwin.go /usr/local/go/src/github.com/kr/pty/pty_freebsd.go /usr/local/go/src/github.com/kr/pty/pty_linux.go /usr/local/go/src/github.com/kr/pty/pty_unsupported.go /usr/local/go/src/github.com/kr/pty/run.go /usr/local/go/src/github.com/kr/pty/types.go /usr/local/go/src/github.com/kr/pty/types_freebsd.go /usr/local/go/src/github.com/kr/pty/util.go /usr/local/go/src/github.com/kr/pty/ztypes_386.go /usr/local/go/src/github.com/kr/pty/ztypes_amd64.go /usr/local/go/src/github.com/kr/pty/ztypes_arm.go /usr/local/go/src/github.com/kr/pty/ztypes_freebsd_386.go /usr/local/go/src/github.com/kr/pty/ztypes_freebsd_amd64.go /usr/local/go/src/github.com/kr/pty/ztypes_freebsd_arm.go /usr/local/go/src/github.com/kr/pty/ztypes_ppc64.go /usr/local/go/src/github.com/kr/pty/ztypes_ppc64le.go /usr/local/go/src/github.com/kr/pty/ztypes_s390x.go

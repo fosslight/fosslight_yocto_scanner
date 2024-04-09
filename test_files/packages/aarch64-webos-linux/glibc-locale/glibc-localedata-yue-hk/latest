@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-iso14651-t1 glibc-localedata-zh-cn glibc-localedata-zh-hk glibc-localedata-zh-tw
+RRECOMMENDS = 
+PKGSIZE = 4021
+FILES = /usr/share/i18n/locales/yue_HK
+FILELIST = /usr/share/i18n/locales/yue_HK

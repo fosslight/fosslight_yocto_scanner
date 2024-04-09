@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /usr/bin/nsenter nsenter /usr/bin/nsenter.util-linux 80

@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/palm
+-rw-r--r-- root       root              655 ./etc/palm/FileCache.conf
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           264616 ./usr/sbin/filecache
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/api-permissions.d
+-rw-r--r-- root       root              786 ./usr/share/luna-service2/api-permissions.d/com.palm.filecache.api.json
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/manifests.d
+-rw-rw-r-- root       root              366 ./usr/share/luna-service2/manifests.d/filecache.manifest.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/roles.d
+-rw-r--r-- root       root              225 ./usr/share/luna-service2/roles.d/com.palm.filecache.role.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/services.d
+-rw-r--r-- root       root               78 ./usr/share/luna-service2/services.d/com.palm.filecache.service

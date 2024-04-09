@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = da-translation psmisc-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-da
+PKGSIZE = 11909
+FILES = /usr/share/locale/da
+FILELIST = /usr/share/locale/da/LC_MESSAGES/psmisc.mo

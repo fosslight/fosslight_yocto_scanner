@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-snd-ice1724
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-snd-5.4.40-yocto-standard kernel-module-snd-ac97-codec-5.4.40-yocto-standard kernel-module-snd-ak4113-5.4.40-yocto-standard kernel-module-snd-ak4114-5.4.40-yocto-standard kernel-module-snd-ak4xxx-adda-5.4.40-yocto-standard kernel-module-snd-i2c-5.4.40-yocto-standard kernel-module-snd-ice17xx-ak4xxx-5.4.40-yocto-standard kernel-module-snd-pcm-5.4.40-yocto-standard kernel-module-snd-pt2258-5.4.40-yocto-standard kernel-module-snd-rawmidi-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 246464
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/sound/pci/ice1712/snd-ice1724.ko /etc/modules-load.d/snd-ice1724.conf /etc/modprobe.d/snd-ice1724.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/sound/pci/ice1712/snd-ice1724.ko

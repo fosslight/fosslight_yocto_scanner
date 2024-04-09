@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = libdrm-dev
+RDEPENDS = libdrm-nv (= 1.0-r0-lg1)
+RRECOMMENDS = glibc-dev nv-rm-drivers-dev
+PKGSIZE = 235
+FILES = /usr/share/pkgconfig/libdrm.pc drm_fourcc.h drm.h drm_mode.h xf86drm.h xf86drmMode.h
+FILELIST = /usr/share/pkgconfig/libdrm.pc

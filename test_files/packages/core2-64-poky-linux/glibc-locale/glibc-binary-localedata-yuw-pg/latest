@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2931850
-FILES = /usr/lib/locale/yuw_PG
-FILELIST = /usr/lib/locale/yuw_PG/LC_ADDRESS /usr/lib/locale/yuw_PG/LC_COLLATE /usr/lib/locale/yuw_PG/LC_CTYPE /usr/lib/locale/yuw_PG/LC_IDENTIFICATION /usr/lib/locale/yuw_PG/LC_MEASUREMENT /usr/lib/locale/yuw_PG/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/yuw_PG/LC_MONETARY /usr/lib/locale/yuw_PG/LC_NAME /usr/lib/locale/yuw_PG/LC_NUMERIC /usr/lib/locale/yuw_PG/LC_PAPER /usr/lib/locale/yuw_PG/LC_TELEPHONE /usr/lib/locale/yuw_PG/LC_TIME

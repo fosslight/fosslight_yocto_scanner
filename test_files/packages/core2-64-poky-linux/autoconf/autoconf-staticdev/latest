@@ -1,8 +1,0 @@
-PV = 2.69
-PR = r11
-RPROVIDES = 
-RDEPENDS = autoconf-dev (= 2.69-r11)
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/lib/*.a /lib/*.a /usr/lib/autoconf/*.a
-FILELIST = 

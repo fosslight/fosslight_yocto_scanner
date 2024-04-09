@@ -1,0 +1,8 @@
+PV = 2.4.47
+PR = r0
+RPROVIDES = 
+RDEPENDS = attr coreutils perl-module-filehandle perl-module-getopt-std perl-module-posix
+RRECOMMENDS = ptest-runner
+PKGSIZE = 30975
+FILES = /usr/lib/attr/ptest
+FILELIST = /usr/lib/attr/ptest/include/builddefs /usr/lib/attr/ptest/include/buildmacros /usr/lib/attr/ptest/include/buildrules /usr/lib/attr/ptest/run-ptest /usr/lib/attr/ptest/test/Makefile /usr/lib/attr/ptest/test/README /usr/lib/attr/ptest/test/attr.test /usr/lib/attr/ptest/test/root/getfattr.test /usr/lib/attr/ptest/test/run /usr/lib/attr/ptest/test/sort-getfattr-output

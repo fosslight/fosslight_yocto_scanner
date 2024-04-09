@@ -1,5 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root           148400 ./usr/lib/.debug/libhistory.so.8.0
--rwxr-xr-x root       root           856800 ./usr/lib/.debug/libreadline.so.8.0

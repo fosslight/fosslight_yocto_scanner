@@ -1,5 +1,0 @@
-PV = 1.0
-PR = r7
-DEPENDS = initscripts update-rc.d virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = init-ifupdown-src init-ifupdown-dbg init-ifupdown-staticdev init-ifupdown-dev init-ifupdown-doc init-ifupdown-locale init-ifupdown
-LAYER = core

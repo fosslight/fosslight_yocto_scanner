@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root            44464 ./usr/lib/.debug/libsocketcan.so.2.2.1
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/libsocketcan
+drwxr-xr-x root       root             4096 ./usr/src/debug/libsocketcan/0.0.10-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/libsocketcan/0.0.10-r0/git
+drwxr-xr-x root       root             4096 ./usr/src/debug/libsocketcan/0.0.10-r0/git/include
+-rw-r--r-- root       root             3079 ./usr/src/debug/libsocketcan/0.0.10-r0/git/include/can_netlink.h
+drwxr-xr-x root       root             4096 ./usr/src/debug/libsocketcan/0.0.10-r0/git/src
+-rw-r--r-- root       root            29423 ./usr/src/debug/libsocketcan/0.0.10-r0/git/src/libsocketcan.c

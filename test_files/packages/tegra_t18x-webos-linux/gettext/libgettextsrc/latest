@@ -1,0 +1,8 @@
+PV = 0.19.8.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libcroco (>= 0.6.13) libgettextlib (>= 0.19.8.1) libxml2 (>= 2.9.8)
+RRECOMMENDS = 
+PKGSIZE = 332832
+FILES = /usr/lib/libgettextsrc-*.so*
+FILELIST = /usr/lib/libgettextsrc-0.19.8.1.so

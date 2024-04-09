@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-en-gb glibc-localedata-en-us glibc-localedata-i18n glibc-localedata-iso14651-t1
-RRECOMMENDS = 
-PKGSIZE = 4553
-FILES = /usr/share/i18n/locales/en_SG
-FILELIST = /usr/share/i18n/locales/en_SG

@@ -1,7 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/src
-drwxr-xr-x root       root             4096 ./usr/src/debug
-drwxr-xr-x root       root             4096 ./usr/src/debug/shared-mime-info
-drwxr-xr-x root       root             4096 ./usr/src/debug/shared-mime-info/1.15-r0
-drwxr-xr-x root       root             4096 ./usr/src/debug/shared-mime-info/1.15-r0/git
--rw-r--r-- root       root            86563 ./usr/src/debug/shared-mime-info/1.15-r0/git/update-mime-database.c

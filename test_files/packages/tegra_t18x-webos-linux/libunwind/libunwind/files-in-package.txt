@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           198640 ./usr/lib/libunwind-aarch64.so.8.0.1
+lrwxrwxrwx root       root               26 ./usr/lib/libunwind-aarch64.so.8 -> libunwind-aarch64.so.8.0.1
+-rwxr-xr-x root       root            67376 ./usr/lib/libunwind-coredump.so.0.0.0
+lrwxrwxrwx root       root               27 ./usr/lib/libunwind-coredump.so.0 -> libunwind-coredump.so.0.0.0
+-rwxr-xr-x root       root            67752 ./usr/lib/libunwind-ptrace.so.0.0.0
+lrwxrwxrwx root       root               25 ./usr/lib/libunwind-ptrace.so.0 -> libunwind-ptrace.so.0.0.0
+-rwxr-xr-x root       root            67312 ./usr/lib/libunwind-setjmp.so.0.0.0
+lrwxrwxrwx root       root               25 ./usr/lib/libunwind-setjmp.so.0 -> libunwind-setjmp.so.0.0.0
+-rwxr-xr-x root       root           133144 ./usr/lib/libunwind.so.8.0.1
+lrwxrwxrwx root       root               18 ./usr/lib/libunwind.so.8 -> libunwind.so.8.0.1

@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = cuda-drivers (= 1.0-r0-lg1)
+RRECOMMENDS = glibc-dev nv-rm-drivers-dev
+PKGSIZE = 641180
+FILES = /usr/include/*
+FILELIST = /usr/include/cuda.h /usr/include/cudaEGL.h /usr/include/cudaGL.h /usr/include/cudaProfiler.h

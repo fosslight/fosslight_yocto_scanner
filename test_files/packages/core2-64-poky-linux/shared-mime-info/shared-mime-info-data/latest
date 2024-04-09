@@ -1,8 +1,0 @@
-PV = 1.15
-PR = r0
-RPROVIDES = 
-RDEPENDS = shared-mime-info
-RRECOMMENDS = 
-PKGSIZE = 2303788
-FILES = /usr/share/mime/packages/freedesktop.org.xml
-FILELIST = /usr/share/mime/packages/freedesktop.org.xml

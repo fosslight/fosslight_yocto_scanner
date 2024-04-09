@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg ncurses-libtinfo-dbg
+PKGSIZE = 477589
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/fuser.psmisc /usr/bin/.debug/killall.psmisc /usr/bin/.debug/prtstat /usr/bin/.debug/pslog /usr/bin/.debug/pstree /usr/src/debug/psmisc/23.1-r0/git/src/fuser.c /usr/src/debug/psmisc/23.1-r0/git/src/fuser.h /usr/src/debug/psmisc/23.1-r0/git/src/killall.c /usr/src/debug/psmisc/23.1-r0/git/src/prtstat.c /usr/src/debug/psmisc/23.1-r0/git/src/prtstat.h /usr/src/debug/psmisc/23.1-r0/git/src/pslog.c /usr/src/debug/psmisc/23.1-r0/git/src/pstree.c /usr/src/debug/psmisc/23.1-r0/git/src/signals.c /usr/src/debug/psmisc/23.1-r0/git/src/signals.h /usr/src/debug/psmisc/23.1-r0/git/src/timeout.h

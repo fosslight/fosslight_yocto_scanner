@@ -1,0 +1,5 @@
+PV = 2019c
+PR = r0
+DEPENDS = tzcode-native
+PACKAGES = tzdata-core tzdata-misc tzdata-posix tzdata-right tzdata-africa tzdata-americas tzdata-antarctica tzdata-arctic tzdata-asia tzdata-atlantic tzdata-australia tzdata-europe tzdata-pacific tzdata
+LAYER = meta-webos-backports-3.0

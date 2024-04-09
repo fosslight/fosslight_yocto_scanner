@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/mkspecs
+drwxr-xr-x root       root             4096 ./usr/lib/mkspecs/modules
+-rw-r--r-- root       root              838 ./usr/lib/mkspecs/modules/qt_lib_waylandclient.pri
+-rw-r--r-- root       root             1214 ./usr/lib/mkspecs/modules/qt_lib_waylandclient_private.pri
+-rw-r--r-- root       root              803 ./usr/lib/mkspecs/modules/qt_lib_waylandcompositor.pri
+-rw-r--r-- root       root             1141 ./usr/lib/mkspecs/modules/qt_lib_waylandcompositor_private.pri

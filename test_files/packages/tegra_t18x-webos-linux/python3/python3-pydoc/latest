@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = 
+RDEPENDS = python3-core python3-netclient python3-pkgutil
+RRECOMMENDS = 
+PKGSIZE = 2159865
+FILES = /usr/bin/pydoc* /usr/lib/python3.5/pydoc.py /usr/lib/python3.5/pydoc_data /usr/lib/python3.5/__pycache__/pydoc.*.pyc
+FILELIST = /usr/bin/pydoc3 /usr/bin/pydoc3.5 /usr/lib/python3.5/__pycache__/pydoc.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/pydoc.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/pydoc.cpython-35.pyc /usr/lib/python3.5/pydoc.py /usr/lib/python3.5/pydoc_data/__init__.py /usr/lib/python3.5/pydoc_data/__pycache__/__init__.cpython-35.opt-1.pyc /usr/lib/python3.5/pydoc_data/__pycache__/__init__.cpython-35.opt-2.pyc /usr/lib/python3.5/pydoc_data/__pycache__/__init__.cpython-35.pyc /usr/lib/python3.5/pydoc_data/__pycache__/topics.cpython-35.opt-1.pyc /usr/lib/python3.5/pydoc_data/__pycache__/topics.cpython-35.opt-2.pyc /usr/lib/python3.5/pydoc_data/__pycache__/topics.cpython-35.pyc /usr/lib/python3.5/pydoc_data/_pydoc.css /usr/lib/python3.5/pydoc_data/topics.py

@@ -1,0 +1,5 @@
+PV = 3.6.2
+PR = r0
+DEPENDS = icecc-create-env-native kmod pkgconfig-native udev virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc zlib
+PACKAGES = pciutils-ids libpci pciutils-dbg pciutils-staticdev pciutils-dev pciutils-doc pciutils-locale pciutils
+LAYER = core

@@ -1,0 +1,5 @@
+PV = 1.6.37
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc zlib
+PACKAGES = libpng-tools libpng-dbg libpng-staticdev libpng-dev libpng-doc libpng-locale libpng
+LAYER = coconut-layer

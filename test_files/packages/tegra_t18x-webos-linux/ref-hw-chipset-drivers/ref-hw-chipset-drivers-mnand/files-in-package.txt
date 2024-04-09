@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxrwxr-x root       root            46024 ./usr/lib/libnvmnand_private.so
+-rwxrwxr-x root       root             4368 ./usr/lib/libnvmnand_public.so

@@ -1,0 +1,18 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/dhcpctl
+-rw-r--r-- root       root             4709 ./usr/include/dhcpctl/dhcpctl.h
+drwxr-xr-x root       root             4096 ./usr/include/omapip
+-rw-r--r-- root       root             3248 ./usr/include/omapip/alloc.h
+-rw-r--r-- root       root             3244 ./usr/include/omapip/buffer.h
+-rw-r--r-- root       root             1757 ./usr/include/omapip/convert.h
+-rw-r--r-- root       root             5873 ./usr/include/omapip/hash.h
+-rw-r--r-- root       root             3627 ./usr/include/omapip/isclib.h
+-rw-r--r-- root       root            24356 ./usr/include/omapip/omapip.h
+-rw-r--r-- root       root             9096 ./usr/include/omapip/omapip_p.h
+-rw-r--r-- root       root             4697 ./usr/include/omapip/result.h
+-rw-r--r-- root       root             3953 ./usr/include/omapip/trace.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               19 ./usr/lib/libdhcpctl.so -> libdhcpctl.so.0.0.0
+lrwxrwxrwx root       root               16 ./usr/lib/libdhcp.so -> libdhcp.so.0.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libomapi.so -> libomapi.so.0.0.0

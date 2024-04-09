@@ -1,0 +1,8 @@
+PV = 2.0.0-9
+PR = r10
+RPROVIDES = 
+RDEPENDS = bootd (= 2.0.0-9-r10)
+RRECOMMENDS = babeltrace-dev boost-dev glib-2.0-dev glibc-dev gtest-dev libgcc-dev libpbnjson-dev libstdc++-dev lttng-modules-dev lttng-tools-dev lttng-ust-dev luna-service2-dev pmloglib-dev pmtrace-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bootd/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

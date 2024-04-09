@@ -1,0 +1,9 @@
+PV = 1.1.73.0
+PR = r0
+PKG = libvulkan-staticdev
+RPROVIDES = vulkan-staticdev (=1.1.73.0)
+RDEPENDS = vulkan-dev (= 1.1.73.0-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/vulkan/*.a
+FILELIST = 

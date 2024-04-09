@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-inter-tegra-spi
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 25336
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/misc/inter-tegra/inter_tegra_spi.ko /etc/modules-load.d/inter_tegra_spi.conf /etc/modprobe.d/inter_tegra_spi.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/misc/inter-tegra/inter_tegra_spi.ko

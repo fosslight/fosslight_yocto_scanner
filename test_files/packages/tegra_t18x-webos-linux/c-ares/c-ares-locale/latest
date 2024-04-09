@@ -1,0 +1,10 @@
+PV = 1.14.0+gitrAUTOINC+17dc1b3102
+PR = r0
+PKG = libcares-locale
+PKGV = 1.14.0+gitr0+17dc1b3102
+RPROVIDES = c-ares-locale (=1.14.0+gitr0+17dc1b3102)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

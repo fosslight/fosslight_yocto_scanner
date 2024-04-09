@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/qml
+drwxr-xr-x root       root             4096 ./usr/lib/qml/iLib
+-rw-r--r-- root       root              313 ./usr/lib/qml/iLib/ILib.qml
+-rwxr-xr-x root       root            67912 ./usr/lib/qml/iLib/libFileReader.so
+-rw-r--r-- root       root               49 ./usr/lib/qml/iLib/qmldir

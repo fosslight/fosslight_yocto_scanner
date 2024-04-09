@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0
+DEPENDS = icecc-create-env-native systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = vmconnect-dbg vmconnect-staticdev vmconnect-dev vmconnect-doc vmconnect-locale vmconnect
+LAYER = meta-webos-tegra

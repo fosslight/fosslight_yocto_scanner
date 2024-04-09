@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/pdm
+-rw-r--r-- root       root              394 ./etc/pdm/pdm.conf
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67840 ./usr/lib/libpdm-plugin.so.1.0.0
+lrwxrwxrwx root       root               22 ./usr/lib/libpdm-plugin.so.1 -> libpdm-plugin.so.1.0.0

@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = ce-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ce
+PKGSIZE = 10960
+FILES = /usr/share/locale/ce
+FILELIST = /usr/share/locale/ce/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/ce/LC_MESSAGES/iso_3166.mo

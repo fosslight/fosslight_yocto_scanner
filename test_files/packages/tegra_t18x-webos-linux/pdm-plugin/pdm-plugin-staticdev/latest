@@ -1,0 +1,9 @@
+PV = 1.0.0-2
+PR = r1
+PKG = libpdm-plugin-staticdev
+RPROVIDES = pdm-plugin-staticdev (=1.0.0-2)
+RDEPENDS = pdm-plugin-dev (= 1.0.0-2-r1)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/pdm-plugin/*.a
+FILELIST = 

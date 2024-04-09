@@ -1,0 +1,5 @@
+PV = 1.2.0-2
+PR = r17
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 gtest icecc-create-env-native libpbnjson luna-service2 ninja-native pkgconfig-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = configd-tests configd-dbg configd-staticdev configd-dev configd-doc configd-locale configd
+LAYER = meta-webos

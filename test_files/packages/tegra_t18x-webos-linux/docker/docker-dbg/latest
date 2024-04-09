@@ -1,0 +1,9 @@
+PV = 18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0
+PR = r0
+PKGR = r0webosvirt1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libltdl-dbg libsystemd-dbg
+PKGSIZE = 14295966
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/docker /usr/bin/.debug/docker-proxy /usr/bin/.debug/dockerd /usr/src/debug/docker/18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0-r0/git/src/import/.gopath/src/github.com/docker/cli/vendor/github.com/miekg/pkcs11/pkcs11.go /usr/src/debug/docker/18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0-r0/git/src/import/.gopath/src/github.com/docker/cli/vendor/github.com/miekg/pkcs11/pkcs11.h /usr/src/debug/docker/18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0-r0/git/src/import/.gopath/src/github.com/docker/cli/vendor/github.com/miekg/pkcs11/pkcs11f.h /usr/src/debug/docker/18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0-r0/git/src/import/.gopath/src/github.com/docker/cli/vendor/github.com/miekg/pkcs11/pkcs11go.h /usr/src/debug/docker/18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0-r0/git/src/import/.gopath/src/github.com/docker/cli/vendor/github.com/miekg/pkcs11/pkcs11t.h /usr/src/debug/docker/18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0-r0/git/src/import/.gopath/src/github.com/docker/cli/vendor/github.com/miekg/pkcs11/types.go /usr/src/debug/docker/18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0-r0/git/src/import/.gopath/src/github.com/docker/docker/daemon/graphdriver/quota/projectquota.go /usr/src/debug/docker/18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0-r0/git/src/import/.gopath/src/github.com/docker/docker/daemon/logger/journald/read.go /usr/src/debug/docker/18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0-r0/git/src/import/.gopath/src/github.com/docker/docker/vendor/github.com/vishvananda/netlink/bpf_linux.go

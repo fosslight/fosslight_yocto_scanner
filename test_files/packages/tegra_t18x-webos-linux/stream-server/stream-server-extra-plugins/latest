@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libstdc++ (>= 8.2.0) libxkbcommon (>= 0.8.2) wayland (>= 1.13.0) wayland-egl (>= 1.0) wayland-ivi-extension (>= 1.13.0)
+RRECOMMENDS = 
+PKGSIZE = 206664
+FILES = /usr/lib/streamserver/libssegloutputoutput.so /usr/lib/streamserver/libssimagefilewriter.so /usr/lib/streamserver/libsswaylandoutput.so /usr/lib/streamserver/libsstestinput.so
+FILELIST = /usr/lib/streamserver/libssegloutputoutput.so /usr/lib/streamserver/libssimagefilewriter.so /usr/lib/streamserver/libsstestinput.so /usr/lib/streamserver/libsswaylandoutput.so

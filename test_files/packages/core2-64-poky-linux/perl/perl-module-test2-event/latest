@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-carp perl-module-scalar-util perl-module-strict perl-module-test2-eventfacet perl-module-test2-eventfacet-about perl-module-test2-eventfacet-amnesty perl-module-test2-eventfacet-assert perl-module-test2-eventfacet-control perl-module-test2-eventfacet-error perl-module-test2-eventfacet-hub perl-module-test2-eventfacet-info perl-module-test2-eventfacet-meta perl-module-test2-eventfacet-parent perl-module-test2-eventfacet-plan perl-module-test2-eventfacet-trace perl-module-test2-util perl-module-test2-util-externalmeta perl-module-test2-util-hashbase perl-module-test2-util-trace perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 22641
-FILES = /usr/lib/perl5/5.30.2/Test2/Event.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test2/Event.pm

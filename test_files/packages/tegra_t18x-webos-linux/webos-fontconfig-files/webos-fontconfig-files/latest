@@ -1,0 +1,8 @@
+PV = 1.0.0-3
+PR = r2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 20572
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/webos-fontconfig-files /usr/lib/webos-fontconfig-files/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc/fonts/conf.d/ /usr/share/fontconfig/
+FILELIST = /etc/fonts/conf.d/31-webos-aliases.conf /usr/share/fontconfig/conf.avail/31-webos-aliases.conf

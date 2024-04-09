@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0
+DEPENDS = 
+PACKAGES = os-release-dbg os-release-staticdev os-release-dev os-release-doc os-release-locale os-release
+LAYER = core

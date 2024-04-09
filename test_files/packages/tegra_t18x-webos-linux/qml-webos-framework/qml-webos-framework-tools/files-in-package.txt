@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/opt
+drwxr-xr-x root       root             4096 ./usr/opt/webos
+drwxr-xr-x root       root             4096 ./usr/opt/webos/sdk
+drwxr-xr-x root       root             4096 ./usr/opt/webos/sdk/bin
+-rwxr-xr-x root       root           133536 ./usr/opt/webos/sdk/bin/qml-runner-dev

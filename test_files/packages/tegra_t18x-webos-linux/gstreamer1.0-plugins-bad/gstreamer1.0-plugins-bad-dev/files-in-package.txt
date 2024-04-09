@@ -1,0 +1,95 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/audio
+-rw-r--r-- root       root             1100 ./usr/include/gstreamer-1.0/gst/audio/audio-bad-prelude.h
+-rw-r--r-- root       root            22512 ./usr/include/gstreamer-1.0/gst/audio/gstnonstreamaudiodecoder.h
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/basecamerabinsrc
+-rw-r--r-- root       root             1171 ./usr/include/gstreamer-1.0/gst/basecamerabinsrc/basecamerabinsrc-prelude.h
+-rw-r--r-- root       root             5038 ./usr/include/gstreamer-1.0/gst/basecamerabinsrc/gstbasecamerasrc.h
+-rw-r--r-- root       root             1839 ./usr/include/gstreamer-1.0/gst/basecamerabinsrc/gstcamerabin-enum.h
+-rw-r--r-- root       root             2210 ./usr/include/gstreamer-1.0/gst/basecamerabinsrc/gstcamerabinpreview.h
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/codecparsers
+-rw-r--r-- root       root             1136 ./usr/include/gstreamer-1.0/gst/codecparsers/codecparsers-prelude.h
+-rw-r--r-- root       root            38127 ./usr/include/gstreamer-1.0/gst/codecparsers/gsth264parser.h
+-rw-r--r-- root       root            47511 ./usr/include/gstreamer-1.0/gst/codecparsers/gsth265parser.h
+-rw-r--r-- root       root             4255 ./usr/include/gstreamer-1.0/gst/codecparsers/gstjpeg2000sampling.h
+-rw-r--r-- root       root            13805 ./usr/include/gstreamer-1.0/gst/codecparsers/gstjpegparser.h
+-rw-r--r-- root       root            16747 ./usr/include/gstreamer-1.0/gst/codecparsers/gstmpeg4parser.h
+-rw-r--r-- root       root             3437 ./usr/include/gstreamer-1.0/gst/codecparsers/gstmpegvideometa.h
+-rw-r--r-- root       root            19325 ./usr/include/gstreamer-1.0/gst/codecparsers/gstmpegvideoparser.h
+-rw-r--r-- root       root            16598 ./usr/include/gstreamer-1.0/gst/codecparsers/gstvc1parser.h
+-rw-r--r-- root       root            11309 ./usr/include/gstreamer-1.0/gst/codecparsers/gstvp8parser.h
+-rw-r--r-- root       root             2449 ./usr/include/gstreamer-1.0/gst/codecparsers/gstvp8rangedecoder.h
+-rw-r--r-- root       root            14952 ./usr/include/gstreamer-1.0/gst/codecparsers/gstvp9parser.h
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/insertbin
+-rw-r--r-- root       root             3865 ./usr/include/gstreamer-1.0/gst/insertbin/gstinsertbin.h
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/interfaces
+-rw-r--r-- root       root             2307 ./usr/include/gstreamer-1.0/gst/interfaces/photography-enumtypes.h
+-rw-r--r-- root       root            27765 ./usr/include/gstreamer-1.0/gst/interfaces/photography.h
+-rw-r--r-- root       root             1122 ./usr/include/gstreamer-1.0/gst/interfaces/photography-prelude.h
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/isoff
+-rw-r--r-- root       root             7531 ./usr/include/gstreamer-1.0/gst/isoff/gstisoff.h
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/mpegts
+-rw-r--r-- root       root             9151 ./usr/include/gstreamer-1.0/gst/mpegts/gst-atsc-section.h
+-rw-r--r-- root       root            34096 ./usr/include/gstreamer-1.0/gst/mpegts/gst-dvb-descriptor.h
+-rw-r--r-- root       root             9905 ./usr/include/gstreamer-1.0/gst/mpegts/gst-dvb-section.h
+-rw-r--r-- root       root            14297 ./usr/include/gstreamer-1.0/gst/mpegts/gstmpegtsdescriptor.h
+-rw-r--r-- root       root             5953 ./usr/include/gstreamer-1.0/gst/mpegts/gstmpegts-enumtypes.h
+-rw-r--r-- root       root            16523 ./usr/include/gstreamer-1.0/gst/mpegts/gstmpegtssection.h
+-rw-r--r-- root       root             4058 ./usr/include/gstreamer-1.0/gst/mpegts/gst-scte-section.h
+-rw-r--r-- root       root             1515 ./usr/include/gstreamer-1.0/gst/mpegts/mpegts.h
+-rw-r--r-- root       root             1082 ./usr/include/gstreamer-1.0/gst/mpegts/mpegts-prelude.h
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/player
+-rw-r--r-- root       root             2705 ./usr/include/gstreamer-1.0/gst/player/gstplayer-g-main-context-signal-dispatcher.h
+-rw-r--r-- root       root            10757 ./usr/include/gstreamer-1.0/gst/player/gstplayer.h
+-rw-r--r-- root       root             9512 ./usr/include/gstreamer-1.0/gst/player/gstplayer-media-info.h
+-rw-r--r-- root       root             2230 ./usr/include/gstreamer-1.0/gst/player/gstplayer-signal-dispatcher.h
+-rw-r--r-- root       root             1107 ./usr/include/gstreamer-1.0/gst/player/gstplayer-types.h
+-rw-r--r-- root       root             3466 ./usr/include/gstreamer-1.0/gst/player/gstplayer-video-overlay-video-renderer.h
+-rw-r--r-- root       root             1968 ./usr/include/gstreamer-1.0/gst/player/gstplayer-video-renderer.h
+-rw-r--r-- root       root             1901 ./usr/include/gstreamer-1.0/gst/player/gstplayer-visualization.h
+-rw-r--r-- root       root             1198 ./usr/include/gstreamer-1.0/gst/player/player.h
+-rw-r--r-- root       root             1082 ./usr/include/gstreamer-1.0/gst/player/player-prelude.h
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/uridownloader
+-rw-r--r-- root       root             3107 ./usr/include/gstreamer-1.0/gst/uridownloader/gstfragment.h
+-rw-r--r-- root       root              220 ./usr/include/gstreamer-1.0/gst/uridownloader/gsturidownloader_debug.h
+-rw-r--r-- root       root             3048 ./usr/include/gstreamer-1.0/gst/uridownloader/gsturidownloader.h
+-rw-r--r-- root       root             1143 ./usr/include/gstreamer-1.0/gst/uridownloader/uridownloader-prelude.h
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/video
+-rw-r--r-- root       root             5105 ./usr/include/gstreamer-1.0/gst/video/gstvideoaggregator.h
+-rw-r--r-- root       root             4215 ./usr/include/gstreamer-1.0/gst/video/gstvideoaggregatorpad.h
+-rw-r--r-- root       root             1094 ./usr/include/gstreamer-1.0/gst/video/video-bad-prelude.h
+drwxr-xr-x root       root             4096 ./usr/include/gstreamer-1.0/gst/webrtc
+-rw-r--r-- root       root             2856 ./usr/include/gstreamer-1.0/gst/webrtc/dtlstransport.h
+-rw-r--r-- root       root             3249 ./usr/include/gstreamer-1.0/gst/webrtc/icetransport.h
+-rw-r--r-- root       root             2108 ./usr/include/gstreamer-1.0/gst/webrtc/rtcsessiondescription.h
+-rw-r--r-- root       root             3032 ./usr/include/gstreamer-1.0/gst/webrtc/rtpreceiver.h
+-rw-r--r-- root       root             2901 ./usr/include/gstreamer-1.0/gst/webrtc/rtpsender.h
+-rw-r--r-- root       root             2592 ./usr/include/gstreamer-1.0/gst/webrtc/rtptransceiver.h
+-rw-r--r-- root       root             2268 ./usr/include/gstreamer-1.0/gst/webrtc/webrtc-enumtypes.h
+-rw-r--r-- root       root             9589 ./usr/include/gstreamer-1.0/gst/webrtc/webrtc_fwd.h
+-rw-r--r-- root       root             1255 ./usr/include/gstreamer-1.0/gst/webrtc/webrtc.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               35 ./usr/lib/libgstadaptivedemux-1.0.so -> libgstadaptivedemux-1.0.so.0.1404.0
+lrwxrwxrwx root       root               30 ./usr/lib/libgstbadaudio-1.0.so -> libgstbadaudio-1.0.so.0.1404.0
+lrwxrwxrwx root       root               30 ./usr/lib/libgstbadvideo-1.0.so -> libgstbadvideo-1.0.so.0.1404.0
+lrwxrwxrwx root       root               38 ./usr/lib/libgstbasecamerabinsrc-1.0.so -> libgstbasecamerabinsrc-1.0.so.0.1404.0
+lrwxrwxrwx root       root               34 ./usr/lib/libgstcodecparsers-1.0.so -> libgstcodecparsers-1.0.so.0.1404.0
+lrwxrwxrwx root       root               31 ./usr/lib/libgstinsertbin-1.0.so -> libgstinsertbin-1.0.so.0.1404.0
+lrwxrwxrwx root       root               27 ./usr/lib/libgstisoff-1.0.so -> libgstisoff-1.0.so.0.1404.0
+lrwxrwxrwx root       root               28 ./usr/lib/libgstmpegts-1.0.so -> libgstmpegts-1.0.so.0.1404.0
+lrwxrwxrwx root       root               33 ./usr/lib/libgstphotography-1.0.so -> libgstphotography-1.0.so.0.1404.0
+lrwxrwxrwx root       root               28 ./usr/lib/libgstplayer-1.0.so -> libgstplayer-1.0.so.0.1404.0
+lrwxrwxrwx root       root               35 ./usr/lib/libgsturidownloader-1.0.so -> libgsturidownloader-1.0.so.0.1404.0
+lrwxrwxrwx root       root               28 ./usr/lib/libgstwebrtc-1.0.so -> libgstwebrtc-1.0.so.0.1404.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              354 ./usr/lib/pkgconfig/gstreamer-bad-audio-1.0.pc
+-rw-r--r-- root       root              407 ./usr/lib/pkgconfig/gstreamer-bad-video-1.0.pc
+-rw-r--r-- root       root              292 ./usr/lib/pkgconfig/gstreamer-codecparsers-1.0.pc
+-rw-r--r-- root       root              276 ./usr/lib/pkgconfig/gstreamer-insertbin-1.0.pc
+-rw-r--r-- root       root              265 ./usr/lib/pkgconfig/gstreamer-mpegts-1.0.pc
+-rw-r--r-- root       root              276 ./usr/lib/pkgconfig/gstreamer-player-1.0.pc
+-rw-r--r-- root       root              300 ./usr/lib/pkgconfig/gstreamer-plugins-bad-1.0.pc
+-rw-r--r-- root       root              263 ./usr/lib/pkgconfig/gstreamer-webrtc-1.0.pc

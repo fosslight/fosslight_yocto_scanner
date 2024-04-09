@@ -1,0 +1,8 @@
+PV = 0.5
+PR = r0
+RPROVIDES = 
+RDEPENDS = fuse (>= 2.9.8) glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libgphoto2 (>= 2.5.17) libgphotoport (>= 2.5.17)
+RRECOMMENDS = 
+PKGSIZE = 68264
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gphotofs /usr/lib/gphotofs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/gphotofs

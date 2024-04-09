@@ -1,8 +1,0 @@
-PV = 1.1.1g
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 10909
-FILES = /etc/ssl/openssl.cnf
-FILELIST = /etc/ssl/openssl.cnf

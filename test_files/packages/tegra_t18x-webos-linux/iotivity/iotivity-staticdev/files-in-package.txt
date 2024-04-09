@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-r--r--r-- root       root           141452 ./usr/lib/libc_common.a
+-r--r--r-- root       root           310898 ./usr/lib/libcoap.a
+-r--r--r-- root       root          1126808 ./usr/lib/libconnectivity_abstraction.a
+-r--r--r-- root       root          1815804 ./usr/lib/libocsrm.a
+-r--r--r-- root       root          1194392 ./usr/lib/liboctbstack.a
+-r--r--r-- root       root         27075386 ./usr/lib/librcs_client.a
+-r--r--r-- root       root         98877380 ./usr/lib/librcs_common.a
+-r--r--r-- root       root         20295184 ./usr/lib/librcs_container.a
+-r--r--r-- root       root         90694642 ./usr/lib/librcs_server.a
+-r--r--r-- root       root          6790714 ./usr/lib/libresource_directory.a
+-r--r--r-- root       root            42902 ./usr/lib/libroutingmanager.a

@@ -1,0 +1,5 @@
+PV = 2017.3.23
+PR = r0
+DEPENDS = autoconf-native automake-native fuse gnu-config-native icecc-create-env-native libgcrypt libtool-cross libtool-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = ntfs-3g ntfsprogs libntfs-3g ntfs-3g-ntfsprogs-dbg ntfs-3g-ntfsprogs-staticdev ntfs-3g-ntfsprogs-dev ntfs-3g-ntfsprogs-doc ntfs-3g-ntfsprogs-locale ntfs-3g-ntfsprogs
+LAYER = filesystems-layer

@@ -1,0 +1,8 @@
+PV = 1.1.16
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libmtp (>= 1.1.16) libmtp-common
+RRECOMMENDS = 
+PKGSIZE = 67744
+FILES = /lib/udev/mtp-probe
+FILELIST = /lib/udev/mtp-probe

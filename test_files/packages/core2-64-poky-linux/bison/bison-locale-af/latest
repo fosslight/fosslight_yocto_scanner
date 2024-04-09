@@ -1,8 +1,0 @@
-PV = 3.5.4
-PR = r0
-RPROVIDES = af-translation bison-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-af
-PKGSIZE = 927
-FILES = /usr/share/locale/af
-FILELIST = /usr/share/locale/af/LC_MESSAGES/bison-gnulib.mo

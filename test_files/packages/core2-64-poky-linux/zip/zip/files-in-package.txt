@@ -1,6 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           212088 ./usr/bin/zip
--rwxr-xr-x root       root            97872 ./usr/bin/zipcloak
--rwxr-xr-x root       root            89448 ./usr/bin/zipnote
--rwxr-xr-x root       root            89456 ./usr/bin/zipsplit

@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            67840 ./usr/sbin/flashcp.mtd-utils
+-rwxr-xr-x root       root            67832 ./usr/sbin/flash_erase
+-rwxr-xr-x root       root              150 ./usr/sbin/flash_eraseall.mtd-utils
+-rwxr-xr-x root       root            67840 ./usr/sbin/flash_lock.mtd-utils
+-rwxr-xr-x root       root            67744 ./usr/sbin/flash_otp_dump
+-rwxr-xr-x root       root            67744 ./usr/sbin/flash_otp_info
+-rwxr-xr-x root       root            67744 ./usr/sbin/flash_otp_lock
+-rwxr-xr-x root       root            67744 ./usr/sbin/flash_otp_write
+-rwxr-xr-x root       root            67848 ./usr/sbin/flash_unlock.mtd-utils
+-rwxr-xr-x root       root            67824 ./usr/sbin/mtd_debug
+-rwxr-xr-x root       root            67824 ./usr/sbin/mtdinfo
+-rwxr-xr-x root       root            67824 ./usr/sbin/mtdpart
+-rwxr-xr-x root       root            67840 ./usr/sbin/nanddump.mtd-utils
+-rwxr-xr-x root       root            67824 ./usr/sbin/nandtest
+-rwxr-xr-x root       root            67840 ./usr/sbin/nandwrite.mtd-utils

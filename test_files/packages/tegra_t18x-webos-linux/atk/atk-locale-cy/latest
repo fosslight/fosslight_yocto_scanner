@@ -1,0 +1,9 @@
+PV = 2.28.1
+PR = r0
+PKG = libatk-1.0-locale-cy
+RPROVIDES = atk-locale atk-locale-cy (=2.28.1) cy-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-cy
+PKGSIZE = 8145
+FILES = /usr/share/locale/cy
+FILELIST = /usr/share/locale/cy/LC_MESSAGES/atk10.mo

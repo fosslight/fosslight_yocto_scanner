@@ -1,4 +1,0 @@
-drwxr-xr-x root       root             4096 ./etc
--rw-r--r-- root       root             2932 ./etc/protocols
--rw-r--r-- root       root              887 ./etc/rpc
--rw-r--r-- root       root            14464 ./etc/services

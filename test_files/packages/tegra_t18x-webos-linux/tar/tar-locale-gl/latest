@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = gl-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-gl
+PKGSIZE = 10693
+FILES = /usr/share/locale/gl
+FILELIST = /usr/share/locale/gl/LC_MESSAGES/tar.mo

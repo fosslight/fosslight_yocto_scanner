@@ -1,0 +1,6 @@
+PE = 1
+PV = 1.1
+PR = r0
+DEPENDS = icecc-create-env-native linux-libc-headers virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/libc
+PACKAGES = rt-tests-ptest rt-tests-dbg rt-tests-staticdev rt-tests-dev rt-tests-doc rt-tests-locale rt-tests
+LAYER = core

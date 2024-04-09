@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67736 ./usr/bin/iperf3
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           200656 ./usr/lib/libiperf.so.0.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libiperf.so.0 -> libiperf.so.0.0.0

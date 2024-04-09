@@ -1,0 +1,8 @@
+PV = 11.0.0-2
+PR = r3
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) qtbase (>= 5.12.6+git0+f0b93f7a4b) qtdeclarative (>= 5.12.6+git0+179c4b689d)
+RRECOMMENDS = 
+PKGSIZE = 68274
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ilib-qml-plugin /usr/lib/ilib-qml-plugin/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/qml/*
+FILELIST = /usr/lib/qml/iLib/ILib.qml /usr/lib/qml/iLib/libFileReader.so /usr/lib/qml/iLib/qmldir

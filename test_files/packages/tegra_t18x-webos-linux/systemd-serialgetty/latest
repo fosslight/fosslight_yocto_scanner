@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r5
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = systemd-serialgetty-dbg systemd-serialgetty-staticdev systemd-serialgetty-dev systemd-serialgetty-doc systemd-serialgetty-locale systemd-serialgetty
+LAYER = core

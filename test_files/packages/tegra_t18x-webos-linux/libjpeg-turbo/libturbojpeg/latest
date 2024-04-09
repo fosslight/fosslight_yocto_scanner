@@ -1,0 +1,10 @@
+PE = 1
+PV = 2.0.0
+PR = r0
+PKG = libturbojpeg0
+RPROVIDES = libturbojpeg (=2.0.0)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 330373
+FILES = /usr/lib/libturbojpeg.so.*
+FILELIST = /usr/lib/libturbojpeg.so.0 /usr/lib/libturbojpeg.so.0.2.0

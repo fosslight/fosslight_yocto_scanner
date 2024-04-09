@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-iso14651-t1 glibc-localedata-tr-tr
+RRECOMMENDS = 
+PKGSIZE = 4529
+FILES = /usr/share/i18n/locales/ku_TR
+FILELIST = /usr/share/i18n/locales/ku_TR

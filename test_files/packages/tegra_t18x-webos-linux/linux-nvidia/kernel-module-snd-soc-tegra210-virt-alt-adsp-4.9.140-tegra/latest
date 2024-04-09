@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-snd-soc-tegra210-virt-alt-adsp
+RDEPENDS = kernel-4.9.140-tegra kernel-module-snd-4.9.140-tegra kernel-module-snd-pcm-4.9.140-tegra kernel-module-snd-soc-core-4.9.140-tegra kernel-module-snd-soc-tegra-alt-utils-4.9.140-tegra kernel-module-snd-soc-tegra-virt-alt-ivc-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 923200
+FILES = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-virt-alt/snd-soc-tegra210-virt-alt-adsp.ko /etc/modules-load.d/snd-soc-tegra210-virt-alt-adsp.conf /etc/modprobe.d/snd-soc-tegra210-virt-alt-adsp.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-virt-alt/snd-soc-tegra210-virt-alt-adsp.ko

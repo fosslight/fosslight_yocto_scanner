@@ -1,8 +1,0 @@
-PV = 0.16
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 123543
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/include/pciaccess.h /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/common_bridge.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/common_capability.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/common_device_name.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/common_init.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/common_interface.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/common_io.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/common_iterator.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/common_map.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/common_vgaarb.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/linux_devmem.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/linux_sysfs.c /usr/src/debug/libpciaccess/0.16-r0/libpciaccess-0.16/src/pciaccess_private.h

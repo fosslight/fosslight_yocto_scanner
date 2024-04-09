@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           264824 ./usr/lib/libwebos-platform-interface.so.1.0.0
+lrwxrwxrwx root       root               36 ./usr/lib/libwebos-platform-interface.so.1.0 -> libwebos-platform-interface.so.1.0.0
+lrwxrwxrwx root       root               36 ./usr/lib/libwebos-platform-interface.so.1 -> libwebos-platform-interface.so.1.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/plugins
+drwxr-xr-x root       root             4096 ./usr/lib/plugins/platforminputcontexts
+-rwxr-xr-x root       root            67928 ./usr/lib/plugins/platforminputcontexts/libwaylandplatforminputcontextplugin.so
+drwxr-xr-x root       root             4096 ./usr/lib/plugins/platforms
+-rwxr-xr-x root       root           134512 ./usr/lib/plugins/platforms/libwebos-wayland-egl.so
+drwxr-xr-x root       root             4096 ./usr/lib/plugins/wayland-graphics-integration-server
+-rwxr-xr-x root       root            67912 ./usr/lib/plugins/wayland-graphics-integration-server/libwebos-wayland-egl.so
+drwxr-xr-x root       root             4096 ./usr/lib/plugins/wayland-shell-integration
+-rwxr-xr-x root       root            67816 ./usr/lib/plugins/wayland-shell-integration/libwebos.so

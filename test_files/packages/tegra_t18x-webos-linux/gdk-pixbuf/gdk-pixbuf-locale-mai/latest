@@ -1,0 +1,9 @@
+PV = 2.36.11
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-mai
+RPROVIDES = gdk-pixbuf-locale gdk-pixbuf-locale-mai (=2.36.11) mai-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-mai
+PKGSIZE = 28408
+FILES = /usr/share/locale/mai
+FILELIST = /usr/share/locale/mai/LC_MESSAGES/gdk-pixbuf.mo

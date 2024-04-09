@@ -1,0 +1,9 @@
+PV = 9.11.5-P4
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = bind-dev (= 9.11.5-P4-r0webos1)
+RRECOMMENDS = 
+PKGSIZE = 6746
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/bind/*.a /usr/lib/*.la
+FILELIST = /usr/lib/libbind9.la /usr/lib/libdns.la /usr/lib/libirs.la /usr/lib/libisc.la /usr/lib/libisccc.la /usr/lib/libisccfg.la /usr/lib/liblwres.la

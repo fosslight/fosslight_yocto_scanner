@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0
+DEPENDS = icecc-create-env-native ref-hw-chipset-drivers virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = devmem2 mnand-hs mnand-refresh mnand-lifetime shutdown
+LAYER = tegra

@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2070
-FILES = /usr/share/i18n/charmaps/EBCDIC-ES-A.gz
-FILELIST = /usr/share/i18n/charmaps/EBCDIC-ES-A.gz

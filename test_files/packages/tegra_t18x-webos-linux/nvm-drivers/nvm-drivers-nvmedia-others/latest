@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) nv-rm-drivers
+RRECOMMENDS = 
+PKGSIZE = 354832
+FILES = /usr/lib/libnvmedia_isc.so /usr/lib/libnvrawfile_interface.so /usr/lib/libnv_extimgdev.so /usr/lib/libnv_eeprom.so
+FILELIST = /usr/lib/libnv_eeprom.so /usr/lib/libnv_extimgdev.so /usr/lib/libnvmedia_isc.so /usr/lib/libnvrawfile_interface.so

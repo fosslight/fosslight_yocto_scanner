@@ -1,0 +1,9 @@
+PV = 1.0.0-3
+PR = r1
+PKG = libwca-support-dev
+RPROVIDES = wca-support-dev (=1.0.0-3)
+RDEPENDS = wca-support (= 1.0.0-3-r1)
+RRECOMMENDS = glib-2.0-dev glibc-dev iw-dev libpbnjson-dev luna-prefs-dev luna-service2-dev pmloglib-dev wca-support-api-dev
+PKGSIZE = 884
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wca-support/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/lib/libwca-support.so /usr/share/pkgconfig/wca-support.pc

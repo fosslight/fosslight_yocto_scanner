@@ -1,0 +1,8 @@
+PV = 1.6.2
+PR = r0
+RPROVIDES = hunspell-locale tg-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-tg
+PKGSIZE = 0
+FILES = /usr/share/locale/tg
+FILELIST = 

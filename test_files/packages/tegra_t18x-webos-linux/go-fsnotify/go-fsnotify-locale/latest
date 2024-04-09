@@ -1,0 +1,8 @@
+PV = 1.2.11+git836bfd95fecc0f1511dd66bdbf2b5b61ab8b00b6
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

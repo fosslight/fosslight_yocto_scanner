@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-snd-soc-spdif-tx
+RDEPENDS = kernel-4.9.140-tegra kernel-module-snd-soc-core-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 8480
+FILES = /lib/modules/4.9.140-tegra/kernel/sound/soc/codecs/snd-soc-spdif-tx.ko /etc/modules-load.d/snd-soc-spdif-tx.conf /etc/modprobe.d/snd-soc-spdif-tx.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/sound/soc/codecs/snd-soc-spdif-tx.ko

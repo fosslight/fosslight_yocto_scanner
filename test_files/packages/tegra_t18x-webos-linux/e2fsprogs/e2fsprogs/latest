@@ -1,0 +1,9 @@
+PV = 1.44.3
+PR = r0
+PKGR = r0webos11
+RPROVIDES = 
+RDEPENDS = busybox e2fsprogs-badblocks glibc (>= 2.28) libcomerr (>= 1.44.3) libe2p (>= 1.44.3) libext2fs (>= 1.44.3) libss (>= 1.44.3) update-alternatives-opkg util-linux-libblkid (>= 2.32.1) util-linux-libuuid (>= 2.32.1)
+RRECOMMENDS = e2fsprogs-e2fsck e2fsprogs-mke2fs
+PKGSIZE = 1019793
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/e2fsprogs /usr/lib/e2fsprogs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /bin/chattr.e2fsprogs /etc/e2fsck.conf /sbin/debugfs /sbin/dumpe2fs /sbin/e2freefrag /sbin/e2image /sbin/e2mmpstatus /sbin/e2undo /sbin/e4crypt /sbin/e4defrag /sbin/filefrag /sbin/logsave /sbin/mklost+found /sbin/populate-extfs.sh /usr/bin/lsattr

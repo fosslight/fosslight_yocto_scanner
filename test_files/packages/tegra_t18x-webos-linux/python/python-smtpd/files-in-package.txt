@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            18541 ./usr/bin/smtpd.py
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python2.7
+-rw-r--r-- root       root            11581 ./usr/lib/python2.7/asynchat.py
+-rw-r--r-- root       root             8750 ./usr/lib/python2.7/asynchat.pyc
+-rw-r--r-- root       root            20943 ./usr/lib/python2.7/asyncore.py
+-rw-r--r-- root       root            18775 ./usr/lib/python2.7/asyncore.pyc
+-rwxr-xr-x root       root            18543 ./usr/lib/python2.7/smtpd.py
+-rw-r--r-- root       root            15821 ./usr/lib/python2.7/smtpd.pyc

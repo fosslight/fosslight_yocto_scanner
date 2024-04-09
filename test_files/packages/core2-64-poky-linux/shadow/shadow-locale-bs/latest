@@ -1,8 +1,0 @@
-PV = 4.8.1
-PR = r0
-RPROVIDES = bs-translation shadow-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-bs
-PKGSIZE = 2971
-FILES = /usr/share/locale/bs
-FILELIST = /usr/share/locale/bs/LC_MESSAGES/shadow.mo

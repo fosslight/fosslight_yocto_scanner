@@ -1,0 +1,8 @@
+PV = 2.7.16
+PR = r1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpython2 (>= 2.7.16) python-core python-crypt python-fcntl python-io python-math
+RRECOMMENDS = 
+PKGSIZE = 192476
+FILES = /usr/lib/python2.7/audiodev.py /usr/lib/python2.7/audiodev.pyc /usr/lib/python2.7/chunk.py /usr/lib/python2.7/chunk.pyc /usr/lib/python2.7/lib-dynload/audioop.so /usr/lib/python2.7/lib-dynload/ossaudiodev.so /usr/lib/python2.7/sndhdr.py /usr/lib/python2.7/sndhdr.pyc /usr/lib/python2.7/sunau.py /usr/lib/python2.7/sunau.pyc /usr/lib/python2.7/sunaudio.py /usr/lib/python2.7/sunaudio.pyc /usr/lib/python2.7/toaiff.py /usr/lib/python2.7/toaiff.pyc /usr/lib/python2.7/wave.py /usr/lib/python2.7/wave.pyc
+FILELIST = /usr/lib/python2.7/audiodev.py /usr/lib/python2.7/audiodev.pyc /usr/lib/python2.7/chunk.py /usr/lib/python2.7/chunk.pyc /usr/lib/python2.7/lib-dynload/audioop.so /usr/lib/python2.7/sndhdr.py /usr/lib/python2.7/sndhdr.pyc /usr/lib/python2.7/sunau.py /usr/lib/python2.7/sunau.pyc /usr/lib/python2.7/sunaudio.py /usr/lib/python2.7/sunaudio.pyc /usr/lib/python2.7/toaiff.py /usr/lib/python2.7/toaiff.pyc /usr/lib/python2.7/wave.py /usr/lib/python2.7/wave.pyc

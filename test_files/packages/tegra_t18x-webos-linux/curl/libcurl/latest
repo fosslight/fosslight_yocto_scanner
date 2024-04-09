@@ -1,0 +1,10 @@
+PV = 7.66.0
+PR = r0
+PKG = libcurl4
+PKGR = r0webos10
+RPROVIDES = libcurl (=7.66.0)
+RDEPENDS = c-ares (>= 1.14.0+gitr0+17dc1b3102) glibc (>= 2.28) libcrypto (>= 1.1.1d) libssl (>= 1.1.1d) zlib (>= 1.2.11)
+RRECOMMENDS = ca-certificates
+PKGSIZE = 461296
+FILES = /usr/lib/lib*.so.*
+FILELIST = /usr/lib/libcurl.so.4 /usr/lib/libcurl.so.4.6.0

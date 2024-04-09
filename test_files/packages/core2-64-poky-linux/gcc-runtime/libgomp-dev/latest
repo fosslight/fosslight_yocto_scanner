@@ -1,8 +1,0 @@
-PV = 10.1.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = libgomp
-RRECOMMENDS = glibc-dev libgcc-dev
-PKGSIZE = 21104
-FILES = /usr/lib/libgomp*.so /usr/lib/libgomp*.la /usr/lib/libgomp.spec /usr/lib/x86_64-poky-linux/10.1.0/include/acc_prof.h /usr/lib/x86_64-poky-linux/10.1.0/include/omp.h /usr/lib/x86_64-poky-linux/10.1.0/include/openacc.h
-FILELIST = /usr/lib/libgomp.so /usr/lib/libgomp.spec /usr/lib/x86_64-poky-linux/10.1.0/include/acc_prof.h /usr/lib/x86_64-poky-linux/10.1.0/include/omp.h /usr/lib/x86_64-poky-linux/10.1.0/include/openacc.h

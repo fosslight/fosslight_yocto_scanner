@@ -1,0 +1,8 @@
+PV = 2.60.2
+PR = r0
+RPROVIDES = glib-networking-locale sl-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sl
+PKGSIZE = 5587
+FILES = /usr/share/locale/sl
+FILELIST = /usr/share/locale/sl/LC_MESSAGES/glib-networking.mo

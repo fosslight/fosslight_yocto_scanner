@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 318866
-FILES = /usr/lib/locale/gl_ES@euro.ISO-8859-15
-FILELIST = /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_ADDRESS /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_COLLATE /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_CTYPE /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_IDENTIFICATION /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_MEASUREMENT /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_MONETARY /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_NAME /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_NUMERIC /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_PAPER /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_TELEPHONE /usr/lib/locale/gl_ES@euro.ISO-8859-15/LC_TIME

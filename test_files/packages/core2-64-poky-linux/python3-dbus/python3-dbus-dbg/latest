@@ -1,8 +1,0 @@
-PV = 1.2.16
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = dbus-lib-dbg glib-2.0-dbg glibc-dbg
-PKGSIZE = 587992
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/python3.8/site-packages/.debug/_dbus_bindings.so /usr/lib/python3.8/site-packages/.debug/_dbus_glib_bindings.so

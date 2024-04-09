@@ -1,0 +1,5 @@
+PV = 6.0
+PR = r9
+DEPENDS = icecc-create-env-native libtirpc systemd-systemctl-native tcp-wrappers virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = portmap-utils portmap-dbg portmap-staticdev portmap-dev portmap-doc portmap-locale portmap
+LAYER = meta-webos-tegra

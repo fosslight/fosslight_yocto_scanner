@@ -1,0 +1,5 @@
+PV = 1.0.0-1
+PR = r0
+DEPENDS = icecc-create-env-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = openwnn-webos-dbg openwnn-webos-staticdev openwnn-webos-dev openwnn-webos-doc openwnn-webos-locale openwnn-webos
+LAYER = meta-webos

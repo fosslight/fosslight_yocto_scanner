@@ -1,8 +1,0 @@
-PV = 0.179
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) libdw (>= 0.179) libelf (>= 0.179) libstdc++ (>= 10.1.0)
-RRECOMMENDS = 
-PKGSIZE = 1347784
-FILES = /usr/bin/eu-addr2line /usr/bin/eu-ld /usr/bin/eu-nm /usr/bin/eu-readelf /usr/bin/eu-size /usr/bin/eu-strip
-FILELIST = /usr/bin/eu-addr2line /usr/bin/eu-nm /usr/bin/eu-readelf /usr/bin/eu-size /usr/bin/eu-strip

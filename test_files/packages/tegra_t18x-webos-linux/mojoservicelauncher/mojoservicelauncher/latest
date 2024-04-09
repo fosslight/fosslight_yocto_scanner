@@ -1,0 +1,8 @@
+PV = 3.0.2-3
+PR = r7
+RPROVIDES = 
+RDEPENDS = mojoloader nodejs nodejs-module-webos-dynaload nodejs-module-webos-pmlog nodejs-module-webos-sysbus
+RRECOMMENDS = 
+PKGSIZE = 42883
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mojoservicelauncher /usr/lib/mojoservicelauncher/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/palm/nodejs /usr/palm/services /usr/palm/frameworks
+FILELIST = /etc/event.d/node_fork_server /etc/init/node_fork_server.conf /usr/bin/run-js-service /usr/palm/nodejs/fork_server.js /usr/palm/nodejs/gcctrl.js /usr/palm/services/jsservicelauncher/bootstrap-node.js /usr/palm/services/jsservicelauncher/bootstrap.js /usr/palm/services/jsservicelauncher/domain-utils.js /usr/palm/services/jsservicelauncher/palm_bus_config.json /usr/palm/services/jsservicelauncher/sources.json

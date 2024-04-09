@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root            11832 ./usr/include/idn2.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               16 ./usr/lib/libidn2.so -> libidn2.so.0.3.4
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              343 ./usr/lib/pkgconfig/libidn2.pc

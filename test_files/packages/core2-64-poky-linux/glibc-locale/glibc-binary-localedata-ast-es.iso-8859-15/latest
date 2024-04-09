@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 318962
-FILES = /usr/lib/locale/ast_ES.ISO-8859-15
-FILELIST = /usr/lib/locale/ast_ES.ISO-8859-15/LC_ADDRESS /usr/lib/locale/ast_ES.ISO-8859-15/LC_COLLATE /usr/lib/locale/ast_ES.ISO-8859-15/LC_CTYPE /usr/lib/locale/ast_ES.ISO-8859-15/LC_IDENTIFICATION /usr/lib/locale/ast_ES.ISO-8859-15/LC_MEASUREMENT /usr/lib/locale/ast_ES.ISO-8859-15/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/ast_ES.ISO-8859-15/LC_MONETARY /usr/lib/locale/ast_ES.ISO-8859-15/LC_NAME /usr/lib/locale/ast_ES.ISO-8859-15/LC_NUMERIC /usr/lib/locale/ast_ES.ISO-8859-15/LC_PAPER /usr/lib/locale/ast_ES.ISO-8859-15/LC_TELEPHONE /usr/lib/locale/ast_ES.ISO-8859-15/LC_TIME

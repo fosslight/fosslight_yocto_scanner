@@ -1,8 +1,0 @@
-PV = 1.1.1g
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) libcrypto (>= 1.1.1g) libssl (>= 1.1.1g)
-RRECOMMENDS = 
-PKGSIZE = 743158
-FILES = /usr/bin/* /usr/sbin/*
-FILELIST = /usr/bin/c_rehash /usr/bin/openssl

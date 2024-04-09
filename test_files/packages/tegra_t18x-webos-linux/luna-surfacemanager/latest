@@ -1,0 +1,5 @@
+PV = 2.0.0-314
+PR = r46
+DEPENDS = glib-2.0 icecc-create-env-native libxml2-native lttng-ust pmloglib qt-features-webos qt-features-webos-native qtbase-native qtdeclarative qtdeclarative-native qtwayland qtwayland-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc wayland-native webos-wayland-extensions
+PACKAGES = luna-surfacemanager-conf luna-surfacemanager-base luna-surfacemanager-base-tests luna-surfacemanager-dbg luna-surfacemanager-staticdev luna-surfacemanager-dev luna-surfacemanager-doc luna-surfacemanager-locale luna-surfacemanager
+LAYER = meta-webos

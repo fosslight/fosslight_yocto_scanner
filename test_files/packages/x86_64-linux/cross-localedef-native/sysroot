@@ -1,6 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  22 ./sysroot-providers/cross-localedef-native
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -              327816 ./usr/bin/cross-localedef
--rwxr-xr-x -          -               16520 ./usr/bin/cross-localedef-hardlink

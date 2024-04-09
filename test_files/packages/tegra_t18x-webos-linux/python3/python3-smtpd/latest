@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = 
+RDEPENDS = python3-core python3-crypt python3-datetime python3-email python3-io python3-math python3-mime python3-netclient python3-stringold
+RRECOMMENDS = 
+PKGSIZE = 226928
+FILES = /usr/bin/smtpd.py /usr/lib/python3.5/asynchat.py /usr/lib/python3.5/asyncore.py /usr/lib/python3.5/smtpd.py /usr/lib/python3.5/__pycache__/asynchat.*.pyc /usr/lib/python3.5/__pycache__/asyncore.*.pyc /usr/lib/python3.5/__pycache__/smtpd.*.pyc
+FILELIST = /usr/lib/python3.5/__pycache__/asynchat.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/asynchat.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/asynchat.cpython-35.pyc /usr/lib/python3.5/__pycache__/asyncore.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/asyncore.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/asyncore.cpython-35.pyc /usr/lib/python3.5/__pycache__/smtpd.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/smtpd.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/smtpd.cpython-35.pyc /usr/lib/python3.5/asynchat.py /usr/lib/python3.5/asyncore.py /usr/lib/python3.5/smtpd.py

@@ -1,0 +1,8 @@
+PV = 2.62.3
+PR = r0
+RPROVIDES = gd-translation libsoup-2.4-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-gd
+PKGSIZE = 4278
+FILES = /usr/share/locale/gd
+FILELIST = /usr/share/locale/gd/LC_MESSAGES/libsoup.mo

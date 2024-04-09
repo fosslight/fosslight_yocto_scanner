@@ -1,0 +1,10 @@
+PV = 2.32.1
+PR = r0
+PKG = libfdisk1
+PKGR = r0webos2
+RPROVIDES = util-linux-libfdisk (=2.32.1)
+RDEPENDS = glibc (>= 2.28) util-linux-libblkid (>= 2.32.1) util-linux-libuuid (>= 2.32.1)
+RRECOMMENDS = 
+PKGSIZE = 468865
+FILES = /lib/libfdisk.so.1 /lib/libfdisk.so.1.1.0
+FILELIST = /lib/libfdisk.so.1 /lib/libfdisk.so.1.1.0

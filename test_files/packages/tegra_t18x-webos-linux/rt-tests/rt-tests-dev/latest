@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = rt-tests (= 1:1.1-r0)
+RRECOMMENDS = glibc-dev linux-libc-headers-dev python3-datetime-dev python3-dev python3-misc-dev python3-multiprocessing-dev stress-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rt-tests/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

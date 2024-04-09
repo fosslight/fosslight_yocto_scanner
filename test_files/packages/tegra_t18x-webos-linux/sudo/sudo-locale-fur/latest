@@ -1,0 +1,8 @@
+PV = 1.8.22
+PR = r0
+RPROVIDES = fur-translation sudo-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fur
+PKGSIZE = 27902
+FILES = /usr/share/locale/fur
+FILELIST = /usr/share/locale/fur/LC_MESSAGES/sudo.mo /usr/share/locale/fur/LC_MESSAGES/sudoers.mo

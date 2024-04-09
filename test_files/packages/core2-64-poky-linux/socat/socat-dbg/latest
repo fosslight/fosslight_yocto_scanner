@@ -1,8 +1,0 @@
-PV = 1.7.3.4
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg libcrypto-dbg libssl-dbg libwrap-dbg readline-dbg
-PKGSIZE = 1818848
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/filan /usr/bin/.debug/procan /usr/bin/.debug/socat

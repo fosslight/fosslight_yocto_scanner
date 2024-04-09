@@ -1,0 +1,9 @@
+PV = 1.0.0-3
+PR = r1
+PKG = libval-mock-ptest
+RPROVIDES = videooutput-adaptation-layer-mock-ptest (=1.0.0-3)
+RDEPENDS = glib-2.0-utils ptest-runner
+RRECOMMENDS = ptest-runner
+PKGSIZE = 0
+FILES = /usr/lib/videooutput-adaptation-layer-mock/ptest /usr/opt/webos/tests/videooutput-adaptation-layer-mock
+FILELIST = 

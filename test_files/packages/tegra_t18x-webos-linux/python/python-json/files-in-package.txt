@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python2.7
+drwxr-xr-x root       root             4096 ./usr/lib/python2.7/json
+-rw-r--r-- root       root            13698 ./usr/lib/python2.7/json/decoder.py
+-rw-r--r-- root       root            11936 ./usr/lib/python2.7/json/decoder.pyc
+-rw-r--r-- root       root            16399 ./usr/lib/python2.7/json/encoder.py
+-rw-r--r-- root       root            13687 ./usr/lib/python2.7/json/encoder.pyc
+-rw-r--r-- root       root            14721 ./usr/lib/python2.7/json/__init__.py
+-rw-r--r-- root       root            13916 ./usr/lib/python2.7/json/__init__.pyc
+-rw-r--r-- root       root             2297 ./usr/lib/python2.7/json/scanner.py
+-rw-r--r-- root       root             2223 ./usr/lib/python2.7/json/scanner.pyc
+-rw-r--r-- root       root              997 ./usr/lib/python2.7/json/tool.py
+-rw-r--r-- root       root             1290 ./usr/lib/python2.7/json/tool.pyc
+drwxr-xr-x root       root             4096 ./usr/lib/python2.7/lib-dynload
+-rwxr-xr-x root       root            70088 ./usr/lib/python2.7/lib-dynload/_json.so

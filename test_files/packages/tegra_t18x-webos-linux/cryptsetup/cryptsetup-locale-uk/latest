@@ -1,0 +1,8 @@
+PV = 2.0.4
+PR = r0
+RPROVIDES = cryptsetup-locale uk-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-uk
+PKGSIZE = 104496
+FILES = /usr/share/locale/uk
+FILELIST = /usr/share/locale/uk/LC_MESSAGES/cryptsetup.mo

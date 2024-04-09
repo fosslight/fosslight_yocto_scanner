@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 71827
+FILES = /lib/firmware/bluetooth-bcm4359-b1-fw.hcd
+FILELIST = /lib/firmware/bluetooth-bcm4359-b1-fw.hcd

@@ -1,0 +1,9 @@
+PV = 1.0.22
+PR = r0
+PKG = libusb-1.0-dbg
+RPROVIDES = libusb1-dbg (=1.0.22)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 933856
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /lib/.debug/libusb-1.0.so.0.1.0 /usr/lib/libusb1/ptest/.debug/stress /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/core.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/descriptor.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/hotplug.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/hotplug.h /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/io.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/libusb.h /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/libusbi.h /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/os/linux_netlink.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/os/linux_usbfs.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/os/linux_usbfs.h /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/os/poll_posix.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/os/poll_posix.h /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/os/threads_posix.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/os/threads_posix.h /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/strerror.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/libusb/sync.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/tests/libusb_testlib.h /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/tests/stress.c /usr/src/debug/libusb1/1.0.22-r0/libusb-1.0.22/tests/testlib.c

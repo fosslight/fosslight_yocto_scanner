@@ -1,0 +1,9 @@
+PV = 0.7
+PR = r0
+PKG = libavahi-client3
+RPROVIDES = libavahi-client (=0.7)
+RDEPENDS = dbus-lib (>= 1.12.10) glibc (>= 2.28) libavahi-common (>= 0.7)
+RRECOMMENDS = 
+PKGSIZE = 133560
+FILES = /usr/lib/libavahi-client.so.*
+FILELIST = /usr/lib/libavahi-client.so.3 /usr/lib/libavahi-client.so.3.2.9

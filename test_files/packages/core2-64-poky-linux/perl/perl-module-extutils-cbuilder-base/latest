@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-config perl-module-cwd perl-module-dynaloader perl-module-extutils-mksymlists perl-module-file-basename perl-module-file-temp perl-module-ipc-cmd perl-module-strict perl-module-text-parsewords perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 10787
-FILES = /usr/lib/perl5/5.30.2/ExtUtils/CBuilder/Base.pm
-FILELIST = /usr/lib/perl5/5.30.2/ExtUtils/CBuilder/Base.pm

@@ -1,8 +1,0 @@
-PV = 7.6
-PR = r10
-RPROVIDES = 
-RDEPENDS = libwrap
-RRECOMMENDS = glibc-dev libnsl2-dev
-PKGSIZE = 9156
-FILES = /usr/lib/lib*.so /usr/include
-FILELIST = /usr/include/tcpd.h /usr/lib/libwrap.so

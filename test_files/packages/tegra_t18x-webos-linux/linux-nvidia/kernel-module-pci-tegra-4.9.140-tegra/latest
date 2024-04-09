@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-pci-tegra
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 150544
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/pci/host/pci-tegra.ko /etc/modules-load.d/pci-tegra.conf /etc/modprobe.d/pci-tegra.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/pci/host/pci-tegra.ko

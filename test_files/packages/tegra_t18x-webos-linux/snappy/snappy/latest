@@ -1,0 +1,10 @@
+PV = 1.1.7
+PR = r0
+PKG = libsnappy1
+PKGR = r0webos1
+RPROVIDES = snappy (=1.1.7)
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0)
+RRECOMMENDS = 
+PKGSIZE = 67858
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/snappy /usr/lib/snappy/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libsnappy.so.1 /usr/lib/libsnappy.so.1.1.7

@@ -1,4 +1,0 @@
-drwxr-xr-x root       root             4096 ./etc
--rw-r--r-- root       root               33 ./etc/ld.so.conf
-drwxr-xr-x root       root             4096 ./sbin
--rwxr-xr-x root       root           887640 ./sbin/ldconfig

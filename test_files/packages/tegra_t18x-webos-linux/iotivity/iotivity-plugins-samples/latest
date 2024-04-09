@@ -1,0 +1,9 @@
+PV = 1.3.99+gitAUTOINC+255060695e
+PR = r3
+PKGV = 1.3.99+git0+255060695e
+RPROVIDES = 
+RDEPENDS = iotivity-resource
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/palm/services/iotivity/examples/plugins
+FILELIST = 

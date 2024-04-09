@@ -1,0 +1,9 @@
+PV = 1.14.12
+PR = r0
+PKG = libcairo-dev
+RPROVIDES = cairo-dev (=1.14.12)
+RDEPENDS = cairo (= 1.14.12-r0) cairo-gobject cairo-script-interpreter
+RRECOMMENDS = cairo-gobject-dev cairo-script-interpreter-dev fontconfig-dev freetype-dev glib-2.0-dev glibc-dev libpng-dev pixman-dev zlib-dev
+PKGSIZE = 151702
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/cairo/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/cairo/*.so
+FILELIST = /usr/include/cairo/cairo-deprecated.h /usr/include/cairo/cairo-features.h /usr/include/cairo/cairo-ft.h /usr/include/cairo/cairo-gobject.h /usr/include/cairo/cairo-pdf.h /usr/include/cairo/cairo-ps.h /usr/include/cairo/cairo-script-interpreter.h /usr/include/cairo/cairo-script.h /usr/include/cairo/cairo-svg.h /usr/include/cairo/cairo-tee.h /usr/include/cairo/cairo-version.h /usr/include/cairo/cairo.h /usr/lib/libcairo-gobject.so /usr/lib/libcairo-script-interpreter.so /usr/lib/libcairo.so /usr/lib/pkgconfig/cairo-fc.pc /usr/lib/pkgconfig/cairo-ft.pc /usr/lib/pkgconfig/cairo-gobject.pc /usr/lib/pkgconfig/cairo-pdf.pc /usr/lib/pkgconfig/cairo-png.pc /usr/lib/pkgconfig/cairo-ps.pc /usr/lib/pkgconfig/cairo-script.pc /usr/lib/pkgconfig/cairo-svg.pc /usr/lib/pkgconfig/cairo-tee.pc /usr/lib/pkgconfig/cairo.pc

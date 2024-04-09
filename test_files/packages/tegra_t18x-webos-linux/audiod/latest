@@ -1,0 +1,5 @@
+PV = 1.0.0-12
+PR = r25
+DEPENDS = boost cmake-modules-webos-native cmake-native gettext-native glib-2.0 icecc-create-env-native libpbnjson lttng-ust luna-prefs luna-service2 ninja-native pkgconfig-native pmloglib pulseaudio virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = audiod-dbg audiod-staticdev audiod-dev audiod-doc audiod-locale audiod
+LAYER = meta-webos

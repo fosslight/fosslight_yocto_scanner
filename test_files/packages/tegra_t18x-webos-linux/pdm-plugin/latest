@@ -1,0 +1,5 @@
+PV = 1.0.0-2
+PR = r1
+DEPENDS = cmake-modules-webos-native cmake-native com.webos.service.pdm icecc-create-env-native ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = pdm-plugin-dbg pdm-plugin-staticdev pdm-plugin-dev pdm-plugin-doc pdm-plugin-locale pdm-plugin
+LAYER = meta-webos

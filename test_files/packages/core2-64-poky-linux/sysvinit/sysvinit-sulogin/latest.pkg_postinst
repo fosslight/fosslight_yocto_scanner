@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /sbin/sulogin sulogin /sbin/sulogin.sysvinit 200

@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              446 ./lib/systemd/system/dhcpd6.service
+-rw-r--r-- root       root              444 ./lib/systemd/system/dhcpd.service
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           466176 ./usr/sbin/dhcpd

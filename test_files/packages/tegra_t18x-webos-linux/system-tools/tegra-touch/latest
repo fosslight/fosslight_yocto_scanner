@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = busybox
+RRECOMMENDS = 
+PKGSIZE = 2902
+FILES = /usr/bin/atmel_mxt_update.sh
+FILELIST = /usr/bin/atmel_mxt_update.sh

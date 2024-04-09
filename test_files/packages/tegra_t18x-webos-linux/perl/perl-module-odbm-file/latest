@@ -1,0 +1,8 @@
+PV = 5.24.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = gdbm-compat (>= 1.18) glibc (>= 2.28) perl perl-module-strict perl-module-tie-hash perl-module-warnings perl-module-xsloader
+RRECOMMENDS = 
+PKGSIZE = 70063
+FILES = /usr/lib/perl/5.24.4/auto/ODBM_File/ODBM_File.so /usr/lib/perl/5.24.4/ODBM_File.pm
+FILELIST = /usr/lib/perl/5.24.4/ODBM_File.pm /usr/lib/perl/5.24.4/auto/ODBM_File/ODBM_File.so

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-encode perl-module-pod-simple perl-module-strict perl-module-vars
-RRECOMMENDS = 
-PKGSIZE = 715
-FILES = /usr/lib/perl5/5.30.2/Pod/Simple/TranscodeSmart.pm
-FILELIST = /usr/lib/perl5/5.30.2/Pod/Simple/TranscodeSmart.pm

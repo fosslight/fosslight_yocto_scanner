@@ -1,0 +1,5 @@
+PV = 1.1.0-8
+PR = r1
+DEPENDS = coreutils-native enact-dev-native enact-framework icecc-create-env-native ilib-webapp virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/webruntime
+PACKAGES = com.webos.app.settings-dbg com.webos.app.settings-staticdev com.webos.app.settings-dev com.webos.app.settings-doc com.webos.app.settings-locale com.webos.app.settings
+LAYER = meta-webos

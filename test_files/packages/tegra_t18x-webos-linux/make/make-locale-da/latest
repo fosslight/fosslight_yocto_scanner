@@ -1,0 +1,8 @@
+PV = 4.2.1
+PR = r0
+RPROVIDES = da-translation make-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-da
+PKGSIZE = 23665
+FILES = /usr/share/locale/da
+FILELIST = /usr/share/locale/da/LC_MESSAGES/make.mo

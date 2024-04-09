@@ -1,0 +1,26 @@
+drwxr-xr-x root       root             4096 ./lib
+lrwxrwxrwx root       root               15 ./lib/libsystemd.so -> libsystemd.so.0
+lrwxrwxrwx root       root               12 ./lib/libudev.so -> libudev.so.1
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             9591 ./usr/include/libudev.h
+drwxr-xr-x root       root             4096 ./usr/include/systemd
+-rw-r--r-- root       root            27292 ./usr/include/systemd/sd-bus.h
+-rw-r--r-- root       root             5074 ./usr/include/systemd/sd-bus-protocol.h
+-rw-r--r-- root       root             7793 ./usr/include/systemd/sd-bus-vtable.h
+-rw-r--r-- root       root             2652 ./usr/include/systemd/_sd-common.h
+-rw-r--r-- root       root            12927 ./usr/include/systemd/sd-daemon.h
+-rw-r--r-- root       root             6652 ./usr/include/systemd/sd-event.h
+-rw-r--r-- root       root             6635 ./usr/include/systemd/sd-id128.h
+-rw-r--r-- root       root             7779 ./usr/include/systemd/sd-journal.h
+-rw-r--r-- root       root             9421 ./usr/include/systemd/sd-login.h
+-rw-r--r-- root       root            11134 ./usr/include/systemd/sd-messages.h
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              561 ./usr/lib/pkgconfig/libsystemd.pc
+-rw-r--r-- root       root              529 ./usr/lib/pkgconfig/libudev.pc
+-rw-r--r-- root       root               61 ./usr/lib/pkgconfig/udev.pc
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rw-r--r-- root       root             1682 ./usr/share/pkgconfig/systemd.pc
+-rw-r--r-- root       root               61 ./usr/share/pkgconfig/udev.pc

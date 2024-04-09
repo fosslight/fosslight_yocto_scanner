@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = db (>= 5.3.28) glibc (>= 2.31+git0+1094741224) perl
-RRECOMMENDS = 
-PKGSIZE = 120204
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/DB_File/DB_File.so /usr/lib/perl5/5.30.2/x86_64-linux/DB_File.pm /usr/lib/perl5/5.30.2/x86_64-linux/DB_File.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/DB_File.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/DB_File/DB_File.so

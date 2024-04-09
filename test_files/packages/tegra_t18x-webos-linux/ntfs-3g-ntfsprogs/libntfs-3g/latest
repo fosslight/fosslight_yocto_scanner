@@ -1,0 +1,10 @@
+PV = 2017.3.23
+PR = r0
+PKG = libntfs-3g88
+PKGR = r0webosupdater1
+RPROVIDES = libntfs-3g (=2017.3.23)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 330532
+FILES = /usr/lib/*.so.*
+FILELIST = /usr/lib/libntfs-3g.so.88 /usr/lib/libntfs-3g.so.88.0.0

@@ -1,0 +1,11 @@
+PV = 25+gitAUTOINC+aca4eca103
+PR = r0
+PKGV = 25+git0+aca4eca103
+RPROVIDES = module-init-tools module-init-tools-depmod module-init-tools-insmod-static
+RDEPENDS = glibc (>= 2.28) update-alternatives-opkg zlib (>= 1.2.11)
+RRECOMMENDS = 
+RREPLACES = module-init-tools module-init-tools-depmod module-init-tools-insmod-static
+RCONFLICTS = module-init-tools module-init-tools-depmod module-init-tools-insmod-static
+PKGSIZE = 199274
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/kmod /usr/lib/kmod/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/depmod.d /lib/modprobe.d
+FILELIST = /bin/kmod /bin/lsmod.kmod /lib/depmod.d/search.conf /sbin/depmod.kmod /sbin/insmod.kmod /sbin/modinfo.kmod /sbin/modprobe.kmod /sbin/rmmod.kmod

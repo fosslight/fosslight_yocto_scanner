@@ -1,0 +1,8 @@
+PV = 2.0.0-9
+PR = r10
+RPROVIDES = 
+RDEPENDS = babeltrace glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libgcc (>= 8.2.0) libpbnjson (>= 2.15.0-1) libstdc++ (>= 8.2.0) lttng-modules lttng-tools luna-service2 (>= 3.21.2-5) pmloglib (>= 3.3.0-4) pmtrace (>= 1.0.0-7)
+RRECOMMENDS = 
+PKGSIZE = 532985
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/bootd /usr/lib/bootd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services /usr/share/dbus-1/services /usr/share/ls2/roles/prv /usr/share/ls2/roles/pub /usr/share/luna-service2/roles.d /usr/share/luna-service2/services.d /usr/share/luna-service2/client-permissions.d /usr/share/luna-service2/api-permissions.d /usr/share/luna-service2/groups.d /usr/share/luna-service2/manifests.d
+FILELIST = /etc/palm/bootd.json /usr/bin/bootd /usr/sbin/bootd /usr/share/luna-service2/api-permissions.d/com.webos.bootd.api.json /usr/share/luna-service2/client-permissions.d/com.webos.bootd.perm.json /usr/share/luna-service2/manifests.d/bootd.manifest.json /usr/share/luna-service2/roles.d/com.webos.bootd.role.json /usr/share/luna-service2/services.d/com.webos.bootd.service

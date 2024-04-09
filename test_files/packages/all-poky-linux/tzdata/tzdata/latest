@@ -1,9 +1,0 @@
-PV = 2020a
-PR = r0
-RPROVIDES = 
-RDEPENDS = tzdata-africa tzdata-americas tzdata-antarctica tzdata-arctic tzdata-asia tzdata-atlantic tzdata-australia tzdata-core tzdata-europe tzdata-misc tzdata-pacific tzdata-posix tzdata-right
-RRECOMMENDS = 
-RCONFLICTS = timezone-africa timezone-america timezone-antarctica timezone-arctic timezone-asia timezone-atlantic timezone-australia timezone-europe timezone-indian timezone-iso3166.tab timezone-pacific timezone-zone.tab timezones
-PKGSIZE = 0
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/tzdata /usr/lib/tzdata/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = 

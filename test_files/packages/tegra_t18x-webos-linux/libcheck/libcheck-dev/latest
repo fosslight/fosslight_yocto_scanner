@@ -1,0 +1,9 @@
+PV = 0.12.0
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = libcheck (= 0.12.0-r0webos2)
+RRECOMMENDS = busybox-dev gawk-dev glibc-dev
+PKGSIZE = 74057
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libcheck/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/check.h /usr/include/check_stdint.h /usr/lib/libcheck.so /usr/lib/pkgconfig/check.pc /usr/share/aclocal/check.m4

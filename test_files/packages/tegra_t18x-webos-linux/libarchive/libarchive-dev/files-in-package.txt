@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root            33278 ./usr/include/archive_entry.h
+-rw-r--r-- root       root            52744 ./usr/include/archive.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               20 ./usr/lib/libarchive.so -> libarchive.so.13.4.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              316 ./usr/lib/pkgconfig/libarchive.pc

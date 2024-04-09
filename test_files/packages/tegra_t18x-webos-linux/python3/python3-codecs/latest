@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpython3 (>= 3.5.6) python3-core
+RRECOMMENDS = 
+PKGSIZE = 104481
+FILES = /usr/lib/python3.5/lib-dynload/_multibytecodec.*.so /usr/lib/python3.5/xdrlib.py /usr/lib/python3.5/__pycache__/xdrlib.*.pyc
+FILELIST = /usr/lib/python3.5/__pycache__/xdrlib.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/xdrlib.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/xdrlib.cpython-35.pyc /usr/lib/python3.5/lib-dynload/_multibytecodec.cpython-35m-aarch64-linux-gnu.so /usr/lib/python3.5/xdrlib.py

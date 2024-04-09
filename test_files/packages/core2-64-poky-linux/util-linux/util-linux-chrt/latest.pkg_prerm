@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  chrt /usr/bin/chrt.util-linux

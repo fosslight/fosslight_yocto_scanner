@@ -1,4 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
-lrwxrwxrwx root       root               27 ./usr/bin/gcov-tool -> x86_64-poky-linux-gcov-tool
-lrwxrwxrwx root       root               22 ./usr/bin/gcov -> x86_64-poky-linux-gcov

@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-snd-soc-tegra-alt-utils
+RDEPENDS = kernel-4.9.140-tegra kernel-module-snd-4.9.140-tegra kernel-module-snd-pcm-4.9.140-tegra kernel-module-snd-pcm-dmaengine-4.9.140-tegra kernel-module-snd-soc-core-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 240888
+FILES = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-alt/snd-soc-tegra-alt-utils.ko /etc/modules-load.d/snd-soc-tegra-alt-utils.conf /etc/modprobe.d/snd-soc-tegra-alt-utils.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-alt/snd-soc-tegra-alt-utils.ko

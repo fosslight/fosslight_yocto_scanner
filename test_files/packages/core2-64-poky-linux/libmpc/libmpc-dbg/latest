@@ -1,8 +1,0 @@
-PV = 1.1.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg gmp-dbg mpfr-dbg
-PKGSIZE = 413664
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libmpc.so.3.1.0

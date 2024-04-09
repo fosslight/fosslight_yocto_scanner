@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-config perl-module-strict perl-module-test-builder perl-module-threads-shared perl-module-vars
-RRECOMMENDS = 
-PKGSIZE = 4541
-FILES = /usr/lib/perl5/5.30.2/Test/Tester/Capture.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test/Tester/Capture.pm

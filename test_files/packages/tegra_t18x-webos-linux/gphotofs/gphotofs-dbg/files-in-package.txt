@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root            63560 ./usr/bin/.debug/gphotofs
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/gphotofs
+drwxr-xr-x root       root             4096 ./usr/src/debug/gphotofs/0.5-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/gphotofs/0.5-r0/gphotofs-0.5
+-rw-r--r-- root       root            21625 ./usr/src/debug/gphotofs/0.5-r0/gphotofs-0.5/gphotofs.c

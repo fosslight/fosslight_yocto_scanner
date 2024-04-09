@@ -1,8 +1,0 @@
-PV = 2018.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 30050
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/gnome-desktop-testing/2018.1-r0/git/src/gnome-desktop-testing-runner.c

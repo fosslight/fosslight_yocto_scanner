@@ -1,0 +1,8 @@
+PV = 2.0.5
+PR = r0
+RPROVIDES = ja-translation libidn2-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ja
+PKGSIZE = 669
+FILES = /usr/share/locale/ja
+FILELIST = /usr/share/locale/ja/LC_MESSAGES/libidn2.mo

@@ -1,0 +1,9 @@
+PV = 4.1.1
+PR = r0
+PKG = libcrypt-doc
+RPROVIDES = libxcrypt-doc (=4.1.1)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 26387
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/man/man3/crypt_gensalt.3 /usr/share/man/man3/crypt_rn.3 /usr/share/man/man5/crypt.5

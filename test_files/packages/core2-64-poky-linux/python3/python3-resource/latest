@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) python3-core
-RRECOMMENDS = 
-PKGSIZE = 18912
-FILES = /usr/lib/python3.8/lib-dynload/resource.*.so
-FILELIST = /usr/lib/python3.8/lib-dynload/resource.cpython-38-x86_64-linux-gnu.so

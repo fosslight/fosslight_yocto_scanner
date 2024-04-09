@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) glibc-gconv
-RRECOMMENDS = 
-PKGSIZE = 14280
-FILES = /usr/lib/gconv/IBM863.so
-FILELIST = /usr/lib/gconv/IBM863.so

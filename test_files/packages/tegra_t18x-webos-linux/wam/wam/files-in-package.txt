@@ -1,0 +1,41 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/pmlog.d
+drwxr-xr-x root       root             4096 ./etc/systemd
+drwxr-xr-x root       root             4096 ./etc/systemd/system
+drwxr-xr-x root       root             4096 ./etc/systemd/system/scripts
+-rwxr-xr-x root       root             8044 ./etc/systemd/system/scripts/webapp-mgr.sh
+-rw-r--r-- root       root             1194 ./etc/systemd/system/webapp-mgr.service
+drwxr-xr-x root       root             4096 ./etc/wam
+-rw-r--r-- root       root              347 ./etc/wam/security_policy.conf
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67824 ./usr/bin/WebAppMgr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           395528 ./usr/lib/libWebAppMgrCore.so.1.0.0
+lrwxrwxrwx root       root               25 ./usr/lib/libWebAppMgrCore.so.1.0 -> libWebAppMgrCore.so.1.0.0
+lrwxrwxrwx root       root               25 ./usr/lib/libWebAppMgrCore.so.1 -> libWebAppMgrCore.so.1.0.0
+-rwxr-xr-x root       root           461376 ./usr/lib/libWebAppMgr.so.1.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libWebAppMgr.so.1.0 -> libWebAppMgr.so.1.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libWebAppMgr.so.1 -> libWebAppMgr.so.1.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/webappmanager
+drwxr-xr-x root       root             4096 ./usr/lib/webappmanager/plugins
+-rwxr-xr-x root       root            67840 ./usr/lib/webappmanager/plugins/libwebappmgr-default-plugin.so
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/localization
+drwxr-xr-x root       root             4096 ./usr/share/localization/wam
+-rw-r--r-- root       root            17246 ./usr/share/localization/wam/geterror.js
+-rw-r--r-- root       root            19337 ./usr/share/localization/wam/loaderror.html
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/api-permissions.d
+-rw-r--r-- root       root              570 ./usr/share/luna-service2/api-permissions.d/com.palm.webappmanager.api.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/client-permissions.d
+-rw-r--r-- root       root              374 ./usr/share/luna-service2/client-permissions.d/com.palm.webappmanager.perm.json
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/manifests.d
+-rw-rw-r-- root       root              499 ./usr/share/luna-service2/manifests.d/wam.manifest.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/roles.d
+-rw-r--r-- root       root              955 ./usr/share/luna-service2/roles.d/com.palm.webappmanager.role.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/services.d
+-rw-r--r-- root       root               93 ./usr/share/luna-service2/services.d/com.palm.webappmanager.service
+drwxr-xr-x root       root             4096 ./var
+drwxr-xr-x root       root             4096 ./var/lib
+drwxr-xr-x root       root             4096 ./var/lib/wam

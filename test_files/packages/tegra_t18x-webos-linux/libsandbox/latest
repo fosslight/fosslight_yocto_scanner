@@ -1,0 +1,5 @@
+PV = 2.0.0-1
+PR = r2
+DEPENDS = cmake-modules-webos-native cmake-native icecc-create-env-native ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libsandbox-dbg libsandbox-staticdev libsandbox-dev libsandbox-doc libsandbox-locale libsandbox
+LAYER = meta-webos

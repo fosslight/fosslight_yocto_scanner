@@ -1,0 +1,10 @@
+PV = 1.0.0-rc5+gitAUTOINC+6a2c155968
+PR = r0
+PKGV = 1.0.0-rc5+git0+6a2c155968
+PKGR = r0webosvirt1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 6267630
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/runc /usr/src/debug/runc-docker/1.0.0-rc5+gitAUTOINC+6a2c155968-r0/git/src/import/.gopath/src/github.com/opencontainers/runc/libcontainer/nsenter/nsenter.go /usr/src/debug/runc-docker/1.0.0-rc5+gitAUTOINC+6a2c155968-r0/git/src/import/.gopath/src/github.com/opencontainers/runc/libcontainer/nsenter/nsexec.c

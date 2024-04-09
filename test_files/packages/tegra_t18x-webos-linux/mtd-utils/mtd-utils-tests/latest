@@ -1,0 +1,10 @@
+PV = 2.0.2+AUTOINC+bc63d36e39
+PR = r0
+PKGV = 2.0.2+0+bc63d36e39
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = busybox glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 2724226
+FILES = /usr/libexec/mtd-utils/*
+FILELIST = /usr/libexec/mtd-utils/JitterTest /usr/libexec/mtd-utils/checkfs /usr/libexec/mtd-utils/filljffs2.sh /usr/libexec/mtd-utils/flash_readtest /usr/libexec/mtd-utils/flash_speed /usr/libexec/mtd-utils/flash_stress /usr/libexec/mtd-utils/flash_torture /usr/libexec/mtd-utils/free_space /usr/libexec/mtd-utils/fs_help_all.sh /usr/libexec/mtd-utils/fs_run_all.sh /usr/libexec/mtd-utils/fs_stress00.sh /usr/libexec/mtd-utils/fs_stress01.sh /usr/libexec/mtd-utils/fstest_monitor /usr/libexec/mtd-utils/ftrunc /usr/libexec/mtd-utils/fwrite00 /usr/libexec/mtd-utils/gcd_hupper /usr/libexec/mtd-utils/integ /usr/libexec/mtd-utils/integck /usr/libexec/mtd-utils/io_basic /usr/libexec/mtd-utils/io_paral /usr/libexec/mtd-utils/io_read /usr/libexec/mtd-utils/io_update /usr/libexec/mtd-utils/load_nandsim.sh /usr/libexec/mtd-utils/makefiles /usr/libexec/mtd-utils/mkvol_bad /usr/libexec/mtd-utils/mkvol_basic /usr/libexec/mtd-utils/mkvol_paral /usr/libexec/mtd-utils/nandbiterrs /usr/libexec/mtd-utils/nandpagetest /usr/libexec/mtd-utils/nandsubpagetest /usr/libexec/mtd-utils/orph /usr/libexec/mtd-utils/pdfrun /usr/libexec/mtd-utils/perf /usr/libexec/mtd-utils/plotJittervsFill /usr/libexec/mtd-utils/rmdir00 /usr/libexec/mtd-utils/rndrm00 /usr/libexec/mtd-utils/rndrm99 /usr/libexec/mtd-utils/rndwrite00 /usr/libexec/mtd-utils/rsvol /usr/libexec/mtd-utils/runubitests.sh /usr/libexec/mtd-utils/stress_1 /usr/libexec/mtd-utils/stress_2 /usr/libexec/mtd-utils/stress_3 /usr/libexec/mtd-utils/test_1 /usr/libexec/mtd-utils/test_2 /usr/libexec/mtd-utils/ubi-stress-test.sh /usr/libexec/mtd-utils/volrefcnt

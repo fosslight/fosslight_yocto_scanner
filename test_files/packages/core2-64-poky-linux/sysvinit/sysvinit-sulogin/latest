@@ -1,8 +1,0 @@
-PV = 2.96
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) libxcrypt (>= 4.4.15) update-alternatives-opkg
-RRECOMMENDS = 
-PKGSIZE = 26600
-FILES = /sbin/sulogin.sysvinit
-FILELIST = /sbin/sulogin.sysvinit

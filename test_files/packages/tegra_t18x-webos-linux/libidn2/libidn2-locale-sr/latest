@@ -1,0 +1,8 @@
+PV = 2.0.5
+PR = r0
+RPROVIDES = libidn2-locale sr-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sr
+PKGSIZE = 1335
+FILES = /usr/share/locale/sr
+FILELIST = /usr/share/locale/sr/LC_MESSAGES/libidn2.mo

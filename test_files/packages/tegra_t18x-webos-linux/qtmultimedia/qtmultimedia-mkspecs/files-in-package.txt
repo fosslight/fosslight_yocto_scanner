@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/mkspecs
+drwxr-xr-x root       root             4096 ./usr/lib/mkspecs/modules
+-rw-r--r-- root       root              694 ./usr/lib/mkspecs/modules/qt_lib_multimedia.pri
+-rw-r--r-- root       root             1155 ./usr/lib/mkspecs/modules/qt_lib_multimedia_private.pri
+-rw-r--r-- root       root              989 ./usr/lib/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri

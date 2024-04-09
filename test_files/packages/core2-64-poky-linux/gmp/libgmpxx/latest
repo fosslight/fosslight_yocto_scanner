@@ -1,9 +1,0 @@
-PV = 6.2.0
-PR = r0
-PKG = libgmpxx4
-RPROVIDES = libgmpxx (=6.2.0)
-RDEPENDS = glibc (>= 2.31+git0+1094741224) gmp (>= 6.2.0) libgcc (>= 10.1.0) libstdc++ (>= 10.1.0)
-RRECOMMENDS = 
-PKGSIZE = 30713
-FILES = /usr/lib/libgmpxx.so.*
-FILELIST = /usr/lib/libgmpxx.so.4 /usr/lib/libgmpxx.so.4.6.0

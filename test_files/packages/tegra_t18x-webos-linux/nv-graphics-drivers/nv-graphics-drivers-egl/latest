@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = egl libegl-mesa
+RDEPENDS = glibc (>= 2.28) nv-rm-drivers (>= 1.0)
+RRECOMMENDS = 
+PKGSIZE = 2656341
+FILES = /usr/lib/libEGL.so.1 /usr/lib/libEGL.so /usr/lib/libnvidia-glsi.so.418.00 /usr/lib/libVulkan_EGL.so.1 /usr/lib/libVulkan_EGL.so
+FILELIST = /usr/lib/libEGL.so /usr/lib/libEGL.so.1 /usr/lib/libVulkan_EGL.so /usr/lib/libVulkan_EGL.so.1 /usr/lib/libnvidia-glsi.so.418.00

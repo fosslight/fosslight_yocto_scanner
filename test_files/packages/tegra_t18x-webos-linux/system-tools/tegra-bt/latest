@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = busybox
+RRECOMMENDS = 
+PKGSIZE = 572647
+FILES = /usr/bin/brcm_patchram_plus /usr/bin/load_bt_firmware.sh
+FILELIST = /usr/bin/brcm_patchram_plus /usr/bin/load_bt_firmware.sh

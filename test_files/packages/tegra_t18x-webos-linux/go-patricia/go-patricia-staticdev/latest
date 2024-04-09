@@ -1,0 +1,9 @@
+PV = 2.2.6+gitAUTOINC+666120de43
+PR = r0
+PKGV = 2.2.6+git0+666120de43
+RPROVIDES = 
+RDEPENDS = go-patricia-dev (= 2.2.6+git0+666120de43-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/go-patricia/*.a
+FILELIST = 

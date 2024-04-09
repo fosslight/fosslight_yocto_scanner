@@ -1,0 +1,8 @@
+PV = 3.1.0-6
+PR = r9
+RPROVIDES = 
+RDEPENDS = busybox glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libpbnjson (>= 2.15.0-1) luna-service2 (>= 3.21.2-5) pmloglib (>= 3.3.0-4) rdxd (>= 4.0.2-8) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 70372
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/pmlogdaemon /usr/lib/pmlogdaemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services /usr/share/dbus-1/services /usr/share/ls2/roles/prv /usr/share/ls2/roles/pub /usr/share/luna-service2/roles.d /usr/share/luna-service2/services.d /usr/share/luna-service2/client-permissions.d /usr/share/luna-service2/api-permissions.d /usr/share/luna-service2/groups.d /usr/share/luna-service2/manifests.d /usr/share/PmLogDaemon
+FILELIST = /etc/PmLogDaemon/whitelist.txt /etc/init/PmLogDaemon-ready.conf /usr/sbin/PmLogDaemon /usr/share/PmLogDaemon/show_disk_usage.sh /usr/share/luna-service2/api-permissions.d/com.webos.pmlogd.api.json /usr/share/luna-service2/client-permissions.d/com.webos.pmlogd.perm.json /usr/share/luna-service2/manifests.d/pmlogdaemon.manifest.json /usr/share/luna-service2/roles.d/com.webos.pmlogd.role.json /usr/share/luna-service2/services.d/com.webos.pmlogd.service

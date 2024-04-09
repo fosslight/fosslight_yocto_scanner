@@ -1,0 +1,9 @@
+PV = 1.35
+PR = r0
+PKGR = r0webos10
+RPROVIDES = 
+RDEPENDS = connman dbus-lib (>= 1.12.10) glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) readline (>= 7.0)
+RRECOMMENDS = 
+PKGSIZE = 134864
+FILES = /usr/bin/connmanctl
+FILELIST = /usr/bin/connmanctl

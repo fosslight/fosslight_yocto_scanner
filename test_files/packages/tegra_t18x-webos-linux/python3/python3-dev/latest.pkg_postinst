@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/python3.5m-config python-config /usr/bin/python3.5m-config-lib 10
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

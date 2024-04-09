@@ -1,0 +1,8 @@
+PV = 0.7
+PR = r0
+RPROVIDES = 
+RDEPENDS = base-files base-passwd glibc (>= 2.28) libdaemon (>= 0.14) shadow
+RRECOMMENDS = 
+PKGSIZE = 70759
+FILES = /usr/sbin/avahi-autoipd /etc/avahi/avahi-autoipd.action /etc/dhcp/*/avahi-autoipd /etc/udhcpc.d/00avahi-autoipd /etc/udhcpc.d/99avahi-autoipd
+FILELIST = /etc/avahi/avahi-autoipd.action /etc/udhcpc.d/00avahi-autoipd /etc/udhcpc.d/99avahi-autoipd /usr/sbin/avahi-autoipd

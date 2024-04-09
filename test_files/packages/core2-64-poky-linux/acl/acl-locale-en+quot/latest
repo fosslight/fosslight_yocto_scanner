@@ -1,8 +1,0 @@
-PV = 2.2.53
-PR = r0
-RPROVIDES = acl-locale en+quot-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-en+quot
-PKGSIZE = 8415
-FILES = /usr/share/locale/en@quot
-FILELIST = /usr/share/locale/en@quot/LC_MESSAGES/acl.mo

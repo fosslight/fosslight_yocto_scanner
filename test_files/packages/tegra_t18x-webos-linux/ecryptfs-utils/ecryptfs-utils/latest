@@ -1,0 +1,8 @@
+PV = 111
+PR = r1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) keyutils (>= 1.6) nspr nss (>= 3.39)
+RRECOMMENDS = gettext-runtime
+PKGSIZE = 1061797
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ecryptfs-utils /usr/lib/ecryptfs-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/security/* /lib/ecryptfs/* /lib/systemd/system/ecryptfs.service
+FILELIST = /lib/ecryptfs/libecryptfs_key_mod_passphrase.so /lib/libecryptfs.so.1 /lib/libecryptfs.so.1.0.0 /lib/systemd/system/ecryptfs.service /sbin/mount.ecryptfs /sbin/mount.ecryptfs_private /sbin/umount.ecryptfs /sbin/umount.ecryptfs_private /usr/bin/ecryptfs-add-passphrase /usr/bin/ecryptfs-find /usr/bin/ecryptfs-insert-wrapped-passphrase-into-keyring /usr/bin/ecryptfs-manager /usr/bin/ecryptfs-migrate-home /usr/bin/ecryptfs-mount-private /usr/bin/ecryptfs-recover-private /usr/bin/ecryptfs-rewrap-passphrase /usr/bin/ecryptfs-rewrite-file /usr/bin/ecryptfs-setup-private /usr/bin/ecryptfs-setup-swap /usr/bin/ecryptfs-stat /usr/bin/ecryptfs-umount-private /usr/bin/ecryptfs-unwrap-passphrase /usr/bin/ecryptfs-verify /usr/bin/ecryptfs-wrap-passphrase /usr/bin/ecryptfsd /usr/share/ecryptfs-utils/ecryptfs-mount-private.desktop /usr/share/ecryptfs-utils/ecryptfs-mount-private.txt /usr/share/ecryptfs-utils/ecryptfs-record-passphrase /usr/share/ecryptfs-utils/ecryptfs-setup-private.desktop

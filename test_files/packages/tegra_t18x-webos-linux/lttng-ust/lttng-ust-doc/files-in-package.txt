@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/doc
+drwxr-xr-x root       root             4096 ./usr/share/doc/lttng-ust
+-rw-r--r-- root       root            54168 ./usr/share/doc/lttng-ust/ChangeLog
+-rw-r--r-- root       root             4780 ./usr/share/doc/lttng-ust/java-agent.txt
+-rw-r--r-- root       root             8683 ./usr/share/doc/lttng-ust/README.md

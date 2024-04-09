@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            68664 ./usr/bin/obexftp
+-rwxr-xr-x root       root            68072 ./usr/bin/obexftpd
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            68112 ./usr/lib/libbfb.so.0.0.6
+lrwxrwxrwx root       root               15 ./usr/lib/libbfb.so.1 -> libbfb.so.0.0.6
+-rwxr-xr-x root       root            67680 ./usr/lib/libmulticobex.so.1.0.2
+lrwxrwxrwx root       root               22 ./usr/lib/libmulticobex.so.1 -> libmulticobex.so.1.0.2
+-rwxr-xr-x root       root            67752 ./usr/lib/libobexftp.so.0.3.0
+lrwxrwxrwx root       root               19 ./usr/lib/libobexftp.so.0 -> libobexftp.so.0.3.0

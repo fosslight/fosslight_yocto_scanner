@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-corelist perl-module-list-util perl-module-strict perl-module-version perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 913552
-FILES = /usr/lib/perl5/5.30.2/Module/CoreList.pm /usr/lib/perl5/5.30.2/Module/CoreList/Utils.pm
-FILELIST = /usr/lib/perl5/5.30.2/Module/CoreList.pm /usr/lib/perl5/5.30.2/Module/CoreList/Utils.pm

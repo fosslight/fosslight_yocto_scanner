@@ -1,0 +1,9 @@
+PV = 1.1.1d
+PR = r0
+PKGR = r0webos22
+RPROVIDES = 
+RDEPENDS = openssl-dev (= 1.1.1d-r0webos22)
+RRECOMMENDS = 
+PKGSIZE = 30192432
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/openssl/*.a
+FILELIST = /usr/lib/libcrypto.a /usr/lib/libssl.a

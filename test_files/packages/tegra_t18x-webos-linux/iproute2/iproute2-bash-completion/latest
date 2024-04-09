@@ -1,0 +1,8 @@
+PV = 4.19.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = bash-completion
+RRECOMMENDS = 
+PKGSIZE = 27047
+FILES = /usr/share/bash-completion /etc/bash_completion.d
+FILELIST = /usr/share/bash-completion/completions/tc

@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/lib-dynload
+-rwxr-xr-x root       root            72208 ./usr/lib/python3.5/lib-dynload/_multibytecodec.cpython-35m-aarch64-linux-gnu.so
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/__pycache__
+-rw-r--r-- root       root             8951 ./usr/lib/python3.5/__pycache__/xdrlib.cpython-35.opt-1.pyc
+-rw-r--r-- root       root             8458 ./usr/lib/python3.5/__pycache__/xdrlib.cpython-35.opt-2.pyc
+-rw-r--r-- root       root             8951 ./usr/lib/python3.5/__pycache__/xdrlib.cpython-35.pyc
+-rw-r--r-- root       root             5913 ./usr/lib/python3.5/xdrlib.py

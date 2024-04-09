@@ -1,0 +1,5 @@
+PV = 1.0.0-5
+PR = r8
+DEPENDS = boost cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native libpbnjson libxml++ luna-service2 ninja-native pkgconfig-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = notificationmgr-dbg notificationmgr-staticdev notificationmgr-dev notificationmgr-doc notificationmgr-locale notificationmgr
+LAYER = meta-webos

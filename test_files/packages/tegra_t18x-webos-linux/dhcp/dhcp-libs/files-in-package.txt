@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67696 ./usr/lib/libdhcpctl.so.0.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libdhcpctl.so.0 -> libdhcpctl.so.0.0.0
+-rwxr-xr-x root       root           405648 ./usr/lib/libdhcp.so.0.0.0
+lrwxrwxrwx root       root               16 ./usr/lib/libdhcp.so.0 -> libdhcp.so.0.0.0
+-rwxr-xr-x root       root           133504 ./usr/lib/libomapi.so.0.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libomapi.so.0 -> libomapi.so.0.0.0

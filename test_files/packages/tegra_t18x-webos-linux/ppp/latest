@@ -1,0 +1,5 @@
+PV = 2.4.7
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libpcap libtool-cross libtool-native openssl systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/crypt virtual/libc
+PACKAGES = ppp-oa ppp-oe ppp-radius ppp-winbind ppp-minconn ppp-password ppp-l2tp ppp-tools ppp-dbg ppp-staticdev ppp-dev ppp-doc ppp-locale ppp
+LAYER = core

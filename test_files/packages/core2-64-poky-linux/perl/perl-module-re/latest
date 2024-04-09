@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) perl perl-module-exporter perl-module-strict perl-module-term-cap perl-module-warnings perl-module-xsloader
-RRECOMMENDS = 
-PKGSIZE = 585864
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/re/re.so /usr/lib/perl5/5.30.2/x86_64-linux/re.pm /usr/lib/perl5/5.30.2/x86_64-linux/re.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/auto/re/re.so /usr/lib/perl5/5.30.2/x86_64-linux/re.pm

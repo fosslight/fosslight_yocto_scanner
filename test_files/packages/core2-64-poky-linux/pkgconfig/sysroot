@@ -1,6 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                   9 ./sysroot-providers/pkgconfig
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/share
-drwxr-xr-x -          -                4096 ./usr/share/aclocal
--rw-r--r-- -          -               10247 ./usr/share/aclocal/pkg.m4

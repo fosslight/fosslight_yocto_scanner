@@ -1,0 +1,8 @@
+PV = 1.5.0-2
+PR = r2
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) nyx-lib (>= 7.3.0-2)
+RRECOMMENDS = 
+PKGSIZE = 613045
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nyx-utils /usr/lib/nyx-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/nyx/nyxcmd/
+FILELIST = /etc/event.d/nyx-utils /etc/init/nyx-utils.conf /usr/bin/nyx-cmd /usr/lib/nyx/nyxcmd/libnyxcmdModuleBattery.so /usr/lib/nyx/nyxcmd/libnyxcmdModuleCharger.so /usr/lib/nyx/nyxcmd/libnyxcmdModuleDeviceInfo.so /usr/lib/nyx/nyxcmd/libnyxcmdModuleKeys.so /usr/lib/nyx/nyxcmd/libnyxcmdModuleLed.so /usr/lib/nyx/nyxcmd/libnyxcmdModuleOSInfo.so /usr/lib/nyx/nyxcmd/libnyxcmdModuleSystem.so /usr/lib/nyx/nyxcmd/libnyxcmdModuleTouchPanel.so

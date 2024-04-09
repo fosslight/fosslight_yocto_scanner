@@ -1,0 +1,8 @@
+PV = 9.0-13
+PR = r20
+RPROVIDES = 
+RDEPENDS = dbus-lib (>= 1.12.10) glibc (>= 2.28) json-c (>= 0.13.1) libcap (>= 2.25) libltdl (>= 2.4.6) libpulse (>= 9.0-13) libpulsecommon (>= 9.0-13) libpulsecore (>= 9.0-13) libsndfile1 (>= 1.0.28) libsystemd (>= 239) pulseaudio-lib-protocol-esound (>= 9.0-13) speexdsp (>= 1.2rc3)
+RRECOMMENDS = 
+PKGSIZE = 67768
+FILES = /usr/lib/pulse-9.0/modules/module-esound-protocol-tcp.so
+FILELIST = /usr/lib/pulse-9.0/modules/module-esound-protocol-tcp.so

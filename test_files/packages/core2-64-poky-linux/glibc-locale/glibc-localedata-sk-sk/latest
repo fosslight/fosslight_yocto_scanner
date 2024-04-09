@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-cs-cz glibc-localedata-i18n
-RRECOMMENDS = 
-PKGSIZE = 4053
-FILES = /usr/share/i18n/locales/sk_SK
-FILELIST = /usr/share/i18n/locales/sk_SK

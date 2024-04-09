@@ -1,0 +1,5 @@
+PV = 0.1.0+gitAUTOINC+4a71565b28
+PR = r2
+DEPENDS = autoconf-native automake-native gettext-native gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libhangul-dbg libhangul-staticdev libhangul-dev libhangul-doc libhangul libhangul-locale-ko
+LAYER = meta-webos

@@ -1,0 +1,8 @@
+PV = 1.14.4
+PR = r0
+RPROVIDES = gstreamer1.0-plugins-ugly-locale ja-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ja
+PKGSIZE = 1841
+FILES = /usr/share/locale/ja
+FILELIST = /usr/share/locale/ja/LC_MESSAGES/gst-plugins-ugly-1.0.mo

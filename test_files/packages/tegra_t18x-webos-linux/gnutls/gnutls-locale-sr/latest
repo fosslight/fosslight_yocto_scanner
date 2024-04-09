@@ -1,0 +1,9 @@
+PV = 3.6.4
+PR = r0
+PKG = libgnutls-locale-sr
+RPROVIDES = gnutls-locale gnutls-locale-sr (=3.6.4) sr-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sr
+PKGSIZE = 29780
+FILES = /usr/share/locale/sr
+FILELIST = /usr/share/locale/sr/LC_MESSAGES/gnutls.mo

@@ -1,0 +1,5 @@
+PV = 2.6.0+gitAUTOINC+28602af35a
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = go-distribution-dbg go-distribution-staticdev go-distribution-dev go-distribution-doc go-distribution-locale go-distribution
+LAYER = virtualization-layer

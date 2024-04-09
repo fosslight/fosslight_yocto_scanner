@@ -1,0 +1,10 @@
+PV = 0.98.0+gitAUTOINC+b2d142f486
+PR = r2
+PKG = libbson-1.0-dev
+PKGV = 0.98.0+git0+b2d142f486
+RPROVIDES = libbson-dev (=0.98.0+git0+b2d142f486)
+RDEPENDS = libbson (= 0.98.0+git0+b2d142f486-r2)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 127945
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libbson/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libbson-1.0/bcon.h /usr/include/libbson-1.0/bson-atomic.h /usr/include/libbson-1.0/bson-clock.h /usr/include/libbson-1.0/bson-compat.h /usr/include/libbson-1.0/bson-config.h /usr/include/libbson-1.0/bson-context.h /usr/include/libbson-1.0/bson-endian.h /usr/include/libbson-1.0/bson-error.h /usr/include/libbson-1.0/bson-iter.h /usr/include/libbson-1.0/bson-json.h /usr/include/libbson-1.0/bson-keys.h /usr/include/libbson-1.0/bson-macros.h /usr/include/libbson-1.0/bson-md5.h /usr/include/libbson-1.0/bson-memory.h /usr/include/libbson-1.0/bson-oid.h /usr/include/libbson-1.0/bson-reader.h /usr/include/libbson-1.0/bson-stdint-win32.h /usr/include/libbson-1.0/bson-stdint.h /usr/include/libbson-1.0/bson-string.h /usr/include/libbson-1.0/bson-types.h /usr/include/libbson-1.0/bson-utf8.h /usr/include/libbson-1.0/bson-value.h /usr/include/libbson-1.0/bson-version.h /usr/include/libbson-1.0/bson-writer.h /usr/include/libbson-1.0/bson.h /usr/lib/libbson-1.0.so /usr/lib/pkgconfig/libbson-1.0.pc

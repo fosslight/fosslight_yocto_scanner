@@ -1,0 +1,9 @@
+PV = 5.12.6+gitAUTOINC+7ce8cd84f7
+PR = r0
+PKGV = 5.12.6+git0+7ce8cd84f7
+RPROVIDES = 
+RDEPENDS = qtgraphicaleffects-dev (= 5.12.6+git0+7ce8cd84f7-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/qtgraphicaleffects/*.a /usr/lib/*.a /usr/lib/plugins/*/*.a /usr/lib/plugins/*/*.prl /usr/lib/plugins/*/*/*.a /usr/lib/plugins/*/*/*.prl /usr/lib/qml/*/*.a /usr/lib/qml/*/*.prl /usr/lib/qml/*/*/*.a /usr/lib/qml/*/*/*.prl /usr/lib/qml/*/*/*/*.a /usr/lib/qml/*/*/*/*.prl /usr/lib/qml/*/*/*/*/*.a /usr/lib/qml/*/*/*/*/*.prl
+FILELIST = 

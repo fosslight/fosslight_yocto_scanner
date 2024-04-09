@@ -1,0 +1,9 @@
+PV = 8.43
+PR = r0
+PKG = libpcre1
+RPROVIDES = libpcre (=8.43)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 461025
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libpcre /usr/lib/libpcre/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libpcre.so.1 /usr/lib/libpcre.so.1.2.11

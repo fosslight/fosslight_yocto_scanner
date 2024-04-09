@@ -1,9 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/include
--rw-r--r-- root       root            13934 ./usr/include/ffi-64.h
--rw-r--r-- root       root              500 ./usr/include/ffi.h
--rw-r--r-- root       root             4343 ./usr/include/ffitarget.h
-drwxr-xr-x root       root             4096 ./usr/lib
-lrwxrwxrwx root       root               15 ./usr/lib/libffi.so -> libffi.so.7.1.0
-drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
--rw-r--r-- root       root              237 ./usr/lib/pkgconfig/libffi.pc

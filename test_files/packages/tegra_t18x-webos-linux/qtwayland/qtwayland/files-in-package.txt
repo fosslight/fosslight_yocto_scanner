@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           843424 ./usr/lib/libQt5WaylandClient.so.5.12.4
+lrwxrwxrwx root       root               29 ./usr/lib/libQt5WaylandClient.so.5.12 -> libQt5WaylandClient.so.5.12.4
+lrwxrwxrwx root       root               29 ./usr/lib/libQt5WaylandClient.so.5 -> libQt5WaylandClient.so.5.12.4
+-rwxr-xr-x root       root          1527664 ./usr/lib/libQt5WaylandCompositor.so.5.12.4
+lrwxrwxrwx root       root               33 ./usr/lib/libQt5WaylandCompositor.so.5.12 -> libQt5WaylandCompositor.so.5.12.4
+lrwxrwxrwx root       root               33 ./usr/lib/libQt5WaylandCompositor.so.5 -> libQt5WaylandCompositor.so.5.12.4
+-rwxr-xr-x root       root            30568 ./usr/lib/libQt5WaylandEglClientBufferIntegration.so.1.0.0
+lrwxrwxrwx root       root               48 ./usr/lib/libQt5WaylandEglClientBufferIntegration.so.1.0 -> libQt5WaylandEglClientBufferIntegration.so.1.0.0
+lrwxrwxrwx root       root               48 ./usr/lib/libQt5WaylandEglClientBufferIntegration.so.1 -> libQt5WaylandEglClientBufferIntegration.so.1.0.0
+-rwxr-xr-x root       root            22360 ./usr/lib/libQt5WaylandShellSurface.so.1.0.0
+lrwxrwxrwx root       root               34 ./usr/lib/libQt5WaylandShellSurface.so.1.0 -> libQt5WaylandShellSurface.so.1.0.0
+lrwxrwxrwx root       root               34 ./usr/lib/libQt5WaylandShellSurface.so.1 -> libQt5WaylandShellSurface.so.1.0.0

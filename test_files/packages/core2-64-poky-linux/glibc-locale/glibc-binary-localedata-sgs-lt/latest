@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2931930
-FILES = /usr/lib/locale/sgs_LT
-FILELIST = /usr/lib/locale/sgs_LT/LC_ADDRESS /usr/lib/locale/sgs_LT/LC_COLLATE /usr/lib/locale/sgs_LT/LC_CTYPE /usr/lib/locale/sgs_LT/LC_IDENTIFICATION /usr/lib/locale/sgs_LT/LC_MEASUREMENT /usr/lib/locale/sgs_LT/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/sgs_LT/LC_MONETARY /usr/lib/locale/sgs_LT/LC_NAME /usr/lib/locale/sgs_LT/LC_NUMERIC /usr/lib/locale/sgs_LT/LC_PAPER /usr/lib/locale/sgs_LT/LC_TELEPHONE /usr/lib/locale/sgs_LT/LC_TIME

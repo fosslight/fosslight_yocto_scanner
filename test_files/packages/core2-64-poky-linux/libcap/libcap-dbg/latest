@@ -1,8 +1,0 @@
-PV = 2.33
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 224056
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /lib/.debug/libcap.so.2.33 /usr/sbin/.debug/capsh /usr/sbin/.debug/getcap /usr/sbin/.debug/getpcaps /usr/sbin/.debug/setcap

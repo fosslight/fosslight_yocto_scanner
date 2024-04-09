@@ -1,0 +1,8 @@
+PV = git
+PR = r0
+RPROVIDES = 
+RDEPENDS = go-context-dev (= git-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/go-context/*.a
+FILELIST = 

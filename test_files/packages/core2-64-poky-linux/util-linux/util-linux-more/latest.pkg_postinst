@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /bin/more more /bin/more.util-linux 80

@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2944231
-FILES = /usr/lib/locale/aa_ET
-FILELIST = /usr/lib/locale/aa_ET/LC_ADDRESS /usr/lib/locale/aa_ET/LC_COLLATE /usr/lib/locale/aa_ET/LC_CTYPE /usr/lib/locale/aa_ET/LC_IDENTIFICATION /usr/lib/locale/aa_ET/LC_MEASUREMENT /usr/lib/locale/aa_ET/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/aa_ET/LC_MONETARY /usr/lib/locale/aa_ET/LC_NAME /usr/lib/locale/aa_ET/LC_NUMERIC /usr/lib/locale/aa_ET/LC_PAPER /usr/lib/locale/aa_ET/LC_TELEPHONE /usr/lib/locale/aa_ET/LC_TIME

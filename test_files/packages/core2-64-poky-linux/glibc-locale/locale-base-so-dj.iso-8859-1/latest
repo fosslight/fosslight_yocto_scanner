@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = virtual-locale-so virtual-locale-so-dj.iso-8859-1
-RDEPENDS = glibc-binary-localedata-so-dj.iso-8859-1
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = 
-FILELIST = 

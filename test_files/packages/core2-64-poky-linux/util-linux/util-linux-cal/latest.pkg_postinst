@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /usr/bin/cal cal /usr/bin/cal.util-linux 80

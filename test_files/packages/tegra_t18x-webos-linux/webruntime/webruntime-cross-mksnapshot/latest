@@ -1,0 +1,9 @@
+PV = 79.0.3945.79-17
+PR = r26.1
+PKGR = r26.1webosintel1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 24577541
+FILES = /bin/aarch64-webos-linux-mksnapshot.gz
+FILELIST = /bin/aarch64-webos-linux-mksnapshot.gz

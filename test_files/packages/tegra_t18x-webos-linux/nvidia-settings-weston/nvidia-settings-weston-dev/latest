@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = nvidia-settings-weston (= 1.0-r0-lg1)
+RRECOMMENDS = glibc-dev wayland-dev
+PKGSIZE = 3595
+FILES = /usr/include/
+FILELIST = /usr/include/nvidia-wayland-settings-server-protocol.h

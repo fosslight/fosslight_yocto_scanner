@@ -1,0 +1,9 @@
+PV = 5.0
+PR = r0
+PKGR = r0webos7
+RPROVIDES = 
+RDEPENDS = lsb (= 5.0-r0webos7)
+RRECOMMENDS = util-linux-getopt-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lsb/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

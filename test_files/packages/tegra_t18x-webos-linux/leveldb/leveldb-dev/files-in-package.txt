@@ -1,0 +1,19 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/leveldb
+-rw-r--r-- root       root             4062 ./usr/include/leveldb/cache.h
+-rw-r--r-- root       root             9875 ./usr/include/leveldb/c.h
+-rw-r--r-- root       root             2349 ./usr/include/leveldb/comparator.h
+-rw-r--r-- root       root             6525 ./usr/include/leveldb/db.h
+-rw-r--r-- root       root              876 ./usr/include/leveldb/dumpfile.h
+-rw-r--r-- root       root            12795 ./usr/include/leveldb/env.h
+-rw-r--r-- root       root             2925 ./usr/include/leveldb/filter_policy.h
+-rw-r--r-- root       root             3491 ./usr/include/leveldb/iterator.h
+-rw-r--r-- root       root             7557 ./usr/include/leveldb/options.h
+-rw-r--r-- root       root             3131 ./usr/include/leveldb/slice.h
+-rw-r--r-- root       root             3622 ./usr/include/leveldb/status.h
+-rw-r--r-- root       root             3395 ./usr/include/leveldb/table_builder.h
+-rw-r--r-- root       root             2963 ./usr/include/leveldb/table.h
+-rw-r--r-- root       root             1848 ./usr/include/leveldb/write_batch.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               18 ./usr/lib/libleveldb.so -> libleveldb.so.1.20

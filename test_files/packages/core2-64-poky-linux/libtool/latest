@@ -1,5 +1,0 @@
-PV = 2.4.6
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-native texinfo-dummy-native virtual/libc virtual/update-alternatives virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = libtool-src libtool-dbg libltdl libtool-staticdev libtool-dev libtool-doc libtool-locale libtool
-LAYER = core

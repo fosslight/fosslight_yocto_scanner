@@ -1,0 +1,9 @@
+PV = 1.68.0
+PR = r0
+PKG = libboost-atomic1.68.0
+RPROVIDES = boost-atomic (=1.68.0)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 67376
+FILES = /usr/lib/libboost_atomic*.so.*
+FILELIST = /usr/lib/libboost_atomic.so.1.68.0

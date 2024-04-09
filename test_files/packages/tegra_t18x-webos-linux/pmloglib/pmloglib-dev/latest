@@ -1,0 +1,9 @@
+PV = 3.3.0-4
+PR = r9
+PKG = libpmloglib-dev
+RPROVIDES = pmloglib-dev (=3.3.0-4)
+RDEPENDS = pmloglib (= 3.3.0-4-r9)
+RRECOMMENDS = glib-2.0-dev glibc-dev libgcc-dev libpbnjson-dev libstdc++-dev
+PKGSIZE = 61833
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pmloglib/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/PmLog.h /usr/include/PmLogLib.h /usr/include/PmLogMsg.h /usr/lib/libPmLogLib.so /usr/lib/libPmLogLibCpp.so /usr/share/pkgconfig/PmLogLib-headers.pc /usr/share/pkgconfig/PmLogLib.pc /usr/share/pkgconfig/PmLogLibCpp.pc

@@ -1,0 +1,9 @@
+PV = 2.2.8
+PR = r0
+PKG = libexpat-dbg
+RPROVIDES = expat-dbg (=2.2.8)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 1159143
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/xmlwf /usr/lib/.debug/libexpat.so.1.6.10 /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/expat.h /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/expat_external.h /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/nametab.h /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/siphash.h /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/xmlparse.c /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/xmlrole.c /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/xmlrole.h /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/xmltok.c /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/xmltok.h /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/xmltok_impl.c /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/xmltok_impl.h /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/lib/xmltok_ns.c /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/xmlwf/codepage.c /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/xmlwf/codepage.h /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/xmlwf/filemap.h /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/xmlwf/unixfilemap.c /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/xmlwf/xmlfile.c /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/xmlwf/xmlfile.h /usr/src/debug/expat/2.2.8-r0/expat-2.2.8/xmlwf/xmlwf.c

@@ -1,9 +1,0 @@
-PV = 2.35.1
-PR = r0
-PKG = libblkid1
-RPROVIDES = util-linux-libblkid (=2.35.1)
-RDEPENDS = glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 326617
-FILES = /lib/libblkid.so.1 /lib/libblkid.so.1.1.0
-FILELIST = /lib/libblkid.so.1 /lib/libblkid.so.1.1.0

@@ -1,0 +1,5 @@
+PV = 1.1.0-13
+PR = r5
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 glib-2.0-native icecc-create-env-native libpbnjson luna-prefs luna-service2 ninja-native openssl pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc wca-support wca-support-api
+PACKAGES = webos-connman-adapter-dbg webos-connman-adapter-staticdev webos-connman-adapter-dev webos-connman-adapter-doc webos-connman-adapter-locale webos-connman-adapter
+LAYER = meta-webos

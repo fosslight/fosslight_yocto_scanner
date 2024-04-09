@@ -1,8 +1,0 @@
-PV = 1.15
-PR = r0
-RPROVIDES = ga-translation shared-mime-info-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-ga
-PKGSIZE = 43302
-FILES = /usr/share/locale/ga
-FILELIST = /usr/share/locale/ga/LC_MESSAGES/shared-mime-info.mo

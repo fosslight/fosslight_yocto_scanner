@@ -1,0 +1,8 @@
+PV = 2.0.0-1
+PR = r3
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 7905
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/src/debug/serviceinstaller/2.0.0-1-r3/git/include/public/serviceinstall.h /usr/src/debug/serviceinstaller/2.0.0-1-r3/git/serviceinstall.cpp

@@ -1,0 +1,8 @@
+PV = 4.0.0-1
+PR = r10
+RPROVIDES = 
+RDEPENDS = luna-downloadmgr-dev (= 4.0.0-1-r10)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/luna-downloadmgr/*.a
+FILELIST = 

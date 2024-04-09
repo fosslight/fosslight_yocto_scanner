@@ -1,0 +1,5 @@
+PV = 1.0.0-24
+PR = r11
+DEPENDS = boost cmake-modules-webos-native cmake-native glib-2.0 gstreamer1.0 gstreamer1.0-plugins-base icecc-create-env-native libconfig libpbnjson libxml2 luna-prefs luna-service2 ninja-native pkgconfig-native pmloglib pmtrace python python-native swig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = umediaserver-python umediaserver-dbg umediaserver-staticdev umediaserver-dev umediaserver-doc umediaserver-locale umediaserver
+LAYER = meta-webos

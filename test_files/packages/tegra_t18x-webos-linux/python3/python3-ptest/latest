@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = 
+RDEPENDS = bzip2 python3-modules python3-tests unzip
+RRECOMMENDS = ptest-runner
+PKGSIZE = 235
+FILES = /usr/lib/python3/ptest
+FILELIST = /usr/lib/python3/ptest/run-ptest

@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/perl
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto/List
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto/List/Util
+-r-xr-xr-x root       root            67664 ./usr/lib/perl/5.24.4/auto/List/Util/Util.so
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/List
+-r--r--r-- root       root            16392 ./usr/lib/perl/5.24.4/List/Util.pm

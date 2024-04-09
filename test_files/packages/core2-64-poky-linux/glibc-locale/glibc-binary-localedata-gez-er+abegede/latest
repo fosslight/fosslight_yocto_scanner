@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2944374
-FILES = /usr/lib/locale/gez_ER@abegede
-FILELIST = /usr/lib/locale/gez_ER@abegede/LC_ADDRESS /usr/lib/locale/gez_ER@abegede/LC_COLLATE /usr/lib/locale/gez_ER@abegede/LC_CTYPE /usr/lib/locale/gez_ER@abegede/LC_IDENTIFICATION /usr/lib/locale/gez_ER@abegede/LC_MEASUREMENT /usr/lib/locale/gez_ER@abegede/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/gez_ER@abegede/LC_MONETARY /usr/lib/locale/gez_ER@abegede/LC_NAME /usr/lib/locale/gez_ER@abegede/LC_NUMERIC /usr/lib/locale/gez_ER@abegede/LC_PAPER /usr/lib/locale/gez_ER@abegede/LC_TELEPHONE /usr/lib/locale/gez_ER@abegede/LC_TIME

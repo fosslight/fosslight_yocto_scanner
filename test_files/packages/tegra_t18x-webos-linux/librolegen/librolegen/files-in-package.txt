@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67784 ./usr/lib/librolegen.so.2.1.0
+lrwxrwxrwx root       root               19 ./usr/lib/librolegen.so.2 -> librolegen.so.2.1.0
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/rolegen
+drwxr-xr-x root       root             4096 ./usr/share/rolegen/templates
+-rw-r--r-- root       root              151 ./usr/share/rolegen/templates/JSService.json
+-rw-r--r-- root       root              203 ./usr/share/rolegen/templates/NativeService.json
+-rw-r--r-- root       root              771 ./usr/share/rolegen/templates/NDK.prv
+-rw-r--r-- root       root              771 ./usr/share/rolegen/templates/NDK.pub
+-rw-r--r-- root       root              222 ./usr/share/rolegen/templates/Triton.prv
+-rw-r--r-- root       root              225 ./usr/share/rolegen/templates/Triton.pub
+-rw-r--r-- root       root              155 ./usr/share/rolegen/templates/WebApp.json

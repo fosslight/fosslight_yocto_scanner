@@ -1,0 +1,8 @@
+PV = 3.1
+PR = r0
+RPROVIDES = ga-translation grep-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ga
+PKGSIZE = 17242
+FILES = /usr/share/locale/ga
+FILELIST = /usr/share/locale/ga/LC_MESSAGES/grep.mo

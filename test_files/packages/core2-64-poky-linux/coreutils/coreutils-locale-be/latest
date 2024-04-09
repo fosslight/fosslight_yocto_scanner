@@ -1,8 +1,0 @@
-PV = 8.32
-PR = r0
-RPROVIDES = be-translation coreutils-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-be
-PKGSIZE = 59544
-FILES = /usr/share/locale/be
-FILELIST = /usr/share/locale/be/LC_MESSAGES/coreutils.mo /usr/share/locale/be/LC_TIME/coreutils.mo

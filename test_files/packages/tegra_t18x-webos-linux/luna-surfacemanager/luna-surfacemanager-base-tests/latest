@@ -1,0 +1,9 @@
+PV = 2.0.0-314
+PR = r46
+PKGR = r46webostegra2
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 20196
+FILES = /usr/opt/webos/tests/luna-surfacemanager/
+FILELIST = /usr/opt/webos/tests/luna-surfacemanager/card_type_with_vkb.qml /usr/opt/webos/tests/luna-surfacemanager/input_in_each_display.qml /usr/opt/webos/tests/luna-surfacemanager/multi_touch.qml /usr/opt/webos/tests/luna-surfacemanager/overlay_type_with_vkb.qml /usr/opt/webos/tests/luna-surfacemanager/popup_has_locationHint_using_touch.qml /usr/opt/webos/tests/luna-surfacemanager/popup_type.qml /usr/opt/webos/tests/luna-surfacemanager/restricted_type.qml /usr/opt/webos/tests/luna-surfacemanager/systemui_type.qml

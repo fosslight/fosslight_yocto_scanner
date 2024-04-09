@@ -1,0 +1,8 @@
+PV = 0.1.6
+PR = r3
+RPROVIDES = 
+RDEPENDS = leveldb-tl (= 0.1.6-r3)
+RRECOMMENDS = gtest-dev leveldb-dev
+PKGSIZE = 50199
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/leveldb-tl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/leveldb/any_db.hpp /usr/include/leveldb/bottom_db.hpp /usr/include/leveldb/cover_walker.hpp /usr/include/leveldb/memory_db.hpp /usr/include/leveldb/ref_db.hpp /usr/include/leveldb/sandwich_db.hpp /usr/include/leveldb/sequence.hpp /usr/include/leveldb/subtract_walker.hpp /usr/include/leveldb/txn_db.hpp /usr/include/leveldb/walker.hpp /usr/include/leveldb/whiteout_db.hpp

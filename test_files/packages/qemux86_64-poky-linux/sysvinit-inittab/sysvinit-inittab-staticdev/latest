@@ -1,8 +1,0 @@
-PV = 2.88dsf
-PR = r10
-RPROVIDES = 
-RDEPENDS = sysvinit-inittab-dev (= 2.88dsf-r10)
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/lib/*.a /lib/*.a /usr/lib/sysvinit-inittab/*.a
-FILELIST = 

@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/connman
+-rw-r--r-- root       root             4809 ./etc/connman/main.conf
+drwxr-xr-x root       root             4096 ./etc/systemd
+drwxr-xr-x root       root             4096 ./etc/systemd/system
+-rw-r--r-- root       root             1242 ./etc/systemd/system/connman.service
+drwxr-xr-x root       root             4096 ./etc/systemd/system/scripts
+-rwxr-xr-x root       root             2565 ./etc/systemd/system/scripts/connman.sh

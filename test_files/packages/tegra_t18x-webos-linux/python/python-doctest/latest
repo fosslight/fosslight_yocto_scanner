@@ -1,0 +1,8 @@
+PV = 2.7.16
+PR = r1
+RPROVIDES = 
+RDEPENDS = python-core python-crypt python-debugger python-difflib python-fcntl python-io python-lang python-math python-pprint python-shell python-unittest
+RRECOMMENDS = 
+PKGSIZE = 188490
+FILES = /usr/lib/python2.7/doctest.py /usr/lib/python2.7/doctest.pyc
+FILELIST = /usr/lib/python2.7/doctest.py /usr/lib/python2.7/doctest.pyc

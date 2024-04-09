@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = ach-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ach
+PKGSIZE = 9253
+FILES = /usr/share/locale/ach
+FILELIST = /usr/share/locale/ach/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/ach/LC_MESSAGES/iso_3166.mo

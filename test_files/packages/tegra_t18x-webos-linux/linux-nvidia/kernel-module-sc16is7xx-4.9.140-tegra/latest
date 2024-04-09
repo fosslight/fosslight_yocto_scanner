@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-sc16is7xx
+RDEPENDS = kernel-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 37952
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/tty/serial/sc16is7xx.ko /etc/modules-load.d/sc16is7xx.conf /etc/modprobe.d/sc16is7xx.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/tty/serial/sc16is7xx.ko

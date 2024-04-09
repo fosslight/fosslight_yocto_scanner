@@ -1,8 +1,0 @@
-PV = 1.8.4
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224) iptables-module-xt-standard
-RRECOMMENDS = iptables-modules kernel-module-ip-tables kernel-module-ip6-tables kernel-module-ip6table-filter kernel-module-ipt-masquerade kernel-module-iptable-filter kernel-module-iptable-nat kernel-module-nf-conntrack kernel-module-nf-conntrack-ipv4 kernel-module-nf-defrag-ipv4 kernel-module-nf-nat kernel-module-x-tables
-PKGSIZE = 233180
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/iptables /usr/lib/iptables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/xtables
-FILELIST = /etc/iptables/ip6tables.rules /etc/iptables/iptables.rules /usr/bin/iptables-xml /usr/lib/libip4tc.so.2 /usr/lib/libip4tc.so.2.0.0 /usr/lib/libip6tc.so.2 /usr/lib/libip6tc.so.2.0.0 /usr/lib/libxtables.so.12 /usr/lib/libxtables.so.12.2.0 /usr/sbin/ip6tables /usr/sbin/ip6tables-legacy /usr/sbin/ip6tables-legacy-restore /usr/sbin/ip6tables-legacy-save /usr/sbin/ip6tables-restore /usr/sbin/ip6tables-save /usr/sbin/iptables /usr/sbin/iptables-legacy /usr/sbin/iptables-legacy-restore /usr/sbin/iptables-legacy-save /usr/sbin/iptables-restore /usr/sbin/iptables-save /usr/sbin/xtables-legacy-multi

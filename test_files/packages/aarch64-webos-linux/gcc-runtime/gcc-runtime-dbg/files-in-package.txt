@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           208264 ./usr/lib/.debug/libatomic.so.1.2.0
+-rwxr-xr-x root       root          1156608 ./usr/lib/.debug/libgomp.so.1.0.0
+-rwxr-xr-x root       root          1344992 ./usr/lib/.debug/libitm.so.1.0.0
+-rwxr-xr-x root       root         13284056 ./usr/lib/.debug/libstdc++.so.6.0.25
+-rw-r--r-- root       root             2376 ./usr/lib/libstdc++.so.6.0.25-gdb.py
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/gcc-8.2.0
+drwxr-xr-x root       root             4096 ./usr/share/gcc-8.2.0/python
+drwxr-xr-x root       root             4096 ./usr/share/gcc-8.2.0/python/libstdcxx
+-rw-r--r-- root       root                1 ./usr/share/gcc-8.2.0/python/libstdcxx/__init__.py
+drwxr-xr-x root       root             4096 ./usr/share/gcc-8.2.0/python/libstdcxx/v6
+-rw-r--r-- root       root             1161 ./usr/share/gcc-8.2.0/python/libstdcxx/v6/__init__.py
+-rw-r--r-- root       root            66996 ./usr/share/gcc-8.2.0/python/libstdcxx/v6/printers.py
+-rw-r--r-- root       root            27705 ./usr/share/gcc-8.2.0/python/libstdcxx/v6/xmethods.py

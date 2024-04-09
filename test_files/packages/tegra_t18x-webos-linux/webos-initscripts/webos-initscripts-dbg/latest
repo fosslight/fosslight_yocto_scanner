@@ -1,0 +1,9 @@
+PV = 3.0.0-43
+PR = r12
+PKGR = r12webosupdater1webostegra1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg libsystemd-dbg
+PKGSIZE = 2429445
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /sbin/.debug/initctl /sbin/.debug/restart /sbin/.debug/start /sbin/.debug/status /sbin/.debug/stop /usr/bin/.debug/initctl /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/initctl/InitCtl.cpp /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/initctl/InitCtl.h /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/initctl/Logger.cpp /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/initctl/Logger.h /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/initctl/Main.cpp /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/initctl/Systemd.cpp /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/initctl/Systemd.h /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/initctl/Util.cpp /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/initctl/Util.h /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/utils/Restart.cpp /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/utils/Restart.h /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/utils/Start.cpp /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/utils/Start.h /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/utils/Status.cpp /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/utils/Stop.cpp /usr/src/debug/webos-initscripts/3.0.0-43-r12/git/src/utils/Stop.h

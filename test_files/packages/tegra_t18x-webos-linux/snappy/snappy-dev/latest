@@ -1,0 +1,10 @@
+PV = 1.1.7
+PR = r0
+PKG = libsnappy-dev
+PKGR = r0webos1
+RPROVIDES = snappy-dev (=1.1.7)
+RDEPENDS = snappy (= 1.1.7-r0webos1)
+RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev
+PKGSIZE = 31723
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/snappy/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/snappy-c.h /usr/include/snappy-sinksource.h /usr/include/snappy-stubs-public.h /usr/include/snappy.h /usr/lib/cmake/Snappy/SnappyConfig.cmake /usr/lib/cmake/Snappy/SnappyConfigVersion.cmake /usr/lib/cmake/Snappy/SnappyTargets-noconfig.cmake /usr/lib/cmake/Snappy/SnappyTargets.cmake /usr/lib/libsnappy.so

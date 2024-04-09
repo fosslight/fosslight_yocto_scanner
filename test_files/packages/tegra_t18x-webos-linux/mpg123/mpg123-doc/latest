@@ -1,0 +1,8 @@
+PV = 1.25.10
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 30924
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/man/man1/mpg123.1 /usr/share/man/man1/out123.1

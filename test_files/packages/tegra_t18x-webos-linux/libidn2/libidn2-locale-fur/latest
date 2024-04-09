@@ -1,0 +1,8 @@
+PV = 2.0.5
+PR = r0
+RPROVIDES = fur-translation libidn2-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fur
+PKGSIZE = 5522
+FILES = /usr/share/locale/fur
+FILELIST = /usr/share/locale/fur/LC_MESSAGES/libidn2.mo

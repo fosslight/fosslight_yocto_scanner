@@ -1,0 +1,8 @@
+PV = 010
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libudev-dbg libusb1-dbg
+PKGSIZE = 755943
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/lsusb.usbutils /usr/bin/.debug/usbhid-dump /usr/src/debug/usbutils/010-r0/usbutils-010/desc-defs.c /usr/src/debug/usbutils/010-r0/usbutils-010/desc-defs.h /usr/src/debug/usbutils/010-r0/usbutils-010/desc-dump.c /usr/src/debug/usbutils/010-r0/usbutils-010/desc-dump.h /usr/src/debug/usbutils/010-r0/usbutils-010/list.h /usr/src/debug/usbutils/010-r0/usbutils-010/lsusb-t.c /usr/src/debug/usbutils/010-r0/usbutils-010/lsusb.c /usr/src/debug/usbutils/010-r0/usbutils-010/lsusb.h /usr/src/debug/usbutils/010-r0/usbutils-010/names.c /usr/src/debug/usbutils/010-r0/usbutils-010/names.h /usr/src/debug/usbutils/010-r0/usbutils-010/usb-spec.h /usr/src/debug/usbutils/010-r0/usbutils-010/usbhid-dump/include/uhd/dev.h /usr/src/debug/usbutils/010-r0/usbutils-010/usbhid-dump/include/uhd/dev_list.h /usr/src/debug/usbutils/010-r0/usbutils-010/usbhid-dump/include/uhd/iface.h /usr/src/debug/usbutils/010-r0/usbutils-010/usbhid-dump/include/uhd/iface_list.h /usr/src/debug/usbutils/010-r0/usbutils-010/usbhid-dump/include/uhd/misc.h /usr/src/debug/usbutils/010-r0/usbutils-010/usbhid-dump/lib/dev.c /usr/src/debug/usbutils/010-r0/usbutils-010/usbhid-dump/lib/dev_list.c /usr/src/debug/usbutils/010-r0/usbutils-010/usbhid-dump/lib/iface.c /usr/src/debug/usbutils/010-r0/usbutils-010/usbhid-dump/lib/iface_list.c /usr/src/debug/usbutils/010-r0/usbutils-010/usbhid-dump/src/usbhid-dump.c /usr/src/debug/usbutils/010-r0/usbutils-010/usbmisc.c /usr/src/debug/usbutils/010-r0/usbutils-010/usbmisc.h

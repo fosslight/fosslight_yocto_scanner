@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           199184 ./usr/sbin/event-monitor
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/api-permissions.d
+-rw-r--r-- root       root              301 ./usr/share/luna-service2/api-permissions.d/com.webos.service.eventmonitor.api.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/client-permissions.d
+-rw-r--r-- root       root              251 ./usr/share/luna-service2/client-permissions.d/com.webos.service.eventmonitor.perm.json
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/manifests.d
+-rw-rw-r-- root       root              541 ./usr/share/luna-service2/manifests.d/event-monitor.manifest.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/roles.d
+-rw-r--r-- root       root              889 ./usr/share/luna-service2/roles.d/com.webos.service.eventmonitor.role.json
+drwxr-xr-x root       root             4096 ./usr/share/luna-service2/services.d
+-rw-r--r-- root       root              723 ./usr/share/luna-service2/services.d/com.webos.service.eventmonitor.service

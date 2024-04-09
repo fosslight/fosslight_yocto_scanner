@@ -1,5 +1,0 @@
-PV = 2020.1
-PR = r0
-DEPENDS = meson-native ninja-native python3-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = xorgproto-src xorgproto-dbg xorgproto-staticdev xorgproto-dev xorgproto-doc xorgproto-locale xorgproto
-LAYER = core

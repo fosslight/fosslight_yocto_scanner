@@ -1,0 +1,5 @@
+PV = 2.10.0
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native mm-common virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libsigc++-2.0-dbg libsigc++-2.0-staticdev libsigc++-2.0-dev libsigc++-2.0-doc libsigc++-2.0-locale libsigc++-2.0
+LAYER = openembedded-layer

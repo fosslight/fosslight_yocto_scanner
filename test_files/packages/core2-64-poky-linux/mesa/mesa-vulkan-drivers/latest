@@ -1,9 +1,0 @@
-PE = 2
-PV = 20.0.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = expat (>= 2.2.9) glibc (>= 2.31+git0+1094741224) libdrm (>= 2.4.101) libgcc (>= 10.1.0) libstdc++ (>= 10.1.0) libx11-xcb (>= 1.6.9) libxcb (>= 1.14) libxcb-dri3 (>= 1.14) libxcb-present (>= 1.14) libxcb-randr (>= 1.14) libxcb-sync (>= 1.14) libxshmfence (>= 1.3) wayland (>= 1.18.0) zlib (>= 1.2.11)
-RRECOMMENDS = 
-PKGSIZE = 7000290
-FILES = /usr/lib/libvulkan_*.so /usr/share/vulkan
-FILELIST = /usr/lib/libvulkan_intel.so /usr/share/vulkan/icd.d/intel_icd.x86_64.json

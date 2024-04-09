@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/palm
+drwxr-xr-x root       root             4096 ./usr/palm/applications
+drwxr-xr-x root       root             4096 ./usr/palm/applications/com.webos.app.test.webosose
+-rw-r--r-- root       root              281 ./usr/palm/applications/com.webos.app.test.webosose/appinfo.json
+-rw-r--r-- root       root             1504 ./usr/palm/applications/com.webos.app.test.webosose/icon.png
+-rw-r--r-- root       root              483 ./usr/palm/applications/com.webos.app.test.webosose/index.html
+-rw-r--r-- root       root              929 ./usr/palm/applications/com.webos.app.test.webosose/README.md
+drwxr-xr-x root       root             4096 ./usr/share
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/client-permissions.d
+-rw-rw-r-- root       root               65 ./usr/share/luna-service2/client-permissions.d/com.webos.app.test.webosose.app.json
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/manifests.d
+-rw-rw-r-- root       root              305 ./usr/share/luna-service2/manifests.d/com.webos.app.test.webosose.manifest.json
+drwxrwxr-x root       root             4096 ./usr/share/luna-service2/roles.d
+-rw-rw-r-- root       root              303 ./usr/share/luna-service2/roles.d/com.webos.app.test.webosose.app.json

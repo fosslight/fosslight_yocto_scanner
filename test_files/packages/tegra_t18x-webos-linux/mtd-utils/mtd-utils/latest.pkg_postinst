@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/flashcp flashcp /usr/sbin/flashcp.mtd-utils 100
+	update-alternatives --install /usr/sbin/flash_eraseall flash_eraseall /usr/sbin/flash_eraseall.mtd-utils 100
+	update-alternatives --install /usr/sbin/flash_lock flash_lock /usr/sbin/flash_lock.mtd-utils 100
+	update-alternatives --install /usr/sbin/flash_unlock flash_unlock /usr/sbin/flash_unlock.mtd-utils 100
+	update-alternatives --install /usr/sbin/nanddump nanddump /usr/sbin/nanddump.mtd-utils 100
+	update-alternatives --install /usr/sbin/nandwrite nandwrite /usr/sbin/nandwrite.mtd-utils 100

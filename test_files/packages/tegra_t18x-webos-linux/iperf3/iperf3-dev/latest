@@ -1,0 +1,8 @@
+PV = 3.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = iperf3 (= 3.6-r0)
+RRECOMMENDS = glibc-dev libcrypto-dev libssl-dev openssl-dev
+PKGSIZE = 17468
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/iperf3/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/iperf_api.h /usr/lib/libiperf.so

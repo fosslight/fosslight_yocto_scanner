@@ -1,0 +1,19 @@
+drwxr-xr-x root       root             4096 ./sbin
+lrwxrwxrwx root       root               16 ./sbin/mkfs.ntfs -> /usr/sbin/mkntfs
+lrwxrwxrwx root       root               19 ./sbin/mount.lowntfs-3g -> /usr/bin/lowntfs-3g
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root           133984 ./usr/bin/lowntfs-3g
+-rwxr-xr-x root       root            67856 ./usr/bin/ntfscat
+-rwxr-xr-x root       root            67856 ./usr/bin/ntfscluster
+-rwxr-xr-x root       root            67856 ./usr/bin/ntfscmp
+-rwxr-xr-x root       root            67960 ./usr/bin/ntfsfix
+-rwxr-xr-x root       root            67872 ./usr/bin/ntfsinfo
+-rwxr-xr-x root       root            68936 ./usr/bin/ntfsls
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           133400 ./usr/sbin/mkntfs
+-rwxr-xr-x root       root            67872 ./usr/sbin/ntfsclone
+-rwxr-xr-x root       root            67856 ./usr/sbin/ntfscp
+-rwxr-xr-x root       root            67856 ./usr/sbin/ntfslabel
+-rwxr-xr-x root       root           133408 ./usr/sbin/ntfsresize
+-rwxr-xr-x root       root            67864 ./usr/sbin/ntfsundelete

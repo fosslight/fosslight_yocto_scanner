@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/hangul-1.0
+-rw-r--r-- root       root             6068 ./usr/include/hangul-1.0/hangul.h

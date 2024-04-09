@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-mt7601u
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-cfg80211-5.4.40-yocto-standard kernel-module-mac80211-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 164832
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/wireless/mediatek/mt7601u/mt7601u.ko /etc/modules-load.d/mt7601u.conf /etc/modprobe.d/mt7601u.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/wireless/mediatek/mt7601u/mt7601u.ko

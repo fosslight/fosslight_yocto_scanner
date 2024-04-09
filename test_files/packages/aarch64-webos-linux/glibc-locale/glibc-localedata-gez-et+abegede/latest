@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-gez-er+abegede glibc-localedata-gez-et
+RRECOMMENDS = 
+PKGSIZE = 2679
+FILES = /usr/share/i18n/locales/gez_ET@abegede
+FILELIST = /usr/share/i18n/locales/gez_ET@abegede

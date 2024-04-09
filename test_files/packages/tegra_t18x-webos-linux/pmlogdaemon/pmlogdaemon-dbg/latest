@@ -1,0 +1,8 @@
+PV = 3.1.0-6
+PR = r9
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libpbnjson-dbg luna-service2-dbg pmloglib-dbg rdxd-dbg zlib-dbg
+PKGSIZE = 313838
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/sbin/.debug/PmLogDaemon /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/config.c /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/heavy_operation.c /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/heavy_operation.h /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/heavy_operation_routine.c /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/heavy_operation_routine.h /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/main.c /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/main.h /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/ring.c /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/ring.h /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/util.c /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/worker_routine.c /usr/src/debug/pmlogdaemon/3.1.0-6-r9/git/src/worker_routine.h

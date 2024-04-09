@@ -1,0 +1,9 @@
+PV = 2.36.11
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-kn
+RPROVIDES = gdk-pixbuf-locale gdk-pixbuf-locale-kn (=2.36.11) kn-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-kn
+PKGSIZE = 32570
+FILES = /usr/share/locale/kn
+FILELIST = /usr/share/locale/kn/LC_MESSAGES/gdk-pixbuf.mo

@@ -1,0 +1,9 @@
+PV = 79.0.3945.79-17
+PR = r26.1
+PKGR = r26.1webosintel1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) webruntime (>= 79.0.3945.79-17)
+RRECOMMENDS = 
+PKGSIZE = 306362
+FILES = /usr/bin/app-shell /usr/share/luna-service2/services.d/app-shell.service /usr/share/luna-service2/client-permissions.d/app-shell.perm.json /usr/share/luna-service2/roles.d/app-shell.role.json /usr/share/dbus-1/system-services/app-shell.service /usr/share/dbus-1/services/app-shell.service /usr/share/ls2/roles/prv/app-shell.json /usr/share/ls2/roles/pub/app-shell.json
+FILELIST = /usr/bin/app-shell/app_shell /usr/bin/app-shell/run_app_shell /usr/bin/app-shell/snapshot_blob.bin /usr/share/luna-service2/client-permissions.d/app-shell.perm.json /usr/share/luna-service2/roles.d/app-shell.role.json /usr/share/luna-service2/services.d/app-shell.service

@@ -1,0 +1,9 @@
+PV = 1.44.3
+PR = r0
+PKGR = r0webos11
+RPROVIDES = cs-translation e2fsprogs-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-cs
+PKGSIZE = 181719
+FILES = /usr/share/locale/cs
+FILELIST = /usr/share/locale/cs/LC_MESSAGES/e2fsprogs.mo

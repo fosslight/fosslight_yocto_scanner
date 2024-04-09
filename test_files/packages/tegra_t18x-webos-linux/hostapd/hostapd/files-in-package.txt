@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./etc
+-rw-r--r-- root       root           113611 ./etc/hostapd.conf
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              266 ./lib/systemd/system/hostapd.service
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           987848 ./usr/sbin/hostapd
+-rwxr-xr-x root       root           133416 ./usr/sbin/hostapd_cli

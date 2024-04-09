@@ -1,0 +1,8 @@
+PV = 1.2.5-3
+PR = r11
+RPROVIDES = 
+RDEPENDS = crashd-dev (= 1.2.5-3-r11)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/crashd/*.a
+FILELIST = 

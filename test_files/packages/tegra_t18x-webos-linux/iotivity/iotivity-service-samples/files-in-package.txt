@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/palm
+drwxr-xr-x root       root             4096 ./usr/palm/services
+drwxr-xr-x root       root             4096 ./usr/palm/services/iotivity
+drwxr-xr-x root       root             4096 ./usr/palm/services/iotivity/examples
+drwxr-xr-x root       root             4096 ./usr/palm/services/iotivity/examples/service
+drwxr-xr-x root       root             4096 ./usr/palm/services/iotivity/examples/service/resource-container
+-r-xr-xr-x root       root           133464 ./usr/palm/services/iotivity/examples/service/resource-container/ContainerSample
+-r-xr-xr-x root       root           985512 ./usr/palm/services/iotivity/examples/service/resource-container/ContainerSampleClient

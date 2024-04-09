@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/doc
+drwxr-xr-x root       root             4096 ./usr/share/doc/systemd
+-rw-r--r-- root       root            21374 ./usr/share/doc/systemd/CODING_STYLE
+-rw-r--r-- root       root             2865 ./usr/share/doc/systemd/DISTRO_PORTING
+-rw-r--r-- root       root             4612 ./usr/share/doc/systemd/ENVIRONMENT.md
+-rw-r--r-- root       root             4103 ./usr/share/doc/systemd/GVARIANT-SERIALIZATION
+-rw-r--r-- root       root             6021 ./usr/share/doc/systemd/HACKING
+-rw-r--r-- root       root            17987 ./usr/share/doc/systemd/LICENSE.GPL2
+-rw-r--r-- root       root            26530 ./usr/share/doc/systemd/LICENSE.LGPL2.1
+-rw-r--r-- root       root           451192 ./usr/share/doc/systemd/NEWS
+-rw-r--r-- root       root            13736 ./usr/share/doc/systemd/README
+-rw-r--r-- root       root             8925 ./usr/share/doc/systemd/TRANSIENT-SETTINGS.md
+-rw-r--r-- root       root              763 ./usr/share/doc/systemd/TRANSLATORS
+-rw-r--r-- root       root            15947 ./usr/share/doc/systemd/UIDS-GIDS.md

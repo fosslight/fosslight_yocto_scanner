@@ -1,0 +1,9 @@
+PV = 0.1.0+gitAUTOINC+4a71565b28
+PR = r2
+PKGV = 0.1.0+git0+4a71565b28
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 6597300
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libhangul /usr/lib/libhangul/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/maliit/plugins/*
+FILELIST = /usr/bin/hangul /usr/lib/maliit/plugins/libhangul.so /usr/lib/maliit/plugins/libhangul.so.1 /usr/lib/maliit/plugins/libhangul.so.1.0.0 /usr/lib/maliit/plugins/pkgconfig/libhangul.pc /usr/share/libhangul/hanja/hanja.txt /usr/share/libhangul/hanja/mssymbol.txt

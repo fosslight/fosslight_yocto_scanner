@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-constant perl-module-fatal perl-module-fcntl perl-module-overload perl-module-strict perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 22264
-FILES = /usr/lib/perl5/5.30.2/autodie/exception.pm
-FILELIST = /usr/lib/perl5/5.30.2/autodie/exception.pm

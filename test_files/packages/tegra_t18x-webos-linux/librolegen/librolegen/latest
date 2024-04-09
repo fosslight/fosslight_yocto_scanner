@@ -1,0 +1,9 @@
+PV = 2.1.0-1
+PR = r5
+PKG = librolegen2
+RPROVIDES = librolegen (=2.1.0-1)
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0)
+RRECOMMENDS = 
+PKGSIZE = 70301
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/librolegen /usr/lib/librolegen/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/rolegen
+FILELIST = /usr/lib/librolegen.so.2 /usr/lib/librolegen.so.2.1.0 /usr/share/rolegen/templates/JSService.json /usr/share/rolegen/templates/NDK.prv /usr/share/rolegen/templates/NDK.pub /usr/share/rolegen/templates/NativeService.json /usr/share/rolegen/templates/Triton.prv /usr/share/rolegen/templates/Triton.pub /usr/share/rolegen/templates/WebApp.json

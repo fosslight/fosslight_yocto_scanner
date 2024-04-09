@@ -1,0 +1,9 @@
+PV = 0.175
+PR = r0
+PKGR = r0webos1
+RPROVIDES = elfutils-locale es-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-es
+PKGSIZE = 111196
+FILES = /usr/share/locale/es
+FILELIST = /usr/share/locale/es/LC_MESSAGES/elfutils.mo

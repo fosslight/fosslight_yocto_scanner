@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r0-lg1
+DEPENDS = 
+PACKAGES = tegra-firmware-xusb tegra-firmware-pmu tegra-firmware-gpmu tegra-firmware-fecs tegra-firmware-gpccs tegra-firmware-prod-fuse tegra-firmware-gmicrocode tegra-firmware-gshader tegra-firmware-vic tegra-firmware-nvdec tegra-firmware-nvenc tegra-firmware-nvjpeg tegra-firmware-bluetooth tegra-firmware-wifi tegra-firmware-touch
+LAYER = tegra

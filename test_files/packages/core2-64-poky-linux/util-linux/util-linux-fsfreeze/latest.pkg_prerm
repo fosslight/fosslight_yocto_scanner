@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --remove  fsfreeze /usr/sbin/fsfreeze.util-linux

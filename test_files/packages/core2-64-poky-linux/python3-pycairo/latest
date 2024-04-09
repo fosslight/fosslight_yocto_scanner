@@ -1,5 +1,0 @@
-PV = 1.19.0
-PR = r0
-DEPENDS = cairo meson-native ninja-native pkgconfig-native python3 python3-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = python3-pycairo-src python3-pycairo-dbg python3-pycairo-staticdev python3-pycairo-dev python3-pycairo-doc python3-pycairo-locale python3-pycairo
-LAYER = core

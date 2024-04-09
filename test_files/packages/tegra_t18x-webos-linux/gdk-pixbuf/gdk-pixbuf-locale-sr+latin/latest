@@ -1,0 +1,9 @@
+PV = 2.36.11
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-sr+latin
+RPROVIDES = gdk-pixbuf-locale gdk-pixbuf-locale-sr+latin (=2.36.11) sr+latin-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sr+latin
+PKGSIZE = 23213
+FILES = /usr/share/locale/sr@latin
+FILELIST = /usr/share/locale/sr@latin/LC_MESSAGES/gdk-pixbuf.mo

@@ -1,0 +1,10 @@
+PV = 0.175
+PR = r0
+PKG = libelf1
+PKGR = r0webos1
+RPROVIDES = libelf (=0.175)
+RDEPENDS = glibc (>= 2.28) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 133383
+FILES = /usr/lib/libelf-0.175.so /usr/lib/libelf.so.*
+FILELIST = /usr/lib/libelf-0.175.so /usr/lib/libelf.so.1

@@ -1,0 +1,5 @@
+PV = 0.1.0+gitAUTOINC+d774746656
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native glib-2.0 gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native sqlite3 sqlite3-native util-linux virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = pyzy-dbg pyzy-staticdev pyzy-dev pyzy-doc pyzy-locale pyzy
+LAYER = meta-webos

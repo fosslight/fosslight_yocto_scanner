@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxrwxr-x root       root           102784 ./usr/lib/libnvdc.so
+-rwxrwxr-x root       root            80632 ./usr/lib/libnvddk_2d_v2.so
+-rwxrwxr-x root       root            56960 ./usr/lib/libnvddk_vic.so
+-rwxrwxr-x root       root           202672 ./usr/lib/libnvidia-rmapi-tegra.so.418.00
+-rwxrwxr-x root       root            20904 ./usr/lib/libnvimp.so
+-rwxrwxr-x root       root            49008 ./usr/lib/libnvos.so
+-rwxrwxr-x root       root           196920 ./usr/lib/libnvrm_gpu.so
+-rwxrwxr-x root       root            61208 ./usr/lib/libnvrm_graphics.so
+-rwxrwxr-x root       root            12720 ./usr/lib/libnvrm_interop_gpu.so
+-rwxrwxr-x root       root           210184 ./usr/lib/libnvrm.so
+-rwxrwxr-x root       root            11744 ./usr/lib/libnvscrncapt.so
+-rwxrwxr-x root       root             5736 ./usr/lib/libnvtegrahv.so

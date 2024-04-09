@@ -1,0 +1,8 @@
+PV = 2.10.9
+PR = r0
+RPROVIDES = kernel-module-lttng-ring-buffer-metadata-mmap-client
+RDEPENDS = kernel-4.9.140-tegra kernel-module-lttng-lib-ring-buffer-4.9.140-tegra kernel-module-lttng-tracer-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 20800
+FILES = /lib/modules/4.9.140-tegra/kernel/lttng-modules/lttng-ring-buffer-metadata-mmap-client.ko /etc/modules-load.d/lttng-ring-buffer-metadata-mmap-client.conf /etc/modprobe.d/lttng-ring-buffer-metadata-mmap-client.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/lttng-modules/lttng-ring-buffer-metadata-mmap-client.ko

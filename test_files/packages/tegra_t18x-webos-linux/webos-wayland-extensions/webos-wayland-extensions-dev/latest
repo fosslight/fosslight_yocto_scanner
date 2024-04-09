@@ -1,0 +1,8 @@
+PV = 1.0.0-37
+PR = r2
+RPROVIDES = 
+RDEPENDS = webos-wayland-extensions (= 1.0.0-37-r2)
+RRECOMMENDS = glibc-dev wayland-dev
+PKGSIZE = 287037
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/webos-wayland-extensions/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/*
+FILELIST = /usr/include/wayland-input-method-client-protocol.h /usr/include/wayland-input-method-server-protocol.h /usr/include/wayland-text-client-protocol.h /usr/include/wayland-text-server-protocol.h /usr/include/wayland-webos-extension-client-protocol.h /usr/include/wayland-webos-extension-server-protocol.h /usr/include/wayland-webos-foreign-client-protocol.h /usr/include/wayland-webos-foreign-server-protocol.h /usr/include/wayland-webos-input-manager-client-protocol.h /usr/include/wayland-webos-input-manager-server-protocol.h /usr/include/wayland-webos-shell-client-protocol.h /usr/include/wayland-webos-shell-server-protocol.h /usr/include/wayland-webos-surface-group-client-protocol.h /usr/include/wayland-webos-surface-group-server-protocol.h /usr/lib/libwayland-webos-client.so /usr/lib/libwayland-webos-server.so /usr/share/pkgconfig/wayland-webos-client.pc /usr/share/pkgconfig/wayland-webos-server.pc /usr/share/wayland-webos/input-method.xml /usr/share/wayland-webos/text.xml /usr/share/wayland-webos/webos-extension.xml /usr/share/wayland-webos/webos-foreign.xml /usr/share/wayland-webos/webos-input-manager.xml /usr/share/wayland-webos/webos-shell.xml /usr/share/wayland-webos/webos-surface-group.xml

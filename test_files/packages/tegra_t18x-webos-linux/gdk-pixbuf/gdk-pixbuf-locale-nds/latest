@@ -1,0 +1,9 @@
+PV = 2.36.11
+PR = r0
+PKG = libgdk-pixbuf-2.0-locale-nds
+RPROVIDES = gdk-pixbuf-locale gdk-pixbuf-locale-nds (=2.36.11) nds-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-nds
+PKGSIZE = 4847
+FILES = /usr/share/locale/nds
+FILELIST = /usr/share/locale/nds/LC_MESSAGES/gdk-pixbuf.mo

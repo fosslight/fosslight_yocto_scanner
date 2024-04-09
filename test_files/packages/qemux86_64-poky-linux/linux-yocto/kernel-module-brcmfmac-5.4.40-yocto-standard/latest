@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-brcmfmac
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-brcmutil-5.4.40-yocto-standard kernel-module-cfg80211-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 464992
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko /etc/modules-load.d/brcmfmac.conf /etc/modprobe.d/brcmfmac.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko

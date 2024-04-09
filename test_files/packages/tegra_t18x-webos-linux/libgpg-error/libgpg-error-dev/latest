@@ -1,0 +1,8 @@
+PV = 1.28
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libgpg-error (= 1.28-r0) libgpg-error (>= 1.28)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 198059
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libgpg-error/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/bin/*-config /usr/bin/gpg-error
+FILELIST = /usr/bin/gpg-error /usr/bin/gpg-error-config /usr/bin/gpgrt-config /usr/include/gpg-error.h /usr/include/gpgrt.h /usr/lib/libgpg-error.so /usr/lib/pkgconfig/gpg-error.pc /usr/share/aclocal/gpg-error.m4 /usr/share/aclocal/gpgrt.m4

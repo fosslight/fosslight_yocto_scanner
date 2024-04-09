@@ -1,5 +1,0 @@
-PV = 1.1.0
-PR = r0
-DEPENDS = autoconf-native automake-native gmp gnu-config-native libtool-cross libtool-native mpfr texinfo-dummy-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = libmpc-src libmpc-dbg libmpc-staticdev libmpc-dev libmpc-doc libmpc-locale libmpc
-LAYER = core

@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = id-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-id
+PKGSIZE = 58657
+FILES = /usr/share/locale/id
+FILELIST = /usr/share/locale/id/LC_MESSAGES/tar.mo

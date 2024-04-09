@@ -1,0 +1,3 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/umediaserver
+-rw-r--r-- root       root             1880 ./etc/umediaserver/umediaserver_resource_config.txt

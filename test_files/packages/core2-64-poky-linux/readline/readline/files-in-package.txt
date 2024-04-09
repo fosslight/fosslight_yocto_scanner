@@ -1,8 +1,0 @@
-drwxr-xr-x root       root             4096 ./etc
--rw-r--r-- root       root             1633 ./etc/inputrc
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
--rwxr-xr-x root       root            46944 ./usr/lib/libhistory.so.8.0
-lrwxrwxrwx root       root               17 ./usr/lib/libhistory.so.8 -> libhistory.so.8.0
--rwxr-xr-x root       root           330696 ./usr/lib/libreadline.so.8.0
-lrwxrwxrwx root       root               18 ./usr/lib/libreadline.so.8 -> libreadline.so.8.0

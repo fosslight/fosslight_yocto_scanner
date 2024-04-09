@@ -1,0 +1,9 @@
+PV = 2.32.1
+PR = r0
+PKGR = r0webos2
+RPROVIDES = tr-translation util-linux-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-tr
+PKGSIZE = 377960
+FILES = /usr/share/locale/tr
+FILELIST = /usr/share/locale/tr/LC_MESSAGES/util-linux.mo

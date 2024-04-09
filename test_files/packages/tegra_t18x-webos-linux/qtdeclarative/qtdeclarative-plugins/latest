@@ -1,0 +1,10 @@
+PV = 5.12.6+gitAUTOINC+179c4b689d
+PR = r0
+PKGV = 5.12.6+git0+179c4b689d
+PKGR = r0webos47
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libstdc++ (>= 8.2.0) qtbase (>= 5.12.6+git0+f0b93f7a4b) qtdeclarative (>= 5.12.6+git0+179c4b689d)
+RRECOMMENDS = 
+PKGSIZE = 1205272
+FILES = /usr/lib/plugins/*/*.so /usr/lib/plugins/*/*/*.so /usr/lib/plugins/*/*/*/*.so
+FILELIST = /usr/lib/plugins/qmltooling/libqmldbg_debugger.so /usr/lib/plugins/qmltooling/libqmldbg_inspector.so /usr/lib/plugins/qmltooling/libqmldbg_local.so /usr/lib/plugins/qmltooling/libqmldbg_messages.so /usr/lib/plugins/qmltooling/libqmldbg_native.so /usr/lib/plugins/qmltooling/libqmldbg_nativedebugger.so /usr/lib/plugins/qmltooling/libqmldbg_preview.so /usr/lib/plugins/qmltooling/libqmldbg_profiler.so /usr/lib/plugins/qmltooling/libqmldbg_quickprofiler.so /usr/lib/plugins/qmltooling/libqmldbg_server.so /usr/lib/plugins/qmltooling/libqmldbg_tcp.so

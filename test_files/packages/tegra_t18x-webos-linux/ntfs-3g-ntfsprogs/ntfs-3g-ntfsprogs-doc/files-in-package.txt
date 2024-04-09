@@ -1,0 +1,32 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/doc
+drwxr-xr-x root       root             4096 ./usr/share/doc/ntfs-3g
+-rw-r--r-- root       root             5801 ./usr/share/doc/ntfs-3g/README
+drwxr-xr-x root       root             4096 ./usr/share/man
+drwxr-xr-x root       root             4096 ./usr/share/man/man8
+lrwxrwxrwx root       root                8 ./usr/share/man/man8/mkfs.ntfs.8 -> mkntfs.8
+-rw-r--r-- root       root             7506 ./usr/share/man/man8/mkntfs.8
+lrwxrwxrwx root       root                9 ./usr/share/man/man8/mount.lowntfs-3g.8 -> ntfs-3g.8
+lrwxrwxrwx root       root                9 ./usr/share/man/man8/mount.ntfs-3g.8 -> ntfs-3g.8
+-rw-r--r-- root       root            17678 ./usr/share/man/man8/ntfs-3g.8
+-rw-r--r-- root       root             2096 ./usr/share/man/man8/ntfs-3g.probe.8
+-rw-r--r-- root       root             3449 ./usr/share/man/man8/ntfscat.8
+-rw-r--r-- root       root            13157 ./usr/share/man/man8/ntfsclone.8
+-rw-r--r-- root       root             3068 ./usr/share/man/man8/ntfscluster.8
+-rw-r--r-- root       root             2043 ./usr/share/man/man8/ntfscmp.8
+-rw-r--r-- root       root             3791 ./usr/share/man/man8/ntfscp.8
+-rw-r--r-- root       root             4520 ./usr/share/man/man8/ntfsdecrypt.8
+-rw-r--r-- root       root             4305 ./usr/share/man/man8/ntfsfallocate.8
+-rw-r--r-- root       root             2395 ./usr/share/man/man8/ntfsfix.8
+-rw-r--r-- root       root             2257 ./usr/share/man/man8/ntfsinfo.8
+-rw-r--r-- root       root             3521 ./usr/share/man/man8/ntfslabel.8
+-rw-r--r-- root       root             3243 ./usr/share/man/man8/ntfsls.8
+-rw-r--r-- root       root             2021 ./usr/share/man/man8/ntfsprogs.8
+-rw-r--r-- root       root             6801 ./usr/share/man/man8/ntfsrecover.8
+-rw-r--r-- root       root            12327 ./usr/share/man/man8/ntfsresize.8
+-rw-r--r-- root       root             6724 ./usr/share/man/man8/ntfssecaudit.8
+-rw-r--r-- root       root             3325 ./usr/share/man/man8/ntfstruncate.8
+-rw-r--r-- root       root             9317 ./usr/share/man/man8/ntfsundelete.8
+-rw-r--r-- root       root             3461 ./usr/share/man/man8/ntfsusermap.8
+-rw-r--r-- root       root             4073 ./usr/share/man/man8/ntfswipe.8

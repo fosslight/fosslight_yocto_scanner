@@ -1,0 +1,9 @@
+PV = 1.13.0
+PR = r0
+PKGR = r0coconut4-webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) nv-graphics-drivers-egl (>= 1.0) nv-graphics-drivers-glesv2 (>= 1.0) wayland (>= 1.13.0) wayland-egl (>= 1.0)
+RRECOMMENDS = 
+PKGSIZE = 1079208
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/wayland-ivi-extension /usr/lib/wayland-ivi-extension/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/weston/*
+FILELIST = /usr/bin/EGLWLInputEventExample /usr/bin/EGLWLMockNavigation /usr/bin/LayerManagerControl /usr/bin/layer-add-surfaces /usr/bin/multi-touch-viewer /usr/bin/simple-ivi-share /usr/lib/libilmClient.so.1.13.0 /usr/lib/libilmCommon.so.1.13.0 /usr/lib/libilmControl.so.1.13.0 /usr/lib/libilmInput.so.1.13.0 /usr/lib/libivi-application.so.1.13.0 /usr/lib/weston/ivi-controller.so /usr/lib/weston/ivi-input-controller.so

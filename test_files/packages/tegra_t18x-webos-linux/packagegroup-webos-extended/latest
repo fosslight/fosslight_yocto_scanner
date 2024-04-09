@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r34
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = packagegroup-webos-extended packagegroup-webos-extended-dbg packagegroup-webos-extended-dev packagegroup-webos-extended-ptest
+LAYER = meta-webos

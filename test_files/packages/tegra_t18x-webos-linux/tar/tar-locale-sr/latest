@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = sr-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sr
+PKGSIZE = 79785
+FILES = /usr/share/locale/sr
+FILELIST = /usr/share/locale/sr/LC_MESSAGES/tar.mo

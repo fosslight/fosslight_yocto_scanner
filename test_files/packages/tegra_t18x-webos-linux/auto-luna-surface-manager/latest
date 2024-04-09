@@ -1,0 +1,5 @@
+PV = 0.0.1-13
+PR = r2
+DEPENDS = icecc-create-env-native libxml2-native luna-surfacemanager qt-features-webos qtbase-native qtdeclarative-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = auto-luna-surface-manager-dbg auto-luna-surface-manager-staticdev auto-luna-surface-manager-dev auto-luna-surface-manager-doc auto-luna-surface-manager-locale auto-luna-surface-manager
+LAYER = meta-webos

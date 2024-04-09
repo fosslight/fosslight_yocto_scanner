@@ -1,0 +1,5 @@
+PV = 1.0.0-20
+PR = r2
+DEPENDS = cmake-modules-webos-native cmake-native curl glib-2.0 icecc-create-env-native libpbnjson luna-service2 ninja-native ostree pkgconfig-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = com.webos.service.swupdater-dbg com.webos.service.swupdater-staticdev com.webos.service.swupdater-dev com.webos.service.swupdater-doc com.webos.service.swupdater-locale com.webos.service.swupdater
+LAYER = meta-webos

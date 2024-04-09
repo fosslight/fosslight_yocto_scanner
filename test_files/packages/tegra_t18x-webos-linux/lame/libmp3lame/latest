@@ -1,0 +1,9 @@
+PV = 3.100
+PR = r0
+PKG = libmp3lame0
+RPROVIDES = libmp3lame (=3.100)
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 330035
+FILES = /usr/lib/libmp3lame.so.*
+FILELIST = /usr/lib/libmp3lame.so.0 /usr/lib/libmp3lame.so.0.0.0

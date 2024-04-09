@@ -1,0 +1,8 @@
+PV = 1.0.0-115
+PR = r12
+RPROVIDES = 
+RDEPENDS = qml-webos-bridge-dev (= 1.0.0-115-r12)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/qml-webos-bridge/*.a
+FILELIST = 

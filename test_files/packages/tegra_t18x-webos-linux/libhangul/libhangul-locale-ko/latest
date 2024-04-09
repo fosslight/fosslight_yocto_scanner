@@ -1,0 +1,9 @@
+PV = 0.1.0+gitAUTOINC+4a71565b28
+PR = r2
+PKGV = 0.1.0+git0+4a71565b28
+RPROVIDES = ko-translation libhangul-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ko
+PKGSIZE = 882
+FILES = /usr/share/locale/ko
+FILELIST = /usr/share/locale/ko/LC_MESSAGES/libhangul.mo

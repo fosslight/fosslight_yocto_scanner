@@ -1,4 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
--rw-r--r-- root       root         14743594 ./usr/lib/libcrypto.a
--rw-r--r-- root       root          3765736 ./usr/lib/libssl.a

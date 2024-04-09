@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-file-temp perl-module-strict perl-module-test-builder-module perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 52691
-FILES = /usr/lib/perl5/5.30.2/Test/More.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test/More.pm

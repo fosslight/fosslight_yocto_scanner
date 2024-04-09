@@ -1,0 +1,8 @@
+PV = 2.0.1-1
+PR = r3
+RPROVIDES = 
+RDEPENDS = cpushareholder-stub-dev (= 2.0.1-1-r3)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/cpushareholder-stub/*.a
+FILELIST = 

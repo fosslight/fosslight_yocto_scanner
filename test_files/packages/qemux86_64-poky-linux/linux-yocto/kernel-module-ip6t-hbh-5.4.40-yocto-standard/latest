@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-ip6t-hbh
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-x-tables-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 5808
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/net/ipv6/netfilter/ip6t_hbh.ko /etc/modules-load.d/ip6t_hbh.conf /etc/modprobe.d/ip6t_hbh.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/net/ipv6/netfilter/ip6t_hbh.ko

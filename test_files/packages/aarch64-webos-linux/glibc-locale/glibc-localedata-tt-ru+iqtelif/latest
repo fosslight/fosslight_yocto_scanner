@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-crh-ua glibc-localedata-tr-tr glibc-localedata-tt-ru
+RRECOMMENDS = 
+PKGSIZE = 4077
+FILES = /usr/share/i18n/locales/tt_RU@iqtelif
+FILELIST = /usr/share/i18n/locales/tt_RU@iqtelif

@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             5063 ./usr/include/fmt123.h
+-rw-r--r-- root       root            69827 ./usr/include/mpg123.h
+-rw-r--r-- root       root            24404 ./usr/include/out123.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               19 ./usr/lib/libmpg123.so -> libmpg123.so.0.44.8
+lrwxrwxrwx root       root               18 ./usr/lib/libout123.so -> libout123.so.0.2.2
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              212 ./usr/lib/pkgconfig/libmpg123.pc
+-rw-r--r-- root       root              229 ./usr/lib/pkgconfig/libout123.pc

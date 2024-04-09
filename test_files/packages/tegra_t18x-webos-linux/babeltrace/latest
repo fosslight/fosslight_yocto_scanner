@@ -1,0 +1,5 @@
+PV = 1.5.6
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native flex-native glib-2.0 gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native popt util-linux virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = babeltrace-dbg babeltrace-staticdev babeltrace-dev babeltrace-doc babeltrace-locale babeltrace
+LAYER = core

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-carp perl-module-list-util perl-module-scalar-util perl-module-strict perl-module-test2-event-ok perl-module-test2-event-pass perl-module-test2-event-plan perl-module-test2-util perl-module-test2-util-externalmeta perl-module-test2-util-hashbase perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 22774
-FILES = /usr/lib/perl5/5.30.2/Test2/Hub.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test2/Hub.pm

@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-en-dk
+RRECOMMENDS = 
+PKGSIZE = 3489
+FILES = /usr/share/i18n/locales/pap_CW
+FILELIST = /usr/share/i18n/locales/pap_CW

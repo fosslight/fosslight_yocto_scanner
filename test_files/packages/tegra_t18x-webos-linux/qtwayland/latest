@@ -1,0 +1,5 @@
+PV = 5.12.4-144
+PR = r0
+DEPENDS = icecc-create-env-native libxkbcommon lttng-ust qt-features-webos qtbase qtbase-native qtdeclarative qtwayland-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/egl virtual/libc wayland wayland-native webos-wayland-extensions
+PACKAGES = qtwayland-qmldesigner qtwayland-qmlplugins qtwayland-tools qtwayland-plugins qtwayland-mkspecs qtwayland-examples qtwayland-dbg qtwayland-staticdev qtwayland-dev qtwayland-doc qtwayland-locale qtwayland
+LAYER = qt5-layer

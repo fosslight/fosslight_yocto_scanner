@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = ga-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ga
+PKGSIZE = 64462
+FILES = /usr/share/locale/ga
+FILELIST = /usr/share/locale/ga/LC_MESSAGES/tar.mo

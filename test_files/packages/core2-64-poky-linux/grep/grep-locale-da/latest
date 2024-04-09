@@ -1,8 +1,0 @@
-PV = 3.4
-PR = r0
-RPROVIDES = da-translation grep-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-da
-PKGSIZE = 15374
-FILES = /usr/share/locale/da
-FILELIST = /usr/share/locale/da/LC_MESSAGES/grep.mo

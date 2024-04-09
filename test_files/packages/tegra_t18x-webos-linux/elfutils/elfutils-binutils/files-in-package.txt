@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            67904 ./usr/bin/eu-addr2line
+-rwxr-xr-x root       root            68128 ./usr/bin/eu-nm
+-rwxr-xr-x root       root           264592 ./usr/bin/eu-readelf
+-rwxr-xr-x root       root            67952 ./usr/bin/eu-size
+-rwxr-xr-x root       root            67968 ./usr/bin/eu-strip

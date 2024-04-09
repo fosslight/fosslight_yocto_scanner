@@ -1,0 +1,5 @@
+PV = 2.2.6+gitAUTOINC+666120de43
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = go-patricia-dbg go-patricia-staticdev go-patricia-dev go-patricia-doc go-patricia-locale go-patricia
+LAYER = virtualization-layer

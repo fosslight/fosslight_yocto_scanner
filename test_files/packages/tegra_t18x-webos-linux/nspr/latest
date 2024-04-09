@@ -1,0 +1,5 @@
+PV = 4.19
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/update-alternatives
+PACKAGES = nspr-dbg nspr-staticdev nspr-dev nspr-doc nspr-locale nspr
+LAYER = core

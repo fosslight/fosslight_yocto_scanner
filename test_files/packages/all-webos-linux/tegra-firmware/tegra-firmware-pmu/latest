@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 19456
+FILES = /lib/firmware/*/acr_ucode.bin
+FILELIST = /lib/firmware/gp10b/acr_ucode.bin

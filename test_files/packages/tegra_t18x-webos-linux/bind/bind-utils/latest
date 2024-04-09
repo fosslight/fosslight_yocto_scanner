@@ -1,0 +1,9 @@
+PV = 9.11.5-P4
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = bind-libs (>= 9.11.5-P4) busybox glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 335368
+FILES = /usr/bin/host /usr/bin/dig /usr/bin/mdig
+FILELIST = /usr/bin/dig /usr/bin/host /usr/bin/mdig

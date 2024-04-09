@@ -1,0 +1,8 @@
+PV = 1.7.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg
+PKGSIZE = 862471
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libconfig++.so.11.0.2 /usr/lib/.debug/libconfig.so.11.0.2 /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/grammar.c /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/grammar.h /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/grammar.y /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/libconfig.c /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/libconfig.h /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/libconfig.h++ /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/libconfigcpp.c++ /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/parsectx.h /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/scanctx.c /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/scanctx.h /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/scanner.c /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/scanner.h /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/scanner.l /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/strbuf.c /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/strbuf.h /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/strvec.c /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/strvec.h /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/util.c /usr/src/debug/libconfig/1.7.2-r0/libconfig-1.7.2/lib/util.h

@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           165400 ./usr/lib/.debug/libptmalloc3.so
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/ptmalloc3
+drwxr-xr-x root       root             4096 ./usr/src/debug/ptmalloc3/1.0-r4
+drwxr-xr-x root       root             4096 ./usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3
+-rw-r--r-- root       root            19367 ./usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/malloc-2.8.3.h
+-r--r--r-- root       root           194441 ./usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/malloc.c
+-r--r--r-- root       root             6146 ./usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/malloc-private.h
+-rw-r--r-- root       root             2297 ./usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/malloc_utils.c
+-r--r--r-- root       root            31216 ./usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/ptmalloc3.c
+drwxr-xr-x root       root             4096 ./usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/sysdeps
+drwxr-xr-x root       root             4096 ./usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/sysdeps/pthread
+-rw-r--r-- root       root             3871 ./usr/src/debug/ptmalloc3/1.0-r4/ptmalloc3/sysdeps/pthread/malloc-machine.h

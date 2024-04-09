@@ -1,5 +1,0 @@
-PV = 2.34
-PR = r0
-DEPENDS = autoconf-native autoconf-native automake-native bison bison-native flex flex-native gettext-native gnu-config-native gnu-config-native libtool-cross libtool-native texinfo-dummy-native virtual/libc virtual/update-alternatives virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc zlib zlib-native
-PACKAGES = binutils-src binutils-dbg binutils-staticdev binutils-dev binutils-doc libbfd binutils binutils-locale-bg binutils-locale-ca binutils-locale-da binutils-locale-de binutils-locale-eo binutils-locale-es binutils-locale-fi binutils-locale-fr binutils-locale-ga binutils-locale-hr binutils-locale-hu binutils-locale-id binutils-locale-it binutils-locale-ja binutils-locale-ms binutils-locale-nl binutils-locale-pt binutils-locale-pt-br binutils-locale-ro binutils-locale-ru binutils-locale-rw binutils-locale-sk binutils-locale-sr binutils-locale-sv binutils-locale-tr binutils-locale-uk binutils-locale-vi binutils-locale-zh-cn binutils-locale-zh-tw
-LAYER = core

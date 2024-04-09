@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = libgles2-mesa-dev libgles3-mesa-dev
+RDEPENDS = 
+RRECOMMENDS = glibc-dev nv-graphics-drivers-egl-dev nv-rm-drivers-dev
+PKGSIZE = 478904
+FILES = /usr/share/pkgconfig/glesv2.pc /usr/include/GLES2/gl2.h /usr/include/GLES2/gl2ext.h /usr/include/GLES2/gl2ext_nv.h /usr/include/GLES2/gl2platform.h /usr/include/GLES3/gl3.h /usr/include/GLES3/gl31.h /usr/include/GLES3/gl3platform.h
+FILELIST = /usr/include/GLES2/gl2.h /usr/include/GLES2/gl2ext.h /usr/include/GLES2/gl2ext_nv.h /usr/include/GLES2/gl2platform.h /usr/include/GLES3/gl3.h /usr/include/GLES3/gl31.h /usr/include/GLES3/gl3platform.h /usr/share/pkgconfig/glesv2.pc

@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  python-config /usr/bin/python3.5m-config-lib

@@ -1,8 +1,0 @@
-PV = 8.44
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg libgcc-dbg libpcreposix-dbg libstdc++-dbg
-PKGSIZE = 3180808
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/pcregrep /usr/bin/.debug/pcretest /usr/lib/.debug/libpcre.so.1.2.12 /usr/lib/.debug/libpcrecpp.so.0.0.2 /usr/lib/.debug/libpcreposix.so.0.0.7 /usr/lib/libpcre/ptest/.debug/pcre_stringpiece_unittest /usr/lib/libpcre/ptest/.debug/pcregrep /usr/lib/libpcre/ptest/.debug/pcretest

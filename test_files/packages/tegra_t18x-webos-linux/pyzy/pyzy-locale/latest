@@ -1,0 +1,10 @@
+PV = 0.1.0+gitAUTOINC+d774746656
+PR = r0
+PKG = libpyzy-1.0-locale
+PKGV = 0.1.0+git0+d774746656
+RPROVIDES = pyzy-locale (=0.1.0+git0+d774746656)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

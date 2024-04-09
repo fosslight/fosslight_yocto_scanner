@@ -1,0 +1,8 @@
+PV = 1.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 273815
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/keyutils /usr/lib/keyutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /bin/keyctl /etc/request-key.conf /sbin/key.dns_resolver /sbin/request-key /usr/lib/libkeyutils.so.1 /usr/lib/libkeyutils.so.1.8 /usr/share/keyutils/request-key-debug.sh

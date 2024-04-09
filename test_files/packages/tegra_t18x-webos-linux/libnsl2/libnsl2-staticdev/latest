@@ -1,0 +1,10 @@
+PV = 1.2.0+gitAUTOINC+37c5ffe303
+PR = r0
+PKG = libnsl-staticdev
+PKGV = 1.2.0+git0+37c5ffe303
+RPROVIDES = libnsl2-staticdev (=1.2.0+git0+37c5ffe303)
+RDEPENDS = libnsl2-dev (= 1.2.0+git0+37c5ffe303-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libnsl2/*.a
+FILELIST = 

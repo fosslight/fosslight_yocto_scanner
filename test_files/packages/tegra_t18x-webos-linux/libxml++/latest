@@ -1,0 +1,5 @@
+PV = 2.40.1
+PR = r0
+DEPENDS = autoconf-native automake-native glibmm gnu-config-native icecc-create-env-native libtool-cross libtool-native libxml2 pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = libxml++-ptest libxml++-dbg libxml++-staticdev libxml++-dev libxml++-doc libxml++-locale libxml++
+LAYER = openembedded-layer

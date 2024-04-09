@@ -1,0 +1,23 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/pmtrace
+-rw-r--r-- root       root             2170 ./etc/pmtrace/perf-log-viewer-conf.json
+-rw-r--r-- root       root              323 ./etc/pmtrace/session-event-conf.json
+-rw-r--r-- root       root              795 ./etc/pmtrace/session-report-conf.json
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             9652 ./usr/bin/acg_migration_tracker.py
+-rwxr-xr-x root       root             4381 ./usr/bin/commander.py
+-rwxr-xr-x root       root            16544 ./usr/bin/mem_profile.py
+-rwxr-xr-x root       root            24270 ./usr/bin/perf_log_viewer.py
+-rwxr-xr-x root       root             3739 ./usr/bin/plat_info.py
+-rwxr-xr-x root       root            67832 ./usr/bin/pmctl
+-rwxr-xr-x root       root            68152 ./usr/bin/pmsession
+-rwxr-xr-x root       root           199328 ./usr/bin/pmsession-report
+-rwxr-xr-x root       root            54480 ./usr/bin/smem.arm
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            68736 ./usr/lib/liblttng-ust-mtrace-malloc.so.1.1.0
+lrwxrwxrwx root       root               35 ./usr/lib/liblttng-ust-mtrace-malloc.so.1 -> liblttng-ust-mtrace-malloc.so.1.1.0
+-rwxr-xr-x root       root            68472 ./usr/lib/liblttng-ust-mtrace-new.so.1.1.0
+lrwxrwxrwx root       root               32 ./usr/lib/liblttng-ust-mtrace-new.so.1 -> liblttng-ust-mtrace-new.so.1.1.0
+-rwxr-xr-x root       root            68528 ./usr/lib/libPmTrace.so.1.1.0
+lrwxrwxrwx root       root               19 ./usr/lib/libPmTrace.so.1 -> libPmTrace.so.1.1.0

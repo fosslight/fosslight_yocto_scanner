@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/firmware
+-rw-r--r-- root       root           124416 ./lib/firmware/tegra18x_xusb_firmware
+-rw-r--r-- root       root           126976 ./lib/firmware/tegra19x_xusb_firmware

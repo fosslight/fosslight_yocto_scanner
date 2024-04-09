@@ -1,0 +1,8 @@
+PV = 11.0.0-2
+PR = r3
+RPROVIDES = 
+RDEPENDS = ilib-qml-plugin-dev (= 11.0.0-2-r3)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/ilib-qml-plugin/*.a
+FILELIST = 

@@ -1,0 +1,9 @@
+PV = 1.44.3
+PR = r0
+PKGR = r0webos11
+RPROVIDES = 
+RDEPENDS = e2fsprogs-dev (= 1.44.3-r0webos11)
+RRECOMMENDS = 
+PKGSIZE = 5149844
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/e2fsprogs/*.a
+FILELIST = /lib/libcom_err.a /lib/libe2p.a /lib/libext2fs.a /lib/libss.a

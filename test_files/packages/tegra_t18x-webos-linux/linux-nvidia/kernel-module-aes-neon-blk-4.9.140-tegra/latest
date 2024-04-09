@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-aes-neon-blk
+RDEPENDS = kernel-4.9.140-tegra kernel-module-ablk-helper-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 20416
+FILES = /lib/modules/4.9.140-tegra/kernel/arch/arm64/crypto/aes-neon-blk.ko /etc/modules-load.d/aes-neon-blk.conf /etc/modprobe.d/aes-neon-blk.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/arch/arm64/crypto/aes-neon-blk.ko

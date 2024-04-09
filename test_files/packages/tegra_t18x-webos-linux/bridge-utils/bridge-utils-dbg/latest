@@ -1,0 +1,8 @@
+PV = 1.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 186120
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/sbin/.debug/brctl.bridge-utils /usr/src/debug/bridge-utils/1.6-r0/git/brctl/brctl.c /usr/src/debug/bridge-utils/1.6-r0/git/brctl/brctl.h /usr/src/debug/bridge-utils/1.6-r0/git/brctl/brctl_cmd.c /usr/src/debug/bridge-utils/1.6-r0/git/brctl/brctl_disp.c /usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge.h /usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge_devif.c /usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge_if.c /usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge_init.c /usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge_misc.c /usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge_private.h

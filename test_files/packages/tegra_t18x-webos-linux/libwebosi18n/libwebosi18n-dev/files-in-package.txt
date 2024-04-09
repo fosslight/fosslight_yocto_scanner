@@ -1,0 +1,20 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/webosi18n
+drwxr-xr-x root       root             4096 ./usr/include/webosi18n/c
+-rw-r--r-- root       root              970 ./usr/include/webosi18n_C.h
+-rw-r--r-- root       root             2446 ./usr/include/webosi18n/c/IString_C.h
+-rw-r--r-- root       root             1430 ./usr/include/webosi18n/c/ResBundle_C.h
+-rw-r--r-- root       root             1207 ./usr/include/webosi18n/c/StringMap_C.h
+-rw-r--r-- root       root             1835 ./usr/include/webosi18n/c/WebOSLocale_C.h
+drwxr-xr-x root       root             4096 ./usr/include/webosi18n/cxx
+-rw-r--r-- root       root            14944 ./usr/include/webosi18n/cxx/IString.h
+-rw-r--r-- root       root             1853 ./usr/include/webosi18n/cxx/LocaleMatcher.h
+-rw-r--r-- root       root             5028 ./usr/include/webosi18n/cxx/ResBundle.h
+-rw-r--r-- root       root             1876 ./usr/include/webosi18n/cxx/WebOSLocale.h
+-rw-r--r-- root       root              969 ./usr/include/webosi18n.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               17 ./usr/lib/libwebosi18n.so -> libwebosi18n.so.1
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+-rw-r--r-- root       root              892 ./usr/share/pkgconfig/webosi18n.pc

@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/fontconfig
+drwxr-xr-x root       root             4096 ./usr/share/fontconfig/conf.avail
+-rw-r--r-- root       root              440 ./usr/share/fontconfig/conf.avail/31-cantarell.conf
+drwxr-xr-x root       root             4096 ./usr/share/fonts
+drwxr-xr-x root       root             4096 ./usr/share/fonts/cantarell
+-rw-r--r-- root       root            75888 ./usr/share/fonts/cantarell/Cantarell-BoldOblique.otf
+-rw-r--r-- root       root            69196 ./usr/share/fonts/cantarell/Cantarell-Bold.otf
+-rw-r--r-- root       root            74892 ./usr/share/fonts/cantarell/Cantarell-Oblique.otf
+-rw-r--r-- root       root            68340 ./usr/share/fonts/cantarell/Cantarell-Regular.otf

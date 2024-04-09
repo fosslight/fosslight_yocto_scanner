@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-carp perl-module-exporter perl-module-scalar-util perl-module-strict perl-module-test2-api-context perl-module-test2-api-instance perl-module-test2-api-stack perl-module-test2-event perl-module-test2-event-bail perl-module-test2-event-diag perl-module-test2-event-exception perl-module-test2-event-fail perl-module-test2-event-note perl-module-test2-event-ok perl-module-test2-event-plan perl-module-test2-event-skip perl-module-test2-event-subtest perl-module-test2-event-waiting perl-module-test2-eventfacet-trace perl-module-test2-hub perl-module-test2-hub-interceptor perl-module-test2-hub-interceptor-terminator perl-module-test2-hub-subtest perl-module-test2-util perl-module-test2-util-trace perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 46069
-FILES = /usr/lib/perl5/5.30.2/Test2/API.pm
-FILELIST = /usr/lib/perl5/5.30.2/Test2/API.pm

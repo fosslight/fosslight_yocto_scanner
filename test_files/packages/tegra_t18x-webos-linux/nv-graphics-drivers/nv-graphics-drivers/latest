@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = libwayland-egl-dev
+RDEPENDS = glibc (>= 2.28) libstdc++ (>= 8.2.0) nv-graphics-drivers-egl (>= 1.0) nv-graphics-drivers-nvidia-egl-wayland (>= 1.0) nv-rm-drivers (>= 1.0)
+RRECOMMENDS = 
+PKGSIZE = 23371058
+FILES = /usr/lib/*.so* /usr/include/*
+FILELIST = /usr/include/KHR/khrplatform.h /usr/include/gearslib.h /usr/include/nvgldemo.h /usr/include/nvtexfont.h /usr/lib/libnvidia-egl-wayland.so /usr/lib/libnvidia-egl-wayland.so.1 /usr/lib/libnvidia-glvkspirv.so.418.00 /usr/lib/libnvvulkan-producer.so /usr/lib/libnvwinsys.so /usr/lib/libvkcore.so /usr/lib/libvkcore.so.418.00

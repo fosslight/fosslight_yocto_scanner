@@ -1,0 +1,8 @@
+PV = 1.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 373546
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /bin/.debug/keyctl /sbin/.debug/key.dns_resolver /sbin/.debug/request-key /usr/lib/.debug/libkeyutils.so.1.8 /usr/src/debug/keyutils/1.6-r0/keyutils-1.6/dns.afsdb.c /usr/src/debug/keyutils/1.6-r0/keyutils-1.6/key.dns.h /usr/src/debug/keyutils/1.6-r0/keyutils-1.6/key.dns_resolver.c /usr/src/debug/keyutils/1.6-r0/keyutils-1.6/keyctl.c /usr/src/debug/keyutils/1.6-r0/keyutils-1.6/keyutils.c /usr/src/debug/keyutils/1.6-r0/keyutils-1.6/keyutils.h /usr/src/debug/keyutils/1.6-r0/keyutils-1.6/request-key.c

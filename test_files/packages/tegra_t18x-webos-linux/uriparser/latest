@@ -1,0 +1,5 @@
+PV = 0.8.4
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = uriparser-dbg uriparser-staticdev uriparser-dev uriparser-doc uriparser-locale uriparser
+LAYER = openembedded-layer

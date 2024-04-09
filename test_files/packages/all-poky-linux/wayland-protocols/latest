@@ -1,5 +1,0 @@
-PV = 1.20
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-native pkgconfig-native
-PACKAGES = wayland-protocols-src wayland-protocols
-LAYER = core

@@ -1,9 +1,0 @@
-PE = 3
-PV = 3.31.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 9243343
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/sqlite3/3_3.31.1-r0/sqlite-autoconf-3310100/shell.c /usr/src/debug/sqlite3/3_3.31.1-r0/sqlite-autoconf-3310100/sqlite3.c /usr/src/debug/sqlite3/3_3.31.1-r0/sqlite-autoconf-3310100/sqlite3.h

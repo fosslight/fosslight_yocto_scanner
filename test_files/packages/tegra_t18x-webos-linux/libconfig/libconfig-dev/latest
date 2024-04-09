@@ -1,0 +1,8 @@
+PV = 1.7.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = libconfig (= 1.7.2-r0)
+RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev
+PKGSIZE = 30429
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libconfig/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libconfig.h /usr/include/libconfig.h++ /usr/lib/cmake/libconfig++/libconfig++Config.cmake /usr/lib/cmake/libconfig/libconfigConfig.cmake /usr/lib/libconfig++.so /usr/lib/libconfig.so /usr/lib/pkgconfig/libconfig++.pc /usr/lib/pkgconfig/libconfig.pc

@@ -1,0 +1,8 @@
+PV = 1.11.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libevdev (>= 1.5.9) libinput (>= 1.11.3) libudev (>= 239)
+RRECOMMENDS = 
+PKGSIZE = 67928
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/libinput

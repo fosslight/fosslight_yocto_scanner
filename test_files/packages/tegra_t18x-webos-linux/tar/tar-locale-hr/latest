@@ -1,0 +1,8 @@
+PV = 1.30
+PR = r0
+RPROVIDES = hr-translation tar-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hr
+PKGSIZE = 61372
+FILES = /usr/share/locale/hr
+FILELIST = /usr/share/locale/hr/LC_MESSAGES/tar.mo

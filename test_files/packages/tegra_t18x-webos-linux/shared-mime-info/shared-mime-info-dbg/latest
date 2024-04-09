@@ -1,0 +1,8 @@
+PV = 1.10
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libxml2-dbg
+PKGSIZE = 279312
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/update-mime-database /usr/src/debug/shared-mime-info/1.10-r0/shared-mime-info-1.10/update-mime-database.c

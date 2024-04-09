@@ -1,0 +1,8 @@
+PV = 1.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = libunwind-dev (= 1.2-r0)
+RRECOMMENDS = 
+PKGSIZE = 19
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libunwind/*.a
+FILELIST = /usr/lib/libunwind-generic.a

@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root           133368 ./usr/lib/libcrypt.so.1.1.0
+lrwxrwxrwx root       root               17 ./usr/lib/libcrypt.so.1 -> libcrypt.so.1.1.0
+lrwxrwxrwx root       root               13 ./usr/lib/libowcrypt.so.1 -> libcrypt.so.1

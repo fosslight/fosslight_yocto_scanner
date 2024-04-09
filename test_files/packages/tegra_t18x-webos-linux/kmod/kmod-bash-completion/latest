@@ -1,0 +1,9 @@
+PV = 25+gitAUTOINC+aca4eca103
+PR = r0
+PKGV = 25+git0+aca4eca103
+RPROVIDES = 
+RDEPENDS = bash-completion
+RRECOMMENDS = 
+PKGSIZE = 3235
+FILES = /usr/share/bash-completion /etc/bash_completion.d
+FILELIST = /usr/share/bash-completion/completions/kmod

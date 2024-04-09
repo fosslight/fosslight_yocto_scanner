@@ -1,0 +1,5 @@
+PV = 1.20+gitAUTOINC+a53934a3ae
+PR = r0
+DEPENDS = icecc-create-env-native snappy virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = leveldb-ptest leveldb-dbg leveldb-staticdev leveldb-dev leveldb-doc leveldb-locale leveldb
+LAYER = openembedded-layer

@@ -1,0 +1,9 @@
+PV = 2.28.1
+PR = r0
+PKG = libatk-1.0-locale-am
+RPROVIDES = am-translation atk-locale atk-locale-am (=2.28.1)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-am
+PKGSIZE = 1426
+FILES = /usr/share/locale/am
+FILELIST = /usr/share/locale/am/LC_MESSAGES/atk10.mo

@@ -1,0 +1,8 @@
+PV = 0.10.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 475845
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/liburcu /usr/lib/liburcu/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/liburcu-bp.so.6 /usr/lib/liburcu-bp.so.6.0.0 /usr/lib/liburcu-cds.so.6 /usr/lib/liburcu-cds.so.6.0.0 /usr/lib/liburcu-common.so.6 /usr/lib/liburcu-common.so.6.0.0 /usr/lib/liburcu-mb.so.6 /usr/lib/liburcu-mb.so.6.0.0 /usr/lib/liburcu-qsbr.so.6 /usr/lib/liburcu-qsbr.so.6.0.0 /usr/lib/liburcu-signal.so.6 /usr/lib/liburcu-signal.so.6.0.0 /usr/lib/liburcu.so.6 /usr/lib/liburcu.so.6.0.0

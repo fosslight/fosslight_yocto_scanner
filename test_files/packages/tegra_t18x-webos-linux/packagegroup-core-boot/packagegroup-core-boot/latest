@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r17
+RPROVIDES = 
+RDEPENDS = base-files base-passwd busybox netbase systemd udev update-alternatives-opkg
+RRECOMMENDS = busybox-syslog
+PKGSIZE = 0
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/packagegroup-core-boot /usr/lib/packagegroup-core-boot/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = 

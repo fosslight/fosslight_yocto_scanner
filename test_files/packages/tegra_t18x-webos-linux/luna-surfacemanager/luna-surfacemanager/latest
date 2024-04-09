@@ -1,0 +1,9 @@
+PV = 2.0.0-314
+PR = r46
+PKGR = r46webostegra2
+RPROVIDES = 
+RDEPENDS = babeltrace glibc (>= 2.28) libstdc++ (>= 8.2.0) libxkbcommon (>= 0.8.2) lttng-modules lttng-tools lttng-ust (>= 2.10.3) nv-graphics-drivers-glesv2 (>= 1.0) pmloglib (>= 3.3.0-4) qtbase (>= 5.12.6+git0+f0b93f7a4b) qtdeclarative (>= 5.12.6+git0+179c4b689d) qtwayland (>= 5.12.4-144) wayland (>= 1.13.0) webos-wayland-extensions (>= 1.0.0-37)
+RRECOMMENDS = 
+PKGSIZE = 1120198
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/luna-surfacemanager /usr/lib/luna-surfacemanager/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services /usr/share/dbus-1/services /usr/share/ls2/roles/prv /usr/share/ls2/roles/pub /usr/share/luna-service2/roles.d /usr/share/luna-service2/services.d /usr/share/luna-service2/client-permissions.d /usr/share/luna-service2/api-permissions.d /usr/share/luna-service2/groups.d /usr/share/luna-service2/manifests.d
+FILELIST = /usr/lib/libWebOSCoreCompositor.so.0 /usr/lib/libWebOSCoreCompositor.so.0.0 /usr/lib/libWebOSCoreCompositor.so.0.0.1 /usr/lib/libWebOSCoreCompositorExtension.so.0 /usr/lib/libWebOSCoreCompositorExtension.so.0.0 /usr/lib/libWebOSCoreCompositorExtension.so.0.0.1

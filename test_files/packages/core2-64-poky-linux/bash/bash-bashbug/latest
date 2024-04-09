@@ -1,8 +1,0 @@
-PV = 5.0
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 6921
-FILES = /usr/bin/bashbug
-FILELIST = /usr/bin/bashbug

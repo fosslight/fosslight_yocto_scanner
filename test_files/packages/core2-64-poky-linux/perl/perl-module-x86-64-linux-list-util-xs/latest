@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/List/Util/XS.pm
-FILELIST = 

@@ -1,0 +1,9 @@
+PV = 1.0.0-3
+PR = r1
+PKG = libval-mock1
+RPROVIDES = videooutput-adaptation-layer-mock (=1.0.0-3)
+RDEPENDS = glibc (>= 2.28) libgcc (>= 8.2.0) libpbnjson (>= 2.15.0-1) libstdc++ (>= 8.2.0) pmloglib (>= 3.3.0-4)
+RRECOMMENDS = 
+PKGSIZE = 68124
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/videooutput-adaptation-layer-mock /usr/lib/videooutput-adaptation-layer-mock/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libval-mock.so.1 /usr/lib/libval-mock.so.1.0.0

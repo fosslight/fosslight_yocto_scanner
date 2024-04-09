@@ -1,0 +1,9 @@
+PV = 232
+PR = r0
+PKG = libgudev-1.0-dbg
+RPROVIDES = libgudev-dbg (=232)
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libudev-dbg
+PKGSIZE = 225548
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libgudev-1.0.so.0.2.0 /usr/src/debug/libgudev/232-r0/build/gudev/gudevenumtypes.c /usr/src/debug/libgudev/232-r0/libgudev-232/gudev/gudevclient.c /usr/src/debug/libgudev/232-r0/libgudev-232/gudev/gudevclient.h /usr/src/debug/libgudev/232-r0/libgudev-232/gudev/gudevdevice.c /usr/src/debug/libgudev/232-r0/libgudev-232/gudev/gudevdevice.h /usr/src/debug/libgudev/232-r0/libgudev-232/gudev/gudevenumerator.c /usr/src/debug/libgudev/232-r0/libgudev-232/gudev/gudevenumerator.h /usr/src/debug/libgudev/232-r0/libgudev-232/gudev/gudevenums.h /usr/src/debug/libgudev/232-r0/libgudev-232/gudev/gudevprivate.h /usr/src/debug/libgudev/232-r0/libgudev-232/gudev/gudevtypes.h

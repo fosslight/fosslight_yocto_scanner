@@ -1,0 +1,9 @@
+PV = 4.1.1
+PR = r0
+PKG = libcrypt-dev
+RPROVIDES = libxcrypt-dev (=4.1.1)
+RDEPENDS = libxcrypt (= 4.1.1-r0)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 9524
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libxcrypt/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/crypt.h /usr/lib/libcrypt.so /usr/lib/libowcrypt.so /usr/lib/pkgconfig/libcrypt.pc /usr/lib/pkgconfig/libxcrypt.pc

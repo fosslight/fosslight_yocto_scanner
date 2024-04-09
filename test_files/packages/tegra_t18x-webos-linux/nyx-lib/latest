@@ -1,0 +1,5 @@
+PV = 7.3.0-2
+PR = r7
+DEPENDS = cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native ninja-native pkgconfig-native pmloglib virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = nyx-lib-dbg nyx-lib-staticdev nyx-lib-dev nyx-lib-doc nyx-lib-locale nyx-lib
+LAYER = meta-webos

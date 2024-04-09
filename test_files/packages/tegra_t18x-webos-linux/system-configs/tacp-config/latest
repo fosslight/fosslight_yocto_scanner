@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0-lg1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 1204
+FILES = /etc/spi_tp/spi_tp.cfg /etc/tacp/tacp_non_vlan.cfg /etc/tacp/tacp_vlan.cfg
+FILELIST = /etc/spi_tp/spi_tp.cfg /etc/tacp/tacp_non_vlan.cfg /etc/tacp/tacp_vlan.cfg

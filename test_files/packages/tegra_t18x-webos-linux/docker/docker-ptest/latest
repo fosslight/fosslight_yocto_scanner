@@ -1,0 +1,9 @@
+PV = 18.09.0+git489b8eda6674523df8b82a210399b7d2954427d0
+PR = r0
+PKGR = r0webosvirt1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = ptest-runner
+PKGSIZE = 0
+FILES = /usr/lib/docker/ptest
+FILELIST = 

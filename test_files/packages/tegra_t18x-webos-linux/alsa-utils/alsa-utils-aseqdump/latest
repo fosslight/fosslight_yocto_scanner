@@ -1,0 +1,9 @@
+PV = 1.1.6
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = alsa-lib (>= 1.1.6) glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 67824
+FILES = /usr/bin/aseqdump
+FILELIST = /usr/bin/aseqdump

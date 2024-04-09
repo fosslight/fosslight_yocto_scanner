@@ -1,0 +1,10 @@
+PV = 5.12.6+gitAUTOINC+f0b93f7a4b
+PR = r0
+PKGV = 5.12.6+git0+f0b93f7a4b
+PKGR = r0webos70lpdnvidia13-webos1webostegra2
+RPROVIDES = 
+RDEPENDS = qtbase-dev (= 5.12.6+git0+f0b93f7a4b-r0webos70lpdnvidia13-webos1webostegra2)
+RRECOMMENDS = 
+PKGSIZE = 139178680
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/qtbase/*.a /usr/lib/*.a /usr/lib/plugins/*/*.a /usr/lib/plugins/*/*.prl /usr/lib/plugins/*/*/*.a /usr/lib/plugins/*/*/*.prl /usr/lib/qml/*/*.a /usr/lib/qml/*/*.prl /usr/lib/qml/*/*/*.a /usr/lib/qml/*/*/*.prl /usr/lib/qml/*/*/*/*.a /usr/lib/qml/*/*/*/*.prl /usr/lib/qml/*/*/*/*/*.a /usr/lib/qml/*/*/*/*/*.prl
+FILELIST = /usr/lib/libQt5AccessibilitySupport.a /usr/lib/libQt5Bootstrap.a /usr/lib/libQt5DeviceDiscoverySupport.a /usr/lib/libQt5EdidSupport.a /usr/lib/libQt5EglSupport.a /usr/lib/libQt5EventDispatcherSupport.a /usr/lib/libQt5FbSupport.a /usr/lib/libQt5FontDatabaseSupport.a /usr/lib/libQt5InputSupport.a /usr/lib/libQt5KmsSupport.a /usr/lib/libQt5OpenGLExtensions.a /usr/lib/libQt5PlatformCompositorSupport.a /usr/lib/libQt5ServiceSupport.a /usr/lib/libQt5ThemeSupport.a

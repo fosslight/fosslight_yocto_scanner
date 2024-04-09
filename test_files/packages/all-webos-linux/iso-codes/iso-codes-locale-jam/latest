@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = iso-codes-locale jam-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-jam
+PKGSIZE = 8439
+FILES = /usr/share/locale/jam
+FILELIST = /usr/share/locale/jam/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/jam/LC_MESSAGES/iso_3166.mo

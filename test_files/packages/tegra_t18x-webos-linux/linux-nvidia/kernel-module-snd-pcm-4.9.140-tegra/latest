@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-snd-pcm
+RDEPENDS = kernel-4.9.140-tegra kernel-module-snd-4.9.140-tegra kernel-module-snd-timer-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 210040
+FILES = /lib/modules/4.9.140-tegra/kernel/sound/core/snd-pcm.ko /etc/modules-load.d/snd-pcm.conf /etc/modprobe.d/snd-pcm.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/sound/core/snd-pcm.ko

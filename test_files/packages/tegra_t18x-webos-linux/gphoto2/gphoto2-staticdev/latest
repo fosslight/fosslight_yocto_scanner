@@ -1,0 +1,8 @@
+PV = 2.5.14
+PR = r0
+RPROVIDES = 
+RDEPENDS = gphoto2-dev (= 2.5.14-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/gphoto2/*.a
+FILELIST = 

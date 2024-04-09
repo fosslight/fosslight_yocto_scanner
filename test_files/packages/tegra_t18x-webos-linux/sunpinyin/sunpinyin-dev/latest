@@ -1,0 +1,9 @@
+PV = 2.99+3.0.0-rc1+gitAUTOINC+e3c122ed3b
+PR = r1
+PKGV = 2.99+3.0.0-rc1+git0+e3c122ed3b
+RPROVIDES = 
+RDEPENDS = sunpinyin (= 2.99+3.0.0-rc1+git0+e3c122ed3b-r1)
+RRECOMMENDS = glibc-dev libgcc-dev libsqlite3-dev libstdc++-dev sqlite3-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sunpinyin/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

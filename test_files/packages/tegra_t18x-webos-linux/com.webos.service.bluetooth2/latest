@@ -1,0 +1,5 @@
+PV = 1.0.0-20
+PR = r1
+DEPENDS = bluetooth-sil-api cmake-modules-webos-native cmake-native glib-2.0 icecc-create-env-native libpbnjson luna-service2 ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = com.webos.service.bluetooth2-dbg com.webos.service.bluetooth2-staticdev com.webos.service.bluetooth2-dev com.webos.service.bluetooth2-doc com.webos.service.bluetooth2-locale com.webos.service.bluetooth2
+LAYER = meta-webos

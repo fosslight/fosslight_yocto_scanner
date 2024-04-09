@@ -1,0 +1,8 @@
+PV = 1.0.0-5
+PR = r8
+RPROVIDES = 
+RDEPENDS = notificationmgr-dev (= 1.0.0-5-r8)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/notificationmgr/*.a
+FILELIST = 

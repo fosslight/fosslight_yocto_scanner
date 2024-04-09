@@ -1,0 +1,9 @@
+PV = 1.68.0
+PR = r0
+PKG = libboost-locale1.68.0
+RPROVIDES = boost-locale (=1.68.0)
+RDEPENDS = boost-system (>= 1.68.0) boost-thread (>= 1.68.0) glibc (>= 2.28) libgcc (>= 8.2.0) libicui18n (>= 62.1) libicuuc (>= 62.1) libstdc++ (>= 8.2.0)
+RRECOMMENDS = 
+PKGSIZE = 985864
+FILES = /usr/lib/libboost_locale.so.*
+FILELIST = /usr/lib/libboost_locale.so.1.68.0

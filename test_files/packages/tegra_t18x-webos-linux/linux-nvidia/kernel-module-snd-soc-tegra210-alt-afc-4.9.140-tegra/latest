@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-snd-soc-tegra210-alt-afc
+RDEPENDS = kernel-4.9.140-tegra kernel-module-snd-soc-core-4.9.140-tegra kernel-module-snd-soc-tegra-alt-utils-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 24016
+FILES = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-alt/snd-soc-tegra210-alt-afc.ko /etc/modules-load.d/snd-soc-tegra210-alt-afc.conf /etc/modprobe.d/snd-soc-tegra210-alt-afc.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/sound/soc/tegra-alt/snd-soc-tegra210-alt-afc.ko

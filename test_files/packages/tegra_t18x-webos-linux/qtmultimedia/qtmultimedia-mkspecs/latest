@@ -1,0 +1,10 @@
+PV = 5.12.6+gitAUTOINC+53a507b30b
+PR = r0
+PKGV = 5.12.6+git0+53a507b30b
+PKGR = r0webos4
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 2838
+FILES = /usr/lib/mkspecs
+FILELIST = /usr/lib/mkspecs/modules/qt_lib_multimedia.pri /usr/lib/mkspecs/modules/qt_lib_multimedia_private.pri /usr/lib/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri

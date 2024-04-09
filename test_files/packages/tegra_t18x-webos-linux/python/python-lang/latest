@@ -1,0 +1,8 @@
+PV = 2.7.16
+PR = r1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpython2 (>= 2.7.16) python-core
+RRECOMMENDS = 
+PKGSIZE = 559128
+FILES = /usr/lib/python2.7/bisect.py /usr/lib/python2.7/bisect.pyc /usr/lib/python2.7/code.py /usr/lib/python2.7/code.pyc /usr/lib/python2.7/codeop.py /usr/lib/python2.7/codeop.pyc /usr/lib/python2.7/dis.py /usr/lib/python2.7/dis.pyc /usr/lib/python2.7/functools.py /usr/lib/python2.7/functools.pyc /usr/lib/python2.7/inspect.py /usr/lib/python2.7/inspect.pyc /usr/lib/python2.7/lib-dynload/_bisect.so /usr/lib/python2.7/lib-dynload/_functools.so /usr/lib/python2.7/lib-dynload/array.so /usr/lib/python2.7/lib-dynload/parser.so /usr/lib/python2.7/opcode.py /usr/lib/python2.7/opcode.pyc /usr/lib/python2.7/repr.py /usr/lib/python2.7/repr.pyc /usr/lib/python2.7/symbol.py /usr/lib/python2.7/symbol.pyc /usr/lib/python2.7/token.py /usr/lib/python2.7/token.pyc /usr/lib/python2.7/tokenize.py /usr/lib/python2.7/tokenize.pyc
+FILELIST = /usr/lib/python2.7/bisect.py /usr/lib/python2.7/bisect.pyc /usr/lib/python2.7/code.py /usr/lib/python2.7/code.pyc /usr/lib/python2.7/codeop.py /usr/lib/python2.7/codeop.pyc /usr/lib/python2.7/dis.py /usr/lib/python2.7/dis.pyc /usr/lib/python2.7/functools.py /usr/lib/python2.7/functools.pyc /usr/lib/python2.7/inspect.py /usr/lib/python2.7/inspect.pyc /usr/lib/python2.7/lib-dynload/_bisect.so /usr/lib/python2.7/lib-dynload/_functools.so /usr/lib/python2.7/lib-dynload/array.so /usr/lib/python2.7/lib-dynload/parser.so /usr/lib/python2.7/opcode.py /usr/lib/python2.7/opcode.pyc /usr/lib/python2.7/repr.py /usr/lib/python2.7/repr.pyc /usr/lib/python2.7/symbol.py /usr/lib/python2.7/symbol.pyc /usr/lib/python2.7/token.py /usr/lib/python2.7/token.pyc /usr/lib/python2.7/tokenize.py /usr/lib/python2.7/tokenize.pyc

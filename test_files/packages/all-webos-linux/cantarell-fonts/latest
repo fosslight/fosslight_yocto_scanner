@@ -1,0 +1,5 @@
+PV = 0.0.25
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-native pkgconfig-native
+PACKAGES = cantarell-fonts-dbg cantarell-fonts-staticdev cantarell-fonts-dev cantarell-fonts-doc cantarell-fonts-locale cantarell-fonts
+LAYER = core

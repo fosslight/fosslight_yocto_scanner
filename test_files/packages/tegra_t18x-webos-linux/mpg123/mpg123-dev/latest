@@ -1,0 +1,8 @@
+PV = 1.25.10
+PR = r0
+RPROVIDES = 
+RDEPENDS = mpg123 (= 1.25.10-r0)
+RRECOMMENDS = glibc-dev libpulse-dev libpulse-simple-dev pulseaudio-dev
+PKGSIZE = 99772
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mpg123/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/fmt123.h /usr/include/mpg123.h /usr/include/out123.h /usr/lib/libmpg123.so /usr/lib/libout123.so /usr/lib/pkgconfig/libmpg123.pc /usr/lib/pkgconfig/libout123.pc

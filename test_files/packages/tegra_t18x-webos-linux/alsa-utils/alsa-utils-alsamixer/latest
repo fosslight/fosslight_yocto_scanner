@@ -1,0 +1,9 @@
+PV = 1.1.6
+PR = r0
+PKGR = r0webos2
+RPROVIDES = 
+RDEPENDS = alsa-lib (>= 1.1.6) glibc (>= 2.28) ncurses-libformw (>= 6.1) ncurses-libmenuw (>= 6.1) ncurses-libncursesw (>= 6.1) ncurses-libpanelw (>= 6.1) ncurses-libtinfo (>= 6.1)
+RRECOMMENDS = 
+PKGSIZE = 68232
+FILES = /usr/bin/alsamixer
+FILELIST = /usr/bin/alsamixer

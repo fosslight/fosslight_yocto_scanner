@@ -1,7 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/include
-drwxr-xr-x root       root             4096 ./usr/include/vulkan
--rw-r--r-- root       root             2588 ./usr/include/vulkan/vulkan_intel.h
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
--rw-r--r-- root       root              222 ./usr/lib/pkgconfig/dri.pc

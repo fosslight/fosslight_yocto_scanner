@@ -1,0 +1,9 @@
+PV = 1.1.6
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = alsa-lib (>= 1.1.6) glibc (>= 2.28) libsamplerate0 (>= 0.1.9)
+RRECOMMENDS = 
+PKGSIZE = 67924
+FILES = /usr/lib/alsa-lib/*rate_samplerate_*.so /usr/lib/alsa-lib/libasound_module_rate_samplerate.so
+FILELIST = /usr/lib/alsa-lib/libasound_module_rate_samplerate.so /usr/lib/alsa-lib/libasound_module_rate_samplerate_best.so /usr/lib/alsa-lib/libasound_module_rate_samplerate_linear.so /usr/lib/alsa-lib/libasound_module_rate_samplerate_medium.so /usr/lib/alsa-lib/libasound_module_rate_samplerate_order.so

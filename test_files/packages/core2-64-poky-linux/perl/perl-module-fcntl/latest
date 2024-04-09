@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-exporter perl-module-strict perl-module-xsloader
-RRECOMMENDS = 
-PKGSIZE = 26292
-FILES = /usr/lib/perl5/5.30.2/x86_64-linux/auto/Fcntl/Fcntl.so /usr/lib/perl5/5.30.2/x86_64-linux/Fcntl.pm /usr/lib/perl5/5.30.2/x86_64-linux/Fcntl.pm
-FILELIST = /usr/lib/perl5/5.30.2/x86_64-linux/Fcntl.pm /usr/lib/perl5/5.30.2/x86_64-linux/auto/Fcntl/Fcntl.so

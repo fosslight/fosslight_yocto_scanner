@@ -1,0 +1,9 @@
+PV = 2.5.17
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libgphoto2 (>= 2.5.17) libgphotoport (>= 2.5.17)
+RRECOMMENDS = 
+PKGSIZE = 67912
+FILES = /usr/lib/*/print-camera-list
+FILELIST = /usr/lib/libgphoto2/print-camera-list

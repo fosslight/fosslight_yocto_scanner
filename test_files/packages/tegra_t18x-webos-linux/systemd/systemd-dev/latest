@@ -1,0 +1,10 @@
+PE = 1
+PV = 239
+PR = r0
+PKGR = r0webos4
+RPROVIDES = 
+RDEPENDS = libsystemd libudev systemd (= 1:239-r0webos4)
+RRECOMMENDS = acl-dev base-files-dev base-passwd-dev bash-completion-dev busybox-dev dbus-dev glibc-dev kmod-dev libacl-dev libcap-dev libkmod-dev liblzma-dev libsystemd-dev libudev-dev libxcrypt-dev shadow-dev shadow-sysroot-dev systemd-conf-dev systemd-container-dev systemd-serialgetty-dev systemd-vconsole-setup-dev udev-dev update-alternatives-opkg-dev util-linux-agetty-dev util-linux-dev util-linux-fsck-dev util-linux-libblkid-dev util-linux-libmount-dev util-linux-mount-dev util-linux-umount-dev volatile-binds-dev xz-dev
+PKGSIZE = 109871
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/systemd/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /lib/security/*.la /usr/share/dbus-1/interfaces/ /etc/rpm/macros.systemd
+FILELIST = /lib/libsystemd.so /lib/libudev.so /usr/include/libudev.h /usr/include/systemd/_sd-common.h /usr/include/systemd/sd-bus-protocol.h /usr/include/systemd/sd-bus-vtable.h /usr/include/systemd/sd-bus.h /usr/include/systemd/sd-daemon.h /usr/include/systemd/sd-event.h /usr/include/systemd/sd-id128.h /usr/include/systemd/sd-journal.h /usr/include/systemd/sd-login.h /usr/include/systemd/sd-messages.h /usr/lib/pkgconfig/libsystemd.pc /usr/lib/pkgconfig/libudev.pc /usr/lib/pkgconfig/udev.pc /usr/share/pkgconfig/systemd.pc /usr/share/pkgconfig/udev.pc

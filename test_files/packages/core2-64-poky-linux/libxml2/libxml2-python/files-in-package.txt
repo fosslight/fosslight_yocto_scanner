@@ -1,7 +1,0 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/python3.8
-drwxr-xr-x root       root             4096 ./usr/lib/python3.8/site-packages
--rw-r--r-- root       root            15252 ./usr/lib/python3.8/site-packages/drv_libxml2.py
--rwxr-xr-x root       root           407992 ./usr/lib/python3.8/site-packages/libxml2mod.so
--rw-r--r-- root       root           345896 ./usr/lib/python3.8/site-packages/libxml2.py

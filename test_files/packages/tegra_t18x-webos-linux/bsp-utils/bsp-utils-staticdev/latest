@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r7
+RPROVIDES = 
+RDEPENDS = bsp-utils-dev (= 1.0-r7)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/bsp-utils/*.a
+FILELIST = 

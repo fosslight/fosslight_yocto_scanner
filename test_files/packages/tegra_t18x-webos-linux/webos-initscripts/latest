@@ -1,0 +1,5 @@
+PV = 3.0.0-43
+PR = r12
+DEPENDS = cmake-modules-webos-native cmake-native icecc-create-env-native ninja-native systemd virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = webos-initscripts-dbg webos-initscripts-staticdev webos-initscripts-dev webos-initscripts-doc webos-initscripts-locale webos-initscripts
+LAYER = meta-webos

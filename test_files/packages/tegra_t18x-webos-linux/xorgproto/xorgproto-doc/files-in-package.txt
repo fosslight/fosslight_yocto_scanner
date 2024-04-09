@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/doc
+drwxr-xr-x root       root             4096 ./usr/share/doc/xorgproto
+-rw-r--r-- root       root            11921 ./usr/share/doc/xorgproto/compositeproto.txt
+-rw-r--r-- root       root             7585 ./usr/share/doc/xorgproto/damageproto.txt
+-rw-r--r-- root       root            23085 ./usr/share/doc/xorgproto/dri2proto.txt
+-rw-r--r-- root       root            19128 ./usr/share/doc/xorgproto/dri3proto.txt
+-rw-r--r-- root       root            19233 ./usr/share/doc/xorgproto/fixesproto.txt
+-rw-r--r-- root       root             5148 ./usr/share/doc/xorgproto/PM_spec
+-rw-r--r-- root       root            22851 ./usr/share/doc/xorgproto/presentproto.txt
+-rw-r--r-- root       root           111007 ./usr/share/doc/xorgproto/randrproto.txt
+-rw-r--r-- root       root            37809 ./usr/share/doc/xorgproto/renderproto.txt
+-rw-r--r-- root       root            18060 ./usr/share/doc/xorgproto/resproto.txt
+-rw-r--r-- root       root            20331 ./usr/share/doc/xorgproto/xv-protocol-v2.txt

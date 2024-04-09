@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/alsa
+-rw-r--r-- root       root             2276 ./usr/share/alsa/alsa-base.conf
+-rw-r--r-- root       root             1400 ./usr/share/alsa/asound.conf.apbifg1.vcm30t124.e1859.e1861
+-rw-r--r-- root       root             1854 ./usr/share/alsa/asound.conf.apbifg2.vcm30t124.e1859.e1860
+-rw-r--r-- root       root              372 ./usr/share/alsa/asound.conf.genivi
+-rw-r--r-- root       root             8327 ./usr/share/alsa/asound.conf.vcm31.aran
+-rw-r--r-- root       root             2142 ./usr/share/alsa/asound.conf.vcm31t210.e2580.e2573.e1892
+-rw-r--r-- root       root             4246 ./usr/share/alsa/asound.conf.vcm31t210.p2382
+-rw-r--r-- root       root           301056 ./usr/share/alsa/asound.state

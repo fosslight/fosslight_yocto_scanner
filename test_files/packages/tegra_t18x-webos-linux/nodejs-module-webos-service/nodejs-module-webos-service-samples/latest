@@ -1,0 +1,8 @@
+PV = 1.0.1-2
+PR = r3
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 17352
+FILES = /usr/palm/services /usr/share/dbus-1/system-services /usr/share/dbus-1/services /usr/share/ls2/roles/prv /usr/share/ls2/roles/pub /usr/share/luna-service2/manifests.d
+FILELIST = /usr/palm/services/com.example.activityexample/activityexample.js /usr/palm/services/com.example.activityexample/package.json /usr/palm/services/com.example.helloworld/helloclient.js /usr/palm/services/com.example.helloworld/helloworld_webos_service.js /usr/palm/services/com.example.helloworld/package.json /usr/palm/services/com.example.helloworld/services.json /usr/share/dbus-1/services/com.example.activityexample.service /usr/share/dbus-1/services/com.example.helloclient.service /usr/share/dbus-1/services/com.example.helloworld.service /usr/share/dbus-1/services/com.example.helloworld2.service /usr/share/dbus-1/system-services/com.example.activityexample.service /usr/share/dbus-1/system-services/com.example.helloclient.service /usr/share/dbus-1/system-services/com.example.helloworld.service /usr/share/dbus-1/system-services/com.example.helloworld2.service /usr/share/ls2/roles/prv/com.example.activityexample.json /usr/share/ls2/roles/prv/com.example.helloclient.json /usr/share/ls2/roles/prv/com.example.helloworld.json /usr/share/ls2/roles/pub/com.example.activityexample.json /usr/share/ls2/roles/pub/com.example.helloclient.json /usr/share/ls2/roles/pub/com.example.helloworld.json /usr/share/luna-service2/manifests.d/nodejs-module-webos-service.manifest.json

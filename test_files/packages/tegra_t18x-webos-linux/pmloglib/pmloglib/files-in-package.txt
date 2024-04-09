@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/pmlog.d
+-rw-r--r-- root       root             1396 ./etc/pmlog.d/default.conf
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            67768 ./usr/lib/libPmLogLibCpp.so.3.3.0
+lrwxrwxrwx root       root               23 ./usr/lib/libPmLogLibCpp.so.3 -> libPmLogLibCpp.so.3.3.0
+-rwxr-xr-x root       root            88200 ./usr/lib/libPmLogLib.so.3.3.0
+lrwxrwxrwx root       root               20 ./usr/lib/libPmLogLib.so.3 -> libPmLogLib.so.3.3.0

@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-config perl-module-tie-array
-RRECOMMENDS = 
-PKGSIZE = 5524
-FILES = /usr/lib/perl5/5.30.2/Env.pm
-FILELIST = /usr/lib/perl5/5.30.2/Env.pm

@@ -1,0 +1,5 @@
+PV = v2018.9
+PR = r0
+DEPENDS = attr autoconf-native automake-native bash-completion bison-native curl e2fsprogs fuse glib-2.0 gnu-config-native gobject-introspection gobject-introspection-native gpgme icecc-create-env-native libarchive libcap libtool-cross libtool-native pkgconfig-native prelink-native python3-native qemu-native systemd systemd-systemctl-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc xz
+PACKAGES = ostree-dbg ostree-staticdev ostree-dev ostree-doc ostree-locale ostree ostree-bash-completion ostree-switchroot ostree-dracut
+LAYER = sota

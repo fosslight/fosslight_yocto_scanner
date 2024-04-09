@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-fr-be+euro glibc-localedata-wa-be
-RRECOMMENDS = 
-PKGSIZE = 1723
-FILES = /usr/share/i18n/locales/wa_BE@euro
-FILELIST = /usr/share/i18n/locales/wa_BE@euro

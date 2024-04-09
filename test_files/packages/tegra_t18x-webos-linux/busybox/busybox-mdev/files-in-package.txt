@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/mdev
+-rw-r--r-- root       root              887 ./etc/mdev.conf
+-rwxr-xr-x root       root              144 ./etc/mdev/find-touchscreen.sh
+-rwxr-xr-x root       root             1416 ./etc/mdev/mdev-mount.sh

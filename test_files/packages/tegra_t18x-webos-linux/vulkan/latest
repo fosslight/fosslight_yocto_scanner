@@ -1,0 +1,5 @@
+PV = 1.1.73.0
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native ninja-native python3-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc wayland
+PACKAGES = vulkan-dbg vulkan-staticdev vulkan-dev vulkan-doc vulkan-locale vulkan-bin vulkan
+LAYER = core

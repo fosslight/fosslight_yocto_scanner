@@ -1,0 +1,10 @@
+PE = 1
+PV = 3.4.0
+PR = r0
+PKG = libnl-3-locale
+RPROVIDES = libnl-locale (=3.4.0)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

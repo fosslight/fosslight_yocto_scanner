@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc-localedata-en-dk glibc-localedata-i18n glibc-localedata-translit-combining glibc-localedata-ur-pk
-RRECOMMENDS = 
-PKGSIZE = 4909
-FILES = /usr/share/i18n/locales/pa_PK
-FILELIST = /usr/share/i18n/locales/pa_PK

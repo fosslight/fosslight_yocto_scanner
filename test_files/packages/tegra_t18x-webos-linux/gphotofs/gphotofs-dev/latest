@@ -1,0 +1,8 @@
+PV = 0.5
+PR = r0
+RPROVIDES = 
+RDEPENDS = gphotofs (= 0.5-r0)
+RRECOMMENDS = fuse-dev glib-2.0-dev glibc-dev libgphoto2-dev libgphotoport-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gphotofs/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = 

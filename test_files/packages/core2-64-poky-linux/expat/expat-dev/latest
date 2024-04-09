@@ -1,9 +1,0 @@
-PV = 2.2.9
-PR = r0
-PKG = libexpat-dev
-RPROVIDES = expat-dev (=2.2.9)
-RDEPENDS = expat (= 2.2.9-r0)
-RRECOMMENDS = glibc-dev
-PKGSIZE = 51055
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/expat/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/expat.h /usr/include/expat_config.h /usr/include/expat_external.h /usr/lib/libexpat.so /usr/lib/pkgconfig/expat.pc

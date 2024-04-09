@@ -1,0 +1,10 @@
+PV = 5.50
+PR = r0
+PKGR = r0webos14
+RPROVIDES = bluez-hcidump
+RDEPENDS = dbus-lib (>= 1.12.10) glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libudev (>= 239) readline (>= 7.0)
+RRECOMMENDS = glibc-gconv-utf-16 glibc-gconv-utf-32
+RCONFLICTS = bluez4
+PKGSIZE = 5355657
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/bluez5 /usr/lib/bluez5/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/bluetooth/plugins/*.so /lib/systemd/ /usr/share/dbus-1 /usr/lib/cups /lib/systemd/system/bluetooth.service
+FILELIST = /etc/bluetooth/input.conf /etc/bluetooth/main.conf /etc/bluetooth/network.conf /etc/dbus-1/system.d/bluetooth.conf /etc/systemd/system/obex.service /lib/systemd/system/bluetooth.service /lib/udev/hid2hci /lib/udev/rules.d/97-hid2hci.rules /usr/bin/bccmd /usr/bin/bluemoon /usr/bin/bluetoothctl /usr/bin/btattach /usr/bin/btmon /usr/bin/ciptool /usr/bin/hciattach /usr/bin/hciconfig /usr/bin/hcidump /usr/bin/hcitool /usr/bin/hex2hcd /usr/bin/l2ping /usr/bin/l2test /usr/bin/mpris-proxy /usr/bin/rctest /usr/bin/rfcomm /usr/bin/sdptool /usr/lib/libbluetooth.so.3 /usr/lib/libbluetooth.so.3.18.16 /usr/libexec/bluetooth/bluetoothd /usr/share/dbus-1/system-services/org.bluez.service

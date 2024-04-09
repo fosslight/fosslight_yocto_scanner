@@ -1,0 +1,8 @@
+PV = 1.0.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 531032
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libwebp /usr/lib/libwebp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libwebp.so.7 /usr/lib/libwebp.so.7.0.2 /usr/lib/libwebpdemux.so.2 /usr/lib/libwebpdemux.so.2.0.4 /usr/lib/libwebpmux.so.3 /usr/lib/libwebpmux.so.3.0.2

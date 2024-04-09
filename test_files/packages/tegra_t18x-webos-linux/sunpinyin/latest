@@ -1,0 +1,5 @@
+PV = 2.99+3.0.0-rc1+gitAUTOINC+e3c122ed3b
+PR = r1
+DEPENDS = icecc-create-env-native pkgconfig-native python-scons-native sqlite3 sunpinyin-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = sunpinyin-dbg sunpinyin-staticdev sunpinyin-dev sunpinyin-doc sunpinyin-locale sunpinyin
+LAYER = meta-webos

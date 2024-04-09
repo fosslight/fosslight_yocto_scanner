@@ -1,0 +1,5 @@
+PV = 1.0.0-4
+PR = r6
+DEPENDS = cmake-modules-webos-native cmake-native icecc-create-env-native ninja-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = com.palm.service.devmode-tests com.palm.service.devmode-dbg com.palm.service.devmode-staticdev com.palm.service.devmode-dev com.palm.service.devmode-doc com.palm.service.devmode-locale com.palm.service.devmode
+LAYER = meta-webos

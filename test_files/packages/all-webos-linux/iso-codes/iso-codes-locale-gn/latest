@@ -1,0 +1,8 @@
+PV = 4.1
+PR = r0
+RPROVIDES = gn-translation iso-codes-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-gn
+PKGSIZE = 9072
+FILES = /usr/share/locale/gn
+FILELIST = /usr/share/locale/gn/LC_MESSAGES/iso_3166-1.mo /usr/share/locale/gn/LC_MESSAGES/iso_3166.mo

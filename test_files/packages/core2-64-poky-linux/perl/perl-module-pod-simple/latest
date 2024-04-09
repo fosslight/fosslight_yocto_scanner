@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-integer perl-module-pod-escapes perl-module-pod-simple-blackbox perl-module-pod-simple-linksection perl-module-pod-simple-tiedoutfh perl-module-strict perl-module-vars
-RRECOMMENDS = 
-PKGSIZE = 53927
-FILES = /usr/lib/perl5/5.30.2/Pod/Simple.pm
-FILELIST = /usr/lib/perl5/5.30.2/Pod/Simple.pm

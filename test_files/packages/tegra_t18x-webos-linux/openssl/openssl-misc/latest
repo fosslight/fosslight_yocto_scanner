@@ -1,0 +1,9 @@
+PV = 1.1.1d
+PR = r0
+PKGR = r0webos22
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 14203
+FILES = /usr/lib/ssl-1.1/misc
+FILELIST = /usr/lib/ssl-1.1/misc/CA.pl /usr/lib/ssl-1.1/misc/tsget /usr/lib/ssl-1.1/misc/tsget.pl

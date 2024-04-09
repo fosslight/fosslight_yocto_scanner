@@ -1,8 +1,0 @@
-PV = 0.20.1
-PR = r0
-RPROVIDES = 
-RDEPENDS = gettext (= 0.20.1-r0) libgettextlib libgettextsrc
-RRECOMMENDS = glib-2.0-dev glibc-dev libcroco-dev libgettextlib-dev libgettextsrc-dev libxml2-dev
-PKGSIZE = 163019
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gettext/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
-FILELIST = /usr/include/gettext-po.h /usr/include/textstyle.h /usr/include/textstyle/stdbool.h /usr/include/textstyle/version.h /usr/include/textstyle/woe32dll.h /usr/lib/libgettextlib.so /usr/lib/libgettextpo.so /usr/lib/libgettextsrc.so /usr/lib/libtextstyle.so /usr/share/aclocal/gettext.m4 /usr/share/aclocal/host-cpu-c-abi.m4 /usr/share/aclocal/iconv.m4 /usr/share/aclocal/intlmacosx.m4 /usr/share/aclocal/lib-ld.m4 /usr/share/aclocal/lib-link.m4 /usr/share/aclocal/lib-prefix.m4 /usr/share/aclocal/nls.m4 /usr/share/aclocal/po.m4 /usr/share/aclocal/progtest.m4

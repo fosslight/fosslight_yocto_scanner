@@ -1,6 +1,0 @@
-drwxr-xr-x -          -                4096 ./sysroot-providers
--rw-r--r-- -          -                  11 ./sysroot-providers/re2c-native
-drwxr-xr-x -          -                4096 ./usr
-drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -              462952 ./usr/bin/re2c
-drwxr-xr-x -          -                4096 ./usr/share

@@ -1,0 +1,30 @@
+drwxr-xr-x root       root             4096 ./etc
+-rwxrwxrwx root       root              127 ./etc/localtime
+drwxr-xr-x root       root             4096 ./etc/modules-load.d
+-rw-r--r-- root       root               80 ./etc/modules-load.d/gen6_kernel_modules.conf
+drwxr-xr-x root       root             4096 ./etc/systemd
+drwxr-xr-x root       root             4096 ./etc/systemd/scripts
+-rwxr-xr-x root       root              751 ./etc/systemd/scripts/copy_pstore.sh
+drwxr-xr-x root       root             4096 ./etc/systemd/scripts/gen6-bsp-utils
+-rwxr-xr-x root       root             1279 ./etc/systemd/scripts/gen6-bsp-utils/gen6_bsp_init.sh
+-rwxr-xr-x root       root              298 ./etc/systemd/scripts/gen6_bsp_utils.sh
+-rwxr-xr-x root       root              262 ./etc/systemd/scripts/lge_usb_net.sh
+-rwxr-xr-x root       root             1387 ./etc/systemd/scripts/mic_loopback.sh
+drwxr-xr-x root       root             4096 ./etc/systemd/system
+-rw-r--r-- root       root              134 ./etc/systemd/system/copy-pstore.service
+-rw-r--r-- root       root              209 ./etc/systemd/system/gen6_bsp_utils.service
+-rw-r--r-- root       root              106 ./etc/systemd/system/gen6_can_linkup.path
+-rw-r--r-- root       root              242 ./etc/systemd/system/gen6_can_linkup.service
+drwxr-xr-x root       root             4096 ./etc/systemd/system/sysinit.target.wants
+lrwxrwxrwx root       root               22 ./etc/systemd/system/sysinit.target.wants/copy-pstore.service -> ../copy-pstore.service
+lrwxrwxrwx root       root               25 ./etc/systemd/system/sysinit.target.wants/gen6_bsp_utils.service -> ../gen6_bsp_utils.service
+drwxr-xr-x root       root             4096 ./etc/udev
+drwxr-xr-x root       root             4096 ./etc/udev/rules.d
+-rw-r--r-- root       root              264 ./etc/udev/rules.d/lge_usb_net_ctype.rules
+-rw-r--r-- root       root              272 ./etc/udev/rules.d/lge_usb_net_hub.rules
+-rw-r--r-- root       root              248 ./etc/udev/rules.d/lge_usb_net.rules
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root              294 ./usr/bin/display-set-shade-level.sh
+-rwxr-xr-x root       root             1935 ./usr/bin/gen6_poweroff.sh
+-rwxr-xr-x root       root            11211 ./usr/bin/progress-run-bg.sh

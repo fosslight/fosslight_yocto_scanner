@@ -1,0 +1,5 @@
+PV = 2.21
+PR = r3
+DEPENDS = autoconf-native automake-native cwautomacros-native gnu-config-native icecc-create-env-native libtool-cross libtool-native texinfo-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc virtual/update-alternatives
+PACKAGES = which-dbg which-staticdev which-dev which-doc which-locale which
+LAYER = core

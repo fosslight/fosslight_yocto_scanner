@@ -1,0 +1,8 @@
+PV = 3.21.2-5
+PR = r23
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) luna-service2 (>= 3.21.2-5) luna-service2-ptest (>= 3.21.2-5)
+RRECOMMENDS = 
+PKGSIZE = 1336967
+FILES = /usr/opt/webos/tests/luna-service2-perf
+FILELIST = /usr/opt/webos/tests/luna-service2-perf/bench_security_data /usr/opt/webos/tests/luna-service2-perf/hub_memory /usr/opt/webos/tests/luna-service2-perf/hub_memory.conf /usr/opt/webos/tests/luna-service2-perf/lib_memory /usr/opt/webos/tests/luna-service2-perf/lib_memory.conf /usr/opt/webos/tests/luna-service2-perf/libtest.sh /usr/opt/webos/tests/luna-service2-perf/performance /usr/opt/webos/tests/luna-service2-perf/performance.conf /usr/opt/webos/tests/luna-service2-perf/run_test

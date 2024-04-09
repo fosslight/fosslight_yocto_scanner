@@ -1,0 +1,5 @@
+PV = 3.0.1-1
+PR = r6
+DEPENDS = icecc-create-env-native node-gyp-native pkgconfig-native pmloglib vim-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = nodejs-module-webos-pmlog-dbg nodejs-module-webos-pmlog-staticdev nodejs-module-webos-pmlog-dev nodejs-module-webos-pmlog-doc nodejs-module-webos-pmlog-locale nodejs-module-webos-pmlog
+LAYER = meta-webos

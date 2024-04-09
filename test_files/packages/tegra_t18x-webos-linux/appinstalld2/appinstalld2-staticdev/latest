@@ -1,0 +1,8 @@
+PV = 1.0.0-4
+PR = r3
+RPROVIDES = 
+RDEPENDS = appinstalld2-dev (= 1.0.0-4-r3)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/appinstalld2/*.a
+FILELIST = 

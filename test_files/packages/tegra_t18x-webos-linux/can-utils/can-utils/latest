@@ -1,0 +1,9 @@
+PV = 0.0+gitrAUTOINC+4c8fb05cb4
+PR = r0
+PKGV = 0.0+gitr0+4c8fb05cb4
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 1629768
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/can-utils /usr/lib/can-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/asc2log /usr/bin/bcmserver /usr/bin/can-calc-bit-timing /usr/bin/canbusload /usr/bin/candump /usr/bin/canfdtest /usr/bin/cangen /usr/bin/cangw /usr/bin/canlogserver /usr/bin/canplayer /usr/bin/cansend /usr/bin/cansniffer /usr/bin/isotpdump /usr/bin/isotpperf /usr/bin/isotprecv /usr/bin/isotpsend /usr/bin/isotpserver /usr/bin/isotpsniffer /usr/bin/isotptun /usr/bin/log2asc /usr/bin/log2long /usr/bin/slcan_attach /usr/bin/slcand /usr/bin/slcanpty

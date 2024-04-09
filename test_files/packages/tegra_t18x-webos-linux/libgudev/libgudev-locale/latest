@@ -1,0 +1,9 @@
+PV = 232
+PR = r0
+PKG = libgudev-1.0-locale
+RPROVIDES = libgudev-locale (=232)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

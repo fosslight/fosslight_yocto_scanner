@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = python3-core
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = 
-FILELIST = 

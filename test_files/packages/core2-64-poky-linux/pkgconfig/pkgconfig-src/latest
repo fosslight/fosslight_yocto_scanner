@@ -1,9 +1,0 @@
-PV = 0.29.2+gitAUTOINC+edf8e6f0ea
-PR = r0
-PKGV = 0.29.2+git0+edf8e6f0ea
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 94123
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/main.c /usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/parse.c /usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/parse.h /usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/pkg.c /usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/pkg.h /usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/rpmvercmp.c /usr/src/debug/pkgconfig/0.29.2+gitAUTOINC+edf8e6f0ea-r0/git/rpmvercmp.h

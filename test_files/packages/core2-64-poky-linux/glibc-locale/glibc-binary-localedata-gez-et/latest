@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 2943999
-FILES = /usr/lib/locale/gez_ET
-FILELIST = /usr/lib/locale/gez_ET/LC_ADDRESS /usr/lib/locale/gez_ET/LC_COLLATE /usr/lib/locale/gez_ET/LC_CTYPE /usr/lib/locale/gez_ET/LC_IDENTIFICATION /usr/lib/locale/gez_ET/LC_MEASUREMENT /usr/lib/locale/gez_ET/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/gez_ET/LC_MONETARY /usr/lib/locale/gez_ET/LC_NAME /usr/lib/locale/gez_ET/LC_NUMERIC /usr/lib/locale/gez_ET/LC_PAPER /usr/lib/locale/gez_ET/LC_TELEPHONE /usr/lib/locale/gez_ET/LC_TIME

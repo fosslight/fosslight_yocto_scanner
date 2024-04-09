@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r1
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = packagegroup-core-ssh-dropbear packagegroup-core-ssh-dropbear-dbg packagegroup-core-ssh-dropbear-dev packagegroup-core-ssh-dropbear-ptest
+LAYER = core

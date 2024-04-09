@@ -1,0 +1,5 @@
+PV = 1.0
+PR = r7
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = bsp-utils-dbg bsp-utils-staticdev bsp-utils-dev bsp-utils-doc bsp-utils-locale bsp-utils
+LAYER = coconut-layer

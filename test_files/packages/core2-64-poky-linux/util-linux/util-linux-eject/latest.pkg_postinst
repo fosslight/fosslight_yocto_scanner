@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-	update-alternatives --install /usr/bin/eject eject /usr/bin/eject.util-linux 80

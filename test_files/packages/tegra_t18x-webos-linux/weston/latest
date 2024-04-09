@@ -1,0 +1,5 @@
+PV = 2.0.0
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd cairo dbus drm drm gdk-pixbuf glib-2.0 gnu-config-native icecc-create-env-native jpeg libinput libinput libpam libtool-cross libtool-native libxkbcommon mtdev pango pixman pkgconfig-native shadow shadow-native shadow-sysroot udev virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/egl virtual/egl virtual/libc wayland wayland-egl wayland-egl wayland-native wayland-protocols
+PACKAGES = weston-dbg weston-staticdev weston-dev weston-doc weston-locale weston weston-examples
+LAYER = drive5

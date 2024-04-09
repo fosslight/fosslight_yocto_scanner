@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+-rw-r--r-- root       root             1617 ./usr/include/IDevice.h
+drwxr-xr-x root       root             4096 ./usr/include/pdm-plugin
+-rw-r--r-- root       root             1267 ./usr/include/pdm-plugin/Api.h
+-rw-r--r-- root       root             1481 ./usr/include/pdm-plugin/PluginBase.h
+-rw-r--r-- root       root             2888 ./usr/include/Plugin-Api.h

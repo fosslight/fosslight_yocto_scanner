@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/palm
+-rw-r--r-- root       root             2553 ./etc/palm/countryGroupList.json
+-rw-r--r-- root       root            21887 ./etc/palm/countryList.json
+-rw-r--r-- root       root             4766 ./etc/palm/countryRegionList.json
+-rw-r--r-- root       root             2983 ./etc/palm/defaultSettings.json
+-rw-r--r-- root       root             1822 ./etc/palm/defaultTimeZone.json
+-rw-r--r-- root       root             4238 ./etc/palm/description.bson
+-rw-r--r-- root       root              619 ./etc/palm/description.categorykeysmap.bson
+-rw-r--r-- root       root              887 ./etc/palm/description.categorykeysmap.json
+-rw-r--r-- root       root             8410 ./etc/palm/description.json
+-rw-r--r-- root       root              515 ./etc/palm/description.map.bson
+-rw-r--r-- root       root              822 ./etc/palm/description.map.json
+-rw-r--r-- root       root               95 ./etc/palm/dimensionFormat.json
+-rw-r--r-- root       root            24427 ./etc/palm/languageStyle.json
+-rw-r--r-- root       root            88122 ./etc/palm/locale.json
+-rw-r--r-- root       root              152 ./etc/palm/settingsservice.conf

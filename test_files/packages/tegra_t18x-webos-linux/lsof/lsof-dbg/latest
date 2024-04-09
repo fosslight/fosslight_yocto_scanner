@@ -1,0 +1,8 @@
+PV = 4.91
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 1189264
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/sbin/.debug/lsof /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/arg.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/dfile.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/dlsof.h /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/dmnt.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/dnode.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/dproc.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/dproto.h /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/dsock.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/dstore.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/lsof.h /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/main.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/misc.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/node.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/print.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/proc.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/proto.h /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/store.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/usage.c /usr/src/debug/lsof/4.91-r0/lsof_4.91_src/util.c

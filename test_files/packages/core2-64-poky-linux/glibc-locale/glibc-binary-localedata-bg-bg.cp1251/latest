@@ -1,8 +1,0 @@
-PV = 2.31
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 320278
-FILES = /usr/lib/locale/bg_BG.CP1251
-FILELIST = /usr/lib/locale/bg_BG.CP1251/LC_ADDRESS /usr/lib/locale/bg_BG.CP1251/LC_COLLATE /usr/lib/locale/bg_BG.CP1251/LC_CTYPE /usr/lib/locale/bg_BG.CP1251/LC_IDENTIFICATION /usr/lib/locale/bg_BG.CP1251/LC_MEASUREMENT /usr/lib/locale/bg_BG.CP1251/LC_MESSAGES/SYS_LC_MESSAGES /usr/lib/locale/bg_BG.CP1251/LC_MONETARY /usr/lib/locale/bg_BG.CP1251/LC_NAME /usr/lib/locale/bg_BG.CP1251/LC_NUMERIC /usr/lib/locale/bg_BG.CP1251/LC_PAPER /usr/lib/locale/bg_BG.CP1251/LC_TELEPHONE /usr/lib/locale/bg_BG.CP1251/LC_TIME

@@ -1,0 +1,8 @@
+PV = 23.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 4979
+FILES = /usr/share/man/man1/pstree*
+FILELIST = /usr/share/man/man1/pstree.1

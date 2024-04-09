@@ -1,5 +1,0 @@
-PV = 1.2.6
-PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/libc virtual/x86_64-poky-linux-compilerlibs virtual/x86_64-poky-linux-gcc
-PACKAGES = libtirpc-src libtirpc-dbg libtirpc-staticdev libtirpc-dev libtirpc-doc libtirpc-locale libtirpc
-LAYER = core

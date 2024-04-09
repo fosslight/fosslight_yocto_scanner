@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = 
+RDEPENDS = python3-core python3-debugger python3-difflib python3-logging python3-pprint python3-shell python3-stringold python3-unittest
+RRECOMMENDS = 
+PKGSIZE = 307305
+FILES = /usr/lib/python3.5/doctest.py /usr/lib/python3.5/__pycache__/doctest.*.pyc
+FILELIST = /usr/lib/python3.5/__pycache__/doctest.cpython-35.opt-1.pyc /usr/lib/python3.5/__pycache__/doctest.cpython-35.opt-2.pyc /usr/lib/python3.5/__pycache__/doctest.cpython-35.pyc /usr/lib/python3.5/doctest.py

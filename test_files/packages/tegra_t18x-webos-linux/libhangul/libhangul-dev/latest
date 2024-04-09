@@ -1,0 +1,9 @@
+PV = 0.1.0+gitAUTOINC+4a71565b28
+PR = r2
+PKGV = 0.1.0+git0+4a71565b28
+RPROVIDES = 
+RDEPENDS = libhangul (= 0.1.0+git0+4a71565b28-r2)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 6068
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libhangul/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/hangul-1.0/hangul.h

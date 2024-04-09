@@ -1,0 +1,9 @@
+PV = 3.39
+PR = r0
+PKGR = r0webos1lpd1
+RPROVIDES = 
+RDEPENDS = perl
+RRECOMMENDS = 
+PKGSIZE = 16446
+FILES = /usr/bin/smime
+FILELIST = /usr/bin/smime

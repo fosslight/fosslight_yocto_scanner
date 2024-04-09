@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r1-lg1
+RPROVIDES = 
+RDEPENDS = busybox glibc (>= 2.28)
+RRECOMMENDS = 
+PKGSIZE = 277526
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/initshell /usr/lib/initshell/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /init /ethernet_arps /set_veth /set_eth /svm_fifo_write /environment_setup_file
+FILELIST = /etc/ethernet_arps /etc/set_eth /etc/set_veth /etc/svm_fifo_write /etc/systemd/environment_setup_file /etc/systemd/scripts/factory-reset-fsck.sh /etc/systemd/scripts/fsck.sh /etc/systemd/scripts/modprobe.sh /etc/systemd/system/fsck.service /etc/systemd/system/local-fs-pre.target.wants/fsck.service /init

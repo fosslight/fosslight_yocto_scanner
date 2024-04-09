@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-sch-ingress
-RDEPENDS = kernel-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 9832
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/net/sched/sch_ingress.ko /etc/modules-load.d/sch_ingress.conf /etc/modprobe.d/sch_ingress.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/net/sched/sch_ingress.ko

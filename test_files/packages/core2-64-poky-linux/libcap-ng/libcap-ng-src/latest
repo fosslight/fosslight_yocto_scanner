@@ -1,8 +1,0 @@
-PV = 0.7.10
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 66774
-FILES = /usr/src/debug
-FILELIST = /usr/src/debug/libcap-ng/0.7.10-r0/libcap-ng-0.7.10/src/cap-ng.c /usr/src/debug/libcap-ng/0.7.10-r0/libcap-ng-0.7.10/src/cap-ng.h /usr/src/debug/libcap-ng/0.7.10-r0/libcap-ng-0.7.10/src/captab.h /usr/src/debug/libcap-ng/0.7.10-r0/libcap-ng-0.7.10/src/lookup_table.c /usr/src/debug/libcap-ng/0.7.10-r0/libcap-ng-0.7.10/utils/captest.c /usr/src/debug/libcap-ng/0.7.10-r0/libcap-ng-0.7.10/utils/filecap.c /usr/src/debug/libcap-ng/0.7.10-r0/libcap-ng-0.7.10/utils/netcap.c /usr/src/debug/libcap-ng/0.7.10-r0/libcap-ng-0.7.10/utils/proc-llist.c /usr/src/debug/libcap-ng/0.7.10-r0/libcap-ng-0.7.10/utils/proc-llist.h /usr/src/debug/libcap-ng/0.7.10-r0/libcap-ng-0.7.10/utils/pscap.c

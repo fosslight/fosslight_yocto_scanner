@@ -1,0 +1,26 @@
+drwxr-xr-x root       root             4096 ./etc
+-r--r----- root       root             3194 ./etc/sudoers
+drwxr-x--- root       root             4096 ./etc/sudoers.d
+-r--r----- root       root             3174 ./etc/sudoers.dist
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+---s--x--x root       root           136840 ./usr/bin/sudo
+lrwxrwxrwx root       root                4 ./usr/bin/sudoedit -> sudo
+-rwxr-xr-x root       root            68560 ./usr/bin/sudoreplay
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/libexec
+drwxr-xr-x root       root             4096 ./usr/libexec/sudo
+-rw-r--r-- root       root            67712 ./usr/libexec/sudo/group_file.so
+-rwxr-xr-x root       root           134000 ./usr/libexec/sudo/libsudo_util.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/libexec/sudo/libsudo_util.so.0 -> libsudo_util.so.0.0.0
+-rw-r--r-- root       root           337736 ./usr/libexec/sudo/sudoers.so
+-rw-r--r-- root       root            67672 ./usr/libexec/sudo/sudo_noexec.so
+-rw-r--r-- root       root            67704 ./usr/libexec/sudo/system_group.so
+drwxr-xr-x root       root             4096 ./usr/lib/tmpfiles.d
+-rw-r--r-- root       root              313 ./usr/lib/tmpfiles.d/sudo.conf
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           271296 ./usr/sbin/visudo
+drwxr-xr-x root       root             4096 ./var
+drwxr-xr-x root       root             4096 ./var/lib
+drwx--x--x root       root             4096 ./var/lib/sudo
+drwx------ root       root             4096 ./var/lib/sudo/lectured

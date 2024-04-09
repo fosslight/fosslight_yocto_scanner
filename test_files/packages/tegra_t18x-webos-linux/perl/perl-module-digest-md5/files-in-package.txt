@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/perl
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto/Digest
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/auto/Digest/MD5
+-r-xr-xr-x root       root            67744 ./usr/lib/perl/5.24.4/auto/Digest/MD5/MD5.so
+drwxr-xr-x root       root             4096 ./usr/lib/perl/5.24.4/Digest
+-r--r--r-- root       root            10941 ./usr/lib/perl/5.24.4/Digest/MD5.pm

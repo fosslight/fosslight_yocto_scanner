@@ -1,0 +1,8 @@
+PV = 3.1
+PR = r0
+RPROVIDES = grep-locale sv-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sv
+PKGSIZE = 16652
+FILES = /usr/share/locale/sv
+FILELIST = /usr/share/locale/sv/LC_MESSAGES/grep.mo

@@ -1,0 +1,9 @@
+PV = 2017.75
+PR = r0
+PKGR = r0webos7
+RPROVIDES = 
+RDEPENDS = dropbear-dev (= 2017.75-r0webos7)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/dropbear/*.a
+FILELIST = 

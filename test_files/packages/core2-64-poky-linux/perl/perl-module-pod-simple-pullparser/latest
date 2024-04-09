@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-pod-simple perl-module-pod-simple-pullparserendtoken perl-module-pod-simple-pullparserstarttoken perl-module-pod-simple-pullparsertexttoken perl-module-strict
-RRECOMMENDS = 
-PKGSIZE = 25729
-FILES = /usr/lib/perl5/5.30.2/Pod/Simple/PullParser.pm
-FILELIST = /usr/lib/perl5/5.30.2/Pod/Simple/PullParser.pm

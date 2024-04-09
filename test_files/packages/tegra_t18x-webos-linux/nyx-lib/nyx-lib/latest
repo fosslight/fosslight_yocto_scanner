@@ -1,0 +1,9 @@
+PV = 7.3.0-2
+PR = r7
+PKG = libnyx7
+RPROVIDES = nyx-lib (=7.3.0-2)
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) pmloglib (>= 3.3.0-4)
+RRECOMMENDS = 
+PKGSIZE = 133303
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nyx-lib /usr/lib/nyx-lib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libnyx.so.7 /usr/lib/libnyx.so.7.3.0

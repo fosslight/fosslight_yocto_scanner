@@ -1,0 +1,8 @@
+PV = 3.6.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 262848
+FILES = /usr/share/pci.ids*
+FILELIST = /usr/share/pci.ids.gz

@@ -1,0 +1,8 @@
+PV = 1.0.0-37
+PR = r2
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) wayland (>= 1.13.0)
+RRECOMMENDS = 
+PKGSIZE = 136768
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/webos-wayland-extensions /usr/lib/webos-wayland-extensions/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libwayland-webos-client.so.1 /usr/lib/libwayland-webos-client.so.1.0.0 /usr/lib/libwayland-webos-server.so.1 /usr/lib/libwayland-webos-server.so.1.0.0

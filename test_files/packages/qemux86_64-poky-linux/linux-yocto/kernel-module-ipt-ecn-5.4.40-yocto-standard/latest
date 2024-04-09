@@ -1,9 +1,0 @@
-PV = 5.4.40+gitAUTOINC+4ed477131e_29f44c85c3
-PR = r0
-PKGV = 5.4.40+git0+4ed477131e_29f44c85c3
-RPROVIDES = kernel-module-ipt-ecn
-RDEPENDS = kernel-5.4.40-yocto-standard kernel-module-x-tables-5.4.40-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 6552
-FILES = /lib/modules/5.4.40-yocto-standard/kernel/net/ipv4/netfilter/ipt_ECN.ko /etc/modules-load.d/ipt_ECN.conf /etc/modprobe.d/ipt_ECN.conf
-FILELIST = /lib/modules/5.4.40-yocto-standard/kernel/net/ipv4/netfilter/ipt_ECN.ko

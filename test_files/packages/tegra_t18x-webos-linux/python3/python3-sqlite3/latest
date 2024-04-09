@@ -1,0 +1,9 @@
+PV = 3.5.6
+PR = r1.0
+PKGR = r1.0webos1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libpython3 (>= 3.5.6) libsqlite3 (>= 3.29.0) python3-core python3-datetime
+RRECOMMENDS = 
+PKGSIZE = 160897
+FILES = /usr/lib/python3.5/lib-dynload/_sqlite3.*.so /usr/lib/python3.5/sqlite3
+FILELIST = /usr/lib/python3.5/lib-dynload/_sqlite3.cpython-35m-aarch64-linux-gnu.so /usr/lib/python3.5/sqlite3/__init__.py /usr/lib/python3.5/sqlite3/__pycache__/__init__.cpython-35.opt-1.pyc /usr/lib/python3.5/sqlite3/__pycache__/__init__.cpython-35.opt-2.pyc /usr/lib/python3.5/sqlite3/__pycache__/__init__.cpython-35.pyc /usr/lib/python3.5/sqlite3/__pycache__/dbapi2.cpython-35.opt-1.pyc /usr/lib/python3.5/sqlite3/__pycache__/dbapi2.cpython-35.opt-2.pyc /usr/lib/python3.5/sqlite3/__pycache__/dbapi2.cpython-35.pyc /usr/lib/python3.5/sqlite3/__pycache__/dump.cpython-35.opt-1.pyc /usr/lib/python3.5/sqlite3/__pycache__/dump.cpython-35.opt-2.pyc /usr/lib/python3.5/sqlite3/__pycache__/dump.cpython-35.pyc /usr/lib/python3.5/sqlite3/dbapi2.py /usr/lib/python3.5/sqlite3/dump.py

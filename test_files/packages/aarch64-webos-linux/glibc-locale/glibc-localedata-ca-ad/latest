@@ -1,0 +1,9 @@
+PV = 2.28
+PR = r0
+PKGR = r0webos1
+RPROVIDES = 
+RDEPENDS = glibc-localedata-ca-es
+RRECOMMENDS = 
+PKGSIZE = 1939
+FILES = /usr/share/i18n/locales/ca_AD
+FILELIST = /usr/share/i18n/locales/ca_AD

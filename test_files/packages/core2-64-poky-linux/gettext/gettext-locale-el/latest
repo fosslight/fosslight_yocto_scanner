@@ -1,8 +1,0 @@
-PV = 0.20.1
-PR = r0
-RPROVIDES = el-translation gettext-locale
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-el
-PKGSIZE = 4768
-FILES = /usr/share/locale/el
-FILELIST = /usr/share/locale/el/LC_MESSAGES/gettext-runtime.mo /usr/share/locale/el/LC_MESSAGES/gettext-tools.mo

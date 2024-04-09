@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+if [ -z "$D" ]; then
+	depmod -a 4.9.140-tegra
+else
+	depmodwrapper -a -b $D 4.9.140-tegra
+fi
+

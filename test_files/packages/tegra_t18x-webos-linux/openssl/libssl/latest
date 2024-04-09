@@ -1,0 +1,10 @@
+PV = 1.1.1d
+PR = r0
+PKG = libssl1.1
+PKGR = r0webos22
+RPROVIDES = libssl (=1.1.1d)
+RDEPENDS = glibc (>= 2.28) libcrypto (>= 1.1.1d)
+RRECOMMENDS = 
+PKGSIZE = 606224
+FILES = /usr/lib/libssl.so.*
+FILELIST = /usr/lib/libssl.so.1.1

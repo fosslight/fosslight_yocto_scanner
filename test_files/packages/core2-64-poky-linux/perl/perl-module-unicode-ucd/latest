@@ -1,8 +1,0 @@
-PV = 5.30.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = perl perl-module-charnames perl-module-exporter perl-module-feature perl-module-if perl-module-integer perl-module-strict perl-module-unicode-normalize perl-module-utf8-heavy perl-module-warnings
-RRECOMMENDS = 
-PKGSIZE = 160805
-FILES = /usr/lib/perl5/5.30.2/Unicode/UCD.pm
-FILELIST = /usr/lib/perl5/5.30.2/Unicode/UCD.pm

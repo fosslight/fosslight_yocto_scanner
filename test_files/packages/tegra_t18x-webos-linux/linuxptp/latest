@@ -1,0 +1,5 @@
+PV = 1.8
+PR = r0
+DEPENDS = icecc-create-env-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = linuxptp-dbg linuxptp-staticdev linuxptp-dev linuxptp-doc linuxptp-locale linuxptp
+LAYER = openembedded-layer

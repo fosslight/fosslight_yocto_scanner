@@ -1,0 +1,3 @@
+drwxr-xr-x root       root             4096 ./sbin
+lrwxrwxrwx root       root               11 ./sbin/vigr.shadow -> vipw.shadow
+-rwxr-xr-x root       root            73816 ./sbin/vipw.shadow

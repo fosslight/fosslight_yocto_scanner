@@ -1,8 +1,0 @@
-PV = 3.8.2
-PR = r0
-RPROVIDES = 
-RDEPENDS = python3-compression python3-core python3-stringold
-RRECOMMENDS = 
-PKGSIZE = 100425
-FILES = /usr/lib/python3.8/cmd.py /usr/lib/python3.8/glob.py /usr/lib/python3.8/shlex.py /usr/lib/python3.8/__pycache__/cmd.*.pyc /usr/lib/python3.8/__pycache__/glob.*.pyc /usr/lib/python3.8/__pycache__/shlex.*.pyc
-FILELIST = /usr/lib/python3.8/__pycache__/cmd.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/cmd.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/cmd.cpython-38.pyc /usr/lib/python3.8/__pycache__/glob.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/glob.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/glob.cpython-38.pyc /usr/lib/python3.8/__pycache__/shlex.cpython-38.opt-1.pyc /usr/lib/python3.8/__pycache__/shlex.cpython-38.opt-2.pyc /usr/lib/python3.8/__pycache__/shlex.cpython-38.pyc /usr/lib/python3.8/cmd.py /usr/lib/python3.8/glob.py /usr/lib/python3.8/shlex.py

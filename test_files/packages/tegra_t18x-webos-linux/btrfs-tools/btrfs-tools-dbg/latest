@@ -1,0 +1,8 @@
+PV = 4.17.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcomerr-dbg libext2fs-dbg libpython3-dbg lzo-dbg util-linux-libblkid-dbg util-linux-libuuid-dbg zlib-dbg
+PKGSIZE = 24388185
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/bin/.debug/btrfs /usr/bin/.debug/btrfs-convert /usr/bin/.debug/btrfs-find-root /usr/bin/.debug/btrfs-image /usr/bin/.debug/btrfs-map-logical /usr/bin/.debug/btrfs-select-super /usr/bin/.debug/btrfstune /usr/bin/.debug/mkfs.btrfs /usr/lib/.debug/libbtrfs.so.0.1 /usr/lib/.debug/libbtrfsutil.so.1.0.0 /usr/lib/python3.5/site-packages/.debug/btrfsutil.cpython-35m-aarch64-linux-gnu.so /usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/btrfsutil.h /usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/btrfsutilpy.h /usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/constants.c /usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/error.c /usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/filesystem.c /usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/module.c /usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/qgroup.c /usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/subvolume.c

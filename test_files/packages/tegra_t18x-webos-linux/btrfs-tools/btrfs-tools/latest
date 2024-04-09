@@ -1,0 +1,8 @@
+PV = 4.17.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libcomerr (>= 1.44.3) libext2fs (>= 1.44.3) libgcc libpython3 (>= 3.5.6) lzo (>= 2.10) python3-core util-linux-libblkid (>= 2.32.1) util-linux-libuuid (>= 2.32.1) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 4397013
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/btrfs-tools /usr/lib/btrfs-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/*
+FILELIST = /lib/udev/rules.d/64-btrfs-dm.rules /usr/bin/btrfs /usr/bin/btrfs-convert /usr/bin/btrfs-find-root /usr/bin/btrfs-image /usr/bin/btrfs-map-logical /usr/bin/btrfs-select-super /usr/bin/btrfsck /usr/bin/btrfstune /usr/bin/fsck.btrfs /usr/bin/mkfs.btrfs /usr/lib/libbtrfs.so.0 /usr/lib/libbtrfs.so.0.1 /usr/lib/libbtrfsutil.so.1 /usr/lib/libbtrfsutil.so.1.0.0 /usr/lib/python3.5/site-packages/btrfsutil-1.0.0-py3.5.egg-info/PKG-INFO /usr/lib/python3.5/site-packages/btrfsutil-1.0.0-py3.5.egg-info/SOURCES.txt /usr/lib/python3.5/site-packages/btrfsutil-1.0.0-py3.5.egg-info/dependency_links.txt /usr/lib/python3.5/site-packages/btrfsutil-1.0.0-py3.5.egg-info/top_level.txt /usr/lib/python3.5/site-packages/btrfsutil.cpython-35m-aarch64-linux-gnu.so

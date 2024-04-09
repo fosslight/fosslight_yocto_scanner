@@ -1,0 +1,25 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+lrwxrwxrwx root       root                5 ./usr/bin/lzcat.xz -> xz.xz
+lrwxrwxrwx root       root                6 ./usr/bin/lzcmp -> xzdiff
+lrwxrwxrwx root       root                6 ./usr/bin/lzdiff -> xzdiff
+lrwxrwxrwx root       root                6 ./usr/bin/lzegrep -> xzgrep
+lrwxrwxrwx root       root                6 ./usr/bin/lzfgrep -> xzgrep
+lrwxrwxrwx root       root                6 ./usr/bin/lzgrep -> xzgrep
+lrwxrwxrwx root       root                6 ./usr/bin/lzless -> xzless
+-rwxr-xr-x root       root            67832 ./usr/bin/lzmadec
+-rwxr-xr-x root       root            67824 ./usr/bin/lzmainfo
+lrwxrwxrwx root       root                5 ./usr/bin/lzma.xz -> xz.xz
+lrwxrwxrwx root       root                6 ./usr/bin/lzmore -> xzmore
+lrwxrwxrwx root       root                5 ./usr/bin/unlzma.xz -> xz.xz
+lrwxrwxrwx root       root                5 ./usr/bin/unxz.xz -> xz.xz
+lrwxrwxrwx root       root                5 ./usr/bin/xzcat.xz -> xz.xz
+lrwxrwxrwx root       root                6 ./usr/bin/xzcmp -> xzdiff
+-rwxr-xr-x root       root            67832 ./usr/bin/xzdec
+-rwxr-xr-x root       root             6632 ./usr/bin/xzdiff
+lrwxrwxrwx root       root                6 ./usr/bin/xzegrep -> xzgrep
+lrwxrwxrwx root       root                6 ./usr/bin/xzfgrep -> xzgrep
+-rwxr-xr-x root       root             5628 ./usr/bin/xzgrep
+-rwxr-xr-x root       root             1802 ./usr/bin/xzless
+-rwxr-xr-x root       root             2161 ./usr/bin/xzmore
+-rwxr-xr-x root       root           133616 ./usr/bin/xz.xz

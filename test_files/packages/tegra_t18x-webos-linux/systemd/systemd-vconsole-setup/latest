@@ -1,0 +1,10 @@
+PE = 1
+PV = 239
+PR = r0
+PKGR = r0webos4
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) systemd (>= 239)
+RRECOMMENDS = kbd kbd-consolefonts kbd-keymaps
+PKGSIZE = 68362
+FILES = /lib/systemd/systemd-vconsole-setup /lib/systemd/system/systemd-vconsole-setup.service /lib/systemd/system/sysinit.target.wants/systemd-vconsole-setup.service
+FILELIST = /lib/systemd/system/systemd-vconsole-setup.service /lib/systemd/systemd-vconsole-setup

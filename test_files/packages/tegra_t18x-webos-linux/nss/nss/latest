@@ -1,0 +1,9 @@
+PV = 3.39
+PR = r0
+PKGR = r0webos1lpd1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libsqlite3 (>= 3.29.0) nspr (>= 4.19) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 13531528
+FILES = /etc /usr/bin /usr/lib/lib*.chk /usr/lib/lib*.so
+FILELIST = /etc/pki/nssdb/cert9.db /etc/pki/nssdb/key4.db /etc/pki/nssdb/pkcs11.txt /usr/bin/addbuiltin /usr/bin/atob /usr/bin/baddbdir /usr/bin/bltest /usr/bin/btoa /usr/bin/certutil /usr/bin/chktest /usr/bin/cmsutil /usr/bin/conflict /usr/bin/crlutil /usr/bin/crmftest /usr/bin/dbtest /usr/bin/derdump /usr/bin/dertimetest /usr/bin/digest /usr/bin/ecperf /usr/bin/encodeinttest /usr/bin/fbectest /usr/bin/fipstest /usr/bin/httpserv /usr/bin/listsuites /usr/bin/makepqg /usr/bin/mangle /usr/bin/modutil /usr/bin/multinit /usr/bin/nonspr10 /usr/bin/nss-policy-check /usr/bin/ocspclnt /usr/bin/ocspresp /usr/bin/oidcalc /usr/bin/p7content /usr/bin/p7env /usr/bin/p7sign /usr/bin/p7verify /usr/bin/pk11ectest /usr/bin/pk11gcmtest /usr/bin/pk11mode /usr/bin/pk12util /usr/bin/pk1sign /usr/bin/pkix-errcodes /usr/bin/pp /usr/bin/pwdecrypt /usr/bin/remtest /usr/bin/rsaperf /usr/bin/rsapoptst /usr/bin/sdrtest /usr/bin/secmodtest /usr/bin/selfserv /usr/bin/shlibsign /usr/bin/signlibs.sh /usr/bin/signtool /usr/bin/signver /usr/bin/ssltap /usr/bin/strsclnt /usr/bin/symkeyutil /usr/bin/tstclnt /usr/bin/vfychain /usr/bin/vfyserv /usr/lib/libfreebl3.chk /usr/lib/libfreebl3.so /usr/lib/libfreeblpriv3.so /usr/lib/libnss3.so /usr/lib/libnssckbi.so /usr/lib/libnssdbm3.chk /usr/lib/libnssdbm3.so /usr/lib/libnssutil3.so /usr/lib/libsmime3.so /usr/lib/libsoftokn3.chk /usr/lib/libsoftokn3.so /usr/lib/libssl3.so

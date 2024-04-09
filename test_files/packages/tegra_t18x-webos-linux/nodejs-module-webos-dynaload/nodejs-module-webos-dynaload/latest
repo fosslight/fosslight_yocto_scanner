@@ -1,0 +1,8 @@
+PV = 3.0.2-1
+PR = r6
+RPROVIDES = 
+RDEPENDS = boost-filesystem (>= 1.68.0) glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0)
+RRECOMMENDS = 
+PKGSIZE = 68026
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nodejs-module-webos-dynaload /usr/lib/nodejs-module-webos-dynaload/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/palm/nodejs /usr/lib/nodejs
+FILELIST = /usr/lib/nodejs/webos.node /usr/palm/nodejs/webos.node

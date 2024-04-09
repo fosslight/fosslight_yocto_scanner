@@ -1,8 +1,0 @@
-PV = 2.34
-PR = r0
-RPROVIDES = binutils-locale zh-cn-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-zh-cn
-PKGSIZE = 198660
-FILES = /usr/share/locale/zh_CN
-FILELIST = /usr/share/locale/zh_CN/LC_MESSAGES/bfd.mo /usr/share/locale/zh_CN/LC_MESSAGES/binutils.mo /usr/share/locale/zh_CN/LC_MESSAGES/gas.mo /usr/share/locale/zh_CN/LC_MESSAGES/gold.mo /usr/share/locale/zh_CN/LC_MESSAGES/ld.mo /usr/share/locale/zh_CN/LC_MESSAGES/opcodes.mo

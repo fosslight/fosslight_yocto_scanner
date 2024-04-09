@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root            71376 ./usr/bin/.debug/stress
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/stress
+drwxr-xr-x root       root             4096 ./usr/src/debug/stress/1.0.4-r0
+drwxr-xr-x root       root             4096 ./usr/src/debug/stress/1.0.4-r0/stress-1.0.4
+drwxr-xr-x root       root             4096 ./usr/src/debug/stress/1.0.4-r0/stress-1.0.4/src
+-rwxr-xr-x root       root            20854 ./usr/src/debug/stress/1.0.4-r0/stress-1.0.4/src/stress.c

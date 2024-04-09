@@ -1,0 +1,6 @@
+PE = 1
+PV = 2.0.0
+PR = r0
+DEPENDS = cmake-native icecc-create-env-native ninja-native pkgconfig-native virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = jpeg-tools libturbojpeg libjpeg-turbo-dbg libjpeg-turbo-staticdev libjpeg-turbo-dev libjpeg-turbo-doc libjpeg-turbo-locale libjpeg-turbo
+LAYER = core

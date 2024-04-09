@@ -1,0 +1,5 @@
+PV = 1.25.10
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native icecc-create-env-native libtool-cross libtool-native pkgconfig-native pulseaudio virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = mpg123-dbg mpg123-staticdev mpg123-dev mpg123-doc mpg123-locale mpg123
+LAYER = core

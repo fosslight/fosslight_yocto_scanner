@@ -1,0 +1,9 @@
+PV = 4.9
+PR = r0-lg1
+PKGR = r0-lg1webostegra1
+RPROVIDES = kernel-module-usb-f-audio-source
+RDEPENDS = kernel-4.9.140-tegra kernel-module-snd-4.9.140-tegra kernel-module-snd-pcm-4.9.140-tegra
+RRECOMMENDS = 
+PKGSIZE = 27600
+FILES = /lib/modules/4.9.140-tegra/kernel/drivers/usb/gadget/function/usb_f_audio_source.ko /etc/modules-load.d/usb_f_audio_source.conf /etc/modprobe.d/usb_f_audio_source.conf
+FILELIST = /lib/modules/4.9.140-tegra/kernel/drivers/usb/gadget/function/usb_f_audio_source.ko

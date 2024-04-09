@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5
+-rw-r--r-- root       root            11971 ./usr/lib/python3.5/asynchat.py
+-rw-r--r-- root       root            20104 ./usr/lib/python3.5/asyncore.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.5/__pycache__
+-rw-r--r-- root       root             8465 ./usr/lib/python3.5/__pycache__/asynchat.cpython-35.opt-1.pyc
+-rw-r--r-- root       root             7085 ./usr/lib/python3.5/__pycache__/asynchat.cpython-35.opt-2.pyc
+-rw-r--r-- root       root             8465 ./usr/lib/python3.5/__pycache__/asynchat.cpython-35.pyc
+-rw-r--r-- root       root            17159 ./usr/lib/python3.5/__pycache__/asyncore.cpython-35.opt-1.pyc
+-rw-r--r-- root       root            15953 ./usr/lib/python3.5/__pycache__/asyncore.cpython-35.opt-2.pyc
+-rw-r--r-- root       root            17159 ./usr/lib/python3.5/__pycache__/asyncore.cpython-35.pyc
+-rw-r--r-- root       root            29286 ./usr/lib/python3.5/__pycache__/smtpd.cpython-35.opt-1.pyc
+-rw-r--r-- root       root            26633 ./usr/lib/python3.5/__pycache__/smtpd.cpython-35.opt-2.pyc
+-rw-r--r-- root       root            29286 ./usr/lib/python3.5/__pycache__/smtpd.cpython-35.pyc
+-rwxr-xr-x root       root            35362 ./usr/lib/python3.5/smtpd.py

@@ -1,0 +1,8 @@
+PV = 2.62.3
+PR = r0
+RPROVIDES = ja-translation libsoup-2.4-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ja
+PKGSIZE = 1737
+FILES = /usr/share/locale/ja
+FILELIST = /usr/share/locale/ja/LC_MESSAGES/libsoup.mo

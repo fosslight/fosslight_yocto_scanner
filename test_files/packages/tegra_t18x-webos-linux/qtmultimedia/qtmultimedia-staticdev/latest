@@ -1,0 +1,10 @@
+PV = 5.12.6+gitAUTOINC+53a507b30b
+PR = r0
+PKGV = 5.12.6+git0+53a507b30b
+PKGR = r0webos4
+RPROVIDES = 
+RDEPENDS = qtmultimedia-dev (= 5.12.6+git0+53a507b30b-r0webos4)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/qtmultimedia/*.a /usr/lib/*.a /usr/lib/plugins/*/*.a /usr/lib/plugins/*/*.prl /usr/lib/plugins/*/*/*.a /usr/lib/plugins/*/*/*.prl /usr/lib/qml/*/*.a /usr/lib/qml/*/*.prl /usr/lib/qml/*/*/*.a /usr/lib/qml/*/*/*.prl /usr/lib/qml/*/*/*/*.a /usr/lib/qml/*/*/*/*.prl /usr/lib/qml/*/*/*/*/*.a /usr/lib/qml/*/*/*/*/*.prl
+FILELIST = 

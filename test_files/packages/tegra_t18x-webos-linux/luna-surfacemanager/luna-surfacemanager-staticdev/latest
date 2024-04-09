@@ -1,0 +1,9 @@
+PV = 2.0.0-314
+PR = r46
+PKGR = r46webostegra2
+RPROVIDES = 
+RDEPENDS = luna-surfacemanager-dev (= 2.0.0-314-r46webostegra2)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/luna-surfacemanager/*.a
+FILELIST = 

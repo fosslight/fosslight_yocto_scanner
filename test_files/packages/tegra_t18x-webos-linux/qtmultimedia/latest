@@ -1,0 +1,5 @@
+PV = 5.12.6+gitAUTOINC+53a507b30b
+PR = r0
+DEPENDS = alsa-lib icecc-create-env-native pulseaudio qtbase-native qtdeclarative virtual/aarch64-webos-linux-compilerlibs virtual/aarch64-webos-linux-gcc virtual/libc
+PACKAGES = qtmultimedia-qmldesigner qtmultimedia-qmlplugins qtmultimedia-tools qtmultimedia-plugins qtmultimedia-mkspecs qtmultimedia-examples qtmultimedia-dbg qtmultimedia-staticdev qtmultimedia-dev qtmultimedia-doc qtmultimedia-locale qtmultimedia
+LAYER = qt5-layer

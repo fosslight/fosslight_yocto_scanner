@@ -1,0 +1,8 @@
+PV = 1.0.0-7
+PR = r10
+RPROVIDES = 
+RDEPENDS = babeltrace glibc (>= 2.28) libgcc (>= 8.2.0) libpbnjson (>= 2.15.0-1) libstdc++ (>= 8.2.0) lttng-modules lttng-tools lttng-ust (>= 2.10.3) python-argparse python-compression python-core python-json python-logging python-multiprocessing python-subprocess
+RRECOMMENDS = 
+PKGSIZE = 657488
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/pmtrace /usr/lib/pmtrace/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/pmtrace/perf-log-viewer-conf.json /etc/pmtrace/session-event-conf.json /etc/pmtrace/session-report-conf.json /usr/bin/acg_migration_tracker.py /usr/bin/commander.py /usr/bin/mem_profile.py /usr/bin/perf_log_viewer.py /usr/bin/plat_info.py /usr/bin/pmctl /usr/bin/pmsession /usr/bin/pmsession-report /usr/bin/smem.arm /usr/lib/libPmTrace.so.1 /usr/lib/libPmTrace.so.1.1.0 /usr/lib/liblttng-ust-mtrace-malloc.so.1 /usr/lib/liblttng-ust-mtrace-malloc.so.1.1.0 /usr/lib/liblttng-ust-mtrace-new.so.1 /usr/lib/liblttng-ust-mtrace-new.so.1.1.0

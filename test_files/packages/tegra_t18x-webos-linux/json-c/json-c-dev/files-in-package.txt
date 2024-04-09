@@ -1,0 +1,22 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/json-c
+-rw-r--r-- root       root             1557 ./usr/include/json-c/arraylist.h
+-rw-r--r-- root       root              755 ./usr/include/json-c/bits.h
+-rw-r--r-- root       root             1724 ./usr/include/json-c/debug.h
+-rw-r--r-- root       root              163 ./usr/include/json-c/json_config.h
+-rw-r--r-- root       root             1184 ./usr/include/json-c/json_c_version.h
+-rw-r--r-- root       root              810 ./usr/include/json-c/json.h
+-rw-r--r-- root       root              350 ./usr/include/json-c/json_inttypes.h
+-rw-r--r-- root       root            37992 ./usr/include/json-c/json_object.h
+-rw-r--r-- root       root             8274 ./usr/include/json-c/json_object_iterator.h
+-rw-r--r-- root       root             4832 ./usr/include/json-c/json_pointer.h
+-rw-r--r-- root       root             7092 ./usr/include/json-c/json_tokener.h
+-rw-r--r-- root       root             2997 ./usr/include/json-c/json_util.h
+-rw-r--r-- root       root             3181 ./usr/include/json-c/json_visit.h
+-rw-r--r-- root       root            11151 ./usr/include/json-c/linkhash.h
+-rw-r--r-- root       root             3858 ./usr/include/json-c/printbuf.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               18 ./usr/lib/libjson-c.so -> libjson-c.so.4.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              222 ./usr/lib/pkgconfig/json-c.pc

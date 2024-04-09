@@ -1,8 +1,0 @@
-PV = 0.16
-PR = r0
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = glibc-dbg
-PKGSIZE = 149112
-FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/lib/.debug/libpciaccess.so.0.11.1

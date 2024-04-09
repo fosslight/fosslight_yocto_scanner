@@ -1,0 +1,10 @@
+PV = 1.1.6
+PR = r0
+PKG = libasound-locale
+PKGR = r0webos1
+RPROVIDES = alsa-lib-locale (=1.1.6)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

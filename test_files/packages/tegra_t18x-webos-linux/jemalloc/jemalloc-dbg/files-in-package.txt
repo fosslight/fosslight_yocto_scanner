@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           289272 ./usr/lib/.debug/libjemalloc_mt.so.0.20080828a
+-rwxr-xr-x root       root           268632 ./usr/lib/.debug/libjemalloc.so.0.20080828a
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/jemalloc
+drwxr-xr-x root       root             4096 ./usr/src/debug/jemalloc/0.20080828a-0webos9-1-r1
+drwxr-xr-x root       root             4096 ./usr/src/debug/jemalloc/0.20080828a-0webos9-1-r1/git
+drwxr-xr-x root       root             4096 ./usr/src/debug/jemalloc/0.20080828a-0webos9-1-r1/git/src
+-rw-r--r-- root       root           146256 ./usr/src/debug/jemalloc/0.20080828a-0webos9-1-r1/git/src/jemalloc_linux.c
+-rw-r--r-- root       root            10858 ./usr/src/debug/jemalloc/0.20080828a-0webos9-1-r1/git/src/jemalloc_wrapper.c

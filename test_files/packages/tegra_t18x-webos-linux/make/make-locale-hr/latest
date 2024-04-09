@@ -1,0 +1,8 @@
+PV = 4.2.1
+PR = r0
+RPROVIDES = hr-translation make-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hr
+PKGSIZE = 46853
+FILES = /usr/share/locale/hr
+FILELIST = /usr/share/locale/hr/LC_MESSAGES/make.mo

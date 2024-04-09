@@ -1,0 +1,9 @@
+PV = 8.43
+PR = r0
+PKG = libpcreposix0
+RPROVIDES = libpcreposix (=8.43)
+RDEPENDS = glibc (>= 2.28) libpcre (>= 8.43)
+RRECOMMENDS = 
+PKGSIZE = 67781
+FILES = /usr/lib/libpcreposix.so.*
+FILELIST = /usr/lib/libpcreposix.so.0 /usr/lib/libpcreposix.so.0.0.6

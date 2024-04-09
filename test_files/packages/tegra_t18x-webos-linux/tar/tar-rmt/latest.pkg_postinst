@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /sbin/rmt rmt /sbin/rmt.tar 100

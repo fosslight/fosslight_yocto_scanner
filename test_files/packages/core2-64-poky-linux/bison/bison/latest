@@ -1,8 +1,0 @@
-PV = 3.5.4
-PR = r0
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.31+git0+1094741224)
-RRECOMMENDS = 
-PKGSIZE = 1082923
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/bison /usr/lib/bison/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/bison /usr/bin/yacc /usr/share/bison/README.md /usr/share/bison/bison-default.css /usr/share/bison/m4sugar/foreach.m4 /usr/share/bison/m4sugar/m4sugar.m4 /usr/share/bison/skeletons/README-D.txt /usr/share/bison/skeletons/bison.m4 /usr/share/bison/skeletons/c++-skel.m4 /usr/share/bison/skeletons/c++.m4 /usr/share/bison/skeletons/c-like.m4 /usr/share/bison/skeletons/c-skel.m4 /usr/share/bison/skeletons/c.m4 /usr/share/bison/skeletons/d-skel.m4 /usr/share/bison/skeletons/d.m4 /usr/share/bison/skeletons/glr.c /usr/share/bison/skeletons/glr.cc /usr/share/bison/skeletons/java-skel.m4 /usr/share/bison/skeletons/java.m4 /usr/share/bison/skeletons/lalr1.cc /usr/share/bison/skeletons/lalr1.d /usr/share/bison/skeletons/lalr1.java /usr/share/bison/skeletons/location.cc /usr/share/bison/skeletons/stack.hh /usr/share/bison/skeletons/variant.hh /usr/share/bison/skeletons/yacc.c /usr/share/bison/xslt/bison.xsl /usr/share/bison/xslt/xml2dot.xsl /usr/share/bison/xslt/xml2text.xsl /usr/share/bison/xslt/xml2xhtml.xsl

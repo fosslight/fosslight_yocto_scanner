@@ -1,0 +1,8 @@
+PV = 3.0.0-3
+PR = r13
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.58.0-0webos4) glibc (>= 2.28) json-c (>= 0.13.1) libsqlite3 (>= 3.29.0) luna-prefs-data luna-service2 (>= 3.21.2-5) nyx-lib (>= 7.3.0-2)
+RRECOMMENDS = 
+PKGSIZE = 206594
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/luna-prefs /usr/lib/luna-prefs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services /usr/share/dbus-1/services /usr/share/ls2/roles/prv /usr/share/ls2/roles/pub /usr/share/luna-service2/roles.d /usr/share/luna-service2/services.d /usr/share/luna-service2/client-permissions.d /usr/share/luna-service2/api-permissions.d /usr/share/luna-service2/groups.d /usr/share/luna-service2/manifests.d
+FILELIST = /usr/bin/luna-prefs-service /usr/bin/lunaprop /usr/lib/libluna-prefs.so.3 /usr/lib/libluna-prefs.so.3.0.0 /usr/share/dbus-1/services/com.palm.preferences.service /usr/share/dbus-1/system-services/com.palm.preferences.service /usr/share/ls2/roles/prv/com.palm.preferences.json /usr/share/ls2/roles/pub/com.palm.preferences.json /usr/share/luna-service2/api-permissions.d/com.palm.preferences.api.json /usr/share/luna-service2/manifests.d/luna-prefs.manifest.json /usr/share/luna-service2/roles.d/com.palm.preferences.service.role.json /usr/share/luna-service2/services.d/com.palm.preferences.service

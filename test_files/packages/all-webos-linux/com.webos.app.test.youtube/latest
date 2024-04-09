@@ -1,0 +1,5 @@
+PV = 1.0.0-7
+PR = r4.2
+DEPENDS = cmake-modules-webos-native cmake-native ninja-native
+PACKAGES = com.webos.app.test.youtube-dbg com.webos.app.test.youtube-staticdev com.webos.app.test.youtube-dev com.webos.app.test.youtube-doc com.webos.app.test.youtube-locale com.webos.app.test.youtube
+LAYER = meta-webos

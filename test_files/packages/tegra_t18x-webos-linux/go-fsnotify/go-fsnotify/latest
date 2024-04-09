@@ -1,0 +1,8 @@
+PV = 1.2.11+git836bfd95fecc0f1511dd66bdbf2b5b61ab8b00b6
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 113260
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/go-fsnotify /usr/lib/go-fsnotify/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/local/go/src/github.com/fsnotify/fsnotify/*
+FILELIST = /usr/local/go/src/github.com/fsnotify/fsnotify/AUTHORS /usr/local/go/src/github.com/fsnotify/fsnotify/CHANGELOG.md /usr/local/go/src/github.com/fsnotify/fsnotify/CONTRIBUTING.md /usr/local/go/src/github.com/fsnotify/fsnotify/LICENSE /usr/local/go/src/github.com/fsnotify/fsnotify/README.md /usr/local/go/src/github.com/fsnotify/fsnotify/example_test.go /usr/local/go/src/github.com/fsnotify/fsnotify/fen.go /usr/local/go/src/github.com/fsnotify/fsnotify/fsnotify.go /usr/local/go/src/github.com/fsnotify/fsnotify/inotify.go /usr/local/go/src/github.com/fsnotify/fsnotify/inotify_poller.go /usr/local/go/src/github.com/fsnotify/fsnotify/inotify_poller_test.go /usr/local/go/src/github.com/fsnotify/fsnotify/inotify_test.go /usr/local/go/src/github.com/fsnotify/fsnotify/integration_darwin_test.go /usr/local/go/src/github.com/fsnotify/fsnotify/integration_test.go /usr/local/go/src/github.com/fsnotify/fsnotify/kqueue.go /usr/local/go/src/github.com/fsnotify/fsnotify/open_mode_bsd.go /usr/local/go/src/github.com/fsnotify/fsnotify/open_mode_darwin.go /usr/local/go/src/github.com/fsnotify/fsnotify/windows.go

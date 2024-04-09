@@ -1,0 +1,8 @@
+PV = 2.0.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.28) libcheck (>= 0.12.0) make
+RRECOMMENDS = ptest-runner
+PKGSIZE = 3833024
+FILES = /usr/lib/kbd/ptest
+FILELIST = /usr/lib/kbd/ptest/config/test-driver /usr/lib/kbd/ptest/run-ptest /usr/lib/kbd/ptest/tests/Makefile /usr/lib/kbd/ptest/tests/VoidSymbol.map /usr/lib/kbd/ptest/tests/alt-is-meta /usr/lib/kbd/ptest/tests/alt-is-meta.map /usr/lib/kbd/ptest/tests/alt-is-meta.output /usr/lib/kbd/ptest/tests/charset-keymap0.map /usr/lib/kbd/ptest/tests/dumpkeys-fulltable /usr/lib/kbd/ptest/tests/dumpkeys.bkeymap.bin /usr/lib/kbd/ptest/tests/dumpkeys.full.ruwin_cplk-UTF-8.map /usr/lib/kbd/ptest/tests/dumpkeys.qwerty-layout.map /usr/lib/kbd/ptest/tests/dumpkeys.ua-ws.map /usr/lib/kbd/ptest/tests/include40.map /usr/lib/kbd/ptest/tests/include41.map /usr/lib/kbd/ptest/tests/keymap0.map /usr/lib/kbd/ptest/tests/keymap1.map /usr/lib/kbd/ptest/tests/keymap2.map /usr/lib/kbd/ptest/tests/keymap3.map /usr/lib/kbd/ptest/tests/keymap4.map /usr/lib/kbd/ptest/tests/keymap5.map /usr/lib/kbd/ptest/tests/keymap6.map /usr/lib/kbd/ptest/tests/libkeymap-bkeymap /usr/lib/kbd/ptest/tests/libkeymap-charset /usr/lib/kbd/ptest/tests/libkeymap-dumpkeys /usr/lib/kbd/ptest/tests/libkeymap-init /usr/lib/kbd/ptest/tests/libkeymap-keys /usr/lib/kbd/ptest/tests/libkeymap-kmap /usr/lib/kbd/ptest/tests/libkeymap-mktable /usr/lib/kbd/ptest/tests/libkeymap-parse /usr/lib/kbd/ptest/tests/libkeymap-showmaps
