@@ -245,7 +245,7 @@ def find_latest_pkg_from_buildhistory(path_buildhistory, installed_pkg_version):
                         pkg = match.group(3).strip()
                         for pkg_name in pkg.split():
                             re_pkg_name = re.escape(pkg_name)
-                            r = re.compile(f"^{re_pkg_name}-{pv}-{pr}")
+                            r = re.compile(f"^{re_pkg_name}(-|_){pv}(-|_){pr}")
                             installed_pkg_verified = list(filter(r.match, installed_pkg_version_lines))
                             if installed_pkg_verified:
                                 nested_pkg_name[pkg_name] = recipe_name
