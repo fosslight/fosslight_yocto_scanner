@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.1.28 (11/04/2024)
+## Changes
+## 🔧 Maintenance
+
+- Add PV and PR separators @soimkim (#25)
+
+---
+
 ## v3.1.27 (09/04/2024)
 ## Changes
 ## 🚀 Features
