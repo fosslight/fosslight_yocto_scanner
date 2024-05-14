@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.1.29 (14/05/2024)
+## Changes
+## 🔧 Maintenance
+
+- Do not exclude binaries without OSS information @soimkim (#27)
+- Print an error if -i, -ip is entered incorrectly @soimkim (#26)
+
+---
+
 ## v3.1.28 (11/04/2024)
 ## Changes
 ## 🔧 Maintenance
