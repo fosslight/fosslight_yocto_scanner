@@ -76,21 +76,32 @@ OSC_DB_PASSWORD = 'oss_lic123'
 def read_installed_pkg_file(installed_pkg_names_file):
     global installed_packages_src
     installed_packages_src = []
-
+    success = True
     try:
         success, lines = read_file(installed_pkg_names_file)
         for line in lines:
             if line != "":
                 pkg_name = line.strip()
                 pkg_item = PackageItem()
-                if pkg_name != "":
+                if pkg_name:
                     pkg_item = update_package_name(pkg_item, pkg_name, nested_pkg_name)
                     if pkg_name in bom_pkg_data:
                         for key, value in bom_pkg_data[pkg_name].items():
                             set_value_switch(pkg_item, key, value, nested_pkg_name)
                     installed_packages_src.append(pkg_item)
+                    if not pkg_item.oss_name:
+                        logger.error(f"Can't find recipe for {pkg_name}")
+                        logger.error("Check whether you entered installed-package-names.txt with -i.")
+                        logger.info(f"---- Value entered with -i:{installed_pkg_names_file}")
+                        success = False
+                        break
     except Exception as ex:
         logger.error(f"Read {installed_pkg_names_file}: {ex}")
+        success = False
+    if not installed_packages_src:
+        logger.error(f"Empty File : {installed_pkg_names_file}")
+        success = False
+    return success
 
 
 def get_json_object(str_data):
@@ -213,6 +224,9 @@ def find_latest_pkg_from_buildhistory(path_buildhistory, installed_pkg_version):
     not_installed_pkg = {}
 
     success, installed_pkg_version_lines = read_file(installed_pkg_version)
+    if not installed_pkg_version_lines:
+        logger.error(f"Empty File:{installed_pkg_version}")
+        return buildhistory_latest_pkg
 
     for root, dirs, files in os.walk(path_buildhistory):
         for file in files:
@@ -970,7 +984,6 @@ def main():
     buildhistory_path = ""
     bin_analysis_path = ""
     _print_bin_android = False
-    _change_license_to_declared_license = False
     _analyze_source = False
     _analyze_source_all = False
     _compress_source_all = False
@@ -990,7 +1003,6 @@ def main():
     parser.add_argument('-o', '--output', type=str, required=False)
     parser.add_argument('-f', '--format', type=str, required=False)
     parser.add_argument('-n', '--another', action='store_true', required=False)
-    parser.add_argument('-d', '--declared', action='store_true', required=False)
     parser.add_argument('-s', '--source', action='store_true', required=False)
     parser.add_argument('-c', '--complete', action='store_true', required=False)
     parser.add_argument('-e', '--compress', action='store_true', required=False)
@@ -1020,8 +1032,6 @@ def main():
     if args.another:
         # Print SRC result on BIN(Android) Sheet
         _print_bin_android = True
-    if args.declared:
-        _change_license_to_declared_license = True
     if args.source:
         _analyze_source = True
     if args.complete:
@@ -1054,23 +1064,24 @@ def main():
     check_required_files(bom_file, installed_pkgs, buildhistory_path, installed_pkgs_with_version)
 
     # Parsing bom file for packages' data
-    read_bom_file(bom_file, find_latest_pkg_from_buildhistory(buildhistory_path, installed_pkgs_with_version))
+    pkg_from_buildhistory = find_latest_pkg_from_buildhistory(buildhistory_path, installed_pkgs_with_version)
+    if not pkg_from_buildhistory:
+        sys.exit(1)
+    read_bom_file(bom_file, pkg_from_buildhistory)
 
     # Dependency Analysis - SRC Sheet or BIN(Android) Sheet
-    read_installed_pkg_file(installed_pkgs)
+    success = read_installed_pkg_file(installed_pkgs)
+    if not success:
+        sys.exit(1)
 
     # Binary Analysis - BIN Sheet
-    if bin_analysis_path != "":
+    if bin_analysis_path:
         get_binary_list(find_package_files(buildhistory_path), bin_analysis_path, out_bin_txt)
 
     # Load oss-pkg-info.yaml
-    if oss_pkg_yaml_file != "":
+    if oss_pkg_yaml_file:
         installed_packages_src, installed_packages_bin = load_oss_pkg_info_yaml(oss_pkg_yaml_file, _print_bin_android,
                                                                                 installed_packages_src, installed_packages_bin, nested_pkg_name)
-
-    # Declare License by OSC System's OSS DB only in case multi or dual licenses
-    if _change_license_to_declared_license:
-        declare_license_by_osc_db()
 
     # Source Code Analysis
     if _analyze_source:
