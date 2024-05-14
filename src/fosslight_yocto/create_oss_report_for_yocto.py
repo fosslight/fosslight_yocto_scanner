@@ -355,8 +355,8 @@ def get_checksum_and_tlsh(bin_file_full_path):
 
 def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
     global installed_packages_bin, binary_list
-    _EXCLUDE_FILE_EXTENSION = ['png', 'gif', 'jpg', 'bmp', 'jpeg', 'qm']
-    _EXCLUDE_FILE_COMMAND_RESULT = ['data', 'timezone data']
+    EXCLUDE_FILE_EXTENSION = ['qm', 'pyc']
+    EXCLUDE_FILE_COMMAND_RESULT = ['data', 'timezone data']
     str_files = []  # string to print binary.txt
     file_list = []
     success = False
@@ -380,7 +380,7 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
             file = os.path.basename(file_abs_path)
             extension = os.path.splitext(file)[1][1:]
 
-            if not os.path.islink(file_abs_path) and extension not in _EXCLUDE_FILE_EXTENSION:
+            if not os.path.islink(file_abs_path) and extension not in EXCLUDE_FILE_EXTENSION:
                 file_abs_path = os.path.realpath(file_abs_path)
                 file_rel_path = "./" + os.path.relpath(file_abs_path, path_to_find)
 
@@ -389,7 +389,7 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
                 if is_binary(file_abs_path):
                     file_command_result = magic.from_file(file_abs_path)
                     if file_command_result != "":
-                        excluded_keyword = [x for x in _EXCLUDE_FILE_COMMAND_RESULT if
+                        excluded_keyword = [x for x in EXCLUDE_FILE_COMMAND_RESULT if
                                             file_command_result.startswith(x)]
                         if len(excluded_keyword) > 0:
                             continue
@@ -419,17 +419,13 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
                         pkg_item = PackageItem()
                         pkg_item = update_package_name(pkg_item, pkg_name, nested_pkg_name)
                         pkg_item.source_name_or_path = file_rel_path
-                        if pkg_name != "" and pkg_name in bom_pkg_data:
-                            for key, value in bom_pkg_data[pkg_name].items():
-                                set_value_switch(pkg_item, key, value, nested_pkg_name)
-                        else:
-                            if pkg_name != "":
+                        if pkg_name:
+                            if pkg_name in bom_pkg_data:
+                                for key, value in bom_pkg_data[pkg_name].items():
+                                    set_value_switch(pkg_item, key, value, nested_pkg_name)
+                            else:
                                 pkg_item.oss_name = pkg_name
                                 pkg_item.comment = "Can't find package info from bom."
-                            else:
-                                pkg_item.exclude = True
-                                pkg_item.comment = "Can't find package info from bom & buildhistory."
-
                         installed_packages_bin.append(pkg_item)
         except Exception as ex:
             logger.error(f"Get_binary_list: {ex}")
