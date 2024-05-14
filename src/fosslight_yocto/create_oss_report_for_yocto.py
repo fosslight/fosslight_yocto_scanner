@@ -76,7 +76,7 @@ OSC_DB_PASSWORD = 'oss_lic123'
 def read_installed_pkg_file(installed_pkg_names_file):
     global installed_packages_src
     installed_packages_src = []
-
+    success = True
     try:
         success, lines = read_file(installed_pkg_names_file)
         for line in lines:
@@ -91,6 +91,12 @@ def read_installed_pkg_file(installed_pkg_names_file):
                     installed_packages_src.append(pkg_item)
     except Exception as ex:
         logger.error(f"Read {installed_pkg_names_file}: {ex}")
+        success = False
+    if not installed_packages_src:
+        logger.error(f"Empty File : {installed_pkg_names_file}")
+        success = False
+    return success
+
 
 
 def get_json_object(str_data):
@@ -1057,14 +1063,16 @@ def main():
     read_bom_file(bom_file, find_latest_pkg_from_buildhistory(buildhistory_path, installed_pkgs_with_version))
 
     # Dependency Analysis - SRC Sheet or BIN(Android) Sheet
-    read_installed_pkg_file(installed_pkgs)
+    success = read_installed_pkg_file(installed_pkgs)
+    if not success:
+        sys.exit(1)
 
     # Binary Analysis - BIN Sheet
-    if bin_analysis_path != "":
+    if bin_analysis_path:
         get_binary_list(find_package_files(buildhistory_path), bin_analysis_path, out_bin_txt)
 
     # Load oss-pkg-info.yaml
-    if oss_pkg_yaml_file != "":
+    if oss_pkg_yaml_file:
         installed_packages_src, installed_packages_bin = load_oss_pkg_info_yaml(oss_pkg_yaml_file, _print_bin_android,
                                                                                 installed_packages_src, installed_packages_bin, nested_pkg_name)
 
