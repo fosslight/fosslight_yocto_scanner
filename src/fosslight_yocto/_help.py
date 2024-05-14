@@ -22,7 +22,6 @@ _HELP_MESSAGE_BOM = """
             -y <file_with_path>\t\t   oss-pkg-info.yaml
             -a <path>\t\t\t   Path to analyze the binaries
             -n\t\t\t\t   Print result in BIN(Android) format
-            -d\t\t\t\t   Change license to declared license
             -s\t\t\t\t   Analyze source code for unconfirmed Open Source
             -c\t\t\t\t   Analyze all the source code
             -e\t\t\t\t   Compress all the source code

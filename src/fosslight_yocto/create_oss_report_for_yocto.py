@@ -104,7 +104,6 @@ def read_installed_pkg_file(installed_pkg_names_file):
     return success
 
 
-
 def get_json_object(str_data):
     json_object = ""
     try:
@@ -982,7 +981,6 @@ def main():
     buildhistory_path = ""
     bin_analysis_path = ""
     _print_bin_android = False
-    _change_license_to_declared_license = False
     _analyze_source = False
     _analyze_source_all = False
     _compress_source_all = False
@@ -1002,7 +1000,6 @@ def main():
     parser.add_argument('-o', '--output', type=str, required=False)
     parser.add_argument('-f', '--format', type=str, required=False)
     parser.add_argument('-n', '--another', action='store_true', required=False)
-    parser.add_argument('-d', '--declared', action='store_true', required=False)
     parser.add_argument('-s', '--source', action='store_true', required=False)
     parser.add_argument('-c', '--complete', action='store_true', required=False)
     parser.add_argument('-e', '--compress', action='store_true', required=False)
@@ -1032,8 +1029,6 @@ def main():
     if args.another:
         # Print SRC result on BIN(Android) Sheet
         _print_bin_android = True
-    if args.declared:
-        _change_license_to_declared_license = True
     if args.source:
         _analyze_source = True
     if args.complete:
