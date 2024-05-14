@@ -1076,10 +1076,6 @@ def main():
         installed_packages_src, installed_packages_bin = load_oss_pkg_info_yaml(oss_pkg_yaml_file, _print_bin_android,
                                                                                 installed_packages_src, installed_packages_bin, nested_pkg_name)
 
-    # Declare License by OSC System's OSS DB only in case multi or dual licenses
-    if _change_license_to_declared_license:
-        declare_license_by_osc_db()
-
     # Source Code Analysis
     if _analyze_source:
         run_source_code_analysis_multiprocessing(_analyze_source_all, output_path, os.path.join(output_path, output_src_analysis_file))
