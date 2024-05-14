@@ -355,7 +355,7 @@ def get_checksum_and_tlsh(bin_file_full_path):
 
 def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
     global installed_packages_bin, binary_list
-    EXCLUDE_FILE_EXTENSION = ['qm']
+    EXCLUDE_FILE_EXTENSION = ['qm', 'pyc']
     EXCLUDE_FILE_COMMAND_RESULT = ['data', 'timezone data']
     str_files = []  # string to print binary.txt
     file_list = []
