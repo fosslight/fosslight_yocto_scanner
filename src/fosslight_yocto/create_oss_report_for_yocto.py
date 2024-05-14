@@ -224,6 +224,9 @@ def find_latest_pkg_from_buildhistory(path_buildhistory, installed_pkg_version):
     not_installed_pkg = {}
 
     success, installed_pkg_version_lines = read_file(installed_pkg_version)
+    if not installed_pkg_version_lines:
+        logger.error(f"Empty File:{installed_pkg_version}")
+        return buildhistory_latest_pkg
 
     for root, dirs, files in os.walk(path_buildhistory):
         for file in files:
@@ -1061,7 +1064,10 @@ def main():
     check_required_files(bom_file, installed_pkgs, buildhistory_path, installed_pkgs_with_version)
 
     # Parsing bom file for packages' data
-    read_bom_file(bom_file, find_latest_pkg_from_buildhistory(buildhistory_path, installed_pkgs_with_version))
+    pkg_from_buildhistory = find_latest_pkg_from_buildhistory(buildhistory_path, installed_pkgs_with_version)
+    if not pkg_from_buildhistory:
+        sys.exit(1)
+    read_bom_file(bom_file, pkg_from_buildhistory)
 
     # Dependency Analysis - SRC Sheet or BIN(Android) Sheet
     success = read_installed_pkg_file(installed_pkgs)
