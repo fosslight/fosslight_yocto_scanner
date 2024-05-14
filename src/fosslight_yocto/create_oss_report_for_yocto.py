@@ -83,12 +83,18 @@ def read_installed_pkg_file(installed_pkg_names_file):
             if line != "":
                 pkg_name = line.strip()
                 pkg_item = PackageItem()
-                if pkg_name != "":
+                if pkg_name:
                     pkg_item = update_package_name(pkg_item, pkg_name, nested_pkg_name)
                     if pkg_name in bom_pkg_data:
                         for key, value in bom_pkg_data[pkg_name].items():
                             set_value_switch(pkg_item, key, value, nested_pkg_name)
                     installed_packages_src.append(pkg_item)
+                    if not pkg_item.oss_name:
+                        logger.error(f"Can't find recipe for {pkg_name}")
+                        logger.error("Check whether you entered installed-package-names.txt with -i.")
+                        logger.info(f"---- Value entered with -i:{installed_pkg_names_file}")
+                        success = False
+                        break
     except Exception as ex:
         logger.error(f"Read {installed_pkg_names_file}: {ex}")
         success = False
