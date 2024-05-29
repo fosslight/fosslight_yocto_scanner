@@ -39,6 +39,7 @@ from ._overwrite_yaml import load_oss_pkg_info_yaml
 from fosslight_util.output_format import check_output_format
 import argparse
 from typing import List
+from fosslight_util.cover import CoverItem
 
 logger = logging.getLogger(constant.LOGGER_NAME)
 _PKG_NAME = "fosslight_yocto"
@@ -1084,9 +1085,12 @@ def main():
         run_source_code_analysis_multiprocessing(_analyze_source_all, output_path, os.path.join(output_path, output_src_analysis_file))
 
     # Write the result to excel file
+    cover = CoverItem(tool_name=_PKG_NAME,
+                      start_time=start_time,
+                      input_path=os.getcwd())
     write_result_from_bom(output_file, installed_packages_src, installed_packages_bin,
                           _print_bin_android, output_extension,
-                          additional_columns, binary_list)
+                          additional_columns, binary_list, cover)
 
     if _compress_source_all:
         try:

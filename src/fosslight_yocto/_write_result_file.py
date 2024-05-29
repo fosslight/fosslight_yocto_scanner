@@ -16,7 +16,7 @@ SHEET_NAME_BIN_YOCTO = "BIN (Yocto)"
 
 
 def write_result_from_bom(out_file_name, installed_packages_src, installed_packages_bin,
-                          bin_android_mode=False, output_extension="", additional_column=[], binary_list=[]):
+                          bin_android_mode=False, output_extension="", additional_column=[], binary_list=[], cover=""):
     SHEET_HEADER = {SHEET_NAME_BIN_YOCTO: ['ID', 'Binary Name', 'Source Code Path',
                                            'NOTICE.html', 'OSS Name', 'OSS Version',
                                            'License', 'Download Location', 'Homepage',
@@ -48,7 +48,7 @@ def write_result_from_bom(out_file_name, installed_packages_src, installed_packa
 
     logger.debug(f"FILE:{out_file_name}{output_extension}")
     success_to_write, writing_msg, result_file = write_output_file(out_file_name, output_extension, sheet_list,
-                                                                   SHEET_HEADER, HIDDEN_HEADER)
+                                                                   SHEET_HEADER, HIDDEN_HEADER, cover)
 
     if success_to_write:
         logger.info(f"Output file :{result_file}")
