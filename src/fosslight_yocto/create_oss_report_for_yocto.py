@@ -24,7 +24,6 @@ import stat
 from scancode import cli
 from fosslight_util.set_log import init_log
 import fosslight_util.constant as constant
-from fosslight_util.write_txt import write_txt_file
 from ._zip_source_works import collect_source
 from ._package_item import (
     const_other_proprietary_license,
@@ -354,11 +353,10 @@ def get_checksum_and_tlsh(bin_file_full_path):
     return checksum_value, tlsh_value
 
 
-def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
+def get_binary_list(buildhistory_package_files, path_to_find):
     global installed_packages_bin, binary_list
     EXCLUDE_FILE_EXTENSION = ['qm', 'pyc']
     EXCLUDE_FILE_COMMAND_RESULT = ['data', 'timezone data']
-    str_files = []  # string to print binary.txt
     file_list = []
     success = False
     PREFIX_BIN_FAILED = "[Binary Analysis Error] "
@@ -375,73 +373,65 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
 
     if not file_list:
         logger.error(f"{PREFIX_BIN_FAILED}Cannot find files in directory: {path_to_find}\nPlease check the Path again.")
-        return success, cnt_bin
-
-    for file_abs_path in tqdm(file_list):
-        try:
-            file = os.path.basename(file_abs_path)
-            extension = os.path.splitext(file)[1][1:]
-
-            if not os.path.islink(file_abs_path) and extension not in EXCLUDE_FILE_EXTENSION:
-                file_abs_path = os.path.realpath(file_abs_path)
-                file_rel_path = "./" + os.path.relpath(file_abs_path, path_to_find)
-
-                if stat.S_ISFIFO(os.stat(file_abs_path).st_mode):
-                    continue
-                if is_binary(file_abs_path):
-                    file_command_result = magic.from_file(file_abs_path)
-                    if file_command_result != "":
-                        excluded_keyword = [x for x in EXCLUDE_FILE_COMMAND_RESULT if
-                                            file_command_result.startswith(x)]
-                        if len(excluded_keyword) > 0:
-                            continue
-                    file_to_find = ' '.join(
-                        file_rel_path.split())  # If there are two or more spaces, it is changed to one space.
-                    if file_to_find in buildhistory_package_files:
-                        pkg_names = buildhistory_package_files[file_to_find]
-                        pkg_name = ""
-                        for name in pkg_names:
-                            if name in bom_pkg_data:
-                                pkg_name = name
-                                break
-                    else:  # Can't find package name
-                        pkg_name = ""
-
-                    checksum, tlsh = get_checksum_and_tlsh(file_abs_path)
-                    str_files.append(f"{file_rel_path}\t{checksum}\t{tlsh}")
-                    file_item = FileItem(file_rel_path, tlsh, checksum)
-                    binary_list.append(file_item)
-                    cnt_bin += 1
-
-                    pkg_items = list(filter(lambda x: x.package_name is pkg_name, installed_packages_bin))
-
-                    if pkg_items is not None and len(pkg_items) > 0:
-                        # Package already inserted. Just add file to it.
-                        pkg_items[0].source_name_or_path = file_rel_path
-                    else:  # New Package
-                        pkg_item = PackageItem()
-                        pkg_item = update_package_name(pkg_item, pkg_name, nested_pkg_name)
-                        pkg_item.source_name_or_path = file_rel_path
-                        if pkg_name:
-                            if pkg_name in bom_pkg_data:
-                                for key, value in bom_pkg_data[pkg_name].items():
-                                    set_value_switch(pkg_item, key, value, nested_pkg_name)
-                            else:
-                                pkg_item.oss_name = pkg_name
-                                pkg_item.comment = "Can't find package info from bom."
-                        installed_packages_bin.append(pkg_item)
-        except Exception as ex:
-            logger.error(f"Get_binary_list: {ex}")
-    if installed_packages_bin:
-        success = True
     else:
-        logger.error(f"{PREFIX_BIN_FAILED}Binary cannot be found (File Count: {len(file_list)}): {path_to_find}\nPlease check the Path again.")
-        return success, cnt_bin
+        for file_abs_path in tqdm(file_list):
+            try:
+                file = os.path.basename(file_abs_path)
+                extension = os.path.splitext(file)[1][1:]
 
-    if str_files:
-        logger.debug(f"Write binary.txt file: {output_txt}")
-        unique_str_files = set(str_files)
-        write_txt_file(output_txt, "Binary\tsha1sum\ttlsh\n" + '\n'.join(unique_str_files))
+                if not os.path.islink(file_abs_path) and extension not in EXCLUDE_FILE_EXTENSION:
+                    file_abs_path = os.path.realpath(file_abs_path)
+                    file_rel_path = "./" + os.path.relpath(file_abs_path, path_to_find)
+
+                    if stat.S_ISFIFO(os.stat(file_abs_path).st_mode):
+                        continue
+                    if is_binary(file_abs_path):
+                        file_command_result = magic.from_file(file_abs_path)
+                        if file_command_result != "":
+                            excluded_keyword = [x for x in EXCLUDE_FILE_COMMAND_RESULT if
+                                                file_command_result.startswith(x)]
+                            if len(excluded_keyword) > 0:
+                                continue
+                        file_to_find = ' '.join(
+                            file_rel_path.split())  # If there are two or more spaces, it is changed to one space.
+                        if file_to_find in buildhistory_package_files:
+                            pkg_names = buildhistory_package_files[file_to_find]
+                            pkg_name = ""
+                            for name in pkg_names:
+                                if name in bom_pkg_data:
+                                    pkg_name = name
+                                    break
+                        else:  # Can't find package name
+                            pkg_name = ""
+
+                        checksum, tlsh = get_checksum_and_tlsh(file_abs_path)
+                        file_item = FileItem(file_rel_path, tlsh, checksum)
+                        binary_list.append(file_item)
+                        cnt_bin += 1
+
+                        pkg_items = list(filter(lambda x: x.package_name is pkg_name, installed_packages_bin))
+
+                        if pkg_items is not None and len(pkg_items) > 0:
+                            # Package already inserted. Just add file to it.
+                            pkg_items[0].source_name_or_path = file_rel_path
+                        else:  # New Package
+                            pkg_item = PackageItem()
+                            pkg_item = update_package_name(pkg_item, pkg_name, nested_pkg_name)
+                            pkg_item.source_name_or_path = file_rel_path
+                            if pkg_name:
+                                if pkg_name in bom_pkg_data:
+                                    for key, value in bom_pkg_data[pkg_name].items():
+                                        set_value_switch(pkg_item, key, value, nested_pkg_name)
+                                else:
+                                    pkg_item.oss_name = pkg_name
+                                    pkg_item.comment = "Can't find package info from bom."
+                            installed_packages_bin.append(pkg_item)
+            except Exception as ex:
+                logger.error(f"Get_binary_list: {ex}")
+        if installed_packages_bin:
+            success = True
+        else:
+            logger.error(f"{PREFIX_BIN_FAILED}Binary cannot be found (File Count: {len(file_list)}): {path_to_find}\nPlease check the Path again.")
     return success, cnt_bin
 
 
@@ -1051,8 +1041,6 @@ def main():
         else:
             output_file = f"fosslight_report_yocto_{start_time}"
     output_file = os.path.join(output_path, output_file)
-
-    out_bin_txt = os.path.join(output_path, f"fosslight_binary_yocto_{start_time}.txt")
     log_file = os.path.join(output_path, f"fosslight_log_yocto_{start_time}.txt")
     logger, log_item = init_log(log_file)
     cover = CoverItem(tool_name=_PKG_NAME,
@@ -1079,7 +1067,7 @@ def main():
 
     # Binary Analysis - BIN Sheet
     if bin_analysis_path:
-        success, bin_cnt = get_binary_list(find_package_files(buildhistory_path), bin_analysis_path, out_bin_txt)
+        success, bin_cnt = get_binary_list(find_package_files(buildhistory_path), bin_analysis_path)
         cover.comment += f"Total number of binaries: {bin_cnt}\n"
 
     # Load oss-pkg-info.yaml
