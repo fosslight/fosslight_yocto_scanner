@@ -354,11 +354,10 @@ def get_checksum_and_tlsh(bin_file_full_path):
     return checksum_value, tlsh_value
 
 
-def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
+def get_binary_list(buildhistory_package_files, path_to_find):
     global installed_packages_bin, binary_list
     EXCLUDE_FILE_EXTENSION = ['qm', 'pyc']
     EXCLUDE_FILE_COMMAND_RESULT = ['data', 'timezone data']
-    str_files = []  # string to print binary.txt
     file_list = []
     success = False
     PREFIX_BIN_FAILED = "[Binary Analysis Error] "
@@ -408,7 +407,6 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
                         pkg_name = ""
 
                     checksum, tlsh = get_checksum_and_tlsh(file_abs_path)
-                    str_files.append(f"{file_rel_path}\t{checksum}\t{tlsh}")
                     file_item = FileItem(file_rel_path, tlsh, checksum)
                     binary_list.append(file_item)
                     cnt_bin += 1
@@ -436,12 +434,6 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
         success = True
     else:
         logger.error(f"{PREFIX_BIN_FAILED}Binary cannot be found (File Count: {len(file_list)}): {path_to_find}\nPlease check the Path again.")
-        return success, cnt_bin
-
-    if str_files:
-        logger.debug(f"Write binary.txt file: {output_txt}")
-        unique_str_files = set(str_files)
-        write_txt_file(output_txt, "Binary\tsha1sum\ttlsh\n" + '\n'.join(unique_str_files))
     return success, cnt_bin
 
 
@@ -1051,8 +1043,6 @@ def main():
         else:
             output_file = f"fosslight_report_yocto_{start_time}"
     output_file = os.path.join(output_path, output_file)
-
-    out_bin_txt = os.path.join(output_path, f"fosslight_binary_yocto_{start_time}.txt")
     log_file = os.path.join(output_path, f"fosslight_log_yocto_{start_time}.txt")
     logger, log_item = init_log(log_file)
     cover = CoverItem(tool_name=_PKG_NAME,
@@ -1079,7 +1069,7 @@ def main():
 
     # Binary Analysis - BIN Sheet
     if bin_analysis_path:
-        success, bin_cnt = get_binary_list(find_package_files(buildhistory_path), bin_analysis_path, out_bin_txt)
+        success, bin_cnt = get_binary_list(find_package_files(buildhistory_path), bin_analysis_path)
         cover.comment += f"Total number of binaries: {bin_cnt}\n"
 
     # Load oss-pkg-info.yaml
