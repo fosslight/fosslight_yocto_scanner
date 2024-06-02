@@ -362,10 +362,11 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
     file_list = []
     success = False
     PREFIX_BIN_FAILED = "[Binary Analysis Error] "
+    cnt_bin = 0
 
     if not os.path.isdir(path_to_find):
         logger.error(f"{PREFIX_BIN_FAILED}Directory not found: {path_to_find}\nPlease check the Path again.")
-        return success
+        return success, cnt_bin
 
     for root, dirs, files in os.walk(path_to_find):
         for file in files:
@@ -374,7 +375,7 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
 
     if not file_list:
         logger.error(f"{PREFIX_BIN_FAILED}Cannot find files in directory: {path_to_find}\nPlease check the Path again.")
-        return success
+        return success, cnt_bin
 
     for file_abs_path in tqdm(file_list):
         try:
@@ -410,6 +411,7 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
                     str_files.append(f"{file_rel_path}\t{checksum}\t{tlsh}")
                     file_item = FileItem(file_rel_path, tlsh, checksum)
                     binary_list.append(file_item)
+                    cnt_bin += 1
 
                     pkg_items = list(filter(lambda x: x.package_name is pkg_name, installed_packages_bin))
 
@@ -434,13 +436,13 @@ def get_binary_list(buildhistory_package_files, path_to_find, output_txt):
         success = True
     else:
         logger.error(f"{PREFIX_BIN_FAILED}Binary cannot be found (File Count: {len(file_list)}): {path_to_find}\nPlease check the Path again.")
-        return success
+        return success, cnt_bin
 
     if str_files:
         logger.debug(f"Write binary.txt file: {output_txt}")
         unique_str_files = set(str_files)
         write_txt_file(output_txt, "Binary\tsha1sum\ttlsh\n" + '\n'.join(unique_str_files))
-    return success
+    return success, cnt_bin
 
 
 def check_required_files(bom, installed_pkgs, buildhistory_path, installed_pkgs_version):
@@ -1053,6 +1055,10 @@ def main():
     out_bin_txt = os.path.join(output_path, f"fosslight_binary_yocto_{start_time}.txt")
     log_file = os.path.join(output_path, f"fosslight_log_yocto_{start_time}.txt")
     logger, log_item = init_log(log_file)
+    cover = CoverItem(tool_name=_PKG_NAME,
+                      start_time=start_time,
+                      input_path=os.getcwd())
+    cover.comment = ""
 
     if not success:
         logger.error(f"Format error. {msg}")
@@ -1073,21 +1079,21 @@ def main():
 
     # Binary Analysis - BIN Sheet
     if bin_analysis_path:
-        get_binary_list(find_package_files(buildhistory_path), bin_analysis_path, out_bin_txt)
+        success, bin_cnt = get_binary_list(find_package_files(buildhistory_path), bin_analysis_path, out_bin_txt)
+        cover.comment += f"Total number of binaries: {bin_cnt}\n"
 
     # Load oss-pkg-info.yaml
     if oss_pkg_yaml_file:
         installed_packages_src, installed_packages_bin = load_oss_pkg_info_yaml(oss_pkg_yaml_file, _print_bin_android,
                                                                                 installed_packages_src, installed_packages_bin, nested_pkg_name)
+        cover.comment += f"Load sbom-info.yaml: {oss_pkg_yaml_file}\n"
 
     # Source Code Analysis
     if _analyze_source:
         run_source_code_analysis_multiprocessing(_analyze_source_all, output_path, os.path.join(output_path, output_src_analysis_file))
 
     # Write the result to excel file
-    cover = CoverItem(tool_name=_PKG_NAME,
-                      start_time=start_time,
-                      input_path=os.getcwd())
+    cover.comment = cover.comment.strip()
     write_result_from_bom(output_file, installed_packages_src, installed_packages_bin,
                           _print_bin_android, output_extension,
                           additional_columns, binary_list, cover)
