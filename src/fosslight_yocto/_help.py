@@ -21,7 +21,7 @@ _HELP_MESSAGE_BOM = """
             -v\t\t\t\t   Print FOSSLight yocto version
             -y <file_with_path>\t\t   sbom-info.yaml or oss-pkg-info.yaml
             -a <path>\t\t\t   Path to analyze the binaries
-            -n\t\t\t\t   Print result in BIN(Android) format
+            -n\t\t\t\t   Print result in BIN(Yocto) format
             -s\t\t\t\t   Analyze source code for unconfirmed Open Source
             -c\t\t\t\t   Analyze all the source code
             -e\t\t\t\t   Compress all the source code
