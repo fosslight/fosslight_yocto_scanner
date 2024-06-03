@@ -17,14 +17,14 @@ SHEET_NAME_BIN_YOCTO = "BIN (Yocto)"
 
 def write_result_from_bom(out_file_name, installed_packages_src, installed_packages_bin,
                           bin_android_mode=False, output_extension="", additional_column=[], binary_list=[], cover=""):
-    SHEET_HEADER = {SHEET_NAME_BIN_YOCTO: ['ID', 'Binary Name', 'Source Code Path',
+    SHEET_HEADER = {SHEET_NAME_BIN_YOCTO: ['ID', 'Binary Path', 'Source Path',
                                            'Notice', 'OSS Name', 'OSS Version',
                                            'License', 'Download Location', 'Homepage',
                                            'Copyright Text', 'Exclude', 'Comment'],
-                    SHEET_NAME_SRC: ['ID', 'Source Name or Path', 'OSS Name', 'OSS Version',
+                    SHEET_NAME_SRC: ['ID', 'Source Path', 'OSS Name', 'OSS Version',
                                      'License', 'Download Location', 'Homepage', 'Copyright Text',
                                      'Exclude', 'Comment'],
-                    SHEET_NAME_BIN: ['ID', 'Binary Name', 'OSS Name', 'OSS Version',
+                    SHEET_NAME_BIN: ['ID', 'Binary Path', 'OSS Name', 'OSS Version',
                                      'License', 'Download Location', 'Homepage',
                                      'Copyright Text', 'Exclude', 'Comment', 'TLSH', 'SHA1']}
     sheet_list = {}
