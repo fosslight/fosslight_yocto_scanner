@@ -1,5 +1,18 @@
 # Changelog
 
+## v3.1.30 (10/06/2024)
+## Changes
+## 🚀 Features
+
+- Add Scanner Info sheet @dd-jy (#28)
+
+## 🔧 Maintenance
+
+- Update the column names @soimkim (#30)
+- Do not print text file @soimkim (#29)
+
+---
+
 ## v3.1.29 (14/05/2024)
 ## Changes
 ## 🔧 Maintenance
