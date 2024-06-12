@@ -77,6 +77,7 @@ def read_installed_pkg_file(installed_pkg_names_file):
     global installed_packages_src
     installed_packages_src = []
     success = True
+    pkg_info_not_found = True
     try:
         success, lines = read_file(installed_pkg_names_file)
         for line in lines:
@@ -89,18 +90,19 @@ def read_installed_pkg_file(installed_pkg_names_file):
                         for key, value in bom_pkg_data[pkg_name].items():
                             set_value_switch(pkg_item, key, value, nested_pkg_name)
                     installed_packages_src.append(pkg_item)
-                    if not pkg_item.oss_name:
-                        logger.error(f"Can't find recipe for {pkg_name}")
-                        logger.error("Check whether you entered installed-package-names.txt with -i.")
-                        logger.info(f"---- Value entered with -i:{installed_pkg_names_file}")
-                        success = False
-                        break
+                    if pkg_info_not_found and pkg_item.oss_name:
+                        pkg_info_not_found = False
     except Exception as ex:
         logger.error(f"Read {installed_pkg_names_file}: {ex}")
         success = False
     if not installed_packages_src:
         logger.error(f"Empty File : {installed_pkg_names_file}")
         success = False
+    if pkg_info_not_found:
+        logger.error("Check whether you entered installed-package-names.txt with -i.")
+        logger.info(f"---- Value entered with -i:{installed_pkg_names_file}")
+        success = False
+
     return success
 
 
