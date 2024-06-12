@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.1.31 (12/06/2024)
+## Changes
+## 🔧 Maintenance
+
+- Prints even if some package is missing @soimkim (#31)
+
+---
+
 ## v3.1.30 (10/06/2024)
 ## Changes
 ## 🚀 Features
