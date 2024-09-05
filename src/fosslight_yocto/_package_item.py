@@ -3,7 +3,7 @@
 # SPDX-FileCopyrightText: Copyright 2023 LG Electronics Inc.
 # SPDX-License-Identifier: Apache-2.0
 import re
-from fosslight_util.oss_item import OssItem
+from fosslight_util.oss_item import FileItem
 from ._write_result_file import SHEET_NAME_SRC, SHEET_NAME_BIN, SHEET_NAME_BIN_YOCTO
 
 const_other_proprietary_license = 'other proprietary license'
@@ -12,25 +12,24 @@ IGNORE_COPYRIGHT = "NOASSERTION"
 TLSH_CHECKSUM_NULL = "0"
 
 
-class FileItem():
+class BinItem():
     def __init__(self, file_with_path, tlsh=TLSH_CHECKSUM_NULL, checksum=TLSH_CHECKSUM_NULL):
         self.source_name_or_path = file_with_path
         self.tlsh = tlsh
         self.checksum = checksum
 
 
-class PackageItem(OssItem):
+class PackageItem(FileItem):
     def __init__(self):
+        super().__init__("")
         self.oss_name = ""  # Default Value : Recipe Name
         self._name = ""  # oss name to print
         self._version = ""  # Default Value : PV
         self.license = []  # Default value : license, it will be overwritten with a pkg_license.
         self._declared_licenses = []  # Declared License in case of multi or dual licenses
-        self._source_name_or_path = []  # Files in installed package - Value of "Binary Name"
+        self._files = []  # Files in installed package - Value of "Binary Name"
         self.download_location = ""  # SRC_URI
         self.copyright = ""
-        self._comment = ""
-        self.exclude = False
         self.homepage = ""
         self.parent_package_name = ""  # Packages created at build time have different installed and parent package names.
         self._package_name = ""  # Installed Package name
@@ -43,6 +42,8 @@ class PackageItem(OssItem):
         self.additional_data = {}
         self.pv = ""
         self.pr = ""
+        self._yocto_recipe = []
+        self._yocto_package = []
 
     def __eq__(self, value):
         return self.spdx_id == value
@@ -51,32 +52,51 @@ class PackageItem(OssItem):
         pass
 
     @property
+    def files(self):
+        return self._files
+
+    @files.setter
+    def files(self, value):
+        if not value:
+            self._files = []
+        else:
+            if not isinstance(value, list):
+                value = value.split(",")
+            self._files.extend(value)
+            self._files = [item.strip() for item in self._files]
+            self._files = list(set(self._files))
+
+    @property
+    def yocto_recipe(self):
+        return self._yocto_recipe
+
+    @yocto_recipe.setter
+    def yocto_recipe(self, value):
+        if not isinstance(value, list):
+            value = value.split(",")
+        self._yocto_recipe.extend(value)
+        self._yocto_recipe = [item.strip() for item in self._yocto_recipe]
+        self._yocto_recipe = list(set(self._yocto_recipe))
+
+    @property
+    def yocto_package(self):
+        return self._yocto_package
+
+    @yocto_package.setter
+    def yocto_package(self, value):
+        if not isinstance(value, list):
+            value = value.split(",")
+        self._yocto_package.extend(value)
+        self._yocto_package = [item.strip() for item in self._yocto_package]
+        self._yocto_package = list(set(self._yocto_package))
+
+    @property
     def package_name(self):
         return self._package_name
 
     @package_name.setter
     def package_name(self, value):
         self._package_name = value
-
-    @property
-    def comment(self):
-        return self._comment
-
-    @comment.setter
-    def comment(self, value):
-        prefix = False
-        comment_value = value
-        if type(value) is tuple:
-            comment_value, prefix = value
-        if self._comment:
-            if prefix:
-                self._comment = f"{comment_value}/{self._comment}"
-            else:
-                if comment_value != "":
-                    self._comment = f"{self._comment}/{comment_value}"
-        else:
-            self._comment = comment_value
-        self._comment = self._comment.replace("//", "/")
 
     @property
     def copyright(self):
@@ -166,7 +186,7 @@ class PackageItem(OssItem):
                 value = license_list
 
             if '&' in value or '|' in value:
-                self.comment = (origin_lic, True)
+                self.comment = origin_lic
                 value = value.replace('|', '&')
                 license_list = value.split('&')
                 for lic in license_list:
@@ -206,9 +226,10 @@ class PackageItem(OssItem):
             print_items.append(row)
         else:
             if sheet_name == SHEET_NAME_BIN:
-                for file in self.source_name_or_path:
-                    bin = next((n for n in binary_list if n.source_name_or_path == file), FileItem(file, TLSH_CHECKSUM_NULL, TLSH_CHECKSUM_NULL))
-                    row = [file, self.name, self.version, ','.join(license_to_print), self.download_location,
+                for pkg_file in self.files:
+                    bin = next((n for n in binary_list if n.source_name_or_path == pkg_file),
+                               BinItem(pkg_file, TLSH_CHECKSUM_NULL, TLSH_CHECKSUM_NULL))
+                    row = [pkg_file, self.name, self.version, ','.join(license_to_print), self.download_location,
                            self.homepage, self.copyright, exclude, self.comment, bin.tlsh, bin.checksum]
                     for column_name in additional_column:
                         row.append(self.additional_data.get(column_name, ''))
@@ -251,7 +272,7 @@ def set_value_switch(oss, key, value, nested_pkg_name):
     elif key == 'license':
         oss.license = value
     elif key == 'file':
-        oss.source_name_or_path = value
+        oss.files = value
     elif key == 'exclude':
         oss.exclude = value
     elif key == 'comment':
