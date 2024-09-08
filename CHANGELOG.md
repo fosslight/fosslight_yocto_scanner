@@ -1,5 +1,14 @@
 # Changelog
 
+## v4.0.0 (08/09/2024)
+## Changes
+## 🔧 Maintenance
+
+- Refactoring OSS Item from FOSSLight Util @soimkim (#33)
+- Limit installation to fosslight_util 1.4.* @soimkim (#32)
+
+---
+
 ## v3.1.31 (12/06/2024)
 ## Changes
 ## 🔧 Maintenance
