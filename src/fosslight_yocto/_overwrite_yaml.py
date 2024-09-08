@@ -9,7 +9,7 @@ from ruamel.yaml import YAML
 from ruamel.yaml.constructor import SafeConstructor
 import os
 from ._package_item import PackageItem, set_value_switch, update_package_name
-from fosslight_util.parsing_yaml import parsing_yml
+from .parsing_yaml import parsing_yml
 from copy import deepcopy
 
 logger = logging.getLogger(constant.LOGGER_NAME)

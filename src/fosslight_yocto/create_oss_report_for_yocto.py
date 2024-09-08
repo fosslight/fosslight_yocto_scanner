@@ -31,23 +31,23 @@ from ._package_item import (
     PackageItem,
     set_value_switch,
     update_package_name,
-    FileItem)
+    BinItem)
 from ._write_result_file import write_result_from_bom, print_src_analysis_result
 from tqdm import tqdm
 from ._overwrite_yaml import load_oss_pkg_info_yaml
 from fosslight_util.output_format import check_output_format
 import argparse
 from typing import List
-from fosslight_util.cover import CoverItem
+from fosslight_util.oss_item import ScannerItem
 
 logger = logging.getLogger(constant.LOGGER_NAME)
-_PKG_NAME = "fosslight_yocto"
+PKG_NAME = "fosslight_yocto"
 
 # Global variables
 bom_pkg_data = {}  # Parsed from bom
 installed_packages_src = []  # SRC Sheet | BIN (Yocto) Sheet
 installed_packages_bin: List[PackageItem] = []  # BIN Sheet
-binary_list: List[FileItem] = []  # -a option result
+binary_list: List[BinItem] = []  # -a option result
 nested_pkg_name = {}  # Package list created at build time
 like_licenses = ['mit-like license', 'bsd-like license']
 _map_license_from_yocto_to_scancode = {'proprietary-license': [const_other_proprietary_license],
@@ -407,7 +407,7 @@ def get_binary_list(buildhistory_package_files, path_to_find):
                             pkg_name = ""
 
                         checksum, tlsh = get_checksum_and_tlsh(file_abs_path)
-                        file_item = FileItem(file_rel_path, tlsh, checksum)
+                        file_item = BinItem(file_rel_path, tlsh, checksum)
                         binary_list.append(file_item)
                         cnt_bin += 1
 
@@ -415,11 +415,11 @@ def get_binary_list(buildhistory_package_files, path_to_find):
 
                         if pkg_items is not None and len(pkg_items) > 0:
                             # Package already inserted. Just add file to it.
-                            pkg_items[0].source_name_or_path = file_rel_path
+                            pkg_items[0].files = file_rel_path
                         else:  # New Package
                             pkg_item = PackageItem()
                             pkg_item = update_package_name(pkg_item, pkg_name, nested_pkg_name)
-                            pkg_item.source_name_or_path = file_rel_path
+                            pkg_item.files = file_rel_path
                             if pkg_name:
                                 if pkg_name in bom_pkg_data:
                                     for key, value in bom_pkg_data[pkg_name].items():
@@ -739,7 +739,7 @@ def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_f
     num_cores = multiprocessing.cpu_count() - 1
     if num_cores < 1:
         num_cores = 1
-
+    src_anlysis_start_time = datetime.now().strftime('%y%m%d_%H%M')
     scancode_result_dir = create_dir(os.path.join(out_dir, "scancode_result"))
     recipes_to_analyze = get_recipe_for_src_analysis(analyze_all_mode)
     logger.info(
@@ -758,7 +758,8 @@ def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_f
 
         parmap.map(get_src_analysis_result, splited_data, scancode_result_dir, return_list,
                    pm_pbar=True, pm_processes=num_cores)
-        print_src_analysis_result(return_list, output_file_without_extension)
+        source_scan_item = ScannerItem(PKG_NAME, src_anlysis_start_time)
+        print_src_analysis_result(return_list, output_file_without_extension, source_scan_item)
 
 
 def run_scancode_per_dir(path_to_scan, json_file_name, num_cores, recipe_name):
@@ -1003,7 +1004,7 @@ def main():
     if args.help:
         print_help_msg_bom()
     if args.version:
-        print_version(_PKG_NAME)
+        print_version(PKG_NAME)
     if args.istalled:
         installed_pkgs = args.istalled
     if args.package:
@@ -1045,10 +1046,8 @@ def main():
     output_file = os.path.join(output_path, output_file)
     log_file = os.path.join(output_path, f"fosslight_log_yocto_{start_time}.txt")
     logger, log_item = init_log(log_file)
-    cover = CoverItem(tool_name=_PKG_NAME,
-                      start_time=start_time,
-                      input_path=os.getcwd())
-    cover.comment = ""
+    scan_item = ScannerItem(PKG_NAME, start_time)
+    scan_item.set_cover_pathinfo(os.getcwd(), "")
 
     if not success:
         logger.error(f"Format error. {msg}")
@@ -1070,23 +1069,22 @@ def main():
     # Binary Analysis - BIN Sheet
     if bin_analysis_path:
         success, bin_cnt = get_binary_list(find_package_files(buildhistory_path), bin_analysis_path)
-        cover.comment += f"Total number of binaries: {bin_cnt}\n"
+        scan_item.set_cover_comment(f"Total number of binaries: {len(installed_packages_bin)}")
 
     # Load oss-pkg-info.yaml
     if oss_pkg_yaml_file:
         installed_packages_src, installed_packages_bin = load_oss_pkg_info_yaml(oss_pkg_yaml_file, _print_bin_android,
                                                                                 installed_packages_src, installed_packages_bin, nested_pkg_name)
-        cover.comment += f"Load sbom-info.yaml: {oss_pkg_yaml_file}\n"
+        scan_item.set_cover_comment(f"Load sbom-info.yaml: {oss_pkg_yaml_file}")
 
     # Source Code Analysis
     if _analyze_source:
         run_source_code_analysis_multiprocessing(_analyze_source_all, output_path, os.path.join(output_path, output_src_analysis_file))
 
     # Write the result to excel file
-    cover.comment = cover.comment.strip()
     write_result_from_bom(output_file, installed_packages_src, installed_packages_bin,
                           _print_bin_android, output_extension,
-                          additional_columns, binary_list, cover)
+                          additional_columns, binary_list, scan_item)
 
     if _compress_source_all:
         try:
