@@ -454,8 +454,8 @@ def check_required_files(bom, installed_pkgs, buildhistory_path, installed_pkgs_
         exit_with_error_msg("Check Arguments\n" + error_msg, EX_NOINPUT)
 
 
-def exit_with_error_msg(error_mgs, exit_code=EX_DATAERR):
-    logger.error(error_mgs)
+def exit_with_error_msg(error_msg, exit_code=EX_DATAERR):
+    logger.error(error_msg)
     sys.exit(exit_code)
 
 
