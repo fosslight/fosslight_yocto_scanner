@@ -71,8 +71,6 @@ additional_columns = []
 printall = False  # Print all values in bom.json
 OSC_DB_USER = 'user_oss_license'
 OSC_DB_PASSWORD = 'oss_lic123'
-EX_DATAERR = 65
-EX_NOINPUT = 66
 
 
 def read_installed_pkg_file(installed_pkg_names_file):
@@ -125,7 +123,7 @@ def check_json_validate(bom_file):
         if file_content is not None:
             file_content = file_content.strip()
     except Exception:
-        exit_with_error_msg("Can't read a bom.json", EX_NOINPUT)
+        exit_with_error_msg("Can't read a bom.json", os.EX_NOINPUT)
 
     # Dafault bom.json file isn't loadable.
     json_obj = get_json_object(file_content)
@@ -451,11 +449,11 @@ def check_required_files(bom, installed_pkgs, buildhistory_path, installed_pkgs_
         error_msg = "-ip installed-packages.txt\n"
 
     if error_msg != "":
-        exit_with_error_msg("Check Arguments\n" + error_msg, EX_NOINPUT)
+        exit_with_error_msg("Check Arguments\n" + error_msg, os.EX_NOINPUT)
 
 
-def exit_with_error_msg(error_msg, exit_code=EX_DATAERR):
-    logger.error(error_msg)
+def exit_with_error_msg(error_mgs, exit_code=os.EX_DATAERR):
+    logger.error(error_mgs)
     sys.exit(exit_code)
 
 
@@ -1052,7 +1050,7 @@ def main():
     scan_item.set_cover_pathinfo(os.getcwd(), "")
 
     if not success:
-        logger.error(f"Format error. {msg}")
+        logger.error(f"(-f & -o option) Format error. {msg}")
         sys.exit(1)
 
     check_required_files(bom_file, installed_pkgs, buildhistory_path, installed_pkgs_with_version)

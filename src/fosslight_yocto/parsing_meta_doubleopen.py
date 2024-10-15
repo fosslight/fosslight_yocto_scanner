@@ -182,14 +182,14 @@ def read_spdx_json(json_file_to_parse, output_file_name):
             sheet_list["SRC_recipe"] = get_sheet_content_to_print(recipes)
             sheet_list["SRC_not_distributed"] = get_sheet_content_to_print(pkg_notDistributed)
         else:
-            msg = "Can't find a spdx json file:" + json_file_to_parse
+            msg = f"Can't find a spdx json file: {json_file_to_parse}"
             success = False
 
         success_to_write, writing_msg, result_file = write_output_file(output_file_name, ".xlsx", sheet_list)
         if success_to_write:
-            logger.info(f"FOSSLight Report:{result_file}")
+            logger.info(f"FOSSLight Report: {result_file}")
         else:
-            logger.warning(f"Writing excel :{success_to_write}, {writing_msg}")
+            logger.warning(f"Writing excel: {success_to_write}, {writing_msg}")
 
     except Exception as ex:
         success = False
