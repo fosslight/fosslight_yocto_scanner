@@ -1052,7 +1052,7 @@ def main():
     scan_item.set_cover_pathinfo(os.getcwd(), "")
 
     if not success:
-        logger.error(f"Format error. {msg}")
+        logger.error(f"(-f & -o option) Format error. {msg}")
         sys.exit(1)
 
     check_required_files(bom_file, installed_pkgs, buildhistory_path, installed_pkgs_with_version)
