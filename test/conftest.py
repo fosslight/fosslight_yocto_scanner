@@ -8,10 +8,12 @@ import subprocess
 import pytest
 
 
-@pytest.fixture
+@pytest.fixture(scope="module")
 def run_command():
     def _run_command(command):
-        result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        result = subprocess.run(command, shell=True,
+                                stdout=subprocess.PIPE,
+                                stderr=subprocess.PIPE)
         success = result.returncode == 0
         stdout = result.stdout.decode('utf-8')
         stderr = result.stderr.decode('utf-8')
