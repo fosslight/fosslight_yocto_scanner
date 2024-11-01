@@ -1,5 +1,19 @@
 # Changelog
 
+## v4.0.1 (01/11/2024)
+## Changes
+## 🐛 Hotfixes
+
+- Fix AttributeError Related to os.EX_DATAERR and os.EX_NOINPUT in Windows Environment @ParkSangsin (#36)
+
+## 🔧 Maintenance
+
+- Update requirements.txt @dd-jy (#42)
+- Print option name with error msg @bjk7119 (#40)
+- Fix typo in variable name from error_mgs to error_msg @ParkSangsin (#37)
+
+---
+
 ## v4.0.0 (08/09/2024)
 ## Changes
 ## 🔧 Maintenance
