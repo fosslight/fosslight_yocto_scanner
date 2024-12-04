@@ -188,6 +188,10 @@ def read_bom_file(bom_file, buildhistory_latest_pkg_list):
                 if len(path_list) > 0:
                     oss_item['file_path'] = path_list[0]
 
+        # for 'e' option to compress fetched files.
+        oss_item['source_done'] = item['complete']
+        oss_item['full_src_uri'] = bom_src_uri
+
         if bom_packages != "":
             packages = bom_packages.split()
             packages = list(set(packages))
@@ -1002,7 +1006,7 @@ def main():
     parser.add_argument('-n', '--another', action='store_true', required=False)
     parser.add_argument('-s', '--source', action='store_true', required=False)
     parser.add_argument('-c', '--complete', action='store_true', required=False)
-    parser.add_argument('-e', '--compress', action='store_true', required=False)
+    parser.add_argument('-e', '--compress', type=str, required=False)
     parser.add_argument('-pr', '--printall', action='store_true', required=False)
 
     args = parser.parse_args()
@@ -1036,6 +1040,7 @@ def main():
         _analyze_source_all = True
     if args.compress:
         _compress_source_all = True
+        build_output_path = args.compress
     if args.printall:
         printall = True
 
@@ -1094,9 +1099,11 @@ def main():
     if _compress_source_all:
         try:
             logger.info("* Enable zip option")
-            collect_source(installed_packages_src, output_path)
+            collect_source(installed_packages_src, output_path, build_output_path)
         except Exception as ex:
             logger.error(f"Collecting source code: {ex}")
+
+
 
 
 if __name__ == "__main__":
