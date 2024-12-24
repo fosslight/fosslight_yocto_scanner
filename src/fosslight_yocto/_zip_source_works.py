@@ -25,6 +25,8 @@ FAILED_ZIP_LIST = "failed_to_compress_list.txt"
 ZIP_FILE_EXTENSION = ".zip"
 EXCLUDE_FILE_EXTENSION = ['socket']
 
+DUMP_DIR_PATH = "dumped_tasks"
+
 
 def is_exclude_file(file_abs_path):
     excluded = False
@@ -68,13 +70,38 @@ def check_valid_file_type(file_path, timestamp):
     return validation
 
 
-def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri):
+def get_dump_files(oss_key, dump_dir):
+    dump_file_list = os.listdir(dump_dir)
+    found_list = []
+
+    print("try to find")
+    print(oss_key)
+
+    if oss_key == "":
+        return found_list
+
+    if dump_file_list is None:
+        print("no dump info")
+        return found_list
+
+    for dump in dump_file_list:
+        if dump.startswith(oss_key):
+            print("found dump file")
+            print(dump)
+            found_list.append(dump)
+
+    return found_list
+
+
+def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, pf):
     FAILED_MSG_PREFIX = "Failed: " + desc_name + " " + orig_path
     success = True
     failed_msg = [FAILED_MSG_PREFIX]
     desc_name = desc_name.strip()
     zip_name = desc_name + ZIP_FILE_EXTENSION
     uri_path_list = []
+    dumptasks_dir = os.path.join(build_output_dir, DUMP_DIR_PATH)
+    oss_dump_list = get_dump_files(pf, dumptasks_dir)
 
     uris = full_src_uri.split()
     if len(uris) > 0:
@@ -118,6 +145,10 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri):
                 failed_msg.append(f'|--- {ex}')
  
         try:
+            for dump in oss_dump_list:
+                dump_orig_path = os.path.join(dumptasks_dir, dump)
+                zip_object.write(dump_orig_path, os.path.basename(dump_orig_path))
+
             zip_object.close()
             shutil.move(zip_name, des_path)
         except Exception as ex:
@@ -150,6 +181,10 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri):
                     success = False
                     failed_msg.append(f'|--- {ex}')
         try:
+            for dump in oss_dump_list:
+                dump_orig_path = os.path.join(dumptasks_dir, dump)
+                zip_object.write(dump_orig_path, os.path.basename(dump_orig_path))
+            
             zip_object.close()
             shutil.move(zip_name, des_path)
         except Exception as ex:
@@ -219,16 +254,21 @@ def collect_source(pkg_list: List[PackageItem], output_dir: str, build_output_di
     success_list = []
 
     for recipe_name, recipe_item in tqdm(bom_recipe_data.items()):
+        ######
+        #if "linux" in recipe_name:
+        #    continue
+        ######
         src_uri = recipe_item.download_location
         base_path = recipe_item.file_path
 
         full_uri = recipe_item.full_src_uri
+        pf = recipe_item.pf
         # zip downloaded source codes and located to package_zip folders
         total_list.append(recipe_name + ZIP_FILE_EXTENSION)
         source_timestamp = recipe_item.source_done
         zip_file_name = recipe_name + "_" + recipe_item.version
 
-        success, failed_msg = zip_module(recipe_item.src_path, zip_file_name, build_output_dir, source_timestamp, full_uri)
+        success, failed_msg = zip_module(recipe_item.src_path, zip_file_name, build_output_dir, source_timestamp, full_uri, pf)
         if success:
             success_list.append(recipe_name)
         else:

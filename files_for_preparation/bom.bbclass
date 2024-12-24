@@ -9,6 +9,7 @@ do_write_bom_info[nostamp] = "1"
 addtask write_bom_info
 python do_write_bom_info() {
     import json
+    import time
     # We want one recipe per line, starting with arch and recipe keys,
     # so that it's easy to sort and compare them
     class BomJSONEncoder(json.JSONEncoder):
@@ -26,6 +27,7 @@ python do_write_bom_info() {
             else:
                 return json.JSONEncoder().iterencode(obj, _one_shot)
  
+
     jsondata = {}
     jsondata["src_path"] = d.getVar("S", True)
     jsondata["src_uri"] = d.getVar("SRC_URI", True)
@@ -39,6 +41,7 @@ python do_write_bom_info() {
     packages = d.getVar("PACKAGES", True)
     jsondata["license"] = license
     jsondata["license_flags"] = license_flags
+    jsondata["complete"] = int(time.time())
     jsondata["packages"] = packages
     pkg_lic = {}
     if packages:
@@ -50,11 +53,15 @@ python do_write_bom_info() {
     jsondata["pe"] = d.getVar("PE", True)
     jsondata["pv"] = d.getVar("PV", True)
     jsondata["pr"] = d.getVar("PR", True)
+    jsondata["pf"] = d.getVar("PF", True)
     jsondata["extendprauto"] = d.getVar("EXTENDPRAUTO", True)
     jsondata["extendpkgv"] = d.getVar("EXTENDPKGV", True)
     jsondata["description"] = d.getVar("DESCRIPTION", True)
     jsondata["summary"] = d.getVar("SUMMARY", True)
     jsondata["cve_check_whitelist "] = d.getVar("CVE_CHECK_WHITELIST", True)
+
+    cpe_ids = get_cpe_ids(d.getVar("CVE_VENDOR",""), d.getVar("CVE_PRODUCT",""), d.getVar("CVE_VERSION",""), jsondata["recipe"], jsondata["pv"])
+    jsondata["source_info"] = cpe_ids
 
     datafile = os.path.join(d.getVar("TOPDIR", True), "bom.json")
     lock = bb.utils.lockfile(datafile + '.lock')
@@ -63,3 +70,36 @@ python do_write_bom_info() {
         f.write(',\n')
     bb.utils.unlockfile(lock)
 }
+
+
+def get_cpe_ids(cve_vendor, cve_product, cve_version, pn, pv):
+    
+    #Get list of CPE identifiers for the given product and version
+    
+    vendor = cve_vendor
+    version = cve_version.split("+git")[0]
+
+
+    if cve_version.startswith("$"):
+        version = pv
+
+    cpe_ids = []
+    for product in cve_product.split():
+        # CVE_PRODUCT in recipes may include vendor information for CPE identifiers. If not,
+        # use wildcard for vendor.
+        if ":" in product:
+            vendor, product = product.split(":", 1)
+
+        if product.startswith("$"):
+            product = pn
+
+        if vendor is None:
+            vendor = ""
+
+        cpe_id = f'cpe:2.3:a:{vendor}:{product}:{version}:*:*:*:*:*:*:*'
+        cpe_ids.append(cpe_id)
+
+    return cpe_ids
+
+
+

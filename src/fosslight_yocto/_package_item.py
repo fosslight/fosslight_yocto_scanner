@@ -42,10 +42,11 @@ class PackageItem(FileItem):
         self.additional_data = {}
         self.pv = ""
         self.pr = ""
-        self.source_done = ""
-        self.full_src_uri = ""
         self._yocto_recipe = []
         self._yocto_package = []
+        self.source_done = ""   # Only for -e option to fetch valid source codes
+        self.full_src_uri = ""   # Only for -e option to fetch exact files
+        self.pf = ""   # Only for -e option to find valid oss name and version of dump file              
 
     def __eq__(self, value):
         return self.spdx_id == value
@@ -299,6 +300,8 @@ def set_value_switch(oss, key, value, nested_pkg_name):
         oss.source_done = value
     elif key == 'full_src_uri':
         oss.full_src_uri = value
+    elif key == 'package_format':
+        oss.pf = value
 
 
 def update_package_name(oss, value, nested_pkg_name):
