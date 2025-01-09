@@ -73,6 +73,7 @@ OSC_DB_USER = 'user_oss_license'
 OSC_DB_PASSWORD = 'oss_lic123'
 EX_DATAERR = 65
 EX_NOINPUT = 66
+PKG_GROUP_PREFIX = "packagegroup-"
 
 
 def read_installed_pkg_file(installed_pkg_names_file):
@@ -91,6 +92,8 @@ def read_installed_pkg_file(installed_pkg_names_file):
                     if pkg_name in bom_pkg_data:
                         for key, value in bom_pkg_data[pkg_name].items():
                             set_value_switch(pkg_item, key, value, nested_pkg_name)
+                    if pkg_name.startswith(PKG_GROUP_PREFIX):
+                        pkg_item.exclude = True
                     installed_packages_src.append(pkg_item)
                     if pkg_info_not_found and pkg_item.oss_name:
                         pkg_info_not_found = False
