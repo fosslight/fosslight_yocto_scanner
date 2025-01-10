@@ -134,7 +134,7 @@ def get_cpe_ids(cve_vendor, cve_product, cve_version, pn, pv):
         if vendor is None:
             cve_vendor = ""
 
-        cpe_id = f'cpe:2.3:a:{vendor}:{product}:{version}:*:*:*:*:*:*:*'
+        cpe_id = f'cpe:2.3:a:{cve_vendor}:{product}:{version}:*:*:*:*:*:*:*'
         cpe_ids.append(cpe_id)
 
     return cpe_ids
