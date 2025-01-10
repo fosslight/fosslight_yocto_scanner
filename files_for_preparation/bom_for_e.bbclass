@@ -131,7 +131,7 @@ def get_cpe_ids(cve_vendor, cve_product, cve_version, pn, pv):
         if product.startswith("$"):
             product = pn
 
-        if vendor is None:
+        if cve_vendor is None:
             cve_vendor = ""
 
         cpe_id = f'cpe:2.3:a:{cve_vendor}:{product}:{version}:*:*:*:*:*:*:*'
