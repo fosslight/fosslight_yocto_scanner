@@ -8,6 +8,7 @@
 do_write_bom_info[nostamp] = "1"
 addtask write_bom_info
 python do_write_bom_info() {
+    import json
     # We want one recipe per line, starting with arch and recipe keys,
     # so that it's easy to sort and compare them
     class BomJSONEncoder(json.JSONEncoder):
@@ -25,7 +26,6 @@ python do_write_bom_info() {
             else:
                 return json.JSONEncoder().iterencode(obj, _one_shot)
  
-
     jsondata = {}
     jsondata["src_path"] = d.getVar("S", True)
     jsondata["src_uri"] = d.getVar("SRC_URI", True)
@@ -63,7 +63,3 @@ python do_write_bom_info() {
         f.write(',\n')
     bb.utils.unlockfile(lock)
 }
-
-
-
-
