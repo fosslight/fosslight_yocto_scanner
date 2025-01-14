@@ -189,8 +189,7 @@ def read_bom_file(bom_file, buildhistory_latest_pkg_list):
                     oss_item['file_path'] = path_list[0]
 
         # for 'e' option to compress fetched files.
-        if 'complete' in item and item['complete']:
-            oss_item['source_done'] = item['complete']
+        oss_item['source_done'] = item.get('complete', "")
         oss_item['full_src_uri'] = bom_src_uri
 
         oss_item['package_format'] = item['pf']
@@ -990,7 +989,7 @@ def main():
     _print_bin_android = False
     _analyze_source = False
     _analyze_source_all = False
-    _compress_source_all = False
+    _compress_source_all = ""
     output_path = os.getcwd()
     output_src_analysis_file = "source_analysis_report"
     file_format = ""
@@ -1042,8 +1041,7 @@ def main():
         _analyze_source = True
         _analyze_source_all = True
     if args.compress:
-        _compress_source_all = True
-        build_output_path = args.compress
+        _compress_source_all = args.compress
     if args.printall:
         printall = True
 
@@ -1102,7 +1100,7 @@ def main():
     if _compress_source_all:
         try:
             logger.info("* Enable zip option")
-            collect_source(installed_packages_src, output_path, build_output_path)
+            collect_source(installed_packages_src, output_path, _compress_source_all)
         except Exception as ex:
             logger.error(f"Collecting source code: {ex}")
 

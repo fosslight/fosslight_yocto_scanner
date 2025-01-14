@@ -114,9 +114,15 @@ addtask do_dumptasks after do_configure before do_compile
 def get_cpe_ids(cve_vendor, cve_product, cve_version, pn, pv):
     
     #Get list of CPE identifiers for the given product and version
-    
-    version = cve_version.split("+git")[0]
 
+    if cve_vendor is None:
+        cve_vendor = ""
+    if cve_product is None:
+        cve_product = ""
+    if cve_version is None:
+        cve_version = ""
+
+    version = cve_version.split("+git")[0]
 
     if cve_version.startswith("$"):
         version = pv

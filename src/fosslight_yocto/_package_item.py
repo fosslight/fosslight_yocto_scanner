@@ -44,9 +44,9 @@ class PackageItem(FileItem):
         self.pr = ""
         self._yocto_recipe = []
         self._yocto_package = []
-        self.source_done = ""   # Only for -e option to fetch valid source codes
-        self.full_src_uri = ""   # Only for -e option to fetch exact files
-        self.pf = ""   # Only for -e option to find valid oss name and version of dump file              
+        self.source_done = ""   # Save timestamp after source code fetch : Only for -e option
+        self.full_src_uri = ""   # List all src uri links : Only for -e option
+        self.pf = ""   # Package name + version value : Only for -e option
 
     def __eq__(self, value):
         return self.spdx_id == value

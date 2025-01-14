@@ -42,14 +42,14 @@ def is_exclude_file(file_abs_path):
 
 
 def join_source_path(build_output_path, bom_src_path):
-    if bom_src_path is '':
+    if bom_src_path == '':
         return ''
     leaf_folder = os.path.basename(os.path.normpath(build_output_path))
     split_path = bom_src_path.split(leaf_folder)
     if len(split_path) == 1:
         return bom_src_path
     join_path = os.path.join(build_output_path, split_path[1][1:])
-    join_path.replace('\\', '/')
+    # join_path = join_path.replace('\\', '/')
     return join_path
 
 
@@ -74,8 +74,7 @@ def get_dump_files(oss_key, dump_dir):
     dump_file_list = os.listdir(dump_dir)
     found_list = []
 
-    print("try to find")
-    print(oss_key)
+    logger.debug(f'Check dump oss : {oss_key}')
 
     if oss_key == "":
         return found_list
@@ -104,8 +103,6 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, 
     oss_dump_list = get_dump_files(pf, dumptasks_dir)
 
     uris = full_src_uri.split()
-    if len(uris) > 0:
-        src_uri = uris[0]
 
     for uri in uris:
         if uri.startswith("file://"):
@@ -132,7 +129,7 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, 
         
         zip_object = zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED)
         for uri_path in uri_path_list:
-   
+
             try:
                 abs_src = os.path.abspath(orig_path)
                 abs_name = os.path.abspath(uri_path)
@@ -143,7 +140,7 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, 
             except Exception as ex:
                 success = False
                 failed_msg.append(f'|--- {ex}')
- 
+
         try:
             for dump in oss_dump_list:
                 dump_orig_path = os.path.join(dumptasks_dir, dump)
@@ -184,7 +181,7 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, 
             for dump in oss_dump_list:
                 dump_orig_path = os.path.join(dumptasks_dir, dump)
                 zip_object.write(dump_orig_path, os.path.basename(dump_orig_path))
-            
+
             zip_object.close()
             shutil.move(zip_name, des_path)
         except Exception as ex:
@@ -243,7 +240,6 @@ def collect_source(pkg_list: List[PackageItem], output_dir: str, build_output_di
         if pkg_item.oss_name not in bom_recipe_data:
             bom_recipe_data[pkg_item.oss_name] = pkg_item
 
-
     if os.path.exists(source_desc_folder):
         shutil.rmtree(source_desc_folder, ignore_errors=True)
     os.makedirs(source_desc_folder)
@@ -254,10 +250,6 @@ def collect_source(pkg_list: List[PackageItem], output_dir: str, build_output_di
     success_list = []
 
     for recipe_name, recipe_item in tqdm(bom_recipe_data.items()):
-        ######
-        #if "linux" in recipe_name:
-        #    continue
-        ######
         src_uri = recipe_item.download_location
         base_path = recipe_item.file_path
 
