@@ -24,7 +24,7 @@ _HELP_MESSAGE_BOM = """
             -n\t\t\t\t   Print result in BIN(Yocto) format
             -s\t\t\t\t   Analyze source code for unconfirmed Open Source
             -c\t\t\t\t   Analyze all the source code
-            -e <path>\t\t\t   Build output path to compress all the source code
+            -e <path>\t\t\t   Top build output path with bom.json to compress all the source code
             -o <path>\t\t\t   Output Path
             -f <format>\t\t\t   Output file format (excel, csv, opossum)
             -pr\t\t\t\t   Print all data of bom.json"""

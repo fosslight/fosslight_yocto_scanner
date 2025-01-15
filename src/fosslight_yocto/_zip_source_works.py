@@ -116,7 +116,7 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, 
         uri_path = uri_path_list[0]
     else:
         uri_path = None
-    
+
     orig_path = join_source_path(build_output_dir, orig_path)
 
     if os.path.islink(orig_path):
@@ -126,7 +126,7 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, 
     if desc_name == "":
         logger.debug("Recipe name is missing")
     elif uri_path is not None and os.path.exists(uri_path) and os.path.isfile(uri_path):
-        
+
         zip_object = zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED)
         for uri_path in uri_path_list:
 
@@ -285,4 +285,4 @@ def collect_source(pkg_list: List[PackageItem], output_dir: str, build_output_di
         write_txt_file(output_failed_txt, "\n".join(failed_list))
 
     # zip package source codes
-    #zip_compressed_source(output_dir, total_list)
+    # zip_compressed_source(output_dir, total_list)

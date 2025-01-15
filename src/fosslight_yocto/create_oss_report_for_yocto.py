@@ -192,7 +192,7 @@ def read_bom_file(bom_file, buildhistory_latest_pkg_list):
         oss_item['source_done'] = item.get('complete', "")
         oss_item['full_src_uri'] = bom_src_uri
 
-        oss_item['package_format'] = item['pf']
+        oss_item['package_format'] = item['pf', ""]
 
         if bom_packages != "":
             packages = bom_packages.split()
@@ -1102,9 +1102,7 @@ def main():
             logger.info("* Enable zip option")
             collect_source(installed_packages_src, output_path, _compress_source_all)
         except Exception as ex:
-            logger.error(f"Collecting source code: {ex}")
-
-
+            logger.error(f"Collecting source code: {ex}"
 
 
 if __name__ == "__main__":
