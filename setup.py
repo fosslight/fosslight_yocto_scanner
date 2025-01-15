@@ -15,7 +15,7 @@ with open('requirements.txt') as f:
 if __name__ == "__main__":
     setup(
         name='fosslight_yocto',
-        version='4.0.1',
+        version='4.0.2',
         package_dir={"": "src"},
         packages=find_packages(where='src'),
         description='FOSSLight Yocto',
