@@ -1,5 +1,17 @@
 # Changelog
 
+## v4.0.2 (15/01/2025)
+## Changes
+## 🐛 Hotfixes
+
+- Change null to empty string for output @soimkim (#48)
+
+## 🔧 Maintenance
+
+- Exclude for packagegroup @soimkim (#46)
+
+---
+
 ## v4.0.1 (01/11/2024)
 ## Changes
 ## 🐛 Hotfixes
