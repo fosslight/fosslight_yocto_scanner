@@ -13,14 +13,13 @@ _logger = logging.getLogger(constant.LOGGER_NAME)
 EXAMPLE_OSS_PKG_INFO_LINK = "https://github.com/fosslight/fosslight_prechecker/blob/main/tests/convert/sbom-info.yaml"
 
 
-def parsing_yml(yaml_file, base_path, print_log=True):
+def parsing_yml(yaml_file, base_path):
     oss_list = []
     license_list = []
     idx = 1
     err_reason = ""
     OLD_YAML_ROOT_ELEMENT = ['Open Source Software Package',
                              'Open Source Package']
-
     try:
         path_of_yml = os.path.normpath(os.path.dirname(yaml_file))
         base_normpath = os.path.normpath(base_path)
@@ -33,8 +32,7 @@ def parsing_yml(yaml_file, base_path, print_log=True):
         # If yaml file is empty, return immediately
         if doc is None:
             err_reason = "empty"
-            if print_log:
-                _logger.warning(f"The yaml file is empty file: {yaml_file}")
+            _logger.debug(f"The yaml file is empty file: {yaml_file}")
             return oss_list, license_list, err_reason
 
         is_old_format = any(x in doc for x in OLD_YAML_ROOT_ELEMENT)
@@ -52,18 +50,18 @@ def parsing_yml(yaml_file, base_path, print_log=True):
                     for key, value in oss.items():
                         if key:
                             key = key.lower().strip()
+                        if not value:
+                            value = ""
                         set_value_switch(item, key, value, yaml_file)
                     oss_list.append(item)
                     license_list.extend(item.license)
                     idx += 1
     except AttributeError as ex:
-        if print_log:
-            _logger.warning(f"Not supported yaml file format: {yaml_file} {ex}")
+        _logger.debug(f"Not supported yaml file format: {yaml_file} {ex}")
         oss_list = []
         err_reason = "not_supported"
     except yaml.YAMLError:
-        if print_log:
-            _logger.warning(f"Error to parse yaml - skip to parse yaml file: {yaml_file}")
+        _logger.debug(f"Error to parse yaml - skip to parse yaml file: {yaml_file}")
         oss_list = []
         err_reason = "yaml_error"
     return oss_list, set(license_list), err_reason
