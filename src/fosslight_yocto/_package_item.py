@@ -104,7 +104,9 @@ class PackageItem(FileItem):
 
     @copyright.setter
     def copyright(self, value):
-        if value:
+        if value != "":
+            if isinstance(value, list):
+                value = "\n".join(value)
             value = value.strip()
             if value == IGNORE_COPYRIGHT:
                 value = ""

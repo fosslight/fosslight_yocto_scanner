@@ -57,13 +57,13 @@ def load_oss_pkg_info_yaml(oss_pkg_files, print_bin_android_mode, installed_pack
     for oss_pkg_info_yaml_file in oss_pkg_files.split(','):
         if os.path.isfile(oss_pkg_info_yaml_file):
             try:  # LATEST YAML FORMAT
-                temp_items, _, _ = parsing_yml(oss_pkg_info_yaml_file, os.path.dirname(oss_pkg_info_yaml_file), False)
+                temp_items, _, _ = parsing_yml(oss_pkg_info_yaml_file, os.path.dirname(oss_pkg_info_yaml_file))
                 for parent in temp_items:
                     child = PackageItem()
                     child.__dict__.update(parent.__dict__)
                     oss_items_to_append.append(child)
             except Exception as ex:
-                logger.debug(f"Failed to parsing yaml({oss_pkg_info_yaml_file}): {ex}")
+                logger.error(f"Failed to parsing yaml({oss_pkg_info_yaml_file}): {ex}")
             if not oss_items_to_append:
                 try:  # LEGACY YAML FORMAT
                     with codecs.open(oss_pkg_info_yaml_file, "r", "utf-8") as f:
