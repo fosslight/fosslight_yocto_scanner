@@ -1102,7 +1102,7 @@ def main():
             logger.info("* Enable zip option")
             collect_source(installed_packages_src, output_path, _compress_source_all)
         except Exception as ex:
-            logger.error(f"Collecting source code: {ex}"
+            logger.error(f"Collecting source code: {ex}")
 
 
 if __name__ == "__main__":
