@@ -25,6 +25,8 @@ FAILED_ZIP_LIST = "failed_to_compress_list.txt"
 ZIP_FILE_EXTENSION = ".zip"
 EXCLUDE_FILE_EXTENSION = ['socket']
 
+DUMP_DIR_PATH = "dumped_tasks"
+
 
 def is_exclude_file(file_abs_path):
     excluded = False
@@ -39,16 +41,119 @@ def is_exclude_file(file_abs_path):
     return excluded
 
 
-def zip_module(orig_path, desc_name):
+def join_source_path(build_output_path, bom_src_path):
+    if bom_src_path == '':
+        return ''
+    leaf_folder = os.path.basename(os.path.normpath(build_output_path))
+    split_path = bom_src_path.split(leaf_folder)
+    if len(split_path) == 1:
+        return bom_src_path
+    join_path = os.path.join(build_output_path, split_path[1][1:])
+    # join_path = join_path.replace('\\', '/')
+    return join_path
+
+
+def check_valid_file_type(file_path, timestamp):
+    validation = True
+    if not os.path.isfile(file_path) or \
+            os.path.islink(file_path) or \
+            os.path.getsize(file_path) > 1024 * 1024 or \
+            file_path.endswith('.cmd') or \
+            file_path.endswith('.o'):
+        validation = False
+
+    if validation:
+        creation_time = os.path.getmtime(file_path)
+        if creation_time > timestamp:
+            validation = False
+
+    return validation
+
+
+def get_dump_files(oss_key, dump_dir):
+    dump_file_list = os.listdir(dump_dir)
+    found_list = []
+
+    logger.debug(f'Check dump oss : {oss_key}')
+
+    if oss_key == "":
+        return found_list
+
+    if dump_file_list is None:
+        print("no dump info")
+        return found_list
+
+    for dump in dump_file_list:
+        if dump.startswith(oss_key):
+            print("found dump file")
+            print(dump)
+            found_list.append(dump)
+
+    return found_list
+
+
+def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, pf):
     FAILED_MSG_PREFIX = "Failed: " + desc_name + " " + orig_path
     success = True
     failed_msg = [FAILED_MSG_PREFIX]
     desc_name = desc_name.strip()
     zip_name = desc_name + ZIP_FILE_EXTENSION
+    uri_path_list = []
+    dumptasks_dir = os.path.join(build_output_dir, DUMP_DIR_PATH)
+    oss_dump_list = get_dump_files(pf, dumptasks_dir)
+
+    uris = full_src_uri.split()
+
+    for uri in uris:
+        if uri.startswith("file://"):
+            src_uri_file = uri.split("file://")[1]
+            uri_path = os.path.join(orig_path, src_uri_file)
+            uri_path = join_source_path(build_output_dir, uri_path)
+            logger.debug(f'uri full path : {uri_path}')
+            uri_path_list.append(uri_path)
+
+    if len(uri_path_list) > 0:
+        uri_path = uri_path_list[0]
+    else:
+        uri_path = None
+
+    orig_path = join_source_path(build_output_dir, orig_path)
+
+    if os.path.islink(orig_path):
+        orig_path = os.path.realpath(orig_path)
+        orig_path = join_source_path(build_output_dir, orig_path)
 
     if desc_name == "":
         logger.debug("Recipe name is missing")
+    elif uri_path is not None and os.path.exists(uri_path) and os.path.isfile(uri_path):
+
+        zip_object = zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED)
+        for uri_path in uri_path_list:
+
+            try:
+                abs_src = os.path.abspath(orig_path)
+                abs_name = os.path.abspath(uri_path)
+                des_path = os.path.join(source_desc_folder, zip_name)
+
+                relpath = os.path.relpath(abs_name, abs_src)
+                zip_object.write(abs_name, relpath)
+            except Exception as ex:
+                success = False
+                failed_msg.append(f'|--- {ex}')
+
+        try:
+            for dump in oss_dump_list:
+                dump_orig_path = os.path.join(dumptasks_dir, dump)
+                zip_object.write(dump_orig_path, os.path.basename(dump_orig_path))
+
+            zip_object.close()
+            shutil.move(zip_name, des_path)
+        except Exception as ex:
+            success = False
+            failed_msg.append(f'|--- {ex}')
+
     elif orig_path != "" and os.path.exists(orig_path):
+
         abs_src = os.path.abspath(orig_path)
         des_path = os.path.join(source_desc_folder, zip_name)
         compress_file = []
@@ -58,6 +163,8 @@ def zip_module(orig_path, desc_name):
                 try:
                     abs_name = os.path.abspath(os.path.join(dir_name, filename))
                     if is_exclude_file(abs_name):
+                        continue
+                    if not check_valid_file_type(abs_name, timestamp):
                         continue
                     if os.path.islink(abs_name):
                         abs_name = os.readlink(abs_name)
@@ -71,11 +178,16 @@ def zip_module(orig_path, desc_name):
                     success = False
                     failed_msg.append(f'|--- {ex}')
         try:
+            for dump in oss_dump_list:
+                dump_orig_path = os.path.join(dumptasks_dir, dump)
+                zip_object.write(dump_orig_path, os.path.basename(dump_orig_path))
+
             zip_object.close()
             shutil.move(zip_name, des_path)
         except Exception as ex:
             success = False
             failed_msg.append(f'|--- {ex}')
+
     else:
         success = False
         failed_msg.append(f"|--- Can't find source path: {orig_path}")
@@ -114,7 +226,7 @@ def zip_compressed_source(output_dir="", total_list=[]):
         logger.info(f"\n* Final compressed file: {final_zip_file}")
 
 
-def collect_source(pkg_list: List[PackageItem], output_dir: str):
+def collect_source(pkg_list: List[PackageItem], output_dir: str, build_output_dir: str):
     global source_desc_folder
     if output_dir == "":
         output_dir = os.getcwd()
@@ -141,9 +253,14 @@ def collect_source(pkg_list: List[PackageItem], output_dir: str):
         src_uri = recipe_item.download_location
         base_path = recipe_item.file_path
 
+        full_uri = recipe_item.full_src_uri
+        pf = recipe_item.pf
         # zip downloaded source codes and located to package_zip folders
         total_list.append(recipe_name + ZIP_FILE_EXTENSION)
-        success, failed_msg = zip_module(recipe_item.src_path, recipe_name)
+        source_timestamp = recipe_item.source_done
+        zip_file_name = recipe_name + "_" + recipe_item.version
+
+        success, failed_msg = zip_module(recipe_item.src_path, zip_file_name, build_output_dir, source_timestamp, full_uri, pf)
         if success:
             success_list.append(recipe_name)
         else:
@@ -168,4 +285,4 @@ def collect_source(pkg_list: List[PackageItem], output_dir: str):
         write_txt_file(output_failed_txt, "\n".join(failed_list))
 
     # zip package source codes
-    zip_compressed_source(output_dir, total_list)
+    # zip_compressed_source(output_dir, total_list)
