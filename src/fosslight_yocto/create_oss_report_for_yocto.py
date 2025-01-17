@@ -192,7 +192,7 @@ def read_bom_file(bom_file, buildhistory_latest_pkg_list):
         oss_item['source_done'] = item.get('complete', "")
         oss_item['full_src_uri'] = bom_src_uri
 
-        oss_item['package_format'] = item['pf', ""]
+        oss_item['package_format'] = item.get('pf', "")
 
         if bom_packages != "":
             packages = bom_packages.split()
