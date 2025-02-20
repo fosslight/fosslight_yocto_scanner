@@ -74,6 +74,7 @@ class PackageItem(FileItem):
     def yocto_recipe(self, value):
         if not isinstance(value, list):
             value = value.split(",")
+        value = remove_null_values(value)
         self._yocto_recipe.extend(value)
         self._yocto_recipe = [item.strip() for item in self._yocto_recipe]
         self._yocto_recipe = list(set(self._yocto_recipe))
@@ -86,6 +87,7 @@ class PackageItem(FileItem):
     def yocto_package(self, value):
         if not isinstance(value, list):
             value = value.split(",")
+        value = remove_null_values(value)
         self._yocto_package.extend(value)
         self._yocto_package = [item.strip() for item in self._yocto_package]
         self._yocto_package = list(set(self._yocto_package))
@@ -306,3 +308,7 @@ def update_package_name(oss, value, nested_pkg_name):
             oss.parent_package_name = value
         oss.package_name = value
     return oss
+
+
+def remove_null_values(data):
+    return [item for item in data if item is not None]
