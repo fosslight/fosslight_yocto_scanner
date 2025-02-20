@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.0.3 (20/02/2025)
+## Changes
+## 🐛 Hotfixes
+
+- Check null into yocto_recipe/package @dd-jy (#49)
+
+---
+
 ## v4.0.2 (15/01/2025)
 ## Changes
 ## 🐛 Hotfixes
