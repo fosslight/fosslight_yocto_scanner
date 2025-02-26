@@ -44,6 +44,9 @@ class PackageItem(FileItem):
         self.pr = ""
         self._yocto_recipe = []
         self._yocto_package = []
+        self.source_done = ""   # Save timestamp after source code fetch : Only for -e option
+        self.full_src_uri = ""   # List all src uri links : Only for -e option
+        self.pf = ""   # Package name + version value : Only for -e option
 
     def __eq__(self, value):
         return self.spdx_id == value
@@ -297,6 +300,12 @@ def set_value_switch(oss, key, value, nested_pkg_name):
         oss.yocto_recipe = value
     elif key == 'additional_data':
         oss.additional_data = value
+    elif key == 'source_done':
+        oss.source_done = value
+    elif key == 'full_src_uri':
+        oss.full_src_uri = value
+    elif key == 'package_format':
+        oss.pf = value
 
 
 def update_package_name(oss, value, nested_pkg_name):
