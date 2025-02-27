@@ -55,9 +55,8 @@ def join_source_path(build_output_path, bom_src_path):
 
 def check_valid_dir_type(dir_name):
     validation = True
-    if '.pc' in dir_name or \
-            '.git' in dir_name:
-                validation = False
+    if '.pc' in dir_name or '.git' in dir_name:
+        validation = False
 
     return validation
 
