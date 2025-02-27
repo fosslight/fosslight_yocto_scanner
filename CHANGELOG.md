@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.0.4 (27/02/2025)
+## Changes
+## 🔧 Maintenance
+
+- Updating -e option by adding new dump feature @heedu (#47)
+
+---
+
 ## v4.0.3 (20/02/2025)
 ## Changes
 ## 🐛 Hotfixes
