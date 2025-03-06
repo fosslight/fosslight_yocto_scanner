@@ -53,6 +53,14 @@ def join_source_path(build_output_path, bom_src_path):
     return join_path
 
 
+def check_valid_dir_type(dir_name):
+    validation = True
+    if '.pc' in dir_name or '.git' in dir_name:
+        validation = False
+
+    return validation
+
+
 def check_valid_file_type(file_path, timestamp):
     validation = True
     if not os.path.isfile(file_path) or \
@@ -80,13 +88,10 @@ def get_dump_files(oss_key, dump_dir):
         return found_list
 
     if dump_file_list is None:
-        print("no dump info")
         return found_list
 
     for dump in dump_file_list:
         if dump.startswith(oss_key):
-            print("found dump file")
-            print(dump)
             found_list.append(dump)
 
     return found_list
@@ -100,8 +105,12 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, 
     zip_name = desc_name + ZIP_FILE_EXTENSION
     uri_path_list = []
     dumptasks_dir = os.path.join(build_output_dir, DUMP_DIR_PATH)
-    oss_dump_list = get_dump_files(pf, dumptasks_dir)
-
+    if os.path.exists(dumptasks_dir):
+        oss_dump_list = get_dump_files(pf, dumptasks_dir)
+    else:
+        logger.debug(f'Not found OSS Dump : {pf}')
+        oss_dump_list = []
+    uri_path = None
     uris = full_src_uri.split()
 
     for uri in uris:
@@ -111,11 +120,14 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, 
             uri_path = join_source_path(build_output_dir, uri_path)
             logger.debug(f'uri full path : {uri_path}')
             uri_path_list.append(uri_path)
+        else:
+            # Case of remote repository in first uri in uris
+            if len(uri_path_list) == 0:
+                uri_path = uri
+                break
 
     if len(uri_path_list) > 0:
         uri_path = uri_path_list[0]
-    else:
-        uri_path = None
 
     orig_path = join_source_path(build_output_dir, orig_path)
 
@@ -125,7 +137,7 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, 
 
     if desc_name == "":
         logger.debug("Recipe name is missing")
-    elif uri_path is not None and os.path.exists(uri_path) and os.path.isfile(uri_path):
+    elif len(uri_path_list) > 0 and uri_path is not None and os.path.exists(uri_path) and os.path.isfile(uri_path):
 
         zip_object = zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED)
         for uri_path in uri_path_list:
@@ -162,6 +174,8 @@ def zip_module(orig_path, desc_name, build_output_dir, timestamp, full_src_uri, 
             for filename in files:
                 try:
                     abs_name = os.path.abspath(os.path.join(dir_name, filename))
+                    if not check_valid_dir_type(dir_name):
+                        continue
                     if is_exclude_file(abs_name):
                         continue
                     if not check_valid_file_type(abs_name, timestamp):
