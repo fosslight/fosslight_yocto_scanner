@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.0.5 (07/03/2025)
+## Changes
+## 🔧 Maintenance
+
+- Fix empty source bug after fetching source code @heedu (#50)
+
+---
+
 ## v4.0.4 (27/02/2025)
 ## Changes
 ## 🔧 Maintenance
