@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.0.6 (16/07/2025)
+## Changes
+## 🔧 Maintenance
+
+- Change the minimum Python version to 3.10 @soimkim (#51)
+
+---
+
 ## v4.0.5 (07/03/2025)
 ## Changes
 ## 🔧 Maintenance
