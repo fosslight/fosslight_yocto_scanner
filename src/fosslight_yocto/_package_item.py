@@ -193,7 +193,8 @@ class PackageItem(FileItem):
                 value = license_list
 
             if '&' in value or '|' in value:
-                self.comment = origin_lic
+                if '|' in value:
+                    self.comment = origin_lic
                 value = value.replace('|', '&')
                 license_list = value.split('&')
                 for lic in license_list:
