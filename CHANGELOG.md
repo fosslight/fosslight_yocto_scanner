@@ -1,5 +1,16 @@
 # Changelog
 
+## v4.0.7 (26/02/2026)
+## Changes
+## 🔧 Maintenance
+
+- Print comment only OR in LICENSE @soimkim (#56)
+- Update dependency from requirements.txt @soimkim (#55)
+- Add .coderabbit.yaml configuration file for review @soimkim (#54)
+- Update python version to 3.10 @soimkim (#52)
+
+---
+
 ## v4.0.6 (16/07/2025)
 ## Changes
 ## 🔧 Maintenance
