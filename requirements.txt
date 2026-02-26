@@ -12,4 +12,3 @@ ruamel.yaml
 py-tlsh
 tqdm
 fosslight_binary~=5.1.0
-fosslight_source~=2.1.0
