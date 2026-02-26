@@ -12,3 +12,4 @@ ruamel.yaml
 py-tlsh
 tqdm
 fosslight_binary~=5.1.0
+scancode
