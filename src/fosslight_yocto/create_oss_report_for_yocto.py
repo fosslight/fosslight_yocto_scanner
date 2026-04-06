@@ -367,7 +367,6 @@ def get_checksum_and_tlsh(bin_file_full_path):
 
 
 def get_binary_list(buildhistory_package_files, path_to_find):
-    global installed_packages_bin, binary_list
     EXCLUDE_FILE_EXTENSION = ['qm', 'pyc']
     EXCLUDE_FILE_COMMAND_RESULT = ['data', 'timezone data']
     file_list = []
@@ -493,9 +492,6 @@ def change_like_license(recipe_license, db_licenses):
 
 
 def declare_license_by_osc_db():
-    global installed_packages_src
-    global installed_packages_bin
-
     oss_info_from_db = {}  # Key : name +|+version, Value :name, version, lic_group
     license_info_from_db = {}  # Key : name , Value : nick, score
     seperator = ","

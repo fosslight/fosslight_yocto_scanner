@@ -1,0 +1,57 @@
+# Copyright (c) 2023 LG Electronics Inc.
+# SPDX-License-Identifier: Apache-2.0
+
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fosslight_yocto"
+version = "4.0.7"
+description = "FOSSLight Yocto Scanner"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [
+    { name = "LG Electronics" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+requires-python = ">=3.10,<3.15"
+dependencies = [
+    "fosslight_util>=2.1.0",
+    "binaryornot",
+    "openpyxl",
+    "pandas",
+    "PyMySQL",
+    "python-dateutil",
+    "PyYAML",
+    "xlrd",
+    "XlsxWriter",
+    "parmap",
+    "ruamel.yaml",
+    "py-tlsh",
+    "tqdm",
+    "fosslight_binary>=5.1.0",
+    "scancode-toolkit",
+]
+
+[project.urls]
+Homepage = "https://github.com/fosslight/fosslight_yocto_scanner"
+Download = "https://github.com/fosslight/fosslight_yocto_scanner"
+
+[project.scripts]
+fosslight_yocto = "fosslight_yocto.create_oss_report_for_yocto:main"
+fosslight_doubleopen = "fosslight_yocto.parsing_meta_doubleopen:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
