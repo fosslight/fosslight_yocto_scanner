@@ -5,43 +5,86 @@
 from fosslight_util.help import PrintHelpMsg, print_package_version
 
 _HELP_MESSAGE_BOM = """
-    Usage: fosslight_yocto [option1] <arg1> [option2] <arg2>...
+    📖 Usage
+    ────────────────────────────────────────────────────────────────────
+    fosslight_yocto [options] <arguments>
 
-    FOSSLight Yocto for parsing BOM.json
+    📝 Description
+    ────────────────────────────────────────────────────────────────────
+    FOSSLight Yocto Scanner parses bom.json to extract open source
+    information for packages installed on a Yocto-based model.
 
-    Options:
-        Mandatory
-            -p <path>\t\t   Path of buildhistory/package
-            -b <file_with_path>\t\t   bom.json
-            -i <file_with_path>\t\t   installed-package-names.txt
-            -ip <file_with_path>\t   installed-packages.txt
+    📚 Guide: https://fosslight.org/fosslight-guide-en/scanner/7_yocto.html
 
-        Optional
-            -h\t\t\t\t   Print help message
-            -v\t\t\t\t   Print FOSSLight yocto version
-            -y <file_with_path>\t\t   sbom-info.yaml or oss-pkg-info.yaml
-            -a <path>\t\t\t   Path to analyze the binaries
-            -n\t\t\t\t   Print result in BIN(Yocto) format
-            -s\t\t\t\t   Analyze source code for unconfirmed Open Source
-            -c\t\t\t\t   Analyze all the source code
-            -e <path>\t\t\t   Top build output path with bom.json to compress all the source code
-            -o <path>\t\t\t   Output Path
-            -f <format>\t\t\t   Output file format (excel, csv, opossum)
-            -pr\t\t\t\t   Print all data of bom.json"""
+    ⚙️  General Options
+    ────────────────────────────────────────────────────────────────────
+    -h                     Show this help message
+    -v                     Show version information
+    -o <path>              Output directory path (default: current directory)
+    -f <format>            Output file format (excel, csv, opossum)
+
+    🔍 Scanner-Specific Options
+    ────────────────────────────────────────────────────────────────────
+    -p <path>              Path of buildhistory/package directory
+    -b <file>              bom.json file path
+    -i <file>              installed-package-names.txt file path
+    -ip <file>             installed-packages.txt file path
+    -y <file>              sbom-info.yaml or oss-pkg-info.yaml file path
+    -a <path>              Path to analyze the binaries
+    -n                     Print result in BIN(Yocto) format
+    -s                     Analyze source code for unconfirmed Open Source
+    -c                     Analyze all the source code
+    -e <path>              Top build output path with bom.json to compress
+                           all the source code
+    -pr                    Print all data of bom.json
+
+    💡 Examples
+    ────────────────────────────────────────────────────────────────────
+    # Basic scan with required inputs
+    fosslight_yocto -p buildhistory/packages -b bom.json \\
+                    -i installed-package-names.txt -ip installed-packages.txt
+
+    # Scan with sbom-info.yaml and output path
+    fosslight_yocto -p buildhistory/packages -b bom.json \\
+                    -i installed-package-names.txt -ip installed-packages.txt \\
+                    -y sbom-info.yaml -o results/
+
+    # Scan with binary analysis and source code analysis
+    fosslight_yocto -p buildhistory/packages -b bom.json \\
+                    -i installed-package-names.txt -ip installed-packages.txt \\
+                    -a /path/to/binaries -s
+"""
 
 _HELP_MESSAGE_META_DOUBLE = """
-    Usage: fosslight_doubleopen [option1] <arg1> [option2] <arg2>...
+    📖 Usage
+    ────────────────────────────────────────────────────────────────────
+    fosslight_doubleopen [options] <arguments>
 
-    FOSSLight Yocto for parsing meta-doubleopen's result file
+    📝 Description
+    ────────────────────────────────────────────────────────────────────
+    FOSSLight Yocto Scanner for parsing meta-doubleopen's result file
+    (SPDX JSON format) and generating an OSS report.
 
-    Options:
-        Mandatory
-            -f <file_name>\t\t  meta-doubleopen result spdx file
+    📚 Guide: https://fosslight.org/fosslight-guide-en/yocto
 
-        Optional
-            -h\t\t\t\t   Print help message
-            -v\t\t\t\t   Print FOSSLight yocto version
-            -o <file_name>\t\t   Output file name"""
+    ⚙️  General Options
+    ────────────────────────────────────────────────────────────────────
+    -h                     Show this help message
+    -v                     Show version information
+
+    🔍 Scanner-Specific Options
+    ────────────────────────────────────────────────────────────────────
+    -f <file>              meta-doubleopen result SPDX file path
+    -o <file>              Output file name (with path)
+
+    💡 Examples
+    ────────────────────────────────────────────────────────────────────
+    # Parse meta-doubleopen result file
+    fosslight_doubleopen -f meta_doubleopen_result.spdx.json
+
+    # Parse with custom output file name
+    fosslight_doubleopen -f meta_doubleopen_result.spdx.json -o results/oss_report
+"""
 
 
 def print_help_msg_bom():
