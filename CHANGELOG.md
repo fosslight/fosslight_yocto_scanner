@@ -1,5 +1,14 @@
 # Changelog
 
+## v4.0.8 (09/04/2026)
+## Changes
+## 🔧 Maintenance
+
+- feat(python): add Python 3.13/3.14 support @soimkim (#59)
+- Remove "Type of change" section from PR default template @woocheol-lge (#57)
+
+---
+
 ## v4.0.7 (26/02/2026)
 ## Changes
 ## 🔧 Maintenance
