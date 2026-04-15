@@ -450,13 +450,13 @@ def get_binary_list(buildhistory_package_files, path_to_find):
 def check_required_files(bom, installed_pkgs, buildhistory_path, installed_pkgs_version):
     error_msg = ""
     if not os.path.isfile(bom):
-        error_msg = "-b bom.json\n"
+        error_msg += "-b bom.json\n"
     if not os.path.isfile(installed_pkgs):
-        error_msg = "-i installed-package-names.txt\n"
+        error_msg += "-i installed-package-names.txt\n"
     if not os.path.isdir(buildhistory_path) or buildhistory_path == "":
-        error_msg = "-p path/to/buildhistory\n"
+        error_msg += "-p path/to/buildhistory\n"
     if not os.path.isfile(installed_pkgs_version):
-        error_msg = "-ip installed-packages.txt\n"
+        error_msg += "-ip installed-packages.txt\n"
 
     if error_msg != "":
         exit_with_error_msg("Check Arguments\n" + error_msg, EX_NOINPUT)
@@ -880,7 +880,7 @@ def get_recipe_for_src_analysis(analyze_all):
                     oss_list[key]['name'] = item.name
                     oss_list[key]['license'] = item.license
                     oss_list[key]['license_detected'] = []
-                    oss_list[key]['link'] = item.download
+                    oss_list[key]['link'] = item.download_location
                     oss_list[key]['src'] = item.src_path
                     oss_list[key]['db'] = False
                     oss_list[key]['comment'] = ""
