@@ -1051,8 +1051,9 @@ def main():
         else:
             output_file = f"fosslight_report_yocto_{start_time}"
     output_file = os.path.join(output_path, output_file)
-    log_file = os.path.join(output_path, f"fosslight_log_yocto_{start_time}.txt")
-    logger, log_item = init_log(log_file)
+    logger, log_item = init_log(os.path.join(output_path, f"fosslight_log_yocto_{start_time}.txt"),
+                                True, logging.INFO, logging.DEBUG, PKG_NAME)
+    logger.info(f"Tool Info : {log_item['Tool Info']}")
     scan_item = ScannerItem(PKG_NAME, start_time)
     scan_item.set_cover_pathinfo(os.getcwd(), "")
 
