@@ -880,7 +880,7 @@ def get_recipe_for_src_analysis(analyze_all):
                     oss_list[key]['name'] = item.name
                     oss_list[key]['license'] = item.license
                     oss_list[key]['license_detected'] = []
-                    oss_list[key]['link'] = item.download
+                    oss_list[key]['link'] = item.download_location
                     oss_list[key]['src'] = item.src_path
                     oss_list[key]['db'] = False
                     oss_list[key]['comment'] = ""
