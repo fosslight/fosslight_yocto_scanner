@@ -771,12 +771,12 @@ def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_f
 
 def run_scancode_per_dir(path_to_scan, json_file_name, num_cores, recipe_name):
     if os.path.isdir(path_to_scan):
-        logger.warning("|- Analyzing: " + recipe_name + ",path:" + path_to_scan + ",json:" + json_file_name)
+        logger.debug("|- Analyzing: " + recipe_name + ",path:" + path_to_scan + ",json:" + json_file_name)
         try:
             rc, results = cli.run_scan(path_to_scan, max_depth=100, strip_root=True, license=True, copyright=True,
                                        return_results=True, processes=num_cores, output_json_pp=json_file_name)
         except Exception as ex:
-            logger.info(str(ex))
+            logger.debug(str(ex))
 
 
 def get_src_analysis_result(input_list, scancode_result_dir, return_list):
@@ -793,7 +793,7 @@ def get_src_analysis_result(input_list, scancode_result_dir, return_list):
                                             sorted_license]
                 item['comment'] = set_src_analysis_result(item['license'], sorted_license)
             else:
-                item['comment'] = f"Source code analysis failed. SRC: {item['src']}"
+                item['comment'] = f"Source code analysis failed. {item['src']}"
         except:
             item['comment'] = "Failed to parse the source code analysis result."
 
@@ -950,7 +950,7 @@ def get_list_by_using_query(cur, sql_query, columns):
 def connect_to_osc_db():
     user = OSC_DB_USER
     password = OSC_DB_PASSWORD
-    host_product = 'osc-db.lge.com'
+    host_product = 'fosslight.lge.com'
     dbname = 'osc'
     port = 3306
     conn = ""
