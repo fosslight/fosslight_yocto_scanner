@@ -56,7 +56,7 @@ def write_result_from_bom(out_file_name, installed_packages_src, installed_packa
     if success_to_write:
         logger.info(f"Output file :{result_file}")
     else:
-        logger.error(f"Fail to generate result file.: {msg}")
+        logger.error(f"Fail to write {result_file}: {msg}")
 
 
 def print_src_analysis_result(recipe_list, output_file, cover_item):
@@ -73,15 +73,15 @@ def print_src_analysis_result(recipe_list, output_file, cover_item):
                 list_to_print.append([item['name'], item['version'], item['comment'], ','.join(item['license']),
                                       ','.join(item['license_detected']), item['link']])
 
+            list_to_print.insert(0, SRC_HEADER[SHEET_NAME])
             sheet_list[SHEET_NAME] = list_to_print
+            cover_item.file_items.clear()
             cover_item.external_sheets = sheet_list
             success_to_write, msg, result_file = write_output_file(output_file, OUTPUT_FILE_EXTENSION,
                                                                    cover_item, SRC_HEADER)
-            # success_to_write, writing_msg, result_file = write_output_file(output_file, OUTPUT_FILE_EXTENSION, sheet_list, SRC_HEADER)
-
             if success_to_write:
-                logger.info(f"Source Analysis - Writing Output file ({result_file}), Success: {success_to_write}")
+                logger.info(f"Source Analysis - Output file: {result_file}")
             else:
-                logger.error(f"Fail to generate result file. msg:({msg})")
+                logger.error(f"Fail to generate source analysis result, {result_file}:{msg}")
     except Exception as ex:
         logger.error(f'write_result_from_source_analysis:{ex}')
