@@ -515,7 +515,7 @@ def declare_license_by_osc_db():
     # Get OSS's Licenses from DB
     for key, oss_item in oss_info_from_db.items():
         where_condition = " WHERE (OM.OSS_NAME = '{oss_name}' OR NICK.OSS_NICKNAME = '{oss_name}') AND OM.OSS_VERSION = '{oss_version}'".format(
-            oss_name=pymysql.escape_string(oss_item['name']), oss_version=pymysql.escape_string(oss_item['version']))
+            oss_name=pymysql.converters.escape_string(oss_item['name']), oss_version=pymysql.converters.escape_string(oss_item['version']))
         oss_item['lic_group'], license_info_from_db = select_query_to_db(db_cur, license_info_from_db, where_condition)
     disconnect_lge_bin_db(db_conn, db_cur)
 
@@ -683,7 +683,7 @@ def get_license_query_to_db(license_name):
         sql_query = """SELECT LM.LICENSE_NAME, LICENSE_TYPE FROM LICENSE_MASTER AS LM
         LEFT OUTER JOIN LICENSE_NICKNAME AS LN ON LM.LICENSE_NAME = LN.LICENSE_NAME
         WHERE LM.LICENSE_NAME='{license_name}' OR LM.SHORT_IDENTIFIER = '{license_name}' OR LN.LICENSE_NICKNAME = '{license_name}' """.format(
-            license_name=pymysql.escape_string(license_name))
+            license_name=pymysql.converters.escape_string(license_name))
         df_result = get_list_by_using_query(db_cur, sql_query, ["LICENSE_NAME", "LICENSE_TYPE"])
         if df_result is not None and len(df_result) > 0:
             for idx, row in df_result.iterrows():
@@ -709,8 +709,8 @@ def select_query_to_db(cur, license_info_from_db, where_condition):
      , LM.LICENSE_TYPE
      , (SELECT GROUP_CONCAT(LICENSE_NICKNAME SEPARATOR ', ') FROM LICENSE_NICKNAME WHERE LICENSE_NAME = LM.LICENSE_NAME) AS LICENSE_NICKNAME
      FROM OSS_MASTER OM
-     LEFT OUTER JOIN OSS_NICKNAME NICK ON OM.OSS_NAME = NICK.OSS_NAME
-     INNER JOIN OSS_LICENSE OL ON OM.OSS_ID = OL.OSS_ID
+     LEFT OUTER JOIN OSS_NICKNAME NICK ON OM.OSS_COMMON_ID = NICK.OSS_COMMON_ID
+     INNER JOIN OSS_LICENSE OL ON OM.OSS_COMMON_ID = OL.OSS_COMMON_ID
      INNER JOIN LICENSE_MASTER LM ON OL.LICENSE_ID = LM.LICENSE_ID """
         order_condition = " ORDER BY OL.OSS_LICENSE_IDX ASC;"
         lic_group = []
@@ -758,6 +758,7 @@ def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_f
     recipes_to_analyze = get_recipe_for_src_analysis(analyze_all_mode)
     logger.info(
         f"Source code analysis starts for {len(recipes_to_analyze)} recipes. multiprocessing={num_cores})")
+
     if len(recipes_to_analyze) > 0:
         for item in recipes_to_analyze:
             scancode_output_file = os.path.join(scancode_result_dir, item['name'] + ".json")
@@ -901,8 +902,19 @@ def get_recipe_for_src_analysis(analyze_all):
         if not analyze_all:
             db_conn, db_cur = connect_to_osc_db()
             if db_conn != "" and db_cur != "":
+                names = list(set([item.get('name', '') for item in oss_list.values() if item.get('name', '')]))
+                links = list(set([item.get('link', '') for item in oss_list.values() if item.get('link', '')]))
+
+                existing_names, existing_links = check_oss_exists_in_db_batch(db_cur, names, links)
+
                 for key, oss_item in oss_list.items():
-                    result = check_oss_exists_in_db(db_cur, oss_item['name'], oss_item['link'])
+                    r_name = oss_item.get('name', '')
+                    r_link = oss_item.get('link', '')
+                    result = (r_name.lower() in existing_names) or ((r_link != "") and (r_link.lower() in existing_links))
+                    if result:
+                        logger.debug(f"DB Found: {r_name}")
+                    else:
+                        logger.debug(f"DB Not Found: {r_name} {r_link}")
                     oss_item['db'] = result
                 disconnect_lge_bin_db(db_conn, db_cur)
 
@@ -922,26 +934,41 @@ def create_dir(dir_name):
     return dir_name
 
 
-def check_oss_exists_in_db(db_cur, name, link):
-    oss_exists = False
+def check_oss_exists_in_db_batch(db_cur, names, links):
+    existing_names = set()
+    existing_links = set()
     try:
-        sql_query = """SELECT OM.OSS_NAME FROM OSS_MASTER OM
-        LEFT OUTER JOIN OSS_NICKNAME NICK ON OM.OSS_NAME = NICK.OSS_NAME
-        LEFT OUTER JOIN OSS_DOWNLOADLOCATION DOWNLOAD ON DOWNLOAD.OSS_ID = OM.OSS_ID
-        WHERE OM.OSS_NAME = '{oss_name}' OR NICK.OSS_NICKNAME = '{oss_name}' """.format(
-            oss_name=pymysql.escape_string(name))
-        if link != "":
-            sql_query = f"{sql_query} OR DOWNLOAD.DOWNLOAD_LOCATION='{pymysql.escape_string(link)}'"
+        def chunker(seq, size):
+            return (seq[pos:pos + size] for pos in range(0, len(seq), size))
 
-        df_result = get_list_by_using_query(db_cur, sql_query, ["OSS_NAME"])
-        if df_result is not None and len(df_result) > 0:  # Exists
-            oss_exists = True
-        else:
-            oss_exists = False
-    except Exception:
-        oss_exists = False
+        for name_chunk in chunker(names, 500):
+            if not name_chunk:
+                continue
+            name_str = ','.join([f"'{pymysql.converters.escape_string(n)}'" for n in name_chunk])
 
-    return oss_exists
+            q1 = f"SELECT DISTINCT OSS_NAME FROM OSS_MASTER WHERE OSS_NAME IN ({name_str})"
+            df1 = get_list_by_using_query(db_cur, q1, ["OSS_NAME"])
+            if isinstance(df1, pd.DataFrame) and not df1.empty:
+                existing_names.update([str(x).lower() for x in df1["OSS_NAME"].tolist()])
+
+            q2 = f"SELECT DISTINCT OSS_NICKNAME FROM OSS_NICKNAME WHERE OSS_NICKNAME IN ({name_str})"
+            df2 = get_list_by_using_query(db_cur, q2, ["OSS_NICKNAME"])
+            if isinstance(df2, pd.DataFrame) and not df2.empty:
+                existing_names.update([str(x).lower() for x in df2["OSS_NICKNAME"].tolist()])
+
+        for link_chunk in chunker(links, 500):
+            if not link_chunk:
+                continue
+            link_str = ','.join([f"'{pymysql.converters.escape_string(lnk)}'" for lnk in link_chunk])
+
+            q3 = f"SELECT DISTINCT DOWNLOAD_LOCATION FROM OSS_DOWNLOADLOCATION WHERE DOWNLOAD_LOCATION IN ({link_str})"
+            df3 = get_list_by_using_query(db_cur, q3, ["DOWNLOAD_LOCATION"])
+            if isinstance(df3, pd.DataFrame) and not df3.empty:
+                existing_links.update([str(x).lower() for x in df3["DOWNLOAD_LOCATION"].tolist()])
+    except Exception as ex:
+        logger.debug(f"Batch DB Error: {ex}")
+
+    return existing_names, existing_links
 
 
 def get_list_by_using_query(cur, sql_query, columns):
