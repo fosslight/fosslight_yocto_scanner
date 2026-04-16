@@ -743,6 +743,13 @@ def select_query_to_db(cur, license_info_from_db, where_condition):
 
 
 def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_file_without_extension):
+    if not analyze_all_mode:
+        db_conn, db_cur = connect_to_osc_db()
+        if db_conn == "" or db_cur == "":
+            logger.error("DB connection failed. Source code analysis is stopped. If you want to analyze all, please use the -c (--complete) option.")
+            return
+        disconnect_lge_bin_db(db_conn, db_cur)
+
     num_cores = multiprocessing.cpu_count() - 1
     if num_cores < 1:
         num_cores = 1
@@ -776,7 +783,7 @@ def run_scancode_per_dir(path_to_scan, json_file_name, num_cores, recipe_name):
             rc, results = cli.run_scan(path_to_scan, max_depth=100, strip_root=True, license=True, copyright=True,
                                        return_results=True, processes=num_cores, output_json_pp=json_file_name)
         except Exception as ex:
-            logger.debug(str(ex))
+            logger.debug(f"Scancode analysis failed {recipe_name}: {ex}")
 
 
 def get_src_analysis_result(input_list, scancode_result_dir, return_list):
