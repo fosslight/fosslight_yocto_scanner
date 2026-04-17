@@ -1,5 +1,20 @@
 # Changelog
 
+## v4.0.9 (17/04/2026)
+## Changes
+## 🐛 Hotfixes
+
+- Resolve PyMySQL compatibility and optimize DB lookups @soimkim (#63)
+- Fix excel generation bugs and update DB endpoint @soimkim (#62)
+- Fix the attribute errors that occur during source code analysis @hyesung22 (#60)
+
+## 🔧 Maintenance
+
+- Update -s flag description for source analysis @soimkim (#64)
+- Add scanner version log at startup @woocheol-lge (#61)
+
+---
+
 ## v4.0.8 (09/04/2026)
 ## Changes
 ## 🔧 Maintenance
