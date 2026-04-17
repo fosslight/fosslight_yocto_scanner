@@ -32,7 +32,7 @@ _HELP_MESSAGE_BOM = """
     -y <file>              sbom-info.yaml or oss-pkg-info.yaml file path
     -a <path>              Path to analyze the binaries
     -n                     Print result in BIN(Yocto) format
-    -s                     Analyze source code for unconfirmed Open Source
+    -s                     Analyze source code for New Open Source
     -c                     Analyze all the source code
     -e <path>              Top build output path with bom.json to compress
                            all the source code
