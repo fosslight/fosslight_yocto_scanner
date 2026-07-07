@@ -1,0 +1,43 @@
+version = 1
+SPDX-PackageName = "FOSSLight Yocto"
+SPDX-PackageDownloadLocation = "https://github.com/fosslight/fosslight_yocto"
+
+[[annotations]]
+path = "pyproject.toml"
+SPDX-FileCopyrightText = "2026 LG Electronics Inc."
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "**.md"
+SPDX-FileCopyrightText = "2023 LG Electronics"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "test_files/**"
+SPDX-FileCopyrightText = "2023 LG Electronics"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ".github/**"
+SPDX-FileCopyrightText = "2023 LG Electronics"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "MANIFEST.in"
+SPDX-FileCopyrightText = "2023 LG Electronics"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "requirements**.txt"
+SPDX-FileCopyrightText = "2023 LG Electronics"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ".gitignore"
+SPDX-FileCopyrightText = "2023 LG Electronics"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ".coderabbit.yaml"
+SPDX-FileCopyrightText = "2026 LG Electronics"
+SPDX-License-Identifier = "Apache-2.0"
