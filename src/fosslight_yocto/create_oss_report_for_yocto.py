@@ -39,6 +39,7 @@ from fosslight_util.output_format import check_output_format
 import argparse
 from typing import List
 from fosslight_util.oss_item import ScannerItem
+from fosslight_source._parsing_scancode_file_item import get_error_from_header, parsing_file_item
 
 logger = logging.getLogger(constant.LOGGER_NAME)
 PKG_NAME = "fosslight_yocto"
@@ -834,42 +835,44 @@ def set_src_analysis_result(item_licenses, scancode_licenses):
     return comment
 
 
+def _build_scancode_license_nick(license_value):
+    replace_word = ["-only", "-old-style", "-or-later"]
+    key_value = license_value.lower()
+    license_detected = [key_value]
+    for word in replace_word:
+        if word in key_value:
+            license_detected.append(key_value.replace(word, ""))
+    if key_value in _map_license_from_yocto_to_scancode:
+        license_detected = _map_license_from_yocto_to_scancode[key_value] + license_detected
+    return list(set(license_detected))
+
+
 def get_detected_licenses_from_scancode(scancode_json_file):
     scan_licenses = {}
     try:
         with open(scancode_json_file, "r") as st_json:
             st_python = json.load(st_json)
-            for file in st_python["files"]:
-                licenses = file["licenses"]
-                license_detected = []
-                for lic_item in licenses:
-                    key_list = ["key", "name", "short_name", "spdx_license_key"]
-                    replace_word = ["-only", "-old-style", "-or-later"]
-                    key_value = lic_item["key"].lower()
-                    if key_value not in scan_licenses:
-                        scan_licenses[key_value] = {}
-                        scan_licenses[key_value]['nick'] = []
-                        scan_licenses[key_value]['cnt'] = 1
-                        scan_licenses[key_value]['key'] = key_value
-                        for key in key_list:
-                            value = lic_item[key]
-                            if value is not None and value != "":
-                                value = value.lower()
-                                license_detected.append(value)
-                                for word in replace_word:
-                                    if word in value:
-                                        value = value.replace(word, "")
-                                        license_detected.append(value)
-                        if key_value in _map_license_from_yocto_to_scancode:
-                            license_detected = _map_license_from_yocto_to_scancode[key_value] + license_detected
+        files = st_python.get("files", [])
+        if not files:
+            return scan_licenses
 
-                        if len(license_detected) > 0:
-                            scan_licenses[key_value]['nick'] = list(set(license_detected))
-                    else:
-                        scan_licenses[key_value]['cnt'] += 1
-
-    except:
-        pass
+        has_error, _ = get_error_from_header(st_python.get("headers", []))
+        _, scancode_file_items, _, _ = parsing_file_item(files, has_error, need_matched_license=False)
+        for file_item in scancode_file_items:
+            for license_value in file_item.licenses:
+                if not license_value:
+                    continue
+                key_value = license_value.lower()
+                if key_value not in scan_licenses:
+                    scan_licenses[key_value] = {
+                        'nick': _build_scancode_license_nick(license_value),
+                        'cnt': 1,
+                        'key': key_value,
+                    }
+                else:
+                    scan_licenses[key_value]['cnt'] += 1
+    except Exception as ex:
+        logger.debug(f"Failed to parse scancode result {scancode_json_file}: {ex}")
     return scan_licenses
 
 
