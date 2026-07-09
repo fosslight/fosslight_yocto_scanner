@@ -39,6 +39,7 @@ dependencies = [
     "tqdm",
     "fosslight_binary>=5.1.0",
     "fosslight_source>=2.3.0",
+    "lxml>=6.0.1",
     "scancode-toolkit",
 ]
 
