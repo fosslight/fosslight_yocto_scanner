@@ -984,7 +984,7 @@ def get_list_by_using_query(cur, sql_query, columns):
 def connect_to_osc_db():
     user = OSC_DB_USER
     password = OSC_DB_PASSWORD
-    host_product = 'fosslight.lge.com'
+    host_product = 'osc.lge.com'
     dbname = 'osc'
     port = 3306
     conn = ""
