@@ -7,7 +7,6 @@ import os
 import sys
 import json
 import tlsh
-from datetime import datetime
 from binaryornot.check import is_binary
 import magic
 import copy
@@ -23,6 +22,8 @@ import re
 import stat
 from scancode import cli
 from fosslight_util.set_log import init_log
+from fosslight_util.cover import dump_result_log
+from fosslight_util.time import current_timestamp_utc, timestamp_for_filename
 import fosslight_util.constant as constant
 from ._zip_source_works import collect_source
 from ._package_item import (
@@ -755,7 +756,7 @@ def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_f
     num_cores = multiprocessing.cpu_count() - 1
     if num_cores < 1:
         num_cores = 1
-    src_anlysis_start_time = datetime.now().strftime('%y%m%d_%H%M')
+    src_anlysis_start_time = current_timestamp_utc()
     scancode_result_dir = create_dir(os.path.join(out_dir, "scancode_result"))
     recipes_to_analyze = get_recipe_for_src_analysis(analyze_all_mode)
     logger.info(
@@ -776,6 +777,7 @@ def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_f
         parmap.map(get_src_analysis_result, splited_data, scancode_result_dir, return_list,
                    pm_pbar=True, pm_processes=num_cores)
         source_scan_item = ScannerItem(PKG_NAME, src_anlysis_start_time)
+        source_scan_item.set_cover_finish_time(current_timestamp_utc())
         print_src_analysis_result(return_list, output_file_without_extension, source_scan_item)
 
 
@@ -1080,16 +1082,17 @@ def main():
         printall = True
 
     # Output file names
-    start_time = datetime.now().strftime('%y%m%d_%H%M')
+    start_time = current_timestamp_utc()
+    file_time = timestamp_for_filename(start_time)
     success, msg, output_path, output_file, output_extension = check_output_format(output_path, file_format)
     output_path = os.path.abspath(output_path)
     if output_file == "":
         if output_extension == '.json':
-            output_file = f"fosslight_opossum_yocto_{start_time}"
+            output_file = f"fosslight_opossum_yocto_{file_time}"
         else:
-            output_file = f"fosslight_report_yocto_{start_time}"
+            output_file = f"fosslight_report_yocto_{file_time}"
     output_file = os.path.join(output_path, output_file)
-    logger, log_item = init_log(os.path.join(output_path, f"fosslight_log_yocto_{start_time}.txt"),
+    logger, log_item = init_log(os.path.join(output_path, f"fosslight_log_yocto_{file_time}.txt"),
                                 True, logging.INFO, logging.DEBUG, PKG_NAME)
     logger.info(f"Tool Info : {log_item['Tool Info']}")
     scan_item = ScannerItem(PKG_NAME, start_time)
@@ -1128,6 +1131,8 @@ def main():
         run_source_code_analysis_multiprocessing(_analyze_source_all, output_path, os.path.join(output_path, output_src_analysis_file))
 
     # Write the result to excel file
+    finish_time = current_timestamp_utc()
+    scan_item.set_cover_finish_time(finish_time)
     write_result_from_bom(output_file, installed_packages_src, installed_packages_bin,
                           _print_bin_android, output_extension,
                           additional_columns, binary_list, scan_item)
@@ -1138,6 +1143,12 @@ def main():
             collect_source(installed_packages_src, output_path, _compress_source_all)
         except Exception as ex:
             logger.error(f"Collecting source code: {ex}")
+
+    log_item["Running time"] = scan_item.cover.running_time
+    try:
+        logger.info(dump_result_log(log_item))
+    except Exception as ex:
+        logger.warning(f"Failed to print result log. {ex}")
 
 
 if __name__ == "__main__":
