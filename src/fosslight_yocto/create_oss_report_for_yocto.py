@@ -746,9 +746,10 @@ def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_f
     if not analyze_all_mode:
         db_conn, db_cur = connect_to_osc_db()
         if db_conn == "" or db_cur == "":
-            logger.error("DB connection failed. Source code analysis is stopped. If you want to analyze all, please use the -c (--complete) option.")
-            return
-        disconnect_lge_bin_db(db_conn, db_cur)
+            logger.warning("DB connection failed. Automatically running source code analysis with -c (--complete) option.")
+            analyze_all_mode = True
+        else:
+            disconnect_lge_bin_db(db_conn, db_cur)
 
     num_cores = multiprocessing.cpu_count() - 1
     if num_cores < 1:
