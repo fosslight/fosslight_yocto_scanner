@@ -1,5 +1,17 @@
 # Changelog
 
+## v4.0.10 (09/07/2026)
+## Changes
+## 🐛 Hotfixes
+
+- Fix the bug in the source code analysis function @soimkim (#66)
+
+## 🔧 Maintenance
+
+- Migrate to REUSE.toml and update GitHub Actions @woocheol-lge (#65)
+
+---
+
 ## v4.0.9 (17/04/2026)
 ## Changes
 ## 🐛 Hotfixes
