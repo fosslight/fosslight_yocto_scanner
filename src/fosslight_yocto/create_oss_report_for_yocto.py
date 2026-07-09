@@ -7,7 +7,6 @@ import os
 import sys
 import json
 import tlsh
-from datetime import datetime
 from binaryornot.check import is_binary
 import magic
 import copy
@@ -23,6 +22,8 @@ import re
 import stat
 from scancode import cli
 from fosslight_util.set_log import init_log
+from fosslight_util.cover import dump_result_log
+from fosslight_util.time import current_timestamp_utc, timestamp_for_filename
 import fosslight_util.constant as constant
 from ._zip_source_works import collect_source
 from ._package_item import (
@@ -39,6 +40,7 @@ from fosslight_util.output_format import check_output_format
 import argparse
 from typing import List
 from fosslight_util.oss_item import ScannerItem
+from fosslight_source._parsing_scancode_file_item import get_error_from_header, parsing_file_item
 
 logger = logging.getLogger(constant.LOGGER_NAME)
 PKG_NAME = "fosslight_yocto"
@@ -746,14 +748,15 @@ def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_f
     if not analyze_all_mode:
         db_conn, db_cur = connect_to_osc_db()
         if db_conn == "" or db_cur == "":
-            logger.error("DB connection failed. Source code analysis is stopped. If you want to analyze all, please use the -c (--complete) option.")
-            return
-        disconnect_lge_bin_db(db_conn, db_cur)
+            logger.warning("DB connection failed. Automatically running source code analysis with -c (--complete) option.")
+            analyze_all_mode = True
+        else:
+            disconnect_lge_bin_db(db_conn, db_cur)
 
     num_cores = multiprocessing.cpu_count() - 1
     if num_cores < 1:
         num_cores = 1
-    src_anlysis_start_time = datetime.now().strftime('%y%m%d_%H%M')
+    src_anlysis_start_time = current_timestamp_utc()
     scancode_result_dir = create_dir(os.path.join(out_dir, "scancode_result"))
     recipes_to_analyze = get_recipe_for_src_analysis(analyze_all_mode)
     logger.info(
@@ -774,6 +777,7 @@ def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_f
         parmap.map(get_src_analysis_result, splited_data, scancode_result_dir, return_list,
                    pm_pbar=True, pm_processes=num_cores)
         source_scan_item = ScannerItem(PKG_NAME, src_anlysis_start_time)
+        source_scan_item.set_cover_finish_time(current_timestamp_utc())
         print_src_analysis_result(return_list, output_file_without_extension, source_scan_item)
 
 
@@ -833,42 +837,44 @@ def set_src_analysis_result(item_licenses, scancode_licenses):
     return comment
 
 
+def _build_scancode_license_nick(license_value):
+    replace_word = ["-only", "-old-style", "-or-later"]
+    key_value = license_value.lower()
+    license_detected = [key_value]
+    for word in replace_word:
+        if word in key_value:
+            license_detected.append(key_value.replace(word, ""))
+    if key_value in _map_license_from_yocto_to_scancode:
+        license_detected = _map_license_from_yocto_to_scancode[key_value] + license_detected
+    return list(set(license_detected))
+
+
 def get_detected_licenses_from_scancode(scancode_json_file):
     scan_licenses = {}
     try:
         with open(scancode_json_file, "r") as st_json:
             st_python = json.load(st_json)
-            for file in st_python["files"]:
-                licenses = file["licenses"]
-                license_detected = []
-                for lic_item in licenses:
-                    key_list = ["key", "name", "short_name", "spdx_license_key"]
-                    replace_word = ["-only", "-old-style", "-or-later"]
-                    key_value = lic_item["key"].lower()
-                    if key_value not in scan_licenses:
-                        scan_licenses[key_value] = {}
-                        scan_licenses[key_value]['nick'] = []
-                        scan_licenses[key_value]['cnt'] = 1
-                        scan_licenses[key_value]['key'] = key_value
-                        for key in key_list:
-                            value = lic_item[key]
-                            if value is not None and value != "":
-                                value = value.lower()
-                                license_detected.append(value)
-                                for word in replace_word:
-                                    if word in value:
-                                        value = value.replace(word, "")
-                                        license_detected.append(value)
-                        if key_value in _map_license_from_yocto_to_scancode:
-                            license_detected = _map_license_from_yocto_to_scancode[key_value] + license_detected
+        files = st_python.get("files", [])
+        if not files:
+            return scan_licenses
 
-                        if len(license_detected) > 0:
-                            scan_licenses[key_value]['nick'] = list(set(license_detected))
-                    else:
-                        scan_licenses[key_value]['cnt'] += 1
-
-    except:
-        pass
+        has_error, _ = get_error_from_header(st_python.get("headers", []))
+        _, scancode_file_items, _, _ = parsing_file_item(files, has_error, need_matched_license=False)
+        for file_item in scancode_file_items:
+            for license_value in file_item.licenses:
+                if not license_value:
+                    continue
+                key_value = license_value.lower()
+                if key_value not in scan_licenses:
+                    scan_licenses[key_value] = {
+                        'nick': _build_scancode_license_nick(license_value),
+                        'cnt': 1,
+                        'key': key_value,
+                    }
+                else:
+                    scan_licenses[key_value]['cnt'] += 1
+    except Exception as ex:
+        logger.debug(f"Failed to parse scancode result {scancode_json_file}: {ex}")
     return scan_licenses
 
 
@@ -984,7 +990,7 @@ def get_list_by_using_query(cur, sql_query, columns):
 def connect_to_osc_db():
     user = OSC_DB_USER
     password = OSC_DB_PASSWORD
-    host_product = 'fosslight.lge.com'
+    host_product = 'osc.lge.com'
     dbname = 'osc'
     port = 3306
     conn = ""
@@ -1076,16 +1082,17 @@ def main():
         printall = True
 
     # Output file names
-    start_time = datetime.now().strftime('%y%m%d_%H%M')
+    start_time = current_timestamp_utc()
+    file_time = timestamp_for_filename(start_time)
     success, msg, output_path, output_file, output_extension = check_output_format(output_path, file_format)
     output_path = os.path.abspath(output_path)
     if output_file == "":
         if output_extension == '.json':
-            output_file = f"fosslight_opossum_yocto_{start_time}"
+            output_file = f"fosslight_opossum_yocto_{file_time}"
         else:
-            output_file = f"fosslight_report_yocto_{start_time}"
+            output_file = f"fosslight_report_yocto_{file_time}"
     output_file = os.path.join(output_path, output_file)
-    logger, log_item = init_log(os.path.join(output_path, f"fosslight_log_yocto_{start_time}.txt"),
+    logger, log_item = init_log(os.path.join(output_path, f"fosslight_log_yocto_{file_time}.txt"),
                                 True, logging.INFO, logging.DEBUG, PKG_NAME)
     logger.info(f"Tool Info : {log_item['Tool Info']}")
     scan_item = ScannerItem(PKG_NAME, start_time)
@@ -1124,6 +1131,8 @@ def main():
         run_source_code_analysis_multiprocessing(_analyze_source_all, output_path, os.path.join(output_path, output_src_analysis_file))
 
     # Write the result to excel file
+    finish_time = current_timestamp_utc()
+    scan_item.set_cover_finish_time(finish_time)
     write_result_from_bom(output_file, installed_packages_src, installed_packages_bin,
                           _print_bin_android, output_extension,
                           additional_columns, binary_list, scan_item)
@@ -1134,6 +1143,12 @@ def main():
             collect_source(installed_packages_src, output_path, _compress_source_all)
         except Exception as ex:
             logger.error(f"Collecting source code: {ex}")
+
+    log_item["Running time"] = scan_item.cover.running_time
+    try:
+        logger.info(dump_result_log(log_item))
+    except Exception as ex:
+        logger.warning(f"Failed to print result log. {ex}")
 
 
 if __name__ == "__main__":

@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 import os
 import json
-from datetime import datetime
 import logging
 import fosslight_util.constant as constant
 from fosslight_util.set_log import init_log
+from fosslight_util.time import current_timestamp_utc, timestamp_for_filename
 from ._help import print_help_msg_doubleopen, print_version
 from fosslight_util.output_format import write_output_file
 from ._package_item import PackageItem
@@ -202,7 +202,8 @@ def read_spdx_json(json_file_to_parse, output_file_name):
 def main():
     global logger
 
-    start_time = datetime.now().strftime('%y%m%d_%H%M')
+    start_time = current_timestamp_utc()
+    file_time = timestamp_for_filename(start_time)
     output_file_name = ""
 
     parser = argparse.ArgumentParser(description='FOSSLight Yocto', prog='fosslight_yocto', add_help=False)
@@ -223,12 +224,12 @@ def main():
 
     if output_file_name == "":
         output_dir = os.getcwd()
-        oss_report_name = f"fosslight_report_yocto_{start_time}"
+        oss_report_name = f"fosslight_report_yocto_{file_time}"
     else:
         oss_report_name = output_file_name
         output_dir = os.path.dirname(output_file_name)
 
-    logger, log_item = init_log(os.path.join(output_dir, f"fosslight_log_yocto_{start_time}.txt"))
+    logger, log_item = init_log(os.path.join(output_dir, f"fosslight_log_yocto_{file_time}.txt"))
     read_spdx_json(spdx_file, oss_report_name)
 
 
