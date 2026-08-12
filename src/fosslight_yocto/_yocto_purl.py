@@ -18,7 +18,6 @@ _SPECIAL_PKGSUFFIXES = (
 )
 _MLPREFIXES = ("nativesdk-", "lib32-", "lib64-", "libx32-")
 _CROSS_ARCH_SUFFIX = re.compile(r"-cross-[A-Za-z0-9_]+$")
-_CORE_LAYER_PARENTS = ("oe-core", "openembedded-core", "poky")
 _REPO_URL_SCHEMES = ("https://", "http://", "ssh://", "git://")
 
 
@@ -43,31 +42,6 @@ def derive_bpn(pn: str) -> str:
                 name = arch_stripped
                 changed = True
     return name
-
-
-def derive_layer(recipe_file: str) -> str:
-    """
-    Infer layer namespace from bom.json `file` (recipe path).
-
-    Uses the directory that contains recipes-* as the layer dir.
-    Maps oe-core/openembedded-core/poky `meta` to `core`.
-    """
-    path = (recipe_file or "").replace("\\", "/").strip()
-    if not path:
-        return ""
-    parts = [part for part in path.split("/") if part]
-    recipes_idx = -1
-    for idx, part in enumerate(parts):
-        if part == "recipes" or part.startswith("recipes-"):
-            recipes_idx = idx
-            break
-    if recipes_idx <= 0:
-        return ""
-    layer_dir = parts[recipes_idx - 1]
-    parents = {part.lower() for part in parts[:recipes_idx - 1]}
-    if layer_dir.lower() == "meta" and parents.intersection(_CORE_LAYER_PARENTS):
-        return "core"
-    return layer_dir.lower()
 
 
 def _enc(value: str) -> str:

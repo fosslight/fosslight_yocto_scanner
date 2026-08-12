@@ -5,7 +5,7 @@
 import re
 from fosslight_util.oss_item import FileItem
 from ._write_result_file import SHEET_NAME_SRC, SHEET_NAME_DEP, SHEET_NAME_BIN, SHEET_NAME_BIN_YOCTO
-from ._yocto_purl import build_yocto_purl, derive_bpn, derive_layer
+from ._yocto_purl import build_yocto_purl, derive_bpn
 
 const_other_proprietary_license = 'other proprietary license'
 EXCLUDE_TRUE_VALUE = "Exclude"
@@ -223,11 +223,9 @@ class PackageItem(FileItem):
 
     def get_yocto_purl(self):
         bpn = derive_bpn(self.oss_name or self.name)
-        layer = derive_layer(self.recipe_file)
         return build_yocto_purl(
             name=bpn,
             version=self.pv or self.version,
-            layer=layer,
         )
 
     def get_print_item(self, sheet_name=SHEET_NAME_SRC, additional_column=[], binary_list=[]):
