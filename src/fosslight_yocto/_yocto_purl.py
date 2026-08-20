@@ -47,7 +47,7 @@ def derive_bpn(pn: str) -> str:
 
 
 def _enc(value: str) -> str:
-    return quote(str(value), safe="-._~", encoding="utf-8")
+    return quote(str(value), safe="-._~:", encoding="utf-8")
 
 
 def build_yocto_purl(

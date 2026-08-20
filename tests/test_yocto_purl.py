@@ -24,6 +24,10 @@ def test_build_yocto_purl_matches_definition_examples():
     )
 
 
+def test_build_yocto_purl_preserves_colon_in_name_and_version():
+    assert build_yocto_purl(name="foo:bar", version="1:2.0") == "pkg:yocto/foo:bar@1:2.0"
+
+
 def test_dep_print_item_uses_fosslight_util_columns():
     pkg = PackageItem()
     pkg.oss_name = "libusb1-native"
