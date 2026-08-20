@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.1.0 (20/08/2026)
+## Changes
+## 🚀 Features
+
+- Output installed packages to DEP sheet with Yocto PURL @soimkim (#67)
+
+---
+
 ## v4.0.10 (09/07/2026)
 ## Changes
 ## 🐛 Hotfixes
