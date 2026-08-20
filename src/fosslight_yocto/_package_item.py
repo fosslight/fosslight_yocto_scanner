@@ -4,7 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 import re
 from fosslight_util.oss_item import FileItem
-from ._write_result_file import SHEET_NAME_SRC, SHEET_NAME_BIN, SHEET_NAME_BIN_YOCTO
+from ._write_result_file import SHEET_NAME_SRC, SHEET_NAME_DEP, SHEET_NAME_BIN, SHEET_NAME_BIN_YOCTO
+from ._yocto_purl import build_yocto_purl, derive_bpn
 
 const_other_proprietary_license = 'other proprietary license'
 EXCLUDE_TRUE_VALUE = "Exclude"
@@ -41,6 +42,7 @@ class PackageItem(FileItem):
         self.relative_path = ""
         self.additional_data = {}
         self.pv = ""
+        self.recipe_file = ""
         self.pr = ""
         self._yocto_recipe = []
         self._yocto_package = []
@@ -219,6 +221,13 @@ class PackageItem(FileItem):
                 self.comment = "License changed to the license registered in OSC System DB."
                 self._declared_licenses = value
 
+    def get_yocto_purl(self):
+        bpn = derive_bpn(self.oss_name or self.name)
+        return build_yocto_purl(
+            name=bpn,
+            version=self.pv or self.version,
+        )
+
     def get_print_item(self, sheet_name=SHEET_NAME_SRC, additional_column=[], binary_list=[]):
         print_items = []
         license_to_print = self.license
@@ -247,6 +256,12 @@ class PackageItem(FileItem):
                 row = [self.parent_package_name, self.name, self.version, ','.join(license_to_print),
                        self.download_location,
                        self.homepage, self.copyright, exclude, self.comment]
+                for column_name in additional_column:
+                    row.append(self.additional_data.get(column_name, ''))
+                print_items.append(row)
+            elif sheet_name == SHEET_NAME_DEP:
+                row = [self.get_yocto_purl(), self.name, self.version, ','.join(license_to_print),
+                       self.download_location, self.homepage, self.copyright, exclude, self.comment, ""]
                 for column_name in additional_column:
                     row.append(self.additional_data.get(column_name, ''))
                 print_items.append(row)
@@ -307,6 +322,10 @@ def set_value_switch(oss, key, value, nested_pkg_name):
         oss.full_src_uri = value
     elif key == 'package_format':
         oss.pf = value
+    elif key == 'pv':
+        oss.pv = value
+    elif key == 'recipe_file':
+        oss.recipe_file = value
 
 
 def update_package_name(oss, value, nested_pkg_name):
