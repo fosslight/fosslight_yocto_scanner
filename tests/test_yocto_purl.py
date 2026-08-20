@@ -13,24 +13,14 @@ def test_derive_bpn_strips_prefix_and_suffix():
     assert derive_bpn("libusb1-native") == "libusb1"
     assert derive_bpn("nativesdk-qemu") == "qemu"
     assert derive_bpn("binutils-cross-aarch64") == "binutils"
+    assert derive_bpn("gcc-cross-canadian-aarch64") == "gcc"
     assert derive_bpn("glibc") == "glibc"
 
 
 def test_build_yocto_purl_matches_definition_examples():
-    assert build_yocto_purl(name="glibc", version="2.35", layer="core") == "pkg:yocto/core/glibc@2.35"
-    assert build_yocto_purl(
-        name="glibc",
-        version="2.35",
-        layer="core",
-        repository_url="https://git.openembedded.org/openembedded-core",
-        layer_version="kirkstone",
-    ) == (
-        "pkg:yocto/core/glibc@2.35"
-        "?repository_url=https%3A%2F%2Fgit.openembedded.org%2Fopenembedded-core"
-        "&layer_version=kirkstone"
-    )
-    assert build_yocto_purl(name="u-boot-xlnx-uenv", version="1.0.0", layer="xilinx") == (
-        "pkg:yocto/xilinx/u-boot-xlnx-uenv@1.0.0"
+    assert build_yocto_purl(name="glibc", version="2.35") == "pkg:yocto/glibc@2.35"
+    assert build_yocto_purl(name="u-boot-xlnx-uenv", version="1.0.0") == (
+        "pkg:yocto/u-boot-xlnx-uenv@1.0.0"
     )
 
 
