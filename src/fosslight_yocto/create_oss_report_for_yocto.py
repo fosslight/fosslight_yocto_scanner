@@ -47,7 +47,7 @@ PKG_NAME = "fosslight_yocto"
 
 # Global variables
 bom_pkg_data = {}  # Parsed from bom
-installed_packages_src = []  # SRC Sheet | BIN (Yocto) Sheet
+installed_packages_src = []  # DEP Sheet | BIN (Yocto) Sheet
 installed_packages_bin: List[PackageItem] = []  # BIN Sheet
 binary_list: List[BinItem] = []  # -a option result
 nested_pkg_name = {}  # Package list created at build time
@@ -153,16 +153,19 @@ def read_bom_file(bom_file, buildhistory_latest_pkg_list):
 
     for item in json_array:
         oss_item = {"package": "", "license": "", "version": "", "source": "", "oss_name": "", "license_flags": "",
-                    "src_path": "", "file_path": ""}
+                    "src_path": "", "file_path": "", "pv": "", "recipe_file": ""}
         additional_column = {}
         recipe_name = item.get('recipe', '')
         oss_item['oss_name'] = recipe_name
         oss_item['version'] = item.get('pv', '')
+        oss_item['pv'] = item.get('pv', '')
+        oss_item['recipe_file'] = item.get('file', '')
         oss_item['src_path'] = item.get('src_path', '')
 
         if printall:
             for key, value in item.items():
-                if key not in ['src_path', 'pv', 'recipe', 'packages', 'license_flags', 'license', 'pkg_lic', 'src_uri', 'file_path']:
+                if key not in ['src_path', 'pv', 'recipe', 'packages', 'license_flags', 'license', 'pkg_lic',
+                               'src_uri', 'file_path', 'recipe_file']:
                     additional_column[key] = value if value else ''
                     additional_columns.append(key)
 
@@ -1110,7 +1113,7 @@ def main():
         sys.exit(1)
     read_bom_file(bom_file, pkg_from_buildhistory)
 
-    # Dependency Analysis - SRC Sheet or BIN(Android) Sheet
+    # Dependency Analysis - DEP Sheet or BIN(Yocto) Sheet
     success = read_installed_pkg_file(installed_pkgs)
     if not success:
         sys.exit(1)

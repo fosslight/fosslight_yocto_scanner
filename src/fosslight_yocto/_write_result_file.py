@@ -5,11 +5,13 @@
 import logging
 import fosslight_util.constant as constant
 from fosslight_util.output_format import write_output_file
+from fosslight_util.write_excel import get_header_row
 
 logger = logging.getLogger(constant.LOGGER_NAME)
 OUTPUT_FILE_EXTENSION = ".xlsx"
 HIDDEN_HEADER = {'TLSH', 'SHA1'}
 SHEET_NAME_SRC = "SRC"
+SHEET_NAME_DEP = "DEP"
 SHEET_NAME_BIN = "BIN"
 SHEET_NAME_BIN_YOCTO = "BIN (Yocto)"
 
@@ -20,9 +22,7 @@ def write_result_from_bom(out_file_name, installed_packages_src, installed_packa
                                            'Notice', 'OSS Name', 'OSS Version',
                                            'License', 'Download Location', 'Homepage',
                                            'Copyright Text', 'Exclude', 'Comment'],
-                    SHEET_NAME_SRC: ['ID', 'Source Path', 'OSS Name', 'OSS Version',
-                                     'License', 'Download Location', 'Homepage', 'Copyright Text',
-                                     'Exclude', 'Comment'],
+                    SHEET_NAME_DEP: get_header_row(SHEET_NAME_DEP),
                     SHEET_NAME_BIN: ['ID', 'Binary Path', 'OSS Name', 'OSS Version',
                                      'License', 'Download Location', 'Homepage',
                                      'Copyright Text', 'Exclude', 'Comment', 'TLSH', 'SHA1']}
@@ -34,9 +34,7 @@ def write_result_from_bom(out_file_name, installed_packages_src, installed_packa
         for sheet_header_item in SHEET_HEADER.keys():
             SHEET_HEADER[sheet_header_item].extend(additional_column)
 
-    src_sheet_name = SHEET_NAME_BIN_YOCTO if bin_android_mode else SHEET_NAME_SRC
-    # remove_sheet_name = SHEET_NAME_SRC if bin_android_mode else SHEET_NAME_BIN_YOCTO
-    # SHEET_HEADER.pop(remove_sheet_name)
+    src_sheet_name = SHEET_NAME_BIN_YOCTO if bin_android_mode else SHEET_NAME_DEP
     for scan_item in installed_packages_src:
         list_src_to_print.extend(scan_item.get_print_item(src_sheet_name, additional_column))
     list_src_to_print.insert(0, SHEET_HEADER[src_sheet_name])
