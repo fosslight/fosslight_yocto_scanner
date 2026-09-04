@@ -11,36 +11,26 @@ from binaryornot.check import is_binary
 import magic
 import copy
 import logging
-import pandas as pd
-import pymysql
-from ._help import print_help_msg_bom, print_version
-# For source code analysis
-import multiprocessing
-import parmap
-import numpy as np
 import re
 import stat
-from scancode import cli
 from fosslight_util.set_log import init_log
 from fosslight_util.cover import dump_result_log
 from fosslight_util.time import current_timestamp_utc, timestamp_for_filename
 import fosslight_util.constant as constant
 from ._zip_source_works import collect_source
 from ._package_item import (
-    const_other_proprietary_license,
-    EXCLUDE_TRUE_VALUE,
     PackageItem,
     set_value_switch,
     update_package_name,
     BinItem)
-from ._write_result_file import write_result_from_bom, print_src_analysis_result
+from ._write_result_file import write_result_from_bom
 from tqdm import tqdm
 from ._overwrite_yaml import load_oss_pkg_info_yaml
 from fosslight_util.output_format import check_output_format
 import argparse
 from typing import List
 from fosslight_util.oss_item import ScannerItem
-from fosslight_source._parsing_scancode_file_item import get_error_from_header, parsing_file_item
+from ._help import print_help_msg_bom, print_version
 
 logger = logging.getLogger(constant.LOGGER_NAME)
 PKG_NAME = "fosslight_yocto"
@@ -51,28 +41,8 @@ installed_packages_src = []  # DEP Sheet | BIN (Yocto) Sheet
 installed_packages_bin: List[PackageItem] = []  # BIN Sheet
 binary_list: List[BinItem] = []  # -a option result
 nested_pkg_name = {}  # Package list created at build time
-like_licenses = ['mit-like license', 'bsd-like license']
-_map_license_from_yocto_to_scancode = {'proprietary-license': [const_other_proprietary_license],
-                                       'gpl-3.0-plus': ['gplv3', 'gpl-3.0'],
-                                       'gpl-3.0': ['gplv3', 'gpl-3.0'],
-                                       'gpl-2.0-plus': ['gplv2', 'gpl-2.0'],
-                                       'gpl-2.0': ['gplv2', 'gpl-2.0'],
-                                       'gpl-1.0-plus': ['gplv2', 'gpl-2.0', 'gplv1', 'gpl-1.0'],
-                                       'lgpl-2.1-plus': ['lgplv2', 'lgpl-2.0', 'lgplv2.1'],
-                                       'lgpl-2.1': ['lgplv2', 'lgpl-2.0', 'lgplv2.1'],
-                                       'lgpl-3.0': ['lgplv3'], 'python-2.0': ['psfv2', 'psf'],
-                                       'agpl-3.0-plus': ['agplv3', 'agplv3.0'],
-                                       'agpl-3.0': ['agplv3', 'agplv3.0'],
-                                       'apache-2.0': ['apachev2'], 'afl-2.0': ['aflv2'], 'afl-1.2': ['aflv1'],
-                                       'bsd-new': ['bsd-3-clause'], 'bsd-simplified': ['bsd-3-clause'],
-                                       'cddl-1.0': ['cddlv1'], 'epl-1.0': ['eplv1.0'],
-                                       'mpl-1.1': ['mplv1.1', 'mplv1'], 'mpl-2.0': ['mpl2.0', 'mplv2'],
-                                       'x11': ['mit-x']}
-_skip_to_check_scancode_licenses = ['proprietary-license']
 additional_columns = []
 printall = False  # Print all values in bom.json
-OSC_DB_USER = 'user_oss_license'
-OSC_DB_PASSWORD = 'oss_lic123'
 EX_DATAERR = 65
 EX_NOINPUT = 66
 PKG_GROUP_PREFIX = "packagegroup-"
@@ -472,550 +442,6 @@ def exit_with_error_msg(error_msg, exit_code=EX_DATAERR):
     sys.exit(exit_code)
 
 
-def change_like_license(recipe_license, db_licenses):
-    cnt_like_licenses_in_db = 0
-    matched_like_license = ""
-    matched_like_style = ""
-    changed_license_list = []
-    try:
-        for lic_group in db_licenses:
-            for lic in lic_group:
-                for like_license in like_licenses:
-                    lic = lic.lower()
-                    if lic.startswith(like_license) and matched_like_license != lic:
-                        cnt_like_licenses_in_db += 1
-                        matched_like_license = lic
-                        matched_like_style = like_license
-
-        if cnt_like_licenses_in_db == 1:
-            if len([x for x in recipe_license if x.startswith(matched_like_style)]) > 0:
-                changed_license_list = [matched_like_license if x.startswith(matched_like_style) else x for x in
-                                        recipe_license]
-    except Exception:
-        pass
-    return changed_license_list
-
-
-def declare_license_by_osc_db():
-    oss_info_from_db = {}  # Key : name +|+version, Value :name, version, lic_group
-    license_info_from_db = {}  # Key : name , Value : nick, score
-    seperator = ","
-
-    # Get all OSS Name, OSS version list
-    for item in installed_packages_src:
-        if item.license is not None and (len(item.license) > 1 or len(
-                set(item.license) & set(like_licenses)) == 1) and item.exclude != EXCLUDE_TRUE_VALUE:
-            key = item.name + seperator + item.version
-
-            if key not in oss_info_from_db:
-                oss_info_from_db[key] = {}
-                oss_info_from_db[key]['version'] = item.version
-                oss_info_from_db[key]['name'] = item.name
-                oss_info_from_db[key]['lic_group'] = []
-
-    # Get DB Connection
-    db_conn, db_cur = connect_to_osc_db()
-    if db_conn == "" or db_cur == "":
-        return
-    # Get OSS's Licenses from DB
-    for key, oss_item in oss_info_from_db.items():
-        where_condition = " WHERE (OM.OSS_NAME = '{oss_name}' OR NICK.OSS_NICKNAME = '{oss_name}') AND OM.OSS_VERSION = '{oss_version}'".format(
-            oss_name=pymysql.converters.escape_string(oss_item['name']), oss_version=pymysql.converters.escape_string(oss_item['version']))
-        oss_item['lic_group'], license_info_from_db = select_query_to_db(db_cur, license_info_from_db, where_condition)
-    disconnect_lge_bin_db(db_conn, db_cur)
-
-    # Get declared License
-    installed_packages = []
-    installed_packages.append(installed_packages_src)
-    installed_packages.append(installed_packages_bin)
-    need_check_list = []
-    check_list = []
-
-    for installed_pkg in installed_packages:
-        for item in installed_pkg:
-            try:
-                recipe_license = item.license
-                declared_lic = []
-                if recipe_license is not None:
-                    key = item.name + seperator + item.version
-                    if key in oss_info_from_db and len(oss_info_from_db[key]['lic_group']) > 0:
-                        if len(set(item.license) & set(like_licenses)) == 1:
-                            declared_lic = change_like_license(recipe_license, oss_info_from_db[key]['lic_group'])
-                            if len(declared_lic) > 0:
-                                item.license = declared_lic
-
-                        if len(item.license) > 1:
-                            if seperator.join(recipe_license) in oss_info_from_db[key]:
-                                declared_lic = oss_info_from_db[key][seperator.join(recipe_license)]
-                            else:
-                                declared_lic, need_check = get_declared_license(license_info_from_db, recipe_license,
-                                                                                oss_info_from_db[key]['lic_group'])
-                                oss_info_from_db[key][seperator.join(recipe_license)] = declared_lic
-                                if need_check:
-                                    need_check_list.append(
-                                        [key, ":", seperator.join(recipe_license), "->", seperator.join(declared_lic)])
-                                elif len(declared_lic) > 0:
-                                    check_list.append(
-                                        [key, ":", seperator.join(recipe_license), "->", seperator.join(declared_lic)])
-
-                    item.declared_licenses = declared_lic
-            except Exception:
-                pass
-    if len(need_check_list) > 0 or len(check_list) > 0:
-        logger.warning("[License changed to the license registered in OSC System DB.]")
-        print_declared_license_result(need_check_list, "* Make sure that the removed license is not included.")
-        print_declared_license_result(check_list, "* Check that the removed license is not included.")
-
-
-def print_declared_license_result(check_list_to_print, prefix):
-    if check_list_to_print is not None and len(check_list_to_print) > 0:
-        logger.warning(prefix)
-        for items in check_list_to_print:
-            logger.warning(" ".join(items))
-
-
-def get_declared_license(license_info_from_db, recipe_licenses, db_licenses):
-
-    declared_lic = []
-    declared_lic_has_not_permissive = False
-    group_score = {}
-
-    # Check recipe license included or not
-    recipe_included = False
-    recipe_lic_cnt = len(recipe_licenses)
-    max_matched_lic_cnt = 0
-    max_permissive_cnt = 0
-    not_matched_exist = False
-
-    for db_lic_group in db_licenses:
-        declare_license_has_not_permissive = False
-        idx = 0
-        group_score[idx] = {}
-        matched_lic_cnt = 0
-        permissive_lic_cnt = 0
-        not_matched_cnt = 0
-        matched_lic = []
-        for db_lic in db_lic_group:
-            for recipe_lic in recipe_licenses:
-                if (recipe_lic in license_info_from_db[db_lic]['nick']) or (
-                        recipe_lic in like_licenses and db_lic.startswith(recipe_lic)):
-                    recipe_included = True
-                    permissive_lic_or_not = license_info_from_db[db_lic]['score']
-                    permissive_lic_cnt += permissive_lic_or_not
-                    matched_lic_cnt += 1
-                    matched_lic.append(recipe_lic)
-                    if permissive_lic_or_not != 1:
-                        declare_license_has_not_permissive = True
-
-        not_matched_cnt = len(db_lic_group) - matched_lic_cnt
-        if not_matched_cnt == 0:
-            not_matched_exist = True
-            if recipe_lic_cnt == matched_lic_cnt:
-                declared_lic = []
-            else:
-                declared_lic = matched_lic
-                declared_lic_has_not_permissive = declare_license_has_not_permissive
-            break
-        group_score[idx]['matched'] = matched_lic_cnt
-        group_score[idx]['permissive'] = permissive_lic_cnt
-        group_score[idx]['list'] = matched_lic
-        group_score[idx]['has_not_permissive'] = declare_license_has_not_permissive
-
-        if max_matched_lic_cnt < matched_lic_cnt:
-            max_matched_lic_cnt = matched_lic_cnt
-        if max_permissive_cnt < permissive_lic_cnt:
-            max_permissive_cnt = permissive_lic_cnt
-        idx += 1
-
-    if recipe_included and not not_matched_exist:
-        idx_list = [key for key, value in group_score.items() if value['matched'] == max_matched_lic_cnt]
-        if len(idx_list) > 0:
-            if len(idx_list) == 1:
-                declared_lic = group_score[idx_list[0]]['list']
-                declared_lic_has_not_permissive = group_score[idx_list[0]]['has_not_permissive']
-            else:
-                max_permissive_cnt = 0
-                for idx in idx_list:
-                    count = group_score[idx]['permissive']
-                    if max_permissive_cnt == count:
-                        declared_lic = group_score[idx]['list']
-                        declared_lic_has_not_permissive = group_score[idx]['has_not_permissive']
-                        break
-
-        if recipe_lic_cnt == max_matched_lic_cnt:
-            declared_lic = []
-    need_check = False
-    if len(declared_lic) > 0 and not declared_lic_has_not_permissive:
-        for re_license in recipe_licenses:
-            if re_license not in declared_lic and re_license not in like_licenses:
-                lic_score_list = [license_info_from_db[lic_name]['score'] for lic_name in license_info_from_db.keys() if
-                                  re_license in license_info_from_db[lic_name]['nick']]
-                if len(lic_score_list) > 0:
-                    lic_score = lic_score_list[0]
-                else:
-                    lic_score = get_license_query_to_db(re_license)
-
-                if lic_score != 1:
-                    need_check = True
-                    break
-
-    return declared_lic, need_check
-
-
-def set_license_score(license_type):
-    score = {
-        'PMS': 1,  # Permissive
-        'CP': 0,  # Copyleft
-        'WCP': 0,  # Weak Copyleft
-        'NA': 0,  # Proprietary
-        'PF': 0,  # Proprietary Free
-        'NC': 0  # Legacy Type - Non Commercial
-    }
-    if license_type in score:
-        return score[license_type]
-    else:
-        return 0
-
-
-def get_license_query_to_db(license_name):
-    license_type = 0
-
-    db_conn, db_cur = connect_to_osc_db()
-    if db_conn == "" or db_cur == "":
-        return
-    try:
-        # Get License from DB
-        sql_query = """SELECT LM.LICENSE_NAME, LICENSE_TYPE FROM LICENSE_MASTER AS LM
-        LEFT OUTER JOIN LICENSE_NICKNAME AS LN ON LM.LICENSE_NAME = LN.LICENSE_NAME
-        WHERE LM.LICENSE_NAME='{license_name}' OR LM.SHORT_IDENTIFIER = '{license_name}' OR LN.LICENSE_NICKNAME = '{license_name}' """.format(
-            license_name=pymysql.converters.escape_string(license_name))
-        df_result = get_list_by_using_query(db_cur, sql_query, ["LICENSE_NAME", "LICENSE_TYPE"])
-        if df_result is not None and len(df_result) > 0:
-            for idx, row in df_result.iterrows():
-                license_type = set_license_score(row['LICENSE_TYPE'])
-                break
-    except:
-        pass
-
-    disconnect_lge_bin_db(db_conn, db_cur)
-    return license_type
-
-
-def select_query_to_db(cur, license_info_from_db, where_condition):
-    try:
-        columns = ['LICENSE_ID', 'OSS_LICENSE_IDX', 'OSS_LICENSE_COMB', 'LICENSE_NAME', 'SHORT_IDENTIFIER',
-                   'LICENSE_TYPE',
-                   'LICENSE_NICKNAME']
-        sql_query = """SELECT OL.LICENSE_ID
-     , OL.OSS_LICENSE_IDX
-     , OL.OSS_LICENSE_COMB
-     , LM.LICENSE_NAME
-     , LM.SHORT_IDENTIFIER
-     , LM.LICENSE_TYPE
-     , (SELECT GROUP_CONCAT(LICENSE_NICKNAME SEPARATOR ', ') FROM LICENSE_NICKNAME WHERE LICENSE_NAME = LM.LICENSE_NAME) AS LICENSE_NICKNAME
-     FROM OSS_MASTER OM
-     LEFT OUTER JOIN OSS_NICKNAME NICK ON OM.OSS_COMMON_ID = NICK.OSS_COMMON_ID
-     INNER JOIN OSS_LICENSE OL ON OM.OSS_COMMON_ID = OL.OSS_COMMON_ID
-     INNER JOIN LICENSE_MASTER LM ON OL.LICENSE_ID = LM.LICENSE_ID """
-        order_condition = " ORDER BY OL.OSS_LICENSE_IDX ASC;"
-        lic_group = []
-        df_result = get_list_by_using_query(cur, sql_query + where_condition + order_condition, columns)
-
-        if df_result is not None and len(df_result) > 0:
-            licenses = []
-            for idx, row in df_result.iterrows():
-                license_name = row['LICENSE_NAME']
-
-                if row['OSS_LICENSE_COMB'] == 'OR':
-                    lic_group.append(list(set(licenses)))
-                    licenses = []
-                licenses.append(license_name)
-
-                if license_name not in license_info_from_db:
-                    license_info_from_db[license_name] = {}
-                    license_info_from_db[license_name]['nick'] = [license_name.lower()]
-                    if row['SHORT_IDENTIFIER'] is not None:
-                        license_info_from_db[license_name]['nick'].append(row['SHORT_IDENTIFIER'].lower())
-                    if row['LICENSE_NICKNAME'] is not None:
-                        nicknames = [x.lower().strip() for x in row['LICENSE_NICKNAME'].split(',')]
-                        license_info_from_db[license_name]['nick'].extend(nicknames)
-
-                    license_info_from_db[license_name]['score'] = set_license_score(row['LICENSE_TYPE'])
-            lic_group.append(list(set(licenses)))
-    except Exception:
-        lic_group = []
-    return lic_group, license_info_from_db
-
-
-def run_source_code_analysis_multiprocessing(analyze_all_mode, out_dir, output_file_without_extension):
-    if not analyze_all_mode:
-        db_conn, db_cur = connect_to_osc_db()
-        if db_conn == "" or db_cur == "":
-            logger.warning("DB connection failed. Automatically running source code analysis with -c (--complete) option.")
-            analyze_all_mode = True
-        else:
-            disconnect_lge_bin_db(db_conn, db_cur)
-
-    num_cores = multiprocessing.cpu_count() - 1
-    if num_cores < 1:
-        num_cores = 1
-    src_anlysis_start_time = current_timestamp_utc()
-    scancode_result_dir = create_dir(os.path.join(out_dir, "scancode_result"))
-    recipes_to_analyze = get_recipe_for_src_analysis(analyze_all_mode)
-    logger.info(
-        f"Source code analysis starts for {len(recipes_to_analyze)} recipes. multiprocessing={num_cores})")
-
-    if len(recipes_to_analyze) > 0:
-        for item in recipes_to_analyze:
-            scancode_output_file = os.path.join(scancode_result_dir, item['name'] + ".json")
-            src_path_to_analyze = item['src']
-            run_scancode_per_dir(src_path_to_analyze, scancode_output_file, num_cores, item['name'])
-
-        manager = multiprocessing.Manager()
-        return_list = manager.dict()
-
-        splited_data = np.array_split(recipes_to_analyze, num_cores)
-        splited_data = [x.tolist() for x in splited_data]
-
-        parmap.map(get_src_analysis_result, splited_data, scancode_result_dir, return_list,
-                   pm_pbar=True, pm_processes=num_cores)
-        source_scan_item = ScannerItem(PKG_NAME, src_anlysis_start_time)
-        source_scan_item.set_cover_finish_time(current_timestamp_utc())
-        print_src_analysis_result(return_list, output_file_without_extension, source_scan_item)
-
-
-def run_scancode_per_dir(path_to_scan, json_file_name, num_cores, recipe_name):
-    if os.path.isdir(path_to_scan):
-        logger.debug("|- Analyzing: " + recipe_name + ",path:" + path_to_scan + ",json:" + json_file_name)
-        try:
-            rc, results = cli.run_scan(path_to_scan, max_depth=100, strip_root=True, license=True, copyright=True,
-                                       return_results=True, processes=num_cores, output_json_pp=json_file_name)
-        except Exception as ex:
-            logger.debug(f"Scancode analysis failed {recipe_name}: {ex}")
-
-
-def get_src_analysis_result(input_list, scancode_result_dir, return_list):
-    for item in input_list:
-        try:
-            key = item['name']
-            scancode_output_file = os.path.join(scancode_result_dir, item['name'] + ".json")
-
-            if os.path.isfile(scancode_output_file):
-                detected_license = get_detected_licenses_from_scancode(scancode_output_file)
-                sorted_license = sorted(detected_license.values(), key=(lambda x: x['cnt']), reverse=True)
-                item['license_detected'] = [license_item['key'] + "(" + str(license_item['cnt']) + ")" for license_item
-                                            in
-                                            sorted_license]
-                item['comment'] = set_src_analysis_result(item['license'], sorted_license)
-            else:
-                item['comment'] = f"Source code analysis failed. {item['src']}"
-        except:
-            item['comment'] = "Failed to parse the source code analysis result."
-
-        return_list[key] = item
-
-
-def set_src_analysis_result(item_licenses, scancode_licenses):
-    need_check = False
-    comment = ""
-    need_find_license = []
-    item_licenses_lower = [x.lower() for x in item_licenses]
-    try:
-        for scancode_license in scancode_licenses:
-            key = scancode_license['key']
-            matched = False
-            if key in _skip_to_check_scancode_licenses:
-                continue
-            for scancode_nick in scancode_license['nick']:
-                if scancode_nick in item_licenses_lower:
-                    matched = True
-                    break
-            if not matched:
-                need_check = True
-                need_find_license.append(key)
-        if need_check:
-            comment = f"Check detected licenses: {need_find_license}"
-    except:
-        comment = "Failed to parse the source code analysis result."
-    return comment
-
-
-def _build_scancode_license_nick(license_value):
-    replace_word = ["-only", "-old-style", "-or-later"]
-    key_value = license_value.lower()
-    license_detected = [key_value]
-    for word in replace_word:
-        if word in key_value:
-            license_detected.append(key_value.replace(word, ""))
-    if key_value in _map_license_from_yocto_to_scancode:
-        license_detected = _map_license_from_yocto_to_scancode[key_value] + license_detected
-    return list(set(license_detected))
-
-
-def get_detected_licenses_from_scancode(scancode_json_file):
-    scan_licenses = {}
-    try:
-        with open(scancode_json_file, "r") as st_json:
-            st_python = json.load(st_json)
-        files = st_python.get("files", [])
-        if not files:
-            return scan_licenses
-
-        has_error, _ = get_error_from_header(st_python.get("headers", []))
-        _, scancode_file_items, _, _ = parsing_file_item(files, has_error, need_matched_license=False)
-        for file_item in scancode_file_items:
-            for license_value in file_item.licenses:
-                if not license_value:
-                    continue
-                key_value = license_value.lower()
-                if key_value not in scan_licenses:
-                    scan_licenses[key_value] = {
-                        'nick': _build_scancode_license_nick(license_value),
-                        'cnt': 1,
-                        'key': key_value,
-                    }
-                else:
-                    scan_licenses[key_value]['cnt'] += 1
-    except Exception as ex:
-        logger.debug(f"Failed to parse scancode result {scancode_json_file}: {ex}")
-    return scan_licenses
-
-
-def get_recipe_for_src_analysis(analyze_all):
-    logger.warning(f"Get recipe to analyze source from {len(installed_packages_src)} packages.")
-    recipes_to_analyze = []
-    oss_list = {}  # Key : oss_name
-
-    try:
-        # Get all OSS Name list
-        for item in installed_packages_src:
-            key = item.name
-            if item.src_path != "":
-                if key not in oss_list:
-                    oss_list[key] = {}
-                    oss_list[key]['version'] = item.version
-                    oss_list[key]['name'] = item.name
-                    oss_list[key]['license'] = item.license
-                    oss_list[key]['license_detected'] = []
-                    oss_list[key]['link'] = item.download_location
-                    oss_list[key]['src'] = item.src_path
-                    oss_list[key]['db'] = False
-                    oss_list[key]['comment'] = ""
-                else:
-                    lic_list = oss_list[key]['license']
-                    if isinstance(lic_list, list):
-                        lic_list.extend(item.license)
-                    oss_list[key]['license'] = list(set(lic_list))
-
-        # Check exist or not
-        if not analyze_all:
-            db_conn, db_cur = connect_to_osc_db()
-            if db_conn != "" and db_cur != "":
-                names = list(set([item.get('name', '') for item in oss_list.values() if item.get('name', '')]))
-                links = list(set([item.get('link', '') for item in oss_list.values() if item.get('link', '')]))
-
-                existing_names, existing_links = check_oss_exists_in_db_batch(db_cur, names, links)
-
-                for key, oss_item in oss_list.items():
-                    r_name = oss_item.get('name', '')
-                    r_link = oss_item.get('link', '')
-                    result = (r_name.lower() in existing_names) or ((r_link != "") and (r_link.lower() in existing_links))
-                    if result:
-                        logger.debug(f"DB Found: {r_name}")
-                    else:
-                        logger.debug(f"DB Not Found: {r_name} {r_link}")
-                    oss_item['db'] = result
-                disconnect_lge_bin_db(db_conn, db_cur)
-
-        recipes_to_analyze = [oss_item for key, oss_item in oss_list.items() if not oss_item['db']]
-    except Exception as error:
-        logger.debug(f"ERROR - get recipe to analyze: {error}")
-
-    return recipes_to_analyze
-
-
-def create_dir(dir_name):
-    try:
-        if not os.path.isdir(dir_name):
-            os.mkdir(dir_name)
-    except OSError:
-        return ""
-    return dir_name
-
-
-def check_oss_exists_in_db_batch(db_cur, names, links):
-    existing_names = set()
-    existing_links = set()
-    try:
-        def chunker(seq, size):
-            return (seq[pos:pos + size] for pos in range(0, len(seq), size))
-
-        for name_chunk in chunker(names, 500):
-            if not name_chunk:
-                continue
-            name_str = ','.join([f"'{pymysql.converters.escape_string(n)}'" for n in name_chunk])
-
-            q1 = f"SELECT DISTINCT OSS_NAME FROM OSS_MASTER WHERE OSS_NAME IN ({name_str})"
-            df1 = get_list_by_using_query(db_cur, q1, ["OSS_NAME"])
-            if isinstance(df1, pd.DataFrame) and not df1.empty:
-                existing_names.update([str(x).lower() for x in df1["OSS_NAME"].tolist()])
-
-            q2 = f"SELECT DISTINCT OSS_NICKNAME FROM OSS_NICKNAME WHERE OSS_NICKNAME IN ({name_str})"
-            df2 = get_list_by_using_query(db_cur, q2, ["OSS_NICKNAME"])
-            if isinstance(df2, pd.DataFrame) and not df2.empty:
-                existing_names.update([str(x).lower() for x in df2["OSS_NICKNAME"].tolist()])
-
-        for link_chunk in chunker(links, 500):
-            if not link_chunk:
-                continue
-            link_str = ','.join([f"'{pymysql.converters.escape_string(lnk)}'" for lnk in link_chunk])
-
-            q3 = f"SELECT DISTINCT DOWNLOAD_LOCATION FROM OSS_DOWNLOADLOCATION WHERE DOWNLOAD_LOCATION IN ({link_str})"
-            df3 = get_list_by_using_query(db_cur, q3, ["DOWNLOAD_LOCATION"])
-            if isinstance(df3, pd.DataFrame) and not df3.empty:
-                existing_links.update([str(x).lower() for x in df3["DOWNLOAD_LOCATION"].tolist()])
-    except Exception as ex:
-        logger.debug(f"Batch DB Error: {ex}")
-
-    return existing_names, existing_links
-
-
-def get_list_by_using_query(cur, sql_query, columns):
-    result_rows = ""  # DataFrame
-    cur.execute(sql_query)
-    rows = cur.fetchall()
-
-    if rows is not None and len(rows) > 0:
-        result_rows = pd.DataFrame(data=rows, columns=columns)
-    return result_rows
-
-
-def connect_to_osc_db():
-    user = OSC_DB_USER
-    password = OSC_DB_PASSWORD
-    host_product = 'osc.lge.com'
-    dbname = 'osc'
-    port = 3306
-    conn = ""
-    cursor = ""
-    try:
-        conn = pymysql.connect(host=host_product, port=port, user=user, password=password, database=dbname)
-        cursor = conn.cursor()
-    except Exception:
-        logger.warning("Can not access to FOSSLight Hub DB.")
-
-    return conn, cursor
-
-
-def disconnect_lge_bin_db(conn, cur):
-    # Close db connection
-    try:
-        cur.close()
-        conn.close()
-    except Exception:
-        pass
-
-
 def main():
     global installed_packages_src, installed_packages_bin, printall
 
@@ -1026,11 +452,8 @@ def main():
     buildhistory_path = ""
     bin_analysis_path = ""
     _print_bin_android = False
-    _analyze_source = False
-    _analyze_source_all = False
     _compress_source_all = ""
     output_path = os.getcwd()
-    output_src_analysis_file = "source_analysis_report"
     file_format = ""
 
     parser = argparse.ArgumentParser(description='FOSSLight Yocto', prog='fosslight_yocto', add_help=False)
@@ -1045,8 +468,6 @@ def main():
     parser.add_argument('-o', '--output', type=str, required=False)
     parser.add_argument('-f', '--format', type=str, required=False)
     parser.add_argument('-n', '--another', action='store_true', required=False)
-    parser.add_argument('-s', '--source', action='store_true', required=False)
-    parser.add_argument('-c', '--complete', action='store_true', required=False)
     parser.add_argument('-e', '--compress', type=str, required=False)
     parser.add_argument('-pr', '--printall', action='store_true', required=False)
 
@@ -1074,11 +495,6 @@ def main():
     if args.another:
         # Print SRC result on BIN(Android) Sheet
         _print_bin_android = True
-    if args.source:
-        _analyze_source = True
-    if args.complete:
-        _analyze_source = True
-        _analyze_source_all = True
     if args.compress:
         _compress_source_all = args.compress
     if args.printall:
@@ -1128,10 +544,6 @@ def main():
         installed_packages_src, installed_packages_bin = load_oss_pkg_info_yaml(oss_pkg_yaml_file, _print_bin_android,
                                                                                 installed_packages_src, installed_packages_bin, nested_pkg_name)
         scan_item.set_cover_comment(f"Load sbom-info.yaml: {oss_pkg_yaml_file}")
-
-    # Source Code Analysis
-    if _analyze_source:
-        run_source_code_analysis_multiprocessing(_analyze_source_all, output_path, os.path.join(output_path, output_src_analysis_file))
 
     # Write the result to excel file
     finish_time = current_timestamp_utc()

@@ -8,7 +8,6 @@ from fosslight_util.output_format import write_output_file
 from fosslight_util.write_excel import get_header_row
 
 logger = logging.getLogger(constant.LOGGER_NAME)
-OUTPUT_FILE_EXTENSION = ".xlsx"
 HIDDEN_HEADER = {'TLSH', 'SHA1'}
 SHEET_NAME_SRC = "SRC"
 SHEET_NAME_DEP = "DEP"
@@ -55,31 +54,3 @@ def write_result_from_bom(out_file_name, installed_packages_src, installed_packa
         logger.info(f"Output file :{result_file}")
     else:
         logger.error(f"Fail to write {result_file}: {msg}")
-
-
-def print_src_analysis_result(recipe_list, output_file, cover_item):
-    SHEET_NAME = "Source_Analysis"
-    SRC_HEADER = {SHEET_NAME: ["No", "OSS Name", "OSS Version", "Check Point", "License_OSS_Report",
-                               "Detected license from ScanCode", "Download location"]}
-
-    try:
-        if len(recipe_list.keys()) > 0:
-            sheet_list = {}
-            list_to_print = []
-
-            for key, item in recipe_list.items():
-                list_to_print.append([item['name'], item['version'], item['comment'], ','.join(item['license']),
-                                      ','.join(item['license_detected']), item['link']])
-
-            list_to_print.insert(0, SRC_HEADER[SHEET_NAME])
-            sheet_list[SHEET_NAME] = list_to_print
-            cover_item.file_items.clear()
-            cover_item.external_sheets = sheet_list
-            success_to_write, msg, result_file = write_output_file(output_file, OUTPUT_FILE_EXTENSION,
-                                                                   cover_item, SRC_HEADER)
-            if success_to_write:
-                logger.info(f"Source Analysis - Output file: {result_file}")
-            else:
-                logger.error(f"Fail to generate source analysis result, {result_file}:{msg}")
-    except Exception as ex:
-        logger.error(f'write_result_from_source_analysis:{ex}')
