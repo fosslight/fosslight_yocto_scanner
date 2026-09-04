@@ -27,20 +27,15 @@ dependencies = [
     "fosslight_util>=2.2.2",
     "binaryornot",
     "openpyxl",
-    "pandas",
-    "PyMySQL",
     "python-dateutil",
     "PyYAML",
     "xlrd",
     "XlsxWriter",
-    "parmap",
     "ruamel.yaml",
     "py-tlsh",
     "tqdm",
     "fosslight_binary>=5.1.0",
-    "fosslight_source>=2.3.0",
     "lxml>=6.0.1",
-    "scancode-toolkit",
 ]
 
 [project.urls]

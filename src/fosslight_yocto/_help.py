@@ -32,8 +32,6 @@ _HELP_MESSAGE_BOM = """
     -y <file>              sbom-info.yaml or oss-pkg-info.yaml file path
     -a <path>              Path to analyze the binaries
     -n                     Print result in BIN(Yocto) format
-    -s                     Analyze source code for New Open Source
-    -c                     Analyze all the source code
     -e <path>              Top build output path with bom.json to compress
                            all the source code
     -pr                    Print all data of bom.json
@@ -49,10 +47,10 @@ _HELP_MESSAGE_BOM = """
                     -i installed-package-names.txt -ip installed-packages.txt \\
                     -y sbom-info.yaml -o results/
 
-    # Scan with binary analysis and source code analysis
+    # Scan with binary analysis
     fosslight_yocto -p buildhistory/packages -b bom.json \\
                     -i installed-package-names.txt -ip installed-packages.txt \\
-                    -a /path/to/binaries -s
+                    -a /path/to/binaries
 """
 
 _HELP_MESSAGE_META_DOUBLE = """
