@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.1.1 (04/09/2026)
+## Changes
+## 🔧 Maintenance
+
+- Remove db credentials and -s/-c options @soimkim (#68)
+
+---
+
 ## v4.1.0 (20/08/2026)
 ## Changes
 ## 🚀 Features
