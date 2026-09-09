@@ -64,19 +64,20 @@ Hub는 업로드한 SPDX의 한 문서만 본다. `externalDocumentRefs`를 따�
 
 권장 산출물: `core-image-minimal.spdx.json` 하나 (`spdxVersion: SPDX-2.2`).
 
-1. `index.json`으로 filename / documentNamespace / SPDXID를 인덱싱한다.
-2. 이미지 문서의 `CONTAINS`만 설치 패키지로 본다. 이게 target이다.
+1. `index.json`은 `{"documents":[{"filename","documentNamespace","sha1"}, ...]}` 형태다. 문서 ID는 `filename`에서 `.spdx.json`을 **통째로** 뺀 값이다. (`pathlib.Path.stem`은 `.json`만 제거해 `base-files.spdx`가 되므로 쓰면 안 된다.)
+2. 이미지 문서의 `CONTAINS`만 설치 패키지로 본다. 이게 target이다. (`installed-package-names.txt`와 집합이 같아야 한다.)
 3. 각 설치 패키지 문서를 한 `SPDXPackage`로 넣고, `GENERATED_FROM` 레시피와 `{PN}-source-N`에서 빈 칸을 채운다.
+4. 패키지 JSON의 `files[]`는 합본에 넣지 않는다. (패키지 문서 `packages[]`는 보통 1개지만 `files[]`/`CONTAINS` 파일 관계는 Hub Identification에 불필요.)
 
 | Hub 필드 | 합본에 넣을 값 |
 | -------- | -------------- |
 | name | 레시피 PN (`libc6` → `glibc`). Hub OSS 매칭 |
-| versionInfo | 패키지 `versionInfo` (`PV`) |
-| downloadLocation | `{PN}-source-1`의 `downloadLocation` (빈 값이면 생략) |
-| homepage | 레시피 `homepage` |
-| licenseConcluded · licenseDeclared | 패키지 `licenseDeclared`. `DocumentRef-...:LicenseRef-...`는 같은 합본의 `LicenseRef-` 또는 SPDX ID로 푼다 |
-| externalRefs purl | 없으면 `pkg:yocto/{BPN}@{PV}` |
-| relationships | runtime `RUNTIME_DEPENDENCY_OF`를 설치 패키지 간 `DEPENDS_ON`으로 변환 (PURL 필요) |
+| versionInfo | 패키지 `versionInfo` (`PV` 원문). fosslight Excel처럼 `+`/`-`/`~` truncate는 **선택** |
+| downloadLocation | `{PN}-source-1`의 `downloadLocation`. **`file://` SRC_URI는 source-N이 안 만들어져 비므로**, scanner와 맞추려면 bom/`SRC_URI` 폴백이 필요하다 |
+| homepage | 레시피 `homepage` (fosslight Excel은 기본 공란) |
+| licenseConcluded · licenseDeclared | 패키지 `licenseDeclared`(PKG 단위). `DocumentRef-...:LicenseRef-...`는 레시피 문서의 `hasExtractedLicensingInfos`를 합본으로 옮긴 뒤 `LicenseRef-`로 푼다. **주의:** fosslight Excel은 레시피 `LICENSE`를 쓰므로 `libblkid1`처럼 PKG 라이선스가 더 좁으면 값이 달라진다. Excel과 동일하게 가려면 레시피 `licenseDeclared`를 쓴다 |
+| externalRefs purl | 없으면 `pkg:yocto/{BPN}@{PV}` (`PV`의 `+`는 `%2B`) |
+| relationships | runtime `RUNTIME_DEPENDENCY_OF`를 설치 패키지 간 `DEPENDS_ON`으로 변환 |
 
 같은 레시피의 `busybox` / `busybox-syslog`는 **행을 나누고** name만 레시피로 맞춘다. 한 행으로 합치면 라이선스·파일이 섞인다.
 
@@ -140,17 +141,21 @@ Hub는 업로드한 SPDX의 한 문서만 본다. `externalDocumentRefs`를 따�
 
 ### 4.5 runtime 문서
 
-의존 관계만 있는 문서다. 패키지 행이 없다.
+의존 관계만 있는 문서다. 패키지 행이 없다. 의존이 없으면 `AMENDS`만 있고 `RUNTIME_DEPENDENCY_OF`가 없다(이 빌드에서 runtime 문서 35개 중 의존 관계 10건).
 
 | 볼 곳 | 판별 |
 | ----- | ---- |
 | 파일명 / `document.name` | `runtime-<pkg>` |
-| `packages[]` | 비어 있음 |
-| `relationships[].relationshipType` | `AMENDS`, `RUNTIME_DEPENDENCY_OF` |
-| `externalDocumentRefs[].externalDocumentId` | `DocumentRef-runtime-*` 또는 `DocumentRef-package-*` |
-| 이미지 JSON의 `OTHER` | comment `Runtime dependencies for <pkg>` |
+| `packages[]` | 없거나 비어 있음 |
+| `relationships[].relationshipType` | `AMENDS`, (있을 때) `RUNTIME_DEPENDENCY_OF` |
+| `externalDocumentRefs[].externalDocumentId` | 피의존: `DocumentRef-package-<pkg>`. 의존 대상: **`DocumentRef-runtime-dependency-<dep>`** (패키지 문서를 가리키지만 ID 접두가 `runtime-dependency-`) |
+| 이미지 JSON의 `OTHER` | comment `Runtime dependencies for <pkg>` → `DocumentRef-runtime-<pkg>` |
 
-합본 `packages[]`에 넣지 않는다. `RUNTIME_DEPENDENCY_OF`만 읽어 `DEPENDS_ON`으로 바꾼다. Hub는 `DEPENDS_ON`만 load한다.
+합본 `packages[]`에 넣지 않는다. `RUNTIME_DEPENDENCY_OF`만 읽어 `DEPENDS_ON`으로 바꾼다.
+
+- 의미: `spdxElementId`(의존 패키지) `RUNTIME_DEPENDENCY_OF` `relatedSpdxElement`(피의존 패키지) → 합본에서는 피의존 `DEPENDS_ON` 의존.
+- 패키지명 추출: `DocumentRef-…:SPDXRef-Package-<name>`의 `<name>`을 쓴다. (`DocumentRef-runtime-dependency-kmod` → `kmod`)
+- Hub는 `DEPENDS_ON`만 load한다. fosslight Excel `Depends On`은 비어 있으므로, Excel과 맞출 거면 합본에서도 관계를 생략해도 된다.
 
 ### 4.6 필터 순서 (권장)
 
@@ -184,6 +189,8 @@ Yocto 문서 그래프를 해석하는 일은 **scanner(또는 전용 flatten �
 | `RUNTIME_DEPENDENCY_OF` → `DEPENDS_ON` + PURL | **scanner** | Hub는 `DEPENDS_ON`만 load |
 | `CLOSED`/`NONE` → `other proprietary license` | **scanner** (FOSSLight 관례를 유지할 때) | SPDX `NONE`을 Hub가 proprietary로 바꾸면 다른 SBOM과 충돌 |
 | PV truncate (`2.39+git` → `2.39`) | **scanner** (선택) | Hub는 SPDX 원문을 유지하는 편이 맞음 |
+| `file://` SRC_URI download 폴백 | **scanner** | create-spdx는 source-N을 안 만듦. Excel과 맞출 때 bom/`SRC_URI` 필요 |
+| 라이선스를 레시피 `LICENSE`로 통일 | **scanner** (선택) | 기본 flatten은 PKG `licenseDeclared`(더 좁을 수 있음) |
 | CPE | 합본에 넣어도 됨. Hub는 아직 Identification에 안 씀 | — |
 
 **결론:** Hub는 빈 값 처리와 License Concluded→Declared 폴백만 맡긴다. create-spdx 2.2를 올리려면 **scanner가 flatten한 단일 SPDX(또는 기존 Excel DEP)** 를 올린다. 그래프 해석을 Hub에 넣으면 Hub가 Yocto 전용 파서가 된다.
@@ -192,20 +199,39 @@ Yocto 문서 그래프를 해석하는 일은 **scanner(또는 전용 flatten �
 
 ## 6. 실측 비교 (core-image-minimal, SPDX 2.2)
 
-대상:
+대상 (동일 Scarthgap 빌드):
 
-- SPDX 이미지 문서: `core-image-minimal-qemux86-64.rootfs-20260904022846.spdx.json` (tar.zst 안의 이미지 JSON)
-- scanner 보고서: `fosslight_report_yocto_20260909_110447.xlsx` (빌드 디렉터리). 이 작성 환경에서는 해당 xlsx와 패키지별 JSON 트리(`/home/soim/yocto/tmp` 전체)를 열지 못해, **target 목록은 이미지 `CONTAINS`로 확정**하고 필드 차이는 동일 빌드의 패키지/레시피 JSON 관측 + scanner 코드 기준으로 정리한다. Excel 행 대 행 대조는 아래 6.4 스크립트로 로컬에서 돌리면 된다.
+| 산출물 | 경로 |
+| ------ | ---- |
+| create-spdx 2.2 풀린 트리 | `/home/soim/yocto/tmp` (`*.spdx.json` + `index.json`, 원본 `*.spdx.tar.zst` 해제) |
+| 이미지 문서 | `core-image-minimal-qemux86-64.rootfs-20260904022846.spdx.json` |
+| fosslight_yocto 보고서 | `/home/soim/yocto/poky/build/fosslight_report_yocto_20260909_110447.xlsx` (DEP 35행) |
+| 설치 목록 | `buildhistory/.../core-image-minimal/installed-package-names.txt` (35행) |
+
+합본은 이 문서 3·4장 규칙으로 로컬에서 생성해 Excel과 대조했다. (문서 ID 매핑은 `.spdx.json` 접미사 제거.)
 
 ### 6.1 Target 패키지가 모두 나오는지
 
-이미지 JSON (`spdxVersion: SPDX-2.2`, document name `core-image-minimal-qemux86-64.rootfs-20260904022846`):
+이미지 JSON (`spdxVersion: SPDX-2.2`):
 
 - `packages[]`: **1개** (`core-image-minimal` 1.0) — 이미지 자신
-- `CONTAINS`: **35개** — 이것이 rootfs **target 설치 패키지**
-- `OTHER`: 35개 — 각 패키지의 runtime 문서
+- `CONTAINS`: **35개** — rootfs **target 설치 패키지**
+- `OTHER`: 35개 — 각 패키지 runtime 문서
 
-`CONTAINS` 목록 (DocumentRef = 패키지 문서 이름):
+집합 일치 (실측):
+
+```text
+이미지 CONTAINS  35
+installed-package-names.txt  35
+fosslight_yocto DEP 행  35
+문서 규칙 flatten packages[]  35
+
+CONTAINS − ipn = ∅
+ipn − CONTAINS = ∅
+CONTAINS ⊆ Excel(레시피 매핑 + Comment의 Installed Package Name) = 전부 매칭
+```
+
+`CONTAINS` 목록:
 
 ```text
 base-files
@@ -248,71 +274,77 @@ v86d
 | 경로 | target 35개가 Identification에 들어가는가 |
 | ---- | ---------------------------------------- |
 | 이미지 JSON만 Hub에 업로드 | **아니오.** OSS 1행 = `core-image-minimal` |
-| tar 안 JSON을 각각 업로드 | 설치 35 + 레시피 + source-N + 미설치 패키지 + (패키지 문서의 파일)이 섞임. **target만 골라지지 않음** |
-| `fosslight_yocto` (`-i installed-package-names.txt`) | **예.** 입력 목록이 이미지 설치 패키지와 같다. 행 수는 약 35 (packagegroup는 Exclude로 남김) |
-| 이 문서의 flatten 합본 | **예.** `CONTAINS` 35에서 이미지 패키지를 빼고, `packagegroup-*`는 정책에 따라 제외/Exclude |
+| tar 안 JSON을 각각 업로드 | 설치·레시피·source-N·files가 섞임. **target만 안 골라짐** |
+| `fosslight_yocto` (`-i installed-package-names.txt`) | **예.** 35행 전부. `packagegroup-core-boot`는 Exclude |
+| 이 문서의 flatten 합본 | **예.** `CONTAINS` 35. Hub SPDX면 `packagegroup-*`는 행 삭제 권장(4.4) |
 
-scanner는 rootfs 설치 목록만 쓴다. README와 같이 kernel/boot 이미지가 rootfs 밖이면 둘 다 안 잡는다. 이 빌드에서 kernel-* 4개는 rootfs `CONTAINS`에 있으므로 scanner 입력에도 있어야 한다.
+레시피 매핑 예: `libc6`/`ldconfig` → `glibc`, `libblkid1` → `util-linux`, kernel-* → `linux-yocto`, `update-alternatives-opkg` → `opkg-utils`. 패키지명 ≠ 레시피명인 행은 Excel Comment에 `Installed Package Name:`이 남는 경우가 많다(전부는 아님).
 
-### 6.2 같은 구성 요소의 필드 차이
+### 6.2 flatten 합본 vs fosslight Excel — 필드
 
-동일 Scarthgap 빌드의 패키지/레시피 JSON 관측값과 scanner 출력 규칙.
+같은 설치 패키지 35개를 레시피명으로 짝지은 뒤 비교.
 
-| 항목 | create-spdx 2.2 (패키지 JSON) | Hub가 원본을 그대로 load | fosslight_yocto spreadsheet |
-| ---- | ----------------------------- | ------------------------ | --------------------------- |
-| 행 단위 | 패키지 문서 1개 | 업로드한 파일의 `packages[]` | `installed-package-names.txt` 1행 |
-| OSS Name | `busybox-syslog`, `libc6` | 그대로 | 레시피 PN (`busybox`, `glibc`) |
-| Version | `1.36.1`, `2.39+git` | 그대로 | `+`/`-`/`~` truncate → `2.39` |
-| License | `licenseDeclared`에만 있음. concluded=`NOASSERTION` | Concluded만 보면 공란. Declared 폴백 시 SPDX ID | 소문자, `CLOSED`→`other proprietary license` |
-| Download | `NOASSERTION` | 공란 | `SRC_URI` 첫 항목 |
-| Homepage | 없음 (레시피 문서에만) | 공란 | 기본 공란 |
-| Package URL | CPE만 | 공란 | `pkg:yocto/{BPN}@{PV}` |
-| Depends On | runtime 문서에만 (`RUNTIME_DEPENDENCY_OF`) | 공란 | 공란 |
-| packagegroup | `packagegroup-core-boot`가 CONTAINS에 있음 | 일반 OSS로 load | Exclude |
-| Copyright | `NOASSERTION` | 공란 | 공란 |
+| 항목 | create-spdx → flatten (이 문서 3장) | fosslight_yocto DEP | 실측 |
+| ---- | ----------------------------------- | ------------------- | ---- |
+| 행 수 / target 커버 | 35 / 전부 | 35 / 전부 | **일치** |
+| OSS Name | 레시피 PN | 레시피 PN | **일치** |
+| Version | `PV` 원문 (`2.39+git`, `6.6.147+git`) | `+`/`-`/`~` truncate (`2.39`, `6.6.147`) | 7행 상이 (의도적 정책) |
+| License | 패키지 `licenseDeclared` (대문자, `AND`, `LicenseRef-…`) | 레시피 `LICENSE` (소문자, 쉼표) | 형식 전부. **내용**은 PKG vs 레시피 차로 `libblkid1`/`libkmod2`/`liblzma5` 등 상이 |
+| Download | source-N URI (`git+https://…@rev` 등) | `SRC_URI` 첫 항목 (`git://…;branch=…`) | URI 스킴/쿼리 형식 다름. **`file://` 6행**은 SPDX에 source-N 없음 → flatten 공란 / Excel `file://…` |
+| Homepage | 레시피 homepage (다수 채움) | 기본 공란 | flatten에만 값 (31행) |
+| Package URL | `pkg:yocto/{BPN}@{PV}` | 동일 형식 (`+` → `%2B`) | **일치** (짝 맞춘 뒤) |
+| Depends On | runtime 10건 → `DEPENDS_ON` 가능 | 항상 공란 | Excel 맞추면 생략 |
+| packagegroup | 행 유지 또는 삭제 | 행 유지 + Exclude | 정책만 다름 |
+| Copyright | `NOASSERTION` → Hub 공란 | 공란 | 일치 |
 
-예: `busybox` 패키지 JSON을 그대로 올리면 License·Download·Homepage·PURL이 비고, OSS Name은 패키지명이다. scanner DEP는 레시피명·라이선스·SRC_URI·PURL을 채운다.
+라이선스 예시:
+
+| 설치 패키지 | flatten (PKG declared) | Excel (레시피 LICENSE) |
+| ----------- | ---------------------- | ---------------------- |
+| `busybox*` | `GPL-2.0-only AND LicenseRef-bzip2-1.0.4` | `bzip2-1.0.4,gpl-2.0-only` |
+| `libblkid1` | `LGPL-2.1-or-later` | util-linux 전체 (`bsd-2-clause,…,gpl-2.0-or-later`) |
+| `libkmod2` | `LGPL-2.1-or-later` | `lgpl-2.1-or-later,gpl-2.0-or-later` |
+
+`file://` 로 download가 비는 패키지(이 빌드): `base-files`, `init-ifupdown`, `initscripts`, `initscripts-functions`, `modutils-initscripts`, `sysvinit-inittab`.
 
 ### 6.3 요약
 
-- Target(rootfs 설치 패키지)은 이미지 `CONTAINS` **35개**로 확정할 수 있다.
-- 이미지 JSON만으로는 **35개가 추출되지 않는다** (1행).
-- scanner Excel은 설계상 그 35개를 레시피 기준으로 모두 행으로 만든다. 행 대 행 확인은 6.4.
-- 필드 내용이 Hub Identification과 같으려면 scanner flatten(또는 기존 Excel)이 필요하다. Hub 폴백만으로는 download/homepage/purl/name/의존이 안 채워진다.
+- **Target 누락 없음:** `CONTAINS` = `installed-package-names.txt` = fosslight DEP = flatten **각 35**.
+- 이미지 JSON만으로는 추출 실패(1행). flatten 또는 Excel이 필요.
+- 필드까지 Hub/Excel과 같게 하려면: (1) 버전 truncate 여부, (2) PKG vs 레시피 라이선스, (3) `file://` download 폴백, (4) homepage 채움 여부, (5) packagegroup 삭제 vs Exclude, (6) `DEPENDS_ON` 포함 여부를 정책으로 고정한다.
+- Hub에 SPDX로 올릴 때는 flatten 단일 JSON. Excel DEP를 올리면 기존 scanner 경로 그대로다.
 
-### 6.4 Excel과 CONTAINS를 로컬에서 대조하는 방법
+### 6.4 로컬 대조 스크립트
 
 ```bash
-# 이미지 JSON의 CONTAINS 패키지명
-python3 - <<'PY'
-import json, sys
+SPDX_DIR=/home/soim/yocto/tmp
+IPN=/home/soim/yocto/poky/build/buildhistory/images/qemux86_64/glibc/core-image-minimal/installed-package-names.txt
+IMG=$SPDX_DIR/core-image-minimal-qemux86-64.rootfs-20260904022846.spdx.json
+
+# 1) CONTAINS
+python3 -c '
+import json,sys
 d=json.load(open(sys.argv[1]))
 for r in d.get("relationships") or []:
     if r.get("relationshipType")=="CONTAINS":
         print(r["relatedSpdxElement"].split(":")[0].replace("DocumentRef-","",1))
-PY core-image-minimal-qemux86-64.rootfs-20260904022846.spdx.json | sort > /tmp/spdx-contains.txt
+' "$IMG" | sort > /tmp/spdx-contains.txt
 
-# fosslight_yocto xlsx: DEP(또는 SRC)의 패키지/OSS 컬럼
-python3 - <<'PY'
-import sys, openpyxl
-wb=openpyxl.load_workbook(sys.argv[1], read_only=True, data_only=True)
-sheet='DEP' if 'DEP' in wb.sheetnames else ('SRC' if 'SRC' in wb.sheetnames else wb.sheetnames[-1])
-ws=wb[sheet]
-rows=list(ws.iter_rows(values_only=True))
-hdr=[str(c or '') for c in rows[0]]
-print('sheet', sheet, 'header', hdr, 'rows', len(rows)-1, file=sys.stderr)
-# Comment의 "Installed Package Name:" 또는 Binary Path / Package URL 옆 OSS Name
-for row in rows[1:]:
-    print('\t'.join('' if c is None else str(c) for c in row))
-PY fosslight_report_yocto_20260909_110447.xlsx > /tmp/yocto-excel.tsv
+# 2) installed-package-names
+sort "$IPN" > /tmp/ipn.txt
+comm -3 /tmp/spdx-contains.txt /tmp/ipn.txt   # 비어 있어야 함
+
+# 3) Excel DEP: 행 수 35, packagegroup Exclude, libc6 → OSS Name glibc
+#    Comment의 Installed Package Name + OSS Name(레시피)으로 CONTAINS와 짝지음
 ```
 
-대조 시 확인할 것:
+대조 체크리스트:
 
-1. CONTAINS 35개 ⊆ Excel 행 (패키지명 또는 Comment의 Installed Package Name)
-2. Excel에만 있는 행 (있으면 scanner 입력 불일치)
-3. `packagegroup-core-boot`가 Excel에서 Exclude인지
-4. `libc6` 행의 OSS Name이 `glibc`인지
+1. CONTAINS 35 = ipn 35 = Excel 35
+2. Excel에만 / SPDX에만 있는 설치 패키지명 없음
+3. `packagegroup-core-boot` Excel Exclude (또는 flatten에서 삭제)
+4. `libc6` → OSS Name `glibc`, `libblkid1` → `util-linux`
+5. (선택) PKG 라이선스 vs 레시피 라이선스, `file://` download, 버전 truncate 정책 확인
 
 ## 7. 권장 작업 순서
 
