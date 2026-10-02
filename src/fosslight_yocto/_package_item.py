@@ -3,7 +3,6 @@
 # SPDX-FileCopyrightText: Copyright 2023 LG Electronics Inc.
 # SPDX-License-Identifier: Apache-2.0
 import re
-from fosslight_util.constant import COMMENT_DELIMITER
 from fosslight_util.oss_item import FileItem
 from ._write_result_file import SHEET_NAME_SRC, SHEET_NAME_DEP, SHEET_NAME_BIN, SHEET_NAME_BIN_YOCTO
 from ._yocto_purl import build_yocto_purl, derive_bpn
@@ -169,14 +168,6 @@ class PackageItem(FileItem):
         if value:
             self.comment = f"[NEED CHECK]LICENSE_FLAGS = {value}"
 
-    def _append_comment(self, value):
-        if not value:
-            return
-        if self._comment:
-            self._comment = f"{self._comment}{COMMENT_DELIMITER}{value}"
-        else:
-            self._comment = value
-
     @property
     def license(self):
         return self._license
@@ -205,7 +196,7 @@ class PackageItem(FileItem):
 
             if '&' in value or '|' in value:
                 if '|' in value:
-                    self._append_comment(origin_lic)
+                    self.comment = origin_lic
                 value = value.replace('|', '&')
                 license_list = value.split('&')
                 for lic in license_list:
