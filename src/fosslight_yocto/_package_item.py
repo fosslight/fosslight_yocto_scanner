@@ -3,7 +3,6 @@
 # SPDX-FileCopyrightText: Copyright 2023 LG Electronics Inc.
 # SPDX-License-Identifier: Apache-2.0
 import re
-from fosslight_util.constant import COMMENT_DELIMITER
 from fosslight_util.oss_item import FileItem
 from ._write_result_file import SHEET_NAME_SRC, SHEET_NAME_DEP, SHEET_NAME_BIN, SHEET_NAME_BIN_YOCTO
 from ._yocto_purl import build_yocto_purl, derive_bpn
@@ -230,38 +229,20 @@ class PackageItem(FileItem):
             version=self.pv or self.version,
         )
 
-    def get_purl_name(self):
-        """Package URL name (= BPN) used in pkg:yocto/[BPN]@[PV]."""
-        return derive_bpn(self.oss_name or self.name)
-
-    def get_comment_for_print(self):
-        """Comment for report rows.
-
-        When Installed Package Name differs from Package URL name (BPN),
-        append `Installed Package Name: {installed}`.
-        """
-        comment = self.comment or ""
-        installed = (self.package_name or "").strip()
-        purl_name = self.get_purl_name()
-        if installed and purl_name and installed != purl_name:
-            msg = f"{INSTALLED_PACKAGE_COMMENT_PREFIX}{installed}"
-            if msg not in comment:
-                if comment:
-                    return f"{comment}{COMMENT_DELIMITER}{msg}"
-                return msg
-        return comment
-
     def get_print_item(self, sheet_name=SHEET_NAME_SRC, additional_column=[], binary_list=[]):
         print_items = []
         license_to_print = self.license
         exclude = EXCLUDE_TRUE_VALUE if self.exclude else ""
-        comment = self.get_comment_for_print()
+        installed = (self.package_name or "").strip()
+        bpn = derive_bpn(self.oss_name or self.name)
+        if installed and bpn and installed != bpn:
+            self.comment = f"{INSTALLED_PACKAGE_COMMENT_PREFIX}{installed}"
         if len(self.declared_licenses) > 0:
             license_to_print = self.declared_licenses
         if sheet_name == SHEET_NAME_BIN_YOCTO:
             row = [self.parent_package_name, self.oss_name, "", self.name, self.version,
                    ','.join(license_to_print), self.download_location, self.homepage,
-                   self.copyright, exclude, comment]
+                   self.copyright, exclude, self.comment]
             for column_name in additional_column:
                 row.append(self.additional_data.get(column_name, ''))
             print_items.append(row)
@@ -271,7 +252,7 @@ class PackageItem(FileItem):
                     bin = next((n for n in binary_list if n.source_name_or_path == pkg_file),
                                BinItem(pkg_file, TLSH_CHECKSUM_NULL, TLSH_CHECKSUM_NULL))
                     row = [pkg_file, self.name, self.version, ','.join(license_to_print), self.download_location,
-                           self.homepage, self.copyright, exclude, comment, bin.tlsh, bin.checksum]
+                           self.homepage, self.copyright, exclude, self.comment, bin.tlsh, bin.checksum]
                     for column_name in additional_column:
                         row.append(self.additional_data.get(column_name, ''))
                     print_items.append(row)
@@ -279,13 +260,13 @@ class PackageItem(FileItem):
             elif sheet_name == SHEET_NAME_SRC:
                 row = [self.parent_package_name, self.name, self.version, ','.join(license_to_print),
                        self.download_location,
-                       self.homepage, self.copyright, exclude, comment]
+                       self.homepage, self.copyright, exclude, self.comment]
                 for column_name in additional_column:
                     row.append(self.additional_data.get(column_name, ''))
                 print_items.append(row)
             elif sheet_name == SHEET_NAME_DEP:
                 row = [self.get_yocto_purl(), self.name, self.version, ','.join(license_to_print),
-                       self.download_location, self.homepage, self.copyright, exclude, comment, ""]
+                       self.download_location, self.homepage, self.copyright, exclude, self.comment, ""]
                 for column_name in additional_column:
                     row.append(self.additional_data.get(column_name, ''))
                 print_items.append(row)
