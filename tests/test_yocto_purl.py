@@ -36,6 +36,7 @@ def test_dep_print_item_uses_fosslight_util_columns():
     pkg.license = "LGPLv2.1+"
     pkg.download_location = "http://example.com/libusb.tar.bz2"
     pkg.recipe_file = "/oe-core/meta/recipes-support/libusb/libusb1_1.0.22.bb"
+    pkg.package_name = "libusb1"
 
     rows = pkg.get_print_item(SHEET_NAME_DEP)
     assert len(rows) == 1
@@ -47,4 +48,32 @@ def test_dep_print_item_uses_fosslight_util_columns():
     assert row[1] == "libusb1-native"
     assert row[2] == "1.0.22"
     assert "lgplv2.1+" in row[3]
+    assert row[8] == ""  # same as PURL name (BPN) → no Installed Package comment
     assert row[-1] == ""
+
+
+def test_dep_comment_when_installed_package_differs_from_purl_name():
+    pkg = PackageItem()
+    pkg.oss_name = "elfutils"
+    pkg.pv = "0.186"
+    pkg.version = "0.186"
+    pkg.license = "GPL-2.0"
+    pkg.package_name = "libelf"
+
+    row = pkg.get_print_item(SHEET_NAME_DEP)[0]
+    assert row[0] == "pkg:yocto/elfutils@0.186"
+    assert row[1] == "elfutils"
+    assert row[8] == "Installed Package Name: libelf"
+
+
+def test_dep_comment_appends_installed_package_to_existing_comment():
+    pkg = PackageItem()
+    pkg.oss_name = "elfutils"
+    pkg.pv = "0.186"
+    pkg.version = "0.186"
+    pkg.license = "GPL-2.0 | LGPL-3.0"
+    pkg.package_name = "libelf"
+
+    row = pkg.get_print_item(SHEET_NAME_DEP)[0]
+    assert "GPL-2.0 | LGPL-3.0" in row[8]
+    assert "Installed Package Name: libelf" in row[8]

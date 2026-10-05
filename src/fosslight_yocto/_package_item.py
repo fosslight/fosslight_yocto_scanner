@@ -11,6 +11,7 @@ const_other_proprietary_license = 'other proprietary license'
 EXCLUDE_TRUE_VALUE = "Exclude"
 IGNORE_COPYRIGHT = "NOASSERTION"
 TLSH_CHECKSUM_NULL = "0"
+INSTALLED_PACKAGE_COMMENT_PREFIX = "Installed Package Name: "
 
 
 class BinItem():
@@ -232,6 +233,10 @@ class PackageItem(FileItem):
         print_items = []
         license_to_print = self.license
         exclude = EXCLUDE_TRUE_VALUE if self.exclude else ""
+        installed = (self.package_name or "").strip()
+        bpn = derive_bpn(self.oss_name or self.name)
+        if installed and bpn and installed != bpn:
+            self.comment = f"{INSTALLED_PACKAGE_COMMENT_PREFIX}{installed}"
         if len(self.declared_licenses) > 0:
             license_to_print = self.declared_licenses
         if sheet_name == SHEET_NAME_BIN_YOCTO:
@@ -332,7 +337,6 @@ def update_package_name(oss, value, nested_pkg_name):
     if oss.package_name != value:
         if value in nested_pkg_name:
             oss.parent_package_name = nested_pkg_name[value]
-            oss.comment = f"Installed Package Name: {value}"
         else:
             oss.parent_package_name = value
         oss.package_name = value
