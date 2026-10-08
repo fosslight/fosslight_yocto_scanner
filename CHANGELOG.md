@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.1.2 (05/10/2026)
+## Changes
+## 🔧 Maintenance
+
+- feat(comment): show installed package when differs from purl name @soimkim (#71)
+
+---
+
 ## v4.1.1 (04/09/2026)
 ## Changes
 ## 🔧 Maintenance
